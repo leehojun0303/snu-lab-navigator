@@ -6,6 +6,7 @@ on:
     paths:
       - 'tools/automated_enrichment.py'
       - 'tools/automated_enrichment_v2.py'
+      - 'tools/collector_entry.py'
       - '.github/workflows/collect.yml'
   schedule:
     # 03:00 KST. The collector stops cleanly by 07:45 KST.
@@ -53,7 +54,7 @@ jobs:
           MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '400' || github.event_name == 'push' && '12' || inputs.max_ai_requests || '400' }}
           BATCH_SIZE: ${{ github.event_name == 'push' && '12' || '40' }}
         run: >-
-          python tools/automated_enrichment_v2.py
+          python tools/collector_entry.py
           --max-units "$MAX_UNITS"
           --time-budget-minutes "$TIME_BUDGET_MINUTES"
           --max-ai-requests "$MAX_AI_REQUESTS"
