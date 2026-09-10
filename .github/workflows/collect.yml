@@ -37,6 +37,10 @@ jobs:
     timeout-minutes: 315
     steps:
       - uses: actions/checkout@v4
+      - name: Start from the latest saved snapshot
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
