@@ -1,6 +1,11 @@
 name: Refresh official SNU lab data
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/automated_enrichment.py'
+      - '.github/workflows/collect.yml'
   schedule:
     - cron: '17 18 * * *'
   workflow_dispatch:
@@ -29,7 +34,7 @@ jobs:
       - name: Incremental official-source scan
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          MAX_UNITS: ${{ inputs.max_units || '80' }}
+          MAX_UNITS: ${{ github.event_name == 'push' && '12' || inputs.max_units || '80' }}
         run: python tools/automated_enrichment.py --max-units "$MAX_UNITS"
       - name: Store changed snapshot
         run: |
