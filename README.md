@@ -4,31 +4,71 @@
 
 ## 공개 앱
 
-GitHub Pages 배포가 끝나면 `https://leehojun0303.github.io/snu-lab-navigator/`에서 열립니다. 앱 열람에는 ChatGPT 로그인이 필요하지 않습니다. 사용자가 입력한 Gemini API 키는 브라우저 탭의 `sessionStorage`에만 보관되며 자연어 추천에 사용됩니다.
+GitHub Pages 배포 후 공개 주소에서 열립니다. 앱은 공개 정적 snapshot을 사용하며, 사용자의 Gemini API 키는 자연어 추천을 위한 브라우저 세션에만 저장됩니다.
+
+## 현재 범위
+
+- 2,001명 고유 교수명
+- 2,170개 교수×소속 단위
+- 1,643개 연구 주제 보유
+- 797개 공식 사진 연결
+- 334개 교수 단위 활동 출처 연결
+
+2,170개는 서울대학교 공식 연구실 수가 아니라 교수와 소속의 조합입니다.
 
 ## 자동 수집
 
-`Refresh official SNU lab data` 워크플로가 매일 03:00(KST)에 시작해 최대 07:45까지 실행됩니다. 저장된 위치부터 현재 등록된 모든 소속 단위를 작은 묶음으로 순환 점검하고, 한 차례 전체 순회를 마치면 그날 작업은 일찍 종료합니다. 새 교수·소속이 추가되어 총수가 늘어도 다음 실행의 전체 대상에 자동 포함됩니다. 수집 중에도 공개 앱은 마지막으로 검증·저장된 자료를 계속 제공하므로 정상적으로 사용할 수 있습니다.
+`.github/workflows/collect.yml`이 매일 03:00 KST에 incremental collection을 시작합니다. schedule 실행은 최대 285분까지 이어받으며 batch size 40, 최대 Gemini 분석 400건입니다. `data/automation-state.json`의 cursor에서 이어가므로 야간 window 동안 가능한 만큼 계속 진행하고, 한 바퀴를 다 돌면 일찍 종료합니다. 수집 중에도 공개 앱은 마지막 성공 snapshot을 계속 제공합니다.
 
-1. 교수·연구실·학과 공식 URL을 방문합니다.
-2. 논문·구성원·모집·포스터 후보 페이지를 공통 규칙으로 찾습니다.
-3. 공식 URL 지문과 결과를 `data/automation-state.json`에 저장합니다.
-4. Gemini 비밀값이 있으면 가져온 공식 본문만 근거로 요약합니다.
-5. `dist/automation-data.js`가 갱신되면 공개 앱이 자동 재배포됩니다.
+현재 collector `tools/automated_enrichment_v2.py`의 순서는 다음과 같습니다.
 
-공식 페이지 내용의 SHA-256 지문이 이전 실행과 같으면 저장된 AI 분석을 재사용하므로 Gemini 토큰을 다시 소비하지 않습니다. 페이지가 바뀐 경우에만 새 요약을 생성하며, 야간 Gemini 신규 분석은 기본 400건까지 수행합니다. API 할당량에 도달해도 공식 링크 수집은 계속되고 다음 날 저장 지점부터 이어집니다.
+1. 교수/소속 레코드의 `homepage`, `profile`, `departmentUrl`에서 시작
+2. 동일 공식/연구실 출처의 관련 하위 링크를 relevance-ranked crawl
+3. publication/member/recruitment 링크와 이미지/PDF 자산을 함께 탐색
+4. poster 단서는 명시적 poster 증거와 이미지/PDF 자산을 우선 탐색
+5. 변경된 자원을 Gemini URL Context에 실제 URL로 전달해 HTML/PDF/이미지 내용을 구조화
+6. 정적 수집 결과가 너무 빈약한 hard case에서만 Google Search grounding으로 공식 세부 URL을 추가 발견
+7. source URL, fingerprint, model과 함께 검증된 결과를 저장
+8. `poster_status`를 `verified / unverified_candidate / none_detected / inaccessible`로 구분
+9. 자동 수집 레코드 중 가장 완성도 높은 단위를 showcase로 선정
 
-확인되지 않은 구성원, 논문 수, 모집 여부, 포스터는 추정하지 않습니다. 현재 데이터는 완전한 서울대학교 연구실 총계가 아니라 교수와 공식 소속의 조합입니다.
+### 왜 이전 버전에서 포스터가 거의 안 보였나
+
+기존 collector는 텍스트와 `<a>` 중심이었고 이미지/PDF 자산 자체를 분석하는 경로가 없었습니다. 또한 `poster`라는 단어를 포함하는 링크를 후보로 잡는 방식이라 일반 행사/세미나와 연구 포스터가 섞였습니다. 따라서 “포스터가 실제로 없음”과 “코드가 포스터를 못 읽음”이 함께 존재했습니다.
+
+이번 버전은 이미지/PDF 자산을 먼저 발견하고, 실제 URL을 Gemini URL Context에 제공해 OCR/시각 판독을 수행합니다. 그래도 연구실 귀속이 확인되지 않으면 public poster로 승격하지 않습니다.
+
+## Gemini fallback
+
+정적 수집이 잘 되지 않는 연구실은 root URL을 Gemini에 직접 제공할 수 있습니다. URL Context로 실제 페이지를 읽고, Search grounding이 추가로 찾은 URL도 공식 출처 allowlist를 재검증합니다.
 
 ## Gemini 서버 키
 
-자동 AI 요약을 사용하려면 저장소 `Settings → Secrets and variables → Actions → New repository secret`에서 이름을 `GEMINI_API_KEY`로 등록합니다. 키가 없어도 공식 페이지 탐색과 링크 변경 감지는 계속 실행됩니다.
+자동 AI 구조화를 사용하려면 저장소 `Settings → Secrets and variables → Actions → New repository secret`에 `GEMINI_API_KEY`를 등록합니다. 키가 없어도 공식 링크 수집과 변경 감지는 계속 실행됩니다.
+
+## 대표 상세 예시
+
+`완성형 상세 예시`는 특정 교수를 하드코딩하지 않습니다. collector가 연구실명, 연구분야, 논문, 구성원, 모집, 포스터, 공식 페이지 교차 확인 정도를 점수화하여 현재 snapshot에서 가장 완성도가 높은 레코드를 자동 선택합니다.
+
+## 인수인계/기획서
+
+- `docs/handoff/README_FIRST.md`
+- `docs/handoff/CURRENT_STATE.md`
+- `docs/handoff/DATA_SOURCES.md`
+- `docs/handoff/AUTOMATION_SPEC.md`
+- `docs/handoff/DEBUGGING_HISTORY.md`
+- `docs/handoff/USER_REQUIREMENTS.md`
+- `docs/handoff/PROJECT_HANDOFF_COMPLETE.md`
+- `docs/handoff/ARCHIVE_MANIFEST.md`
+- `docs/proposal/SNU_Lab_Navigator_생성형_AI_활용_기획서_v17.docx`
 
 ## 로컬 검사
 
 ```bash
 python tools/test_static.py
-python tools/automated_enrichment.py --max-units 3
+python tools/test_automation_features.py
+node --check dist/app.js
+node --check dist/showcase-data.js
 ```
 
-자동 수집기는 Python 표준 라이브러리만 사용하므로 별도 패키지 설치가 필요하지 않습니다.
+자동 수집기는 Python 표준 라이브러리만 사용합니다.
