@@ -2,7 +2,6 @@
 """Small release checks for the static prototype bundle."""
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
 
 
