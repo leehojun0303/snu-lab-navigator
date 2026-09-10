@@ -21,7 +21,7 @@ def load_units_compatible():
     data_js = collector.DIST / "data.js"
     units = []
     if data_js.exists():
-        units = collector.read_js_json(data_js, "RESEARCH_UNITS")
+        units = collector.js(data_js, "RESEARCH_UNITS")
     else:
         chunks = sorted((collector.DIST / "data").glob("units-*.js"))
         if not chunks:
@@ -37,7 +37,7 @@ def load_units_compatible():
             units.extend(json.loads(match.group(1)))
 
     supplement_path = collector.DIST / "roster-supplements.js"
-    supplements = (collector.read_js_json(supplement_path, "RESEARCH_UNIT_SUPPLEMENTS")
+    supplements = (collector.js(supplement_path, "RESEARCH_UNIT_SUPPLEMENTS")
                    if supplement_path.exists() else [])
     merged = {}
     for item in [*units, *supplements]:
