@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Incrementally refresh SNU lab detail data from official sources.
+"""Refresh SNU lab detail data from official sources in resumable waves.
 
-The job is intentionally bounded: every run advances a cursor instead of trying to
-crawl the whole university in one process. Facts are published only when supported
-by an official/affiliated URL. Gemini is optional and only summarizes fetched text.
+The public site reads the last committed snapshot while this background job scans.
+Each overnight run advances a persistent cursor for up to one complete university
+pass. Facts are published only when supported by an official/affiliated URL.
+Gemini is optional, cached by page fingerprint, and never blocks link collection.
 """
 from __future__ import annotations
 
@@ -13,12 +14,14 @@ import hashlib
 import json
 import os
 import re
+import threading
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin, urlparse
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 from html.parser import HTMLParser
 
@@ -270,7 +273,32 @@ class ScanResult:
     error: str = ""
 
 
-def scan_unit(unit: dict[str, Any], api_key: str, model: str, previous: dict[str, Any]) -> ScanResult:
+class AiBudget:
+    """Thread-safe per-run guard for paid/quota-bound model calls."""
+
+    def __init__(self, limit: int) -> None:
+        self.limit = max(0, limit)
+        self.used = 0
+        self.disabled_reason = ""
+        self._lock = threading.Lock()
+
+    def claim(self) -> bool:
+        with self._lock:
+            if self.disabled_reason or self.used >= self.limit:
+                return False
+            self.used += 1
+            return True
+
+    def disable(self, reason: str) -> None:
+        with self._lock:
+            if not self.disabled_reason:
+                self.disabled_reason = reason
+
+
+def scan_unit(
+    unit: dict[str, Any], api_key: str, model: str,
+    previous: dict[str, Any], ai_budget: AiBudget,
+) -> ScanResult:
     unit_id = str(unit.get("id", ""))
     roots = []
     for field in ("homepage", "profile", "departmentUrl"):
@@ -311,10 +339,24 @@ def scan_unit(unit: dict[str, Any], api_key: str, model: str, previous: dict[str
     if not pages:
         return ScanResult(unit_id, None, "fetch_failed")
     fingerprint = hashlib.sha256("\n".join(p["url"] + "\n" + p["text"] for p in pages).encode()).hexdigest()
+    ai_error = ""
     if previous.get("fingerprint") == fingerprint and previous.get("enrichment"):
         enrichment = previous["enrichment"]
-    elif api_key and model:
-        enrichment = gemini_summary(api_key, model, unit, pages)
+    elif api_key and model and ai_budget.claim():
+        try:
+            enrichment = gemini_summary(api_key, model, unit, pages)
+        except HTTPError as exc:
+            ai_error = f"gemini_http_{exc.code}"
+            if exc.code in {403, 429}:
+                ai_budget.disable(ai_error)
+            enrichment = dict(previous.get("enrichment") or {})
+            if enrichment:
+                enrichment["_stale"] = True
+        except Exception as exc:
+            ai_error = f"gemini_{type(exc).__name__}"
+            enrichment = dict(previous.get("enrichment") or {})
+            if enrichment:
+                enrichment["_stale"] = True
     elif previous.get("enrichment"):
         enrichment = dict(previous["enrichment"])
         enrichment["_stale"] = True
@@ -331,10 +373,15 @@ def scan_unit(unit: dict[str, Any], api_key: str, model: str, previous: dict[str
         },
         "enrichment": enrichment,
     }
+    if ai_error:
+        record["ai_error"] = ai_error
     return ScanResult(unit_id, record)
 
 
-def write_outputs(state: dict[str, Any], checked_this_run: int, mode: str) -> None:
+def write_outputs(
+    state: dict[str, Any], checked_this_run: int, mode: str,
+    *, ai_requests: int = 0, completed_full_pass: bool = False,
+) -> None:
     activity = {}
     enrichment = {}
     for unit_id, record in state.get("records", {}).items():
@@ -346,6 +393,8 @@ def write_outputs(state: dict[str, Any], checked_this_run: int, mode: str) -> No
         "updated_at": utc_now(), "checked_units": len(state.get("records", {})),
         "enriched_units": len(enrichment), "checked_this_run": checked_this_run,
         "cursor": state.get("cursor", 0), "mode": mode,
+        "ai_requests_this_run": ai_requests,
+        "completed_full_pass": completed_full_pass,
     }
     payload = (
         "window.AUTOMATION_META = " + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";\n"
@@ -363,11 +412,24 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--max-units", type=int, default=int(os.getenv("MAX_UNITS", "80")))
     parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--batch-size", type=int, default=int(os.getenv("BATCH_SIZE", "40")))
+    parser.add_argument(
+        "--time-budget-minutes", type=float,
+        default=float(os.getenv("TIME_BUDGET_MINUTES", "0")),
+        help="Stop cleanly after this many minutes; 0 means no time limit.",
+    )
+    parser.add_argument(
+        "--max-ai-requests", type=int,
+        default=int(os.getenv("MAX_AI_REQUESTS", "400")),
+        help="Maximum changed-page Gemini summaries in this run.",
+    )
     args = parser.parse_args()
     units = load_units()
     state = load_state()
-    cursor = int(state.get("cursor", 0)) % max(1, len(units))
-    batch = [units[(cursor + i) % len(units)] for i in range(min(args.max_units, len(units)))]
+    if not units:
+        raise RuntimeError("No research units were loaded")
+    target = min(max(0, args.max_units), len(units))
+    batch_size = max(1, min(args.batch_size, 100))
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
     model = ""
     if api_key:
@@ -376,33 +438,78 @@ def main() -> None:
         except Exception as exc:
             print(f"Gemini disabled for this run: {exc}", flush=True)
     started = time.monotonic()
-    results: list[ScanResult] = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
-        futures = [
-            pool.submit(scan_unit, unit, api_key, model, state.get("records", {}).get(str(unit.get("id", "")), {}))
-            for unit in batch
-        ]
-        for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
-            try:
-                result = future.result()
-            except Exception as exc:
-                result = ScanResult("unknown", None, type(exc).__name__)
-            results.append(result)
-            print(f"[{index}/{len(batch)}] {result.unit_id}: {'ok' if result.record else result.error}", flush=True)
+    deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes > 0 else None
+    ai_budget = AiBudget(args.max_ai_requests if model else 0)
+    checked = 0
     state.setdefault("records", {})
     state.setdefault("failures", {})
-    for result in results:
-        if result.record:
-            previous = state["records"].get(result.unit_id, {})
-            if previous.get("fingerprint") == result.record.get("fingerprint") and previous.get("enrichment") and not result.record.get("enrichment"):
-                result.record["enrichment"] = previous["enrichment"]
-            state["records"][result.unit_id] = result.record
-            state["failures"].pop(result.unit_id, None)
-        elif result.unit_id != "unknown":
-            state["failures"][result.unit_id] = {"reason": result.error, "checked_at": utc_now()}
-    state["cursor"] = (cursor + len(batch)) % max(1, len(units))
-    state["last_run"] = {"at": utc_now(), "checked": len(batch), "seconds": round(time.monotonic() - started, 2), "gemini": bool(model)}
-    write_outputs(state, len(batch), "gemini" if model else "collector-only")
+    while checked < target:
+        # Leave enough room to finish a wave and write a valid snapshot before
+        # the GitHub Actions hard timeout. Progress resumes from the saved cursor.
+        if deadline is not None and time.monotonic() >= deadline - 30:
+            print("Time budget reached; saving resumable progress.", flush=True)
+            break
+        cursor = int(state.get("cursor", 0)) % len(units)
+        wave_count = min(batch_size, target - checked)
+        batch = [units[(cursor + i) % len(units)] for i in range(wave_count)]
+        results: list[ScanResult] = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
+            futures = [
+                pool.submit(
+                    scan_unit, unit, api_key, model,
+                    state["records"].get(str(unit.get("id", "")), {}), ai_budget,
+                )
+                for unit in batch
+            ]
+            for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
+                try:
+                    result = future.result()
+                except Exception as exc:
+                    result = ScanResult("unknown", None, type(exc).__name__)
+                results.append(result)
+                print(
+                    f"[{checked + index}/{target}] {result.unit_id}: "
+                    f"{'ok' if result.record else result.error}", flush=True,
+                )
+        for result in results:
+            if result.record:
+                previous = state["records"].get(result.unit_id, {})
+                if previous.get("fingerprint") == result.record.get("fingerprint") and previous.get("enrichment") and not result.record.get("enrichment"):
+                    result.record["enrichment"] = previous["enrichment"]
+                state["records"][result.unit_id] = result.record
+                state["failures"].pop(result.unit_id, None)
+            elif result.unit_id != "unknown":
+                state["failures"][result.unit_id] = {"reason": result.error, "checked_at": utc_now()}
+        checked += len(batch)
+        state["cursor"] = (cursor + len(batch)) % len(units)
+        completed = checked >= len(units)
+        state["last_run"] = {
+            "at": utc_now(), "checked": checked,
+            "seconds": round(time.monotonic() - started, 2),
+            "gemini": bool(model), "ai_requests": ai_budget.used,
+            "ai_disabled_reason": ai_budget.disabled_reason,
+            "completed_full_pass": completed,
+        }
+        write_outputs(
+            state, checked, "gemini" if model else "collector-only",
+            ai_requests=ai_budget.used, completed_full_pass=completed,
+        )
+        print(
+            f"Saved wave: {checked}/{target}; cursor={state['cursor']}; "
+            f"AI calls={ai_budget.used}", flush=True,
+        )
+    if checked == 0:
+        state["last_run"] = {
+            "at": utc_now(), "checked": 0,
+            "seconds": round(time.monotonic() - started, 2),
+            "gemini": bool(model), "ai_requests": ai_budget.used,
+            "ai_disabled_reason": ai_budget.disabled_reason,
+            "completed_full_pass": False,
+        }
+        write_outputs(
+            state, 0, "gemini" if model else "collector-only",
+            ai_requests=ai_budget.used, completed_full_pass=False,
+        )
     print(json.dumps(state["last_run"], ensure_ascii=False), flush=True)
 
 
