@@ -1,10 +1,10 @@
 # SNU Lab Navigator
 
+## 🚀 공개 앱
+
+**https://leehojun0303.github.io/snu-lab-navigator/**
+
 서울대학교 공식 페이지를 기반으로 교수·연구실을 탐색하고 Gemini로 관심 분야 적합도를 설명하는 공개 프로토타입입니다.
-
-## 공개 앱
-
-GitHub Pages 배포 후 공개 주소에서 열립니다. 앱은 공개 정적 snapshot을 사용하며, 사용자의 Gemini API 키는 자연어 추천을 위한 브라우저 세션에만 저장됩니다.
 
 ## 현재 범위
 
@@ -20,9 +20,11 @@ GitHub Pages 배포 후 공개 주소에서 열립니다. 앱은 공개 정적 s
 
 `.github/workflows/collect.yml`이 매일 03:00 KST에 incremental collection을 시작합니다. schedule 실행은 최대 285분까지 이어받으며 batch size 40, 최대 Gemini 분석 400건입니다. `data/automation-state.json`의 cursor에서 이어가므로 야간 window 동안 가능한 만큼 계속 진행하고, 한 바퀴를 다 돌면 일찍 종료합니다. 수집 중에도 공개 앱은 마지막 성공 snapshot을 계속 제공합니다.
 
-현재 collector `tools/automated_enrichment_v2.py`의 순서는 다음과 같습니다.
+현재 workflow는 `tools/collector_entry.py`를 통해 `tools/automated_enrichment_v2.py`를 실행합니다. entrypoint는 현재 공개 데이터가 `dist/data/units-*.js`로 분할되어 있는 경우에도 전체 교수·소속 데이터를 정상적으로 읽도록 호환 로더를 제공합니다.
 
-1. 교수/소속 레코드의 `homepage`, `profile`, `departmentUrl`에서 시작
+수집 순서는 다음과 같습니다.
+
+1. 교수·소속 레코드의 `homepage`, `profile`, `departmentUrl`에서 시작
 2. 동일 공식/연구실 출처의 관련 하위 링크를 relevance-ranked crawl
 3. publication/member/recruitment 링크와 이미지/PDF 자산을 함께 탐색
 4. poster 단서는 명시적 poster 증거와 이미지/PDF 자산을 우선 탐색
@@ -30,13 +32,13 @@ GitHub Pages 배포 후 공개 주소에서 열립니다. 앱은 공개 정적 s
 6. 정적 수집 결과가 너무 빈약한 hard case에서만 Google Search grounding으로 공식 세부 URL을 추가 발견
 7. source URL, fingerprint, model과 함께 검증된 결과를 저장
 8. `poster_status`를 `verified / unverified_candidate / none_detected / inaccessible`로 구분
-9. 자동 수집 레코드 중 가장 완성도 높은 단위를 showcase로 선정
+9. 자동 수집 레코드 중 가장 완성도가 높은 단위를 대표 상세 예시로 자동 선정
 
 ### 왜 이전 버전에서 포스터가 거의 안 보였나
 
 기존 collector는 텍스트와 `<a>` 중심이었고 이미지/PDF 자산 자체를 분석하는 경로가 없었습니다. 또한 `poster`라는 단어를 포함하는 링크를 후보로 잡는 방식이라 일반 행사/세미나와 연구 포스터가 섞였습니다. 따라서 “포스터가 실제로 없음”과 “코드가 포스터를 못 읽음”이 함께 존재했습니다.
 
-이번 버전은 이미지/PDF 자산을 먼저 발견하고, 실제 URL을 Gemini URL Context에 제공해 OCR/시각 판독을 수행합니다. 그래도 연구실 귀속이 확인되지 않으면 public poster로 승격하지 않습니다.
+현재 collector는 이미지/PDF 자산을 별도로 발견하고 실제 URL을 Gemini URL Context에 제공해 내용과 귀속을 검토합니다. 다만 연구실 귀속이 명확히 확인되지 않은 포스터는 공개 화면에 verified 포스터로 표시하지 않습니다.
 
 ## Gemini fallback
 
@@ -69,6 +71,7 @@ python tools/test_static.py
 python tools/test_automation_features.py
 node --check dist/app.js
 node --check dist/showcase-data.js
+python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py
 ```
 
 자동 수집기는 Python 표준 라이브러리만 사용합니다.
