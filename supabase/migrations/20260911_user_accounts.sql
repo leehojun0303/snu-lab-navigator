@@ -1,7 +1,7 @@
 -- SNU Lab Navigator account layer.
 -- ID-only, non-PII identity using Supabase Anonymous Auth.
--- The public username is a unique display/account label; the anonymous
--- auth session is the actual credential. No password/email/phone is required.
+-- The username is a unique display/account label; the anonymous auth session
+-- is the actual credential. No password/email/phone is required.
 
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
@@ -33,25 +33,9 @@ drop trigger if exists on_auth_user_created on auth.users;
 drop function if exists public.handle_new_user() cascade;
 drop table if exists public.gemini_keys cascade;
 
-create or replace function public.handle_new_user()
-returns trigger
-language plpgsql
-security definer
-set search_path = public
-as $$
-begin
-  if coalesce(trim(new.raw_user_meta_data ->> 'username'), '') <> '' then
-    insert into public.profiles (id, username)
-    values (new.id, lower(trim(new.raw_user_meta_data ->> 'username')))
-    on conflict (id) do nothing;
-  end if;
-  return new;
-end;
-$$;
-
-create trigger on_auth_user_created
-after insert on auth.users
-for each row execute procedure public.handle_new_user();
+-- Anonymous Auth users claim their public ID explicitly through the RPC below.
+-- No trigger writes a username during auth-user creation; this avoids a race in
+-- which two users request the same username and the auth insert itself fails.
 
 alter table public.profiles enable row level security;
 alter table public.favorites enable row level security;
@@ -94,20 +78,21 @@ as $$
 declare
   uid uuid := auth.uid();
   uname text := lower(trim(p_username));
-  already boolean;
+  existing_id uuid;
 begin
   if uid is null then raise exception 'not_authenticated'; end if;
   if uname !~ '^[a-z0-9_.-]{3,40}$' then raise exception 'invalid_username'; end if;
 
-  select exists(select 1 from public.profiles where id = uid and lower(username) = uname) into already;
-  if already then return true; end if;
+  select id into existing_id from public.profiles where lower(username) = uname limit 1;
+  if existing_id is not null then
+    return existing_id = uid;
+  end if;
 
-  begin
-    insert into public.profiles (id, username) values (uid, uname);
-    return true;
-  exception when unique_violation then
-    return exists(select 1 from public.profiles where id = uid and lower(username) = uname);
-  end;
+  insert into public.profiles (id, username)
+  values (uid, uname);
+  return true;
+exception when unique_violation then
+  return exists(select 1 from public.profiles where id = uid and lower(username) = uname);
 end;
 $$;
 
