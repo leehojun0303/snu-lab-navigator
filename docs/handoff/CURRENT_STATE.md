@@ -16,7 +16,7 @@ GitHub: https://github.com/leehojun0303/snu-lab-navigator
 `tools/roster_sync.py`가 연결된 공식 서울대학교 학과·단과대 등 roster URL을 합집합으로 검사한다. 한 곳에서 현재 재직이 확인되면 유지하며, 신규 교수는 교수×소속 unit으로 자동 추가한다. 한 번의 출처 누락으로 삭제하지 않고 명시적인 퇴직/전임 종료 또는 보수적 반복 미확인 기준을 적용한다.
 
 ## 자동화
-`.github/workflows/collect.yml`은 개발 push마다 실행하지 않고 매일 03:00 KST 또는 수동 실행에서 roster sync와 incremental detail collection을 수행한다. 상세 수집은 최대 285분, batch 40, Gemini 최대 400건이며 `data/automation-state.json` cursor에서 이어간다. 전체 재구축용 `full-refresh.yml`은 파생 상세 데이터를 초기화한 후 교수명 가나다순으로 재수집한다.
+`.github/workflows/collect.yml`은 개발 push마다 실행하지 않고 매일 03:00·08:00·13:00·18:00·23:00 KST 또는 수동 실행에서 roster sync와 incremental detail collection을 수행한다. 상세 수집은 실행당 최대 285분, batch 40이며 Gemini 호출에는 임의 400건 상한을 두지 않는다. Gemini가 429/RESOURCE_EXHAUSTED를 반환하면 해당 실행의 AI 호출만 중단하고 URL 수집·상태 저장은 지속하며 다음 5시간 주기에 재개한다.  `data/automation-state.json` cursor에서 이어간다. 전체 재구축용 `full-refresh.yml`은 파생 상세 데이터를 초기화한 후 교수명 가나다순으로 재수집한다.
 
 **자동 수집 표시 개수 원칙:** 정상적인 최신 collector가 완주하고 snapshot 검증/QA가 통과한 경우에만 `enriched_units`를 앱의 자동수집 저장 개수로 표시한다. 과거의 348 같은 임의 숫자를 최신 정상 개수로 사용하지 않는다.
 
@@ -26,6 +26,10 @@ GitHub: https://github.com/leehojun0303/snu-lab-navigator
 논문은 교수/연구실 귀속이 확인된 실제 제목만, 모집은 현재 연구실 모집만, 구성원은 공식 이름+role만, 포스터는 실제 연구 포스터 및 귀속 확인 시 verified만 공개한다. 학과 뉴스, 일반 입학/학생지원, 타 교수 연구성과는 canonical field에서 제외한다.
 
 구성원은 current/Alumni와 역할별로 분리하며 박사과정·석사과정·박사후연구원·학부연구생·연구원 등 공식 role을 그대로 반영한다. 모호하면 임의 추정하지 않는다.
+
+## 새 상세 형식 첫 수집
+
+새 상세 형식은 연구 계열의 최근 논문 3건·1줄 요약·모집·구성 요약, 음악의 공연/창작/교육, 미술의 최근 1년 개인전/단체전/교육, 인문의 논문/저서/연구과제를 각각 검증해 저장한다. 검증 포스터 이미지가 있는 경우에는 모든 계열 상세 화면에 원문 링크와 함께 표시한다. 기존 자동 상세 snapshot은 비어 있으므로 이번 형식의 첫 수집부터 새 스키마로 채워진다.
 
 ## 대표 상세
 `dist/showcase-final.js`가 최신 정상 snapshot의 completeness score로 가장 정보가 충실한 unit을 자동 선택한다. 특정 교수 하드코딩은 사용하지 않는다.
