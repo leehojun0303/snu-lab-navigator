@@ -29,7 +29,7 @@
 
 ## 자동 수집
 
-`.github/workflows/collect.yml`은 코드 push 때마다 실행하지 않고 매일 03:00 KST schedule 또는 수동 실행에서만 작동합니다. 먼저 roster union sync를 수행한 뒤 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 수집 중에는 마지막 성공 snapshot을 제공합니다.
+`.github/workflows/collect.yml`은 코드 push 때마다 실행하지 않고 매일 03:00·08:00·13:00·18:00·23:00 KST schedule 또는 수동 실행에서 작동합니다. 먼저 roster union sync를 수행한 뒤 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 수집 중에는 마지막 성공 snapshot을 제공합니다.
 
 현재 상세 collector는 `tools/collector_entry.py` → `tools/automated_enrichment_v2.py` 구조입니다.
 
@@ -63,7 +63,7 @@
 
 ## 저장된 AI 정보 재사용
 
-자동 수집에서 생성된 `research_summary`, `research_topics`, `recommendation_keywords`와 최근 논문 metadata는 snapshot에 저장합니다. 이후 검색·추천·비교에서 이 저장 정보를 우선 사용하므로 같은 내용을 매번 Gemini에 다시 보내는 일을 줄입니다.
+자동 수집에서 생성된 `research_summary`, `research_topics`, `recommendation_keywords`, 최근 논문 3건과 각 1줄 요약, 계열별 활동 항목은 snapshot에 저장합니다. 이후 검색·추천·비교에서 이 저장 정보를 우선 사용하므로 같은 내용을 매번 Gemini에 다시 보내는 일을 줄입니다.
 
 ## 즐겨찾기와 연구실 비교
 
@@ -118,3 +118,7 @@ node --check dist/account.js
 node --check dist/account-ai-bridge.js
 python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py tools/full_refresh_entry.py
 ```
+
+## Gemini 호출 복구
+
+Collector는 Gemini Flash-Lite를 고정된 400건에서 임의 중단하지 않는다. 다만 Gemini가 HTTP 429 / RESOURCE_EXHAUSTED를 반환하면 해당 실행의 추가 AI 호출을 즉시 멈추고 URL 수집·상태 저장은 계속한다. 다음 5시간 주기에 자동 재시도한다. 실제 RPM/TPM/RPD 한도는 Gemini 프로젝트별 설정을 따른다.
