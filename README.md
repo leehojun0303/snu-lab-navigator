@@ -33,7 +33,7 @@
 
 ## 자동 수집
 
-`.github/workflows/collect.yml`이 매일 03:00 KST에 incremental collection을 시작합니다. roster union sync를 먼저 수행하고, 이어서 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 한 바퀴를 끝내면 일찍 종료합니다. 수집 중에도 앱은 마지막 성공 snapshot을 제공합니다.
+`.github/workflows/collect.yml`이 매일 03:00 KST에 roster union sync 후 incremental collection을 시작합니다. 상세 수집은 최대 285분 동안 batch size 40으로 진행하고 `data/automation-state.json`의 cursor에서 이어갑니다. 수집 중에는 마지막 성공 snapshot을 제공합니다.
 
 현재 상세 collector는 `tools/collector_entry.py` → `tools/automated_enrichment_v2.py` 구조입니다.
 
@@ -44,8 +44,8 @@
 3. publication/member/recruitment 링크와 이미지/PDF 자산을 함께 탐색
 4. poster 단서는 이미지/PDF 자산까지 별도로 탐색
 5. 실제 공식 URL을 Gemini URL Context로 전달해 연구분야·논문·구성원·모집·포스터를 구조화
-6. hard case는 Search grounding으로 공식 세부 URL을 추가 발견한 뒤 다시 source allowlist 검증
-7. source URL과 fingerprint를 함께 저장
+6. hard case는 Search grounding으로 공식 세부 URL을 추가 발견한 뒤 source allowlist 검증
+7. source URL과 fingerprint를 저장
 8. `poster_status`를 `verified / unverified_candidate / none_detected / inaccessible`로 구분
 9. 현재 snapshot 중 가장 완성도가 높은 unit을 대표 상세 예시로 자동 선정
 
@@ -67,19 +67,36 @@
 
 ## 저장된 AI 정보 재사용
 
-자동 수집에서 생성된 `research_summary`, `research_topics`, `recommendation_keywords`와 최근 논문 metadata는 공개 데이터에 저장되어 이후 검색·추천·비교에서 재사용할 수 있도록 설계되어 있습니다. 상세 페이지를 열 때마다 동일한 분석을 다시 실행하지 않습니다.
+자동 수집에서 생성된 `research_summary`, `research_topics`, `recommendation_keywords`와 최근 논문 metadata는 snapshot에 저장합니다. 이후 검색·추천·비교에서 이 저장 정보를 우선 사용하므로 같은 내용을 매번 Gemini에 다시 보내는 일을 줄입니다.
 
 ## 즐겨찾기와 연구실 비교
 
-앱에서 관심 연구실을 즐겨찾기로 저장할 수 있고, 최대 4개까지 선택해 핵심 분야·저장된 keyword·최근 논문 연도 흐름·구성원 규모·모집 상태를 간결하게 비교할 수 있습니다. AI 비교도 저장된 정보를 우선 입력으로 사용하며 결과는 짧은 표/문구 중심으로 출력합니다.
+관심 연구실은 카드의 별 버튼으로 즐겨찾기에 저장할 수 있습니다. 로그인 전에는 브라우저 로컬 저장으로 동작하고, 로그인 후에는 Supabase `favorites` 테이블과 동기화합니다.
 
-현재 즐겨찾기 데이터는 브라우저 로컬 저장소 기반입니다.
+최대 4개 연구실을 선택해 핵심 분야, 저장된 keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결한 표로 비교할 수 있습니다. 필요할 때만 AI가 차이점을 짧게 요약합니다.
 
-## Gemini
+## 계정·Gemini 보안 구조
 
-자동 수집의 서버 분석은 GitHub Actions의 `GEMINI_API_KEY` secret을 사용합니다. 앱에서 사용자가 직접 Gemini를 연결할 수도 있으며 현재 앱의 직접 연결 키는 브라우저 세션에만 보관됩니다.
+사용자 계정은 Supabase Auth 기반으로 구성했습니다.
 
-현재 공개 GitHub Pages는 정적 호스팅이므로, **아이디·비밀번호 기반의 서버 계정과 계정 간 Gemini 키 동기화**는 별도의 인증/백엔드가 필요합니다. 그 기능은 보안상 GitHub Pages의 평문 저장 방식으로 구현하지 않습니다.
+- 회원가입: 아이디 + 비밀번호 + Gemini API key
+- 로그인: 최근 사용 아이디를 버튼으로 선택하고 비밀번호만 입력
+- 비밀번호: GitHub Pages/DB에 평문 저장하지 않음
+- Gemini API key: Supabase Edge Function에서 AES-GCM으로 암호화하여 저장
+- AI 호출: `gemini-proxy` Edge Function을 통해 인증된 계정의 저장 key를 사용하거나 활성 세션에서 사용
+- service-role key와 암호화 secret: GitHub Pages에 저장하지 않음
+
+관련 코드:
+
+- `dist/account.js`
+- `dist/supabase-config.js`
+- `supabase/migrations/20260911_user_accounts.sql`
+- `supabase/functions/user-secret/index.ts`
+- `supabase/functions/gemini-proxy/index.ts`
+
+### Supabase 초기 설정
+
+실제 계정 기능을 활성화하려면 별도의 Supabase 프로젝트에서 `supabase/migrations/20260911_user_accounts.sql`을 적용하고 Edge Function secrets `SUPABASE_SERVICE_ROLE_KEY`, `GEMINI_KEY_ENCRYPTION_SECRET`을 설정해야 합니다. `dist/supabase-config.js`에는 Supabase URL/anon key/functions base를 설정합니다. **service-role key는 절대 이 파일이나 GitHub에 넣지 않습니다.**
 
 ## 대표 상세 예시
 
@@ -95,10 +112,11 @@
 - `docs/handoff/USER_REQUIREMENTS.md`
 - `docs/handoff/URL_REGISTRY.md`
 - `docs/handoff/PROJECT_HANDOFF_COMPLETE.md`
+- `docs/handoff/FEATURE_STATUS.md`
 - `docs/handoff/ARCHIVE_MANIFEST.md`
 - `docs/proposal/SNU_Lab_Navigator_생성형_AI_활용_기획서_v17.docx`
 
-## 로컬 검사
+## 검사
 
 ```bash
 python tools/test_static.py
@@ -106,7 +124,6 @@ python tools/test_automation_features.py
 node --check dist/app.js
 node --check dist/showcase-data.js
 node --check dist/favorites-compare.js
+node --check dist/account.js
 python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py
 ```
-
-자동 수집기는 Python 표준 라이브러리만 사용합니다.
