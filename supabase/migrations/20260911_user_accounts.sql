@@ -28,6 +28,11 @@ create table if not exists public.compare_cache (
   primary key (user_id, cache_key)
 );
 
+-- Remove the older per-user Gemini-key table if an earlier draft migration
+-- was already applied. Current architecture uses only the operator-managed
+-- GEMINI_API_KEY secret in the Edge Function.
+drop table if exists public.gemini_keys cascade;
+
 alter table public.profiles enable row level security;
 alter table public.favorites enable row level security;
 alter table public.compare_cache enable row level security;
@@ -69,6 +74,4 @@ $$;
 
 grant execute on function public.claim_username(text) to authenticated;
 
--- We intentionally do not create a gemini_keys table. The application uses
--- the operator-managed Gemini API secret in the Edge Function instead of
--- asking users to supply or store personal API keys.
+-- No password, email, phone number, or personal Gemini API key is required.
