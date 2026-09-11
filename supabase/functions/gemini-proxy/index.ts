@@ -12,7 +12,7 @@ Deno.serve(async (req) => {
   if (req.method !== 'POST') return json(405, { error: 'method_not_allowed' })
 
   const supabaseUrl = Deno.env.get('SUPABASE_URL') ?? ''
-  const serviceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
+  const serviceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? Deno.env.get('SERVICE_ROLE_KEY') ?? ''
   const geminiKey = Deno.env.get('GEMINI_API_KEY') ?? ''
   if (!supabaseUrl || !serviceKey || !geminiKey) return json(500, { error: 'server_not_configured' })
 
