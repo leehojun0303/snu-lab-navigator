@@ -18,3 +18,5 @@
 
 ## 재발 방지
 자산 자체 수집 → 후보/검증 분리 → URL Context로 실제 자원 분석 → source allowlist 재검증 → verified만 공개 → fingerprint 캐시 → 대표 예시는 자동 score 선택 순서로 유지한다.
+
+- 2026-09-11: 앱에서 Gemini 401이 표시될 경우, 검색어 처리 실패가 아니라 배포된 Edge Function의 JWT gate 또는 Gemini API secret 배포 상태가 최신 소스와 불일치한 문제로 분리한다. UI는 일반 검색과 AI 유사 검색을 분리하고, AI는 Enter/명시 버튼에서만 호출한다.
