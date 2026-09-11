@@ -187,10 +187,22 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
             "Members: only explicit named people from the professor/lab member page. Classify current people as PhD, Master, Undergraduate, or Other from the stated role. Put former members separately as Alumni.",
             "Poster verification: a professor portrait, logo, icon, social-share image, or generic site image is never a poster. Verify only an actual research poster clearly attributable to this professor/lab. If attribution is unclear, use unverified_candidate rather than verified.",
             "Research topics and recommendation keywords may be summarized from the verified research description, but must not introduce unsupported topics.",
+            "For each recent paper, write one Korean sentence of at most 120 characters only when its official title, abstract, or page supports that summary; otherwise return an empty summary.",
+            "For music, extract only explicitly supported recent performances, creative works, and concise education activity. Do not extract awards.",
+            "For fine arts, extract solo/group exhibitions only if their official date is within the last 12 months. Do not extract awards.",
+            "For humanities, distinguish papers, books, conference presentations, and research projects.",
         ],
         "output_schema": {
             "research_summary": "string", "research_topics": ["string"], "recommendation_keywords": ["string"],
-            "recent_papers": [{"title": "string", "year": "string", "venue": "string", "url": "string"}],
+            "recent_papers": [{"title": "string", "year": "string", "venue": "string", "summary": "string", "url": "string"}],
+            "books": [{"title": "string", "year": "string", "venue": "string", "url": "string"}],
+            "conference_presentations": [{"title": "string", "date": "string", "venue": "string", "url": "string"}],
+            "research_projects": [{"title": "string", "date": "string", "organization": "string", "url": "string"}],
+            "recent_performances": [{"title": "string", "date": "string", "venue": "string", "url": "string"}],
+            "creative_works": [{"title": "string", "year": "string", "venue": "string", "url": "string"}],
+            "recent_solo_exhibitions": [{"title": "string", "date": "string", "venue": "string", "url": "string"}],
+            "recent_group_exhibitions": [{"title": "string", "date": "string", "venue": "string", "url": "string"}],
+            "education_summary": "string",
             "verified_publication_pages": [{"title": "string", "url": "string"}],
             "recruitment_summary": "string", "verified_recruitment_pages": [{"title": "string", "url": "string"}],
             "recruitment_source_url": "string", "current_members": [{"name": "string", "role": "string", "url": "string"}],
@@ -202,7 +214,17 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
     try:
         response = http_json(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent", key, payload, 75)
         result = parse_json_candidate(response)
-        result["recent_papers"] = sanitize_items(result.get("recent_papers"), unit, ["year", "venue"])[:12]
+        result["recent_papers"] = sanitize_items(result.get("recent_papers"), unit, ["year", "venue", "summary"])[:3]
+        for item in result["recent_papers"]:
+            item["summary"] = str(item.get("summary", "")).strip()[:120]
+        result["books"] = sanitize_items(result.get("books"), unit, ["year", "venue"])[:3]
+        result["conference_presentations"] = sanitize_items(result.get("conference_presentations"), unit, ["date", "venue"])[:3]
+        result["research_projects"] = sanitize_items(result.get("research_projects"), unit, ["date", "organization"])[:3]
+        result["recent_performances"] = sanitize_items(result.get("recent_performances"), unit, ["date", "venue"])[:3]
+        result["creative_works"] = sanitize_items(result.get("creative_works"), unit, ["year", "venue"])[:3]
+        result["recent_solo_exhibitions"] = sanitize_items(result.get("recent_solo_exhibitions"), unit, ["date", "venue"])[:3]
+        result["recent_group_exhibitions"] = sanitize_items(result.get("recent_group_exhibitions"), unit, ["date", "venue"])[:3]
+        result["education_summary"] = str(result.get("education_summary", "")).strip()[:500]
         result["verified_publication_pages"] = sanitize_items(result.get("verified_publication_pages"), unit, [])[:6]
         result["verified_recruitment_pages"] = sanitize_items(result.get("verified_recruitment_pages"), unit, [])[:4]
         source = clean_url(result.get("recruitment_source_url")); result["recruitment_source_url"] = source if source and allowed(source, unit) else ""
@@ -220,7 +242,7 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
             result["poster_image_url"] = poster_image
             source_url = clean_url(result.get("poster_source_url")); result["poster_source_url"] = source_url if source_url and allowed(source_url, unit) else poster_image
         result["source_urls_used"] = list(dict.fromkeys([clean_url(x) for x in (result.get("source_urls_used") or []) if clean_url(x) and allowed(clean_url(x), unit)] + source_urls))[:30]
-        result["_unit_id"] = str(unit.get("id", "")); result["_model"] = model; result["_saved_at"] = now(); result["_batch_saved"] = True; result["_quality_gate"] = "ai_verified_v1"
+        result["_unit_id"] = str(unit.get("id", "")); result["_model"] = model; result["_saved_at"] = now(); result["_batch_saved"] = True; result["_quality_gate"] = "ai_verified_v2_compact_detail"
         return result, None
     except Exception as exc:
         budget.used = max(0, budget.used - 1)
@@ -232,7 +254,7 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     text = output.read_text(encoding="utf-8") if output.exists() else ""
     trusted = {uid: record for uid, record in state.get("records", {}).items() if record.get("_unit_id") == uid}
     sid, score, why = collector.showcase(units, trusted)
-    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.1", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display", "snapshot_status": "in_progress", "validated_at": ""}
+    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.2", "detail_schema": "compact_detail_v2", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display", "snapshot_status": "in_progress", "validated_at": ""}
     lines = text.splitlines()
     first = "window.AUTOMATION_META=" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";"
     if lines and lines[0].startswith("window.AUTOMATION_META="): lines[0] = first
