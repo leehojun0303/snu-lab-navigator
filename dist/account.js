@@ -3,7 +3,7 @@
   const cfg = window.SUPABASE_CONFIG || {};
   const ready = Boolean(cfg.url && cfg.anonKey && window.supabase?.createClient);
   const supa = ready ? window.supabase.createClient(cfg.url, cfg.anonKey) : null;
-  const RECENT_IDS = 'snu-lab-recent-usernames-v7';
+  const RECENT_IDS = 'snu-lab-recent-usernames-v8';
   let currentUser = null;
   let currentUsername = '';
   const $ = (s, r = document) => r.querySelector(s);
@@ -60,11 +60,11 @@
     username = username.trim().toLowerCase();
     if (!validUsername(username)) throw new Error('ID는 영문·숫자·._- 조합 3~40자로 입력해 주세요.');
 
-    const session = await getSession();
-    if (session?.user) {
-      const existing = await sessionUsername(session).catch(() => '');
-      throw new Error(`현재 브라우저에 이미 ${existing || '기존'} 계정 세션이 있습니다. 먼저 로그아웃한 뒤 새 계정을 만들 수 있습니다.`);
-    }
+    // Creating another account is an explicit action. End only the current
+    // anonymous auth session, then create a fresh one.
+    const oldSession = await getSession();
+    if (oldSession?.user) await supa.auth.signOut().catch(() => {});
+    currentUser = null; currentUsername = '';
 
     const {data,error} = await supa.auth.signInAnonymously({options:{data:{username}}});
     if (error) throw new Error(`계정 생성에 실패했습니다: ${error.message}`);
@@ -86,19 +86,17 @@
     if (!validUsername(username)) throw new Error('ID는 영문·숫자·._- 조합 3~40자로 입력해 주세요.');
 
     const session = await getSession();
-    if (!session?.user) {
-      throw new Error('이 브라우저에 로그인할 계정 세션이 없습니다. 같은 브라우저에서 가입한 계정이면 기존 세션을 로그아웃하지 말고 사용해 주세요. 다른 브라우저에서 ID만으로 기존 계정을 복구하는 기능은 제공하지 않습니다.');
-    }
+    if (!session?.user) throw new Error('이 브라우저에 사용할 수 있는 계정 세션이 없습니다. 회원가입에서 이 브라우저용 계정을 먼저 만들어 주세요.');
     const existing = (await sessionUsername(session)).toLowerCase();
-    if (existing !== username) {
-      throw new Error(`입력한 ID와 현재 브라우저 계정이 다릅니다. 현재 세션: ${existing || '확인 불가'}`);
-    }
+    if (existing !== username) throw new Error(`입력한 ID와 이 브라우저의 계정이 다릅니다. 현재 저장된 계정: ${existing || '확인 불가'}`);
     await finishSession(session, existing);
     $('#accountDialog')?.close();
   }
 
+  // Clear the app's active-login state but deliberately keep the anonymous
+  // auth session. This lets the user enter the same ID again next time without
+  // a password. It is a local account lock/unlock, not deletion of the auth user.
   async function logout(){
-    if (supa) await supa.auth.signOut().catch(() => {});
     currentUser = null;
     currentUsername = '';
     setHeader();
@@ -122,14 +120,14 @@
     const recent = recentIds();
     const body = $('#accountBody');
     const isSignup = mode === 'signup';
-    body.innerHTML = `<h2>${isSignup?'회원가입':'로그인'}</h2><p class="account-note">개인정보와 비밀번호를 요구하지 않습니다. ${isSignup?'새로운 고유 ID를 정하면 익명 계정이 만들어집니다.':'가입할 때 만든 ID를 입력해 로그인합니다.'}</p>${notice?`<p class="status">${esc(notice)}</p>`:''}<label>ID<input id="accountIdInput" autocomplete="off" placeholder="예: labfinder27"></label><button id="accountPrimaryGo" class="primary" type="button">${isSignup?'이 ID로 회원가입':'이 ID로 로그인'}</button><button id="accountSwitch" class="secondary" type="button">${isSignup?'로그인으로 돌아가기':'회원가입'}</button><button id="accountLogoutGo" class="secondary" type="button" ${currentUser?'':'hidden'}>현재 세션 로그아웃</button><p id="accountStatus" class="status"></p>${!isSignup&&recent.length?`<div class="recent-title">최근 사용 ID</div><div class="recent-users">${recent.map(id=>`<button class="recent-user" type="button" data-id="${esc(id)}">${esc(id)}</button>`).join('')}</div>`:''}`;
+    body.innerHTML = `<h2>${isSignup?'회원가입':'로그인'}</h2><p class="account-note">개인정보와 비밀번호를 요구하지 않습니다. ${isSignup?'새로운 고유 ID를 정하면 익명 계정이 만들어집니다.':'가입할 때 만든 ID를 입력해 로그인합니다.'}</p>${notice?`<p class="status">${esc(notice)}</p>`:''}<label>ID<input id="accountIdInput" autocomplete="off" placeholder="예: labfinder27"></label><button id="accountPrimaryGo" class="primary" type="button">${isSignup?'이 ID로 회원가입':'이 ID로 로그인'}</button><button id="accountSwitch" class="secondary" type="button">${isSignup?'로그인으로 돌아가기':'회원가입'}</button>${currentUser?'<button id="accountLogoutGo" class="secondary" type="button">현재 로그인 상태 잠금</button>':''}<p id="accountStatus" class="status"></p>${!isSignup&&recent.length?`<div class="recent-title">최근 사용 ID</div><div class="recent-users">${recent.map(id=>`<button class="recent-user" type="button" data-id="${esc(id)}">${esc(id)}</button>`).join('')}</div>`:''}`;
     $('#accountClose').onclick=()=>dialog.close();
     $('#accountSwitch').onclick=()=>renderAccountDialog(isSignup?'login':'signup');
-    $('#accountLogoutGo').onclick=async()=>{await logout();renderAccountDialog('login','로그아웃했습니다. ID를 다시 입력해 로그인할 수 있습니다.');};
+    $('#accountLogoutGo')?.addEventListener('click',async()=>{await logout();renderAccountDialog('login','로그인 상태를 잠금 처리했습니다. ID를 입력하면 다시 사용할 수 있습니다.');});
     body.querySelectorAll('.recent-user').forEach(btn=>btn.onclick=()=>{$('#accountIdInput').value=btn.dataset.id;$('#accountIdInput').focus();});
     $('#accountPrimaryGo').onclick=async()=>{
       const status=$('#accountStatus'); const id=$('#accountIdInput').value.trim().toLowerCase();
-      status.textContent=isSignup?'새 계정을 만드는 중…':'로그인 확인 중…';
+      status.textContent=isSignup?'새 계정을 만드는 중…':'ID로 로그인하는 중…';
       try{if(isSignup){await createAccount(id);}else{await loginById(id);}}catch(e){status.textContent=e.message;$('#accountIdInput').focus();}
     };
     dialog.showModal();
@@ -142,9 +140,10 @@
   }
 
   async function init(){
-    // Do not auto-login in the UI. The user explicitly enters an ID when opening the login flow.
     setHeader();
-    if(supa) supa.auth.onAuthStateChange(async(_event,session)=>{
+    // Do not auto-activate the app account UI. The user enters the ID every
+    // time. Supabase keeps the anonymous session so that ID can unlock it.
+    if(supa) supa.auth.onAuthStateChange((_event,session)=>{
       if(!session){currentUser=null;currentUsername='';setHeader();window.dispatchEvent(new Event('snu-account-changed'));}
     });
     const button=$('#accountOpen');
