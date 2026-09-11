@@ -20,20 +20,18 @@
 
 매일 자동화가 시작되면 `tools/roster_sync.py`가 현재 데이터에 연결된 서울대학교 공식 학과·단과대 등 roster URL을 **합집합(UNION)** 으로 검사합니다.
 
-중요한 원칙은 다음과 같습니다.
-
-- 학과에 있거나 단과대/대학원/기타 공식 서울대 roster에 있으면 포함할 수 있습니다.
+- 학과에 있거나 단과대·대학원·기타 공식 서울대 roster에 있으면 포함할 수 있습니다.
 - 여러 roster에 모두 있어야 하는 교집합 조건을 사용하지 않습니다.
 - 한 공식 페이지에서 사라졌다는 이유만으로 교수를 삭제하지 않습니다.
-- 공식 교수 profile이 여전히 유효하면 다른 roster에서 누락되어도 유지합니다.
-- 공식적으로 퇴직·명예·전임 종료가 확인되거나, 관련된 모든 성공적 공식 roster에서 두 번 연속 확인되지 않을 때만 보수적으로 제거합니다.
-- 신규 교수는 공식 roster에서 발견되면 새 교수×소속 unit으로 자동 추가하고 이후 상세 수집 대상으로 넘깁니다.
+- 공식 교수 profile이 여전히 유효하면 다른 roster 누락에도 유지합니다.
+- 공식 퇴직·명예·전임 종료가 확인되거나 관련 성공 공식 roster에서 두 번 연속 확인되지 않을 때만 보수적으로 제거합니다.
+- 신규 교수는 공식 roster에서 발견되면 새 교수×소속 unit으로 자동 추가합니다.
 
 따라서 특정 단과대 목록에 없다는 이유로 교수를 제거하지 않습니다.
 
 ## 자동 수집
 
-`.github/workflows/collect.yml`이 매일 03:00 KST에 roster union sync 후 incremental collection을 시작합니다. 상세 수집은 최대 285분 동안 batch size 40으로 진행하고 `data/automation-state.json`의 cursor에서 이어갑니다. 수집 중에는 마지막 성공 snapshot을 제공합니다.
+`.github/workflows/collect.yml`은 코드 push 때마다 실행하지 않고 매일 03:00 KST schedule 또는 수동 실행에서만 작동합니다. 먼저 roster union sync를 수행한 뒤 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 수집 중에는 마지막 성공 snapshot을 제공합니다.
 
 현재 상세 collector는 `tools/collector_entry.py` → `tools/automated_enrichment_v2.py` 구조입니다.
 
@@ -71,32 +69,25 @@
 
 ## 즐겨찾기와 연구실 비교
 
-관심 연구실은 카드의 별 버튼으로 즐겨찾기에 저장할 수 있습니다. 로그인 전에는 브라우저 로컬 저장으로 동작하고, 로그인 후에는 Supabase `favorites` 테이블과 동기화합니다.
+관심 연구실은 카드의 별 버튼으로 즐겨찾기에 저장할 수 있습니다. Supabase가 연결되면 계정 단위로 동기화하고, 연결 전에는 브라우저 로컬 저장으로 fallback합니다.
 
-최대 4개 연구실을 선택해 핵심 분야, 저장된 keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결한 표로 비교할 수 있습니다. 필요할 때만 AI가 차이점을 짧게 요약합니다.
+최대 4개 연구실을 선택해 핵심 분야, 저장된 keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결한 표로 비교할 수 있습니다. 필요할 때만 인증된 서버 Gemini가 차이점을 짧게 요약합니다.
 
-## 계정·Gemini 보안 구조
+## 개인정보 없는 ID 계정
 
-사용자 계정은 Supabase Auth 기반으로 구성했습니다.
+사용자는 비밀번호·이메일·전화번호를 입력하지 않고 원하는 **고유 ID 하나**만 정합니다. 실제 인증은 Supabase Anonymous Auth 세션이 담당하며 ID는 표시/계정 식별용입니다. 이미 사용 중인 ID는 다시 사용할 수 없고 다른 ID를 선택해야 합니다. 최근 사용한 ID는 브라우저에서 기억해 다시 입력하는 번거로움을 줄입니다.
 
-- 회원가입: 아이디 + 비밀번호 + Gemini API key
-- 로그인: 최근 사용 아이디를 버튼으로 선택하고 비밀번호만 입력
-- 비밀번호: GitHub Pages/DB에 평문 저장하지 않음
-- Gemini API key: Supabase Edge Function에서 AES-GCM으로 암호화하여 저장
-- AI 호출: `gemini-proxy` Edge Function을 통해 인증된 계정의 저장 key를 사용하거나 활성 세션에서 사용
-- service-role key와 암호화 secret: GitHub Pages에 저장하지 않음
+로그인한 사용자의 즐겨찾기는 Supabase에 저장되고, 서버 Gemini proxy는 인증된 세션을 확인한 뒤 운영자가 관리하는 `GEMINI_API_KEY` secret을 사용합니다. 사용자의 개인 Gemini API key나 비밀번호를 저장하지 않습니다.
 
 관련 코드:
 
 - `dist/account.js`
+- `dist/account-ai-bridge.js`
+- `dist/favorites-compare.js`
 - `dist/supabase-config.js`
 - `supabase/migrations/20260911_user_accounts.sql`
-- `supabase/functions/user-secret/index.ts`
 - `supabase/functions/gemini-proxy/index.ts`
-
-### Supabase 초기 설정
-
-실제 계정 기능을 활성화하려면 별도의 Supabase 프로젝트에서 `supabase/migrations/20260911_user_accounts.sql`을 적용하고 Edge Function secrets `SUPABASE_SERVICE_ROLE_KEY`, `GEMINI_KEY_ENCRYPTION_SECRET`을 설정해야 합니다. `dist/supabase-config.js`에는 Supabase URL/anon key/functions base를 설정합니다. **service-role key는 절대 이 파일이나 GitHub에 넣지 않습니다.**
+- `docs/handoff/SUPABASE_SETUP.md`
 
 ## 대표 상세 예시
 
@@ -125,5 +116,6 @@ node --check dist/app.js
 node --check dist/showcase-data.js
 node --check dist/favorites-compare.js
 node --check dist/account.js
+node --check dist/account-ai-bridge.js
 python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py
 ```
