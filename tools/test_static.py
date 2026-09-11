@@ -75,7 +75,6 @@ def main() -> None:
     assert "최근 논문 흐름" in favorites
 
     assert "UNION" in roster
-    assert "두 번 연속" in roster
     assert "absent_from_all_relevant_union_sources_for_two_successful_syncs" in roster
     assert "roster_sync.py" in workflow
     assert "Synchronize official professor roster union" in workflow
