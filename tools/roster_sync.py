@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Synchronize professor units from official SNU directory pages.
+"""Sync the current professor roster from trusted SNU directory pages.
 
-Policy: roster sources are a UNION, never an intersection. A professor is kept
-when any trusted official source still supports the appointment. Removal is
-conservative: absence from one page is not enough; a unit is removed only when
-its known official profile/department evidence explicitly indicates a former or
-ended appointment, or when it is absent from all tracked official directories
-for two consecutive syncs.
+Important policy: roster sources are a UNION, never an intersection. A professor
+is active when at least one successful official source still supports the person.
+Missing from one college/department page therefore never removes the professor.
+Removal requires an explicit former/retired signal or absence from every
+successful tracked source for two consecutive syncs.
 """
 from __future__ import annotations
 
@@ -14,7 +13,7 @@ import argparse
 import hashlib
 import json
 import re
-import time
+import concurrent.futures
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -25,14 +24,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 STATE = ROOT / "data" / "roster-sync-state.json"
 CHUNKS = DIST / "data"
-UA = "SNU-Lab-Navigator-Roster-Sync/1.0"
+UA = "SNU-Lab-Navigator-Roster-Sync/2.0"
 TIMEOUT = 15
 MAX_BODY = 2_000_000
 CHUNK_SIZE = 100
 
-FORMER_RE = re.compile(r"(퇴직|명예교수|전임 종료|retired|emeritus|former faculty|former professor|no longer|이직|사직)", re.I)
-FACULTY_RE = re.compile(r"(교수|professor|faculty|faculty member)", re.I)
-NON_FACULTY_RE = re.compile(r"(학생|student|staff|직원|조교|assistant|연구원|postdoc|박사|석사|학부|동문|alumni)", re.I)
+FORMER_RE = re.compile(r"(퇴직|명예교수|전임\s*종료|retired|emeritus|former\s+(?:faculty|professor)|no\s+longer\s+(?:with|at)|이직|사직)", re.I)
+FACULTY_HINT_RE = re.compile(r"(교수|professor|faculty|prof\.?|faculty-member|people/|faculty/|professor/)", re.I)
+NON_FACULTY_RE = re.compile(r"(학생|student|staff|직원|조교|assistant|연구원|researcher|postdoc|박사|석사|학부|동문|alumni)", re.I)
 
 
 def now() -> str:
@@ -54,32 +53,10 @@ def unit_id(college: str, department: str, name: str) -> str:
     return f"SNU-RU-{digest}"
 
 
-def parse_js_chunks() -> list[dict]:
+def extract_units() -> list[dict]:
+    out: list[dict] = []
     chunks = sorted(CHUNKS.glob("units-*.js"))
-    if not chunks:
-        data_js = DIST / "data.js"
-        if not data_js.exists():
-            return []
-        text = data_js.read_text(encoding="utf-8")
-        match = re.search(r"window\.RESEARCH_UNITS\s*=\s*(.+?)\s*;\s*$", text, re.S)
-        return json.loads(match.group(1)) if match else []
-    out = []
     for path in chunks:
-        text = path.read_text(encoding="utf-8")
-        match = re.search(r"window\.RESEARCH_UNITS(?:\.push\(\.\.\.)?\s*=??\s*(.+?)\s*\)?;\s*$", text, re.S)
-        if not match:
-            match = re.search(r"window\.RESEARCH_UNITS\.push\(\.\.\.(.+?)\);\s*$", text, re.S)
-        if match:
-            payload = match.group(1)
-            out.extend(json.loads(payload))
-    return out
-
-
-def extract_json_units() -> list[dict]:
-    # The chunk syntax is simple enough to parse directly with the patterns
-    # emitted by tools/split_static_data.py.
-    out = []
-    for path in sorted(CHUNKS.glob("units-*.js")):
         text = path.read_text(encoding="utf-8")
         m = re.search(r"window\.RESEARCH_UNITS\s*=\s*(.+?)\s*;\s*$", text, re.S)
         if m:
@@ -157,186 +134,197 @@ def fetch(url: str) -> tuple[str, str]:
     return final, body.decode(encoding, errors="replace")
 
 
-def directory_links(url: str) -> tuple[list[dict], str, bool]:
+def scan_source(url: str) -> dict:
     try:
         final, html = fetch(url)
         parser = DirectoryParser(final)
         parser.feed(html)
-        return parser.links, " ".join(parser.page_text), True
-    except Exception:
-        return [], "", False
+        return {"url": url, "final_url": final, "ok": True, "links": parser.links, "text": " ".join(parser.page_text)}
+    except Exception as exc:
+        return {"url": url, "final_url": url, "ok": False, "links": [], "text": "", "error": type(exc).__name__}
 
 
-def likely_person(link: dict, context: str) -> bool:
+def clean_name(text: str) -> str:
+    text = re.sub(r"\([^)]*\)", " ", text)
+    text = re.sub(r"\b(?:full|assistant|associate|distinguished|emeritus|research|visiting)?\s*professor\b", " ", text, flags=re.I)
+    text = re.sub(r"\bprof\.?\b", " ", text, flags=re.I)
+    text = re.sub(r"교수", " ", text)
+    text = re.sub(r"\s+", " ", text).strip(" -|:,;·")
+    return text
+
+
+def likely_faculty(link: dict) -> bool:
     label = re.sub(r"\s+", " ", str(link.get("text", ""))).strip()
     href = str(link.get("url", ""))
+    if not label or len(label) > 100 or not allowed(href):
+        return False
     blob = f"{label} {href}"
-    if not FACULTY_RE.search(blob):
+    if NON_FACULTY_RE.search(label) and not re.search(r"교수|professor|prof\.?&quot;", label, re.I):
         return False
-    if NON_FACULTY_RE.search(label) and not re.search(r"\b(professor|prof\.)\b|교수", label, re.I):
-        return False
-    if not label or len(label) > 120:
-        return False
-    return allowed(href)
+    return bool(FACULTY_HINT_RE.search(blob))
 
 
 def infer_name(link: dict) -> str:
-    text = re.sub(r"\s+", " ", str(link.get("text", ""))).strip()
-    text = re.sub(r"\([^)]*\)", " ", text).strip()
-    text = re.sub(r"\b(Professor|Prof\.?|Associate Professor|Assistant Professor|Emeritus Professor)\b", " ", text, flags=re.I)
-    text = re.sub(r"교수", " ", text)
-    return re.sub(r"\s+", " ", text).strip(" -|:")
+    label = re.sub(r"\s+", " ", str(link.get("text", ""))).strip()
+    # Drop common role annotations while preserving Korean/English names.
+    name = clean_name(label)
+    return name
 
 
-def normalize_unit(existing: dict) -> dict:
-    item = dict(existing)
-    item["id"] = item.get("id") or unit_id(str(item.get("college", "")), str(item.get("department", "")), str(item.get("name", "")))
-    return item
-
-
-def save_chunks(units: list[dict]) -> None:
+def write_chunks(units: list[dict]) -> None:
     CHUNKS.mkdir(parents=True, exist_ok=True)
-    for old in CHUNKS.glob("units-*.js"):
-        old.unlink()
+    for path in CHUNKS.glob("units-*.js"):
+        path.unlink()
     for index in range(0, len(units), CHUNK_SIZE):
         block = units[index:index + CHUNK_SIZE]
-        path = CHUNKS / f"units-{index // CHUNK_SIZE:03d}.js"
-        path.write_text(
+        (CHUNKS / f"units-{index // CHUNK_SIZE:03d}.js").write_text(
             "window.RESEARCH_UNITS = " + json.dumps(block, ensure_ascii=False, separators=(",", ":")) + ";\n",
             encoding="utf-8",
         )
-    loader = DIST / "data-loader.js"
     tags = "".join(f'<script src="data/units-{i // CHUNK_SIZE:03d}.js"><\\/script>' for i in range(0, len(units), CHUNK_SIZE))
-    loader.write_text(f"document.write('{tags}');\n", encoding="utf-8")
-
-
-def save_state(state: dict) -> None:
-    STATE.parent.mkdir(parents=True, exist_ok=True)
-    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (DIST / "data-loader.js").write_text(f"document.write('{tags}');\n", encoding="utf-8")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--max-pages", type=int, default=100000)
     args = parser.parse_args()
 
-    units = [normalize_unit(x) for x in extract_json_units()]
+    units = extract_units()
     if not units:
         raise RuntimeError("No current research units found")
 
-    source_urls = []
+    # Build the official source UNION from every distinct department/college
+    # URL already represented in the dataset. There is intentionally no
+    # requirement for a professor to occur in every source.
+    source_map: dict[str, set[tuple[str, str]]] = {}
     for unit in units:
         url = clean_url(unit.get("departmentUrl"))
         if url and allowed(url):
-            source_urls.append(url)
-    source_urls = list(dict.fromkeys(source_urls))[:args.max_pages]
+            source_map.setdefault(url, set()).add((str(unit.get("college", "")), str(unit.get("department", ""))))
+    source_urls = list(source_map)[:args.max_pages]
 
-    state = {"updated_at": now(), "sources_checked": [], "absent_streak": {}, "added": [], "confirmed": [], "removed": []}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+        scanned = list(pool.map(scan_source, source_urls))
+
+    successful = [item for item in scanned if item.get("ok")]
+    source_observations: dict[tuple[str, str], set[str]] = {}
+    global_observed_names: set[str] = set()
+    new_items: dict[tuple[str, str, str], dict] = {}
+
+    for result in successful:
+        scopes = source_map.get(result["url"], set())
+        local_names: set[str] = set()
+        for link in result["links"]:
+            if not likely_faculty(link):
+                continue
+            name = infer_name(link)
+            if len(name) < 2 or len(name) > 80:
+                continue
+            local_names.add(name)
+            global_observed_names.add(name)
+            for college, department in scopes:
+                key = (college, department)
+                source_observations.setdefault(key, set()).add(name)
+                existing = next((u for u in units if str(u.get("name", "")).strip() == name and str(u.get("college", "")) == college and str(u.get("department", "")) == department), None)
+                if existing is None:
+                    new_items[(college, department, name)] = {
+                        "id": unit_id(college, department, name),
+                        "name": name,
+                        "title": name,
+                        "college": college,
+                        "department": department,
+                        "rank": "",
+                        "type": "",
+                        "naming": "official-roster-sync",
+                        "labs": "",
+                        "fields": "",
+                        "keywords": "",
+                        "profile": link["url"],
+                        "homepage": "",
+                        "photo": "",
+                        "departmentUrl": result["url"],
+                        "guidance": "공식 서울대학교 명단에서 확인된 교수",
+                    }
+
+    combined = {"|".join(str(u.get(k, "")).strip() for k in ("college", "department", "name")): dict(u) for u in units}
+    added = []
+    for key, item in new_items.items():
+        if "|" not in key:
+            continue
+        combined[key] = item
+        added.append({"id": item["id"], "name": item["name"], "college": item["college"], "department": item["department"], "source": item["departmentUrl"]})
+
     previous = {}
     if STATE.exists():
         try:
             previous = json.loads(STATE.read_text(encoding="utf-8"))
         except Exception:
             previous = {}
-    previous_absent = previous.get("absent_streak", {})
-
-    by_key = {}
-    for unit in units:
-        key = "|".join(str(unit.get(k, "")).strip() for k in ("college", "department", "name"))
-        by_key[key] = unit
-
-    observed_keys = set()
-    observed_names_by_department = {}
-    for url in source_urls:
-        links, page_text, ok = directory_links(url)
-        state["sources_checked"].append({"url": url, "ok": ok})
-        if not ok:
-            continue
-        department_match = next((u for u in units if clean_url(u.get("departmentUrl")) == url), None)
-        college = str(department_match.get("college", "")) if department_match else ""
-        department = str(department_match.get("department", "")) if department_match else ""
-        names = observed_names_by_department.setdefault((college, department), set())
-        for link in links:
-            if not likely_person(link, page_text):
-                continue
-            name = infer_name(link)
-            if len(name) < 2 or len(name) > 80:
-                continue
-            key = "|".join([college, department, name])
-            observed_keys.add(key)
-            names.add(name)
-            if key not in by_key:
-                new_unit = {
-                    "id": unit_id(college, department, name),
-                    "name": name,
-                    "title": name,
-                    "college": college,
-                    "department": department,
-                    "rank": "",
-                    "type": "",
-                    "naming": "official-roster-sync",
-                    "labs": "",
-                    "fields": "",
-                    "keywords": "",
-                    "profile": link["url"],
-                    "homepage": "",
-                    "photo": "",
-                    "departmentUrl": url,
-                    "guidance": "공식 학과/단과대 명단에서 확인된 교수",
-                }
-                by_key[key] = new_unit
-                state["added"].append({"id": new_unit["id"], "name": name, "department": department, "source": url})
-
-    # Conservative union policy for removals. If a known profile explicitly
-    # says former/retired, remove. Otherwise require two consecutive absent
-    # syncs from every tracked official directory before removal.
+    old_absent = previous.get("absent_streak", {})
+    new_absent: dict[str, int] = {}
+    removed = []
     final = []
-    removed_ids = set()
-    for key, unit in by_key.items():
-        name = str(unit.get("name", ""))
-        old_absent = int(previous_absent.get(str(unit.get("id", "")), 0))
+    successful_source_urls = {item["url"] for item in successful}
+
+    for key, unit in combined.items():
+        college = str(unit.get("college", ""))
         department = str(unit.get("department", ""))
-        observed = key in observed_keys or name in observed_names_by_department.get((str(unit.get("college", "")), department), set())
-        explicit_former = False
+        name = str(unit.get("name", "")).strip()
+        relevant_sources = [url for url, scopes in source_map.items() if url in successful_source_urls and any(
+            (c == college and d == department) or (c == college and not department) or (not college and not department)
+            for c, d in scopes
+        )]
+        observed_any = any(name in source_observations.get(scope, set()) for scope in source_map.get(relevant_sources[0], set())) if relevant_sources else (name in global_observed_names and not college and not department)
+        # Also preserve a unit if its own official profile still works and does
+        # not say former/retired. This protects cross-listed faculty that do not
+        # appear on every department page.
         profile = clean_url(unit.get("profile"))
+        explicit_former = False
+        profile_ok = False
         if profile and allowed(profile):
             try:
                 _, profile_html = fetch(profile)
+                profile_ok = bool(profile_html)
                 explicit_former = bool(FORMER_RE.search(re.sub(r"\s+", " ", profile_html)))
             except Exception:
-                explicit_former = False
-        if observed:
+                profile_ok = False
+
+        if observed_any or (profile_ok and not explicit_former):
             unit["roster_last_confirmed"] = now()
-            state["confirmed"].append(unit.get("id"))
-            state["absent_streak"][str(unit.get("id"))] = 0
-        elif explicit_former:
-            removed_ids.add(unit.get("id"))
-            state["removed"].append({"id": unit.get("id"), "name": name, "reason": "explicit_former_status"})
+            new_absent[str(unit.get("id"))] = 0
+            final.append(unit)
             continue
-        else:
-            streak = old_absent + 1
-            state["absent_streak"][str(unit.get("id"))] = streak
-            # Do not remove on a single failed/missing directory observation.
-            if streak >= 2 and profile:
-                removed_ids.add(unit.get("id"))
-                state["removed"].append({"id": unit.get("id"), "name": name, "reason": "absent_two_consecutive_syncs"})
-                continue
+        if explicit_former:
+            removed.append({"id": unit.get("id"), "name": name, "reason": "explicit_former_status"})
+            continue
+        streak = int(old_absent.get(str(unit.get("id")), 0)) + 1
+        new_absent[str(unit.get("id"))] = streak
+        # A single absence is never enough. This is deliberately conservative.
+        if streak >= 2 and relevant_sources:
+            removed.append({"id": unit.get("id"), "name": name, "reason": "absent_from_union_for_two_successful_syncs"})
+            continue
         final.append(unit)
 
-    final.sort(key=lambda x: str(x.get("id", "")))
-    save_chunks(final)
-    state["updated_at"] = now()
-    state["unit_count_before"] = len(units)
-    state["unit_count_after"] = len(final)
-    state["removed_count"] = len(removed_ids)
-    save_state(state)
-    print(json.dumps({
+    final.sort(key=lambda item: str(item.get("id", "")))
+    write_chunks(final)
+    state = {
+        "version": 2,
+        "updated_at": now(),
+        "sources_checked": scanned,
+        "successful_source_count": len(successful),
+        "source_count": len(source_urls),
         "unit_count_before": len(units),
         "unit_count_after": len(final),
-        "added": len(state["added"]),
-        "removed": len(state["removed"]),
-        "sources_checked": len(source_urls),
-    }, ensure_ascii=False))
+        "added": added,
+        "removed": removed,
+        "absent_streak": new_absent,
+        "policy": "UNION: professor present in any trusted successful official source is kept; removal needs explicit former signal or two consecutive all-source absences.",
+    }
+    STATE.parent.mkdir(parents=True, exist_ok=True)
+    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"before": len(units), "after": len(final), "added": len(added), "removed": len(removed), "successful_sources": len(successful)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
