@@ -16,15 +16,16 @@
     if (/인문대학/.test(college)) return 'humanities';
     return 'scholarly';
   }
-  function verifiedItems(items, empty) {
+  function verifiedItems(items, empty, withSummary = false) {
     const list = (Array.isArray(items) ? items : []).filter(item => item && clean(item.title || item.name));
     if (!list.length) return '<p class="activity-empty">' + esc(empty) + '</p>';
-    return '<ul class="activity-list">' + list.slice(0, 12).map(item => {
+    return '<ul class="activity-list compact-list">' + list.slice(0, 3).map(item => {
       const label = clean(item.title || item.name);
       const note = clean(item.venue || item.organization || item.role || item.description);
       const date = clean(item.date || item.year);
+      const summary = withSummary ? clean(item.summary) : '';
       const link = safeUrl(item.url);
-      return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
+      return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + (summary ? '<p class="item-summary">' + esc(summary) + '</p>' : '') + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
     }).join('') + '</ul>';
   }
   function sourceLink(e) {
@@ -37,17 +38,15 @@
     const isMusic = type === 'music';
     const title = isMusic ? '음악 활동' : '예술 활동';
     const subtitle = isMusic
-      ? '공식 출처에서 확인된 연주·작품·수상·교육 활동만 표시합니다.'
-      : '개인전·단체전은 공식 출처에서 날짜가 확인된 최근 1년 활동만 표시합니다.';
+      ? '공식 출처에서 확인된 공연·작품·교육 활동을 핵심 항목만 보여줍니다.'
+      : '개인전·단체전은 날짜가 확인된 최근 1년 활동만, 최대 3건씩 보여줍니다.';
     const cards = isMusic ? [
       ['최근 공연·발표', verifiedItems(e.recent_performances, '최근 공연·발표 실적을 아직 확인하지 못했습니다.')],
-      ['작품·음반·창작 실적', verifiedItems(e.creative_works, '확인된 작품·음반·창작 실적이 아직 없습니다.')],
-      ['수상·주요 실적', verifiedItems(e.awards, '확인된 수상·주요 실적이 아직 없습니다.')],
+      ['작품·창작 실적', verifiedItems(e.creative_works, '확인된 작품·창작 실적이 아직 없습니다.')],
       ['전공·교육 활동', '<p class="activity-ai-text">' + esc(clean(e.education_summary || e.research_summary || x.fields) || '공식 소개의 전공·교육 활동 설명을 수집 중입니다.') + '</p>']
     ] : [
       ['최근 1년 개인전', verifiedItems(e.recent_solo_exhibitions, '최근 1년 개인전이 공식 출처에서 확인되지 않았습니다.')],
       ['최근 1년 단체전', verifiedItems(e.recent_group_exhibitions, '최근 1년 단체전이 공식 출처에서 확인되지 않았습니다.')],
-      ['작품·수상', verifiedItems([...(e.creative_works || []), ...(e.awards || [])], '확인된 작품·수상 실적이 아직 없습니다.')],
       ['전공·교육 활동', '<p class="activity-ai-text">' + esc(clean(e.education_summary || e.research_summary || x.fields) || '공식 소개의 전공·교육 활동 설명을 수집 중입니다.') + '</p>']
     ];
     return '<section class="activity-wrap discipline-activity ' + type + '"><div class="activity-title"><div><h3>' + title + '</h3><p>' + subtitle + '</p></div></div><div class="activity-grid">' + cards.map(([heading, body]) => '<article class="activity-card"><h4>' + heading + '</h4>' + body + '</article>').join('') + '</div>' + sourceLink(e) + '</section>';
@@ -56,17 +55,31 @@
     const e = enrichment(x);
     const a = activity(x);
     const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (a.papers || []);
-    return '<section class="activity-wrap discipline-activity humanities"><div class="activity-title"><div><h3>학술 활동</h3><p>공식 출처에서 확인된 논문·저서·학술발표·연구과제만 표시합니다.</p></div></div><div class="activity-grid">' +
-      '<article class="activity-card"><h4>논문</h4>' + verifiedItems(papers, '확인된 논문 목록이 아직 없습니다.') + '</article>' +
+    return '<section class="activity-wrap discipline-activity humanities"><div class="activity-title"><div><h3>학술 활동</h3><p>공식 출처에서 확인된 핵심 학술 활동만, 항목별 최대 3건으로 보여줍니다.</p></div></div><div class="activity-grid">' +
+      '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 논문 목록이 아직 없습니다.', true) + '</article>' +
       '<article class="activity-card"><h4>저서·편저</h4>' + verifiedItems(e.books, '확인된 저서·편저 목록이 아직 없습니다.') + '</article>' +
-      '<article class="activity-card"><h4>학술발표</h4>' + verifiedItems(e.conference_presentations, '확인된 학술발표 목록이 아직 없습니다.') + '</article>' +
-      '<article class="activity-card"><h4>연구과제</h4>' + verifiedItems(e.research_projects, '확인된 연구과제가 아직 없습니다.') + '</article></div>' + sourceLink(e) + '</section>';
+      '<article class="activity-card"><h4>연구과제·학술발표</h4>' + verifiedItems([...(e.research_projects || []), ...(e.conference_presentations || [])], '확인된 연구과제·학술발표가 아직 없습니다.') + '</article></div>' + sourceLink(e) + '</section>';
+  }
+  function academicActivityHtml(x) {
+    const e = enrichment(x), a = activity(x);
+    const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (a.papers || []);
+    const people = Array.isArray(e.current_members) ? e.current_members : [];
+    const groups = people.reduce((acc, person) => {
+      const role = clean(person.role);
+      const key = /박사/.test(role) ? '박사과정' : /석사/.test(role) ? '석사과정' : /학부/.test(role) ? '학부연구생' : /교수|연구원|postdoc/i.test(role) ? '교수·연구원' : '기타';
+      acc[key] = (acc[key] || 0) + 1; return acc;
+    }, {});
+    const memberText = Object.entries(groups).map(([name, count]) => name + ' ' + count + '명').join(' · ');
+    return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3><p>공식 출처로 확인된 핵심 정보만 모바일에서 빠르게 볼 수 있게 요약합니다.</p></div></div><div class="activity-grid">' +
+      '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
+      '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p></article>' +
+      '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + sourceLink(e) + '</section>';
   }
   window.activityHtml = function(x) {
     const kind = profile(x);
     if (kind === 'music' || kind === 'fine_arts') return creativeActivityHtml(x, kind);
     if (kind === 'humanities') return humanitiesActivityHtml(x);
-    return fallbackActivityHtml ? fallbackActivityHtml(x) : '';
+    return academicActivityHtml(x);
   };
 
   const input = document.querySelector('#q');
