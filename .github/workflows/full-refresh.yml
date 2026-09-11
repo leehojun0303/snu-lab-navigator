@@ -1,0 +1,56 @@
+name: Rebuild SNU lab detail data from start
+
+on:
+  workflow_dispatch:
+    inputs:
+      time_budget_minutes:
+        description: Maximum rebuild time in minutes
+        required: false
+        default: '285'
+      max_ai_requests:
+        description: Maximum Gemini enrichment requests in this run
+        required: false
+        default: '400'
+  push:
+    paths:
+      - 'data/FULL_REFRESH_REQUEST'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snu-lab-full-refresh
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.event_name != 'push' || github.actor != 'snu-lab-automation'
+    runs-on: ubuntu-latest
+    timeout-minutes: 315
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Clean derived state and rebuild in professor-name order
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TIME_BUDGET_MINUTES: ${{ github.event_name == 'workflow_dispatch' && inputs.time_budget_minutes || '285' }}
+          MAX_AI_REQUESTS: ${{ github.event_name == 'workflow_dispatch' && inputs.max_ai_requests || '400' }}
+          MAX_UNITS: '100000'
+          BATCH_SIZE: '40'
+        run: |
+          python tools/full_refresh_entry.py --max-units "$MAX_UNITS" --time-budget-minutes "$TIME_BUDGET_MINUTES" --max-ai-requests "$MAX_AI_REQUESTS" --batch-size "$BATCH_SIZE"
+      - name: Store rebuilt snapshot
+        run: |
+          if git diff --quiet -- dist/automation-data.js data/automation-state.json; then
+            echo "No derived snapshot changes"
+            exit 0
+          fi
+          git config user.name "snu-lab-automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/automation-data.js data/automation-state.json
+          git commit -m "Rebuild official lab detail snapshot from start"
+          git fetch origin main
+          git rebase origin/main
+          git push
