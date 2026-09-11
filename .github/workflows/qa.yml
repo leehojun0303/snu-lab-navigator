@@ -1,0 +1,33 @@
+name: Validate SNU Lab Navigator
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - 'tools/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python syntax and release checks
+        run: |
+          python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py tools/test_static.py tools/test_automation_features.py
+          python tools/test_static.py
+          python tools/test_automation_features.py
+      - name: JavaScript syntax checks
+        run: |
+          node --check dist/app.js
+          node --check dist/quality-overrides.js
+          node --check dist/showcase-data.js
+          node --check dist/favorites-compare.js
