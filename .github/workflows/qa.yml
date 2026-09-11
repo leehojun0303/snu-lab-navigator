@@ -6,6 +6,7 @@ on:
     paths:
       - 'dist/**'
       - 'tools/**'
+      - 'supabase/**'
       - '.github/workflows/**'
   workflow_dispatch:
 
@@ -16,8 +17,8 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Python syntax and release checks
@@ -31,3 +32,13 @@ jobs:
           node --check dist/quality-overrides.js
           node --check dist/showcase-data.js
           node --check dist/favorites-compare.js
+          node --check dist/account.js
+          node --check dist/account-ai-bridge.js
+      - name: Account/security consistency checks
+        run: |
+          test ! -e supabase/functions/user-secret/index.ts
+          ! grep -q 'gemini_keys' supabase/migrations/20260911_user_accounts.sql
+          grep -q 'GEMINI_API_KEY' supabase/functions/gemini-proxy/index.ts
+          grep -q 'SUPABASE_SERVICE_ROLE_KEY' supabase/functions/gemini-proxy/index.ts
+          ! grep -qi 'password' dist/account.js
+          ! grep -qi 'Gemini API 키' dist/account.js
