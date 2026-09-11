@@ -1,0 +1,9 @@
+# SNU Lab Navigator Supabase function configuration
+# The app intentionally uses ID-only application accounts instead of Supabase Auth JWTs.
+# The functions therefore validate the registered ID in their own handlers.
+
+[functions.gemini-proxy]
+verify_jwt = false
+
+[functions.account-registry]
+verify_jwt = false
