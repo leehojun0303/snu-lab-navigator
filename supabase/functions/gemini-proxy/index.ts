@@ -16,11 +16,10 @@ Deno.serve(async req=>{
   const geminiKey=cleanSecret(Deno.env.get('GEMINI_API_KEY')??'')
   if(!supabaseUrl||!serviceKey||!geminiKey)return json(500,{error:'server_not_configured',detail:'GEMINI_API_KEY, SUPABASE_URL, or SUPABASE_SERVICE_ROLE_KEY is missing'})
 
-  // ID-only account model: the request identifies a registered anonymous app account.
-  // Edge Function JWT verification must be disabled for this function because the
-  // app deliberately does not use a Supabase Auth bearer token for application login.
+  // ID-only account model. Supabase's platform JWT gate is disabled in
+  // supabase/config.toml; authorization is performed here using the registered ID.
   const username=String(req.headers.get('x-lab-username')||'').trim().toLowerCase()
-  if(!/^[a-z0-9_.-]{3,40}$/.test(username))return json(401,{error:'account_id_missing_or_invalid'})
+  if(!/^[a-z0-9_.-]{3,40}$/.test(username))return json(400,{error:'account_id_missing_or_invalid'})
 
   const service=createClient(supabaseUrl,serviceKey)
   const {data:account,error:accountError}=await service.from('lab_accounts').select('username').eq('username',username).maybeSingle()
@@ -39,12 +38,11 @@ Deno.serve(async req=>{
   })
   const payload=await upstream.text()
   if(upstream.status===401){
-    let detail='Gemini authentication failed.'
+    let detail='Gemini authentication failed. Check the deployed GEMINI_API_KEY in Supabase Edge Function secrets.'
     try{
       const parsed=JSON.parse(payload)
-      const reason=parsed?.error?.details?.find((x:any)=>x?.reason)?.reason
       const message=String(parsed?.error?.message||'').replace(/AIza[0-9A-Za-z_-]+|AQ\.[0-9A-Za-z._-]+/g,'[REDACTED]')
-      detail=reason?`Gemini 인증 실패 (${reason}). ${message}`:`Gemini 인증 실패. ${message}`
+      if(message)detail=message
     }catch(_){/* keep generic */}
     return json(502,{error:'gemini_authentication_failed',detail})
   }
