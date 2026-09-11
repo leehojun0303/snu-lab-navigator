@@ -271,11 +271,11 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_live_progress(units, state, checked, target, mode, done=False, ai_status="ready"):
+def write_live_progress(units, state, checked, target, mode, done=False, paused=False, ai_status="ready"):
     path = ROOT / "data" / "automation-progress.json"
     total = len(units)
     enriched = sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id"))
-    status = "completed" if done else ("running" if checked > 0 else "starting")
+    status = "completed" if done else ("paused" if paused else ("running" if checked > 0 else "starting"))
     payload = {
         "status": status,
         "checked": int(min(checked, total)),
@@ -318,7 +318,14 @@ def main():
                 try:
                     raw, error = future.result()
                     if raw:
-                        enrichment, verify_error = verify_with_gemini(key, model, unit, raw, budget); raw["_unit_id"] = uid
+                        previous = state["records"].get(uid, {})
+                        existing = raw.get("enrichment") or {}
+                        needs_ai = (
+                            previous.get("fingerprint") != raw.get("fingerprint")
+                            or existing.get("_quality_gate") != "ai_verified_v2_compact_detail"
+                        )
+                        enrichment, verify_error = (verify_with_gemini(key, model, unit, raw, budget) if needs_ai else (existing, None))
+                        raw["_unit_id"] = uid
                         if enrichment:
                             raw["enrichment"] = enrichment; raw["activity"]["publicationPages"] = enrichment.get("verified_publication_pages", []); raw["activity"]["recruitmentPages"] = enrichment.get("verified_recruitment_pages", []); raw["activity"]["membersUrl"] = enrichment.get("member_page_url", ""); raw["activity"]["posterStatus"] = enrichment.get("poster_status", "none_detected"); raw["activity"].pop("posterCandidates", None)
                         if verify_error: raw["verify_error"] = verify_error
@@ -333,7 +340,7 @@ def main():
         write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
     if checked == 0:
         collector.write(state, units, 0, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
-    write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target), ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
+    write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target), paused=(checked < target), ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
     print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
 
 
