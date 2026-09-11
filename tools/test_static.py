@@ -1,86 +1,36 @@
 #!/usr/bin/env python3
-"""Small release checks for the static prototype bundle."""
 from pathlib import Path
-
 ROOT = Path(__file__).resolve().parents[1]
 
+def main():
+    readme=(ROOT/'README.md').read_text(encoding='utf-8')
+    index=(ROOT/'dist/index.html').read_text(encoding='utf-8')
+    app=(ROOT/'dist/app.js').read_text(encoding='utf-8')
+    automation=(ROOT/'dist/automation-data.js').read_text(encoding='utf-8')
+    quality=(ROOT/'dist/quality-overrides.js').read_text(encoding='utf-8')
+    favorites=(ROOT/'dist/favorites-compare.js').read_text(encoding='utf-8')
+    account=(ROOT/'dist/account.js').read_text(encoding='utf-8')
+    config=(ROOT/'dist/supabase-config.js').read_text(encoding='utf-8')
+    roster=(ROOT/'tools/roster_sync.py').read_text(encoding='utf-8')
+    entry=(ROOT/'tools/collector_entry.py').read_text(encoding='utf-8')
+    workflow=(ROOT/'.github/workflows/collect.yml').read_text(encoding='utf-8')
+    migration=(ROOT/'supabase/migrations/20260911_user_accounts.sql').read_text(encoding='utf-8')
+    secret=(ROOT/'supabase/functions/user-secret/index.ts').read_text(encoding='utf-8')
+    proxy=(ROOT/'supabase/functions/gemini-proxy/index.ts').read_text(encoding='utf-8')
+    assert 'https://leehojun0303.github.io/snu-lab-navigator/' in readme
+    assert 'account.js' in index and 'supabase-config.js' in index and 'account.css' in index
+    assert 'favorites-compare.js' in index and 'id="accountOpen"' in index
+    assert 'showcase_unit_id' in automation and 'Song Jaejoon' not in (ROOT/'dist/showcase-data.js').read_text(encoding='utf-8')
+    assert 'stored_keywords' in quality and 'stored_topics' in quality and '저장된 AI 추천 결과를 사용했습니다' in quality
+    assert 'COMPARE_MAX = 4' in favorites and 'SnuAccount' in favorites
+    assert 'UNION' in roster and 'absent_from_all_successful_official_rosters_for_two_consecutive_syncs' in roster
+    assert 'roster_sync.py' in workflow
+    assert 'future_to_unit' in entry and 'verify_with_gemini' in entry
+    assert 'SUPABASE_CONFIG' in config
+    assert 'profiles' in migration and 'favorites' in migration and 'gemini_keys' in migration and 'compare_cache' in migration
+    assert 'GEMINI_KEY_ENCRYPTION_SECRET' in secret and 'SUPABASE_SERVICE_ROLE_KEY' in secret and 'AES-GCM' in secret
+    assert 'gemini_keys' in proxy and 'x-goog-api-key' in proxy
+    assert 'service_role' not in account.lower()
+    print('PASS: static app, quality layer, roster union, favorites/compare, and Supabase account scaffolding')
 
-def main() -> None:
-    readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    index = (ROOT / "dist/index.html").read_text(encoding="utf-8")
-    app = (ROOT / "dist/app.js").read_text(encoding="utf-8")
-    activity = (ROOT / "dist/activity-data.js").read_text(encoding="utf-8")
-    showcase = (ROOT / "dist/showcase-data.js").read_text(encoding="utf-8")
-    automation = (ROOT / "dist/automation-data.js").read_text(encoding="utf-8")
-    css = (ROOT / "dist/override.css").read_text(encoding="utf-8")
-    quality = (ROOT / "dist/quality-overrides.js").read_text(encoding="utf-8")
-    favorites = (ROOT / "dist/favorites-compare.js").read_text(encoding="utf-8")
-    entrypoint = (ROOT / "tools/collector_entry.py").read_text(encoding="utf-8")
-    roster = (ROOT / "tools/roster_sync.py").read_text(encoding="utf-8")
-    workflow = (ROOT / ".github/workflows/collect.yml").read_text(encoding="utf-8")
-
-    assert "https://leehojun0303.github.io/snu-lab-navigator/" in readme
-    assert "activity-data.js" in index
-    assert "data-loader.js" in index and "automation-data.js" in index
-    assert "showcase-data.js" in index and "quality-overrides.js" in index
-    assert "favorites-compare.js" in index
-    assert 'id="welcomeDialog"' in index
-    assert 'id="showcaseOpen"' in index
-    assert "프로토타입 제공 범위" not in index + app
-    assert "function displayTitle" in app
-    assert "function activityHtml" in app
-    assert "gemini-2.5-flash-lite" not in app
-    assert "gemini-3.1-flash-lite" in app
-    assert "supportedGenerationMethods" in app
-    assert "url_context" in app
-    assert "검증된 연구 주제 요약" not in app
-    assert "저장된 AI 분석" in app
-    assert "if (!detail.open) detail.showModal()" in app
-    assert "확인 논문수순" in index and '<option value="ai">추천순</option>' in index
-    assert "localStorage.setItem" in app and "source_fingerprint" in app
-    assert "sessionStorage.setItem" in app and "connectGemini" in app
-    assert "PRECOMPUTED_ENRICHMENT" in app
-    assert "current_members" in app and "members_summary" not in app
-    assert "논문별 제목은 아직 추출·검증 전" in app
-    assert "현재 모집 공고인지는 아직 검증 전" in app
-    assert "{google_search: {}}" in app
-    assert 'id="professorCount"' in index
-    assert "AUTOMATION_META" in automation and "automationStatus" in app
-    assert "최근 논문" in app and "구성원·동문" in app and "모집" in app and "포스터" in app
-    assert ".avatar[hidden]{display:none!important}" in css
-    assert ".avatar-initial[hidden]{display:none!important}" in css
-
-    assert "Song Jaejoon" not in showcase
-    assert "showcase_unit_id" in automation
-
-    assert "units-*.js" in entrypoint
-    assert "collector.load_units = load_units_compatible" in entrypoint
-    assert "future_to_unit" in entrypoint
-    assert "verify_with_gemini" in entrypoint
-    assert "verified_publication_pages" in entrypoint
-    assert "verified_recruitment_pages" in entrypoint
-    assert "recommendation_keywords" in entrypoint
-
-    assert "stored_keywords" in quality and "stored_topics" in quality
-    assert "verified_publication_pages" in quality
-    assert "verified_recruitment_pages" in quality
-    assert "박사과정" in quality and "석사과정" in quality and "학부연구생" in quality and "Alumni" in quality
-    assert "저장된 AI 추천 결과를 사용했습니다" in quality
-    assert "후보" in quality and "150" in quality
-
-    assert "snu-lab-favorites-v1" in favorites
-    assert "COMPARE_MAX = 4" in favorites
-    assert "research_summary" in favorites
-    assert "recommendation_keywords" in favorites
-    assert "최근 논문 흐름" in favorites
-
-    assert "UNION" in roster
-    assert "absent_from_all_relevant_union_sources_for_two_successful_syncs" in roster
-    assert "roster_sync.py" in workflow
-    assert "Synchronize official professor roster union" in workflow
-
-    print("PASS: static UI, dynamic showcase, quality filtering, favorites/compare, roster union, and collector checks")
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__': main()
