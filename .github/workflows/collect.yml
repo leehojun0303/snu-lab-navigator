@@ -7,6 +7,7 @@ on:
       - 'tools/automated_enrichment.py'
       - 'tools/automated_enrichment_v2.py'
       - 'tools/collector_entry.py'
+      - 'tools/roster_sync.py'
       - '.github/workflows/collect.yml'
   schedule:
     # 03:00 KST. The collector stops cleanly by 07:45 KST.
@@ -25,6 +26,10 @@ on:
         description: Maximum changed-page Gemini summaries in this run
         required: false
         default: '400'
+      roster_max_pages:
+        description: Maximum official roster directory pages to inspect
+        required: false
+        default: '100000'
 
 permissions:
   contents: write
@@ -46,6 +51,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Synchronize official professor roster union
+        if: ${{ github.event_name != 'push' }}
+        env:
+          ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
+        run: python tools/roster_sync.py --workers 12 --max-pages "$ROSTER_MAX_PAGES"
       - name: Incremental official-source scan
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -61,14 +71,14 @@ jobs:
           --batch-size "$BATCH_SIZE"
       - name: Store changed snapshot
         run: |
-          if git diff --quiet -- dist/automation-data.js data/automation-state.json; then
+          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json; then
             echo "No snapshot changes"
             exit 0
           fi
           git config user.name "snu-lab-automation"
           git config user.email "actions@users.noreply.github.com"
-          git add dist/automation-data.js data/automation-state.json
-          git commit -m "Update official-source research snapshot"
+          git add dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json
+          git commit -m "Update official roster and research snapshot"
           git fetch origin main
           git rebase origin/main
           git push
