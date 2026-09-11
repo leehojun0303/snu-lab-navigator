@@ -1,14 +1,6 @@
 name: Refresh official SNU lab data
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/automated_enrichment.py'
-      - 'tools/automated_enrichment_v2.py'
-      - 'tools/collector_entry.py'
-      - 'tools/roster_sync.py'
-      - '.github/workflows/collect.yml'
   schedule:
     # 03:00 KST. The collector stops cleanly by 07:45 KST.
     - cron: '0 18 * * *'
@@ -52,17 +44,16 @@ jobs:
         with:
           python-version: '3.12'
       - name: Synchronize official professor roster union
-        if: ${{ github.event_name != 'push' }}
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
-        run: python tools/roster_sync.py --workers 12 --max-pages "$ROSTER_MAX_PAGES"
+        run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
       - name: Incremental official-source scan
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          MAX_UNITS: ${{ github.event_name == 'schedule' && '100000' || github.event_name == 'push' && '12' || inputs.max_units || '100000' }}
-          TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '285' || github.event_name == 'push' && '0' || inputs.time_budget_minutes || '285' }}
-          MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '400' || github.event_name == 'push' && '12' || inputs.max_ai_requests || '400' }}
-          BATCH_SIZE: ${{ github.event_name == 'push' && '12' || '40' }}
+          MAX_UNITS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_units || '100000' }}
+          TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '285' || inputs.time_budget_minutes || '285' }}
+          MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '400' || inputs.max_ai_requests || '400' }}
+          BATCH_SIZE: '40'
         run: >-
           python tools/collector_entry.py
           --max-units "$MAX_UNITS"
