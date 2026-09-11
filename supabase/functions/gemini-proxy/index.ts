@@ -2,7 +2,7 @@ import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': 'https://leehojun0303.github.io',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type, x-lab-username',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 }
 const json=(status:number,body:unknown)=>new Response(JSON.stringify(body),{status,headers:{...corsHeaders,'Content-Type':'application/json'}})
@@ -15,16 +15,18 @@ Deno.serve(async req=>{
   const geminiKey=Deno.env.get('GEMINI_API_KEY')??''
   if(!supabaseUrl||!serviceKey||!geminiKey)return json(500,{error:'server_not_configured'})
 
-  const authHeader=req.headers.get('Authorization')??''
-  if(!authHeader.startsWith('Bearer '))return json(401,{error:'missing_auth'})
+  // The app intentionally uses a simple ID-only account model. Do not require
+  // a Supabase Auth bearer token here; verify that the submitted ID is a
+  // registered lab account instead. This preserves the requested ability to
+  // recover an account from any browser/device using only its ID. Note that
+  // this is not suitable for sensitive/private account data.
+  const username=String(req.headers.get('x-lab-username')||'').trim().toLowerCase()
+  if(!/^[a-z0-9_.-]{3,40}$/.test(username))return json(401,{error:'missing_or_invalid_account_id'})
+
   const service=createClient(supabaseUrl,serviceKey)
-  const token=authHeader.slice('Bearer '.length)
-  const {data:{user},error:authError}=await service.auth.getUser(token)
-  if(authError||!user)return json(401,{error:'invalid_auth'})
-  const username=String(user.user_metadata?.username??'').trim().toLowerCase()
-  if(!username)return json(403,{error:'account_id_missing'})
   const {data:account,error:accountError}=await service.from('lab_accounts').select('username').eq('username',username).maybeSingle()
-  if(accountError||!account)return json(403,{error:'account_not_registered'})
+  if(accountError)return json(500,{error:accountError.message})
+  if(!account)return json(403,{error:'account_not_registered'})
 
   const input=await req.json().catch(()=>({}))
   const model=String(input.model||'gemini-3.1-flash-lite').replace(/^models\//,'')
