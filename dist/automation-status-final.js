@@ -5,7 +5,7 @@
     const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
     const meta=window.AUTOMATION_META||{};
     const validated=meta.snapshot_status==='validated'&&Boolean(meta.validated_at)&&Number(meta.enriched_units)>=0&&Number(meta.checked_units)>0;
-    if(!validated){if(badge)badge.textContent='자동 수집 검증 중';if(status)status.textContent='최신 자동 수집 결과 검증 중';if(coverage)coverage.textContent='검증 완료 후 표시';return false;}
+    if(!validated){if(badge)badge.textContent='새 상세 형식 수집 대기';if(status)status.textContent='새 형식으로 수집을 시작하면 이번 실행의 처리 수를 표시합니다.';if(coverage)coverage.textContent='이번 형식 0개 처리';return false;}
     const enriched=Number(meta.enriched_units),checked=Number(meta.checked_units);
     if(badge)badge.textContent=`자동 수집 ${Math.max(0,enriched).toLocaleString()}개 저장`;
     if(status)status.textContent='검증 완료';
@@ -20,15 +20,15 @@
       const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
       if(p.status==='running'||p.status==='starting'){
         const checked=Number(p.checked)||0,total=Number(p.total)||0,enriched=Number(p.enriched)||0;
-        if(badge)badge.textContent='자동 수집 검증 중';
-        if(status)status.textContent=`수집 중 · ${checked.toLocaleString()} / ${total.toLocaleString()}개 확인`;
-        if(coverage)coverage.textContent=`현재 분석 ${enriched.toLocaleString()}개`;
+        if(badge)badge.textContent='새 상세 형식 수집 중';
+        if(status)status.textContent=`이번 실행 · ${checked.toLocaleString()} / ${total.toLocaleString()}개 처리`;
+        if(coverage)coverage.textContent=`이번 형식 분석 ${enriched.toLocaleString()}개`;
       }else if(p.status==='completed'){
         const checked=Number(p.checked)||0,total=Number(p.total)||0,enriched=Number(p.enriched)||0;
         if(total>0&&checked>=total){
-          if(badge)badge.textContent=`자동 수집 ${enriched.toLocaleString()}개 저장`;
-          if(status)status.textContent='전체 수집 완료 · 최종 검증 대기';
-          if(coverage)coverage.textContent=`${enriched.toLocaleString()}개 분석 · ${checked.toLocaleString()}개 확인`;
+          if(badge)badge.textContent=`새 상세 형식 ${enriched.toLocaleString()}개 저장`;
+          if(status)status.textContent=`이번 전체 수집 완료 · ${checked.toLocaleString()}개 처리`;
+          if(coverage)coverage.textContent=`이번 형식 분석 ${enriched.toLocaleString()}개`;
         }
       }
     }catch(_){if(!fallbackValidated){}}
