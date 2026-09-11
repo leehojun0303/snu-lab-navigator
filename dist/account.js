@@ -3,15 +3,17 @@
   const cfg = window.SUPABASE_CONFIG || {};
   const ready = Boolean(cfg.url && cfg.anonKey && window.supabase?.createClient);
   const supa = ready ? window.supabase.createClient(cfg.url, cfg.anonKey) : null;
-  const RECENT_IDS = 'snu-lab-recent-usernames-v9';
+  const RECENT_IDS = 'snu-lab-recent-usernames-v10';
   let currentUser = null;
   let currentUsername = '';
+  let busy = false;
   const $ = (s,r=document)=>r.querySelector(s);
   const esc = v => String(v ?? '').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
   const valid = v => /^[a-z0-9_.-]{3,40}$/.test(v);
   const recentIds = () => { try { const x=JSON.parse(localStorage.getItem(RECENT_IDS)||'[]'); return Array.isArray(x)?x:[]; } catch(_){ return []; } };
   const saveRecent = id => localStorage.setItem(RECENT_IDS,JSON.stringify([id,...recentIds().filter(x=>x!==id)].slice(0,5)));
   const getSession = async()=>{ if(!supa)return null; const {data,error}=await supa.auth.getSession(); if(error)throw error; return data.session||null; };
+  const updateHeader = () => { const b=$('#accountOpen'); if(!b)return; b.textContent=currentUsername?`👤 ${currentUsername}`:'로그인'; b.title=currentUsername?`${currentUsername} 계정으로 로그인됨 · 클릭하면 ID 로그인 화면`:'ID를 입력해 로그인'; };
 
   async function rpcLogin(id){
     const {data,error}=await supa.rpc('login_lab_account',{p_username:id});
@@ -28,8 +30,8 @@
     await supa.auth.signOut().catch(()=>{});
     const {data,error}=await supa.auth.signInAnonymously({options:{data:{username:id}}});
     if(error)throw new Error(`인증 세션을 만들지 못했습니다: ${error.message}`);
-    if(!data?.session?.user)throw new Error('익명 인증 세션 생성에 실패했습니다. Supabase Anonymous Sign-Ins를 확인해 주세요.');
-    currentUser=data.session.user; currentUsername=id; saveRecent(id); window.dispatchEvent(new Event('snu-account-changed')); return data.session;
+    if(!data?.session?.user)throw new Error('인증 세션 생성에 실패했습니다. Supabase Anonymous Sign-Ins를 확인해 주세요.');
+    currentUser=data.session.user; currentUsername=id; saveRecent(id); updateHeader(); window.dispatchEvent(new Event('snu-account-changed')); return data.session;
   }
   async function login(id){
     id=id.trim().toLowerCase();
@@ -49,8 +51,7 @@
   }
   async function logout(){
     if(supa)await supa.auth.signOut().catch(()=>{});
-    currentUser=null; currentUsername=''; localStorage.removeItem('snu-lab-current-username');
-    window.dispatchEvent(new Event('snu-account-changed'));
+    currentUser=null; currentUsername=''; localStorage.removeItem('snu-lab-current-username'); updateHeader(); window.dispatchEvent(new Event('snu-account-changed'));
   }
   async function loadFavorites(){
     if(!supa||!currentUsername)return [];
@@ -82,14 +83,21 @@
     $('#accountSwitch').onclick=()=>render(signupMode?'login':'signup');
     $('#accountLogoutGo')?.addEventListener('click',async()=>{await logout();render('login','로그아웃했습니다. 다시 ID를 입력해 로그인할 수 있습니다.');});
     body.querySelectorAll('.recent-user').forEach(b=>b.onclick=()=>{$('#accountIdInput').value=b.dataset.id;$('#accountIdInput').focus();});
-    $('#accountPrimaryGo').onclick=async()=>{const s=$('#accountStatus');const id=$('#accountIdInput').value;s.textContent=signupMode?'회원가입 중…':'로그인 중…';try{await (signupMode?signup:login)(id);d.close();}catch(e){s.textContent=e.message;$('#accountIdInput').focus();}};
-    if(!d.open)d.showModal();setTimeout(()=>$('#accountIdInput')?.focus(),0);
+    $('#accountPrimaryGo').onclick=async()=>{
+      if(busy)return;
+      const s=$('#accountStatus'),id=$('#accountIdInput').value;
+      busy=true; $('#accountPrimaryGo').disabled=true; $('#accountSwitch').disabled=true;
+      s.textContent=signupMode?'회원가입 중…':'로그인 중…';
+      try{await (signupMode?signup:login)(id);d.close();}
+      catch(e){s.textContent=e.message||'처리 중 오류가 발생했습니다.';$('#accountIdInput').focus();}
+      finally{busy=false; $('#accountPrimaryGo').disabled=false; $('#accountSwitch').disabled=false;}
+    };
+    if(!d.open)d.showModal(); setTimeout(()=>$('#accountIdInput')?.focus(),0);
   }
   function init(){
+    updateHeader();
     if(!ready)return;
-    // Do not restore the app login state automatically. The ID is entered every time.
     const button=$('#accountOpen'); if(button)button.onclick=()=>render('login');
-    if(supa)supa.auth.onAuthStateChange(()=>{});
     window.SnuAccount={isConfigured:()=>ready,isLoggedIn:()=>Boolean(currentUser&&currentUsername),isAuthReady:()=>true,open:()=>render('login'),login,signup,logout,setFavorite,loadFavorites,callGemini,getUser:()=>currentUser,getUsername:()=>currentUsername};
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
