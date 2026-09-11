@@ -2,8 +2,9 @@ name: Refresh official SNU lab data
 
 on:
   schedule:
-    # 03:00 KST. The collector stops cleanly by 07:45 KST.
-    - cron: '0 18 * * *'
+    # Every five hours in KST: 03:00, 08:00, 13:00, 18:00, 23:00.
+    # Each run has a 285-minute budget, so the next cycle resumes promptly.
+    - cron: '0 18,23,4,9,14 * * *'
   workflow_dispatch:
     inputs:
       max_units:
@@ -17,7 +18,7 @@ on:
       max_ai_requests:
         description: Maximum changed-page Gemini summaries in this run
         required: false
-        default: '400'
+        default: '100000'
       roster_max_pages:
         description: Maximum official roster directory pages to inspect
         required: false
@@ -52,7 +53,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MAX_UNITS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_units || '100000' }}
           TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '285' || inputs.time_budget_minutes || '285' }}
-          MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '400' || inputs.max_ai_requests || '400' }}
+          MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_ai_requests || '100000' }}
           BATCH_SIZE: '40'
         run: >-
           python tools/collector_entry.py
@@ -62,13 +63,13 @@ jobs:
           --batch-size "$BATCH_SIZE"
       - name: Store changed snapshot
         run: |
-          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json data/automation-progress.json; then
+          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json; then
             echo "No snapshot changes"
             exit 0
           fi
           git config user.name "snu-lab-automation"
           git config user.email "actions@users.noreply.github.com"
-          git add dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json
+          git add dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json
           git commit -m "Update official roster and research snapshot"
           git fetch origin main
           git rebase origin/main
