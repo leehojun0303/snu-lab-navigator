@@ -1,16 +1,26 @@
 #!/usr/bin/env python3
-"""Stable entrypoint for the current collector.
+"""Stable entrypoint and quality gate for the SNU Lab Navigator collector.
 
-The published dataset is chunked under dist/data/units-*.js. The current v2
-collector expects dist/data.js, so this entrypoint supplies a compatibility
-loader before delegating to the existing collector main().
+The legacy v2 collector performs static discovery. This entrypoint deliberately
+owns the concurrent orchestration so each completed future is written back to
+its own professor/unit id (never by completion order). It then sends one compact
+Gemini URL-Context verification request per inspected unit to reject unrelated
+faculty news, generic admissions pages, member misclassification, and profile
+photos masquerading as posters.
 """
 from __future__ import annotations
 
+import argparse
+import concurrent.futures
 import json
+import os
 import re
 import sys
+import time
+from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
@@ -28,17 +38,15 @@ def load_units_compatible():
             raise RuntimeError("No dist/data.js or dist/data/units-*.js found")
         for index, path in enumerate(chunks):
             text = path.read_text(encoding="utf-8")
-            pattern = (r"window\.RESEARCH_UNITS\s*=\s*(.+?)\s*;\s*$"
+            pattern = (r"window\\.RESEARCH_UNITS\\s*=\\s*(.+?)\\s*;\\s*$"
                        if index == 0 else
-                       r"window\.RESEARCH_UNITS\.push\(\.\.\.(.+?)\);\s*$")
+                       r"window\\.RESEARCH_UNITS\\.push\\(\\.\\.\\.(.+?)\\);\\s*$")
             match = re.search(pattern, text, re.S)
             if not match:
                 raise RuntimeError(f"Cannot parse research-unit chunk {path.name}")
             units.extend(json.loads(match.group(1)))
-
     supplement_path = collector.DIST / "roster-supplements.js"
-    supplements = (collector.js(supplement_path, "RESEARCH_UNIT_SUPPLEMENTS")
-                   if supplement_path.exists() else [])
+    supplements = collector.js(supplement_path, "RESEARCH_UNIT_SUPPLEMENTS") if supplement_path.exists() else []
     merged = {}
     for item in [*units, *supplements]:
         key = "|".join(str(item.get(k, "")).strip() for k in ("college", "department", "name"))
@@ -48,5 +56,358 @@ def load_units_compatible():
 
 collector.load_units = load_units_compatible
 
+
+def now():
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def clean_url(value):
+    value = str(value or "")
+    match = re.search(r"https?://[^\\s;,|]+", value)
+    return match.group(0).rstrip(").]}") if match else ""
+
+
+def allowed(url, unit):
+    host = (urlparse(url).hostname or "").lower()
+    if not host:
+        return False
+    official = host == "snu.ac.kr" or host.endswith(".snu.ac.kr") or host == "snu.elsevierpure.com"
+    supplied = {
+        (urlparse(clean_url(unit.get(k))).hostname or "").lower()
+        for k in ("homepage", "profile", "departmentUrl")
+        if clean_url(unit.get(k))
+    }
+    return official or host in supplied
+
+
+def http_json(url, key, payload, timeout=60):
+    request = Request(url, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                      headers={"x-goog-api-key": key, "content-type": "application/json"}, method="POST")
+    with urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def model_for(key):
+    request = Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=100",
+                      headers={"x-goog-api-key": key})
+    with urlopen(request, timeout=12) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    usable = [
+        str(item.get("name", "")).removeprefix("models/")
+        for item in payload.get("models", [])
+        if "generateContent" in item.get("supportedGenerationMethods", [])
+        and "flash-lite" in str(item.get("name", "")).lower()
+    ]
+    if not usable:
+        raise RuntimeError("No generateContent Flash-Lite model is available")
+    return next((name for name in usable if name == "gemini-3.1-flash-lite"), usable[0])
+
+
+def parse_json_candidate(payload):
+    parts = payload.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+    text = "".join(str(part.get("text", "")) for part in parts).strip()
+    text = re.sub(r"^```(?:json)?\\s*|\\s*```$", "", text, flags=re.I).strip()
+    data = json.loads(text or "{}")
+    return data if isinstance(data, dict) else {}
+
+
+def sanitize_items(items, unit, fields):
+    out = []
+    for item in items or []:
+        if not isinstance(item, dict):
+            continue
+        url = clean_url(item.get("url"))
+        title = str(item.get("title", "")).strip()
+        if url and not allowed(url, unit):
+            url = ""
+        if not title and not url:
+            continue
+        row = {"title": title[:450]}
+        if url:
+            row["url"] = url
+        for field in fields:
+            value = str(item.get(field, "")).strip()
+            if value:
+                row[field] = value[:180]
+        out.append(row)
+    seen = set()
+    deduped = []
+    for row in out:
+        key = re.sub(r"[^a-z0-9가-힣]", "", row.get("title", "").lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(row)
+    return deduped
+
+
+def clean_people(items):
+    groups = []
+    out = []
+    for item in items or []:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name", "")).strip()
+        role = str(item.get("role", "")).strip()
+        url = clean_url(item.get("url"))
+        if name and role:
+            row = {"name": name[:120], "role": role[:120]}
+            if url:
+                row["url"] = url
+            out.append(row)
+    seen = set()
+    for row in out:
+        key = re.sub(r"\\s+", "", row["name"]).lower()
+        if key not in seen:
+            seen.add(key)
+            groups.append(row)
+    return groups[:80]
+
+
+def recommendation_keywords(result):
+    values = []
+    for value in result.get("recommendation_keywords") or []:
+        value = re.sub(r"\\s+", " ", str(value)).strip()
+        if 2 <= len(value) <= 80:
+            values.append(value)
+    for value in result.get("research_topics") or []:
+        value = re.sub(r"\\s+", " ", str(value)).strip()
+        if 2 <= len(value) <= 100:
+            values.append(value)
+    seen = set()
+    out = []
+    for value in values:
+        key = re.sub(r"[^a-z0-9가-힣]", "", value.lower())
+        if key and key not in seen:
+            seen.add(key)
+            out.append(value)
+    return out[:24]
+
+
+def verify_with_gemini(key, model, unit, raw_record, budget):
+    if not key or not model or not budget.claim():
+        return dict(raw_record.get("enrichment") or {}), None
+    activity = raw_record.get("activity") or {}
+    source_urls = list(dict.fromkeys(
+        [clean_url(u) for u in activity.get("sourcePagesScanned", []) if clean_url(u)]
+        + [clean_url(x.get("url")) for x in activity.get("publicationPages", []) if clean_url(x.get("url"))]
+        + [clean_url(x.get("url")) for x in activity.get("recruitmentPages", []) if clean_url(x.get("url"))]
+        + ([clean_url(activity.get("membersUrl"))] if clean_url(activity.get("membersUrl")) else [])
+    ))[:24]
+    poster_candidates = []
+    for item in activity.get("posterCandidates", [])[:12]:
+        if not isinstance(item, dict):
+            continue
+        text = " ".join(str(item.get(k, "")) for k in ("url", "alt", "title")).lower()
+        if any(token in text for token in ("icon", "logo", "btn-", "avatar", "profile", "facebook", "twitter", "kakao", "youtube")):
+            continue
+        poster_candidates.append(item)
+    source_urls += [clean_url(x.get("url")) for x in poster_candidates if clean_url(x.get("url"))]
+    source_urls = list(dict.fromkeys([u for u in source_urls if allowed(u, unit)]))[:30]
+    prompt = {
+        "task": "Verify and extract facts for this specific SNU professor/lab. Use supplied official URLs as evidence.",
+        "today_kst": datetime.now().astimezone().strftime("%Y-%m-%d"),
+        "unit": {k: unit.get(k, "") for k in ("id", "name", "college", "department", "labs", "fields", "keywords")},
+        "candidate_urls": source_urls,
+        "raw_candidates": {
+            "publication_pages": activity.get("publicationPages", [])[:6],
+            "recruitment_pages": activity.get("recruitmentPages", [])[:6],
+            "member_url": activity.get("membersUrl", ""),
+            "poster_assets": poster_candidates,
+        },
+        "rules": [
+            "No inference. Every reported fact must be supported by an inspected official URL.",
+            "Publication verification: accept direct lab/professor publication lists or a paper page explicitly attributable to this professor/lab. Reject generic SNU/department research-highlights, press/news, other professors' awards, and unrelated thesis/admission pages.",
+            "Recruitment verification: accept current lab/team recruitment for this professor/lab. Reject university/department graduate admissions, general hiring, course registration, scholarships, dormitory, student-support, and generic entrance portals.",
+            "Members: only explicit named people from the professor/lab member page. Classify current people as PhD, Master, Undergraduate, or Other from the stated role. Put former members separately as Alumni.",
+            "Poster verification: a professor portrait, logo, icon, social-share image, or generic site image is never a poster. Verify only an actual research poster clearly attributable to this professor/lab. If attribution is unclear, use unverified_candidate rather than verified.",
+            "Research topics and recommendation keywords may be summarized from the verified research description, but must not introduce unsupported topics.",
+        ],
+        "output_schema": {
+            "research_summary": "string",
+            "research_topics": ["string"],
+            "recommendation_keywords": ["string"],
+            "recent_papers": [{"title": "string", "year": "string", "venue": "string", "url": "string"}],
+            "verified_publication_pages": [{"title": "string", "url": "string"}],
+            "recruitment_summary": "string",
+            "verified_recruitment_pages": [{"title": "string", "url": "string"}],
+            "recruitment_source_url": "string",
+            "current_members": [{"name": "string", "role": "string", "url": "string"}],
+            "alumni": [{"name": "string", "role": "string", "url": "string"}],
+            "member_page_url": "string",
+            "poster_status": "verified | unverified_candidate | none_detected | inaccessible",
+            "poster_title": "string",
+            "poster_date": "string",
+            "poster_event": "string",
+            "poster_image_url": "string",
+            "poster_source_url": "string",
+            "poster_evidence": "string",
+            "source_urls_used": ["string"],
+        },
+    }
+    payload = {
+        "contents": [{"role": "user", "parts": [{"text": json.dumps(prompt, ensure_ascii=False)}]}],
+        "tools": [{"url_context": {}}],
+        "generationConfig": {"temperature": 0, "responseMimeType": "application/json", "maxOutputTokens": 4200},
+    }
+    try:
+        response = http_json(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            key, payload, 75,
+        )
+        result = parse_json_candidate(response)
+        result["recent_papers"] = sanitize_items(result.get("recent_papers"), unit, ["year", "venue"])
+        result["verified_publication_pages"] = sanitize_items(result.get("verified_publication_pages"), unit, [])[:6]
+        result["verified_recruitment_pages"] = sanitize_items(result.get("verified_recruitment_pages"), unit, [])[:4]
+        source = clean_url(result.get("recruitment_source_url"))
+        result["recruitment_source_url"] = source if source and allowed(source, unit) else ""
+        member_url = clean_url(result.get("member_page_url"))
+        result["member_page_url"] = member_url if member_url and allowed(member_url, unit) else ""
+        result["current_members"] = clean_people(result.get("current_members"))
+        result["alumni"] = clean_people(result.get("alumni"))
+        result["research_topics"] = [re.sub(r"\\s+", " ", str(x)).strip()[:100] for x in (result.get("research_topics") or []) if str(x).strip()][:18]
+        result["recommendation_keywords"] = recommendation_keywords(result)
+        result["paper_count_visible"] = len(result["recent_papers"])
+        result["paper_count_scope"] = "AI가 공식 페이지에서 직접 확인한 논문 제목"
+        result["poster_status"] = str(result.get("poster_status", "none_detected")).lower()
+        if result["poster_status"] not in {"verified", "unverified_candidate", "none_detected", "inaccessible"}:
+            result["poster_status"] = "none_detected"
+        poster_image = clean_url(result.get("poster_image_url"))
+        unit_photo = clean_url(unit.get("photo"))
+        if result["poster_status"] == "verified" and (not poster_image or poster_image == unit_photo):
+            result["poster_status"] = "unverified_candidate" if poster_candidates else "none_detected"
+        if result["poster_status"] != "verified":
+            for field in ("poster_title", "poster_date", "poster_event", "poster_image_url", "poster_source_url", "poster_evidence"):
+                result[field] = ""
+        else:
+            result["poster_image_url"] = poster_image
+            source_url = clean_url(result.get("poster_source_url"))
+            result["poster_source_url"] = source_url if source_url and allowed(source_url, unit) else poster_image
+        result["source_urls_used"] = list(dict.fromkeys([
+            clean_url(x) for x in (result.get("source_urls_used") or []) if clean_url(x) and allowed(clean_url(x), unit)
+        ] + source_urls))[:30]
+        result["_unit_id"] = str(unit.get("id", ""))
+        result["_model"] = model
+        result["_saved_at"] = now()
+        result["_batch_saved"] = True
+        result["_quality_gate"] = "ai_verified_v1"
+        return result, None
+    except Exception as exc:
+        budget.used = max(0, budget.used - 1)
+        return {}, f"verify_{type(exc).__name__}"
+
+
+def append_output_metadata(units, state, checked, mode, ai_used):
+    output = collector.OUT
+    text = output.read_text(encoding="utf-8") if output.exists() else ""
+    trusted = {uid: record for uid, record in state.get("records", {}).items() if record.get("_unit_id") == uid}
+    sid, score, why = collector.showcase(units, trusted)
+    meta = {
+        "updated_at": now(),
+        "checked_units": len(state.get("records", {})),
+        "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")),
+        "checked_this_run": checked,
+        "cursor": state.get("cursor", 0),
+        "mode": mode,
+        "ai_requests_this_run": ai_used,
+        "showcase_unit_id": sid,
+        "showcase_score": score,
+        "showcase_reason": why,
+        "collector_version": "2.1",
+        "quality_gate": "future_completion_order_safe + ai_activity_verification",
+        "poster_policy": "verified_only_for_public_display",
+    }
+    lines = text.splitlines()
+    if lines and lines[0].startswith("window.AUTOMATION_META="):
+        lines[0] = "window.AUTOMATION_META=" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";"
+    else:
+        lines.insert(0, "window.AUTOMATION_META=" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";")
+    record_meta = {uid: {"unit_id": uid, "checked_at": r.get("checked_at", ""), "quality_gate": r.get("enrichment", {}).get("_quality_gate", "")}
+                   for uid, r in state.get("records", {}).items() if r.get("_unit_id") == uid}
+    lines.append("window.AUTOMATION_RECORD_META=" + json.dumps(record_meta, ensure_ascii=False, separators=(",", ":")) + ";")
+    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--max-units", type=int, default=int(os.getenv("MAX_UNITS", "80")))
+    parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--batch-size", type=int, default=int(os.getenv("BATCH_SIZE", "40")))
+    parser.add_argument("--time-budget-minutes", type=float, default=float(os.getenv("TIME_BUDGET_MINUTES", "0")))
+    parser.add_argument("--max-ai-requests", type=int, default=int(os.getenv("MAX_AI_REQUESTS", "400")))
+    args = parser.parse_args()
+
+    units = load_units_compatible()
+    state = collector.load_state()
+    state.setdefault("records", {})
+    state.setdefault("failures", {})
+    key = os.getenv("GEMINI_API_KEY", "").strip()
+    model = ""
+    if key:
+        try:
+            model = model_for(key)
+        except Exception as exc:
+            print(f"Gemini disabled: {exc}", flush=True)
+    budget = collector.Budget(args.max_ai_requests if model else 0)
+    started = time.monotonic()
+    deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None
+    target = min(max(0, args.max_units), len(units))
+    checked = 0
+    while checked < target:
+        if deadline and time.monotonic() >= deadline - 30:
+            print("Time budget reached; saving resumable progress.", flush=True)
+            break
+        cursor = int(state.get("cursor", 0)) % len(units)
+        batch = [units[(cursor + i) % len(units)] for i in range(min(max(1, args.batch_size), target - checked))]
+        future_to_unit = {}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
+            for unit in batch:
+                unit_id = str(unit.get("id", ""))
+                previous = state["records"].get(unit_id, {})
+                if previous.get("_unit_id") != unit_id:
+                    previous = {}
+                future = pool.submit(collector.scan, unit, "", "", previous, collector.Budget(0))
+                future_to_unit[future] = unit
+            for index, future in enumerate(concurrent.futures.as_completed(future_to_unit), 1):
+                unit = future_to_unit[future]
+                unit_id = str(unit.get("id", ""))
+                try:
+                    raw, error = future.result()
+                    if raw:
+                        enrichment, verify_error = verify_with_gemini(key, model, unit, raw, budget)
+                        raw["_unit_id"] = unit_id
+                        if enrichment:
+                            raw["enrichment"] = enrichment
+                            raw["activity"]["publicationPages"] = enrichment.get("verified_publication_pages", [])
+                            raw["activity"]["recruitmentPages"] = enrichment.get("verified_recruitment_pages", [])
+                            raw["activity"]["membersUrl"] = enrichment.get("member_page_url", "")
+                            raw["activity"]["posterStatus"] = enrichment.get("poster_status", "none_detected")
+                            raw["activity"].pop("posterCandidates", None)
+                        if verify_error:
+                            raw["verify_error"] = verify_error
+                        state["records"][unit_id] = raw
+                        state["failures"].pop(unit_id, None)
+                        print(f"[{checked + index}/{target}] {unit_id}: ok", flush=True)
+                    else:
+                        state["failures"][unit_id] = {"reason": error or "fetch_failed", "checked_at": now()}
+                        print(f"[{checked + index}/{target}] {unit_id}: {error or 'fetch_failed'}", flush=True)
+                except Exception as exc:
+                    state["failures"][unit_id] = {"reason": type(exc).__name__, "checked_at": now()}
+                    print(f"[{checked + index}/{target}] {unit_id}: {type(exc).__name__}", flush=True)
+        checked += len(batch)
+        state["cursor"] = (cursor + len(batch)) % len(units)
+        state["last_run"] = {
+            "at": now(), "checked": checked, "seconds": round(time.monotonic() - started, 2),
+            "gemini": bool(model), "ai_requests": budget.used,
+            "ai_disabled_reason": budget.disabled, "completed_full_pass": checked >= len(units),
+        }
+        collector.write(state, units, checked, "gemini-url-context-verified" if model else "collector-only", budget.used)
+        append_output_metadata(units, state, checked, "gemini-url-context-verified" if model else "collector-only", budget.used)
+    if checked == 0:
+        collector.write(state, units, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
+        append_output_metadata(units, state, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
+    print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
+
+
 if __name__ == "__main__":
-    collector.main()
+    main()
