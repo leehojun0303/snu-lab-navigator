@@ -62,7 +62,7 @@ jobs:
           --batch-size "$BATCH_SIZE"
       - name: Store changed snapshot
         run: |
-          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json; then
+          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json data/automation-progress.json; then
             echo "No snapshot changes"
             exit 0
           fi
