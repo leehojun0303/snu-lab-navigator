@@ -8,7 +8,6 @@ without risking loss of the official professor roster.
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 
 import collector_entry as entry
@@ -17,9 +16,11 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "data" / "automation-state.json"
 OUT = ROOT / "dist" / "automation-data.js"
 
+_original_loader = entry.load_units_compatible
+
 
 def alphabetical_units():
-    units = entry.load_units_compatible()
+    units = _original_loader()
     return sorted(
         units,
         key=lambda x: (
@@ -51,14 +52,11 @@ def reset_derived_state():
     OUT.write_text("", encoding="utf-8")
 
 
-_original_loader = entry.load_units_compatible
 entry.load_units_compatible = alphabetical_units
 
 
 def main():
     reset_derived_state()
-    # Force a clean pass. All other collector limits remain configurable by the
-    # existing workflow environment/input values.
     entry.main()
 
 
