@@ -43,9 +43,6 @@ def load_units_compatible():
     for item in [*units, *supplements]:
         key = "|".join(str(item.get(k, "")).strip() for k in ("college", "department", "name"))
         merged[key] = item
-    # Preserve source/chunk order. The full-refresh entrypoint supplies its own
-    # alphabetical ordering, while the normal incremental collector resumes by
-    # cursor from the saved source order.
     return list(merged.values())
 
 
@@ -235,12 +232,30 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     text = output.read_text(encoding="utf-8") if output.exists() else ""
     trusted = {uid: record for uid, record in state.get("records", {}).items() if record.get("_unit_id") == uid}
     sid, score, why = collector.showcase(units, trusted)
-    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.1", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display"}
+    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.1", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display", "snapshot_status": "in_progress", "validated_at": ""}
     lines = text.splitlines()
     first = "window.AUTOMATION_META=" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";"
     if lines and lines[0].startswith("window.AUTOMATION_META="): lines[0] = first
     else: lines.insert(0, first)
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_live_progress(units, state, checked, target, mode, done=False):
+    path = ROOT / "data" / "automation-progress.json"
+    total = len(units)
+    enriched = sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id"))
+    status = "completed" if done else ("running" if checked > 0 else "starting")
+    payload = {
+        "status": status,
+        "checked": int(min(checked, total)),
+        "target": int(target),
+        "total": int(total),
+        "enriched": int(enriched),
+        "updated_at": now(),
+        "mode": mode,
+        "message": f"{min(checked,total):,} / {total:,}개 소속 단위 확인"
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main():
@@ -258,6 +273,7 @@ def main():
         try: model = model_for(key)
         except Exception as exc: print(f"Gemini disabled: {exc}", flush=True)
     budget = collector.Budget(args.max_ai_requests if model else 0); started = time.monotonic(); deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None; target = min(max(0, args.max_units), len(units)); checked = 0
+    write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only")
     while checked < target:
         if deadline and time.monotonic() >= deadline - 30: print("Time budget reached; saving resumable progress.", flush=True); break
         cursor = int(state.get("cursor", 0)) % len(units); batch = [units[(cursor + i) % len(units)] for i in range(min(max(1, args.batch_size), target - checked))]
@@ -282,8 +298,10 @@ def main():
         checked += len(batch); state["cursor"] = (cursor + len(batch)) % len(units)
         state["last_run"] = {"at": now(), "checked": checked, "seconds": round(time.monotonic() - started, 2), "gemini": bool(model), "ai_requests": budget.used, "completed_full_pass": checked >= len(units)}
         collector.write(state, units, checked, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, checked, "gemini-url-context-verified" if model else "collector-only", budget.used)
+        write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only")
     if checked == 0:
         collector.write(state, units, 0, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
+    write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target))
     print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
 
 
