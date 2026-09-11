@@ -32,6 +32,13 @@
     const urls = [...new Set((e.source_urls_used || []).map(safeUrl).filter(Boolean))].slice(0, 4);
     return urls.length ? '<div class="ai-sources"><strong>공식 확인 출처</strong>' + urls.map((u, i) => '<a target="_blank" rel="noreferrer" href="' + esc(u) + '">공식 페이지 ' + (i + 1) + '</a>').join('') + '</div>' : '';
   }
+  function posterCard(e, a = {}) {
+    const verified = String(e.poster_status || a.posterStatus || '').toLowerCase() === 'verified';
+    const image = verified ? safeUrl(e.poster_image_url) : '';
+    const source = verified ? safeUrl(e.poster_source_url) : '';
+    if (!image) return '';
+    return '<div class="activity-grid poster-grid"><article class="activity-card poster"><h4>연구 포스터</h4><a class="poster-found" target="_blank" rel="noreferrer" href="' + esc(source || image) + '"><img src="' + esc(image) + '" alt="' + esc(e.poster_title || '연구 포스터') + '"><strong>' + esc(e.poster_title || '포스터 원문 보기') + '</strong></a></article></div>';
+  }
   function creativeActivityHtml(x, type) {
     const e = enrichment(x);
     const a = activity(x);
@@ -49,7 +56,7 @@
       ['최근 1년 단체전', verifiedItems(e.recent_group_exhibitions, '최근 1년 단체전이 공식 출처에서 확인되지 않았습니다.')],
       ['전공·교육 활동', '<p class="activity-ai-text">' + esc(clean(e.education_summary || e.research_summary || x.fields) || '공식 소개의 전공·교육 활동 설명을 수집 중입니다.') + '</p>']
     ];
-    return '<section class="activity-wrap discipline-activity ' + type + '"><div class="activity-title"><div><h3>' + title + '</h3><p>' + subtitle + '</p></div></div><div class="activity-grid">' + cards.map(([heading, body]) => '<article class="activity-card"><h4>' + heading + '</h4>' + body + '</article>').join('') + '</div>' + sourceLink(e) + '</section>';
+    return '<section class="activity-wrap discipline-activity ' + type + '"><div class="activity-title"><div><h3>' + title + '</h3><p>' + subtitle + '</p></div></div><div class="activity-grid">' + cards.map(([heading, body]) => '<article class="activity-card"><h4>' + heading + '</h4>' + body + '</article>').join('') + '</div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
   function humanitiesActivityHtml(x) {
     const e = enrichment(x);
@@ -58,7 +65,7 @@
     return '<section class="activity-wrap discipline-activity humanities"><div class="activity-title"><div><h3>학술 활동</h3><p>공식 출처에서 확인된 핵심 학술 활동만, 항목별 최대 3건으로 보여줍니다.</p></div></div><div class="activity-grid">' +
       '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 논문 목록이 아직 없습니다.', true) + '</article>' +
       '<article class="activity-card"><h4>저서·편저</h4>' + verifiedItems(e.books, '확인된 저서·편저 목록이 아직 없습니다.') + '</article>' +
-      '<article class="activity-card"><h4>연구과제·학술발표</h4>' + verifiedItems([...(e.research_projects || []), ...(e.conference_presentations || [])], '확인된 연구과제·학술발표가 아직 없습니다.') + '</article></div>' + sourceLink(e) + '</section>';
+      '<article class="activity-card"><h4>연구과제·학술발표</h4>' + verifiedItems([...(e.research_projects || []), ...(e.conference_presentations || [])], '확인된 연구과제·학술발표가 아직 없습니다.') + '</article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
   function academicActivityHtml(x) {
     const e = enrichment(x), a = activity(x);
@@ -73,7 +80,7 @@
     return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3><p>공식 출처로 확인된 핵심 정보만 모바일에서 빠르게 볼 수 있게 요약합니다.</p></div></div><div class="activity-grid">' +
       '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
       '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p></article>' +
-      '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + sourceLink(e) + '</section>';
+      '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
   window.activityHtml = function(x) {
     const kind = profile(x);
