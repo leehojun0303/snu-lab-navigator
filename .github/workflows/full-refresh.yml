@@ -40,9 +40,38 @@ jobs:
           MAX_UNITS: '100000'
           BATCH_SIZE: '40'
         run: |
-          python tools/full_refresh_entry.py --max-units "$MAX_UNITS" --time-budget-minutes "$TIME_BUDGET_MINUTES" --max-ai-requests "$MAX_AI_REQUESTS" --batch-size "$BATCH_SIZE"
+          set -e
+          git config user.name "snu-lab-automation"
+          git config user.email "actions@users.noreply.github.com"
+          python tools/full_refresh_entry.py --max-units "$MAX_UNITS" --time-budget-minutes "$TIME_BUDGET_MINUTES" --max-ai-requests "$MAX_AI_REQUESTS" --batch-size "$BATCH_SIZE" &
+          pid=$!
+          last_progress=""
+          while kill -0 "$pid" 2>/dev/null; do
+            if [ -f data/automation-progress.json ]; then
+              current_progress=$(sha256sum data/automation-progress.json | cut -d' ' -f1)
+              if [ "$current_progress" != "$last_progress" ]; then
+                git add data/automation-progress.json
+                if ! git diff --cached --quiet; then
+                  git commit -m "Update live automation progress"
+                  git push
+                fi
+                last_progress="$current_progress"
+              fi
+            fi
+            sleep 30
+          done
+          wait "$pid"
+          if [ -f data/automation-progress.json ]; then
+            git add data/automation-progress.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Finalize automation progress"
+              git push
+            fi
+          fi
       - name: Store rebuilt snapshot
         run: |
+          git fetch origin main
+          git rebase origin/main
           if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/activity-data.js; then
             echo "No derived snapshot changes"
             exit 0
