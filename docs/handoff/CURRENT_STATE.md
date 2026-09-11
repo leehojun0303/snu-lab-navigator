@@ -2,35 +2,42 @@
 
 기준일: 2026-09-11
 GitHub: https://github.com/leehojun0303/snu-lab-navigator
-기존 공개 프로토타입: https://snu-lab-navigator.snu-chatgpt-5678.chatgpt.site
+공개 앱: https://leehojun0303.github.io/snu-lab-navigator/
 
 ## 데이터
 - 2,001명 고유 교수명
 - 2,170개 교수×소속 단위
 - 1,643개 연구 주제 정보 보유
 - 797개 공식 사진 연결
-- 334개 교수 단위 활동 출처 연결
 
 2,170개는 서울대학교 공식 연구실 총계가 아니다.
 
+## 교수 명단 자동화
+`tools/roster_sync.py`가 현재 데이터에 연결된 공식 서울대학교 학과·단과대 등 roster URL을 합집합으로 검사한다. 학과와 단과대에 모두 존재해야 한다는 교집합 조건은 사용하지 않는다. 어느 하나의 성공적인 공식 출처가 현재 재직을 지지하면 유지한다.
+
+신규 교수는 공식 roster에서 발견될 경우 새 교수×소속 unit으로 자동 추가하고 상세 수집 대상에 포함한다. 한 번의 roster 누락은 삭제 사유가 아니며, 공식 profile이 살아 있거나 다른 관련 공식 roster에 존재하면 유지한다. 명시적인 퇴직/명예/전임 종료가 확인되거나 모든 관련 성공 roster에서 두 번 연속 빠진 경우에만 보수적으로 제거한다.
+
 ## 자동화
-`.github/workflows/collect.yml`이 03:00 KST부터 incremental collection을 수행한다. 예약 실행은 최대 285분, batch 40, 최대 Gemini 분석 400건이다. `data/automation-state.json`의 cursor로 이어서 실행하므로 야간 window 동안 가능한 만큼 진행하고 한 바퀴를 끝내면 종료한다. 수집 중에는 기존 snapshot을 공개한다.
+`.github/workflows/collect.yml`은 매일 03:00 KST에 roster union sync 후 incremental detail collection을 수행한다. 상세 수집은 최대 285분, batch 40, 최대 Gemini 분석 400건이며 `data/automation-state.json` cursor에서 이어간다. 수집 중에는 마지막 성공 snapshot이 공개된다.
 
-현재 workflow가 사용하는 수집기는 `tools/automated_enrichment_v2.py`이다.
+## 상세 수집·AI 검증
+정적 HTML → relevance-ranked 동일 공식 host crawl → `<img>/<source>` 이미지/PDF 탐색 → publication/member/recruitment/poster 후보 생성 → Gemini URL Context로 실제 URL 검증·구조화 → 빈약한 hard case에서 Search grounding으로 공식 URL 추가 발견 → canonical verified fields 저장.
 
-## v2 변경
-정적 HTML → relevance-ranked 동일 출처 crawl → `<img>/<source>` 이미지/PDF 자산 발견 → publication/member/recruitment/poster 분류 → Gemini URL Context 구조화 → 빈약한 hard case에서만 Google Search grounding으로 공식 URL 추가 발견 → JSON 검증 → snapshot 저장.
+논문은 해당 교수/연구실에 귀속된 publication만, 모집은 해당 연구실의 현재 모집만, 구성원은 명시된 이름/역할만, 포스터는 실제 연구 포스터이며 연구실 귀속이 확인된 경우만 공개한다. 학과 뉴스·입학포털·학생지원센터·타 교수 수상 뉴스·로고/SNS 아이콘 등은 공개 canonical field에서 제외한다.
 
-기존 코드는 텍스트와 `<a>` 중심이었고 이미지/PDF 자체를 읽지 않았으며 poster status도 사실상 항상 미확인이었다. 그래서 실제 포스터가 있는 연구실도 자동 표시할 수 없었다.
-
-## 포스터 상태
-`verified`만 실제 포스터 이미지로 공개한다. `unverified_candidate`는 후보만 찾았지만 연구실 귀속 미확인, `none_detected`는 후보 자체 미확인, `inaccessible`은 접근 실패 등으로 판정 불가이다. 어느 상태도 근거 없이 0/없음으로 단정하지 않는다.
+포스터 상태는 `verified / unverified_candidate / none_detected / inaccessible`로 분리하며 verified만 이미지로 표시한다.
 
 ## 대표 상세
-`dist/showcase-data.js`는 자동 snapshot의 `AUTOMATION_META.showcase_unit_id`를 사용한다. 대표 예시는 공식 연구실명·연구분야·주제·논문·구성원·모집·검증 포스터·공식 페이지 수를 조합해 자동 선정한다. 특정 교수 하나를 대표로 하드코딩하지 않는다.
+`dist/showcase-data.js`는 자동 snapshot의 `AUTOMATION_META.showcase_unit_id`를 사용한다. 공식 연구실명, 연구분야, 검증 논문, 구성원, 모집, 포스터, 공식 페이지 수를 이용해 현재 가장 완성도 높은 unit을 자동 선택하며 특정 교수명을 하드코딩하지 않는다.
 
-## 앱
-기존 `dist/app.js`는 저장된 AI 분석을 우선하고 상세 open마다 Gemini를 호출하지 않는다. 사용자 추천은 사용자가 입력한 Gemini API key를 sessionStorage에만 보관한다.
+## 저장된 AI 정보 재사용
+자동 수집에서 생성한 `research_summary`, `research_topics`, `recommendation_keywords`, `recent_papers`는 snapshot에 저장한다. 검색·추천·연구실 비교는 저장된 데이터를 우선 사용해 같은 내용을 반복해서 Gemini에 보내는 일을 줄인다.
 
-## 현재 확인된 한계
-전수 상세 완성은 아직 아니다. JS-only 사이트, 이미지 속 정보, PDF, 동적 메뉴 등은 누락 가능성이 있다. 따라서 “수집 실패”와 “사이트에 정보 없음”을 구분해야 한다.
+## 사용자 기능
+`dist/favorites-compare.js`가 즐겨찾기와 최대 4개 연구실 비교 UI를 제공한다. 비교 표는 저장된 AI 요약·keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결하게 보여주고 필요할 때만 Gemini로 차이점을 짧게 요약한다. 현재 즐겨찾기는 브라우저 로컬 저장이다.
+
+## 계정 기능의 남은 작업
+GitHub Pages는 정적 호스팅이므로 서버 계정 없이 실제 ID/비밀번호 인증과 계정 간 데이터 동기화를 제공할 수 없다. 현재 직접 Gemini 연결 키도 브라우저 sessionStorage에 보관된다. ID/비밀번호 기반 계정과 암호화된 Gemini key를 여러 기기에서 사용할 수 있게 하려면 별도 인증·DB backend가 필요하며, 공개 GitHub Pages나 저장소에 평문 비밀번호/API key를 저장하는 방식은 사용하지 않는다.
+
+## 현재 한계
+전수 상세 완성은 아직 진행 중이다. JS-only 사이트, 이미지 속 정보, 접근 제한 페이지, 비표준 navigation은 추가 보완이 필요하다. 따라서 `후보를 못 찾음`, `접근 실패`, `공식 출처상 실제 정보 없음`을 서로 구분한다.
