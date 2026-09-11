@@ -45,6 +45,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Synchronize official professor roster union
+        # The full official roster is refreshed once daily at 03:00 KST; other
+        # five-hour cycles reuse the saved URL registry and focus on details.
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18,23,4,9,14 * * *'
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
         run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
