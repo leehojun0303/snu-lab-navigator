@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import re
+
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     readme=(ROOT/'README.md').read_text(encoding='utf-8')
     index=(ROOT/'dist/index.html').read_text(encoding='utf-8')
-    app=(ROOT/'dist/app.js').read_text(encoding='utf-8')
     automation=(ROOT/'dist/automation-data.js').read_text(encoding='utf-8')
     quality=(ROOT/'dist/quality-overrides.js').read_text(encoding='utf-8')
     favorites=(ROOT/'dist/favorites-compare.js').read_text(encoding='utf-8')
@@ -34,13 +35,16 @@ def main():
     assert 'signInAnonymously' in account and 'claim_username' in account
     assert '비밀번호<input' not in account and 'Gemini API 키<input' not in account
     assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
-    assert 'claim_username' in migration and 'gemini_keys' not in migration
+    assert 'claim_username' in migration
+    assert not re.search(r'create\s+table[^;]*gemini_keys', migration, re.I | re.S)
+    assert 'drop table if exists public.gemini_keys cascade' in migration.lower()
     assert 'GEMINI_API_KEY' in proxy and 'SUPABASE_SERVICE_ROLE_KEY' in proxy
+    assert 'SERVICE_ROLE_KEY' in proxy
     assert 'account-ai-bridge.js' in index
     assert 'SnuAccount.callGemini' in bridge
     assert 'Anonymous Auth' in setup and '비밀번호·이메일·전화번호' in setup
     assert 'service-role' not in account.lower()
     assert 'account.css' in index and len(account_css) > 100
-    print('PASS: static app, quality layer, passwordless ID-only anonymous account, favorites/compare, roster union, and collector workflow checks')
+    print('PASS: static app, quality layer, passwordless ID-only account, favorites/compare, roster union, and collector workflow checks')
 
 if __name__=='__main__': main()
