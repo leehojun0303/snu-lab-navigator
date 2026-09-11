@@ -34,22 +34,26 @@ jobs:
           node --check dist/account-ai-bridge.js
       - name: Account/security consistency checks
         run: |
-          test ! -e supabase/functions/user-secret/index.ts
-          ! grep -q 'gemini_keys' supabase/migrations/20260911_user_accounts.sql
-          grep -q 'GEMINI_API_KEY' supabase/functions/gemini-proxy/index.ts
-          grep -q 'SUPABASE_SERVICE_ROLE_KEY' supabase/functions/gemini-proxy/index.ts
+          grep -q 'create table public.lab_accounts' supabase/migrations/20260911_id_only_accounts.sql
+          grep -q 'create or replace function public.create_lab_account' supabase/migrations/20260911_id_only_accounts.sql
+          grep -q 'create or replace function public.login_lab_account' supabase/migrations/20260911_id_only_accounts.sql
+          grep -q 'get_lab_favorites' supabase/migrations/20260911_id_only_accounts.sql
           ! grep -qi 'password' dist/account.js
           ! grep -qi 'Gemini API 키' dist/account.js
+          grep -q 'lab_accounts' supabase/functions/gemini-proxy/index.ts
+          grep -q 'GEMINI_API_KEY' supabase/functions/gemini-proxy/index.ts
+          grep -q 'SUPABASE_SERVICE_ROLE_KEY' supabase/functions/gemini-proxy/index.ts
+          test ! -e supabase/functions/user-secret/index.ts
       - name: Full refresh parser smoke test
         run: |
           python - <<'PY'
           import re
           from pathlib import Path
+          import json
           p = Path('dist/data/units-000.js')
           text = p.read_text(encoding='utf-8')
           m = re.search(r'window\\.RESEARCH_UNITS\\s*=\\s*(.+?)\\s*;\\s*$', text, re.S)
           assert m, 'units-000.js parser smoke test failed'
-          import json
           units = json.loads(m.group(1))
           assert units and isinstance(units, list)
           assert all('name' in x for x in units)
