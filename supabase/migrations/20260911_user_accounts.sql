@@ -1,7 +1,7 @@
 -- SNU Lab Navigator account layer.
 -- ID-only, non-PII identity using Supabase Anonymous Auth.
--- The username is a unique display/account label; the anonymous auth session
--- is the actual credential. No password/email/phone is required.
+-- The username is a unique display/account label; the anonymous
+-- auth session is the actual credential. No password/email/phone is required.
 
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
@@ -98,5 +98,4 @@ $$;
 
 grant execute on function public.claim_username(text) to authenticated;
 
--- No personal Gemini API key is stored. AI uses the operator-managed
--- GEMINI_API_KEY secret in the Edge Function.
+-- No personal Gemini API key is stored. AI uses the operator-managed secret.
