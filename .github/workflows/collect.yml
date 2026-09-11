@@ -4,7 +4,8 @@ on:
   schedule:
     # Every five hours in KST: 03:00, 08:00, 13:00, 18:00, 23:00.
     # Each run has a 285-minute budget, so the next cycle resumes promptly.
-    - cron: '0 18,23,4,9,14 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 23,4,9,14 * * *'
   workflow_dispatch:
     inputs:
       max_units:
@@ -47,7 +48,7 @@ jobs:
       - name: Synchronize official professor roster union
         # The full official roster is refreshed once daily at 03:00 KST; other
         # five-hour cycles reuse the saved URL registry and focus on details.
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18,23,4,9,14 * * *'
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18 * * *'
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
         run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
