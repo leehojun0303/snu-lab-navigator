@@ -43,13 +43,13 @@ jobs:
           python tools/full_refresh_entry.py --max-units "$MAX_UNITS" --time-budget-minutes "$TIME_BUDGET_MINUTES" --max-ai-requests "$MAX_AI_REQUESTS" --batch-size "$BATCH_SIZE"
       - name: Store rebuilt snapshot
         run: |
-          if git diff --quiet -- dist/automation-data.js data/automation-state.json; then
+          if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/activity-data.js; then
             echo "No derived snapshot changes"
             exit 0
           fi
           git config user.name "snu-lab-automation"
           git config user.email "actions@users.noreply.github.com"
-          git add dist/automation-data.js data/automation-state.json
+          git add dist/automation-data.js data/automation-state.json dist/activity-data.js
           git commit -m "Rebuild official lab detail snapshot from start"
           git fetch origin main
           git rebase origin/main
