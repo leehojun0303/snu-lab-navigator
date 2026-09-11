@@ -29,7 +29,7 @@
 
 ## 자동 수집
 
-`.github/workflows/collect.yml`은 코드 push 때마다 실행하지 않고 매일 03:00·08:00·13:00·18:00·23:00 KST schedule 또는 수동 실행에서 작동합니다. 먼저 roster union sync를 수행한 뒤 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 수집 중에는 마지막 성공 snapshot을 제공합니다.
+`.github/workflows/collect.yml`은 코드 push 때마다 실행하지 않고 매일 03:00·08:00·13:00·18:00·23:00 KST schedule 또는 수동 실행에서 작동합니다. 먼저 roster union sync를 수행한 뒤 최대 285분 동안 batch size 40으로 상세 수집을 이어갑니다. `data/automation-state.json`의 cursor에서 계속 진행하며 수집 중에는 마지막 성공 snapshot을 제공합니다. GitHub Actions에서는 80개마다 진행 파일만 별도 push하므로 공개 앱의 처리 수가 실행 중에도 갱신됩니다.
 
 현재 상세 collector는 `tools/collector_entry.py` → `tools/automated_enrichment_v2.py` 구조입니다.
 
