@@ -20,9 +20,10 @@
       const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
       if(p.status==='running'||p.status==='starting'){
         const checked=Number(p.checked)||0,total=Number(p.total)||0,enriched=Number(p.enriched)||0;
-        if(badge)badge.textContent='새 상세 형식 수집 중';
-        if(status)status.textContent=`이번 실행 · ${checked.toLocaleString()} / ${total.toLocaleString()}개 처리`;
-        if(coverage)coverage.textContent=`이번 형식 분석 ${enriched.toLocaleString()}개`;
+        const limited=p.ai_status==='rate_limited';
+        if(badge)badge.textContent=limited?'Gemini 한도 대기 · 수집 계속':'새 상세 형식 수집 중';
+        if(status)status.textContent=limited?`Gemini 한도 도달 · 다음 5시간 주기에 재개 · 이번 실행 ${checked.toLocaleString()}개 처리`:`이번 실행 · ${checked.toLocaleString()} / ${total.toLocaleString()}개 처리`;
+        if(coverage)coverage.textContent=limited?`이번 형식 분석 ${enriched.toLocaleString()}개 · URL 수집은 계속`:`이번 형식 분석 ${enriched.toLocaleString()}개`;
       }else if(p.status==='completed'){
         const checked=Number(p.checked)||0,total=Number(p.total)||0,enriched=Number(p.enriched)||0;
         if(total>0&&checked>=total){
