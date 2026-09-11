@@ -22,6 +22,7 @@ TERMS={
  'publication':('publication','publications','paper','papers','journal','research output','논문','연구성과','업적'),
  'member':('member','members','people','person','student','students','researcher','구성원','연구원','학생','alumni','졸업생'),
  'recruitment':('recruit','join','opening','position','admission','모집','채용','인턴','연구생','지원'),
+ 'creative':('exhibition','solo exhibition','group exhibition','individual exhibition','performance','concert','recital','composition','discography','portfolio','award','prize','전시','개인전','단체전','공연','연주','작품','음반','수상'),
 }
 POSTER=('poster','posters','포스터','포스터상','poster award','research poster')
 
@@ -131,7 +132,7 @@ def fallback_discovery(key,model,unit,roots):
 def ai_extract(key,model,unit,pages,poster_candidates,extra):
     urls=list(dict.fromkeys([p.url for p in pages]+extra+[x['url'] for x in poster_candidates]))[:20]
     ev=[{'url':p.url,'text':p.text[:4200]} for p in pages if p.text]
-    q={'task':'Extract research-lab facts from supplied official pages and poster/PDF/image URLs','professor':unit.get('name',''),'lab':unit.get('labs') or unit.get('title',''),'official_urls':urls,'poster_candidates':poster_candidates,'evidence':ev,'rules':['No inference.','Members require explicit name+role.','Recruitment must be current to report.','General events/seminars are not posters.','Poster verified only if lab attribution is explicit in page or asset.'],'schema':{'research_summary':'string','research_topics':['string'],'recent_papers':[{'title':'string','year':'string','venue':'string','url':'string'}],'paper_count_scope':'string','recruitment_summary':'string','current_members':[{'name':'string','role':'string','url':'string'}],'alumni':[{'name':'string','role':'string','url':'string'}],'member_page_url':'string','poster_status':'verified | unverified_candidate | none_detected | inaccessible','poster_title':'string','poster_date':'string','poster_event':'string','poster_image_url':'string','poster_source_url':'string','poster_evidence':'string','source_urls_used':['string']}}
+    q={'task':'Extract research-lab facts from supplied official pages and poster/PDF/image URLs','professor':unit.get('name',''),'lab':unit.get('labs') or unit.get('title',''),'official_urls':urls,'poster_candidates':poster_candidates,'evidence':ev,'rules':['No inference.','Members require explicit name+role.','Recruitment must be current to report.','General events/seminars are not posters.','Poster verified only if lab attribution is explicit in page or asset.','For music, extract only explicitly supported performances, creative works, awards, and education activity.','For fine arts, extract solo/group exhibitions only when their date is within the last 12 months relative to collection time.','For humanities, distinguish papers, books, conference presentations, and research projects.'],'schema':{'profile_type':'scholarly | humanities | music | fine_arts | other','research_summary':'string','research_topics':['string'],'recent_papers':[{'title':'string','year':'string','venue':'string','url':'string'}],'books':[{'title':'string','year':'string','venue':'string','url':'string'}],'conference_presentations':[{'title':'string','date':'string','venue':'string','url':'string'}],'research_projects':[{'title':'string','date':'string','organization':'string','url':'string'}],'recent_performances':[{'title':'string','date':'string','venue':'string','url':'string'}],'creative_works':[{'title':'string','year':'string','venue':'string','url':'string'}],'awards':[{'title':'string','date':'string','organization':'string','url':'string'}],'recent_solo_exhibitions':[{'title':'string','date':'string','venue':'string','url':'string'}],'recent_group_exhibitions':[{'title':'string','date':'string','venue':'string','url':'string'}],'education_summary':'string','paper_count_scope':'string','recruitment_summary':'string','current_members':[{'name':'string','role':'string','url':'string'}],'alumni':[{'name':'string','role':'string','url':'string'}],'member_page_url':'string','poster_status':'verified | unverified_candidate | none_detected | inaccessible','poster_title':'string','poster_date':'string','poster_event':'string','poster_image_url':'string','poster_source_url':'string','poster_evidence':'string','source_urls_used':['string']}}
     p={'contents':[{'role':'user','parts':[{'text':json.dumps(q,ensure_ascii=False)}]}],'tools':[{'url_context':{}}],'generationConfig':{'temperature':0,'responseMimeType':'application/json','maxOutputTokens':3600}}
     d=http_json(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',key,p,60); txt=''.join(str(x.get('text','')) for x in d.get('candidates',[{}])[0].get('content',{}).get('parts',[])); r=json.loads(re.sub(r'^```(?:json)?|```$','',txt.strip(),flags=re.I).strip()); r=r if isinstance(r,dict) else {}
     papers=[]; seen=set()
@@ -143,7 +144,31 @@ def ai_extract(key,model,unit,pages,poster_candidates,extra):
         k=re.sub(r'[^a-z0-9가-힣]','',t.lower())
         if k in seen:continue
         seen.add(k); papers.append({'title':t,'year':norm(x.get('year'))[:10],'venue':norm(x.get('venue'))[:180],**({'url':u} if u else {})})
-    r['recent_papers']=papers[:12]; r['paper_count_visible']=len(r['recent_papers']); r['current_members']=people(r.get('current_members')); r['alumni']=people(r.get('alumni')); r['poster_status']=str(r.get('poster_status','')).lower()
+    r['recent_papers']=papers[:12]
+    # Keep discipline-specific records only when their title and (if present) URL are explicit in an allowed official source.
+    def records(xs):
+        out=[]; seen=set()
+        for x in xs or []:
+            if not isinstance(x,dict): continue
+            title=norm(x.get('title') or x.get('name'))
+            u=clean_url(x.get('url'))
+            if not title or len(title)>450 or (u and not allowed(u,unit)): continue
+            key=re.sub(r'[^a-z0-9가-힣]','',title.lower())
+            if key in seen: continue
+            seen.add(key)
+            item={'title':title}
+            for k in ('date','year','venue','organization','role','description'):
+                value=norm(x.get(k))
+                if value: item[k]=value[:220]
+            if u: item['url']=u
+            out.append(item)
+        return out[:12]
+    for k in ('books','conference_presentations','research_projects','recent_performances','creative_works','awards','recent_solo_exhibitions','recent_group_exhibitions'):
+        r[k]=records(r.get(k))
+    r['education_summary']=norm(r.get('education_summary'))[:700]
+    r['profile_type']=str(r.get('profile_type','other')).lower()
+    if r['profile_type'] not in {'scholarly','humanities','music','fine_arts','other'}: r['profile_type']='other'
+    r['paper_count_visible']=len(r['recent_papers']); r['current_members']=people(r.get('current_members')); r['alumni']=people(r.get('alumni')); r['poster_status']=str(r.get('poster_status','')).lower()
     if r['poster_status'] not in {'verified','unverified_candidate','none_detected','inaccessible'}:r['poster_status']='unverified_candidate' if poster_candidates else 'none_detected'
     if r['poster_status']!='verified':
         for k in ('poster_title','poster_date','poster_event','poster_image_url','poster_source_url','poster_evidence'):r[k]=''
@@ -192,7 +217,7 @@ def scan(unit,key,model,prev,budget):
         if e:e['_stale']=True
     ps=e.get('poster_status') if e.get('poster_status') in {'verified','unverified_candidate','none_detected','inaccessible'} else ('unverified_candidate' if assets else 'none_detected')
     acts=[]
-    for k in ('publication','member','recruitment','poster'):
+    for k in ('publication','member','recruitment','poster','creative'):
         acts += [{'title':x.get('title') or k,'url':x['url'],'kind':k} for x in kinds[k][:5]]
     r={'fingerprint':fp,'checked_at':now(),'activity':{'publicationPages':[x for x in acts if x['kind']=='publication'][:5],'recruitmentPages':[x for x in acts if x['kind']=='recruitment'][:4],'membersUrl':next((x['url'] for x in acts if x['kind']=='member'),'') ,'posterStatus':ps,'posterCandidates':assets[:8],'sourcePagesScanned':[p.url for p in pages]},'enrichment':e}
     if err:r['ai_error']=err
