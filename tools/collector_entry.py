@@ -7,6 +7,7 @@ import concurrent.futures
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -271,6 +272,21 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def publish_live_progress():
+    """Publish only the tiny progress file during a GitHub Actions run."""
+    if os.getenv("PUBLISH_PROGRESS") != "1":
+        return
+    try:
+        subprocess.run(["git", "add", "data/automation-progress.json"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if staged.returncode == 0:
+            return
+        subprocess.run(["git", "commit", "-m", "Update live collection progress"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "push"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception as exc:
+        print(f"Live progress publish skipped: {type(exc).__name__}", flush=True)
+
+
 def write_live_progress(units, state, checked, target, mode, done=False, paused=False, ai_status="ready"):
     path = ROOT / "data" / "automation-progress.json"
     total = len(units)
@@ -306,6 +322,7 @@ def main():
         except Exception as exc: print(f"Gemini disabled: {exc}", flush=True)
     budget = collector.Budget(args.max_ai_requests if model else 0); started = time.monotonic(); deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None; target = min(max(0, args.max_units), len(units)); checked = 0
     write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only", ai_status="ready" if model else "unavailable")
+    publish_live_progress()
     while checked < target:
         if deadline and time.monotonic() >= deadline - 30: print("Time budget reached; saving resumable progress.", flush=True); break
         cursor = int(state.get("cursor", 0)) % len(units); batch = [units[(cursor + i) % len(units)] for i in range(min(max(1, args.batch_size), target - checked))]
@@ -338,9 +355,12 @@ def main():
         state["last_run"] = {"at": now(), "checked": checked, "seconds": round(time.monotonic() - started, 2), "gemini": bool(model), "ai_requests": budget.used, "completed_full_pass": checked >= len(units)}
         collector.write(state, units, checked, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, checked, "gemini-url-context-verified" if model else "collector-only", budget.used)
         write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
+        if checked % max(1, int(os.getenv("PROGRESS_PUBLISH_EVERY", "80"))) == 0:
+            publish_live_progress()
     if checked == 0:
         collector.write(state, units, 0, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
     write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target), paused=(checked < target), ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
+    publish_live_progress()
     print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
 
 
