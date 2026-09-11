@@ -30,6 +30,7 @@ jobs:
         run: |
           node --check dist/app.js
           node --check dist/quality-overrides.js
+          node --check dist/activity-refinement.js
           node --check dist/showcase-data.js
           node --check dist/favorites-compare.js
           node --check dist/account.js
