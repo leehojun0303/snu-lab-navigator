@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 STATE = ROOT / "data" / "roster-sync-state.json"
 CHUNKS = DIST / "data"
-UA = "SNU-Lab-Navigator-Roster-Sync/2.1"
+UA = "SNU-Lab-Navigator-Roster-Sync/2.2"
 TIMEOUT = 15
 MAX_BODY = 2_000_000
 CHUNK_SIZE = 100
@@ -52,8 +52,7 @@ def make_id(college, department, name):
 
 def extract_units():
     out = []
-    paths = sorted(CHUNKS.glob("units-*.js"))
-    for path in paths:
+    for path in sorted(CHUNKS.glob("units-*.js")):
         text = path.read_text(encoding="utf-8")
         m = re.search(r"window\.RESEARCH_UNITS\s*=\s*(.+?)\s*;\s*$", text, re.S)
         if not m:
@@ -129,10 +128,8 @@ def scan_source(url):
 def faculty_link(link):
     label = re.sub(r"\s+", " ", str(link.get("text", ""))).strip()
     href = str(link.get("url", ""))
-    if not label or len(label) > 100 or not allowed(href):
-        return False
-    if NON_FACULTY_RE.search(label) and not re.search(r"교수|professor|prof\.?", label, re.I):
-        return False
+    if not label or len(label) > 100 or not allowed(href): return False
+    if NON_FACULTY_RE.search(label) and not re.search(r"교수|professor|prof\.?", label, re.I): return False
     return bool(FACULTY_HINT_RE.search(f"{label} {href}"))
 
 
@@ -148,9 +145,8 @@ def write_chunks(units):
     CHUNKS.mkdir(parents=True, exist_ok=True)
     for old in CHUNKS.glob("units-*.js"): old.unlink()
     for i in range(0, len(units), CHUNK_SIZE):
-        block = units[i:i + CHUNK_SIZE]
         (CHUNKS / f"units-{i // CHUNK_SIZE:03d}.js").write_text(
-            "window.RESEARCH_UNITS = " + json.dumps(block, ensure_ascii=False, separators=(",", ":")) + ";\n",
+            "window.RESEARCH_UNITS = " + json.dumps(units[i:i + CHUNK_SIZE], ensure_ascii=False, separators=(",", ":")) + ";\n",
             encoding="utf-8")
     tags = "".join(f'<script src="data/units-{i // CHUNK_SIZE:03d}.js"><\\/script>' for i in range(0, len(units), CHUNK_SIZE))
     (DIST / "data-loader.js").write_text(f"document.write('{tags}');\n", encoding="utf-8")
@@ -164,9 +160,8 @@ def main():
     units = extract_units()
     if not units: raise RuntimeError("No current research units found")
 
-    # Every distinct official department/college URL represented by the
-    # current dataset is a source in the UNION. A professor only needs to be
-    # confirmed by one successful source; there is no intersection requirement.
+    # Use every distinct official URL currently represented by the roster as
+    # a source. Presence of a professor in ANY successful source is sufficient.
     source_map = {}
     for unit in units:
         url = clean_url(unit.get("departmentUrl"))
@@ -177,42 +172,37 @@ def main():
         scanned = list(pool.map(scan_source, source_urls))
     successful = [x for x in scanned if x.get("ok")]
 
-    # Build observations by scope. A source may represent a college or several
-    # departments; every successful source observation contributes to the union.
-    observed_by_scope = {}
     observed_global = set()
-    profile_by_scope = {}
+    observed_by_source = {}
     existing = {}
     for unit in units:
         key = (str(unit.get("college", "")), str(unit.get("department", "")), str(unit.get("name", "")).strip())
         existing[key] = dict(unit)
-        profile_by_scope.setdefault((key[0], key[1]), []).append(unit)
 
     added = []
     for result in successful:
-        scopes = source_map.get(result["url"], set())
         names = set()
         for link in result["links"]:
             if not faculty_link(link): continue
             name = infer_name(link)
-            if len(name) < 2 or len(name) > 80: continue
-            names.add(name); observed_global.add(name)
-        for scope in scopes:
-            observed_by_scope.setdefault(scope, set()).update(names)
-            college, department = scope
+            if 2 <= len(name) <= 80:
+                names.add(name); observed_global.add(name)
+        observed_by_source[result["url"]] = names
+        scopes = source_map.get(result["url"], set())
+        for college, department in scopes:
             for name in names:
                 key = (college, department, name)
-                if key not in existing:
-                    item = {
-                        "id": make_id(college, department, name), "name": name, "title": name,
-                        "college": college, "department": department, "rank": "", "type": "",
-                        "naming": "official-roster-sync", "labs": "", "fields": "", "keywords": "",
-                        "profile": next((x["url"] for x in result["links"] if faculty_link(x) and infer_name(x) == name), ""),
-                        "homepage": "", "photo": "", "departmentUrl": result["url"],
-                        "guidance": "공식 서울대학교 명단에서 확인된 교수",
-                    }
-                    existing[key] = item
-                    added.append({"id": item["id"], "name": name, "college": college, "department": department, "source": result["url"]})
+                if key in existing: continue
+                item = {
+                    "id": make_id(college, department, name), "name": name, "title": name,
+                    "college": college, "department": department, "rank": "", "type": "",
+                    "naming": "official-roster-sync", "labs": "", "fields": "", "keywords": "",
+                    "profile": next((x["url"] for x in result["links"] if faculty_link(x) and infer_name(x) == name), ""),
+                    "homepage": "", "photo": "", "departmentUrl": result["url"],
+                    "guidance": "공식 서울대학교 명단에서 확인된 교수",
+                }
+                existing[key] = item
+                added.append({"id": item["id"], "name": name, "college": college, "department": department, "source": result["url"]})
 
     previous = {}
     if STATE.exists():
@@ -226,15 +216,13 @@ def main():
 
     for key, unit in existing.items():
         college, department, name = key
-        # A unit is relevant to every source that represents the same college
-        # or exact department. Presence in ANY such source is sufficient.
-        relevant_scopes = {scope for url, scopes in source_map.items() if url in successful_urls for scope in scopes
-                           if (scope[0] == college and (not department or not scope[1] or scope[1] == department))}
-        observed_any = any(name in observed_by_scope.get(scope, set()) for scope in relevant_scopes)
+        # TRUE UNION: name observed on any successful official roster keeps it,
+        # regardless of whether that source was department, college, or another
+        # official unit. This deliberately prevents intersection-based loss.
+        observed_any = name in observed_global
         if observed_any:
             unit["roster_last_confirmed"] = now(); new_streak[str(unit.get("id"))] = 0; final.append(unit); continue
 
-        # Profile confirmation is only used for a unit absent from roster pages.
         profile = clean_url(unit.get("profile")); profile_ok = False; explicit_former = False
         if profile and allowed(profile):
             try:
@@ -250,19 +238,20 @@ def main():
 
         streak = int(old_streak.get(str(unit.get("id")), 0)) + 1
         new_streak[str(unit.get("id"))] = streak
-        # No source may have confirmed this unit. Never remove on the first miss.
-        if streak >= 2 and relevant_scopes:
-            removed.append({"id": unit.get("id"), "name": name, "reason": "absent_from_all_relevant_union_sources_for_two_successful_syncs"}); continue
+        # If no successful official source observed the professor, never remove
+        # on a single run. Two consecutive all-source absences are required.
+        if streak >= 2 and successful_urls:
+            removed.append({"id": unit.get("id"), "name": name, "reason": "absent_from_all_successful_official_rosters_for_two_consecutive_syncs"}); continue
         final.append(unit)
 
     final.sort(key=lambda x: str(x.get("id", "")))
     write_chunks(final)
     state = {
-        "version": 3, "updated_at": now(), "sources_checked": scanned,
+        "version": 4, "updated_at": now(), "sources_checked": scanned,
         "successful_source_count": len(successful), "source_count": len(source_urls),
         "unit_count_before": len(units), "unit_count_after": len(final),
         "added": added, "removed": removed, "absent_streak": new_streak,
-        "policy": "UNION: one successful trusted official source is sufficient for current inclusion; single-source absence never removes a professor; explicit former status or two consecutive all-relevant-source absences can remove.",
+        "policy": "UNION: any successful trusted official roster occurrence is sufficient; one-source absence never removes a professor; explicit former status or two consecutive all-roster absences can remove.",
     }
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
