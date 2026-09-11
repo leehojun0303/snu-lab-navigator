@@ -156,6 +156,11 @@ def recommendation_keywords(result):
     return out[:24]
 
 
+def is_rate_limit_error(exc):
+    message = str(exc).upper()
+    return getattr(exc, "code", None) == 429 or "429" in message or "RESOURCE_EXHAUSTED" in message
+
+
 def verify_with_gemini(key, model, unit, raw_record, budget):
     if not key or not model or not budget.claim():
         return dict(raw_record.get("enrichment") or {}), None
@@ -246,6 +251,10 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
         return result, None
     except Exception as exc:
         budget.used = max(0, budget.used - 1)
+        if is_rate_limit_error(exc):
+            with budget.lock:
+                budget.disabled = "rate_limited"
+            return {}, "gemini_rate_limited"
         return {}, f"verify_{type(exc).__name__}"
 
 
@@ -262,7 +271,7 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_live_progress(units, state, checked, target, mode, done=False):
+def write_live_progress(units, state, checked, target, mode, done=False, ai_status="ready"):
     path = ROOT / "data" / "automation-progress.json"
     total = len(units)
     enriched = sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id"))
@@ -275,7 +284,8 @@ def write_live_progress(units, state, checked, target, mode, done=False):
         "enriched": int(enriched),
         "updated_at": now(),
         "mode": mode,
-        "message": f"{min(checked,total):,} / {total:,}개 소속 단위 확인"
+        "ai_status": ai_status,
+        "message": ("Gemini 호출 한도 도달 · 다음 5시간 주기에 재개" if ai_status == "rate_limited" else f"{min(checked,total):,} / {total:,}개 소속 단위 확인")
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -286,7 +296,7 @@ def main():
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--batch-size", type=int, default=int(os.getenv("BATCH_SIZE", "40")))
     parser.add_argument("--time-budget-minutes", type=float, default=float(os.getenv("TIME_BUDGET_MINUTES", "0")))
-    parser.add_argument("--max-ai-requests", type=int, default=int(os.getenv("MAX_AI_REQUESTS", "400")))
+    parser.add_argument("--max-ai-requests", type=int, default=int(os.getenv("MAX_AI_REQUESTS", "100000")))
     args = parser.parse_args()
     units = load_units_compatible(); state = collector.load_state(); state.setdefault("records", {}); state.setdefault("failures", {})
     if not units: raise RuntimeError("No research units found")
@@ -295,7 +305,7 @@ def main():
         try: model = model_for(key)
         except Exception as exc: print(f"Gemini disabled: {exc}", flush=True)
     budget = collector.Budget(args.max_ai_requests if model else 0); started = time.monotonic(); deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None; target = min(max(0, args.max_units), len(units)); checked = 0
-    write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only")
+    write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only", ai_status="ready" if model else "unavailable")
     while checked < target:
         if deadline and time.monotonic() >= deadline - 30: print("Time budget reached; saving resumable progress.", flush=True); break
         cursor = int(state.get("cursor", 0)) % len(units); batch = [units[(cursor + i) % len(units)] for i in range(min(max(1, args.batch_size), target - checked))]
@@ -320,10 +330,10 @@ def main():
         checked += len(batch); state["cursor"] = (cursor + len(batch)) % len(units)
         state["last_run"] = {"at": now(), "checked": checked, "seconds": round(time.monotonic() - started, 2), "gemini": bool(model), "ai_requests": budget.used, "completed_full_pass": checked >= len(units)}
         collector.write(state, units, checked, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, checked, "gemini-url-context-verified" if model else "collector-only", budget.used)
-        write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only")
+        write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
     if checked == 0:
         collector.write(state, units, 0, "gemini-url-context-verified" if model else "collector-only", budget.used); append_output_metadata(units, state, 0, "gemini-url-context-verified" if model else "collector-only", budget.used)
-    write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target))
+    write_live_progress(units, state, checked, target, "gemini-url-context-verified" if model else "collector-only", done=(checked >= target), ai_status=(getattr(budget, "disabled", "") or ("ready" if model else "unavailable")))
     print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
 
 
