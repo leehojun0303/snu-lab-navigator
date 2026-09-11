@@ -1,17 +1,14 @@
 name: Validate SNU Lab Navigator
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'dist/**'
-      - 'tools/**'
-      - 'supabase/**'
-      - '.github/workflows/**'
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: snu-lab-validator
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -23,7 +20,7 @@ jobs:
           python-version: '3.12'
       - name: Python syntax and release checks
         run: |
-          python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py tools/test_static.py tools/test_automation_features.py
+          python -m py_compile tools/automated_enrichment_v2.py tools/collector_entry.py tools/roster_sync.py tools/full_refresh_entry.py tools/test_static.py tools/test_automation_features.py
           python tools/test_static.py
           python tools/test_automation_features.py
       - name: JavaScript syntax checks
@@ -43,3 +40,18 @@ jobs:
           grep -q 'SUPABASE_SERVICE_ROLE_KEY' supabase/functions/gemini-proxy/index.ts
           ! grep -qi 'password' dist/account.js
           ! grep -qi 'Gemini API 키' dist/account.js
+      - name: Full refresh parser smoke test
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          p = Path('dist/data/units-000.js')
+          text = p.read_text(encoding='utf-8')
+          m = re.search(r'window\\.RESEARCH_UNITS\\s*=\\s*(.+?)\\s*;\\s*$', text, re.S)
+          assert m, 'units-000.js parser smoke test failed'
+          import json
+          units = json.loads(m.group(1))
+          assert units and isinstance(units, list)
+          assert all('name' in x for x in units)
+          print(f'Parsed {len(units)} units from first chunk')
+          PY
