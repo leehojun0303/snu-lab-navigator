@@ -13,12 +13,13 @@ def main() -> None:
     showcase = (ROOT / "dist/showcase-data.js").read_text(encoding="utf-8")
     automation = (ROOT / "dist/automation-data.js").read_text(encoding="utf-8")
     css = (ROOT / "dist/override.css").read_text(encoding="utf-8")
+    quality = (ROOT / "dist/quality-overrides.js").read_text(encoding="utf-8")
     entrypoint = (ROOT / "tools/collector_entry.py").read_text(encoding="utf-8")
 
     assert "https://leehojun0303.github.io/snu-lab-navigator/" in readme
     assert "activity-data.js" in index
     assert "data-loader.js" in index and "automation-data.js" in index
-    assert "showcase-data.js" in index
+    assert "showcase-data.js" in index and "quality-overrides.js" in index
     assert 'id="welcomeDialog"' in index
     assert 'id="showcaseOpen"' in index
     assert "프로토타입 제공 범위" not in index + app
@@ -53,8 +54,22 @@ def main() -> None:
     # Collector must support the currently published chunked dataset.
     assert "units-*.js" in entrypoint
     assert "collector.load_units = load_units_compatible" in entrypoint
+    assert "future_to_unit" in entrypoint
+    assert "verify_with_gemini" in entrypoint
+    assert "verified_publication_pages" in entrypoint
+    assert "verified_recruitment_pages" in entrypoint
+    assert "recommendation_keywords" in entrypoint
 
-    print("PASS: static UI, dynamic showcase, README link, and collector compatibility checks")
+    # Quality layer: saved keywords reduce candidate payload and activity links
+    # are shown only from AI-verified sources.
+    assert "stored_keywords" in quality and "stored_topics" in quality
+    assert "candidate_urls" in quality and "verified_publication_pages" in quality
+    assert "verified_recruitment_pages" in quality
+    assert "박사과정" in quality and "석사과정" in quality and "학부연구생" in quality and "Alumni" in quality
+    assert "저장된 AI 추천 결과를 사용했습니다" in quality
+    assert "후보" in quality and "150" in quality
+
+    print("PASS: static UI, dynamic showcase, quality filtering, cached recommendation, and collector checks")
 
 
 if __name__ == "__main__":
