@@ -91,8 +91,19 @@
   if (aiOption) aiOption.remove();
   if (aiButton) aiButton.remove();
   document.querySelector('.ai-actions')?.classList.add('automatic-ai-status');
-  if (status) status.textContent = '교수·연구실·저장된 키워드와 직접 일치하지 않는 검색어에만 AI가 유사한 연구 단위를 추천합니다.';
-  let timer = 0, activeKey = '', lastShownKey = '';
+  if (status) status.textContent = '일반 검색 결과는 입력과 동시에 표시됩니다. 일치 결과가 없을 때만 Enter 또는 AI 유사 검색을 눌러 추천을 요청할 수 있습니다.';
+
+  const searchButton = document.createElement('button');
+  searchButton.id = 'aiSearchRun';
+  searchButton.type = 'button';
+  searchButton.className = 'ai-search-run';
+  searchButton.setAttribute('aria-label', 'AI 유사 검색 실행');
+  searchButton.innerHTML = 'AI 유사 검색 <span aria-hidden="true">→</span>';
+  input?.insertAdjacentElement('afterend', searchButton);
+  const style = document.createElement('style');
+  style.textContent = '.ai-search-run{float:right;margin:-44px 7px 0 0;min-height:36px;padding:0 10px;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-run{margin:-42px 6px 0 0;padding:0 8px;font-size:.72rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}';
+  document.head.appendChild(style);
+  let activeKey = '', lastShownKey = '';
 
   function scoreCandidate(unit, query) {
     const e = enrichment(unit);
@@ -109,25 +120,29 @@
   function cacheKey(query, college, department) {
     const raw = [window.AUTOMATION_META?.updated_at || 'static', query.toLowerCase(), college, department].join('|');
     let hash = 2166136261; for (let i = 0; i < raw.length; i++) hash = Math.imul(hash ^ raw.charCodeAt(i), 16777619);
-    return 'snu-lab-no-match-ai-v1:' + (hash >>> 0).toString(16);
+    return 'snu-lab-no-match-ai-v2:' + (hash >>> 0).toString(16);
   }
   function renderAi(items) {
     results.innerHTML = items.map(item => {
-      const x = item.unit, e = enrichment(x), photo = safeUrl(String(x.photo || '').split(/[;,|]/)[0]);
+      const x = item.unit, photo = safeUrl(String(x.photo || '').split(/[;,|]/)[0]);
       const avatar = photo ? '<span class="avatar avatar-stack"><img class="avatar-photo loaded" src="' + esc(photo) + '" alt="' + esc(x.name) + ' 교수 사진" loading="lazy"><span class="avatar-initial" hidden>' + esc(String(x.name || '?')[0]) + '</span></span>' : '<span class="avatar fallback">' + esc(String(x.name || '?')[0]) + '</span>';
       const lab = clean(String(x.labs || x.title || '연구그룹').split(/[;|]/)[0]);
-      return '<button class="card" data-i="' + allUnits().indexOf(x) + '">' + avatar + '<span class="card-copy"><h2>' + esc(x.name + ' 교수 / ' + lab) + '</h2><span class="meta">' + esc([x.college, x.department, x.rank].filter(Boolean).join(' · ')) + '</span><span class="ai-reason"><strong>AI 추천 이유</strong>' + esc(item.reason) + '</span></span></button>';
+      return '<button class="card" data-i="' + allUnits().indexOf(x) + '">' + avatar + '<span class="card-copy"><h2>' + esc(x.name + ' 교수 / ' + lab) + '</h2><span class="meta">' + esc([x.college, x.department, x.rank].filter(Boolean).join(' · ')) + '</span><span class="ai-reason"><strong>AI 유사 추천 이유</strong>' + esc(item.reason) + '</span></span></button>';
     }).join('') || '<p class="empty">AI가 공식 저장 정보에서 적합한 후보를 찾지 못했습니다.</p>';
   }
-  async function recommendWhenNoMatch() {
+  async function runAiFallback() {
     const query = clean(input?.value);
-    if (!query || document.querySelectorAll('#results .card').length) return;
+    if (!query) { input?.focus(); if (status) status.textContent = '먼저 검색어를 입력해 주세요.'; return; }
+    if (document.querySelectorAll('#results .card').length) {
+      if (status) status.textContent = '직접 일치하는 결과를 실시간으로 표시하고 있습니다. AI 유사 검색은 일치 결과가 없을 때 사용합니다.';
+      return;
+    }
     const college = document.querySelector('#college')?.value || '';
     const department = document.querySelector('#department')?.value || '';
     const key = cacheKey(query, college, department);
     if (activeKey === key || lastShownKey === key) return;
     if (!window.SnuAccount?.isLoggedIn?.()) {
-      if (status) status.textContent = '일치하는 교수·연구실·키워드가 없어 AI로 유사 연구 단위를 찾으려면 로그인해 주세요.';
+      if (status) status.textContent = '일치하는 결과가 없습니다. AI 유사 검색을 사용하려면 로그인해 주세요.';
       window.SnuAccount?.open?.();
       return;
     }
@@ -138,11 +153,12 @@
     }).filter(x => x.research_summary || x.lab);
     if (!candidates.length) return;
     activeKey = key;
+    searchButton.disabled = true; searchButton.textContent = '검색 중…';
     try {
       const cached = JSON.parse(localStorage.getItem(key) || 'null');
       let recommendations = cached?.recommendations;
       if (!recommendations) {
-        if (status) status.textContent = '일치하는 결과가 없어 저장된 공식 연구 정보를 바탕으로 AI가 유사한 연구 단위를 찾고 있습니다…';
+        if (status) status.textContent = '일치 결과가 없어 저장된 공식 연구 정보를 바탕으로 AI가 유사한 연구 단위를 찾고 있습니다…';
         const response = await window.SnuAccount.callGemini({
           systemInstruction:{parts:[{text:'서울대학교 연구실 추천자. 검색어와 후보 데이터만 사용한다. 후보에 없는 ID를 만들지 않는다. 검색어의 의미를 해석해 가장 가까운 후보만 한국어로 짧게 추천하고, 근거 없는 사실은 쓰지 않는다.'}]},
           contents:[{role:'user',parts:[{text:JSON.stringify({task:'검색 결과가 0개일 때 가장 가까운 서울대학교 교수·연구실 최대 12개 추천',search_query:query,candidates})}]}],
@@ -157,8 +173,15 @@
       if (status) status.textContent = '직접 일치 결과는 없지만, 저장된 공식 정보 기준으로 AI가 유사한 연구 단위를 추천했습니다.';
       lastShownKey = key;
     } catch (error) {
-      if (status) status.textContent = 'AI 유사 추천을 완료하지 못했습니다: ' + (error?.message || '알 수 없는 오류');
-    } finally { activeKey = ''; }
+      const message = String(error?.message || '');
+      if (status) status.textContent = /(^|\\D)401(\\D|$)|authentication|unauthorized/i.test(message)
+        ? 'AI 서버 인증 오류입니다. 앱 검색 문제가 아니라 Gemini 프록시 배포·서버 키 설정을 점검해야 합니다.'
+        : 'AI 유사 추천을 완료하지 못했습니다: ' + (message || '알 수 없는 오류');
+    } finally {
+      activeKey = ''; searchButton.disabled = false; searchButton.innerHTML = 'AI 유사 검색 <span aria-hidden="true">→</span>';
+    }
   }
-  input?.addEventListener('input', () => { clearTimeout(timer); lastShownKey = ''; timer = setTimeout(recommendWhenNoMatch, 650); });
+  searchButton.addEventListener('click', runAiFallback);
+  input?.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); runAiFallback(); } });
+
 })();
