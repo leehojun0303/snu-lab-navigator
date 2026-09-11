@@ -32,15 +32,15 @@ def main():
     assert 'future_to_unit' in entry and 'verify_with_gemini' in entry
     assert 'SUPABASE_CONFIG' in config
     assert 'signInAnonymously' in account and 'claim_username' in account
-    assert '비밀번호' not in account.split('async function openAccount')[1][:2500]
+    assert '비밀번호<input' not in account and 'Gemini API 키<input' not in account
     assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
     assert 'claim_username' in migration and 'gemini_keys' not in migration
     assert 'GEMINI_API_KEY' in proxy and 'SUPABASE_SERVICE_ROLE_KEY' in proxy
     assert 'account-ai-bridge.js' in index
     assert 'SnuAccount.callGemini' in bridge
-    assert 'Anonymous Auth' in setup and '비밀번호' not in setup
+    assert 'Anonymous Auth' in setup and '비밀번호·이메일·전화번호' in setup
     assert 'service-role' not in account.lower()
     assert 'account.css' in index and len(account_css) > 100
-    print('PASS: static app, quality layer, ID-only anonymous account, favorites/compare, roster union, and collector workflow checks')
+    print('PASS: static app, quality layer, passwordless ID-only anonymous account, favorites/compare, roster union, and collector workflow checks')
 
 if __name__=='__main__': main()
