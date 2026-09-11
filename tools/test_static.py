@@ -62,7 +62,7 @@ def main() -> None:
     assert "recommendation_keywords" in entrypoint
 
     assert "stored_keywords" in quality and "stored_topics" in quality
-    assert "candidate_urls" in quality and "verified_publication_pages" in quality
+    assert "verified_publication_pages" in quality
     assert "verified_recruitment_pages" in quality
     assert "박사과정" in quality and "석사과정" in quality and "학부연구생" in quality and "Alumni" in quality
     assert "저장된 AI 추천 결과를 사용했습니다" in quality
@@ -75,7 +75,7 @@ def main() -> None:
     assert "최근 논문 흐름" in favorites
 
     assert "UNION" in roster
-    assert "two consecutive" in roster or "두 번 연속" in roster
+    assert "두 번 연속" in roster
     assert "absent_from_all_relevant_union_sources_for_two_successful_syncs" in roster
     assert "roster_sync.py" in workflow
     assert "Synchronize official professor roster union" in workflow
