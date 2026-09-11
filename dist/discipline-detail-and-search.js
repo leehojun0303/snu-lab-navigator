@@ -78,6 +78,7 @@
   if (aiOption) aiOption.remove();
   if (aiButton) aiButton.remove();
   document.querySelector('.ai-actions')?.classList.add('automatic-ai-status');
+  if (status) status.textContent = '교수·연구실·저장된 키워드와 직접 일치하지 않는 검색어에만 AI가 유사한 연구 단위를 추천합니다.';
   let timer = 0, activeKey = '', lastShownKey = '';
 
   function scoreCandidate(unit, query) {
