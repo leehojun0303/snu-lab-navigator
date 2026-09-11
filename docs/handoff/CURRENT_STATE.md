@@ -34,10 +34,12 @@ GitHub: https://github.com/leehojun0303/snu-lab-navigator
 자동 수집에서 생성한 `research_summary`, `research_topics`, `recommendation_keywords`, `recent_papers`는 snapshot에 저장한다. 검색·추천·연구실 비교는 저장된 데이터를 우선 사용해 같은 내용을 반복해서 Gemini에 보내는 일을 줄인다.
 
 ## 사용자 기능
-`dist/favorites-compare.js`가 즐겨찾기와 최대 4개 연구실 비교 UI를 제공한다. 비교 표는 저장된 AI 요약·keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결하게 보여주고 필요할 때만 Gemini로 차이점을 짧게 요약한다. 현재 즐겨찾기는 브라우저 로컬 저장이다.
+`dist/favorites-compare.js`가 즐겨찾기와 최대 4개 연구실 비교 UI를 제공한다. 로그인하지 않은 상태에서는 브라우저에 저장하고, 로그인 후에는 Supabase favorites 테이블과 동기화한다. 비교 표는 저장된 AI 요약·keyword, 최근 논문 연도 흐름, 구성원 규모, 모집 상태를 간결하게 보여주고 필요할 때 Gemini로 차이점을 짧게 요약한다.
 
-## 계정 기능의 남은 작업
-GitHub Pages는 정적 호스팅이므로 서버 계정 없이 실제 ID/비밀번호 인증과 계정 간 데이터 동기화를 제공할 수 없다. 현재 직접 Gemini 연결 키도 브라우저 sessionStorage에 보관된다. ID/비밀번호 기반 계정과 암호화된 Gemini key를 여러 기기에서 사용할 수 있게 하려면 별도 인증·DB backend가 필요하며, 공개 GitHub Pages나 저장소에 평문 비밀번호/API key를 저장하는 방식은 사용하지 않는다.
+## 계정 기능
+`dist/account.js`가 ID/비밀번호 회원가입·로그인·최근 사용 ID 선택 UI를 제공한다. 실제 인증은 Supabase Auth를 사용하고 비밀번호는 앱 코드/DB에 평문으로 저장하지 않는다. 회원가입 시 입력한 Gemini API key는 `user-secret` Edge Function에서 암호화하여 저장하고, 로그인 후 세션에서 필요한 AI 기능에 사용한다. `gemini-proxy` Edge Function을 통해 서버 측 호출도 지원한다.
+
+GitHub Pages에는 service-role key나 Gemini secret을 저장하지 않는다. `dist/supabase-config.js`에는 공개 Supabase URL/anon key만 설정한다. 실제 계정 기능을 활성화하려면 Supabase 프로젝트에서 `supabase/migrations/20260911_user_accounts.sql`을 적용하고 Edge Function secrets (`SUPABASE_SERVICE_ROLE_KEY`, `GEMINI_KEY_ENCRYPTION_SECRET`)을 설정해야 한다. 자세한 구현 현황은 `docs/handoff/FEATURE_STATUS.md` 참조.
 
 ## 현재 한계
-전수 상세 완성은 아직 진행 중이다. JS-only 사이트, 이미지 속 정보, 접근 제한 페이지, 비표준 navigation은 추가 보완이 필요하다. 따라서 `후보를 못 찾음`, `접근 실패`, `공식 출처상 실제 정보 없음`을 서로 구분한다.
+전수 상세 완성은 아직 진행 중이다. JS-only 사이트, 이미지 속 정보, 접근 제한 페이지, 비표준 navigation은 추가 보완이 필요하다. 또한 새 교수 자동 추가는 현재 저장소에 등록된 공식 roster URL 집합을 기준으로 동작하므로 새로운 공식 roster source가 생기면 URL registry에 추가해야 한다.
