@@ -76,7 +76,8 @@
   const aiButton = document.querySelector('#aiRecommend');
   const aiOption = sort && [...sort.options].find(option => option.value === 'ai');
   if (aiOption) aiOption.remove();
-  if (aiButton) aiButton.closest('.ai-actions')?.remove();
+  if (aiButton) aiButton.remove();
+  document.querySelector('.ai-actions')?.classList.add('automatic-ai-status');
   let timer = 0, activeKey = '', lastShownKey = '';
 
   function scoreCandidate(unit, query) {
