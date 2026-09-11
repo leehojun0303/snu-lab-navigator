@@ -3,27 +3,169 @@
   const cfg = window.SUPABASE_CONFIG || {};
   const ready = Boolean(cfg.url && cfg.anonKey && window.supabase?.createClient);
   const supa = ready ? window.supabase.createClient(cfg.url, cfg.anonKey) : null;
-  const RECENT_IDS = 'snu-lab-recent-usernames-v3';
+  const RECENT_IDS = 'snu-lab-recent-usernames-v4';
   let currentUser = null;
   let currentUsername = '';
   const $ = (s, r = document) => r.querySelector(s);
   const esc = v => String(v ?? '').replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
   const validUsername = v => /^[A-Za-z0-9_.-]{3,40}$/.test(v);
-  function setHeader(){const b=$('#accountOpen');if(b)b.textContent=currentUsername?`👤 ${currentUsername}`:'로그인';}
-  function recentIds(){try{const v=JSON.parse(localStorage.getItem(RECENT_IDS)||'[]');return Array.isArray(v)?v:[]}catch(_){return[];}}
-  function saveRecentId(id){const list=recentIds().filter(x=>x!==id);list.unshift(id);localStorage.setItem(RECENT_IDS,JSON.stringify(list.slice(0,5)));}
-  async function getSession(){if(!supa)return null;const{data,error}=await supa.auth.getSession();if(error)throw error;return data.session||null;}
-  async function usernameAvailable(username){const{data,error}=await supa.rpc('username_available',{p_username:username});if(error)throw new Error('ID 중복 확인에 실패했습니다. Supabase SQL 설정을 최신 상태로 적용해 주세요.');return Boolean(data);}
-  async function claimUsername(username){const{data,error}=await supa.rpc('claim_username',{p_username:username});if(error)throw new Error('ID 등록에 실패했습니다. Supabase SQL 설정을 최신 상태로 적용해 주세요.');if(!data)throw new Error('이미 사용 중인 ID입니다. 다른 ID를 선택해 주세요.');}
-  async function loadUsername(){if(!currentUser)return '';const{data,error}=await supa.from('profiles').select('username').eq('id',currentUser.id).maybeSingle();if(error)throw error;return data?.username||'';}
-  async function loadFavorites(){if(!supa||!currentUser)return JSON.parse(localStorage.getItem('snu-lab-favorites-v1')||'[]');const{data,error}=await supa.from('favorites').select('lab_id').eq('user_id',currentUser.id);if(error)throw error;const ids=(data||[]).map(r=>r.lab_id);localStorage.setItem('snu-lab-favorites-v1',JSON.stringify(ids));window.dispatchEvent(new Event('snu-favorites-changed'));return ids;}
-  async function setFavorite(labId,enabled){if(!currentUser||!supa){const ids=new Set(JSON.parse(localStorage.getItem('snu-lab-favorites-v1')||'[]'));enabled?ids.add(labId):ids.delete(labId);localStorage.setItem('snu-lab-favorites-v1',JSON.stringify([...ids]));return;}const result=enabled?await supa.from('favorites').upsert({user_id:currentUser.id,lab_id:labId}):await supa.from('favorites').delete().eq('user_id',currentUser.id).eq('lab_id',labId);if(result.error)throw result.error;await loadFavorites();}
-  async function startAnonymousAccount(username){if(!ready)throw new Error('Supabase 연결이 완료되지 않았습니다.');if(!validUsername(username))throw new Error('ID는 영문·숫자·._- 조합 3~40자로 입력해 주세요.');if(!(await usernameAvailable(username)))throw new Error('이미 사용 중인 ID입니다. 다른 ID를 선택해 주세요.');const{data,error}=await supa.auth.signInAnonymously({options:{data:{username:username.toLowerCase()}}});if(error)throw new Error(`계정 생성에 실패했습니다: ${error.message}`);if(!data?.user)throw new Error('익명 계정 생성에 실패했습니다. Supabase Anonymous Sign-Ins를 확인해 주세요.');currentUser=data.user;try{await claimUsername(username);}catch(e){await supa.auth.signOut().catch(()=>{});currentUser=null;throw e;}currentUsername=username.toLowerCase();saveRecentId(currentUsername);setHeader();await loadFavorites().catch(()=>{});$('#accountDialog')?.close();window.dispatchEvent(new Event('snu-account-changed'));}
-  async function resumeAnonymousAccount(){if(!supa)return false;const session=await getSession();if(!session?.user)return false;currentUser=session.user;currentUsername=await loadUsername().catch(()=> '')||session.user.user_metadata?.username||'';if(!currentUsername){currentUser=null;return false;}currentUsername=currentUsername.toLowerCase();saveRecentId(currentUsername);setHeader();await loadFavorites().catch(()=>{});window.dispatchEvent(new Event('snu-account-changed'));return true;}
-  async function logout(){if(supa)await supa.auth.signOut();currentUser=null;currentUsername='';setHeader();window.dispatchEvent(new Event('snu-account-changed'));}
-  async function callGemini(body,model='gemini-3.1-flash-lite'){if(!currentUser||!supa)throw new Error('ID 계정을 먼저 시작해 주세요.');const session=await getSession();if(!session)throw new Error('로그인 세션이 없습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요.');const base=String(cfg.functionsBase||`${cfg.url.replace(/\/$/,'')}/functions/v1`).replace(/\/$/,'');const response=await fetch(`${base}/gemini-proxy`,{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${session.access_token}`},body:JSON.stringify({model,body})});const payload=await response.json().catch(()=>({}));if(!response.ok)throw new Error(payload.error||`Gemini 서버 오류 ${response.status}`);return{payload,model};}
-  function renderAccountDialog(){if(!$('#accountDialog'))document.body.insertAdjacentHTML('beforeend','<dialog id="accountDialog" class="account-dialog"><button class="close" id="accountClose" type="button">×</button><div id="accountBody"></div></dialog>');const dialog=$('#accountDialog'),recent=recentIds(),body=$('#accountBody');body.innerHTML=`<h2>연구실 탐색 계정</h2><p class="account-note">개인정보를 요구하지 않습니다. 원하는 고유 ID만 정하면 익명 계정이 만들어집니다.</p><p class="account-note">같은 ID는 한 번만 사용할 수 있습니다. 이 브라우저의 인증 세션이 계정을 유지하므로 다음 방문에는 자동으로 복원됩니다.</p><label>새 ID<input id="accountIdInput" autocomplete="off" placeholder="예: labfinder27"></label><button id="accountCreateGo" class="primary" type="button">이 ID로 시작하기</button><p id="accountStatus" class="status"></p>${recent.length?`<div class="recent-title">최근 사용 ID</div><div class="recent-users">${recent.map(id=>`<button class="recent-user" type="button" data-id="${esc(id)}">${esc(id)}</button>`).join('')}</div>`:''}`;$('#accountClose').onclick=()=>dialog.close();body.querySelectorAll('.recent-user').forEach(btn=>btn.onclick=()=>{$('#accountIdInput').value=btn.dataset.id;$('#accountIdInput').focus();});$('#accountCreateGo').onclick=async()=>{const status=$('#accountStatus'),id=$('#accountIdInput').value.trim().toLowerCase();status.textContent='ID 사용 가능 여부 확인 중…';try{await startAnonymousAccount(id);}catch(e){status.textContent=e.message;$('#accountIdInput').focus();}};dialog.showModal();}
-  async function openAccount(){if(!ready){alert('계정 기능은 Supabase 연결 후 사용할 수 있습니다.');return;}if(currentUser&&currentUsername){if(confirm(`${currentUsername} 계정에서 로그아웃할까요?`))await logout();return;}renderAccountDialog();}
-  async function init(){if(supa){supa.auth.onAuthStateChange(async(_event,session)=>{currentUser=session?.user||null;if(!currentUser){currentUsername='';setHeader();window.dispatchEvent(new Event('snu-account-changed'));return;}currentUsername=await loadUsername().catch(()=> '')||currentUser.user_metadata?.username||'';currentUsername=currentUsername.toLowerCase();if(currentUsername)saveRecentId(currentUsername);setHeader();window.dispatchEvent(new Event('snu-account-changed'));});await resumeAnonymousAccount().catch(()=>{});}const button=$('#accountOpen');if(button)button.onclick=openAccount;['#saveGeminiKey','#welcomeConnect'].forEach(selector=>document.querySelector(selector)?.addEventListener('click',e=>{e.preventDefault();document.querySelector('#welcomeDialog')?.close();document.querySelector('#aiKeyDialog')?.close();openAccount();}));window.SnuAccount={isConfigured:()=>ready,isLoggedIn:()=>Boolean(currentUser&&currentUsername),isAuthReady:()=>Boolean(true),open:openAccount,logout,setFavorite,loadFavorites,callGemini,getUser:()=>currentUser,getUsername:()=>currentUsername};}
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+
+  function setHeader(){ const b = $('#accountOpen'); if (b) b.textContent = currentUsername ? `👤 ${currentUsername}` : '로그인'; }
+  function recentIds(){ try { const v = JSON.parse(localStorage.getItem(RECENT_IDS) || '[]'); return Array.isArray(v) ? v : []; } catch (_) { return []; } }
+  function saveRecentId(id){ const list = recentIds().filter(x => x !== id); list.unshift(id); localStorage.setItem(RECENT_IDS, JSON.stringify(list.slice(0, 5))); }
+  async function getSession(){ if (!supa) return null; const {data,error} = await supa.auth.getSession(); if (error) throw error; return data.session || null; }
+
+  async function createProfile(username, userId){
+    const {data, error} = await supa.from('profiles').insert({id:userId, username:username.toLowerCase()}).select('username').maybeSingle();
+    if (!error) return data?.username || username.toLowerCase();
+    if (error.code === '23505' || /duplicate|unique/i.test(error.message || '')) throw new Error('이미 사용 중인 ID입니다. 다른 ID를 선택해 주세요.');
+    if (error.code === '42501') throw new Error('Supabase profiles 테이블 권한이 없습니다. 최신 SQL migration을 적용해 주세요.');
+    if (error.code === '42P01') throw new Error('Supabase profiles 테이블이 없습니다. 최신 SQL migration을 적용해 주세요.');
+    throw new Error(`ID 등록에 실패했습니다: ${error.message || error.code || 'unknown error'}`);
+  }
+
+  async function loadUsername(){
+    if (!currentUser) return '';
+    const {data,error} = await supa.from('profiles').select('username').eq('id',currentUser.id).maybeSingle();
+    if (error) throw error;
+    return data?.username || '';
+  }
+
+  async function loadFavorites(){
+    if (!supa || !currentUser) return JSON.parse(localStorage.getItem('snu-lab-favorites-v1') || '[]');
+    const {data,error} = await supa.from('favorites').select('lab_id').eq('user_id',currentUser.id);
+    if (error) throw error;
+    const ids = (data || []).map(r => r.lab_id);
+    localStorage.setItem('snu-lab-favorites-v1', JSON.stringify(ids));
+    window.dispatchEvent(new Event('snu-favorites-changed'));
+    return ids;
+  }
+
+  async function setFavorite(labId,enabled){
+    if (!currentUser || !supa) {
+      const ids = new Set(JSON.parse(localStorage.getItem('snu-lab-favorites-v1') || '[]'));
+      enabled ? ids.add(labId) : ids.delete(labId);
+      localStorage.setItem('snu-lab-favorites-v1', JSON.stringify([...ids]));
+      window.dispatchEvent(new Event('snu-favorites-changed'));
+      return;
+    }
+    const result = enabled
+      ? await supa.from('favorites').upsert({user_id:currentUser.id,lab_id:labId})
+      : await supa.from('favorites').delete().eq('user_id',currentUser.id).eq('lab_id',labId);
+    if (result.error) throw result.error;
+    await loadFavorites();
+  }
+
+  async function startAnonymousAccount(username){
+    if (!ready) throw new Error('Supabase 연결이 완료되지 않았습니다.');
+    username = username.trim().toLowerCase();
+    if (!validUsername(username)) throw new Error('ID는 영문·숫자·._- 조합 3~40자로 입력해 주세요.');
+
+    const {data,error} = await supa.auth.signInAnonymously({options:{data:{username}}});
+    if (error) throw new Error(`계정 생성에 실패했습니다: ${error.message}`);
+    if (!data?.user) throw new Error('익명 계정 생성에 실패했습니다. Supabase Anonymous Sign-Ins를 확인해 주세요.');
+    currentUser = data.user;
+
+    try {
+      currentUsername = await createProfile(username, currentUser.id);
+    } catch (e) {
+      await supa.auth.signOut().catch(() => {});
+      currentUser = null;
+      currentUsername = '';
+      throw e;
+    }
+
+    saveRecentId(currentUsername);
+    localStorage.setItem('snu-lab-favorites-v1', '[]');
+    setHeader();
+    await loadFavorites().catch(() => {});
+    $('#accountDialog')?.close();
+    window.dispatchEvent(new Event('snu-account-changed'));
+  }
+
+  async function resumeAnonymousAccount(){
+    if (!supa) return false;
+    const session = await getSession();
+    if (!session?.user) return false;
+    currentUser = session.user;
+    currentUsername = await loadUsername().catch(() => '') || session.user.user_metadata?.username || '';
+    if (!currentUsername) { currentUser = null; return false; }
+    currentUsername = currentUsername.toLowerCase();
+    saveRecentId(currentUsername);
+    setHeader();
+    await loadFavorites().catch(() => {});
+    window.dispatchEvent(new Event('snu-account-changed'));
+    return true;
+  }
+
+  async function logout(){
+    if (supa) await supa.auth.signOut();
+    currentUser = null;
+    currentUsername = '';
+    setHeader();
+    window.dispatchEvent(new Event('snu-account-changed'));
+  }
+
+  async function callGemini(body,model='gemini-3.1-flash-lite'){
+    if (!currentUser || !supa) throw new Error('ID 계정을 먼저 시작해 주세요.');
+    const session = await getSession();
+    if (!session) throw new Error('로그인 세션이 없습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요.');
+    const base = String(cfg.functionsBase || `${cfg.url.replace(/\/$/,'')}/functions/v1`).replace(/\/$/,'');
+    const response = await fetch(`${base}/gemini-proxy`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json',Authorization:`Bearer ${session.access_token}`},
+      body:JSON.stringify({model,body})
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.error || `Gemini 서버 오류 ${response.status}`);
+    return {payload,model};
+  }
+
+  function renderAccountDialog(){
+    if (!$('#accountDialog')) document.body.insertAdjacentHTML('beforeend','<dialog id="accountDialog" class="account-dialog"><button class="close" id="accountClose" type="button">×</button><div id="accountBody"></div></dialog>');
+    const dialog = $('#accountDialog');
+    const recent = recentIds();
+    const body = $('#accountBody');
+    body.innerHTML = `<h2>연구실 탐색 계정</h2><p class="account-note">개인정보를 요구하지 않습니다. 원하는 고유 ID만 정하면 익명 계정이 만들어집니다.</p><p class="account-note">같은 ID는 한 번만 사용할 수 있습니다. 이 브라우저의 인증 세션이 계정을 유지하므로 다음 방문에는 자동으로 복원됩니다.</p><label>새 ID<input id="accountIdInput" autocomplete="off" placeholder="예: labfinder27"></label><button id="accountCreateGo" class="primary" type="button">이 ID로 시작하기</button><p id="accountStatus" class="status"></p>${recent.length ? `<div class="recent-title">최근 사용 ID</div><div class="recent-users">${recent.map(id=>`<button class="recent-user" type="button" data-id="${esc(id)}">${esc(id)}</button>`).join('')}</div>` : ''}`;
+    $('#accountClose').onclick = () => dialog.close();
+    body.querySelectorAll('.recent-user').forEach(btn => btn.onclick = () => { $('#accountIdInput').value = btn.dataset.id; $('#accountIdInput').focus(); });
+    $('#accountCreateGo').onclick = async () => {
+      const status = $('#accountStatus');
+      const id = $('#accountIdInput').value.trim().toLowerCase();
+      status.textContent = 'ID 계정을 만드는 중…';
+      try { await startAnonymousAccount(id); }
+      catch (e) { status.textContent = e.message; $('#accountIdInput').focus(); }
+    };
+    dialog.showModal();
+  }
+
+  async function openAccount(){
+    if (!ready) { alert('계정 기능은 Supabase 연결 후 사용할 수 있습니다.'); return; }
+    if (currentUser && currentUsername) {
+      if (confirm(`${currentUsername} 계정에서 로그아웃할까요?`)) await logout();
+      return;
+    }
+    renderAccountDialog();
+  }
+
+  async function init(){
+    if (supa) {
+      supa.auth.onAuthStateChange(async (_event,session) => {
+        currentUser = session?.user || null;
+        if (!currentUser) { currentUsername=''; setHeader(); window.dispatchEvent(new Event('snu-account-changed')); return; }
+        currentUsername = await loadUsername().catch(()=>'') || currentUser.user_metadata?.username || '';
+        currentUsername = currentUsername.toLowerCase();
+        if (currentUsername) saveRecentId(currentUsername);
+        setHeader();
+        window.dispatchEvent(new Event('snu-account-changed'));
+      });
+      await resumeAnonymousAccount().catch(() => {});
+    }
+    const button = $('#accountOpen');
+    if (button) button.onclick = openAccount;
+    ['#saveGeminiKey','#welcomeConnect'].forEach(selector => document.querySelector(selector)?.addEventListener('click',e => { e.preventDefault(); document.querySelector('#welcomeDialog')?.close(); document.querySelector('#aiKeyDialog')?.close(); openAccount(); }));
+    window.SnuAccount = {isConfigured:()=>ready,isLoggedIn:()=>Boolean(currentUser&&currentUsername),isAuthReady:()=>Boolean(true),open:openAccount,logout,setFavorite,loadFavorites,callGemini,getUser:()=>currentUser,getUsername:()=>currentUsername};
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',init); else init();
 })();
