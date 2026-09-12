@@ -29,12 +29,14 @@ def load_units_compatible():
         chunks = sorted((collector.DIST / "data").glob("units-*.js"))
         if not chunks:
             raise RuntimeError("No dist/data.js or dist/data/units-*.js found")
-        for index, path in enumerate(chunks):
+        for path in chunks:
             text = path.read_text(encoding="utf-8")
-            if index == 0:
-                match = re.search(r"window\.RESEARCH_UNITS\s*=\s*(.+?)\s*;\s*$", text, re.S)
-            else:
-                match = re.search(r"window\.RESEARCH_UNITS\.push\(\.\.\.(.+?)\);\s*$", text, re.S)
+            # Roster sync may emit every chunk as push(...), including units-001.js.
+            match = re.search(
+                r"window\.RESEARCH_UNITS(?:\s*=\s*|\.push\(\.\.\.)(\[.*\])\)?\s*;\s*$",
+                text,
+                re.S,
+            )
             if not match:
                 raise RuntimeError(f"Cannot parse research-unit chunk {path.name}")
             units.extend(json.loads(match.group(1)))
