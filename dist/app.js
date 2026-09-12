@@ -107,6 +107,18 @@ function displayTitle(x) {
   return `${x.name || '교수명 미확인'} 교수 / ${labName(x)}`;
 }
 
+function affiliationLabel(x) {
+  const name = String(x?.name || '').trim();
+  const seen = new Set();
+  const labels = units.filter(item => String(item.name || '').trim() === name).map(item => {
+    const collegeName = String(item.college || '').trim();
+    const departmentName = String(item.department || '').trim();
+    return collegeName && departmentName && collegeName !== departmentName ? collegeName + ' ' + departmentName : (collegeName || departmentName);
+  }).filter(label => label && !seen.has(label) && seen.add(label));
+  return labels.join(' · ') || [x?.college, x?.department].filter(Boolean).join(' ');
+}
+window.SnuAffiliationLabel = affiliationLabel;
+
 function paperCountFor(x) {
   const activity = (window.RESEARCH_ACTIVITY || {})[x.id] || {};
   if (Array.isArray(activity.papers) && activity.papers.length) return activity.papers.length;
@@ -119,7 +131,7 @@ function paperCountFor(x) {
 function cardHtml(x) {
   const reason = aiReasons.get(x.id);
   const paperCount = paperCountFor(x);
-  return `<button class="card" data-i="${units.indexOf(x)}">${avatar(x)}<span class="card-copy"><h2>${escapeHtml(displayTitle(x))}</h2><span class="meta">${escapeHtml([x.college, x.department, x.rank].filter(Boolean).join(' · '))}</span>${paperCount !== null ? `<span class="paper-count">공식 페이지에서 제목 확인 ${paperCount}편</span>` : ''}${reason ? `<span class="ai-reason"><strong>AI 추천 이유</strong>${escapeHtml(reason)}</span>` : ''}</span></button>`;
+  return `<button class="card" data-i="${units.indexOf(x)}">${avatar(x)}<span class="card-copy"><h2>${escapeHtml(displayTitle(x))}</h2><span class="meta">${escapeHtml([affiliationLabel(x), x.rank].filter(Boolean).join(' · '))}</span>${paperCount !== null ? `<span class="paper-count">공식 페이지에서 제목 확인 ${paperCount}편</span>` : ''}${reason ? `<span class="ai-reason"><strong>AI 추천 이유</strong>${escapeHtml(reason)}</span>` : ''}</span></button>`;
 }
 
 function render() {
@@ -462,7 +474,7 @@ function openDetail(x) {
   const cachedState = enrichment && !state ? (isBatchSaved ? '정기 수집용 데이터 구조에 저장된 분석 결과로, 상세 화면을 열 때 API를 다시 호출하지 않습니다.' : '이 브라우저에 저장된 분석 결과로, 같은 공식 URL은 다시 호출하지 않습니다.') : '';
   const stateHtml = state ? `<p class="enrichment-state ${escapeHtml(state.status)}">${escapeHtml(state.message)}</p>` : (cachedState ? `<p class="enrichment-state done">${cachedState}</p>` : '');
   const analysisControl = !enrichment && sourceCount ? '<p class="research-empty batch-note">AI 상세 요약은 정기 수집 배치에서 생성·검증 후 이 위치에 자동 표시됩니다.</p>' : (!sourceCount ? '<p class="research-empty">분석할 공식 링크가 없어 학과 공식 안내를 직접 확인해야 합니다.</p>' : '');
-  detailContent.innerHTML = `<div class="detail-head">${avatar(x, true)}<div><h2>${escapeHtml(`${x.name} 교수 / ${shownLabName}`)}</h2><p class="detail-meta">${escapeHtml([x.college, x.department, x.rank].filter(Boolean).join(' · '))}</p></div></div>${reason ? `<section class="detail-section ai-detail"><h3>AI 추천 이유</h3><p>${escapeHtml(reason)}</p></section>` : ''}<section class="detail-section research-section"><div class="section-heading"><h3>연구 분야</h3>${enrichment ? `<span class="ai-badge">${isBatchSaved ? '저장된 AI 분석' : '브라우저 캐시 AI 분석'}</span>` : ''}</div>${researchText ? `<p>${escapeHtml(researchText)}</p>${researchTopics}` : '<p class="research-empty">현재 수집본에는 연구 분야 설명이 없습니다.</p>'}${enrichmentSources(enrichment)}${analysisControl}${stateHtml}</section>${activityHtml(x)}<div class="actions">${labUrl ? `<a class="link primary" target="_blank" rel="noreferrer" href="${escapeHtml(labUrl)}">연구실 홈페이지</a>` : ''}${profileUrl ? `<a class="link secondary" target="_blank" rel="noreferrer" href="${escapeHtml(profileUrl)}">교수 소개</a>` : ''}${departmentUrl ? `<a class="link secondary" target="_blank" rel="noreferrer" href="${escapeHtml(departmentUrl)}">학과 공식 페이지</a>` : ''}${!labUrl && !profileUrl && !departmentUrl ? '<p class="notice">확인된 공식 링크가 없습니다. 해당 학과 행정실에 문의해 주세요.</p>' : ''}</div>`;
+  detailContent.innerHTML = `<div class="detail-head">${avatar(x, true)}<div><h2>${escapeHtml(`${x.name} 교수 / ${shownLabName}`)}</h2><p class="detail-meta">${escapeHtml([affiliationLabel(x), x.rank].filter(Boolean).join(' · '))}</p></div></div>${reason ? `<section class="detail-section ai-detail"><h3>AI 추천 이유</h3><p>${escapeHtml(reason)}</p></section>` : ''}<section class="detail-section research-section"><div class="section-heading"><h3>연구 분야</h3>${enrichment ? `<span class="ai-badge">${isBatchSaved ? '저장된 AI 분석' : '브라우저 캐시 AI 분석'}</span>` : ''}</div>${researchText ? `<p>${escapeHtml(researchText)}</p>${researchTopics}` : '<p class="research-empty">현재 수집본에는 연구 분야 설명이 없습니다.</p>'}${enrichmentSources(enrichment)}${analysisControl}${stateHtml}</section>${activityHtml(x)}<div class="actions">${labUrl ? `<a class="link primary" target="_blank" rel="noreferrer" href="${escapeHtml(labUrl)}">연구실 홈페이지</a>` : ''}${profileUrl ? `<a class="link secondary" target="_blank" rel="noreferrer" href="${escapeHtml(profileUrl)}">교수 소개</a>` : ''}${departmentUrl ? `<a class="link secondary" target="_blank" rel="noreferrer" href="${escapeHtml(departmentUrl)}">학과 공식 페이지</a>` : ''}${!labUrl && !profileUrl && !departmentUrl ? '<p class="notice">확인된 공식 링크가 없습니다. 해당 학과 행정실에 문의해 주세요.</p>' : ''}</div>`;
   if (!detail.open) detail.showModal();
 }
 
