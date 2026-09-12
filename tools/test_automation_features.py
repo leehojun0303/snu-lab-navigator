@@ -13,6 +13,12 @@ def test_parser_and_poster_candidates():
     assert found['publication'] and found['poster']
     assert ae.assets_for(p)
 
+def test_chunked_roster_loader():
+    import collector_entry as entry
+    units=entry.load_units_compatible()
+    assert len(units)>=2000
+    assert all(unit.get('id') for unit in units)
+
 def test_showcase_selection():
     units=[{'id':'a','labs':'Research Lab','fields':'topic'},{'id':'b','labs':'교수 연구그룹','fields':''}]
     records={'a':{'activity':{'posterStatus':'verified','sourcePagesScanned':['1','2','3']},'enrichment':{'research_summary':'x','research_topics':['a','b'],'recent_papers':[{'title':'paper title'}],'current_members':[{'name':'X','role':'PhD'}]}},'b':{'activity':{},'enrichment':{}}}
@@ -20,4 +26,4 @@ def test_showcase_selection():
     assert uid=='a' and score>50
 
 if __name__=='__main__':
-    test_parser_and_poster_candidates(); test_showcase_selection(); print('PASS: poster candidate parsing and automatic showcase selection')
+    test_parser_and_poster_candidates(); test_chunked_roster_loader(); test_showcase_selection(); print('PASS: chunk loader, poster candidate parsing, and automatic showcase selection')
