@@ -6,8 +6,8 @@
   function updateHomeCopy() {
     const eyebrow = document.querySelector('header .eyebrow');
     const intro = document.querySelector('header .intro');
-    if (eyebrow) eyebrow.textContent = '서울대학교 교수/연구실 탐색';
-    if (intro) intro.textContent = '관심 주제로 교수와 연구실을 찾아보세요.';
+    if (eyebrow && eyebrow.textContent !== '서울대학교 교수/연구실 탐색') eyebrow.textContent = '서울대학교 교수/연구실 탐색';
+    if (intro && intro.textContent !== '관심 주제로 교수와 연구실을 찾아보세요.') intro.textContent = '관심 주제로 교수와 연구실을 찾아보세요.';
   }
 
   function hideDetailCollectionStatus() {
@@ -16,20 +16,14 @@
     detail.querySelectorAll('.pending-summary,.paper-stats,.activity-metrics span,*').forEach(el => {
       if (el.children.length) return;
       const text = clean(el.textContent);
-      if (/수집\s*중/.test(text) || text === '저장된 AI 분석') {
-        el.style.display = 'none';
-      }
+      if ((/수집\s*중/.test(text) || text === '저장된 AI 분석') && el.style.display !== 'none') el.style.display = 'none';
     });
   }
 
   function compareRows(dialog) {
     const rows = [...dialog.querySelectorAll('.stable-scroll tbody tr')];
     const byLabel = label => rows.find(row => clean(row.querySelector('th')?.textContent) === label);
-    return {
-      core: byLabel('핵심 분야'),
-      keywords: byLabel('키워드'),
-      paper: byLabel('논문 기반 최근 관심 분야')
-    };
+    return {core:byLabel('핵심 분야'),keywords:byLabel('키워드'),paper:byLabel('논문 기반 최근 관심 분야')};
   }
 
   function trimSeparatedCell(cell, max = 3) {
@@ -45,60 +39,37 @@
     const table = dialog.querySelector('.stable-scroll table');
     if (!table) return;
     table.classList.add('equal-professor-columns');
+    const {core,keywords,paper} = compareRows(dialog);
+    [...(core?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
+    [...(keywords?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
 
-    const {core, keywords, paper} = compareRows(dialog);
-    [...(core?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell, 3));
-    [...(keywords?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell, 3));
-
-    // The static row used to expose English paper titles when a Korean AI summary
-    // was unavailable. Do not present a title list as a recent research focus.
     const paperCells = [...(paper?.querySelectorAll('td') || [])];
     paperCells.forEach(cell => {
-      if (!cell.dataset.focusReady) cell.textContent = '확인 필요';
+      if (!cell.dataset.focusReady && clean(cell.textContent) !== '확인 필요') cell.textContent = '확인 필요';
     });
 
-    // The existing comparison Gemini call already derives recent_focus from the
-    // verified latest-paper summaries. Move that result into the table itself.
     const aiRows = [...dialog.querySelectorAll('#stableCompareAi .stable-ai-rows p, #stableCompareAi > p')];
     const focuses = aiRows.map(row => {
       const focus = row.querySelector('.compare-focus');
-      if (!focus) return '';
-      return clean(focus.textContent).replace(/^논문 기반 최근 관심 분야:\s*/, '');
+      return focus ? clean(focus.textContent).replace(/^논문 기반 최근 관심 분야:\s*/,'') : '';
     }).filter(Boolean);
-    focuses.slice(0, paperCells.length).forEach((focus, i) => {
-      paperCells[i].textContent = focus || '확인 필요';
+    focuses.slice(0,paperCells.length).forEach((focus,i) => {
+      if (clean(paperCells[i].textContent) !== focus) paperCells[i].textContent = focus;
       paperCells[i].dataset.focusReady = '1';
     });
   }
 
   function install() {
     updateHomeCopy();
-    const style = document.createElement('style');
-    style.textContent = `
-      #stableCompareDialog .stable-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-      #stableCompareDialog table.equal-professor-columns{table-layout:fixed;width:max-content;min-width:100%}
-      #stableCompareDialog table.equal-professor-columns th:first-child{width:92px;min-width:92px;max-width:92px}
-      #stableCompareDialog table.equal-professor-columns th:not(:first-child),
-      #stableCompareDialog table.equal-professor-columns td{width:280px;min-width:280px;max-width:280px;white-space:normal;overflow-wrap:break-word;word-break:normal}
-      @media(max-width:600px){
-        #stableCompareDialog{width:calc(100% - 18px);padding:18px 14px}
-        #stableCompareDialog table.equal-professor-columns th:first-child{width:76px;min-width:76px;max-width:76px}
-        #stableCompareDialog table.equal-professor-columns th:not(:first-child),
-        #stableCompareDialog table.equal-professor-columns td{width:220px;min-width:220px;max-width:220px}
-      }
-    `;
+    const style=document.createElement('style');
+    style.textContent=`#stableCompareDialog .stable-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}#stableCompareDialog table.equal-professor-columns{table-layout:fixed;width:max-content;min-width:100%}#stableCompareDialog table.equal-professor-columns th:first-child{width:92px;min-width:92px;max-width:92px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:280px;min-width:280px;max-width:280px;white-space:normal;overflow-wrap:break-word;word-break:normal}@media(max-width:600px){#stableCompareDialog{width:calc(100% - 18px);padding:18px 14px}#stableCompareDialog table.equal-professor-columns th:first-child{width:76px;min-width:76px;max-width:76px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:220px;min-width:220px;max-width:220px}}`;
     document.head.appendChild(style);
-
-    const observer = new MutationObserver(() => {
-      updateHomeCopy();
-      hideDetailCollectionStatus();
-      refineCompare(document.querySelector('#stableCompareDialog'));
-    });
-    observer.observe(document.body, {childList:true, subtree:true, attributes:true, attributeFilter:['open']});
-    hideDetailCollectionStatus();
-    refineCompare(document.querySelector('#stableCompareDialog'));
+    let queued=false;
+    const apply=()=>{queued=false;updateHomeCopy();hideDetailCollectionStatus();refineCompare(document.querySelector('#stableCompareDialog'));};
+    const observer=new MutationObserver(()=>{if(!queued){queued=true;requestAnimationFrame(apply);}});
+    observer.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['open']});
+    apply();
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', install);
-  else install();
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
 })();
