@@ -1,5 +1,5 @@
 {
-  "cursor": 190,
+  "cursor": 195,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -227116,54 +227116,95 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AB38D7C49C91AD": {
-      "fingerprint": "eec5e6785abd9008e7560f6715548b496938b8e99022b7fec0c6014409fd59c8",
-      "checked_at": "2026-09-11T03:53:43Z",
+      "fingerprint": "911a9e93902a9aef1173632cb8712e832306f45b0e282610d978aa4166c14f45",
+      "checked_at": "2026-09-12T03:22:14Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "Publications",
-            "url": "https://adr.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://adr.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://adr.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://adr.snu.ac.kr/publications#h.npl2885go8qi",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://adr.snu.ac.kr/publications#h.1yv04mbp48r3",
-            "kind": "publication"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [],
-        "membersUrl": "https://adr.snu.ac.kr/members",
+        "membersUrl": "https://adr.snu.ac.kr",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://spa.snu.ac.kr/",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p902",
+          "https://ece.snu.ac.kr",
           "https://adr.snu.ac.kr",
-          "https://adr.snu.ac.kr/members",
-          "https://adr.snu.ac.kr/publications",
-          "https://adr.snu.ac.kr/home",
-          "https://adr.snu.ac.kr/faculty",
-          "https://adr.snu.ac.kr/research",
-          "https://adr.snu.ac.kr/members#h.p_HUEev70K7swA"
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-AB38D7C49C91AD",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "피지컬 인공지능 연구실(Artificial Intelligence & Autonomous Driving Laboratory)은 자율주행 및 로봇 공학을 위한 인공지능과 데이터 처리 기술을 연구하며, 인공지능과 로봇 기술의 발전을 통한 기술 혁신에 기여하는 것을 목표로 합니다.",
+        "research_topics": [
+          "인공지능",
+          "자율주행",
+          "로봇인지",
+          "센서신호처리"
+        ],
+        "recommendation_keywords": [
+          "인공지능",
+          "자율주행",
+          "로봇인지",
+          "센서신호처리"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "어바나-샴페인 일리노이 주립대 전기및컴퓨터공학부 박사, 서울대학교 전기및컴퓨터공학부 석사 및 전기공학부 학사 학위를 취득하였습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "학부생을 대상으로 여름 또는 겨울 인턴십 프로그램을 운영하고 있으며, 관심 있는 학생은 이메일(junwchoi@snu.ac.kr)로 문의할 수 있습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://adr.snu.ac.kr",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://adr.snu.ac.kr",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://adr.snu.ac.kr",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p902",
+          "https://spa.snu.ac.kr/",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58043",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58045",
+          "https://ece.snu.ac.kr/webdata/professor/3bcz3afz88fz15az33dze71zdeaz8ccz068z01cz72.jpg",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-AB38D7C49C91AD",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:22:36Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-AB38D7C49C91AD"
     },
     "SNU-RU-41714F88478061": {
       "fingerprint": "db7eceb97a4ec29cc5a3249452eb0253c8620a5908d7b74ab0b7876dfa6399ee",
@@ -231768,6 +231809,362 @@
         "_quality_gate": "ai_verified_v3_paper_insights"
       },
       "_unit_id": "SNU-RU-730577D331AEED"
+    },
+    "SNU-RU-A37A48E137C182": {
+      "fingerprint": "38e260d6a16f3359ecded43f6621ed78360b67483a1ae9d3ef47bc091c261eed",
+      "checked_at": "2026-09-12T03:22:16Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p825",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "한보형 교수는 컴퓨터 비전, 머신러닝, 딥러닝 분야를 연구하며 서울대학교 전기·정보공학부 컴퓨터비젼 연구실을 이끌고 있습니다.",
+        "research_topics": [
+          "Computer Vision",
+          "Machine Learning",
+          "Deep Learning"
+        ],
+        "recommendation_keywords": [
+          "컴퓨터비전",
+          "머신러닝",
+          "딥러닝",
+          "Computer Vision",
+          "Machine Learning",
+          "Deep Learning"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 전기·정보공학부 교수로서 컴퓨터 비전 및 인공지능 관련 교육과 연구를 수행하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "현재 연구실 단위의 공식적인 채용 공고는 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p825",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58043",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58045",
+          "https://ece.snu.ac.kr/webdata/professor/c7c0e87ce87ed4fc37163589c394fd37.jpg",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-A37A48E137C182",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:22:43Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-A37A48E137C182"
+    },
+    "SNU-RU-26F66BAE5D5F3E": {
+      "fingerprint": "8e85a7832103a883be7c5895ed990eb98150ec2670823dd4a281e57ac1be8e3f",
+      "checked_at": "2026-09-12T03:22:17Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "실시간 시스템, 미들웨어, 운영체제 및 소프트웨어 공학 분야를 연구하며, 실시간 운영체제 연구실을 운영하고 있습니다.",
+        "research_topics": [
+          "실시간 시스템",
+          "미들웨어",
+          "운영체제",
+          "소프트웨어 공학"
+        ],
+        "recommendation_keywords": [
+          "실시간 시스템",
+          "미들웨어",
+          "운영체제",
+          "소프트웨어 공학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58043",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58045",
+          "https://ece.snu.ac.kr/webdata/professor/0ad43488574baa9b2f1c9889b9b7fa81.jpg",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-26F66BAE5D5F3E",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:22:44Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-26F66BAE5D5F3E"
+    },
+    "SNU-RU-975B0A3CE137BA": {
+      "fingerprint": "bd362081a9f2a3bd4b5856b903e8361e2cea5a9dca5fd32959a977e14f1ee0ea",
+      "checked_at": "2026-09-12T03:22:17Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "하정익 교수는 전력전자 및 전기 에너지 변환 분야를 연구하며, 고효율 전력 변환 시스템 및 관련 제어 기술을 다룹니다.",
+        "research_topics": [
+          "전력전자",
+          "전기 에너지 변환"
+        ],
+        "recommendation_keywords": [
+          "전력전자",
+          "전기 에너지 변환"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58043",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58045",
+          "https://ece.snu.ac.kr/webdata/professor/51da75e717b0c8a0c5a6d7bcefa1213a.jpg",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-975B0A3CE137BA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:22:46Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-975B0A3CE137BA"
+    },
+    "SNU-RU-ECAAF244AAA428": {
+      "fingerprint": "9538a43be465c628189740c1dfef533f82f441fd43ec5424a05b7f933c681e38",
+      "checked_at": "2026-09-12T03:22:17Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "초전도 응용 연구실은 초전도 응용 기기 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "초전도 응용 기기"
+        ],
+        "recommendation_keywords": [
+          "초전도 응용 기기"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/community/job-openings?sc=y",
+          "https://ece.snu.ac.kr/community/campus-life",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/community/admissions",
+          "https://ece.snu.ac.kr/community/job-openings",
+          "https://ece.snu.ac.kr/intranet/",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58043",
+          "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58045",
+          "https://ece.snu.ac.kr/webdata/professor/ed24646a2df243ae684e0a342f38e21d.jpg",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+          "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-ECAAF244AAA428",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:22:47Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-ECAAF244AAA428"
     }
   },
   "failures": {
@@ -232343,10 +232740,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T03:56:49Z"
     },
-    "SNU-RU-975B0A3CE137BA": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:56:49Z"
-    },
     "SNU-RU-02CBF0C7544CFA": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T03:57:04Z"
@@ -232367,10 +232760,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T03:57:26Z"
     },
-    "SNU-RU-A37A48E137C182": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:57:34Z"
-    },
     "SNU-RU-FF57AC441957F0": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T03:57:46Z"
@@ -232386,10 +232775,6 @@
     "SNU-RU-CE840B1F0A2B57": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T03:58:06Z"
-    },
-    "SNU-RU-ECAAF244AAA428": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:58:07Z"
     },
     "SNU-RU-E74F65502B3B42": {
       "reason": "fetch_failed",
@@ -232523,10 +232908,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T04:01:12Z"
     },
-    "SNU-RU-26F66BAE5D5F3E": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T04:01:17Z"
-    },
     "SNU-RU-5F3868E8BDA6A5": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-11T04:01:26Z"
@@ -232609,11 +232990,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T03:21:58Z",
-    "checked": 145,
-    "seconds": 1131.49,
+    "at": "2026-09-12T03:22:47Z",
+    "checked": 150,
+    "seconds": 1180.42,
     "gemini": true,
-    "ai_requests": 143,
+    "ai_requests": 148,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
