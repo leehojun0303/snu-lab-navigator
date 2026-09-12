@@ -69,27 +69,8 @@
     updatePanel();
   }
 
-  function exactOneYearCount(id) {
-    const e = enrichment(id);
-    const stored = Number(e.recent_one_year_paper_count);
-    if (Number.isFinite(stored) && stored >= 0) return {count: stored, known: true};
-    const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (getActivity(id).papers || []);
-    if (!papers.length) return {count: null, known: false};
-    const now = new Date();
-    const cutoff = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
-    let exact = 0;
-    let yearFallback = 0;
-    for (const p of papers) {
-      const raw = p.date || p.published_at || p.publication_date || p.publishedAt;
-      if (raw) {
-        const d = new Date(raw);
-        if (!Number.isNaN(d.getTime()) && d >= cutoff && d <= now) exact++;
-      } else {
-        const y = Number(String(p.year || '').match(/20\d{2}/)?.[0] || 0);
-        if (y === now.getFullYear() || y === now.getFullYear() - 1) yearFallback++;
-      }
-    }
-    return exact ? {count: exact, known: true} : yearFallback ? {count: yearFallback, known: true} : {count: null, known: false};
+  function isResearchOriented(u) {
+    return !/(음악대학|미술대학|인문대학)/.test(String(u?.college || ''));
   }
 
   function memberSummary(id) {
@@ -106,13 +87,17 @@
       else if (/researcher|scientist|연구원/.test(r)) c.연구원++;
       else c.기타++;
     }
-    return Object.entries(c).filter(([,n]) => n > 0).map(([k,n]) => `${k} ${n}명`).join(' · ') || '확인 필요';
+    return Object.entries(c).filter(([,n]) => n > 0).map(([k,n]) => k + ' ' + n + '명').join(' · ') || '확인 필요';
   }
 
-  function paperTitles(id) {
-    const e = enrichment(id), a = getActivity(id);
-    const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (a.papers || []);
-    return papers.slice(0, 8).map(p => ({title:String(p.title || ''), year:String(p.year || ''), date:String(p.date || '')}));
+  function recentPapers(id) {
+    const papers = Array.isArray(enrichment(id).recent_papers) ? enrichment(id).recent_papers : [];
+    return papers.slice(0, 3).map(p => ({
+      title: String(p.title || ''),
+      year: String(p.year || ''),
+      venue: String(p.venue || ''),
+      summary: String(p.summary || '')
+    })).filter(p => p.title);
   }
 
   function keywords(id) {
@@ -120,9 +105,30 @@
     return [...new Set([...(e.recommendation_keywords || []), ...(e.research_topics || []), ...String(u?.keywords || '').split(/[;,|]/)].map(x => String(x).trim()).filter(Boolean))].slice(0, 8);
   }
 
+  function paperFocusCell(u) {
+    if (!isResearchOriented(u)) return '논문 정보 적용 대상 아님';
+    const papers = recentPapers(u.id);
+    if (!papers.length) return '검증된 최신 논문 수집 중';
+    return papers.map(p => [p.year, p.summary || p.title].filter(Boolean).join(' · ')).join('\n');
+  }
+
   function buildCompare(items) {
     const d = document.querySelector('#stableCompareDialog') || document.body.appendChild(Object.assign(document.createElement('dialog'), {id:'stableCompareDialog', className:'fav-dialog'}));
-    d.innerHTML = `<button type="button" class="fav-close" aria-label="닫기">×</button><h2>연구실 비교</h2><p>저장된 AI 요약·키워드와 최근 1년 논문 정보를 기준으로 비교합니다.</p><div class="stable-scroll"><table><thead><tr><th>항목</th>${items.map(u => `<th>${escapeHtml(u.name)}<small>${escapeHtml(u.labs || u.title || '연구그룹')}</small></th>`).join('')}</tr></thead><tbody><tr><th>핵심 분야</th>${items.map(u => `<td>${escapeHtml(String(enrichment(u.id).research_summary || u.fields || '확인 필요').slice(0,260))}</td>`).join('')}</tr><tr><th>키워드</th>${items.map(u => `<td>${escapeHtml(keywords(u.id).join(' · ') || '확인 필요')}</td>`).join('')}</tr><tr><th>최근 1년 논문</th>${items.map(u => { const p=exactOneYearCount(u.id); return `<td>${p.known ? `${p.count}편` : '확인 필요'}</td>`; }).join('')}</tr><tr><th>구성원</th>${items.map(u => `<td>${escapeHtml(memberSummary(u.id))}</td>`).join('')}</tr><tr><th>모집</th>${items.map(u => `<td>${escapeHtml(String(enrichment(u.id).recruitment_summary || '확인 필요').slice(0,180))}</td>`).join('')}</tr></tbody></table></div><div id="stableCompareAi" class="fav-ai-summary"><span>로그인한 경우 Gemini가 연구 방향과 대표 연구의 차이만 자동으로 정리합니다.</span></div>`;
+    const hasResearch = items.some(isResearchOriented);
+    const cell = value => '<td>' + escapeHtml(value) + '</td>';
+    const header = items.map(u => '<th>' + escapeHtml(u.name) + '<small>' + escapeHtml(u.labs || u.title || '연구그룹') + '</small></th>').join('');
+    const row = (label, values) => '<tr><th>' + label + '</th>' + values.map(cell).join('') + '</tr>';
+    const paperRow = hasResearch ? row('최근 논문에서 보인 관심', items.map(paperFocusCell)) : '';
+    const guide = hasResearch
+      ? '핵심 분야·키워드를 비교하고, 연구계열에만 최신 3편의 검증 논문 요약을 반영합니다.'
+      : '각 단과대의 핵심 활동과 공식 소개·키워드를 비교합니다.';
+    d.innerHTML = '<button type="button" class="fav-close" aria-label="닫기">×</button><h2>연구실 비교</h2><p>' + guide + '</p><div class="stable-scroll"><table><thead><tr><th>항목</th>' + header + '</tr></thead><tbody>' +
+      row('핵심 분야', items.map(u => String(enrichment(u.id).research_summary || u.fields || '확인 필요').slice(0,260))) +
+      row('키워드', items.map(u => keywords(u.id).join(' · ') || '확인 필요')) +
+      paperRow +
+      row('구성원', items.map(u => memberSummary(u.id))) +
+      row('모집', items.map(u => String(enrichment(u.id).recruitment_summary || '확인 필요').slice(0,180))) +
+      '</tbody></table></div><div id="stableCompareAi" class="fav-ai-summary"><span>로그인한 경우 핵심 차이와, 연구계열의 최근 논문에서 확인된 관심 주제를 짧게 정리합니다.</span></div>';
     d.querySelector('.fav-close').onclick = () => d.close();
     if (!d.open) d.showModal();
     runAiCompare(items,d);
@@ -137,14 +143,19 @@
     box.innerHTML='<span>Gemini가 핵심 차이만 정리하고 있습니다…</span>';
     try{
       const response=await svc.callGemini({
-        systemInstruction:{parts:[{text:'서울대학교 연구실 비교자. 제공 데이터만 사용한다. 최근 1년 논문 수를 반복하지 않는다. 각 연구실의 연구 방향, 대표적으로 확인된 연구 주제/논문, 차별점을 매우 짧게 정리한다. 정보가 없으면 확인 필요라고 한다.'}]},
-        contents:[{role:'user',parts:[{text:JSON.stringify({task:'연구실 간 핵심 차이만 간결하게 비교',labs:items.map(u=>({id:u.id,name:u.name,lab:u.labs||u.title,summary:String(enrichment(u.id).research_summary||u.fields||'').slice(0,350),keywords:keywords(u),papers:paperTitles(u.id)}))})}]}],
-        generationConfig:{temperature:0.1,maxOutputTokens:600,responseMimeType:'application/json',responseSchema:{type:'OBJECT',properties:{overall:{type:'STRING'},rows:{type:'ARRAY',items:{type:'OBJECT',properties:{id:{type:'STRING'},difference:{type:'STRING'}},required:['id','difference']}}},required:['overall','rows']}}
+        systemInstruction:{parts:[{text:'서울대학교 연구실 비교자. 제공 데이터만 사용한다. 논문 데이터는 research_oriented=true인 연구실에만 사용한다. 최근 논문이 있고 논문 요약·핵심분야·키워드가 함께 주어졌을 때만, 그 논문에서 확인되는 최근 관심 주제를 한 문장으로 정리한다. 근거가 없으면 추측하지 말고 빈 문자열로 둔다. 논문 제목·키워드를 나열하거나 논문 수를 반복하지 않는다. 각 연구실의 차이를 짧고 구체적으로 서술한다.'}]},
+        contents:[{role:'user',parts:[{text:JSON.stringify({task:'연구실 간 핵심 차이와 최근 연구 관심을 간결하게 비교',labs:items.map(u=>({id:u.id,name:u.name,lab:u.labs||u.title,research_oriented:isResearchOriented(u),summary:String(enrichment(u.id).research_summary||u.fields||'').slice(0,350),keywords:keywords(u),latest_papers:isResearchOriented(u)?recentPapers(u.id):[]}))})}]}],
+        generationConfig:{temperature:0.1,maxOutputTokens:700,responseMimeType:'application/json',responseSchema:{type:'OBJECT',properties:{overall:{type:'STRING'},rows:{type:'ARRAY',items:{type:'OBJECT',properties:{id:{type:'STRING'},difference:{type:'STRING'},recent_focus:{type:'STRING'}},required:['id','difference','recent_focus']}}},required:['overall','rows']}}
       });
       const text=response.payload?.candidates?.[0]?.content?.parts?.map(p=>p.text||'').join('')||'{}';
-      const result=JSON.parse(text.replace(/^```json\s*/i,'').replace(/\s*```$/,''));
+      const result=JSON.parse(text.replace(/^\x60\x60\x60json\s*/i,'').replace(/\s*\x60\x60\x60$/,''));
       const rows=(result.rows||[]).filter(r=>items.some(u=>u.id===r.id)).slice(0,MAX_COMPARE);
-      box.innerHTML=`<strong>핵심 차이</strong><div>${escapeHtml(result.overall||'')}</div>${rows.map(r=>`<p><strong>${escapeHtml(unit(r.id)?.name||r.id)}</strong> ${escapeHtml(r.difference||'')}</p>`).join('')}`;
+      const lines=rows.map(r=>{
+        const u=unit(r.id);
+        const focus=isResearchOriented(u)&&String(r.recent_focus||'').trim();
+        return '<p><strong>' + escapeHtml(u?.name||r.id) + '</strong> ' + escapeHtml(r.difference||'') + (focus ? '<small class="compare-focus">최근 논문에서 보인 관심: ' + escapeHtml(focus) + '</small>' : '') + '</p>';
+      }).join('');
+      box.innerHTML='<strong>핵심 차이</strong><div>' + escapeHtml(result.overall||'') + '</div>' + lines;
     }catch(e){box.innerHTML='<span>AI 비교를 완료하지 못했습니다. 비교표는 계속 사용할 수 있습니다.</span>';}
     finally{busy=false;}
   }
