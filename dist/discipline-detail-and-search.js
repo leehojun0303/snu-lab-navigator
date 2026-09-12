@@ -28,9 +28,8 @@
       return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + (summary ? '<p class="item-summary">' + esc(summary) + '</p>' : '') + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
     }).join('') + '</ul>';
   }
-  function sourceLink(e) {
-    const urls = [...new Set((e.source_urls_used || []).map(safeUrl).filter(Boolean))].slice(0, 4);
-    return urls.length ? '<div class="ai-sources"><strong>공식 확인 출처</strong>' + urls.map((u, i) => '<a target="_blank" rel="noreferrer" href="' + esc(u) + '">공식 페이지 ' + (i + 1) + '</a>').join('') + '</div>' : '';
+  function sourceLink() {
+    return '';
   }
   function posterCard(e, a = {}) {
     const verified = String(e.poster_status || a.posterStatus || '').toLowerCase() === 'verified';
@@ -71,6 +70,7 @@
     const e = enrichment(x), a = activity(x);
     const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (a.papers || []);
     const people = Array.isArray(e.current_members) ? e.current_members : [];
+    const recruitmentUrl = safeUrl(e.recruitment_source_url) || safeUrl((e.verified_recruitment_pages || [])[0]?.url);
     const groups = people.reduce((acc, person) => {
       const role = clean(person.role);
       const key = /박사/.test(role) ? '박사과정' : /석사/.test(role) ? '석사과정' : /학부/.test(role) ? '학부연구생' : /교수|연구원|postdoc/i.test(role) ? '교수·연구원' : '기타';
@@ -79,7 +79,7 @@
     const memberText = Object.entries(groups).map(([name, count]) => name + ' ' + count + '명').join(' · ');
     return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3><p>공식 출처로 확인된 핵심 정보만 모바일에서 빠르게 볼 수 있게 요약합니다.</p></div></div><div class="activity-grid">' +
       '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
-      '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p></article>' +
+      '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p>' + (recruitmentUrl ? '<a class="small-link" target="_blank" rel="noreferrer" href="' + esc(recruitmentUrl) + '">모집 공식 안내</a>' : '') + '</article>' +
       '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
   window.activityHtml = function(x) {
