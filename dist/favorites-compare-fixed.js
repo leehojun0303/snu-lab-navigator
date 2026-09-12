@@ -184,8 +184,11 @@
     const items=[...savedFavorites()].map(unit).filter(Boolean);
     const d=document.querySelector('#favDialog') || document.body.appendChild(Object.assign(document.createElement('dialog'), {id:'favDialog', className:'fav-dialog'}));
     d.innerHTML=`<button type="button" class="fav-close" aria-label="닫기">×</button><h2>즐겨찾기</h2>${items.length?`<div class="stable-scroll"><table><thead><tr><th>교수</th><th>연구실</th><th>키워드</th><th>최근 1년 논문</th></tr></thead><tbody>${items.map(u=>{const p=exactOneYearCount(u.id);return `<tr><th>${escapeHtml(u.name)}</th><td>${escapeHtml(u.labs||u.title||'연구그룹')}</td><td>${escapeHtml(keywords(u.id).join(' · ')||'확인 필요')}</td><td>${p.known?p.count+'편':'확인 필요'}</td></tr>`;}).join('')}</tbody></table></div>`:'<p>저장된 연구실이 없습니다.</p>'}`;
-    d.querySelector('.fav-close').onclick=()=>d.close();
-    if(!d.open)d.showModal();
+    d.querySelector('.fav-close').onclick=()=>{ try { d.close(); } catch (_) { d.removeAttribute('open'); } };
+    if(!d.open){
+      try { d.showModal(); }
+      catch (_) { d.setAttribute('open',''); d.style.position='fixed'; d.style.inset='5vh 14px auto'; d.style.margin='auto'; d.style.zIndex='9999'; }
+    }
   }
 
   async function toggleFavorite(id,enabled){
@@ -204,6 +207,12 @@
     style.textContent='.fav-panel{margin:12px 0;padding:12px 14px;border:1px solid var(--line,#d9e4ef);border-radius:14px;background:#f8fbff;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.fav-panel button{border:0;border-radius:9px;padding:8px 11px;background:#135fbe;color:#fff;font-weight:800;cursor:pointer}.fav-panel button.secondary{background:#fff;color:#135fbe;border:1px solid #c7d7e8}.fav-compare-tools{display:flex;gap:6px;margin-left:auto;flex:0 0 auto}.fav-compare-tool{border:1px solid #d8e3ef;background:#fff;color:#2d5377;border-radius:9px;min-width:34px;height:32px;font-size:17px;cursor:pointer}.fav-compare-tool.active{background:#f3ecff;color:#6b43c6;border-color:#cbb9ef}.fav-compare-tools button{pointer-events:auto}.fav-dialog{width:min(1080px,calc(100% - 28px));max-height:90vh;border:0;border-radius:18px;padding:24px}.fav-dialog table{width:100%;border-collapse:collapse;font-size:.82rem}.fav-dialog th,.fav-dialog td{border-bottom:1px solid #e1e8f0;padding:10px;vertical-align:top;text-align:left}.fav-dialog small{display:block;color:#718399;font-weight:500;margin-top:3px}.fav-ai-summary{margin-top:12px;padding:12px;border-left:3px solid #6b43c6;background:#faf7ff;border-radius:8px;font-size:.84rem}.stable-scroll{overflow:auto}';
     document.head.appendChild(style);
     injectPanel();
+    document.addEventListener('click', event => {
+      if (!event.target.closest?.('#favShow')) return;
+      event.preventDefault();
+      event.stopPropagation();
+      showFavorites();
+    }, true);
     document.addEventListener('click', async event => {
       const fav=event.target.closest?.('#results .fav-compare-tool[data-fav]');
       if(fav){event.preventDefault();event.stopPropagation();const card=fav.closest('.card');const u=card&&units()[Number(card.dataset.i)];if(u){await toggleFavorite(u.id,!savedFavorites().has(u.id));}return;}
