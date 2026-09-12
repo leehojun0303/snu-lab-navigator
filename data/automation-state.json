@@ -1,5 +1,5 @@
 {
-  "cursor": 65,
+  "cursor": 70,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -87673,28 +87673,12 @@
     },
     "SNU-RU-D8BE352067E700": {
       "fingerprint": "a8ac7b2b0f4d7afeee1098fe3e2134d930b442d514370a8b0145406d8d235149",
-      "checked_at": "2026-09-12T03:07:17Z",
+      "checked_at": "2026-09-12T09:21:49Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "International Journal",
-            "url": "http://scm.snu.ac.kr/publications/journal-in.asp"
-          },
-          {
-            "title": "Domestic Journal",
-            "url": "http://scm.snu.ac.kr/publications/journal-do.asp"
-          },
-          {
             "title": "International Conference",
             "url": "http://scm.snu.ac.kr/publications/conference-in.asp"
-          },
-          {
-            "title": "Domestic Conference",
-            "url": "http://scm.snu.ac.kr/publications/conference-do.asp"
-          },
-          {
-            "title": "Patent & Book",
-            "url": "http://scm.snu.ac.kr/publications/patent_book.asp"
           }
         ],
         "recruitmentPages": [],
@@ -87714,20 +87698,65 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "문일경 교수는 서울대학교 산업공학과 SCM(공급망관리) 연구실을 이끌며 생산관리, 공급망관리, 물류관리 분야에서 최적화 모델링 및 알고리즘 연구를 수행하고 있습니다.",
         "research_topics": [
           "생산관리",
           "공급망관리",
-          "물류관리"
+          "물류관리",
+          "최적화 모델링",
+          "공급망 위험 관리"
         ],
         "recommendation_keywords": [
           "생산관리",
           "공급망관리",
-          "물류관리"
+          "물류관리",
+          "SCM",
+          "최적화",
+          "최적화 모델링",
+          "공급망 위험 관리"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "An Anticipatory Order Management Approach for Multi-Period Vehicle Routing Problem with Simultaneous Pickup and Delivery",
+            "url": "http://scm.snu.ac.kr/publications/conference-in.asp",
+            "year": "2026",
+            "venue": "IFORS",
+            "summary": "다기간 차량 경로 문제에서 픽업과 배송을 동시에 고려한 예측적 주문 관리 접근법을 제안하였습니다."
+          },
+          {
+            "title": "Joint Dispatching and Opportunity Charging for AGVs via Hierarchical MARL",
+            "url": "http://scm.snu.ac.kr/publications/conference-in.asp",
+            "year": "2026",
+            "venue": "LOGMS",
+            "summary": "계층적 다중 에이전트 강화학습을 활용하여 무인 운반차(AGV)의 배차 및 기회 충전 문제를 해결하였습니다."
+          },
+          {
+            "title": "Scheduling Twin Automated Stacking Cranes under Uncertainty of Transshipment Containers",
+            "url": "http://scm.snu.ac.kr/publications/conference-in.asp",
+            "year": "2026",
+            "venue": "IAME",
+            "summary": "환적 컨테이너의 불확실성 하에서 트윈 자동 적재 크레인의 스케줄링 최적화 방안을 연구하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 5,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "IFORS",
+            "count": 1
+          },
+          {
+            "venue": "LOGMS",
+            "count": 2
+          },
+          {
+            "venue": "IAME",
+            "count": 1
+          },
+          {
+            "venue": "ICPR-APR",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -87735,32 +87764,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 공과대학 산업공학과 교수로서 생산관리, 공급망관리, 물류관리 분야의 연구 및 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
-          {
-            "title": "International Journal",
-            "url": "http://scm.snu.ac.kr/publications/journal-in.asp"
-          },
-          {
-            "title": "Domestic Journal",
-            "url": "http://scm.snu.ac.kr/publications/journal-do.asp"
-          },
           {
             "title": "International Conference",
             "url": "http://scm.snu.ac.kr/publications/conference-in.asp"
-          },
-          {
-            "title": "Domestic Conference",
-            "url": "http://scm.snu.ac.kr/publications/conference-do.asp"
-          },
-          {
-            "title": "Patent & Book",
-            "url": "http://scm.snu.ac.kr/publications/patent_book.asp"
           }
         ],
-        "recruitment_summary": null,
+        "recruitment_summary": "현재 연구실 공식 홈페이지를 통해 별도의 채용 공고가 게시되어 있지 않습니다.",
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_source_url": "http://scm.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "http://scm.snu.ac.kr/researchers/award.asp",
@@ -87773,34 +87786,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://scm.snu.ac.kr/",
-          "http://scm.snu.ac.kr/publications/journal-in.asp",
-          "http://scm.snu.ac.kr/publications/journal-do.asp",
           "http://scm.snu.ac.kr/publications/conference-in.asp",
-          "http://scm.snu.ac.kr/publications/conference-do.asp",
-          "http://scm.snu.ac.kr/publications/patent_book.asp",
+          "https://ie.snu.ac.kr",
           "http://scm.snu.ac.kr/researchers/award.asp",
           "http://scm.snu.ac.kr/researchers/phd.asp",
           "http://scm.snu.ac.kr/researchers/master.asp",
           "http://scm.snu.ac.kr/researchers/alumni.asp",
-          "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6398",
-          "https://admission.snu.ac.kr/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
-          "http://scm.snu.ac.kr/src/gallery/25/250226_4.jpg",
-          "http://scm.snu.ac.kr/src/gallery/25/250226_2.jpg",
-          "http://scm.snu.ac.kr/src/gallery/25/250102.jpg",
-          "http://scm.snu.ac.kr/src/gallery/25/250214_5.jpg",
-          "http://scm.snu.ac.kr/src/gallery/25/250214_3.jpg",
-          "http://scm.snu.ac.kr/src/gallery/25/250102_2.jpg"
+          "http://scm.snu.ac.kr/publications/journal-in.asp",
+          "http://scm.snu.ac.kr/publications/journal-do.asp",
+          "http://scm.snu.ac.kr/publications/conference-do.asp",
+          "http://scm.snu.ac.kr/publications/patent_book.asp",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D8BE352067E700",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:07:24Z",
+        "_saved_at": "2026-09-12T09:21:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D8BE352067E700"
     },
@@ -223966,8 +223970,8 @@
       "checked_at": "2026-09-12T05:17:35Z"
     },
     "SNU-RU-156EC79866411D": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-12T03:07:11Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T09:21:58Z"
     },
     "SNU-RU-CE204A05EDF16E": {
       "reason": "NameError",
@@ -228796,14 +228800,26 @@
     "SNU-RU-B97A53428DC666": {
       "reason": "NameError",
       "checked_at": "2026-09-12T09:21:25Z"
+    },
+    "SNU-RU-E55207F1C9698B": {
+      "reason": "NameError",
+      "checked_at": "2026-09-12T09:22:06Z"
+    },
+    "SNU-RU-DEA600066F3049": {
+      "reason": "NameError",
+      "checked_at": "2026-09-12T09:22:14Z"
+    },
+    "SNU-RU-04CAC1F6E5C516": {
+      "reason": "NameError",
+      "checked_at": "2026-09-12T09:22:22Z"
     }
   },
   "last_run": {
-    "at": "2026-09-12T09:21:40Z",
-    "checked": 45,
-    "seconds": 367.29,
+    "at": "2026-09-12T09:22:22Z",
+    "checked": 50,
+    "seconds": 409.51,
     "gemini": true,
-    "ai_requests": 3,
+    "ai_requests": 4,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
