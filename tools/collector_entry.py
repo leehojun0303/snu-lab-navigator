@@ -346,6 +346,9 @@ def main():
     write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only", ai_status="ready" if model else "unavailable")
     publish_live_progress()
     while checked < target:
+        if getattr(budget, "disabled", ""):
+            print(f"Stopping collection after Gemini limit: {budget.disabled}", flush=True)
+            break
         if deadline and time.monotonic() >= deadline - 30: print("Time budget reached; saving resumable progress.", flush=True); break
         cursor = int(state.get("cursor", 0)) % len(units); batch = [units[(cursor + i) % len(units)] for i in range(min(max(1, args.batch_size), target - checked))]
         future_to_unit = {}
