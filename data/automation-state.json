@@ -1,5 +1,5 @@
 {
-  "cursor": 55,
+  "cursor": 60,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -198191,90 +198191,18 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C6DDBC465B3993": {
-      "fingerprint": "4f4397c283a010b8dcb31021f08e9bd8e6e0eb44a050c375fc278e3e27997784",
-      "checked_at": "2026-09-11T03:34:01Z",
+      "fingerprint": "ba8185d3f1ebe511629f35bfe0adabcca38b37b6bb97b3fad3dea6390a4eb27b",
+      "checked_at": "2026-09-12T03:05:51Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "rvlab publications page",
-            "url": "https://sites.google.com/view/snu-rvlab/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "https://sites.google.com/view/snu-rvlab",
-            "url": "https://sites.google.com/view/snu-rvlab/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://sites.google.com/view/snu-rvlab/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://sites.google.com/view/snu-rvlab/publications",
-            "kind": "publication"
+            "title": "SNU Robot Vision Lab - Publications",
+            "url": "https://sites.google.com/view/snu-rvlab/publications"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://sites.google.com/view/snu-rvlab/people",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/jwlim-768x881.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%9E%84%EC%A2%85%EC%9A%B0-lim-jongwoo/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://sites.google.com/view/snu-rvlab/people/jwlim",
           "https://me.snu.ac.kr/snu__professor/%EC%9E%84%EC%A2%85%EC%9A%B0-lim-jongwoo/",
@@ -198288,9 +198216,193 @@
           "https://sites.google.com/view/snu-rvlab/people/jwlim#h.zcvat0a0pm7u"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-C6DDBC465B3993",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "임종우 교수는 서울대학교 기계공학부 로봇비전 연구실을 이끌며, 영상 기반 3차원 환경 인식, 센서 퓨전(카메라, IMU, LIDAR, 이벤트 카메라 등)을 통한 강인한 환경 인식, 물체 추적 및 행동 인식 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "영상기반 3차원 환경인식 및 로봇 내비게이션",
+          "센서 퓨전을 통한 강인한 환경인식 (카메라, IMU, LIDAR, 이벤트카메라 등)",
+          "물체 추적 및 행동 인식"
+        ],
+        "recommendation_keywords": [
+          "컴퓨터비전",
+          "3차원 환경인식",
+          "로봇 내비게이션",
+          "센서 퓨전",
+          "물체 추적",
+          "영상기반 3차원 환경인식 및 로봇 내비게이션",
+          "센서 퓨전을 통한 강인한 환경인식 (카메라, IMU, LIDAR, 이벤트카메라 등)",
+          "물체 추적 및 행동 인식"
+        ],
+        "recent_papers": [
+          {
+            "title": "End-to-End Learning for Omnidirectional Stereo Matching With Uncertainty Prior",
+            "year": "2021",
+            "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "summary": "불확실성 사전 정보를 활용한 전방위 스테레오 매칭을 위한 종단간 학습 방법을 제안하였습니다."
+          },
+          {
+            "title": "OmniSLAM: Omnidirectional Localization and Dense Mapping for Wide-baseline Multi-camera Systems",
+            "year": "2020",
+            "venue": "ICRA 2020",
+            "summary": "광대역 다중 카메라 시스템을 위한 전방위 위치 추정 및 밀집 매핑 기술인 OmniSLAM을 발표하였습니다."
+          },
+          {
+            "title": "Object Tracking Benchmark",
+            "year": "2015",
+            "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+            "summary": "객체 추적 알고리즘의 성능을 평가하기 위한 벤치마크 데이터셋과 평가 프레임워크를 구축하였습니다."
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "1997년 서울대학교 계산통계학과(전산과학) 학사, 2003년 및 2005년 미국 일리노이 대학교 어바나-샴페인(UIUC) 컴퓨터과학 석사 및 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "SNU Robot Vision Lab - Publications",
+            "url": "https://sites.google.com/view/snu-rvlab/publications"
+          }
+        ],
+        "recruitment_summary": "로봇비전 연구실은 대학원생을 상시 모집하고 있으며, 관련 분야 연구에 관심 있는 학생은 연구실 홈페이지를 통해 연락할 수 있습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://sites.google.com/view/snu-rvlab/people/jwlim",
+        "current_members": [
+          {
+            "name": "양상헌",
+            "role": "PhD candidate"
+          },
+          {
+            "name": "박채송",
+            "role": "PhD candidate"
+          },
+          {
+            "name": "신관준",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-rvlab/people"
+          },
+          {
+            "name": "윤영인",
+            "role": "PhD candidate"
+          },
+          {
+            "name": "최진혁",
+            "role": "PhD candidate"
+          },
+          {
+            "name": "김지엽",
+            "role": "MS/PhD student",
+            "url": "https://sites.google.com/view/snu-rvlab/people"
+          },
+          {
+            "name": "정홍모",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "서형석",
+            "role": "PhD student"
+          },
+          {
+            "name": "송영보",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "최병걸",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "예수민",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "전건우",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "황지현",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "김장원",
+            "role": "MS student"
+          },
+          {
+            "name": "성무열",
+            "role": "MS student"
+          },
+          {
+            "name": "조성종",
+            "role": "MS student"
+          },
+          {
+            "name": "서재형",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "정호찬",
+            "role": "MS/PhD student"
+          },
+          {
+            "name": "이재원",
+            "role": "MS student"
+          }
+        ],
+        "alumni": [
+          {
+            "name": "유종빈",
+            "role": "PostDoc"
+          },
+          {
+            "name": "홍은태",
+            "role": "PhD"
+          },
+          {
+            "name": "석호창",
+            "role": "PhD"
+          },
+          {
+            "name": "원창희",
+            "role": "PhD"
+          }
+        ],
+        "member_page_url": "https://sites.google.com/view/snu-rvlab/people",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://sites.google.com/view/snu-rvlab/people/jwlim",
+          "https://me.snu.ac.kr/snu__professor/%EC%9E%84%EC%A2%85%EC%9A%B0-lim-jongwoo/",
+          "https://sites.google.com/view/snu-rvlab/publications",
+          "https://sites.google.com/view/snu-rvlab/people",
+          "https://me.snu.ac.kr",
+          "https://sites.google.com/view/snu-rvlab/people/jwlim#h.agqtyrk4d9qx",
+          "https://sites.google.com/view/snu-rvlab/people/jwlim#h.zaf9ei5oazz3",
+          "https://sites.google.com/view/snu-rvlab/people/jwlim#h.e7uw83yg57w3",
+          "https://sites.google.com/view/snu-rvlab/people/jwlim#h.xjtm1pdj504k",
+          "https://sites.google.com/view/snu-rvlab/people/jwlim#h.zcvat0a0pm7u",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://admission.snu.ac.kr/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/jwlim-768x881.jpeg"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C6DDBC465B3993",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:06:14Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-C6DDBC465B3993"
     },
     "SNU-RU-9B56079444AF7D": {
       "fingerprint": "ddd8e876a440d20284ec1c20b1cf377d3cdd118b1987a8adab4e7c9413822b24",
@@ -204206,118 +204318,18 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9B60433FF8E718": {
-      "fingerprint": "f986bc374855ffe7e8fe01beec841dae41addf6569bd1aeac141eb1f29195d4c",
-      "checked_at": "2026-09-11T03:35:56Z",
+      "fingerprint": "55ebb2ffc1a36af18a4c6f08acb75da440c0207601638a73b1bbc666893501f1",
+      "checked_at": "2026-09-12T03:06:03Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Journals",
-            "url": "https://mbel.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
-          },
-          {
-            "title": "From flow to form: structuring and patterning hydrogels using microfluidic approaches Open Access",
-            "url": "https://mbel.snu.ac.kr/publication/from-flow-to-form-structuring-and-patterning-hydrogels-using-microfluidic-approaches-open-access/",
-            "kind": "publication"
-          },
-          {
-            "title": "Engineering Pluripotent Stem Cells-Derived Inner Ear Organoids With Enhanced Maturation and Reproducibility by Micro-Topographical Cues",
-            "url": "https://mbel.snu.ac.kr/publication/engineering-pluripotent-stem-cells-derived-inner-ear-organoids-with-enhanced-maturation-and-reproducibility-by-micro-topographical-cues/",
-            "kind": "publication"
-          },
-          {
-            "title": "High-Throughput Digital Decoding of Vascular Heterogeneity in Patient-Specific Tumor Microenvironments",
-            "url": "https://mbel.snu.ac.kr/publication/high-throughput-digital-decoding-of-vascular-heterogeneity-in-patient-specific-tumor-microenvironments/",
-            "kind": "publication"
-          },
-          {
-            "title": "2026년 4월, 정상민 박사 2026 대한기계학회 바이오공학부문 우수학위논문상 수상 (2026/04/23)",
-            "url": "https://devmbel.snu.ac.kr/news-2/?mod=document&uid=112",
-            "kind": "publication"
+            "url": "https://mbel.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2024/05/For-White-BG-MBEL_Logo_Medium_with_SNU_small.png",
-            "alt": "서울대학교 MBEL",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://mbel.snu.ac.kr/publication/high-throughput-digital-decoding-of-vascular-heterogeneity-in-patient-specific-tumor-microenvironments/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/전누리-768x872.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%A0%84%EB%88%84%EB%A6%AC-jeon-noo-li/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2025/05/오영선-교수님.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/"
-          },
-          {
-            "url": "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2025/01/stefania.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/"
-          },
-          {
-            "url": "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2026/03/KakaoTalk_20260311_191029653.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mbel.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%A0%84%EB%88%84%EB%A6%AC-jeon-noo-li/",
@@ -204331,9 +204343,100 @@
           "https://www.snu.ac.kr/personal_information"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-9B60433FF8E718",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "멀티스케일 의기계공학 연구실은 미세 유체공학, 바이오멤스(BioMEMS), 의기계 임플란트 기술을 활용하여 생체 모사 시스템 및 질병 모델링 연구를 수행합니다.",
+        "research_topics": [
+          "Biomedical engineering",
+          "의기계 임플란트",
+          "바이오멤스",
+          "미세 유체공학"
+        ],
+        "recommendation_keywords": [
+          "Biomedical engineering",
+          "의기계 임플란트",
+          "바이오멤스",
+          "미세 유체공학"
+        ],
+        "recent_papers": [
+          {
+            "title": "From flow to form: structuring and patterning hydrogels using microfluidic approaches",
+            "url": "https://mbel.snu.ac.kr/publication/from-flow-to-form-structuring-and-patterning-hydrogels-using-microfluidic-approaches-open-access/",
+            "year": "null",
+            "venue": "null",
+            "summary": "미세 유체공학적 접근 방식을 사용하여 하이드로젤을 구조화하고 패턴화하는 기술을 다룹니다."
+          },
+          {
+            "title": "Engineering Pluripotent Stem Cells-Derived Inner Ear Organoids With Enhanced Maturation and Reproducibility by Micro-Topographical Cues",
+            "url": "https://mbel.snu.ac.kr/publication/engineering-pluripotent-stem-cells-derived-inner-ear-organoids-with-enhanced-maturation-and-reproducibility-by-micro-topographical-cues/",
+            "year": "null",
+            "venue": "null",
+            "summary": "미세 지형적 단서를 통해 내이 오가노이드의 성숙도와 재현성을 향상시키는 공학적 방법을 연구합니다."
+          },
+          {
+            "title": "High-Throughput Digital Decoding of Vascular Heterogeneity in Patient-Specific Tumor Microenvironments",
+            "url": "https://mbel.snu.ac.kr/publication/high-throughput-digital-decoding-of-vascular-heterogeneity-in-patient-specific-tumor-microenvironments/",
+            "year": "null",
+            "venue": "null",
+            "summary": "환자 맞춤형 종양 미세환경 내 혈관 이질성을 디지털 방식으로 해독하는 고처리량 기술을 제시합니다."
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "null",
+        "verified_publication_pages": [
+          {
+            "title": "Journals",
+            "url": "https://mbel.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
+          }
+        ],
+        "recruitment_summary": "null",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mbel.snu.ac.kr/",
+          "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
+          "https://mbel.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
+          "https://mbel.snu.ac.kr/publication/from-flow-to-form-structuring-and-patterning-hydrogels-using-microfluidic-approaches-open-access/",
+          "https://mbel.snu.ac.kr/publication/engineering-pluripotent-stem-cells-derived-inner-ear-organoids-with-enhanced-maturation-and-reproducibility-by-micro-topographical-cues/",
+          "https://mbel.snu.ac.kr/publication/high-throughput-digital-decoding-of-vascular-heterogeneity-in-patient-specific-tumor-microenvironments/",
+          "https://me.snu.ac.kr/snu__professor/%EC%A0%84%EB%88%84%EB%A6%AC-jeon-noo-li/",
+          "https://me.snu.ac.kr",
+          "https://mbel.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://devmbel.snu.ac.kr/news-2/?mod=document&uid=112",
+          "https://admission.snu.ac.kr/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/전누리-768x872.jpg",
+          "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2025/05/오영선-교수님.jpg",
+          "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2025/01/stefania.jpg",
+          "https://mbel.snu.ac.kr/wp-content/uploads/sites/56/2026/03/션.jpg"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-9B60433FF8E718",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:06:29Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-9B60433FF8E718"
     },
     "SNU-RU-0F7BE1F1DABC29": {
       "fingerprint": "8d332bf6000c83f03c77861fdebca31075461c2878413a1df11c50e088d0d370",
@@ -214896,118 +214999,18 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C5A67C28E11CF1": {
-      "fingerprint": "339fb7bb11f991e6e6188edf9a4adc998e5671df62fb59ee534d1ef900f8baa5",
-      "checked_at": "2026-09-11T03:39:18Z",
+      "fingerprint": "b7dbafcd301e60b392d24fe67f66a01eac99a8ae660cf59ef2041e77f5e65c46",
+      "checked_at": "2026-09-12T03:06:02Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "title": "조규진 (Cho, Kyu-Jin) - 서울대학교 기계공학부",
+            "url": "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/#footer"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/조규진교수-.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/#footer"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/#footer"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-            "alt": "서울대포털",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-            "alt": "입학안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-            "alt": "학사일정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
-          }
-        ],
+        "recruitmentPages": [],
+        "membersUrl": "http://biorobotics.snu.ac.kr/",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/",
           "https://me.snu.ac.kr",
@@ -215021,9 +215024,100 @@
           "https://www.snu.ac.kr/academics/resources/certificate/request"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-C5A67C28E11CF1",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "조규진 교수는 생체모사로봇, 소프트 로봇, 소프트 웨어러블 로봇, 재활/보조 로봇 분야를 연구하며, 인간의 능력을 증강하거나 보조하는 로봇 기술 개발에 주력하고 있습니다.",
+        "research_topics": [
+          "생체모사로봇",
+          "소프트 로봇",
+          "소프트 웨어러블 로봇",
+          "재활/보조 로봇"
+        ],
+        "recommendation_keywords": [
+          "로봇공학",
+          "생체모사로봇",
+          "소프트 로봇",
+          "소프트 웨어러블 로봇",
+          "재활/보조 로봇"
+        ],
+        "recent_papers": [
+          {
+            "title": "Jumping on water: Surface tension-dominated jumping of water striders and robotic insects",
+            "year": "2015",
+            "venue": "Science",
+            "summary": "소금쟁이의 도약 원리를 규명하고 이를 모사한 로봇 곤충을 개발하여 물 위에서 도약하는 기술을 선보였습니다."
+          },
+          {
+            "title": "High-load capacity origami transformable wheel",
+            "year": "2021",
+            "venue": "Science Robotics",
+            "summary": "높은 하중을 견딜 수 있는 종이접기 구조 기반의 변형 가능한 바퀴 기술을 개발하였습니다."
+          },
+          {
+            "title": "Body-powered variable impedance: An approach to augmenting humans with a passive device by reshaping lifting posture",
+            "year": "2021",
+            "venue": "Science Robotics",
+            "summary": "수동 장치를 사용하여 인간의 들어올리기 자세를 교정함으로써 신체 능력을 증강하는 기술을 제안하였습니다."
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "1998년 서울대학교에서 공학사, 2000년 공학석사를 취득하였으며, 2007년 MIT에서 공학박사 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "조규진 (Cho, Kyu-Jin) - 서울대학교 기계공학부",
+            "url": "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/"
+          }
+        ],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "http://biorobotics.snu.ac.kr/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/",
+          "https://me.snu.ac.kr",
+          "https://admission.snu.ac.kr/index.html",
+          "https://www.snu.ac.kr/personal_information",
+          "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/#container",
+          "https://me.snu.ac.kr/snu__professor/%EC%A1%B0%EA%B7%9C%EC%A7%84-cho-kyu-jin/#footer",
+          "https://snu.ac.kr/index.html",
+          "https://my.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/resources/certificate/request",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://admission.snu.ac.kr/",
+          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/조규진교수-.png",
+          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C5A67C28E11CF1",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:06:25Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-C5A67C28E11CF1"
     },
     "SNU-RU-DDF644F5B88B88": {
       "fingerprint": "aa0d43af2a251aaff105ac1e918923f020976de1fc8588c108873605915a9f56",
@@ -220800,90 +220894,23 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D456D7299D4ED0": {
-      "fingerprint": "f2b80a52f1fd88cf12751814a868d437924fc659be2149402346fdf25d7ac8fd",
-      "checked_at": "2026-09-11T03:41:21Z",
+      "fingerprint": "0c2b20afe7bfd5f8a13617801c6e4105b4df1636c1dfeb9eff4cc5e8a036f823",
+      "checked_at": "2026-09-12T03:05:51Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://sites.google.com/view/snu-vail/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://sites.google.com/view/snu-vail/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://sites.google.com/view/snu-vail/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://sites.google.com/view/snu-vail/publications#h.qt8iuv8s8vus",
-            "kind": "publication"
+            "url": "https://sites.google.com/view/snu-vail/publications"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
+            "title": "VAIL Hompage",
+            "url": "https://sites.google.com/view/snu-vail/home"
           }
         ],
         "membersUrl": "https://sites.google.com/view/snu-vail/people",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2026/03/좌은혁_2-0-768x960.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%A2%8C%EC%9D%80%ED%98%81-joa-eunhyek/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://sites.google.com/view/snu-vail",
           "https://me.snu.ac.kr/snu__professor/%EC%A2%8C%EC%9D%80%ED%98%81-joa-eunhyek/",
@@ -220897,9 +220924,148 @@
           "https://sites.google.com/view/snu-vail#h.9n4s8jtkl0cj"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D456D7299D4ED0",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "자율주행 및 차량지능 연구실(VAIL)은 자율주행 시스템과 차량 제어 시스템이 실제 차량에서 안전하게 작동하고, 확장 가능하며, 에너지 효율적인 이동성을 구현하는 것을 목표로 합니다. 주요 연구 분야는 차량 자율주행(행동 및 모션 계획), 의사결정을 위한 VLA(Vision-Language-Action) 모델, 차량 동역학 및 제어, 그리고 모바일 로봇공학입니다.",
+        "research_topics": [
+          "자율주행 (Vehicle Autonomy)",
+          "VLA (Vision-Language-Action) 모델",
+          "차량 동역학 및 제어 (Vehicle Dynamics and Control)",
+          "모바일 로봇공학 (Mobile Robotics)"
+        ],
+        "recommendation_keywords": [
+          "자율주행",
+          "제어공학",
+          "차량동역학",
+          "VLA",
+          "강화학습",
+          "Model Predictive Control",
+          "자율주행 (Vehicle Autonomy)",
+          "VLA (Vision-Language-Action) 모델",
+          "차량 동역학 및 제어 (Vehicle Dynamics and Control)",
+          "모바일 로봇공학 (Mobile Robotics)"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "2024년 UC 버클리에서 기계공학 박사 학위를 취득하였으며, 2016년 서울대학교에서 기계공학 석사, 2014년 학사 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://sites.google.com/view/snu-vail/publications"
+          }
+        ],
+        "recruitment_summary": "자율주행 및 차량지능 연구실은 상시 채용을 진행하고 있으며, 로봇공학, 수학, 딥러닝, 강화학습 배경과 파이썬 능숙자를 우대합니다. 2027년 입학 전형으로 최대 2명의 대학원생을 추가 모집 중입니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "VAIL Hompage",
+            "url": "https://sites.google.com/view/snu-vail/home"
+          }
+        ],
+        "recruitment_source_url": "https://sites.google.com/view/snu-vail/home",
+        "current_members": [
+          {
+            "name": "김상윤",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "서다빈",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "김동영",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "노한석",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "송혜령",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "곽지섭",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "전명근",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "이태훈",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "국윤영",
+            "role": "PhD candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "이현지",
+            "role": "MS candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "이승훈",
+            "role": "MS candidate",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          },
+          {
+            "name": "양재민",
+            "role": "Intern",
+            "url": "https://sites.google.com/view/snu-vail/people"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://sites.google.com/view/snu-vail/people",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://me.snu.ac.kr/snu__professor/%EC%A2%8C%EC%9D%80%ED%98%81-joa-eunhyek/",
+          "https://sites.google.com/view/snu-vail/home",
+          "https://sites.google.com/view/snu-vail/people",
+          "https://sites.google.com/view/snu-vail/publications",
+          "https://sites.google.com/view/snu-vail/research",
+          "https://sites.google.com/view/snu-vail",
+          "https://me.snu.ac.kr",
+          "https://sites.google.com/view/snu-vail/upcoming-conferences",
+          "https://sites.google.com/view/snu-vail#h.mm7nsv6i9zfy",
+          "https://sites.google.com/view/snu-vail#h.9n4s8jtkl0cj",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://sites.google.com/view/snu-vail/publications#h.qt8iuv8s8vus",
+          "https://admission.snu.ac.kr/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2026/03/좌은혁_2-0-768x960.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D456D7299D4ED0",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:06:02Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-D456D7299D4ED0"
     },
     "SNU-RU-9B46989C6B9937": {
       "fingerprint": "f21217c975a92a9121e9ab8c1c6577f82b09044ea5c6022fddcec508ae6b7e0b",
@@ -222817,134 +222983,132 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9F584C3F20DA31": {
-      "fingerprint": "c44c5fd17b43eb2c970a99bd5ca1e98b3c3f61cb6bb116c3b396939e294936ee",
-      "checked_at": "2026-09-11T03:41:57Z",
+      "fingerprint": "c6265d20248ee7f419d898489d6d83f123378a3a9b4a1520328e2f368c170bdf",
+      "checked_at": "2026-09-12T03:06:00Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Journal",
-            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal",
-            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal",
-            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal",
-            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
+            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/06/cropped-연구실로고.png",
-            "alt": "서울대학교 재생에너지변환연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://recl.snu.ac.kr/%ec%9d%bc%eb%b0%98-%ea%b2%8c%ec%8b%9c%ed%8c%90/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/증명사진_차석원-교수님-768x784.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%B0%A8%EC%84%9D%EC%9B%90-cha-suk-won/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/10/장유재.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2/"
-          },
-          {
-            "url": "https://recl.snu.ac.kr/wp-content/uploads/sites/79/elementor/thumbs/송치현-rsso5s452wepsnpwd7oichxh1cnjxhe3nfrzsjs5b6.jpg",
-            "alt": "송치현",
-            "title": "송치현",
-            "score": 0,
-            "parent_source_url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
-          },
-          {
-            "url": "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/10/성동환.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://recl.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%B0%A8%EC%84%9D%EC%9B%90-cha-suk-won/",
           "https://me.snu.ac.kr",
           "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
           "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
-          "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2/",
           "https://recl.snu.ac.kr/#container",
           "https://recl.snu.ac.kr/#footer",
           "https://recl.snu.ac.kr/%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8/",
-          "https://recl.snu.ac.kr/%ec%9d%bc%eb%b0%98-%ea%b2%8c%ec%8b%9c%ed%8c%90/"
+          "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
+          "https://recl.snu.ac.kr/%ea%b5%90%ea%b3%bc%eb%aa%a9-%ec%86%8c%ea%b0%9c/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-9F584C3F20DA31",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "재생 에너지 변환 실험실(RECL)은 연료전지(고체산화물, 고분자전해질) 및 하이브리드 차량 모델링을 중심으로 인공지능과 데이터 기반 프로그래밍을 활용한 에너지 변환 기술을 연구합니다.",
+        "research_topics": [
+          "연료전지",
+          "고체산화물연료전지",
+          "고분자전해질연료전지",
+          "연료전지 및 하이브리드 차량 모델링",
+          "인공지능과 데이터 기반 프로그래밍"
+        ],
+        "recommendation_keywords": [
+          "기계공학",
+          "연료전지",
+          "고체산화물연료전지",
+          "고분자전해질연료전지",
+          "하이브리드 차량 모델링",
+          "인공지능",
+          "데이터 기반 프로그래밍",
+          "연료전지 및 하이브리드 차량 모델링",
+          "인공지능과 데이터 기반 프로그래밍"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "차석원 교수는 서울대학교 기계공학부 소속으로 재생 에너지 변환 실험실을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Journal",
+            "url": "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
+          }
+        ],
+        "recruitment_summary": "현재 실험실 차원의 구체적인 채용 공고는 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [
+          {
+            "name": "장유재",
+            "role": "연구원",
+            "url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
+          },
+          {
+            "name": "송치현",
+            "role": "연구원",
+            "url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
+          },
+          {
+            "name": "성동환",
+            "role": "연구원",
+            "url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
+          },
+          {
+            "name": "최인원",
+            "role": "연구원",
+            "url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://recl.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EC%B0%A8%EC%84%9D%EC%9B%90-cha-suk-won/",
+          "https://recl.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
+          "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
+          "https://me.snu.ac.kr",
+          "https://recl.snu.ac.kr/#container",
+          "https://recl.snu.ac.kr/#footer",
+          "https://recl.snu.ac.kr/%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8/",
+          "https://recl.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
+          "https://recl.snu.ac.kr/%ea%b5%90%ea%b3%bc%eb%aa%a9-%ec%86%8c%ea%b0%9c/",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://admission.snu.ac.kr/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/06/cropped-연구실로고.png",
+          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/증명사진_차석원-교수님-768x784.jpg",
+          "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/10/장유재.jpg",
+          "https://recl.snu.ac.kr/wp-content/uploads/sites/79/elementor/thumbs/송치현-rsso5s452wepsnpwd7oichxh1cnjxhe3nfrzsjs5b6.jpg",
+          "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/10/성동환.jpeg",
+          "https://recl.snu.ac.kr/wp-content/uploads/sites/79/2024/10/최인원.jpeg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-9F584C3F20DA31",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:06:17Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-9F584C3F20DA31"
     },
     "SNU-RU-A98F6DDA6205EB": {
       "fingerprint": "5dbe4aa28ea841e3fa4f0f7d02b6466137631542f074478b89bf8c29991a41b0",
@@ -232549,11 +232713,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T03:05:43Z",
-    "checked": 10,
-    "seconds": 156.65,
+    "at": "2026-09-12T03:06:29Z",
+    "checked": 15,
+    "seconds": 202.35,
     "gemini": true,
-    "ai_requests": 9,
+    "ai_requests": 14,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
