@@ -106,9 +106,14 @@
   searchButton.className = 'ai-search-run';
   searchButton.setAttribute('aria-label', 'AI 유사 검색 실행');
   searchButton.innerHTML = 'AI 유사 검색 <span aria-hidden="true">→</span>';
-  input?.insertAdjacentElement('afterend', searchButton);
+  if (input?.parentElement) {
+    const row = document.createElement('div');
+    row.className = 'ai-search-row';
+    input.parentElement.insertBefore(row, input);
+    row.append(input, searchButton);
+  }
   const style = document.createElement('style');
-  style.textContent = '.ai-search-run{float:right;margin:-44px 7px 0 0;min-height:36px;padding:0 10px;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-run{margin:-42px 6px 0 0;padding:0 8px;font-size:.72rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}';
+  style.textContent = '.ai-search-row{position:relative;display:block}.ai-search-row #q{box-sizing:border-box;padding-right:126px}.ai-search-run{position:absolute;right:8px;top:50%;transform:translateY(-50%);min-height:36px;padding:0 11px;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer;white-space:nowrap}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-row #q{padding-right:102px}.ai-search-run{right:6px;padding:0 8px;font-size:.7rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}.compare-focus{display:block;margin-top:5px;color:#5b4a7b;font-size:.78rem;line-height:1.45}';
   document.head.appendChild(style);
   let activeKey = '', lastShownKey = '';
 
