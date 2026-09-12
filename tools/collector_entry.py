@@ -9,6 +9,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -54,6 +55,27 @@ collector.load_units = load_units_compatible
 
 def now():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+class PacedBudget:
+    """Serialise Gemini calls to stay below short-window API limits."""
+    def __init__(self, limit):
+        self.limit = limit
+        self.used = 0
+        self.disabled = ""
+        self.lock = threading.Lock()
+        self.last_claim_at = 0.0
+        self.min_interval_seconds = max(6.5, float(os.getenv("GEMINI_MIN_INTERVAL_SECONDS", "8")))
+
+    def claim(self):
+        with self.lock:
+            if self.disabled or self.used >= self.limit:
+                return False
+            wait = self.min_interval_seconds - (time.monotonic() - self.last_claim_at)
+            if wait > 0:
+                time.sleep(wait)
+            self.last_claim_at = time.monotonic()
+            self.used += 1
+            return True
 
 
 def clean_url(value):
@@ -323,7 +345,7 @@ def write_live_progress(units, state, checked, target, mode, done=False, paused=
         "updated_at": now(),
         "mode": mode,
         "ai_status": ai_status,
-        "message": ("Gemini 호출 한도 도달 · 다음 5시간 주기에 재개" if ai_status == "rate_limited" else f"{min(checked,total):,} / {total:,}개 소속 단위 확인")
+        "message": ("Gemini 호출 제한 대기 · 요청 간격을 낮춰 자동 재시도" if ai_status == "rate_limited" else f"{min(checked,total):,} / {total:,}개 소속 단위 확인")
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -342,7 +364,7 @@ def main():
     if key:
         try: model = model_for(key)
         except Exception as exc: print(f"Gemini disabled: {exc}", flush=True)
-    budget = collector.Budget(args.max_ai_requests if model else 0); started = time.monotonic(); deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None; target = min(max(0, args.max_units), len(units)); checked = 0
+    budget = PacedBudget(args.max_ai_requests if model else 0); started = time.monotonic(); deadline = started + args.time_budget_minutes * 60 if args.time_budget_minutes else None; target = min(max(0, args.max_units), len(units)); checked = 0
     write_live_progress(units, state, 0, target, "gemini-url-context-verified" if model else "collector-only", ai_status="ready" if model else "unavailable")
     publish_live_progress()
     while checked < target:
