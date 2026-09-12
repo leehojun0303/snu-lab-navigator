@@ -1,5 +1,5 @@
 {
-  "cursor": 80,
+  "cursor": 85,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -4294,12 +4294,12 @@
       "_unit_id": "SNU-RU-1388AFC748E134"
     },
     "SNU-RU-A1C06411A211A0": {
-      "fingerprint": "4bb3312e00e716115d14d1447624831ef03fbccb8d12bb9e91ea41f03cc6eb93",
-      "checked_at": "2026-09-11T01:47:26Z",
+      "fingerprint": "d8487d4080b26e018e70553bfeb29a837ce3e2a46e668356b8c6bc098f6f9944",
+      "checked_at": "2026-09-12T03:09:33Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
-        "membersUrl": "https://nucleng.snu.ac.kr/about/people/researcher",
+        "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr",
@@ -4315,25 +4315,27 @@
         ]
       },
       "enrichment": {
-        "research_summary": "Richard I. Foster is a Research Associate Professor in the Department of Nuclear Engineering at Seoul National University, affiliated with the Nuclear Fuel Cycle and Nuclear Non-proliferation Laboratory. His academic background is in Chemical Engineering and Chemistry.",
-        "research_topics": [
-          "Nuclear Fuel Cycle",
-          "Nuclear Non-proliferation"
-        ],
-        "recommendation_keywords": [
-          "Nuclear Fuel Cycle",
-          "Nuclear Non-proliferation",
-          "Chemical Engineering",
-          "Chemistry"
-        ],
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": "There is no specific recruitment information available for this professor or their laboratory.",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://nucleng.snu.ac.kr",
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://nucleng.snu.ac.kr/about/people/researcher",
+        "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -4342,10 +4344,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://nucleng.snu.ac.kr/about/people/researcher",
+          "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/admission/undergraduate",
-          "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
           "https://nucleng.snu.ac.kr/admission/graduate",
@@ -4362,12 +4364,12 @@
           "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c80z0fcz5e8z7d8z7cdzec1zc71za9bz7cazfafz46.jpeg"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A1C06411A211A0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:47:31Z",
+        "_saved_at": "2026-09-12T03:09:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v3_paper_insights"
       },
       "_unit_id": "SNU-RU-A1C06411A211A0"
     },
@@ -35001,112 +35003,12 @@
     },
     "SNU-RU-31C11151A69261": {
       "fingerprint": "f0a293b9b37611e27d491bb80c7204fb8c320126f6dfc905a8012841e62127a6",
-      "checked_at": "2026-09-11T02:09:11Z",
+      "checked_at": "2026-09-12T03:09:32Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
-            "kind": "publication"
-          },
-          {
-            "title": "[학사] 2026학년도 2학기 논문지도교수 선정 및 변경 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "· 학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
-          },
-          {
-            "title": "· 대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate",
-            "kind": "recruitment"
-          },
-          {
-            "title": "· 학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
-          },
-          {
-            "title": "· 대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
-            "alt": "서울대학교 공과대학 원자핵공학과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr/undergraduate/council"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
-            "alt": "서울대학교 공과대학 원자핵공학과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr/undergraduate/council"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/3e9z23cz1a6z7c2z2f7z86dz4d2z5aez81bzc54z22.jpg",
-            "alt": "김기현 교수 사진",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
-            "alt": "서울대학교 원자핵공학과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr"
-          },
-          {
-            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg",
-            "alt": "[글로벌포커스] 들쭉날쭉 태양광…장마가 남긴 경고",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nucleng.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
           "https://nucleng.snu.ac.kr",
@@ -35120,9 +35022,76 @@
           "https://www.snu.ac.kr/personal_information"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-31C11151A69261",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "방사선 계측 및 응용 분야를 중심으로 방사선 검출기 및 계측 방법론 개발, 방사선 계측기술 활용, 방사선 영상, 선량평가에 관한 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "방사선 검출기 및 계측 방법론 개발",
+          "방사선 계측기술 활용",
+          "방사선 영상",
+          "선량평가"
+        ],
+        "recommendation_keywords": [
+          "방사선 계측",
+          "방사선 검출기",
+          "방사선 영상",
+          "선량평가",
+          "방사선 검출기 및 계측 방법론 개발",
+          "방사선 계측기술 활용"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+          "https://nucleng.snu.ac.kr",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr/about/people/researcher",
+          "https://nucleng.snu.ac.kr/about/people/emeritus",
+          "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/admission/graduate",
+          "https://nucleng.snu.ac.kr/undergraduate/council",
+          "https://www.snu.ac.kr/personal_information",
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/3e9z23cz1a6z7c2z2f7z86dz4d2z5aez81bzc54z22.jpg",
+          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-31C11151A69261",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:09:35Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-31C11151A69261"
     },
     "SNU-RU-DE0C074C37795F": {
       "fingerprint": "cdbe69353d1da0565260adc126f736a77d624e0854cb3e6410cb45977cb453b6",
@@ -100579,20 +100548,57 @@
     },
     "SNU-RU-54BE3AA707CBD7": {
       "fingerprint": "eaa17f1041086e06012e81e123176450bb60d46e4b50081d8769d2cbc431d7af",
-      "checked_at": "2026-09-11T02:37:53Z",
+      "checked_at": "2026-09-12T03:09:23Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://ere.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-54BE3AA707CBD7",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ere.snu.ac.kr"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-54BE3AA707CBD7",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:09:33Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-54BE3AA707CBD7"
     },
     "SNU-RU-DA90EF80B23609": {
       "fingerprint": "cb4df274d3b0d893c59482bb97ab2ca99d7ebdc1d2953d94ec534f940fe575b7",
@@ -123392,20 +123398,57 @@
     },
     "SNU-RU-3FD09DF856A9D8": {
       "fingerprint": "eaa17f1041086e06012e81e123176450bb60d46e4b50081d8769d2cbc431d7af",
-      "checked_at": "2026-09-11T02:50:30Z",
+      "checked_at": "2026-09-12T03:09:23Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://ere.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-3FD09DF856A9D8",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ere.snu.ac.kr"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-3FD09DF856A9D8",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:09:32Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-3FD09DF856A9D8"
     },
     "SNU-RU-A15EF2C77A83AA": {
       "fingerprint": "3ecab5fc86a317c5e301de7a61529525eb6bc6047c560ff7335aad39212a8eb3",
@@ -142728,20 +142771,57 @@
     },
     "SNU-RU-6E5D0FD6BFDE9D": {
       "fingerprint": "eaa17f1041086e06012e81e123176450bb60d46e4b50081d8769d2cbc431d7af",
-      "checked_at": "2026-09-11T02:57:23Z",
+      "checked_at": "2026-09-12T03:09:23Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://ere.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-6E5D0FD6BFDE9D",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ere.snu.ac.kr"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6E5D0FD6BFDE9D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:09:30Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-6E5D0FD6BFDE9D"
     },
     "SNU-RU-51F21F1BAAE6F6": {
       "fingerprint": "3baf65a56e09ebda48414e0eac1ffa627840b2e9b9b28265e918f1c1dd1bd834",
@@ -233859,11 +233939,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T03:09:19Z",
-    "checked": 35,
-    "seconds": 372.6,
+    "at": "2026-09-12T03:09:40Z",
+    "checked": 40,
+    "seconds": 393.34,
     "gemini": true,
-    "ai_requests": 33,
+    "ai_requests": 38,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
