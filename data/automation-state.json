@@ -1,5 +1,5 @@
 {
-  "cursor": 105,
+  "cursor": 110,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -9532,8 +9532,8 @@
       "_unit_id": "SNU-RU-711747F94EB88A"
     },
     "SNU-RU-DF279D62A018DF": {
-      "fingerprint": "611efcb3dae9110f16e8f07334d6ec5cf603597ee9922e52bdf555999184cdcc",
-      "checked_at": "2026-09-11T01:55:24Z",
+      "fingerprint": "3daea46be040a781a5457f8a93bdcb61d7446384c0b8f8781c9fd50abc426000",
+      "checked_at": "2026-09-12T03:11:42Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -9557,10 +9557,20 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
         "verified_publication_pages": [],
         "recruitment_summary": null,
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -9584,17 +9594,19 @@
           "https://mse.snu.ac.kr/snumse-main/dmse/message/",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/06/Staff.png",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/04/스크린샷-2024-12-01-오후-4.10.13.png",
           "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
           "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
           "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DF279D62A018DF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:56:40Z",
+        "_saved_at": "2026-09-12T03:11:45Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v3_paper_insights"
       },
       "_unit_id": "SNU-RU-DF279D62A018DF"
     },
@@ -21043,113 +21055,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-151979BDC1F26E": {
-      "fingerprint": "611efcb3dae9110f16e8f07334d6ec5cf603597ee9922e52bdf555999184cdcc",
-      "checked_at": "2026-09-11T02:03:14Z",
+      "fingerprint": "3daea46be040a781a5457f8a93bdcb61d7446384c0b8f8781c9fd50abc426000",
+      "checked_at": "2026-09-12T03:11:42Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png",
-            "alt": "뒤로가기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/lnb-snu-logo_lg.png",
-            "alt": "서울대학교 로고",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon1.jpg",
-            "alt": "일반 개인정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon2.jpg",
-            "alt": "고유식별정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon3.jpg",
-            "alt": "개인정보 처리목적 표시 아이디콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon4.jpg",
-            "alt": "개인정보의 제공 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -21163,9 +21075,63 @@
           "https://mse.snu.ac.kr/snumse-main/dmse/message/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-151979BDC1F26E",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/",
+          "https://mse.snu.ac.kr/snumse-main/dmse/message/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/06/Staff.png",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/04/스크린샷-2024-12-01-오후-4.10.13.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-151979BDC1F26E",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:12:05Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-151979BDC1F26E"
     },
     "SNU-RU-33DFF092306307": {
       "fingerprint": "64afb29bdb12e4a1bd437623b1535585798d94eabd29c7cd9bad5f49c5b56e66",
@@ -25219,113 +25185,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-79672F5FFD0ECA": {
-      "fingerprint": "611efcb3dae9110f16e8f07334d6ec5cf603597ee9922e52bdf555999184cdcc",
-      "checked_at": "2026-09-11T02:05:12Z",
+      "fingerprint": "3daea46be040a781a5457f8a93bdcb61d7446384c0b8f8781c9fd50abc426000",
+      "checked_at": "2026-09-12T03:11:42Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png",
-            "alt": "뒤로가기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/lnb-snu-logo_lg.png",
-            "alt": "서울대학교 로고",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon1.jpg",
-            "alt": "일반 개인정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon2.jpg",
-            "alt": "고유식별정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon3.jpg",
-            "alt": "개인정보 처리목적 표시 아이디콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon4.jpg",
-            "alt": "개인정보의 제공 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -25339,9 +25205,63 @@
           "https://mse.snu.ac.kr/snumse-main/dmse/message/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-79672F5FFD0ECA",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/",
+          "https://mse.snu.ac.kr/snumse-main/dmse/message/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/06/Staff.png",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/04/스크린샷-2024-12-01-오후-4.10.13.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-79672F5FFD0ECA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:11:56Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-79672F5FFD0ECA"
     },
     "SNU-RU-3E84B7C78C0405": {
       "fingerprint": "db0f87c9529403eba9f2d639f1b855636a6f6156c3553abf432dfd953580f52a",
@@ -41290,113 +41210,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6AE09C690B4646": {
-      "fingerprint": "611efcb3dae9110f16e8f07334d6ec5cf603597ee9922e52bdf555999184cdcc",
-      "checked_at": "2026-09-11T02:11:53Z",
+      "fingerprint": "3daea46be040a781a5457f8a93bdcb61d7446384c0b8f8781c9fd50abc426000",
+      "checked_at": "2026-09-12T03:11:42Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png",
-            "alt": "뒤로가기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/lnb-snu-logo_lg.png",
-            "alt": "서울대학교 로고",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon1.jpg",
-            "alt": "일반 개인정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon2.jpg",
-            "alt": "고유식별정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon3.jpg",
-            "alt": "개인정보 처리목적 표시 아이디콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon4.jpg",
-            "alt": "개인정보의 제공 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -41410,9 +41230,63 @@
           "https://mse.snu.ac.kr/snumse-main/dmse/message/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-6AE09C690B4646",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/",
+          "https://mse.snu.ac.kr/snumse-main/dmse/message/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/06/Staff.png",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/04/스크린샷-2024-12-01-오후-4.10.13.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6AE09C690B4646",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:11:50Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-6AE09C690B4646"
     },
     "SNU-RU-A6D3C79E975754": {
       "fingerprint": "9b09a222c55de62b047fcea6b8afebda82907e6503858a06e4fac926e38415bb",
@@ -46420,113 +46294,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DEB0368710B295": {
-      "fingerprint": "611efcb3dae9110f16e8f07334d6ec5cf603597ee9922e52bdf555999184cdcc",
-      "checked_at": "2026-09-11T02:14:07Z",
+      "fingerprint": "3daea46be040a781a5457f8a93bdcb61d7446384c0b8f8781c9fd50abc426000",
+      "checked_at": "2026-09-12T03:11:42Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
-            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png",
-            "alt": "뒤로가기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/lnb-snu-logo_lg.png",
-            "alt": "서울대학교 로고",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon1.jpg",
-            "alt": "일반 개인정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon2.jpg",
-            "alt": "고유식별정보 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon3.jpg",
-            "alt": "개인정보 처리목적 표시 아이디콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          },
-          {
-            "url": "https://www.snu.ac.kr/webdata/uploads/kor/image/2024/07/privacy_icon4.jpg",
-            "alt": "개인정보의 제공 표시 아이콘",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/personal_information"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -46540,9 +46314,63 @@
           "https://mse.snu.ac.kr/snumse-main/dmse/message/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-DEB0368710B295",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/",
+          "https://mse.snu.ac.kr/snumse-main/dmse/message/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/06/Staff.png",
+          "https://mse.snu.ac.kr/wp-content/uploads/2024/04/스크린샷-2024-12-01-오후-4.10.13.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
+          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-DEB0368710B295",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T03:12:03Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v3_paper_insights"
+      },
+      "_unit_id": "SNU-RU-DEB0368710B295"
     },
     "SNU-RU-69E2E1A40B1F96": {
       "fingerprint": "08887902f7633ea90cf138508fb40762c1863ab13ea613c6cc3b78176003e701",
@@ -233754,11 +233582,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T03:11:31Z",
-    "checked": 60,
-    "seconds": 504.01,
+    "at": "2026-09-12T03:12:05Z",
+    "checked": 65,
+    "seconds": 538.18,
     "gemini": true,
-    "ai_requests": 58,
+    "ai_requests": 63,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
