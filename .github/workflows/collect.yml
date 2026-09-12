@@ -2,10 +2,11 @@ name: Refresh official SNU lab data
 
 on:
   schedule:
-    # Every five hours in KST: 03:00, 08:00, 13:00, 18:00, 23:00.
-    # Each run has a 285-minute budget, so the next cycle resumes promptly.
+    # Retry compact collection every five minutes. A rate-limited run exits
+    # promptly, while a successful run continues within its 285-minute budget.
+    # The explicit 03:00 KST trigger also refreshes the official roster daily.
     - cron: '0 18 * * *'
-    - cron: '0 23,4,9,14 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       max_units:
