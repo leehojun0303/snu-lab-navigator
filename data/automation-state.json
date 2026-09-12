@@ -1,5 +1,5 @@
 {
-  "cursor": 20,
+  "cursor": 25,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -10070,7 +10070,7 @@
     },
     "SNU-RU-52FF94DA631984": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-11T01:55:33Z",
+      "checked_at": "2026-09-12T02:56:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -10082,6 +10082,14 @@
       },
       "enrichment": {
         "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
         "verified_publication_pages": [],
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
@@ -10103,9 +10111,9 @@
         ],
         "_unit_id": "SNU-RU-52FF94DA631984",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:57:45Z",
+        "_saved_at": "2026-09-12T02:56:35Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v2_compact_detail"
       },
       "_unit_id": "SNU-RU-52FF94DA631984"
     },
@@ -13798,20 +13806,52 @@
     },
     "SNU-RU-0538314ED8A1F4": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-11T02:00:17Z",
+      "checked_at": "2026-09-12T02:56:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://architecture.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-0538314ED8A1F4",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://architecture.snu.ac.kr"
+        ],
+        "_unit_id": "SNU-RU-0538314ED8A1F4",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T02:56:51Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v2_compact_detail"
+      },
+      "_unit_id": "SNU-RU-0538314ED8A1F4"
     },
     "SNU-RU-66E7FAC923971B": {
       "fingerprint": "aa28926146cf0279011d5960c4d867b3e796fbf40accfcbcc4b9203b580772ad",
@@ -62075,20 +62115,52 @@
     },
     "SNU-RU-8B9ACEC27F9E73": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-11T02:21:19Z",
+      "checked_at": "2026-09-12T02:56:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://architecture.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-8B9ACEC27F9E73",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://architecture.snu.ac.kr"
+        ],
+        "_unit_id": "SNU-RU-8B9ACEC27F9E73",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T02:57:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v2_compact_detail"
+      },
+      "_unit_id": "SNU-RU-8B9ACEC27F9E73"
     },
     "SNU-RU-C3A8903185F7A2": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
@@ -95660,20 +95732,52 @@
     },
     "SNU-RU-BF9A68F2764508": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-11T02:35:51Z",
+      "checked_at": "2026-09-12T02:56:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://architecture.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-BF9A68F2764508",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://architecture.snu.ac.kr"
+        ],
+        "_unit_id": "SNU-RU-BF9A68F2764508",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T02:56:26Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v2_compact_detail"
+      },
+      "_unit_id": "SNU-RU-BF9A68F2764508"
     },
     "SNU-RU-8319D70E6A6648": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -103721,21 +103825,54 @@
     },
     "SNU-RU-4AA0BEC2CDDACD": {
       "fingerprint": "b9d33f390bbd3363729b5f18f6157a8c185804b5508f30f1b243da52c98918d4",
-      "checked_at": "2026-09-11T02:40:09Z",
+      "checked_at": "2026-09-12T02:56:21Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://cem.snu.ac.kr/",
           "https://architecture.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-4AA0BEC2CDDACD",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://cem.snu.ac.kr/",
+          "https://architecture.snu.ac.kr"
+        ],
+        "_unit_id": "SNU-RU-4AA0BEC2CDDACD",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-12T02:57:26Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v2_compact_detail"
+      },
+      "_unit_id": "SNU-RU-4AA0BEC2CDDACD"
     },
     "SNU-RU-64D64A88041A53": {
       "fingerprint": "03453a41eb2fbafc99e6d8c8f25f6b94c6c666a99ebd417b574b62dd5454bdc3",
@@ -231644,11 +231781,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T02:56:14Z",
-    "checked": 20,
-    "seconds": 98.94,
+    "at": "2026-09-12T02:57:26Z",
+    "checked": 25,
+    "seconds": 171.31,
     "gemini": true,
-    "ai_requests": 20,
+    "ai_requests": 25,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
