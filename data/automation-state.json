@@ -1,5 +1,5 @@
 {
-  "cursor": 315,
+  "cursor": 320,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -6567,8 +6567,8 @@
       "_unit_id": "SNU-RU-97E2E2E5E87681"
     },
     "SNU-RU-3AA19755B66A21": {
-      "fingerprint": "fbaec0d98f6cb10b3a38e8a8e61e029e20a4f9c8e1df96a7553b2a71740e3272",
-      "checked_at": "2026-09-11T01:48:18Z",
+      "fingerprint": "88e67ef1edd41b6bc5aafaa73f08906f794816c19b8d421347202cf7e5dafd30",
+      "checked_at": "2026-09-12T03:37:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -6657,7 +6657,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:52:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-3AA19755B66A21"
     },
@@ -32303,7 +32304,7 @@
     },
     "SNU-RU-EF4AEB2907CF21": {
       "fingerprint": "a688c71cfb757cd66863170fcc9731483c4f0162e09aa882dfa6bb049d7360d4",
-      "checked_at": "2026-09-11T02:08:17Z",
+      "checked_at": "2026-09-12T03:37:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -32428,8 +32429,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-EF4AEB2907CF21",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-EF4AEB2907CF21"
     },
     "SNU-RU-9E7DF30E0A32C8": {
       "fingerprint": "6b3c8d29fddc70b0bf0074e27fab4c06711618463ed53f316da2a56750c1df37",
@@ -39844,7 +39844,7 @@
     },
     "SNU-RU-90A8FF43B9286D": {
       "fingerprint": "24ef6a17b2f4f1a22f90e751205226a975fcaa6862572841c77dccb28721e58d",
-      "checked_at": "2026-09-11T02:11:16Z",
+      "checked_at": "2026-09-12T03:37:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -39969,8 +39969,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-90A8FF43B9286D",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-90A8FF43B9286D"
     },
     "SNU-RU-662250B3740F9C": {
       "fingerprint": "893979d3a3562ed6db4c1ab8c277a6da5ce2631b877d249df6372727b7ddfc36",
@@ -40539,7 +40538,7 @@
     },
     "SNU-RU-CFC03C689C4384": {
       "fingerprint": "b4e77af51afc59394639b3e78dd9d11cff69adc20894b36002b8794dbd50184a",
-      "checked_at": "2026-09-11T02:11:31Z",
+      "checked_at": "2026-09-12T03:37:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -40664,8 +40663,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CFC03C689C4384",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-CFC03C689C4384"
     },
     "SNU-RU-2E88FBAF327685": {
       "fingerprint": "b142761b5a6e61a112c0e88bc443cd60fa8d67cf63b1074a0ddeaeb7ae65b5c7",
@@ -55003,7 +55001,7 @@
     },
     "SNU-RU-53B8E14289F219": {
       "fingerprint": "934e7c4b0cb5d7e509edd98640a3ce1bf20d1da50a8343c13ccb13d0a4ec8852",
-      "checked_at": "2026-09-11T02:17:54Z",
+      "checked_at": "2026-09-12T03:37:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -55128,8 +55126,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-53B8E14289F219",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-53B8E14289F219"
     },
     "SNU-RU-32E818AB7266DC": {
       "fingerprint": "04d460b3a60a9d94c6e855534c08fe44b4a82c16300d955aa1de45adce79fa98",
@@ -234705,9 +234702,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T03:36:49Z",
-    "checked": 270,
-    "seconds": 2021.85,
+    "at": "2026-09-12T03:37:02Z",
+    "checked": 275,
+    "seconds": 2035.76,
     "gemini": true,
     "ai_requests": 199,
     "completed_full_pass": false
