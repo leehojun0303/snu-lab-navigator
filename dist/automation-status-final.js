@@ -31,6 +31,10 @@
           if(status)status.textContent=`이번 전체 수집 완료 · ${checked.toLocaleString()}개 처리`;
           if(coverage)coverage.textContent=`이번 형식 분석 ${enriched.toLocaleString()}개`;
         }
+      }else if(p.status==='failed'){
+        if(badge)badge.textContent='자동 수집 오류';
+        if(status)status.textContent=p.message||'수집 시작 전 오류가 발생했습니다. 다음 실행에서 재시도합니다.';
+        if(coverage)coverage.textContent='이번 실행은 데이터 저장 전 중단됨';
       }
     }catch(_){if(!fallbackValidated){}}
   }
