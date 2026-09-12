@@ -196,6 +196,17 @@
       activeKey = ''; searchButton.disabled = false; searchButton.innerHTML = '<span aria-hidden="true">→</span>';
     }
   }
+  function simplifyDetailLinks() {
+    const dialog = document.querySelector('#detail');
+    if (!dialog?.open) return;
+    dialog.querySelectorAll('.research-section .ai-sources').forEach(node => node.remove());
+    dialog.querySelectorAll('.actions a').forEach(link => {
+      if (clean(link.textContent) !== '연구실 홈페이지') link.remove();
+    });
+  }
+  const detailObserver = new MutationObserver(simplifyDetailLinks);
+  detailObserver.observe(document.body, {childList:true, subtree:true, attributes:true, attributeFilter:['open']});
+
   searchButton.addEventListener('click', runAiFallback);
   input?.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); runAiFallback(); } });
 
