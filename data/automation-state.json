@@ -1,5 +1,5 @@
 {
-  "cursor": 1170,
+  "cursor": 1175,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -235499,7 +235499,7 @@
   "failures": {
     "SNU-RU-F78B1FD8937D09": {
       "reason": "fetch_failed",
-      "checked_at": "2026-09-11T01:41:46Z"
+      "checked_at": "2026-09-12T06:16:52Z"
     },
     "SNU-RU-AF1A93CBCF41C0": {
       "reason": "fetch_failed",
@@ -236070,8 +236070,8 @@
       "checked_at": "2026-09-12T05:55:08Z"
     },
     "SNU-RU-DAFB6A57964C53": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:59:17Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T06:17:15Z"
     },
     "SNU-RU-5C7D8B67E02726": {
       "reason": "fetch_failed",
@@ -236106,8 +236106,8 @@
       "checked_at": "2026-09-12T05:01:19Z"
     },
     "SNU-RU-18DA93A6033236": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T04:00:26Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T06:17:23Z"
     },
     "SNU-RU-BA1598971A5A80": {
       "reason": "NameError",
@@ -236170,8 +236170,8 @@
       "checked_at": "2026-09-12T05:07:47Z"
     },
     "SNU-RU-DDB81A0B772576": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T04:02:13Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T06:16:59Z"
     },
     "SNU-RU-11D2894B7EEB57": {
       "reason": "NameError",
@@ -236182,8 +236182,8 @@
       "checked_at": "2026-09-11T04:02:25Z"
     },
     "SNU-RU-E1086447B65F1D": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T04:02:28Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T06:17:07Z"
     },
     "SNU-RU-5D2A6D43E6ADEB": {
       "reason": "fetch_failed",
@@ -238999,9 +238999,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T06:16:49Z",
-    "checked": 680,
-    "seconds": 6411.46,
+    "at": "2026-09-12T06:17:23Z",
+    "checked": 685,
+    "seconds": 6445.87,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
