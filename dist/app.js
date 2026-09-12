@@ -130,15 +130,15 @@ function render() {
   } else {
     found = units.filter(x => (!words.length || words.every(word => containsWord(scopedTerms(x), word))) && (!college.value || x.college === college.value) && (!department.value || x.department === department.value));
     found.sort((a, b) => {
-      if (sort.value === 'name') return String(a.title || a.name).localeCompare(String(b.title || b.name), 'ko');
+      if (sort.value === 'name') return String(a.name || a.title).localeCompare(String(b.name || b.title), 'ko');
       if (sort.value === 'papers') {
         const ac = paperCountFor(a);
         const bc = paperCountFor(b);
         if (ac === null && bc !== null) return 1;
         if (ac !== null && bc === null) return -1;
-        return (bc ?? -1) - (ac ?? -1) || String(a.title || a.name).localeCompare(String(b.title || b.name), 'ko');
+        return (bc ?? -1) - (ac ?? -1) || String(a.name || a.title).localeCompare(String(b.name || b.title), 'ko');
       }
-      return score(b, words) - score(a, words) || String(a.title || a.name).localeCompare(String(b.title || b.name), 'ko');
+      return score(b, words) - score(a, words) || String(a.name || a.title).localeCompare(String(b.name || b.title), 'ko');
     });
   }
   count.textContent = found.length.toLocaleString();
