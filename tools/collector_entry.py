@@ -286,6 +286,7 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
         return result, None
     except Exception as exc:
         budget.used = max(0, budget.used - 1)
+        print(f"Gemini verification failed: {type(exc).__name__}: {str(exc)[:500]}", flush=True)
         if is_rate_limit_error(exc):
             with budget.lock:
                 budget.disabled = "rate_limited"
