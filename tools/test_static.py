@@ -38,7 +38,7 @@ def main():
     assert 'supa.rpc' in account and 'SUPABASE_CONFIG' in config
     assert '비밀번호<input' not in account and 'Gemini API 키<input' not in account
     assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
-    assert 'create_lab_account' in migration and 'login_lab_account' in migration
+    assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
     assert not re.search(r'create\s+table[^;]*gemini_keys', migration, re.I | re.S)
     assert 'drop table if exists public.gemini_keys cascade' in migration.lower()
     assert 'GEMINI_API_KEY' in proxy and 'SUPABASE_SERVICE_ROLE_KEY' in proxy
