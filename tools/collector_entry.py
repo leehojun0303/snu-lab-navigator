@@ -203,13 +203,13 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
         if any(token in text for token in ("icon", "logo", "btn-", "avatar", "profile", "facebook", "twitter", "kakao", "youtube")): continue
         poster_candidates.append(item)
     source_urls += [clean_url(x.get("url")) for x in poster_candidates if clean_url(x.get("url"))]
-    source_urls = list(dict.fromkeys([u for u in source_urls if allowed(u, unit)]))[:30]
+    source_urls = list(dict.fromkeys([u for u in source_urls if allowed(u, unit)]))[:12]
     prompt = {
         "task": "Verify and extract facts for this specific SNU professor/lab. Use supplied official URLs as evidence.",
         "today_kst": datetime.now().astimezone().strftime("%Y-%m-%d"),
         "unit": {k: unit.get(k, "") for k in ("id", "name", "college", "department", "labs", "fields", "keywords")},
         "candidate_urls": source_urls,
-        "raw_candidates": {"publication_pages": activity.get("publicationPages", [])[:6], "recruitment_pages": activity.get("recruitmentPages", [])[:6], "member_url": activity.get("membersUrl", ""), "poster_assets": poster_candidates},
+        "raw_candidates": {"publication_pages": activity.get("publicationPages", [])[:6], "recruitment_pages": activity.get("recruitmentPages", [])[:6], "member_url": activity.get("membersUrl", ""), "poster_assets": poster_candidates[:6]},
         "rules": [
             "No inference. Every reported fact must be supported by an inspected official URL.",
             "Publication verification: accept direct lab/professor publication lists or a paper page explicitly attributable to this professor/lab. Reject generic SNU/department research-highlights, press/news, other professors' awards, and unrelated thesis/admission pages.",
@@ -240,7 +240,7 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
             "poster_status": "verified | unverified_candidate | none_detected | inaccessible", "poster_title": "string", "poster_date": "string", "poster_event": "string", "poster_image_url": "string", "poster_source_url": "string", "poster_evidence": "string", "source_urls_used": ["string"],
         },
     }
-    payload = {"contents": [{"role": "user", "parts": [{"text": json.dumps(prompt, ensure_ascii=False)}]}], "tools": [{"url_context": {}}], "generationConfig": {"temperature": 0, "responseMimeType": "application/json", "maxOutputTokens": 4200}}
+    payload = {"contents": [{"role": "user", "parts": [{"text": json.dumps(prompt, ensure_ascii=False)}]}], "tools": [{"url_context": {}}], "generationConfig": {"temperature": 0, "responseMimeType": "application/json", "maxOutputTokens": 1800}}
     try:
         response = http_json(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent", key, payload, 75)
         result = parse_json_candidate(response)
@@ -286,7 +286,13 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
         return result, None
     except Exception as exc:
         budget.used = max(0, budget.used - 1)
-        print(f"Gemini verification failed: {type(exc).__name__}: {str(exc)[:500]}", flush=True)
+        detail = ""
+        if isinstance(exc, HTTPError):
+            try:
+                detail = exc.read().decode("utf-8", errors="replace")[:800]
+            except Exception:
+                pass
+        print(f"Gemini verification failed: {type(exc).__name__}: {str(exc)[:500]} {detail}", flush=True)
         if is_rate_limit_error(exc):
             with budget.lock:
                 budget.disabled = "rate_limited"
