@@ -368,5 +368,26 @@ def main():
     print(json.dumps(state.get("last_run", {}), ensure_ascii=False), flush=True)
 
 
+def write_failure_progress(exc):
+    path = ROOT / "data" / "automation-progress.json"
+    payload = {
+        "status": "failed",
+        "checked": 0,
+        "target": 0,
+        "total": 0,
+        "enriched": 0,
+        "updated_at": now(),
+        "mode": "collector-error",
+        "ai_status": "unavailable",
+        "message": f"수집 시작 전 오류: {type(exc).__name__}",
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    publish_live_progress()
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:
+        write_failure_progress(exc)
+        raise
