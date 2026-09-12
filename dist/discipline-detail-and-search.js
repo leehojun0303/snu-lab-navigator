@@ -25,7 +25,7 @@
       const date = clean(item.date || item.year);
       const summary = withSummary ? clean(item.summary) : '';
       const link = safeUrl(item.url);
-      return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + (summary ? '<p class="item-summary">' + esc(summary) + '</p>' : '') + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
+      return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + (summary ? '<p class="item-summary">' + esc(summary) + '</p>' : (withSummary ? '<p class="item-summary pending-summary">논문 요약 수집 중</p>' : '')) + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
     }).join('') + '</ul>';
   }
   function sourceLink() {
@@ -66,6 +66,14 @@
       '<article class="activity-card"><h4>저서·편저</h4>' + verifiedItems(e.books, '확인된 저서·편저 목록이 아직 없습니다.') + '</article>' +
       '<article class="activity-card"><h4>연구과제·학술발표</h4>' + verifiedItems([...(e.research_projects || []), ...(e.conference_presentations || [])], '확인된 연구과제·학술발표가 아직 없습니다.') + '</article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
+  function paperStatsHtml(e) {
+    const total = Number.isInteger(e.recent_year_paper_count) ? e.recent_year_paper_count : null;
+    const groups = (Array.isArray(e.recent_year_papers_by_venue) ? e.recent_year_papers_by_venue : [])
+      .filter(item => item && clean(item.venue) && Number.isInteger(item.count) && item.count > 0).slice(0, 6);
+    if (total === null && !groups.length) return '<p class="paper-stats pending-summary">최근 1년 논문 수·게재처별 통계 수집 중</p>';
+    return '<div class="paper-stats">' + (total !== null ? '<p>최근 1년 논문 <strong>총 ' + esc(total) + '편</strong></p>' : '') +
+      (groups.length ? '<p class="paper-venues">게재처별: ' + groups.map(item => esc(clean(item.venue) + ' ' + item.count + '편')).join(' · ') + '</p>' : '') + '</div>';
+  }
   function academicActivityHtml(x) {
     const e = enrichment(x), a = activity(x);
     const papers = Array.isArray(e.recent_papers) && e.recent_papers.length ? e.recent_papers : (a.papers || []);
@@ -78,7 +86,7 @@
     }, {});
     const memberText = Object.entries(groups).map(([name, count]) => name + ' ' + count + '명').join(' · ');
     return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3><p>공식 출처로 확인된 핵심 정보만 모바일에서 빠르게 볼 수 있게 요약합니다.</p></div></div><div class="activity-grid">' +
-      '<article class="activity-card"><h4>최근 논문</h4>' + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
+      '<article class="activity-card"><h4>최신 논문 3편</h4>' + paperStatsHtml(e) + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
       '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p>' + (recruitmentUrl ? '<a class="small-link" target="_blank" rel="noreferrer" href="' + esc(recruitmentUrl) + '">모집 공식 안내</a>' : '') + '</article>' +
       '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
   }
@@ -113,7 +121,7 @@
     row.append(input, searchButton);
   }
   const style = document.createElement('style');
-  style.textContent = '.ai-search-row{position:relative;display:block}.ai-search-row #q{box-sizing:border-box;padding-right:58px}.ai-search-run{position:absolute;right:8px;top:50%;transform:translateY(-50%);min-height:36px;width:38px;padding:0;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer;white-space:nowrap}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-row #q{padding-right:52px}.ai-search-run{right:6px;width:36px;padding:0;font-size:1rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}.compare-focus{display:block;margin-top:5px;color:#5b4a7b;font-size:.78rem;line-height:1.45}';
+  style.textContent = '.ai-search-row{position:relative;display:block}.ai-search-row #q{box-sizing:border-box;padding-right:58px}.ai-search-run{position:absolute;right:8px;top:50%;transform:translateY(-50%);min-height:36px;width:38px;padding:0;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer;white-space:nowrap}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-row #q{padding-right:52px}.ai-search-run{right:6px;width:36px;padding:0;font-size:1rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}.pending-summary{color:#7c6a48}.paper-stats{margin:0 0 10px;padding:8px 9px;border-radius:8px;background:#f6f8fc;color:#475569;font-size:.78rem;line-height:1.45}.paper-stats p{margin:0}.paper-venues{margin-top:3px!important}.compare-focus{display:block;margin-top:5px;color:#5b4a7b;font-size:.78rem;line-height:1.45}';
   document.head.appendChild(style);
   let activeKey = '', lastShownKey = '';
 
