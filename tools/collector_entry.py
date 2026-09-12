@@ -279,6 +279,8 @@ def publish_live_progress():
     if os.getenv("PUBLISH_PROGRESS") != "1":
         return
     try:
+        subprocess.run(["git", "config", "user.name", "snu-lab-automation"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "config", "user.email", "actions@users.noreply.github.com"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "add", "data/automation-progress.json"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if staged.returncode == 0:
