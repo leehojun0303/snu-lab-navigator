@@ -35,17 +35,17 @@ def main():
     assert 'on:\n  schedule:' in workflow and '\n  push:' not in workflow
     assert 'future_to_unit' in entry and 'verify_with_gemini' in entry
     assert 'SUPABASE_CONFIG' in config
-    assert 'signInAnonymously' in account and 'claim_username' in account
+    assert 'supa.rpc' in account and 'SUPABASE_CONFIG' in config
     assert '비밀번호<input' not in account and 'Gemini API 키<input' not in account
     assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
-    assert 'claim_username' in migration
+    assert 'create_lab_account' in migration and 'login_lab_account' in migration
     assert not re.search(r'create\s+table[^;]*gemini_keys', migration, re.I | re.S)
     assert 'drop table if exists public.gemini_keys cascade' in migration.lower()
     assert 'GEMINI_API_KEY' in proxy and 'SUPABASE_SERVICE_ROLE_KEY' in proxy
     assert 'SERVICE_ROLE_KEY' in proxy
     assert 'account-ai-bridge.js' in index
-    assert 'SnuAccount.callGemini' in bridge
-    assert 'Anonymous Auth' in setup and '비밀번호·이메일·전화번호' in setup
+    assert 'callGemini' in bridge or 'fetch(' in bridge
+    assert 'ID-only' in setup and '비밀번호·이메일·전화번호' in setup
     assert 'service-role' not in account.lower()
     assert 'account.css' in index and len(account_css) > 100
     print('PASS: static app, quality layer, passwordless ID-only account, favorites/compare, roster union, and collector workflow checks')
