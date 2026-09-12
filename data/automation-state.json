@@ -1,5 +1,5 @@
 {
-  "cursor": 850,
+  "cursor": 855,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -235854,8 +235854,8 @@
       "checked_at": "2026-09-11T03:46:06Z"
     },
     "SNU-RU-31055703DC8497": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:46:36Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T05:28:51Z"
     },
     "SNU-RU-7929B8827EEE46": {
       "reason": "NameError",
@@ -235958,8 +235958,8 @@
       "checked_at": "2026-09-11T03:55:33Z"
     },
     "SNU-RU-C78BDC5BA454C7": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T03:55:48Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T05:28:35Z"
     },
     "SNU-RU-AB70F12FACF1A2": {
       "reason": "fetch_failed",
@@ -236114,8 +236114,8 @@
       "checked_at": "2026-09-11T04:00:41Z"
     },
     "SNU-RU-DA4AE8D8998C31": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-11T04:00:42Z"
+      "reason": "NameError",
+      "checked_at": "2026-09-12T05:28:27Z"
     },
     "SNU-RU-98E30F40005E97": {
       "reason": "NameError",
@@ -237852,12 +237852,20 @@
     "SNU-RU-2F0D78DA9E5DF2": {
       "reason": "NameError",
       "checked_at": "2026-09-12T05:28:05Z"
+    },
+    "SNU-RU-CDF6755C49962F": {
+      "reason": "NameError",
+      "checked_at": "2026-09-12T05:28:19Z"
+    },
+    "SNU-RU-65DDB7C8227CCE": {
+      "reason": "NameError",
+      "checked_at": "2026-09-12T05:28:43Z"
     }
   },
   "last_run": {
-    "at": "2026-09-12T05:28:05Z",
-    "checked": 360,
-    "seconds": 3487.68,
+    "at": "2026-09-12T05:28:51Z",
+    "checked": 365,
+    "seconds": 3534.15,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
