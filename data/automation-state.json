@@ -1,5 +1,5 @@
 {
-  "cursor": 365,
+  "cursor": 370,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -9309,8 +9309,8 @@
       "_unit_id": "SNU-RU-DB22788E8C92E8"
     },
     "SNU-RU-BD43516568C472": {
-      "fingerprint": "5f11123bf32651ab779435600ac14947f775c3c7552f117b5c1d7a0f31a48274",
-      "checked_at": "2026-09-11T01:55:14Z",
+      "fingerprint": "8d8a3003a49764ffade94d3b1f248d8555eaad39ab726f3f81865bd61b0a698e",
+      "checked_at": "2026-09-12T04:02:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -9389,7 +9389,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:56:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-BD43516568C472"
     },
@@ -19714,8 +19715,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6C2B92D4090820": {
-      "fingerprint": "f9bc8064381e5a5468f6ec12281b11d845ff844738959c67dc68c5448cfedc33",
-      "checked_at": "2026-09-11T02:02:43Z",
+      "fingerprint": "61c989e395eda9784468a64b284a2f20af50e03bdae64582f245f84610bf6494",
+      "checked_at": "2026-09-12T04:02:16Z",
       "activity": {
         "publicationPages": [
           {
@@ -19831,17 +19832,16 @@
           "https://admission.snu.ac.kr/index.html",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
           "https://www.snu.ac.kr/personal_information",
-          "https://plantsci.snu.ac.kr#container",
           "https://plantsci.snu.ac.kr#footer",
           "https://snu.ac.kr/index.html",
           "https://my.snu.ac.kr/",
           "https://www.snu.ac.kr/academics/resources/certificate/request",
-          "https://plantsci.snu.ac.kr/"
+          "https://plantsci.snu.ac.kr/",
+          "https://plantsci.snu.ac.kr/passni/sso/spLogin.php"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-6C2B92D4090820",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-6C2B92D4090820"
     },
     "SNU-RU-1380305884A114": {
       "fingerprint": "42f235da96c122331d0acaae600e1fcea83560ed2ad770018bcf755d1e15be12",
@@ -32429,7 +32429,7 @@
     },
     "SNU-RU-9E7DF30E0A32C8": {
       "fingerprint": "6b3c8d29fddc70b0bf0074e27fab4c06711618463ed53f316da2a56750c1df37",
-      "checked_at": "2026-09-11T02:08:19Z",
+      "checked_at": "2026-09-12T04:02:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -32555,7 +32555,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-9E7DF30E0A32C8",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-92D95498437C1B": {
       "fingerprint": "561e60f0d42a625db3ddbfde7ed7d673b1abd98cca5bf2bacca7ba80ad5a8a98",
@@ -38756,8 +38756,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9FA84013111D60": {
-      "fingerprint": "f65f8cedf8f4f2223453acb58359be5ef00f7b11a4085a4517f42ce12259fd14",
-      "checked_at": "2026-09-11T02:10:50Z",
+      "fingerprint": "e89f6beada96370d0c627699957c91e17c274e0c4bf8f848c0f9f4e296894da0",
+      "checked_at": "2026-09-12T04:02:16Z",
       "activity": {
         "publicationPages": [
           {
@@ -38816,28 +38816,28 @@
             "alt": "서울대학교 식물생산과학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr#footer"
+            "parent_source_url": "https://plantsci.snu.ac.kr/"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2020/12/icon_main_intro_03-2.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr#footer"
+            "parent_source_url": "https://plantsci.snu.ac.kr/"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-includes/images/rss.png",
             "alt": "RSS",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr#footer"
+            "parent_source_url": "https://plantsci.snu.ac.kr/"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2021/02/top-logo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr#footer"
+            "parent_source_url": "https://plantsci.snu.ac.kr/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -38875,15 +38875,14 @@
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
           "https://www.snu.ac.kr/personal_information",
           "https://plantsci.snu.ac.kr#container",
-          "https://plantsci.snu.ac.kr#footer",
           "https://snu.ac.kr/index.html",
           "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request"
+          "https://www.snu.ac.kr/academics/resources/certificate/request",
+          "https://plantsci.snu.ac.kr/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-9FA84013111D60",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-9FA84013111D60"
     },
     "SNU-RU-7E678A26C4DC0B": {
       "fingerprint": "fd50fc5f4bebebf5920571e8659ec3ca1ed91821f27120b0da437117e673163c",
@@ -72716,7 +72715,7 @@
     },
     "SNU-RU-B379D0BDD921F5": {
       "fingerprint": "6b3c8d29fddc70b0bf0074e27fab4c06711618463ed53f316da2a56750c1df37",
-      "checked_at": "2026-09-11T02:26:10Z",
+      "checked_at": "2026-09-12T04:02:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -72841,8 +72840,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B379D0BDD921F5",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-B379D0BDD921F5"
     },
     "SNU-RU-3C0617C071CBC2": {
       "fingerprint": "5bc97432418eb8e19febc7d87b865c263ee239bcf202730eab2f436e8c0c3ffd",
@@ -236264,9 +236262,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-12T04:00:11Z",
+    "at": "2026-09-12T04:02:17Z",
     "checked": 5,
-    "seconds": 38.37,
+    "seconds": 20.03,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
