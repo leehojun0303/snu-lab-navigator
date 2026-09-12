@@ -287,8 +287,8 @@ def publish_live_progress():
         if staged.returncode == 0:
             return
         # Keep roster/snapshot changes local while publishing only the small progress file.
-        stash = subprocess.run(["git", "stash", "push", "--keep-index", "-m", "collector-progress-publish"], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        stashed = stash.returncode == 0
+        stash = subprocess.run(["git", "stash", "push", "--keep-index", "-m", "collector-progress-publish"], cwd=ROOT, capture_output=True, text=True)
+        stashed = stash.returncode == 0 and "No local changes to save" not in (stash.stdout or "")
         subprocess.run(["git", "commit", "-m", "Update live collection progress"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "fetch", "origin", "main"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "rebase", "origin/main"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
