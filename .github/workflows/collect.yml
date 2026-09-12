@@ -63,9 +63,9 @@ jobs:
           MAX_UNITS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_units || '100000' }}
           TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '285' || inputs.time_budget_minutes || '285' }}
           MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_ai_requests || '100000' }}
-          BATCH_SIZE: '40'
+          BATCH_SIZE: '5'
           PUBLISH_PROGRESS: '1'
-          PROGRESS_PUBLISH_EVERY: '80'
+          PROGRESS_PUBLISH_EVERY: '5'
         run: >-
           python tools/collector_entry.py
           --max-units "$MAX_UNITS"
