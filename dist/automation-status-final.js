@@ -18,7 +18,18 @@
       const r=await fetch(`${progressUrl}?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)return;
       const p=await r.json();
       const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
-      if(p.status==='running'||p.status==='starting'||p.status==='paused'){
+      if(p.status==='idle'){
+        try{
+          const activeResponse=await fetch('https://api.github.com/repos/leehojun0303/snu-lab-navigator/actions/runs?per_page=10',{cache:'no-store'});
+          const activeRuns=(await activeResponse.json()).workflow_runs||[];
+          const active=activeRuns.find(run=>run.status==='in_progress'&&(/Start compact-detail collection now|Refresh official SNU lab data/.test(run.name)));
+          if(active){
+            if(badge)badge.textContent='새 상세 형식 준비 중';
+            if(status)status.textContent='공식 교수 명단을 동기화하고 있습니다. 완료 직후 상세정보 수집과 처리 개수 표시가 시작됩니다.';
+            if(coverage)coverage.textContent='명단 동기화 단계 · 상세정보 수집은 아직 시작 전';
+          }
+        }catch(_){}
+      }else if(p.status==='running'||p.status==='starting'||p.status==='paused'){
         const checked=Number(p.checked)||0,total=Number(p.total)||0,enriched=Number(p.enriched)||0;
         const limited=p.ai_status==='rate_limited', paused=p.status==='paused';
         if(badge)badge.textContent=limited?'Gemini 한도 대기':(paused?'다음 수집 주기 대기':'새 상세 형식 수집 중');
