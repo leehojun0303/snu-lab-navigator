@@ -7,7 +7,7 @@
 </head>
 <body>
 <main>
-  <header><p class="eyebrow">서울대학교 생성형 AI 연구실 탐색</p><h1>무엇을 연구하고 싶은가요?</h1><p class="intro">관심 주제, 교수, 단과대와 학과로 연구실을 찾아보세요.</p><div class="status-row"><span><strong id="professorCount">2,001</strong>명 교수</span><span><strong id="totalCount">2,170</strong>개 소속 단위</span><span>26개 단과대·대학원</span><span id="automationBadge" class="automation-badge">자동 수집 준비</span><button id="showcaseOpen" type="button">완성형 상세 예시</button><button id="accountOpen" type="button">로그인</button><span id="accountStateBadge" class="account-state-badge" aria-live="polite"></span><button id="connectAiOpen" type="button">AI 기능</button><button id="aboutOpen" type="button">데이터 안내</button></div></header>
+  <header><p class="eyebrow">서울대학교 교수/연구실 탐색</p><h1>무엇을 연구하고 싶은가요?</h1><p class="intro">관심 주제로 교수와 연구실을 찾아보세요.</p><div class="status-row"><span><strong id="professorCount">2,001</strong>명 교수</span><span><strong id="totalCount">2,170</strong>개 소속 단위</span><span>26개 단과대·대학원</span><span id="automationBadge" class="automation-badge">자동 수집 준비</span><button id="showcaseOpen" type="button">완성형 상세 예시</button><button id="accountOpen" type="button">로그인</button><span id="accountStateBadge" class="account-state-badge" aria-live="polite"></span><button id="connectAiOpen" type="button">AI 기능</button><button id="aboutOpen" type="button">데이터 안내</button></div></header>
   <section class="search"><label for="q">연구실 찾기</label><input id="q" type="search" placeholder="예: 생성형 AI를 잘 다루고 싶어요"><div class="filters"><select id="scope" aria-label="검색 대상"><option value="all">전체 항목 검색</option><option value="lab">연구실명</option><option value="professor">교수명</option><option value="topic">연구 분야</option></select><select id="college"><option value="">전체 단과대</option></select><select id="department"><option value="">전체 학과</option></select><select id="sort"><option value="match">관련도순</option><option value="name">이름순</option><option value="ai">추천순</option></select></div><div class="ai-actions"><button id="aiRecommend" type="button">Gemini AI 추천 받기</button><span id="aiStatus">저장된 AI 연구분야 정보를 우선 사용하고 필요한 경우에만 서버 Gemini를 호출합니다.</span></div></section>
   <section class="summary" aria-live="polite"><strong id="count"></strong><span>개 교수 기반 소속 단위</span><button id="clear">필터 초기화</button></section>
   <section id="results" class="results" aria-label="연구 단위 목록"></section>
@@ -36,5 +36,6 @@
 <script src="showcase-final.js?v=20260911-20"></script>
 <script src="automation-status-final.js?v=20260912-15"></script>
 <script src="discipline-detail-and-search.js?v=20260912-11"></script>
+<script src="ui-targeted-hotfix.js?v=20260912-23"></script>
 </body>
 </html>
