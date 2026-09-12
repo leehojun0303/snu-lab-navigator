@@ -275,29 +275,28 @@ def append_output_metadata(units, state, checked, mode, ai_used):
 
 
 def publish_live_progress():
-    """Publish only the tiny progress file during a GitHub Actions run."""
+    """Publish progress and newly collected compact details during a run."""
     if os.getenv("PUBLISH_PROGRESS") != "1":
         return
-    stashed = False
     try:
         subprocess.run(["git", "config", "user.name", "snu-lab-automation"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "config", "user.email", "actions@users.noreply.github.com"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["git", "add", "data/automation-progress.json"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        publish_paths = [
+            "data/automation-progress.json",
+            "data/automation-state.json",
+            "dist/automation-data.js",
+            "dist/data-loader.js",
+        ]
+        subprocess.run(["git", "add", *publish_paths], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if staged.returncode == 0:
             return
-        # Keep roster/snapshot changes local while publishing only the small progress file.
-        stash = subprocess.run(["git", "stash", "push", "--keep-index", "-m", "collector-progress-publish"], cwd=ROOT, capture_output=True, text=True)
-        stashed = stash.returncode == 0 and "No local changes to save" not in (stash.stdout or "")
-        subprocess.run(["git", "commit", "-m", "Update live collection progress"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "commit", "-m", "Publish live compact detail collection"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "fetch", "origin", "main"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "rebase", "origin/main"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.run(["git", "push"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except Exception as exc:
-        print(f"Live progress publish skipped: {type(exc).__name__}", flush=True)
-    finally:
-        if stashed:
-            subprocess.run(["git", "stash", "pop"], cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        print(f"Live collection publish skipped: {type(exc).__name__}: {exc}", flush=True)
 
 
 def write_live_progress(units, state, checked, target, mode, done=False, paused=False, ai_status="ready"):
