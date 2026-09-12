@@ -31,19 +31,17 @@ jobs:
           python -m py_compile tools/collector_entry.py tools/automated_enrichment_v2.py
           python tools/test_automation_features.py
           python tools/test_static.py
-      - name: Synchronize official professor roster union
-        env:
-          ROSTER_MAX_PAGES: '100000'
-        run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
+      - name: Use the saved official roster for immediate detail collection
+        run: echo "Starting detail collection from the current verified roster snapshot"
       - name: Begin fresh compact-detail collection
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MAX_UNITS: '100000'
           TIME_BUDGET_MINUTES: '285'
           MAX_AI_REQUESTS: '100000'
-          BATCH_SIZE: '40'
+          BATCH_SIZE: '5'
           PUBLISH_PROGRESS: '1'
-          PROGRESS_PUBLISH_EVERY: '80'
+          PROGRESS_PUBLISH_EVERY: '5'
         run: >-
           python tools/collector_entry.py
           --max-units "$MAX_UNITS"
