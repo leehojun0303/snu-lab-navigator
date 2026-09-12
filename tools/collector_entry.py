@@ -195,14 +195,14 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
             "Members: only explicit named people from the professor/lab member page. Classify current people as PhD, Master, Undergraduate, or Other from the stated role. Put former members separately as Alumni.",
             "Poster verification: a professor portrait, logo, icon, social-share image, or generic site image is never a poster. Verify only an actual research poster clearly attributable to this professor/lab. If attribution is unclear, use unverified_candidate rather than verified.",
             "Research topics and recommendation keywords may be summarized from the verified research description, but must not introduce unsupported topics.",
-            "For each recent paper, write one Korean sentence of at most 120 characters only when its official title, abstract, or page supports that summary; otherwise return an empty summary.",
+            "For scholarly research units only: list the three newest verified papers, write one Korean sentence of at most 120 characters for each only when its official title, abstract, or page supports that summary, and calculate a recent-12-month total plus venue/journal/conference counts only from an official publication list. Use null or an empty list when the official evidence is insufficient.",
             "For music, extract only explicitly supported recent performances, creative works, and concise education activity. Do not extract awards.",
             "For fine arts, extract solo/group exhibitions only if their official date is within the last 12 months. Do not extract awards.",
             "For humanities, distinguish papers, books, conference presentations, and research projects.",
         ],
         "output_schema": {
             "research_summary": "string", "research_topics": ["string"], "recommendation_keywords": ["string"],
-            "recent_papers": [{"title": "string", "year": "string", "venue": "string", "summary": "string", "url": "string"}],
+            "recent_papers": [{"title": "string", "year": "string", "venue": "string", "summary": "string", "url": "string"}], "recent_year_paper_count": "number or null", "recent_year_papers_by_venue": [{"venue": "string", "count": "number"}],
             "books": [{"title": "string", "year": "string", "venue": "string", "url": "string"}],
             "conference_presentations": [{"title": "string", "date": "string", "venue": "string", "url": "string"}],
             "research_projects": [{"title": "string", "date": "string", "organization": "string", "url": "string"}],
@@ -238,8 +238,18 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
         source = clean_url(result.get("recruitment_source_url")); result["recruitment_source_url"] = source if source and allowed(source, unit) else ""
         member_url = clean_url(result.get("member_page_url")); result["member_page_url"] = member_url if member_url and allowed(member_url, unit) else ""
         result["current_members"] = clean_people(result.get("current_members")); result["alumni"] = clean_people(result.get("alumni")); result["recommendation_keywords"] = recommendation_keywords(result)
+        total = result.get("recent_year_paper_count")
+        result["recent_year_paper_count"] = total if isinstance(total, int) and 0 <= total <= 500 else None
+        venue_counts = []
+        for item in result.get("recent_year_papers_by_venue") or []:
+            if not isinstance(item, dict): continue
+            venue = str(item.get("venue", "")).strip()[:120]
+            count = item.get("count")
+            if venue and isinstance(count, int) and 1 <= count <= 500:
+                venue_counts.append({"venue": venue, "count": count})
+        result["recent_year_papers_by_venue"] = venue_counts[:8]
         result["paper_count_visible"] = len(result["recent_papers"])
-        result["paper_count_scope"] = "AI가 공식 페이지에서 직접 확인한 논문 제목"
+        result["paper_count_scope"] = "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시"
         result["poster_status"] = str(result.get("poster_status", "none_detected")).lower()
         if result["poster_status"] not in {"verified", "unverified_candidate", "none_detected", "inaccessible"}: result["poster_status"] = "unverified_candidate" if poster_candidates else "none_detected"
         poster_image = clean_url(result.get("poster_image_url")); unit_photo = clean_url(unit.get("photo"))
@@ -250,7 +260,7 @@ def verify_with_gemini(key, model, unit, raw_record, budget):
             result["poster_image_url"] = poster_image
             source_url = clean_url(result.get("poster_source_url")); result["poster_source_url"] = source_url if source_url and allowed(source_url, unit) else poster_image
         result["source_urls_used"] = list(dict.fromkeys([clean_url(x) for x in (result.get("source_urls_used") or []) if clean_url(x) and allowed(clean_url(x), unit)] + source_urls))[:30]
-        result["_unit_id"] = str(unit.get("id", "")); result["_model"] = model; result["_saved_at"] = now(); result["_batch_saved"] = True; result["_quality_gate"] = "ai_verified_v2_compact_detail"
+        result["_unit_id"] = str(unit.get("id", "")); result["_model"] = model; result["_saved_at"] = now(); result["_batch_saved"] = True; result["_quality_gate"] = "ai_verified_v3_paper_insights"
         return result, None
     except Exception as exc:
         budget.used = max(0, budget.used - 1)
@@ -266,7 +276,7 @@ def append_output_metadata(units, state, checked, mode, ai_used):
     text = output.read_text(encoding="utf-8") if output.exists() else ""
     trusted = {uid: record for uid, record in state.get("records", {}).items() if record.get("_unit_id") == uid}
     sid, score, why = collector.showcase(units, trusted)
-    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.2", "detail_schema": "compact_detail_v2", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display", "snapshot_status": "in_progress", "validated_at": ""}
+    meta = {"updated_at": now(), "checked_units": len(state.get("records", {})), "enriched_units": sum(1 for r in state.get("records", {}).values() if r.get("enrichment", {}).get("_unit_id")), "checked_this_run": checked, "cursor": state.get("cursor", 0), "mode": mode, "ai_requests_this_run": ai_used, "showcase_unit_id": sid, "showcase_score": score, "showcase_reason": why, "collector_version": "2.2", "detail_schema": "compact_detail_v3_paper_insights", "quality_gate": "future_completion_order_safe + ai_activity_verification", "poster_policy": "verified_only_for_public_display", "snapshot_status": "in_progress", "validated_at": ""}
     lines = text.splitlines()
     first = "window.AUTOMATION_META=" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";"
     if lines and lines[0].startswith("window.AUTOMATION_META="): lines[0] = first
@@ -351,7 +361,7 @@ def main():
                         existing = raw.get("enrichment") or {}
                         needs_ai = (
                             previous.get("fingerprint") != raw.get("fingerprint")
-                            or existing.get("_quality_gate") != "ai_verified_v2_compact_detail"
+                            or existing.get("_quality_gate") != "ai_verified_v3_paper_insights"
                         )
                         enrichment, verify_error = (verify_with_gemini(key, model, unit, raw, budget) if needs_ai else (existing, None))
                         raw["_unit_id"] = uid
