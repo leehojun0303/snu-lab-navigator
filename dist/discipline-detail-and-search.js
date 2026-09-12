@@ -3,6 +3,7 @@
   'use strict';
   const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const clean = v => String(v || '').replace(/\s+/g, ' ').trim();
+  const displayValue = v => { const value = clean(v); return /^(n\/?a|na|없음|미상|unknown|null|undefined|-+)$/i.test(value) ? '' : value; };
   const safeUrl = v => { try { const u = new URL(String(v || '')); return /^https?:$/.test(u.protocol) ? u.href : ''; } catch (_) { return ''; } };
   const allUnits = () => [...(window.RESEARCH_UNITS || []), ...(window.RESEARCH_UNIT_SUPPLEMENTS || [])];
   const enrichment = x => (window.PRECOMPUTED_ENRICHMENT || {})[x.id] || {};
@@ -20,10 +21,10 @@
     const list = (Array.isArray(items) ? items : []).filter(item => item && clean(item.title || item.name));
     if (!list.length) return '<p class="activity-empty">' + esc(empty) + '</p>';
     return '<ul class="activity-list compact-list">' + list.slice(0, 3).map(item => {
-      const label = clean(item.title || item.name);
-      const note = clean(item.venue || item.organization || item.role || item.description);
-      const date = clean(item.date || item.year);
-      const summary = withSummary ? clean(item.summary) : '';
+      const label = displayValue(item.title || item.name);
+      const note = displayValue(item.venue || item.organization || item.role || item.description);
+      const date = displayValue(item.date || item.year);
+      const summary = withSummary ? displayValue(item.summary) : '';
       const link = safeUrl(item.url);
       return '<li><div>' + (link ? '<a target="_blank" rel="noreferrer" href="' + esc(link) + '">' + esc(label) + '</a>' : '<span>' + esc(label) + '</span>') + (note ? '<small>' + esc(note) + '</small>' : '') + (summary ? '<p class="item-summary">' + esc(summary) + '</p>' : (withSummary ? '<p class="item-summary pending-summary">논문 요약 수집 중</p>' : '')) + '</div>' + (date ? '<span>' + esc(date) + '</span>' : '') + '</li>';
     }).join('') + '</ul>';
@@ -85,7 +86,7 @@
       acc[key] = (acc[key] || 0) + 1; return acc;
     }, {});
     const memberText = Object.entries(groups).map(([name, count]) => name + ' ' + count + '명').join(' · ');
-    return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3><p>공식 출처로 확인된 핵심 정보만 모바일에서 빠르게 볼 수 있게 요약합니다.</p></div></div><div class="activity-grid">' +
+    return '<section class="activity-wrap discipline-activity scholarly"><div class="activity-title"><div><h3>연구실 핵심 정보</h3></div></div><div class="activity-grid">' +
       '<article class="activity-card"><h4>최신 논문 3편</h4>' + paperStatsHtml(e) + verifiedItems(papers, '확인된 최근 논문이 아직 없습니다.', true) + '</article>' +
       '<article class="activity-card"><h4>모집 현황</h4><p class="activity-ai-text">' + esc(clean(e.recruitment_summary) || '현재 모집으로 검증된 공식 안내가 없습니다.') + '</p>' + (recruitmentUrl ? '<a class="small-link" target="_blank" rel="noreferrer" href="' + esc(recruitmentUrl) + '">모집 공식 안내</a>' : '') + '</article>' +
       '<article class="activity-card"><h4>구성</h4><p class="activity-ai-text">' + esc(memberText || '확인된 구성원 현황이 아직 없습니다.') + '</p></article></div>' + posterCard(e, a) + sourceLink(e) + '</section>';
