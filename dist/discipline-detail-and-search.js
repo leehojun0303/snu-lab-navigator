@@ -139,7 +139,10 @@
       const x = item.unit, photo = safeUrl(String(x.photo || '').split(/[;,|]/)[0]);
       const avatar = photo ? '<span class="avatar avatar-stack"><img class="avatar-photo loaded" src="' + esc(photo) + '" alt="' + esc(x.name) + ' 교수 사진" loading="lazy"><span class="avatar-initial" hidden>' + esc(String(x.name || '?')[0]) + '</span></span>' : '<span class="avatar fallback">' + esc(String(x.name || '?')[0]) + '</span>';
       const lab = clean(String(x.labs || x.title || '연구그룹').split(/[;|]/)[0]);
-      return '<button class="card" data-i="' + allUnits().indexOf(x) + '">' + avatar + '<span class="card-copy"><h2>' + esc(x.name + ' 교수 / ' + lab) + '</h2><span class="meta">' + esc([x.college, x.department, x.rank].filter(Boolean).join(' · ')) + '</span><span class="ai-reason"><strong>AI 유사 추천 이유</strong>' + esc(item.reason) + '</span></span></button>';
+      const affiliation = typeof window.SnuAffiliationLabel === 'function'
+        ? window.SnuAffiliationLabel(x)
+        : [x.college, x.department].filter(Boolean).join(' ');
+      return '<button class="card" data-i="' + allUnits().indexOf(x) + '">' + avatar + '<span class="card-copy"><h2>' + esc(x.name + ' 교수 / ' + lab) + '</h2><span class="meta">' + esc([affiliation, x.rank].filter(Boolean).join(' · ')) + '</span><span class="ai-reason"><strong>AI 유사 추천 이유</strong>' + esc(item.reason) + '</span></span></button>';
     }).join('') || '<p class="empty">AI가 공식 저장 정보에서 적합한 후보를 찾지 못했습니다.</p>';
   }
   async function runAiFallback() {
