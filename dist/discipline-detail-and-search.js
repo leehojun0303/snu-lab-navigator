@@ -105,7 +105,7 @@
   searchButton.type = 'button';
   searchButton.className = 'ai-search-run';
   searchButton.setAttribute('aria-label', 'AI 유사 검색 실행');
-  searchButton.innerHTML = 'AI 유사 검색 <span aria-hidden="true">→</span>';
+  searchButton.innerHTML = '<span aria-hidden="true">→</span>';
   if (input?.parentElement) {
     const row = document.createElement('div');
     row.className = 'ai-search-row';
@@ -113,7 +113,7 @@
     row.append(input, searchButton);
   }
   const style = document.createElement('style');
-  style.textContent = '.ai-search-row{position:relative;display:block}.ai-search-row #q{box-sizing:border-box;padding-right:126px}.ai-search-run{position:absolute;right:8px;top:50%;transform:translateY(-50%);min-height:36px;padding:0 11px;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer;white-space:nowrap}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-row #q{padding-right:102px}.ai-search-run{right:6px;padding:0 8px;font-size:.7rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}.compare-focus{display:block;margin-top:5px;color:#5b4a7b;font-size:.78rem;line-height:1.45}';
+  style.textContent = '.ai-search-row{position:relative;display:block}.ai-search-row #q{box-sizing:border-box;padding-right:58px}.ai-search-run{position:absolute;right:8px;top:50%;transform:translateY(-50%);min-height:36px;width:38px;padding:0;border:0;border-radius:9px;background:#135fbe;color:#fff;font:700 .78rem system-ui,-apple-system,"Noto Sans KR",sans-serif;cursor:pointer;white-space:nowrap}.ai-search-run:disabled{opacity:.6;cursor:wait}@media(max-width:430px){.ai-search-row #q{padding-right:52px}.ai-search-run{right:6px;width:36px;padding:0;font-size:1rem}}.item-summary{margin:4px 0 0;color:#64748b;font-size:.8rem;line-height:1.45}.compare-focus{display:block;margin-top:5px;color:#5b4a7b;font-size:.78rem;line-height:1.45}';
   document.head.appendChild(style);
   let activeKey = '', lastShownKey = '';
 
@@ -193,7 +193,7 @@
         ? 'AI 서버 인증 오류입니다. 앱 검색 문제가 아니라 Gemini 프록시 배포·서버 키 설정을 점검해야 합니다.'
         : 'AI 유사 추천을 완료하지 못했습니다: ' + (message || '알 수 없는 오류');
     } finally {
-      activeKey = ''; searchButton.disabled = false; searchButton.innerHTML = 'AI 유사 검색 <span aria-hidden="true">→</span>';
+      activeKey = ''; searchButton.disabled = false; searchButton.innerHTML = '<span aria-hidden="true">→</span>';
     }
   }
   searchButton.addEventListener('click', runAiFallback);
