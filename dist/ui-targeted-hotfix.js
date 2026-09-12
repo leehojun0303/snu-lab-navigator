@@ -5,8 +5,14 @@
 
   function updateHomeCopy() {
     const eyebrow = document.querySelector('header .eyebrow');
+    const heading = document.querySelector('header h1');
     const intro = document.querySelector('header .intro');
-    if (eyebrow && eyebrow.textContent !== '서울대학교 교수/연구실 탐색') eyebrow.textContent = '서울대학교 교수/연구실 탐색';
+    if (eyebrow && clean(eyebrow.textContent) !== '서울대학교 교수/연구실 탐색') {
+      const mark = eyebrow.querySelector('.snulab-brand-mark');
+      eyebrow.textContent = '서울대학교 교수/연구실 탐색';
+      if (mark) eyebrow.prepend(mark);
+    }
+    if (heading && heading.textContent !== '어떤 분야에 관심이 있나요?') heading.textContent = '어떤 분야에 관심이 있나요?';
     if (intro && intro.textContent !== '관심 주제로 교수와 연구실을 찾아보세요.') intro.textContent = '관심 주제로 교수와 연구실을 찾아보세요.';
   }
 
@@ -42,21 +48,11 @@
     const {core,keywords,paper} = compareRows(dialog);
     [...(core?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
     [...(keywords?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
-
     const paperCells = [...(paper?.querySelectorAll('td') || [])];
-    paperCells.forEach(cell => {
-      if (!cell.dataset.focusReady && clean(cell.textContent) !== '확인 필요') cell.textContent = '확인 필요';
-    });
-
+    paperCells.forEach(cell => {if (!cell.dataset.focusReady && clean(cell.textContent) !== '확인 필요') cell.textContent = '확인 필요';});
     const aiRows = [...dialog.querySelectorAll('#stableCompareAi .stable-ai-rows p, #stableCompareAi > p')];
-    const focuses = aiRows.map(row => {
-      const focus = row.querySelector('.compare-focus');
-      return focus ? clean(focus.textContent).replace(/^논문 기반 최근 관심 분야:\s*/,'') : '';
-    }).filter(Boolean);
-    focuses.slice(0,paperCells.length).forEach((focus,i) => {
-      if (clean(paperCells[i].textContent) !== focus) paperCells[i].textContent = focus;
-      paperCells[i].dataset.focusReady = '1';
-    });
+    const focuses = aiRows.map(row => {const focus=row.querySelector('.compare-focus');return focus?clean(focus.textContent).replace(/^논문 기반 최근 관심 분야:\s*/,''):'';}).filter(Boolean);
+    focuses.slice(0,paperCells.length).forEach((focus,i)=>{if(clean(paperCells[i].textContent)!==focus)paperCells[i].textContent=focus;paperCells[i].dataset.focusReady='1';});
   }
 
   function install() {
