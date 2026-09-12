@@ -26,7 +26,7 @@ def main():
     assert 'favorites-compare-fixed.js' in index and 'account-ai-bridge.js' in index and 'id="accountOpen"' in index
     assert 'showcase_unit_id' in automation and 'Song Jaejoon' not in (ROOT/'dist/showcase-data.js').read_text(encoding='utf-8')
     assert 'stored_keywords' in quality and 'stored_topics' in quality and '저장된 AI 추천 결과를 사용했습니다' in quality
-    assert 'MAX_COMPARE = 4' in favorites and 'SnuAccount' in bridge\n    assert 'isResearchOriented' in favorites and 'latest_papers' in favorites and '최근 논문에서 보인 관심' in favorites\n    assert 'SnuAffiliationLabel' in (ROOT/'dist/app.js').read_text(encoding='utf-8')\n    assert 'ai-search-row' in (ROOT/'dist/discipline-detail-and-search.js').read_text(encoding='utf-8')
+    assert 'MAX_COMPARE = 4' in favorites and 'SnuAccount' in bridge\n    assert 'isResearchOriented' in favorites and 'latest_papers' in favorites and '논문 기반 최근 관심 분야' in favorites\n    assert 'SnuAffiliationLabel' in (ROOT/'dist/app.js').read_text(encoding='utf-8')\n    assert 'ai-search-row' in (ROOT/'dist/discipline-detail-and-search.js').read_text(encoding='utf-8')
     assert 'UNION' in roster and 'absent_from_all_successful_official_rosters_for_two_consecutive_syncs' in roster
     assert 'roster_sync.py' in workflow
     assert 'on:\n  schedule:' in workflow and '\n  push:' not in workflow
