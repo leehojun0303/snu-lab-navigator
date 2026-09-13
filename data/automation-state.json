@@ -1,5 +1,5 @@
 {
-  "cursor": 130,
+  "cursor": 135,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -56403,8 +56403,8 @@
       "_unit_id": "SNU-RU-EA0805C0AB84AB"
     },
     "SNU-RU-78D5183F83F074": {
-      "fingerprint": "00b2454e3640738dc32deec3b4f468c66070205cd349e0ab81fdab4299c85e0c",
-      "checked_at": "2026-09-13T14:36:32Z",
+      "fingerprint": "11e4048b98d3fc48ab2c36b1989799f5d724762aeb83f813b7ea84a10f7d88bb",
+      "checked_at": "2026-09-13T22:46:48Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -56498,7 +56498,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:36:56Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-78D5183F83F074"
     },
@@ -61582,8 +61583,8 @@
       "_unit_id": "SNU-RU-98E6345EC8E630"
     },
     "SNU-RU-FC1AC1E3F1BF36": {
-      "fingerprint": "0666074b86c4f362373ac9a6e1fe4799312fe8dfa32c4468c1e796ef19c694b4",
-      "checked_at": "2026-09-13T14:36:31Z",
+      "fingerprint": "6dc835646062385b451320571d989d9d8836b737dd7da0df02808f5f730b9d08",
+      "checked_at": "2026-09-13T22:46:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -61782,7 +61783,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-FC1AC1E3F1BF36",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-282C3C218EB8C4": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -62594,8 +62595,8 @@
       "_unit_id": "SNU-RU-E9B2E93993CE2C"
     },
     "SNU-RU-71DAE5F006B66B": {
-      "fingerprint": "0d119124fcd298d777a92ab89385e86f57192471752d475ee87e10bbab0d41a2",
-      "checked_at": "2026-09-13T14:36:31Z",
+      "fingerprint": "da3e92138e95f7dfaaf1ff14fab777cc80213ea440093bf85db7c3d6dde06111",
+      "checked_at": "2026-09-13T22:46:48Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -62693,13 +62694,14 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:36:51Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-71DAE5F006B66B"
     },
     "SNU-RU-C1CD4E9ADA4CE7": {
-      "fingerprint": "7239b611aba544120edda068c402064ddaa3cff47c1b600aef6f019b3667c90b",
-      "checked_at": "2026-09-13T14:36:32Z",
+      "fingerprint": "46e2d6f8edcb3cc0fe0150d374d0b9097be3d74699b55eb7e27972656c40d79b",
+      "checked_at": "2026-09-13T22:46:48Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -62795,7 +62797,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:37:06Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-C1CD4E9ADA4CE7"
     },
@@ -69877,8 +69880,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-AE56CD9C4E041B": {
-      "fingerprint": "834861f7e6e894cb7168cb28396ac8162421050688fa4a5cc7511130d91810ac",
-      "checked_at": "2026-09-13T14:36:30Z",
+      "fingerprint": "15b29e5f17419bb58ddeb29d1bbb60797a3a4da600e4fdca12c7c0b759999154",
+      "checked_at": "2026-09-13T22:46:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -69976,7 +69979,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:36:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-AE56CD9C4E041B"
     },
@@ -244527,9 +244531,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:46:13Z",
+    "at": "2026-09-13T22:46:48Z",
     "checked": 5,
-    "seconds": 27.77,
+    "seconds": 18.52,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
