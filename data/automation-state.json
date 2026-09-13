@@ -1,5 +1,5 @@
 {
-  "cursor": 1070,
+  "cursor": 1075,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -1221,8 +1221,8 @@
       "_unit_id": "SNU-RU-9F52BA207E7C9F"
     },
     "SNU-RU-2EAD634561F55E": {
-      "fingerprint": "89f08f9c3027790fdb5c9b3e22d215fa289d99bfd2e129c760874602fea9eee8",
-      "checked_at": "2026-09-11T01:40:19Z",
+      "fingerprint": "24e13f8323b2ec49e53f7c8e3e8cce2efbaf9f517618b88578848419adeed2bd",
+      "checked_at": "2026-09-13T16:45:32Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -1230,15 +1230,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=15&profidx=146",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
           "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
           "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
           "https://humanities.snu.ac.kr/research/CHIO",
           "https://humanities.snu.ac.kr/research/CHESO",
-          "https://humanities.snu.ac.kr/research/CDCC",
-          "https://humanities.snu.ac.kr/campus-life/activities/student-council",
-          "https://humanities.snu.ac.kr/community/student-council-news",
-          "https://humanities.snu.ac.kr/ai/students",
-          "https://humanities.snu.ac.kr/member/privacy-policy"
+          "https://humanities.snu.ac.kr/research/CDCC"
         ]
       },
       "enrichment": {
@@ -1307,7 +1307,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:43:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-2EAD634561F55E"
     },
@@ -153955,7 +153956,7 @@
     },
     "SNU-RU-9430B7129A4D76": {
       "fingerprint": "24d31b59c73fcce9def752bb3c1250ede9c203638ff34f1bb36ed829d4273e4b",
-      "checked_at": "2026-09-11T03:26:46Z",
+      "checked_at": "2026-09-13T16:45:17Z",
       "activity": {
         "publicationPages": [
           {
@@ -154039,7 +154040,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-9430B7129A4D76",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-4418A767B6D9CA": {
       "fingerprint": "23a9198d825d888c110675e02410782e40957d6461783ccb343a759aaec72e28",
@@ -163884,8 +163885,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-DC5412D87CAF75": {
-      "fingerprint": "d71df72b15f7e3d5c5e8fde153a9c4197ff526f104825b711a78321a06a19fbb",
-      "checked_at": "2026-09-11T03:30:02Z",
+      "fingerprint": "6870ac4cdd16cd587c9bb2bc6d6008e376101c3fdfa70022890247cb2fb9e708",
+      "checked_at": "2026-09-13T16:45:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -163944,14 +163945,14 @@
             "alt": "서울대학교 서울대학교 중어중문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/%ea%b0%9c%ec%84%a4%ea%b5%90%ea%b3%bc%eb%aa%a9/"
           },
           {
             "url": "https://snucll.snu.ac.kr/wp-content/uploads/sites/270/2024/05/이정훈s-4.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -163999,19 +164000,18 @@
         "sourcePagesScanned": [
           "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/",
           "https://snucll.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://snucll.snu.ac.kr/%ed%95%99%eb%b6%80%ec%a1%b8%ec%97%85%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/%ec%84%9d%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/%eb%b0%95%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/category/board-270-GN-Hsxu3JDi-20240624143716/",
-          "https://www.snu.ac.kr/personal_information",
           "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/#container",
-          "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/#footer"
+          "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://snucll.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://snucll.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://snucll.snu.ac.kr/%ec%b4%88%eb%b9%99%ea%b5%90%ec%9b%90/",
+          "https://snucll.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d-2/",
+          "https://snucll.snu.ac.kr/%ea%b0%9c%ec%84%a4%ea%b5%90%ea%b3%bc%eb%aa%a9/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-DC5412D87CAF75",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-DC5412D87CAF75"
     },
     "SNU-RU-08FD1894C9D85E": {
       "fingerprint": "185741ace5850040415e474f3b3c3a3e1be0d40ee5dd120724fcd438032d7e34",
@@ -169362,8 +169362,8 @@
       "_unit_id": "SNU-RU-7FAD7571E93127"
     },
     "SNU-RU-1443220683FFEC": {
-      "fingerprint": "011647b72709e8e54ae63766f2b439cd84b19079780367eab5e7cfa7f23c8fe0",
-      "checked_at": "2026-09-11T03:31:42Z",
+      "fingerprint": "9b4c61821564832c34cdb4ebef08cf929bfdda5fbfaf275c17457892bf4ba957",
+      "checked_at": "2026-09-13T16:45:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -169422,14 +169422,14 @@
             "alt": "서울대학교 서울대학교 중어중문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%B0%BD%EC%88%99/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/%ec%84%9d%ec%82%ac%eb%85%bc%eb%ac%b8/"
           },
           {
             "url": "https://snucll.snu.ac.kr/wp-content/uploads/sites/270/2021/02/이창숙.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%B0%BD%EC%88%99/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -169477,19 +169477,18 @@
         "sourcePagesScanned": [
           "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%B0%BD%EC%88%99/",
           "https://snucll.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://snucll.snu.ac.kr/%ec%84%9d%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/%eb%b0%95%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/category/board-270-GN-Hsxu3JDi-20240624143716/",
-          "https://www.snu.ac.kr/personal_information",
           "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%B0%BD%EC%88%99/#container",
-          "https://snucll.snu.ac.kr/snu__professor/%EC%9D%B4%EC%B0%BD%EC%88%99/#footer",
-          "https://snu.ac.kr/index.html"
+          "https://admission.snu.ac.kr/index.html",
+          "https://snucll.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://snucll.snu.ac.kr/%ec%b4%88%eb%b9%99%ea%b5%90%ec%9b%90/",
+          "https://snucll.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d-2/",
+          "https://snucll.snu.ac.kr/%ea%b0%9c%ec%84%a4%ea%b5%90%ea%b3%bc%eb%aa%a9/",
+          "https://snucll.snu.ac.kr/36785/",
+          "https://snucll.snu.ac.kr/%ec%84%9d%ec%82%ac%eb%85%bc%eb%ac%b8/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-1443220683FFEC",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-1443220683FFEC"
     },
     "SNU-RU-CF98B2BD66CFE2": {
       "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
@@ -200763,8 +200762,8 @@
       "_unit_id": "SNU-RU-F6B61492BC34F9"
     },
     "SNU-RU-DB0621C9FB7AA1": {
-      "fingerprint": "97e794e77239acd29875930589338f8d7dae0dbe33e2b5d5b91316f9d988c54b",
-      "checked_at": "2026-09-11T03:42:26Z",
+      "fingerprint": "1628f6bee6eb397926ffaa9c2c41ef3fbc761aa89180e05bc2cbef7b7b2060af",
+      "checked_at": "2026-09-13T16:45:34Z",
       "activity": {
         "publicationPages": [
           {
@@ -200823,14 +200822,14 @@
             "alt": "서울대학교 서울대학교 중어중문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/%ed%95%99%ea%b3%bc%ea%b3%b5%ea%b0%84/"
           },
           {
             "url": "https://snucll.snu.ac.kr/wp-content/uploads/sites/270/2024/05/천진.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#footer"
+            "parent_source_url": "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#none"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -200878,19 +200877,18 @@
         "sourcePagesScanned": [
           "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/",
           "https://snucll.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://snucll.snu.ac.kr/%ed%95%99%eb%b6%80%ec%a1%b8%ec%97%85%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/%ec%84%9d%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/%eb%b0%95%ec%82%ac%eb%85%bc%eb%ac%b8/",
-          "https://snucll.snu.ac.kr/category/board-270-GN-Hsxu3JDi-20240624143716/",
-          "https://www.snu.ac.kr/personal_information",
           "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#container",
-          "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#footer"
+          "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://snucll.snu.ac.kr/snu__professor/%EC%B2%9C%EC%A7%84/#none",
+          "https://snucll.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://snucll.snu.ac.kr/%ec%b4%88%eb%b9%99%ea%b5%90%ec%9b%90/",
+          "https://snucll.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d-2/",
+          "https://snucll.snu.ac.kr/%ed%95%99%ea%b3%bc%ea%b3%b5%ea%b0%84/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-DB0621C9FB7AA1",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-DB0621C9FB7AA1"
     },
     "SNU-RU-96281EA16AF399": {
       "fingerprint": "1a7c39104e4a38168ec110196c08a28d8685fa35288368abc70280171045ef33",
@@ -227515,26 +227513,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
     },
-    "SNU-RU-9430B7129A4D76": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:56:06Z"
-    },
-    "SNU-RU-2EAD634561F55E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:56:14Z"
-    },
-    "SNU-RU-DC5412D87CAF75": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:56:30Z"
-    },
-    "SNU-RU-1443220683FFEC": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:56:22Z"
-    },
-    "SNU-RU-DB0621C9FB7AA1": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:56:38Z"
-    },
     "SNU-RU-7613B16F5006F9": {
       "reason": "NameError",
       "checked_at": "2026-09-13T04:57:02Z"
@@ -229889,9 +229867,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:44:55Z",
+    "at": "2026-09-13T16:45:41Z",
     "checked": 5,
-    "seconds": 22.36,
+    "seconds": 31.43,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
