@@ -1,5 +1,5 @@
 {
-  "cursor": 1195,
+  "cursor": 1200,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -135292,30 +135292,96 @@
       "_unit_id": "SNU-RU-FE77FC55A8A5CA"
     },
     "SNU-RU-350F3563361405": {
-      "fingerprint": "31194b9cf3194f63487c9f09205fad32da1cfc27ff7970814545cabb4a2cf65f",
-      "checked_at": "2026-09-11T03:18:44Z",
+      "fingerprint": "2835a4f506a6afcd36acdf6951e1d6fc8f494a52cfe9a8bd2a70aff4c507e25c",
+      "checked_at": "2026-09-13T16:59:52Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
-        "posterCandidates": [],
+        "publicationPages": [
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+            "kind": "publication"
+          },
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+            "kind": "publication"
+          },
+          {
+            "title": "김태윤(24), Finance Research Letters 학회지 논문 게재",
+            "url": "https://cls.snu.ac.kr/53142/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "채용공고 및 외부 홍보 요청",
+            "url": "https://cls.snu.ac.kr/category/board-151-gn-x6rlu9q7-20230725174420/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부생 연구 지원 사업",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-suCuM0w7-20230622155120/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://cls.snu.ac.kr/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/2024/03/clschortlogo-e1685603755557-300x69-1.png",
+            "alt": "서울대학교 자유전공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cls.snu.ac.kr"
+          },
+          {
+            "url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/2023/06/유화종-교수님.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cls.snu.ac.kr/snu__professor/%EC%9C%A0%ED%99%94%EC%A2%85-2/"
+          },
+          {
+            "url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/elementor/thumbs/clswhitelogo-q8bycyz8dhquwjqaa4q9ifjpomsdt2lniohorq1u4a.png",
+            "alt": "clswhitelogo",
+            "title": "clswhitelogo",
+            "score": 0,
+            "parent_source_url": "https://cls.snu.ac.kr"
+          },
+          {
+            "url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/2023/06/메인_자유전공학부_소개.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cls.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/site/hwajong",
+          "https://cls.snu.ac.kr/snu__professor/%EC%9C%A0%ED%99%94%EC%A2%85-2/",
+          "https://cls.snu.ac.kr",
           "https://sites.google.com/site/hwajong/home",
           "https://sites.google.com/site/hwajong/research",
           "https://sites.google.com/site/hwajong/teaching",
           "https://sites.google.com/site/hwajong/teaching/2020-spring",
           "https://sites.google.com/site/hwajong/teaching/2022-fall",
           "https://sites.google.com/site/hwajong/teaching/2025-fall",
-          "https://sites.google.com/site/hwajong/notes",
-          "https://sites.google.com/site/hwajong/seminar",
-          "https://sites.google.com/site/hwajong/slides"
+          "https://sites.google.com/site/hwajong/notes"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-350F3563361405",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-80328283DF59C2": {
       "fingerprint": "0dc2402f91c3e6eda1ff858aee56d2267d1f401708bd2b6558ee1e89f0d2618b",
@@ -229041,25 +229107,21 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T16:59:05Z"
     },
-    "SNU-RU-350F3563361405": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:15:41Z"
-    },
     "SNU-RU-55495126C9F79B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:15:09Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T16:59:45Z"
     },
     "SNU-RU-EB1809353B1861": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:15:33Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T16:59:45Z"
     },
     "SNU-RU-DAE446E46B4E90": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:15:17Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T16:59:45Z"
     },
     "SNU-RU-7C9C44291D0632": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:15:25Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T16:59:45Z"
     },
     "SNU-RU-03DD656E9D2DE1": {
       "reason": "NameError",
@@ -230987,9 +231049,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:59:24Z",
-    "checked": 10,
-    "seconds": 21.88,
+    "at": "2026-09-13T16:59:53Z",
+    "checked": 5,
+    "seconds": 10.93,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
