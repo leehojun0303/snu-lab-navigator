@@ -1,5 +1,5 @@
 {
-  "cursor": 75,
+  "cursor": 80,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -12980,7 +12980,7 @@
     },
     "SNU-RU-587BAB7602A022": {
       "fingerprint": "eacbab37f58e67fce1345e3438531b80a123c4690db204cfdf87ac6c23f90769",
-      "checked_at": "2026-09-13T14:26:53Z",
+      "checked_at": "2026-09-13T22:41:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -13192,7 +13192,7 @@
         "_quality_gate": "ai_verified_v3_paper_insights"
       },
       "_unit_id": "SNU-RU-587BAB7602A022",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-587FBD1235327B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -14759,7 +14759,7 @@
     },
     "SNU-RU-9E9F88D1023FFA": {
       "fingerprint": "029c2356958f30ca78b6285e78b9e043df8bcbd1144e645388d8ddace2964bc0",
-      "checked_at": "2026-09-13T14:26:57Z",
+      "checked_at": "2026-09-13T22:41:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -93193,7 +93193,7 @@
     },
     "SNU-RU-6C0374C4367BA0": {
       "fingerprint": "7a1e3473ebd90218915e3be270f993ceee8ec7d57ea2a92a16183b3720d2c54d",
-      "checked_at": "2026-09-13T14:26:56Z",
+      "checked_at": "2026-09-13T22:41:10Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -190123,8 +190123,8 @@
       "_unit_id": "SNU-RU-47B68D349ED662"
     },
     "SNU-RU-EF3CD6CC057EEC": {
-      "fingerprint": "6037516c8795b71e9a0c5e796300fdfc7662bdfef2312ab70f49a1f8f8223dd7",
-      "checked_at": "2026-09-13T14:27:04Z",
+      "fingerprint": "1b89f287c19f80ca2dfe5cb2e4624dec146ce3a9924b4839ce0212583ef252f1",
+      "checked_at": "2026-09-13T22:41:20Z",
       "activity": {
         "publicationPages": [
           {
@@ -190154,7 +190154,7 @@
           "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
           "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
           "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
-          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/"
+          "https://fre.snu.ac.kr/publication/stock-market-network-based-on-bi-dimensional-histogram-and-autoencoder/"
         ]
       },
       "enrichment": {
@@ -190247,7 +190247,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:27:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-EF3CD6CC057EEC"
     },
@@ -220950,8 +220951,8 @@
       "_unit_id": "SNU-RU-46C254258D3F72"
     },
     "SNU-RU-03F54F9A62EBEF": {
-      "fingerprint": "777d2d3ae1bfebd9be833ca8c3e2e1483a2471e67ffb5c14c62245c7749c1293",
-      "checked_at": "2026-09-13T14:27:09Z",
+      "fingerprint": "dd9ebe2ff1d943458fd40b0923f1e92f41ee51f57305b351c940cc913aa6bd24",
+      "checked_at": "2026-09-13T22:41:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -220964,6 +220965,7 @@
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://product.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
           "https://product.snu.ac.kr/article/?mod=document&uid=91",
           "https://product.snu.ac.kr/professor/",
           "https://product.snu.ac.kr/students/",
@@ -220971,8 +220973,7 @@
           "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/publication/variant-level-interface-standardization-methodology-for-complexity-reduction-in-product-family-design/",
-          "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/",
-          "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/"
+          "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/"
         ]
       },
       "enrichment": {
@@ -221067,7 +221068,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:27:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-03F54F9A62EBEF"
     },
@@ -244043,9 +244045,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:40:45Z",
+    "at": "2026-09-13T22:41:24Z",
     "checked": 5,
-    "seconds": 25.36,
+    "seconds": 25.71,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
