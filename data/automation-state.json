@@ -1,5 +1,5 @@
 {
-  "cursor": 1245,
+  "cursor": 1250,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -2435,8 +2435,8 @@
       "_unit_id": "SNU-RU-CAB81CFAEF0020"
     },
     "SNU-RU-1533F8954B555B": {
-      "fingerprint": "6177974e54e1586ccb80b9fac408919419e779e7fe711fd246a3ff4e4ffecc5a",
-      "checked_at": "2026-09-11T01:40:36Z",
+      "fingerprint": "18adb3e527035af443d99a818731487e7e5cc3bd91e48117cc6b2e8f7a63d7d7",
+      "checked_at": "2026-09-13T17:05:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -2451,13 +2451,13 @@
           "https://hdmtlab.github.io/",
           "https://stat.snu.ac.kr/snu__professor/park-jun-yong/",
           "https://stat.snu.ac.kr",
-          "https://hdmtlab.github.io/publication/",
           "https://hdmtlab.github.io/people/",
+          "https://hdmtlab.github.io/publication/",
           "https://hdmtlab.github.io/research/",
           "https://hdmtlab.github.io/gallery/",
           "https://hdmtlab.github.io/workshop/",
-          "https://admission.snu.ac.kr/index.html",
-          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ec%a1%b8%ec%97%85%ec%83%9d%ec%a7%84%eb%a1%9c/"
+          "https://stat.snu.ac.kr/en/people/faculty/",
+          "https://stat.snu.ac.kr/snu__professor/park-jun-yong/#container"
         ]
       },
       "enrichment": {
@@ -2675,7 +2675,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:44:21Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-1533F8954B555B"
     },
@@ -4959,8 +4960,8 @@
       "_unit_id": "SNU-RU-A1C06411A211A0"
     },
     "SNU-RU-CE5931D337D4D6": {
-      "fingerprint": "37afe1408d6381d706c1cf14eb32bf41c1104eea556fb439b0feef8104978041",
-      "checked_at": "2026-09-11T01:47:28Z",
+      "fingerprint": "d2117f92aee4a8201667d9bdeac60ee01052c3de1e0f78dc763201b704f31b5c",
+      "checked_at": "2026-09-13T17:05:41Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -4968,15 +4969,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://stat.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ec%a1%b8%ec%97%85%ec%83%9d%ec%a7%84%eb%a1%9c/",
-          "https://stat.snu.ac.kr/%ec%9e%85%ed%95%99/%ed%95%99%eb%b6%80%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91/",
-          "https://stat.snu.ac.kr/32628/",
-          "https://stat.snu.ac.kr/32623/",
           "https://stat.snu.ac.kr/32618/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/campuslife/aid/disabled",
-          "https://www.snu.ac.kr/campuslife/aid/administration"
+          "https://admission.snu.ac.kr/index.html",
+          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/%ed%95%99%ea%b3%bc%ec%97%b0%ed%98%81/",
+          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ec%a1%b8%ec%97%85%ec%83%9d%ec%a7%84%eb%a1%9c/",
+          "https://stat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90/%ea%b5%90%ec%88%98/",
+          "https://stat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98-%ed%87%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://stat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90/%ea%b0%95%ec%9d%98%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98-%eb%b0%a9%eb%ac%b8%ea%b5%90%ec%88%98-%ea%b0%95%ec%82%ac/",
+          "https://stat.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95/%ed%95%99%ec%82%ac%ea%b3%bc%ec%a0%95/%ed%83%80-%ed%95%99%ea%b3%bc%eb%b6%80-%ec%a0%84%ec%84%a0-%ec%9d%b8%ec%a0%95-%ea%b5%90%ea%b3%bc%eb%aa%a9/"
         ]
       },
       "enrichment": {
@@ -5023,7 +5024,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:48:04Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-CE5931D337D4D6"
     },
@@ -207936,8 +207938,8 @@
       "_unit_id": "SNU-RU-78B38F13F3C2E6"
     },
     "SNU-RU-4B7BE8078B1C85": {
-      "fingerprint": "58f5cc6951eac4a9e40131ca2021dfeb357c876ed993789c16d84850c116ddb3",
-      "checked_at": "2026-09-11T04:03:36Z",
+      "fingerprint": "b4343708906c59914529846c6272d8657c94469b59069ececd379201e1fbdcac",
+      "checked_at": "2026-09-13T17:05:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -207946,13 +207948,13 @@
             "kind": "publication"
           },
           {
-            "title": "PUBLICATIONS",
-            "url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/publications-1",
+            "title": "주요논문",
+            "url": "https://sees.snu.ac.kr/research-faculty/papers",
             "kind": "publication"
           },
           {
-            "title": "PUBLICATIONS",
-            "url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/publications-1",
+            "title": "주요논문",
+            "url": "https://sees.snu.ac.kr/research-faculty/papers",
             "kind": "publication"
           },
           {
@@ -207966,7 +207968,28 @@
             "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "졸업 후 진로",
+            "url": "https://sees.snu.ac.kr/academics/alumni/recruit",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학",
+            "url": "https://admission.snu.ac.kr",
+            "kind": "recruitment"
+          },
+          {
+            "title": "졸업 후 진로",
+            "url": "https://sees.snu.ac.kr/academics/alumni/recruit",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학",
+            "url": "https://admission.snu.ac.kr",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
@@ -207985,64 +208008,64 @@
             "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_e057d9fbe5ba43b49cc5e4e35d30100e~mv2.jpg/v1/crop/x_385,y_9,w_580,h_688/fill/w_209,h_247,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EA%B5%90%EC%88%98%EB%8B%98%20%ED%95%99%EA%B5%90%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%82%AC%EC%A7%84.jpg",
-            "alt": "교수님 학교 홈페이지 사진.jpg",
+            "url": "https://sees.snu.ac.kr/_skin/kor/images/site/top-logo@2.png?ver=2021-11-02",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr/research-faculty/papers"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_e2d91f1246844ce3a775cc384b509120~mv2.jpg/v1/crop/x_0,y_21,w_413,h_490/fill/w_199,h_236,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%82%98%ED%83%9C%ED%9D%AC%20%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84_20201214.jpg",
-            "alt": "나태희 증명사진_20201214.jpg",
-            "title": "",
+            "url": "https://sees.snu.ac.kr/webdata/faculty/fulltime/3c2z636z052z9d6z5d8za8cze8azd04z10az7ffz4f.jpg",
+            "alt": "황점식 교수",
+            "title": "황점식 교수",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=80"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_57f32e8acb3647f6a05bd09d0a79e03f~mv2.jpg/v1/crop/x_118,y_0,w_1265,h_1500/fill/w_199,h_236,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EC%9D%B8%20%EC%82%AC%EC%A7%84_%EC%98%A4%EC%B9%98%ED%98%84.jpg",
-            "alt": "홈페이지 개인 사진_오치현.jpg",
+            "url": "https://sees.snu.ac.kr/_skin/kor/images/site/top-logo-dark@2.png?ver=2021-11-02",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr/research-faculty/papers"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_33d498b98ee348698c05d113d1208360~mv2.jpg/v1/crop/x_0,y_113,w_880,h_1044/fill/w_199,h_236,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%A7%84_%EC%98%A4%EC%84%A0%EB%AF%BC.jpg",
-            "alt": "홈페이지 개인사진_오선민.jpg",
+            "url": "https://sees.snu.ac.kr/_skin/kor/images/site/footer-logo-dark.png?ver=2021-11-02",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr/research-faculty/papers"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_0edaff8bb53640e985be0157f14e4699~mv2.jpg/v1/crop/x_0,y_113,w_1536,h_1822/fill/w_199,h_236,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%A7%84_%EC%B5%9C%EC%A7%80%EC%9D%80.jpg",
-            "alt": "개인사진_최지은.jpg",
+            "url": "https://sees.snu.ac.kr/webdata/research/234z93dzc82zbffz67bzba1ze64z194z027z680ze8.jpg",
+            "alt": "극지환경연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr"
           },
           {
-            "url": "https://static.wixstatic.com/media/2c622d_98188c99c8bb46b884e71bd0ee9c85aa~mv2.png/v1/crop/x_0,y_10,w_928,h_1101/fill/w_199,h_236,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%B0%95%EC%A7%80%ED%98%84.png",
-            "alt": "박지현.png",
+            "url": "https://sees.snu.ac.kr/webdata/research/c4cz732z244z6faze7dz9bez340z36cz76fzcadz2c.jpg",
+            "alt": "기후과학연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people"
+            "parent_source_url": "https://sees.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang",
+          "https://sees.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=80",
+          "https://sees.snu.ac.kr",
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/people",
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/publications-1",
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang",
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/research",
           "https://jeomshik-hwang.wixsite.com/jeomshik-hwang/photos",
-          "https://jeomshik-hwang.wixsite.com/jeomshik-hwang",
-          "https://jeomshik-hwang.wixsite.com/jeomshik-hwang",
-          "https://jeomshik-hwang.wixsite.com/jeomshik-hwang",
-          "https://jeomshik-hwang.wixsite.com/jeomshik-hwang"
+          "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
+          "https://sees.snu.ac.kr/research-faculty/papers"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-4B7BE8078B1C85",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-49EB4DFD029CE3": {
       "fingerprint": "a454a7d6757e24d46148924b4ded865ebb2c8c81f253a779926556c6947c22e5",
@@ -208253,8 +208276,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-5FBFA440A09139": {
-      "fingerprint": "8f4a8f36bc9bcfad28f49ae8a97f3bc334c33c623ae5384ba4d098bba5d224d8",
-      "checked_at": "2026-09-11T04:03:44Z",
+      "fingerprint": "021e259f96cfe538bbd546517e68893432617e759da8fffa32cfa5d281da8e06",
+      "checked_at": "2026-09-13T17:05:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -208278,8 +208301,8 @@
             "kind": "publication"
           },
           {
-            "title": "주요논문",
-            "url": "https://sees.snu.ac.kr/research-faculty/papers",
+            "title": "이전",
+            "url": "https://sees.snu.ac.kr/research-faculty/papers?&year=&page=0",
             "kind": "publication"
           }
         ],
@@ -208305,7 +208328,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://sees.snu.ac.kr/academics/alumni/recruit",
+        "membersUrl": "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -208313,7 +208336,7 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/"
+            "parent_source_url": "https://sees.snu.ac.kr/research-faculty/research"
           },
           {
             "url": "https://sees.snu.ac.kr/webdata/faculty/fulltime/f67z84az8d1zc07ze8ez743z464z229z2a0z680z18.jpg",
@@ -208327,60 +208350,59 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/member/privacy-policy"
+            "parent_source_url": "https://sees.snu.ac.kr/academics/alumni/recruit"
           },
           {
             "url": "https://sees.snu.ac.kr/_skin/kor/images/site/footer-logo-dark.png?ver=2021-11-02",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/member/privacy-policy"
+            "parent_source_url": "https://sees.snu.ac.kr/academics/alumni/recruit"
           },
           {
             "url": "https://sees.snu.ac.kr/webdata/research/234z93dzc82zbffz67bzba1ze64z194z027z680ze8.jpg",
             "alt": "극지환경연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/"
+            "parent_source_url": "https://sees.snu.ac.kr"
           },
           {
             "url": "https://sees.snu.ac.kr/webdata/research/c4cz732z244z6faze7dz9bez340z36cz76fzcadz2c.jpg",
             "alt": "기후과학연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/"
+            "parent_source_url": "https://sees.snu.ac.kr"
           },
           {
             "url": "https://sees.snu.ac.kr/webdata/research/d17ze1dzbf7z2f6zdc1zfaaz280z839zb69z50czdd.jpg",
             "alt": "미세먼지연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/"
+            "parent_source_url": "https://sees.snu.ac.kr"
           },
           {
             "url": "https://sees.snu.ac.kr/webdata/research/81dz135z0b3zd02z2acz411z0b4z19dz325zc7az88.jpg",
             "alt": "생태-생물자원연구부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sees.snu.ac.kr/"
+            "parent_source_url": "https://sees.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
+          "https://mol.snu.ac.kr/",
           "https://sees.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=81",
           "https://sees.snu.ac.kr",
-          "https://sees.snu.ac.kr/academics/alumni/recruit",
           "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
           "https://sees.snu.ac.kr/research-faculty/papers",
-          "https://admission.snu.ac.kr/index.html",
-          "https://sees.snu.ac.kr/academics/alumni/interview",
-          "https://sees.snu.ac.kr/member/login",
-          "https://sees.snu.ac.kr/member/privacy-policy",
-          "https://sees.snu.ac.kr/"
+          "https://sees.snu.ac.kr/academics/alumni/recruit",
+          "https://sees.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://sees.snu.ac.kr/research-faculty/faculty/emeritus-retirement",
+          "https://sees.snu.ac.kr/research-faculty/major",
+          "https://sees.snu.ac.kr/research-faculty/research"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-5FBFA440A09139",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-5FBFA440A09139"
     },
     "SNU-RU-DAAE7B16CC512A": {
       "fingerprint": "06e020495958da8d3eceea0d6a29c05d40044e9f98fc56dc8de68e40db96d188",
@@ -230156,23 +230178,7 @@
     },
     "SNU-RU-2F9035D4B9A99C": {
       "reason": "fetch_failed",
-      "checked_at": "2026-09-13T05:22:07Z"
-    },
-    "SNU-RU-4B7BE8078B1C85": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:10Z"
-    },
-    "SNU-RU-1533F8954B555B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:18Z"
-    },
-    "SNU-RU-5FBFA440A09139": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:26Z"
-    },
-    "SNU-RU-CE5931D337D4D6": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:34Z"
+      "checked_at": "2026-09-13T17:05:21Z"
     },
     "SNU-RU-6ECAB822CC171D": {
       "reason": "NameError",
@@ -231928,9 +231934,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:05:01Z",
+    "at": "2026-09-13T17:05:41Z",
     "checked": 5,
-    "seconds": 31.21,
+    "seconds": 26.22,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
