@@ -83,7 +83,7 @@ jobs:
           python tools/test_static.py
 
       - name: Synchronize official professor roster union
-        if: steps.mode.outputs.should_run == 'true' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 17 * * *')
+        if: steps.mode.outputs.should_run == 'true' && steps.mode.outputs.bootstrap_complete == 'true' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 17 * * *')
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
         run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
