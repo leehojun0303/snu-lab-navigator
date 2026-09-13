@@ -1,5 +1,5 @@
 {
-  "cursor": 775,
+  "cursor": 780,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -7935,8 +7935,8 @@
       "_unit_id": "SNU-RU-B7337DA4332216"
     },
     "SNU-RU-1B856D343B8D4D": {
-      "fingerprint": "4e928a24632ed13f9d5760ffc65a431868b0f44f7cdac91043c2c77c974566f2",
-      "checked_at": "2026-09-11T01:48:35Z",
+      "fingerprint": "7223004bb9b069eb5dd2fd0a9930baa10f151fdee7a1308f4ab9b3c68f37214b",
+      "checked_at": "2026-09-13T16:05:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -7950,14 +7950,14 @@
         "sourcePagesScanned": [
           "https://snupharm.snu.ac.kr/snu__professor/%EA%B0%95%EA%B1%B4%EC%9A%B1/",
           "https://snupharm.snu.ac.kr",
+          "https://snupharm.snu.ac.kr/snu__professor/%EA%B0%95%EA%B1%B4%EC%9A%B1/#container",
           "https://admission.snu.ac.kr/index.html",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
           "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
           "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
-          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
         ]
       },
       "enrichment": {
@@ -8046,7 +8046,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:53:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-1B856D343B8D4D"
     },
@@ -224181,6 +224182,483 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-E07DA31A2BA540"
+    },
+    "SNU-RU-61B47A2FD00ED0": {
+      "fingerprint": "81f7939fe495ab7481457c00759c6000d05b94f34d4a126fed567648a187e16c",
+      "checked_at": "2026-09-13T16:05:04Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/hurem-1.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%ED%97%88%EC%9D%80%EB%AF%B8/#none"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://vet.snu.ac.kr/snu__professor/%ED%97%88%EC%9D%80%EB%AF%B8/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%ED%97%88%EC%9D%80%EB%AF%B8/#container",
+          "https://vet.snu.ac.kr/snu__professor/%ED%97%88%EC%9D%80%EB%AF%B8/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://vet.snu.ac.kr/snu__professor/%ED%97%88%EC%9D%80%EB%AF%B8/#none",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-61B47A2FD00ED0",
+      "verify_error": "gemini_rate_limited"
+    },
+    "SNU-RU-27796BA22F1E83": {
+      "fingerprint": "9c838ede84ea305ef6b180f02aed42d66e12fc097a88467198dd20a653005e84",
+      "checked_at": "2026-09-13T16:05:05Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/004_000_01-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%ED%99%A9%EC%B2%A0%EC%9A%A9/#none"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://vet.snu.ac.kr/snu__professor/%ED%99%A9%EC%B2%A0%EC%9A%A9/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%ED%99%A9%EC%B2%A0%EC%9A%A9/#container",
+          "https://vet.snu.ac.kr/snu__professor/%ED%99%A9%EC%B2%A0%EC%9A%A9/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://vet.snu.ac.kr/snu__professor/%ED%99%A9%EC%B2%A0%EC%9A%A9/#none",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty2/",
+          "https://vet.snu.ac.kr/faculty3/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-27796BA22F1E83"
+    },
+    "SNU-RU-1A14E7BB8BED66": {
+      "fingerprint": "d38989e64172cd145f8a6358b4985bb7ad8f6a3b63e70a85ee3fb4769aec977d",
+      "checked_at": "2026-09-13T16:05:06Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/006_000_03-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EC%B5%9C%EC%A7%80%ED%98%9C/#footer"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://vet.snu.ac.kr/snu__professor/%EC%B5%9C%EC%A7%80%ED%98%9C/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%EC%B5%9C%EC%A7%80%ED%98%9C/#container",
+          "https://vet.snu.ac.kr/snu__professor/%EC%B5%9C%EC%A7%80%ED%98%9C/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty2/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-1A14E7BB8BED66"
+    },
+    "SNU-RU-D18FB7A32A9701": {
+      "fingerprint": "5e7011bdac5a81f599803533c06313bed3e1f6c93173c11541fbba9a6e3f44fd",
+      "checked_at": "2026-09-13T16:05:08Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/hanhj_20190211-1.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#none"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#container",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#none",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D18FB7A32A9701"
     }
   },
   "failures": {
@@ -224396,10 +224874,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T05:39:37Z"
     },
-    "SNU-RU-1A14E7BB8BED66": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:09:11Z"
-    },
     "SNU-RU-286F58E29839C4": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:43:05Z"
@@ -224452,10 +224926,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T05:43:21Z"
     },
-    "SNU-RU-D18FB7A32A9701": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:09:27Z"
-    },
     "SNU-RU-43CA315C290988": {
       "reason": "NameError",
       "checked_at": "2026-09-13T04:25:50Z"
@@ -224475,10 +224945,6 @@
     "SNU-RU-C1B37C28E20CA2": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:21:53Z"
-    },
-    "SNU-RU-61B47A2FD00ED0": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:09:03Z"
     },
     "SNU-RU-E64C992F025AAF": {
       "reason": "NameError",
@@ -224555,10 +225021,6 @@
     "SNU-RU-48805FF36DD76C": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:17:02Z"
-    },
-    "SNU-RU-27796BA22F1E83": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:09:19Z"
     },
     "SNU-RU-156EC79866411D": {
       "reason": "fetch_failed",
@@ -224655,10 +225117,6 @@
     "SNU-RU-9324214FE0D148": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
-    },
-    "SNU-RU-1B856D343B8D4D": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:09:35Z"
     },
     "SNU-RU-19C2629337A7EA": {
       "reason": "NameError",
@@ -228066,9 +228524,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:04:27Z",
+    "at": "2026-09-13T16:05:10Z",
     "checked": 5,
-    "seconds": 21.81,
+    "seconds": 27.0,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
