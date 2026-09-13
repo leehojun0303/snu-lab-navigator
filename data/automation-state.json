@@ -1,5 +1,5 @@
 {
-  "cursor": 950,
+  "cursor": 955,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -4943,8 +4943,8 @@
       "_unit_id": "SNU-RU-CE5931D337D4D6"
     },
     "SNU-RU-34FF2A3E6B9299": {
-      "fingerprint": "be35613319908d08f2b6f34365ccc1e4d22ef365d2f387e034dc3b8d0bbc3822",
-      "checked_at": "2026-09-11T01:47:28Z",
+      "fingerprint": "e647e4871f3f2161a3547e985abb350c92fb3e5ec647f01934d1d0918b7e6510",
+      "checked_at": "2026-09-13T16:29:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -4958,14 +4958,14 @@
         "sourcePagesScanned": [
           "https://meehak.snu.ac.kr/snu__professor/peter-w-milne/",
           "https://meehak.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
-          "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/",
-          "https://www.snu.ac.kr/personal_information",
           "https://meehak.snu.ac.kr/snu__professor/peter-w-milne/#container",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request"
+          "https://meehak.snu.ac.kr/snu__professor/peter-w-milne/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://meehak.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://meehak.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ec%a0%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/"
         ]
       },
       "enrichment": {
@@ -5062,7 +5062,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:48:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-34FF2A3E6B9299"
     },
@@ -27569,8 +27570,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-29056D6AF45965": {
-      "fingerprint": "062a6a17734dd852f05210f0bd94e24bfb0c66eca20501dcca455622362829cc",
-      "checked_at": "2026-09-11T02:06:39Z",
+      "fingerprint": "3a07ec727902131089e29b30643c0c560fd9514a04f8489db83d2c99a9f73d25",
+      "checked_at": "2026-09-13T16:29:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -27594,8 +27595,8 @@
             "kind": "publication"
           },
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
+            "title": "학부 학위논문",
+            "url": "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
             "kind": "publication"
           }
         ],
@@ -27611,13 +27612,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "서울대학교 입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           },
           {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
+            "title": "서울대학교 입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
@@ -27629,21 +27630,21 @@
             "alt": "서울대학교 미학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/"
           },
           {
             "url": "https://meehak.snu.ac.kr/wp-content/uploads/sites/231/2023/11/권혁성선생님-사진.jpeg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
           },
           {
             "url": "https://meehak.snu.ac.kr/wp-content/uploads/sites/231/2021/02/푸터베이직로고-3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -27684,19 +27685,18 @@
         "sourcePagesScanned": [
           "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/",
           "https://meehak.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
-          "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/",
-          "https://www.snu.ac.kr/personal_information",
           "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/#container",
           "https://meehak.snu.ac.kr/snu__professor/%EA%B6%8C%ED%98%81%EC%84%B1/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/"
+          "https://admission.snu.ac.kr/index.html",
+          "https://meehak.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://meehak.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ec%a0%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/",
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-29056D6AF45965",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-29056D6AF45965"
     },
     "SNU-RU-AC13F9115878D9": {
       "fingerprint": "3485c69cba304dbe66328e5f556067fffe50ec2888d07f61d5c3a4810389358a",
@@ -65285,8 +65285,8 @@
       "_unit_id": "SNU-RU-880A0BEDD8FC72"
     },
     "SNU-RU-BB2D8F3F986A49": {
-      "fingerprint": "82fd87dc5d55ee94ae9d78b824966a1d350f8b64119507ae40345dfdf668f490",
-      "checked_at": "2026-09-11T02:26:27Z",
+      "fingerprint": "ec1d7f1315b774bb53767c6f6a4c78dde4491036a1f4cf6976d3fce32a6f705a",
+      "checked_at": "2026-09-13T16:29:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -65310,8 +65310,8 @@
             "kind": "publication"
           },
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
+            "title": "학부 학위논문",
+            "url": "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
             "kind": "publication"
           }
         ],
@@ -65327,13 +65327,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "서울대학교 입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           },
           {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
+            "title": "서울대학교 입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
@@ -65345,21 +65345,21 @@
             "alt": "서울대학교 미학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/"
           },
           {
             "url": "https://meehak.snu.ac.kr/wp-content/uploads/sites/231/2023/11/SNU_PRD_IMG_6178-1-e1711933639366-768x1092.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
           },
           {
             "url": "https://meehak.snu.ac.kr/wp-content/uploads/sites/231/2021/02/푸터베이직로고-3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/#footer"
+            "parent_source_url": "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -65400,19 +65400,18 @@
         "sourcePagesScanned": [
           "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/",
           "https://meehak.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
-          "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/",
-          "https://www.snu.ac.kr/personal_information",
           "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/#container",
           "https://meehak.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%84%EC%97%BD/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/"
+          "https://admission.snu.ac.kr/index.html",
+          "https://meehak.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://meehak.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ec%a0%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://meehak.snu.ac.kr/%ed%95%99%ec%9c%84-%eb%85%bc%eb%ac%b8-%eb%aa%a9%eb%a1%9d%ed%95%99%eb%b6%80/",
+          "https://meehak.snu.ac.kr/%ec%88%98%eb%a3%8c-%eb%b0%8f-%eb%85%bc%eb%ac%b8-%ec%a0%9c%ec%b6%9c-%ea%b7%9c%ec%a0%95/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-BB2D8F3F986A49",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-BB2D8F3F986A49"
     },
     "SNU-RU-996536D36F4F72": {
       "fingerprint": "a13ad3db35dbd8a4c5009d579dbe182a5f167b82c2f05c28ec69f075f71a30f6",
@@ -207848,21 +207847,134 @@
       "_unit_id": "SNU-RU-F186011A7FD9CF"
     },
     "SNU-RU-66ABF9CA629265": {
-      "fingerprint": "d37b7f8cc385b4a5f1033b701ed83a3648e06d631d2095965b8e0b3c36717162",
-      "checked_at": "2026-09-11T04:01:58Z",
+      "fingerprint": "e696c4b89fe01b6ba4515f888b92e2f0b9b90ef48214ffdb9dd9c36807029fe6",
+      "checked_at": "2026-09-13T16:29:23Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
-        "posterCandidates": [],
+        "publicationPages": [
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "서울대학교 인문대학 독어독문학과 조교 채용 공고",
+            "url": "https://german.snu.ac.kr/?kboard_content_redirect=2500",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://german.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-%ec%bd%94%eb%84%88/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2023/10/german-logo.png",
+            "alt": "서울대학교 독어독문학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-%ec%bd%94%eb%84%88/"
+          },
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2023/11/홍진호-221111_0-768x979.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/snu__professor/%ED%99%8D%EC%A7%84%ED%98%B8/#footer"
+          },
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2021/02/푸터베이직로고-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-%ec%bd%94%eb%84%88/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          }
+        ],
         "sourcePagesScanned": [
-          "http://literarisch.net/"
+          "http://literarisch.net/",
+          "https://german.snu.ac.kr/snu__professor/%ED%99%8D%EC%A7%84%ED%98%B8/",
+          "https://german.snu.ac.kr",
+          "https://german.snu.ac.kr/snu__professor/%ED%99%8D%EC%A7%84%ED%98%B8/#container",
+          "https://german.snu.ac.kr/snu__professor/%ED%99%8D%EC%A7%84%ED%98%B8/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://german.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://german.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://german.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-%ec%bd%94%eb%84%88/"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-66ABF9CA629265",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-CBB5EE53776E92": {
       "fingerprint": "0493d7b8d224f6c3b827e10b30f251f805dc9375776bb82f4d35debb3b12119d",
@@ -225874,6 +225986,135 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-2E15A09F7E65D0",
       "verify_error": "gemini_rate_limited"
+    },
+    "SNU-RU-17A15BA83F6DCF": {
+      "fingerprint": "7c05b0670ed635cc44c90710fcaeb3b40cc0b3b83e5f18dc7a4e395c9594d2fe",
+      "checked_at": "2026-09-13T16:29:23Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "서울대학교 인문대학 독어독문학과 조교 채용 공고",
+            "url": "https://german.snu.ac.kr/?kboard_content_redirect=2500",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://german.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-%ec%bd%94%eb%84%88/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2023/10/german-logo.png",
+            "alt": "서울대학교 독어독문학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%82%ac%eb%ac%b4%ec%8b%a4/"
+          },
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2023/11/바이어2022.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/snu__professor/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%88-%EB%B0%94%EC%9D%B4%EC%96%B4christian-baier/#footer"
+          },
+          {
+            "url": "https://german.snu.ac.kr/wp-content/uploads/sites/225/2021/02/푸터베이직로고-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%82%ac%eb%ac%b4%ec%8b%a4/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://german.snu.ac.kr/snu__professor/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%88-%EB%B0%94%EC%9D%B4%EC%96%B4christian-baier/",
+          "https://german.snu.ac.kr",
+          "https://german.snu.ac.kr/snu__professor/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%88-%EB%B0%94%EC%9D%B4%EC%96%B4christian-baier/#container",
+          "https://german.snu.ac.kr/snu__professor/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%88-%EB%B0%94%EC%9D%B4%EC%96%B4christian-baier/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%97%b0%ed%98%81/",
+          "https://german.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://german.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://german.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%82%ac%eb%ac%b4%ec%8b%a4/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-17A15BA83F6DCF"
     }
   },
   "failures": {
@@ -226065,10 +226306,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T05:44:26Z"
     },
-    "SNU-RU-17A15BA83F6DCF": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:36:29Z"
-    },
     "SNU-RU-AB70F12FACF1A2": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:16:38Z"
@@ -226248,22 +226485,6 @@
     "SNU-RU-9324214FE0D148": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
-    },
-    "SNU-RU-66ABF9CA629265": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:36:21Z"
-    },
-    "SNU-RU-34FF2A3E6B9299": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:36:37Z"
-    },
-    "SNU-RU-29056D6AF45965": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:36:45Z"
-    },
-    "SNU-RU-BB2D8F3F986A49": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:36:53Z"
     },
     "SNU-RU-E354056058D1DC": {
       "reason": "NameError",
@@ -229063,9 +229284,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:28:41Z",
+    "at": "2026-09-13T16:29:25Z",
     "checked": 5,
-    "seconds": 21.78,
+    "seconds": 27.29,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
