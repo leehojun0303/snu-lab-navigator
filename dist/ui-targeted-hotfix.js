@@ -3,6 +3,28 @@
 
   const clean = v => String(v || '').replace(/\s+/g, ' ').trim();
 
+  function currentUnits() {
+    const raw=[...(window.RESEARCH_UNITS||[]),...(window.RESEARCH_UNIT_SUPPLEMENTS||[])];
+    return [...new Map(raw.map(x=>[[x.college,x.department,x.name].join('|'),x])).values()];
+  }
+
+  function unitAffiliation(x) {
+    const college=clean(x?.college),department=clean(x?.department);
+    return college&&department&&college!==department?`${college} ${department}`:(college||department);
+  }
+
+  function fixAffiliations() {
+    const units=currentUnits();
+    document.querySelectorAll('#results .card[data-i]').forEach(card=>{
+      const x=units[Number(card.dataset.i)];
+      const meta=card.querySelector('.meta');
+      if(!x||!meta)return;
+      const correct=[unitAffiliation(x),clean(x.rank)].filter(Boolean).join(' · ');
+      if(correct&&clean(meta.textContent)!==correct)meta.textContent=correct;
+    });
+    window.SnuAffiliationLabel=unitAffiliation;
+  }
+
   function updateHomeCopy() {
     const eyebrow = document.querySelector('header .eyebrow');
     const heading = document.querySelector('header h1');
@@ -56,12 +78,12 @@
   }
 
   function install() {
-    updateHomeCopy();
+    updateHomeCopy();fixAffiliations();
     const style=document.createElement('style');
     style.textContent=`#stableCompareDialog .stable-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}#stableCompareDialog table.equal-professor-columns{table-layout:fixed;width:max-content;min-width:100%}#stableCompareDialog table.equal-professor-columns th:first-child{width:92px;min-width:92px;max-width:92px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:280px;min-width:280px;max-width:280px;white-space:normal;overflow-wrap:break-word;word-break:normal}@media(max-width:600px){#stableCompareDialog{width:calc(100% - 18px);padding:18px 14px}#stableCompareDialog table.equal-professor-columns th:first-child{width:76px;min-width:76px;max-width:76px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:220px;min-width:220px;max-width:220px}}`;
     document.head.appendChild(style);
     let queued=false;
-    const apply=()=>{queued=false;updateHomeCopy();hideDetailCollectionStatus();refineCompare(document.querySelector('#stableCompareDialog'));};
+    const apply=()=>{queued=false;updateHomeCopy();fixAffiliations();hideDetailCollectionStatus();refineCompare(document.querySelector('#stableCompareDialog'));};
     const observer=new MutationObserver(()=>{if(!queued){queued=true;requestAnimationFrame(apply);}});
     observer.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['open']});
     apply();
