@@ -80,6 +80,20 @@
     if (parts.length > max) cell.textContent = parts.slice(0, max).join(' · ');
   }
 
+  function professorFromHeader(dialog,index){
+    const th=dialog.querySelectorAll('thead th')[index+1];
+    const name=clean(th?.firstChild?.textContent||th?.textContent).replace(/\s+/g,' ').trim();
+    return currentUnits().find(x=>clean(x.name)===name)||null;
+  }
+  function storedPaperFocus(unit){
+    if(!unit)return '';
+    const e=(window.PRECOMPUTED_ENRICHMENT||{})[unit.id]||{};
+    const a=(window.RESEARCH_ACTIVITY||{})[unit.id]||{};
+    const papers=(Array.isArray(e.recent_papers)&&e.recent_papers.length?e.recent_papers:(a.papers||[])).filter(Boolean).slice(0,3);
+    if(!papers.length)return '';
+    return papers.map(p=>clean(p.summary)||clean(p.title)).filter(Boolean).slice(0,3).join(' · ');
+  }
+
   function refineCompare(dialog) {
     if (!dialog?.open) return;
     const table = dialog.querySelector('.stable-scroll table');
@@ -89,10 +103,15 @@
     [...(core?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
     [...(keywords?.querySelectorAll('td') || [])].forEach(cell => trimSeparatedCell(cell,3));
     const paperCells = [...(paper?.querySelectorAll('td') || [])];
-    paperCells.forEach(cell => {if (!cell.dataset.focusReady && clean(cell.textContent) !== '확인 필요') cell.textContent = '확인 필요';});
+    paperCells.forEach((cell,i)=>{
+      if(cell.dataset.focusReady)return;
+      const focus=storedPaperFocus(professorFromHeader(dialog,i));
+      cell.textContent=focus||'확인 필요';
+      if(focus)cell.dataset.focusReady='stored';
+    });
     const aiRows = [...dialog.querySelectorAll('#stableCompareAi .stable-ai-rows p, #stableCompareAi > p')];
     const focuses = aiRows.map(row => {const focus=row.querySelector('.compare-focus');return focus?clean(focus.textContent).replace(/^논문 기반 최근 관심 분야:\s*/,''):'';}).filter(Boolean);
-    focuses.slice(0,paperCells.length).forEach((focus,i)=>{if(clean(paperCells[i].textContent)!==focus)paperCells[i].textContent=focus;paperCells[i].dataset.focusReady='1';});
+    focuses.slice(0,paperCells.length).forEach((focus,i)=>{if(focus){paperCells[i].textContent=focus;paperCells[i].dataset.focusReady='ai';}});
   }
 
   function install() {
