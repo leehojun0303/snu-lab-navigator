@@ -1,5 +1,5 @@
 {
-  "cursor": 215,
+  "cursor": 220,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -19295,30 +19295,75 @@
     },
     "SNU-RU-CB25251D30CE73": {
       "fingerprint": "ed6f75b576c118b96c06a190f3092e4c5583034e0d34744b43c33ad544746e46",
-      "checked_at": "2026-09-12T03:25:05Z",
+      "checked_at": "2026-09-13T14:49:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://mipal.snu.ac.kr/publications"
+            "url": "https://mipal.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "Arxiv",
+            "url": "https://mipal.snu.ac.kr/publications/arxiv",
+            "kind": "publication"
           },
           {
             "title": "International Conferences",
-            "url": "https://mipal.snu.ac.kr/publications/international-conferences"
+            "url": "https://mipal.snu.ac.kr/publications/international-conferences",
+            "kind": "publication"
           },
           {
             "title": "International Journals",
-            "url": "https://mipal.snu.ac.kr/publications/international-journals"
+            "url": "https://mipal.snu.ac.kr/publications/international-journals",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic",
+            "url": "https://mipal.snu.ac.kr/publications/domestic",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "MIPA Laboratory - Members",
-            "url": "https://mipal.snu.ac.kr/members"
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "서울대학교 융합과학기술대학원 2026학년도 제2차 교수채용 공고",
+            "url": "https://convergence.snu.ac.kr/22553/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2027학년도 전기 대학원 신입생 모집단위 변경 안내(지능정보융합학과 관련)",
+            "url": "https://convergence.snu.ac.kr/22511/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026학년도 융합과학기술대학원 헬스케어융합학과(계약학과) 신입생 후기모집 안내",
+            "url": "https://convergence.snu.ac.kr/21719/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://mipal.snu.ac.kr/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2024/01/logo-2.png",
+            "alt": "서울대학교 서울대학교 융합과학기술대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
+            "alt": "그림1",
+            "title": "그림1",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://mipal.snu.ac.kr/",
           "https://cse.snu.ac.kr/ko/people/faculty/209",
@@ -19415,7 +19460,8 @@
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v3_paper_insights"
       },
-      "_unit_id": "SNU-RU-CB25251D30CE73"
+      "_unit_id": "SNU-RU-CB25251D30CE73",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-95D449A700ACC6": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
@@ -23388,8 +23434,8 @@
       "_unit_id": "SNU-RU-934AA72F34951C"
     },
     "SNU-RU-7D839D4528BDF5": {
-      "fingerprint": "8621cea8950d6ddfd3e51ca14a62b8a2000bddf415e85f9a2248d59f4acc1e71",
-      "checked_at": "2026-09-12T03:25:10Z",
+      "fingerprint": "bfaa7d0232016958a481832fff7604fbc6ce5c39c4742b864f4e96b0b21a8ba1",
+      "checked_at": "2026-09-13T14:50:06Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -23405,7 +23451,7 @@
           "https://cse.snu.ac.kr/ko/people/staff",
           "https://cse.snu.ac.kr/ko/people/faculty",
           "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information"
+          "https://imai.snu.ac.kr"
         ]
       },
       "enrichment": {
@@ -23472,7 +23518,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:26:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-7D839D4528BDF5"
     },
@@ -26203,7 +26250,7 @@
     },
     "SNU-RU-CEF8E4B3A22338": {
       "fingerprint": "701bbee8257ca87480f118eca6e930a215ba9ae38c951e4fed25fe073d1c92e0",
-      "checked_at": "2026-09-12T03:25:12Z",
+      "checked_at": "2026-09-13T14:50:06Z",
       "activity": {
         "publicationPages": [
           {
@@ -28394,24 +28441,24 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-A87108436C79EA": {
-      "fingerprint": "5d0aee9def0abc2a0176ab9ad2976e74b04aa2b6e349b7c6b2c476fc892e6ce1",
-      "checked_at": "2026-09-12T03:25:09Z",
+      "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
+      "checked_at": "2026-09-13T14:50:01Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://cse.snu.ac.kr/ko/people/faculty/3",
           "https://cse.snu.ac.kr/ko",
+          "https://cse.snu.ac.kr/ko/community/news/1212",
+          "https://cse.snu.ac.kr/ko/community/news/1216",
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/notice/24826",
           "https://cse.snu.ac.kr/ko/people",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
-          "https://cse.snu.ac.kr/ko/people/staff",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko"
+          "https://cse.snu.ac.kr/ko/community/news/1211",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
+          "https://cse.snu.ac.kr/ko/community/news/1206",
+          "https://cse.snu.ac.kr/ko/community/news/1198"
         ]
       },
       "enrichment": {
@@ -28470,7 +28517,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:26:20Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-A87108436C79EA"
     },
@@ -43770,7 +43818,7 @@
     },
     "SNU-RU-3A2D5B754AC0B0": {
       "fingerprint": "f9c47944223724c245c6f6e7e03b5e97d780760bb26ce8668cf76492d2766550",
-      "checked_at": "2026-09-12T03:25:24Z",
+      "checked_at": "2026-09-13T14:50:19Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -222370,26 +222418,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-CB25251D30CE73": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:39:34Z"
-    },
-    "SNU-RU-A87108436C79EA": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-13T02:39:45Z"
-    },
-    "SNU-RU-7D839D4528BDF5": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:39:56Z"
-    },
-    "SNU-RU-3A2D5B754AC0B0": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-13T02:40:01Z"
-    },
-    "SNU-RU-CEF8E4B3A22338": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-13T02:40:02Z"
-    },
     "SNU-RU-B1382880E8B489": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T02:40:35Z"
@@ -223848,11 +223876,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T14:49:34Z",
+    "at": "2026-09-13T14:50:19Z",
     "checked": 5,
-    "seconds": 26.09,
+    "seconds": 29.28,
     "gemini": true,
-    "ai_requests": 1,
+    "ai_requests": 0,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
