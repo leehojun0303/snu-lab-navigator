@@ -1,5 +1,5 @@
 {
-  "cursor": 5,
+  "cursor": 10,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -24066,8 +24066,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-22994EB4EECE56": {
-      "fingerprint": "e97e03d7a0734b70d767e5ad7870ed20e75fb0e19a3a1c27561a8ef857cf0cdc",
-      "checked_at": "2026-09-12T02:55:15Z",
+      "fingerprint": "f1cea41f16d2548441a9252ff85371a637ccc536fc4eeb834e90e753694b6b60",
+      "checked_at": "2026-09-13T08:21:04Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -24091,6 +24091,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -24115,31 +24117,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://cee.snu.ac.kr",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg",
-          "https://cee.snu.ac.kr/images/main/link8.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_aAMuFCrK_ED9994EBA9B4_ECBAA1ECB298_2026-08-05_174038.png",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_d5CYv0Fo_20260805_173507.png",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_51lfHQZn_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_1EC9588.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_i7uX9SsT_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_2EC9588.jpg"
+          "https://cee.snu.ac.kr/images/main/right_img03.png"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-22994EB4EECE56",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:21Z",
+        "_saved_at": "2026-09-13T08:21:14Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-22994EB4EECE56"
     },
@@ -35887,8 +35883,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7304F3FBF0A093": {
-      "fingerprint": "ab93e8a48c7d6fd45dae4ca36cc1216f03b0775f1e8173f9c1c99a7e7c50f6b4",
-      "checked_at": "2026-09-12T02:55:15Z",
+      "fingerprint": "5b8c3166af7a8343448aec7540cc968d1c6af9fe22b67cc1c9c2b0011691057c",
+      "checked_at": "2026-09-13T08:21:04Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -35912,6 +35908,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -35946,21 +35944,15 @@
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg",
-          "https://cee.snu.ac.kr/images/main/link8.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_aAMuFCrK_ED9994EBA9B4_ECBAA1ECB298_2026-08-05_174038.png",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_d5CYv0Fo_20260805_173507.png",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_51lfHQZn_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_1EC9588.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_i7uX9SsT_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_2EC9588.jpg"
+          "https://cee.snu.ac.kr/images/main/right_img03.png"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7304F3FBF0A093",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:19Z",
+        "_saved_at": "2026-09-13T08:21:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7304F3FBF0A093"
     },
@@ -44030,8 +44022,8 @@
       "_unit_id": "SNU-RU-6EC0E415BF5242"
     },
     "SNU-RU-F3C35BB8AFC810": {
-      "fingerprint": "d28e6182143832348f2cad3fb765b69d4f953bebce5b60db2a3133d39e1907c2",
-      "checked_at": "2026-09-12T02:55:14Z",
+      "fingerprint": "1b6407510adb3457bce13db698ce4e98d51d306f71ae6ec372fc8d7dcd251d2b",
+      "checked_at": "2026-09-13T08:21:04Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -44055,6 +44047,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -44089,22 +44083,15 @@
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg",
-          "https://cee.snu.ac.kr/images/main/link8.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_aAMuFCrK_ED9994EBA9B4_ECBAA1ECB298_2026-08-05_174038.png",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_d5CYv0Fo_20260805_173507.png",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_51lfHQZn_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_1EC9588.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_i7uX9SsT_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_2EC9588.jpg"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F3C35BB8AFC810",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:15Z",
+        "_saved_at": "2026-09-13T08:21:07Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F3C35BB8AFC810"
     },
@@ -49912,8 +49899,8 @@
       "_unit_id": "SNU-RU-698903A71CA56D"
     },
     "SNU-RU-F7B95729FE4FBC": {
-      "fingerprint": "210e0bd32edce4cfd9772fa37453474deac13369ab7c75f5083fd88fb2ecd892",
-      "checked_at": "2026-09-12T02:55:15Z",
+      "fingerprint": "3e3af527cca3a51ea21ba25ab8d5fcf765bd00f3fb609b44ad602f8691ae9bfa",
+      "checked_at": "2026-09-13T08:21:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -49937,6 +49924,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -49971,21 +49960,15 @@
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg",
-          "https://cee.snu.ac.kr/images/main/link8.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_aAMuFCrK_ED9994EBA9B4_ECBAA1ECB298_2026-08-05_174038.png",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_d5CYv0Fo_20260805_173507.png",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_51lfHQZn_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_1EC9588.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_i7uX9SsT_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_2EC9588.jpg"
+          "https://cee.snu.ac.kr/images/main/right_img03.png"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F7B95729FE4FBC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:17Z",
+        "_saved_at": "2026-09-13T08:21:30Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F7B95729FE4FBC"
     },
@@ -52101,29 +52084,24 @@
       "_unit_id": "SNU-RU-5582D1572085FD"
     },
     "SNU-RU-08ADD4DA84FEE4": {
-      "fingerprint": "5df81211ff1bbe46b149fd18eb07ae9a38a1706eb0c395f4cc882468cead7eec",
-      "checked_at": "2026-09-12T02:55:21Z",
+      "fingerprint": "75d0854a62060e77929f5b1c64177cd59343626c0658f5d72550920a875be6e3",
+      "checked_at": "2026-09-13T08:21:11Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journals - SPINS Research Lab",
-            "url": "https://spins.snu.ac.kr/research/journels-2/"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "[학부&대학원] 2026년 하반기 군산시 대학생 학자금 이자 지원사업 안내(~9. 4.(금) 18:00)",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804"
+            "title": "ER-PASS: Experience Replay with Performance-Aware Submodular Sampling for Domain-Incremental Learning in Remote Sensing",
+            "url": "https://spins.snu.ac.kr/publication/er-pass-experience-replay-with-performance-aware-submodular-sampling-for-domain-incremental-learning-in-remote-sensing/"
           },
           {
-            "title": "[학부 재학생] 2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801"
+            "title": "DiPaSSCD: Difference-Paired Self-Supervised Learning With Object-Based Local Augmentation for Remote Sensing Image Change Detection",
+            "url": "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/"
           },
           {
-            "title": "[학부 재학생] 2026학년도 대학생 청소년 AI 교육지원장학생 선발 안내",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800"
+            "title": "Satellite-Based Flood Resilience Assessment in Data-Scarce Regions: Application to the Downstream Amnok, Taedong, and Tumen River Basins in North Korea",
+            "url": "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/"
           }
         ],
+        "recruitmentPages": [],
         "membersUrl": "https://spins.snu.ac.kr/members/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -52135,53 +52113,53 @@
           "https://spins.snu.ac.kr/members/people/",
           "https://spins.snu.ac.kr/members/alumni/",
           "https://spins.snu.ac.kr/research/journels-2/",
-          "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/",
-          "https://spins.snu.ac.kr/publication/multitemporal-flood-damage-and-recovery-assessment-of-the-amnok-river-using-sar-and-optical-satellite-imagery-with-a-deep-learning-model/"
+          "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/",
+          "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/"
         ]
       },
       "enrichment": {
-        "research_summary": "김용일 교수가 이끄는 SPINS(SPatial INformatics & Systems) 연구실은 원격탐사(Remote Sensing), 공간정보, 딥러닝을 결합하여 위성 영상 분석, 변화 탐지, 홍수 피해 평가 및 도시 활력 분석 등 공간정보 시스템 분야의 연구를 수행하고 있습니다.",
+        "research_summary": "김용일 교수가 이끄는 SPINS 연구실은 원격 탐사, 위성 영상 분석, 딥러닝을 활용한 홍수 피해 평가 및 변화 탐지 연구를 수행합니다.",
         "research_topics": [
-          "원격탐사 (Remote Sensing)",
-          "딥러닝 (Deep Learning)",
-          "공간정보 (Spatial Informatics)",
+          "원격 탐사",
           "위성 영상 분석",
-          "변화 탐지 (Change Detection)",
-          "홍수 피해 및 복구 평가"
+          "딥러닝",
+          "홍수 피해 평가",
+          "변화 탐지"
         ],
         "recommendation_keywords": [
           "원격탐사",
           "딥러닝",
-          "공간정보",
           "위성영상",
-          "홍수재난관리",
-          "원격탐사 (Remote Sensing)",
-          "딥러닝 (Deep Learning)",
-          "공간정보 (Spatial Informatics)",
+          "홍수재난",
+          "변화탐지",
           "위성 영상 분석",
-          "변화 탐지 (Change Detection)",
-          "홍수 피해 및 복구 평가"
+          "홍수 피해 평가"
         ],
         "recent_papers": [
           {
+            "title": "ER-PASS: Experience Replay with Performance-Aware Submodular Sampling for Domain-Incremental Learning in Remote Sensing",
+            "url": "https://spins.snu.ac.kr/publication/er-pass-experience-replay-with-performance-aware-submodular-sampling-for-domain-incremental-learning-in-remote-sensing/",
+            "year": "2024",
+            "venue": "Remote Sensing",
+            "summary": "원격 탐사 분야의 도메인 점진적 학습을 위해 성능 기반 서브모듈러 샘플링을 적용한 경험 재생 기법을 제안합니다."
+          },
+          {
             "title": "DiPaSSCD: Difference-Paired Self-Supervised Learning With Object-Based Local Augmentation for Remote Sensing Image Change Detection",
-            "year": "2026",
-            "venue": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING",
-            "summary": "객체 기반 로컬 증강을 활용한 차이 쌍 자기지도 학습을 통해 원격탐사 영상의 변화 탐지 성능을 향상시켰습니다."
+            "url": "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/",
+            "year": "2024",
+            "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+            "summary": "객체 기반 로컬 증강을 활용한 차이 쌍 자기지도 학습을 통해 원격 탐사 영상의 변화 탐지 성능을 향상시킵니다."
           },
           {
-            "title": "Satellite-Based Flood Resilience Assessment in Data-Scarce Regions: Application to the Downstream Amnok, Taedong, and Tumen River Basins in North Korea",
-            "year": "2025",
-            "venue": "Korean Journal of Remote Sensing",
-            "summary": "데이터가 부족한 북한의 주요 강 유역을 대상으로 위성 기반 홍수 회복력 평가 모델을 제시하였습니다."
-          },
-          {
-            "title": "Multitemporal Flood Damage and Recovery Assessment of the Amnok River Using SAR and Optical Satellite Imagery with a Deep Learning Model",
-            "year": "2025",
-            "venue": "Korean Journal of Remote Sensing",
-            "summary": "SAR 및 광학 위성 영상을 딥러닝 모델과 결합하여 압록강의 홍수 피해 및 복구 과정을 시계열로 분석하였습니다."
+            "title": "Satellite-Based Flood Resilience Assessment in Data-Scarce Regions: Application to the Downstream Amnok, Taedong, and Tumen River Basin in North Korea",
+            "url": "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/",
+            "year": "2024",
+            "venue": "Remote Sensing",
+            "summary": "데이터가 부족한 북한 지역의 홍수 회복력을 위성 영상을 활용하여 평가하는 방법론을 제시합니다."
           }
         ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -52189,78 +52167,26 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 공과대학 건설환경공학부 정교수로 재직 중이며, 공간정보전공 분야에서 교육 및 연구를 수행하고 있습니다.",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
-            "title": "Journals - SPINS Research Lab",
-            "url": "https://spins.snu.ac.kr/research/journels-2/"
+            "title": "ER-PASS: Experience Replay with Performance-Aware Submodular Sampling for Domain-Incremental Learning in Remote Sensing",
+            "url": "https://spins.snu.ac.kr/publication/er-pass-experience-replay-with-performance-aware-submodular-sampling-for-domain-incremental-learning-in-remote-sensing/"
+          },
+          {
+            "title": "DiPaSSCD: Difference-Paired Self-Supervised Learning With Object-Based Local Augmentation for Remote Sensing Image Change Detection",
+            "url": "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/"
+          },
+          {
+            "title": "Satellite-Based Flood Resilience Assessment in Data-Scarce Regions: Application to the Downstream Amnok, Taedong, and Tumen River Basins in North Korea",
+            "url": "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/"
           }
         ],
-        "recruitment_summary": "현재 연구실 공식 홈페이지를 통해 별도의 채용 공고를 상시 게시하고 있지 않으나, 학부 및 대학원생 관련 학사 공지는 건설환경공학부 게시판을 통해 안내됩니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "[학부&대학원] 2026년 하반기 군산시 대학생 학자금 이자 지원사업 안내(~9. 4.(금) 18:00)",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804"
-          },
-          {
-            "title": "[학부 재학생] 2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801"
-          },
-          {
-            "title": "[학부 재학생] 2026학년도 대학생 청소년 AI 교육지원장학생 선발 안내",
-            "url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800"
-          }
-        ],
-        "recruitment_source_url": "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2",
-        "current_members": [
-          {
-            "name": "곽태홍",
-            "role": "Post Doc.",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          },
-          {
-            "name": "강원빈",
-            "role": "Master's+Ph.D. Combined Program Candidate",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          },
-          {
-            "name": "이예석",
-            "role": "Ph.D. Program Student",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          },
-          {
-            "name": "최현성",
-            "role": "Master's+Ph.D. Combined Program Student",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          },
-          {
-            "name": "정승기",
-            "role": "Master's Program Student",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          },
-          {
-            "name": "오경원",
-            "role": "Master's Program Student",
-            "url": "https://spins.snu.ac.kr/members/people/"
-          }
-        ],
-        "alumni": [
-          {
-            "name": "안철호",
-            "role": "범아 Engineering",
-            "url": "https://spins.snu.ac.kr/members/alumni/"
-          },
-          {
-            "name": "허준",
-            "role": "연세대학교 교수",
-            "url": "https://spins.snu.ac.kr/members/alumni/"
-          },
-          {
-            "name": "여화수",
-            "role": "카이스트 교수",
-            "url": "https://spins.snu.ac.kr/members/alumni/"
-          }
-        ],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
         "member_page_url": "https://spins.snu.ac.kr/members/",
         "poster_status": "none_detected",
         "poster_title": "",
@@ -52270,33 +52196,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://spins.snu.ac.kr/publication/er-pass-experience-replay-with-performance-aware-submodular-sampling-for-domain-incremental-learning-in-remote-sensing/",
+          "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/",
+          "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/",
+          "https://spins.snu.ac.kr/",
+          "https://cee.snu.ac.kr",
+          "https://spins.snu.ac.kr/members/",
           "https://spins.snu.ac.kr/members/professor/",
           "https://spins.snu.ac.kr/members/people/",
           "https://spins.snu.ac.kr/members/alumni/",
           "https://spins.snu.ac.kr/research/journels-2/",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2",
-          "https://spins.snu.ac.kr/",
-          "https://cee.snu.ac.kr",
-          "https://spins.snu.ac.kr/publication/er-pass-experience-replay-with-performance-aware-submodular-sampling-for-domain-incremental-learning-in-remote-sensing/",
-          "https://spins.snu.ac.kr/members/",
-          "https://spins.snu.ac.kr/publication/satellite-based-flood-resilience-assessment-in-data-scarce-regions-application-to-the-downstream-amnok-taedong-and-tumen-river-basins-in-north-korea/",
           "https://spins.snu.ac.kr/publication/multitemporal-flood-damage-and-recovery-assessment-of-the-amnok-river-using-sar-and-optical-satellite-imagery-with-a-deep-learning-model/",
-          "https://spins.snu.ac.kr/publication/dipasscd-difference-paired-self-supervised-learning-with-object-based-local-augmentation-for-remote-sensing-image-change-detection/",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
-          "https://spins.snu.ac.kr/wp-content/uploads/sites/151/2024/01/template-img-8.jpg",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804"
         ],
         "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-08ADD4DA84FEE4",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:31Z",
+        "_saved_at": "2026-09-13T08:21:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-08ADD4DA84FEE4"
     },
@@ -219629,26 +219548,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T06:31:51Z"
     },
-    "SNU-RU-F3C35BB8AFC810": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:29Z"
-    },
-    "SNU-RU-F7B95729FE4FBC": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:45Z"
-    },
-    "SNU-RU-22994EB4EECE56": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:37Z"
-    },
-    "SNU-RU-7304F3FBF0A093": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:53Z"
-    },
-    "SNU-RU-08ADD4DA84FEE4": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:09:01Z"
-    },
     "SNU-RU-5BFAA7C8107BC8": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:09:12Z"
@@ -221927,11 +221826,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T08:20:49Z",
-    "checked": 1545,
-    "seconds": 16572.29,
+    "at": "2026-09-13T08:21:40Z",
+    "checked": 1550,
+    "seconds": 16623.33,
     "gemini": true,
-    "ai_requests": 322,
+    "ai_requests": 327,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
