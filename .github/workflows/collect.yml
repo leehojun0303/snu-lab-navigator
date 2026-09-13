@@ -2,11 +2,9 @@ name: Refresh official SNU lab data
 
 on:
   schedule:
-    # Retry compact collection every five minutes. A rate-limited run exits
-    # promptly, while a successful run continues within its 285-minute budget.
-    # The explicit 03:00 KST trigger also refreshes the official roster daily.
-    - cron: '0 18 * * *'
-    - cron: '*/5 * * * *'
+    # Start the regular collection once daily at 02:00 KST. The collector
+    # preserves cursor/state and may finish early after a complete pass.
+    - cron: '0 17 * * *'
   workflow_dispatch:
     inputs:
       max_units:
@@ -16,7 +14,7 @@ on:
       time_budget_minutes:
         description: Maximum collection time in minutes (0 disables the clock)
         required: false
-        default: '285'
+        default: '350'
       max_ai_requests:
         description: Maximum changed-page Gemini summaries in this run
         required: false
@@ -36,7 +34,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 315
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v7
       - name: Start from the latest saved snapshot
@@ -52,9 +50,8 @@ jobs:
           python tools/test_automation_features.py
           python tools/test_static.py
       - name: Synchronize official professor roster union
-        # The full official roster is refreshed once daily at 03:00 KST; other
-        # scheduled runs reuse the saved URL registry and focus on details.
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18 * * *'
+        # Refresh the full official roster at the daily 02:00 KST run.
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 17 * * *'
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
         run: python tools/roster_sync.py --max-pages "$ROSTER_MAX_PAGES"
@@ -62,7 +59,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MAX_UNITS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_units || '100000' }}
-          TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '285' || inputs.time_budget_minutes || '285' }}
+          TIME_BUDGET_MINUTES: ${{ github.event_name == 'schedule' && '350' || inputs.time_budget_minutes || '350' }}
           MAX_AI_REQUESTS: ${{ github.event_name == 'schedule' && '100000' || inputs.max_ai_requests || '100000' }}
           BATCH_SIZE: '5'
           PUBLISH_PROGRESS: '1'
