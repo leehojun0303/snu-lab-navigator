@@ -1,5 +1,5 @@
 {
-  "cursor": 25,
+  "cursor": 30,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -11865,8 +11865,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-63864435ADEF48": {
-      "fingerprint": "42234578fd2125b93c6b5319f4e770072b4d9f07e020282db61448edbd6ca562",
-      "checked_at": "2026-09-13T08:24:36Z",
+      "fingerprint": "bdcd08aebf4e181357c819b61c3b79f3d12707284e5ea74dd329140308225b12",
+      "checked_at": "2026-09-13T22:34:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -11881,13 +11881,13 @@
           "https://acustica.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
           "https://me.snu.ac.kr",
+          "https://acustica.snu.ac.kr/yeonjune/",
           "https://acustica.snu.ac.kr/member/",
           "https://acustica.snu.ac.kr/alumni/",
           "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
           "https://acustica.snu.ac.kr/awards/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://admission.snu.ac.kr/index.html",
-          "https://admission.snu.ac.kr/index.html"
+          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/#container",
+          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/#footer"
         ]
       },
       "enrichment": {
@@ -11962,7 +11962,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:25:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-63864435ADEF48"
     },
@@ -111931,14 +111932,16 @@
       "_unit_id": "SNU-RU-C56F88BC2A754A"
     },
     "SNU-RU-7ACB3EED2FB582": {
-      "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-13T08:24:35Z",
+      "fingerprint": "5552eac3ab964f027b81ad3218049f5f3154e7f4f8e87efeb67c6cff5227c47f",
+      "checked_at": "2026-09-13T22:34:38Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
+          "http://bs.snu.ac.kr/",
           "https://architecture.snu.ac.kr"
         ]
       },
@@ -111977,9 +111980,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:25:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-7ACB3EED2FB582"
+      "_unit_id": "SNU-RU-7ACB3EED2FB582",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-654E1917C9CAC6": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
@@ -114597,7 +114602,7 @@
     },
     "SNU-RU-C8FB7C45BB2149": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-13T08:24:20Z",
+      "checked_at": "2026-09-13T22:34:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -119440,7 +119445,7 @@
     },
     "SNU-RU-4818F5C541FBE7": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-13T08:24:20Z",
+      "checked_at": "2026-09-13T22:34:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -124403,7 +124408,7 @@
     },
     "SNU-RU-B6D2843562B618": {
       "fingerprint": "1a0b1119549dc6ac19bd64852905bcac149dca6d914d121f4a1392585dcac4f7",
-      "checked_at": "2026-09-13T08:24:21Z",
+      "checked_at": "2026-09-13T22:34:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -243825,9 +243830,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:34:33Z",
-    "checked": 5,
-    "seconds": 10.59,
+    "at": "2026-09-13T22:34:55Z",
+    "checked": 10,
+    "seconds": 32.52,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
