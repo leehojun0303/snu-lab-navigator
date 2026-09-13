@@ -48,12 +48,12 @@ jobs:
           python-version: '3.12'
       - name: Validate collector and public UI contracts
         run: |
-          python -m py_compile tools/collector_entry.py tools/automated_enrichment_v2.py
+          python -m py_compile tools/collector_entry.py tools/collector_runner.py tools/automated_enrichment_v2.py
           python tools/test_automation_features.py
           python tools/test_static.py
       - name: Synchronize official professor roster union
         # The full official roster is refreshed once daily at 03:00 KST; other
-        # five-hour cycles reuse the saved URL registry and focus on details.
+        # scheduled runs reuse the saved URL registry and focus on details.
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18 * * *'
         env:
           ROSTER_MAX_PAGES: ${{ github.event_name == 'schedule' && '100000' || inputs.roster_max_pages || '100000' }}
@@ -68,7 +68,7 @@ jobs:
           PUBLISH_PROGRESS: '1'
           PROGRESS_PUBLISH_EVERY: '5'
         run: >-
-          python tools/collector_entry.py
+          python tools/collector_runner.py
           --max-units "$MAX_UNITS"
           --time-budget-minutes "$TIME_BUDGET_MINUTES"
           --max-ai-requests "$MAX_AI_REQUESTS"
