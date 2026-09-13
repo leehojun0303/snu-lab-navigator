@@ -4,8 +4,8 @@ on:
   schedule:
     # Production refresh: once daily at 02:00 KST (17:00 UTC).
     - cron: '0 17 * * *'
-    # Bootstrap continuation: while the first full pass is unfinished, keep a
-    # continuation queued. After bootstrap completes these runs exit immediately.
+    # Fallback bootstrap watchdog. The primary bootstrap continuation is chained
+    # directly at the end of each unfinished run below.
     - cron: '30 * * * *'
   workflow_dispatch:
     inputs:
@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: snu-lab-collector
@@ -131,8 +132,6 @@ jobs:
           end=int(state.get('cursor',0))
           checked=int(progress.get('checked',0))
           total=int(progress.get('total',0))
-          # A cursor wrap means every position in the initial roster has now been
-          # reached at least once. checked>=total covers an exact full-pass run.
           completed=(checked >= total > 0) or (checked > 0 and end <= start and start != 0)
           if completed:
               state['initial_collection_complete']=True
@@ -140,7 +139,7 @@ jobs:
               progress['initial_collection_complete']=True
               state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
               progress_path.write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-              print('Initial full pass completed; future non-daily bootstrap runs will skip.')
+              print('Initial full pass completed; bootstrap chaining will stop.')
           else:
               print(f'Initial pass continues: cursor {start} -> {end}, checked_this_run={checked}, total={total}')
           PY
@@ -150,12 +149,41 @@ jobs:
         run: |
           if git diff --quiet -- dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json; then
             echo "No snapshot changes"
+          else
+            git config user.name "snu-lab-automation"
+            git config user.email "actions@users.noreply.github.com"
+            git add dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json
+            git commit -m "Update official roster and research snapshot"
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
+
+      - name: Queue next bootstrap run
+        if: steps.mode.outputs.should_run == 'true' && steps.mode.outputs.bootstrap_complete != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          COMPLETE=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          try:
+              state=json.loads(Path('data/automation-state.json').read_text(encoding='utf-8'))
+          except Exception:
+              state={}
+          print('true' if state.get('initial_collection_complete') else 'false')
+          PY
+          )
+          if [ "$COMPLETE" = "true" ]; then
+            echo "Initial collection is complete; no continuation queued."
             exit 0
           fi
-          git config user.name "snu-lab-automation"
-          git config user.email "actions@users.noreply.github.com"
-          git add dist/automation-data.js data/automation-state.json dist/data-loader.js dist/data/units-*.js data/roster-sync-state.json data/automation-progress.json
-          git commit -m "Update official roster and research snapshot"
-          git fetch origin main
-          git rebase origin/main
-          git push
+          echo "Initial collection is incomplete; queueing the next continuation run."
+          curl --fail-with-body -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$REPO/actions/workflows/collect.yml/dispatches" \
+            -d '{"ref":"main","inputs":{"max_units":"100000","time_budget_minutes":"350","max_ai_requests":"100000","roster_max_pages":"100000"}}'
