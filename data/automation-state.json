@@ -1,5 +1,5 @@
 {
-  "cursor": 85,
+  "cursor": 90,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -55584,24 +55584,33 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AA63ECD2A4FD88": {
-      "fingerprint": "cf176eed97f8b857b29f6a3e4b5b08f8d0409515723284576fb74a8a3b4138e1",
-      "checked_at": "2026-09-12T03:09:52Z",
+      "fingerprint": "57b1ba7c1d2aeceed863b2410d13914246e0175a0b179b2b5879173d4fbe1016",
+      "checked_at": "2026-09-13T14:28:52Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information"
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
@@ -55613,7 +55622,7 @@
         ],
         "recommendation_keywords": [
           "방사선 방호",
-          "방사선물리 및 전산모사",
+          "방사선 물리 및 전산모사",
           "방사선 영향 기초 및 의료 이용"
         ],
         "recent_papers": [],
@@ -55628,72 +55637,84 @@
         "recent_group_exhibitions": [],
         "education_summary": "1995년 텍사스 A&M 대학교에서 원자력공학/보건물리 박사 학위를 취득하였으며, 1988년 서울대학교에서 원자핵공학 석사, 1986년 학사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "김은희 교수 사진",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/1c1z801z0e0z84bzfedzb06zf86zbc5z8d7zcddz28.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "poster_evidence": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
           "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/1c1z801z0e0z84bzfedzb06zf86zbc5z8d7zcddz28.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA63ECD2A4FD88",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:09:56Z",
+        "_saved_at": "2026-09-13T14:29:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AA63ECD2A4FD88"
     },
     "SNU-RU-E22C821603FAC7": {
-      "fingerprint": "758a49e3f5b35581e71ee9ee22ce67bcb4cdb8ab908a9ff8d5d99777625b866b",
-      "checked_at": "2026-09-12T03:09:52Z",
+      "fingerprint": "f33c0e1e3ada98323e439a33c4bae1cd5f31e06fe60b51a1f3d8e5c265adfbe9",
+      "checked_at": "2026-09-13T14:28:51Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information"
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
-        "research_summary": "원자력 시스템 및 안전 분야를 중심으로 열유체, 계산과학, 전산해석, 모델링, 시뮬레이션 및 고성능컴퓨팅 기술을 활용한 연구를 수행하고 있습니다.",
+        "research_summary": "원자력 시스템 및 안전 분야를 중심으로 원자력 시스템, 열유체, 계산과학, 전산해석, 모델링, 시뮬레이션, 고성능컴퓨팅 등을 연구하고 있습니다.",
         "research_topics": [
           "원자력 시스템",
           "원자력 안전",
@@ -55726,46 +55747,49 @@
         "recent_group_exhibitions": [],
         "education_summary": "2006년 카이스트 원자력공학 박사, 2001년 석사, 1999년 학사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 원자핵공학과 홈페이지를 통해 학부 및 대학원 입학 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "김응수 교수 사진",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/841z849z785z3c4za22za52z06ezbf8zd6ez833ze3.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "poster_evidence": "김응수 교수 사진",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
           "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/841z849z785z3c4za22za52z06ezbf8zd6ez833ze3.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E22C821603FAC7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:10:18Z",
+        "_saved_at": "2026-09-13T14:29:03Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E22C821603FAC7"
     },
@@ -75767,28 +75791,46 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F9CEAC7F19C45B": {
-      "fingerprint": "006a6cfb97f25cc0279658b36772ca083816e58e68269f32b0cc35bcc804fa5a",
-      "checked_at": "2026-09-12T03:09:52Z",
+      "fingerprint": "eba4692d11ce11d66bfdf188108a056cf16231300f2f6d2c7e59467067fba0ec",
+      "checked_at": "2026-09-13T14:28:51Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "[학사] 2026학년도 2학기 논문지도교수 선정 및 변경 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998"
+          },
+          {
+            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information"
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
-        "research_summary": "핵융합 공학 및 플라즈마 물리를 연구하며, 특히 핵융합 플라즈마 시뮬레이션과 핵융합로 운전 시나리오 및 제어 분야를 중점적으로 다루고 있습니다.",
+        "research_summary": "핵융합 공학 및 플라즈마 물리를 전공하며, 핵융합 플라즈마 시뮬레이션과 핵융합로 운전 시나리오 및 제어 분야를 연구하고 있습니다.",
         "research_topics": [
           "핵융합 공학",
           "플라즈마 물리",
@@ -75811,48 +75853,60 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2003년 독일 뮌헨공과대학교에서 플라즈마물리학 박사 학위를 취득하였으며, 2000년 서울대학교 원자핵공학 석사, 1998년 학사 학위를 받았습니다.",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "2003년 독일 뮌헨공과대학교에서 플라즈마물리학 박사 학위를 취득하였으며, 서울대학교에서 원자핵공학 학사 및 석사 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "[학사] 2026학년도 2학기 논문지도교수 선정 및 변경 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998"
+          },
+          {
+            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
+          }
+        ],
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "나용수 교수 사진",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/dd0zed0z9c2zd7dzc02z690z571zd68z021z820za1.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "poster_evidence": "공식 교수진 페이지에 게시된 나용수 교수의 프로필 사진입니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
           "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/dd0zed0z9c2zd7dzc02z690z571zd68z021z820za1.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F9CEAC7F19C45B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:10:05Z",
+        "_saved_at": "2026-09-13T14:29:10Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F9CEAC7F19C45B"
     },
@@ -91976,32 +92030,49 @@
       "_unit_id": "SNU-RU-4D259F989529C3"
     },
     "SNU-RU-6FD1D5839F3D59": {
-      "fingerprint": "3f1d2ff9cd4287290108b34e0f67b046a23e1a1d30355a92df214ba8efd3cbf8",
-      "checked_at": "2026-09-12T03:09:52Z",
+      "fingerprint": "7627e1a9b64ff79e6861ed5325561ba61bcc48551e35755b5a7a75df0c1c7d0d",
+      "checked_at": "2026-09-13T14:28:52Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "[학사] 2026학년도 2학기 논문지도교수 선정 및 변경 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998"
+          },
+          {
+            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information"
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
         "research_summary": "핵융합 및 플라즈마 물리를 전공하며, 플라즈마 물리와 플라즈마 정보 AI의 산업 응용 분야를 연구하고 있습니다.",
         "research_topics": [
           "핵융합 및 플라즈마 물리",
-          "플라즈마 물리",
-          "플라즈마 정보 AI의 산업 응용"
+          "플라즈마 물리 및 플라즈마 정보 AI의 산업 응용"
         ],
         "recommendation_keywords": [
           "핵융합",
@@ -92009,7 +92080,7 @@
           "플라즈마 정보 AI",
           "산업 응용",
           "핵융합 및 플라즈마 물리",
-          "플라즈마 정보 AI의 산업 응용"
+          "플라즈마 물리 및 플라즈마 정보 AI의 산업 응용"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -92021,48 +92092,60 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2015년 서울대학교 원자핵공학 박사 학위를 취득하였으며, 2008년 동 대학에서 학사 학위를 받았습니다.",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "2015년 서울대학교 원자핵공학 박사 학위를 취득하였으며, 2008년 서울대학교 원자핵공학 학사 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "[학사] 2026학년도 2학기 논문지도교수 선정 및 변경 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998"
+          },
+          {
+            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
+          }
+        ],
+        "recruitment_summary": "원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "박설혜 부교수 사진",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5fez5c4z101zd86z666z4a8z842z728z30cz296z92.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "poster_evidence": "박설혜 부교수 사진",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
           "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5fez5c4z101zd86z666z4a8z842z728z30cz296z92.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6FD1D5839F3D59",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:10:10Z",
+        "_saved_at": "2026-09-13T14:29:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6FD1D5839F3D59"
     },
@@ -98745,28 +98828,37 @@
       "_unit_id": "SNU-RU-D21424803F4889"
     },
     "SNU-RU-A1E03B487C41A3": {
-      "fingerprint": "f6469ca59af5d654d12b4be0482245cace4c6785b089e0d14ac82d656899cafa",
-      "checked_at": "2026-09-12T03:09:52Z",
+      "fingerprint": "90fd593013a0bb0ea60f1b07672f334a4babea8247d2190c805dbbb53d4e68cc",
+      "checked_at": "2026-09-13T14:28:51Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=167",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=167",
           "https://nucleng.snu.ac.kr",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information"
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
-        "research_summary": "핵융합 및 플라즈마 물리를 전공하며, 특히 핵융합 플라즈마 안정화 및 수송해석을 위한 삼차원 제어 연구를 수행하고 있습니다.",
+        "research_summary": "핵융합 및 플라즈마 물리를 전공하며, 특히 핵융합 플라즈마 안정화 및 수송해석 삼차원 제어 분야를 연구하고 있습니다.",
         "research_topics": [
           "핵융합 및 플라즈마 물리",
           "핵융합 플라즈마 안정화",
@@ -98792,48 +98884,51 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2009년 프린스턴 대학교에서 플라즈마 물리학 박사 학위를 취득하였으며, 서울대학교에서 원자핵공학 학사 및 석사 학위를 받았습니다.",
+        "education_summary": "2009년 프린스턴 대학교에서 플라즈마 물리학 박사 학위를 취득하였으며, 서울대학교 원자핵공학과에서 학사(2000) 및 석사(2002) 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=167",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "박종규 교수 사진",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5f3zec3z3f8z33dz303zf5cz33cz07fz558z8f3zfa.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "poster_evidence": "공식 교수진 페이지에 게시된 박종규 교수의 프로필 사진입니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=167",
-          "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/admission/graduate",
           "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
-          "https://nucleng.snu.ac.kr/admission/graduate",
-          "https://nucleng.snu.ac.kr/undergraduate/council",
-          "https://www.snu.ac.kr/personal_information",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
+          "https://nucleng.snu.ac.kr/about/introduction",
+          "https://nucleng.snu.ac.kr/about/history",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23998",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5f3zec3z3f8z33dz303zf5cz33cz07fz558z8f3zfa.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/c9dze7eze9ezdf7z5b3zb1bz630zb18zda9zf6dz1e.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A1E03B487C41A3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:09:54Z",
+        "_saved_at": "2026-09-13T14:28:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-A1E03B487C41A3"
     },
@@ -219774,26 +219869,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-A1E03B487C41A3": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:19:34Z"
-    },
-    "SNU-RU-6FD1D5839F3D59": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:20:06Z"
-    },
-    "SNU-RU-F9CEAC7F19C45B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:19:58Z"
-    },
-    "SNU-RU-E22C821603FAC7": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:19:50Z"
-    },
-    "SNU-RU-AA63ECD2A4FD88": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:19:42Z"
-    },
     "SNU-RU-68989AF9DA9036": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:20:21Z"
@@ -221760,11 +221835,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T14:28:38Z",
-    "checked": 30,
-    "seconds": 345.32,
+    "at": "2026-09-13T14:29:33Z",
+    "checked": 35,
+    "seconds": 399.97,
     "gemini": true,
-    "ai_requests": 22,
+    "ai_requests": 27,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
