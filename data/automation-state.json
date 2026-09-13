@@ -1,5 +1,5 @@
 {
-  "cursor": 1920,
+  "cursor": 1925,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -71160,8 +71160,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-E4ED83E01255C4": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T07:25:34Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-13T19:01:31Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -71170,14 +71170,14 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -71233,7 +71233,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T08:27:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-E4ED83E01255C4"
     },
@@ -71403,7 +71404,7 @@
     },
     "SNU-RU-F55EDC4B73139E": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T07:25:48Z",
+      "checked_at": "2026-09-13T19:01:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -71478,24 +71479,119 @@
       "_unit_id": "SNU-RU-F55EDC4B73139E"
     },
     "SNU-RU-41B656688EA308": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T07:25:34Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-13T19:01:31Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -71549,9 +71645,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T08:27:29Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-41B656688EA308"
+      "_unit_id": "SNU-RU-41B656688EA308",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-1081A33CF8772A": {
       "fingerprint": "ab5b578104c7be819aa5a631f3aa9be83cedc6ef3c4d16b6326e17e3452550e1",
@@ -71679,7 +71777,7 @@
     },
     "SNU-RU-3938280C07DED1": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T07:25:48Z",
+      "checked_at": "2026-09-13T19:01:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -72026,8 +72124,8 @@
       "_unit_id": "SNU-RU-F7094ABFB453F4"
     },
     "SNU-RU-DF3F11C1C3C9F2": {
-      "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
-      "checked_at": "2026-09-13T07:25:47Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-13T19:01:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -72042,8 +72140,8 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -72101,7 +72199,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T07:25:50Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DF3F11C1C3C9F2"
     },
@@ -238821,9 +238920,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T19:00:57Z",
-    "checked": 5,
-    "seconds": 48.11,
+    "at": "2026-09-13T19:01:46Z",
+    "checked": 10,
+    "seconds": 97.09,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
