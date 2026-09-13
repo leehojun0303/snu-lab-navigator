@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const progressUrl='https://raw.githubusercontent.com/leehojun0303/snu-lab-navigator/main/data/automation-progress.json';
+  const bootstrapBase=1595;
   function localStatus(){
     const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
     const meta=window.AUTOMATION_META||{};
@@ -18,7 +19,8 @@
       const r=await fetch(`${progressUrl}?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)return;
       const p=await r.json();
       const badge=document.querySelector('#automationBadge'),status=document.querySelector('#automationStatus'),coverage=document.querySelector('#automationCoverage');
-      const checked=Math.max(0,Number(p.cycle_checked ?? p.checked)||0),total=Math.max(0,Number(p.total)||0),enriched=Math.max(0,Number(p.enriched)||0);
+      const runChecked=Math.max(0,Number(p.cycle_checked ?? p.checked)||0),total=Math.max(0,Number(p.total)||0),enriched=Math.max(0,Number(p.enriched)||0);
+      const checked=Math.min(total||Infinity,Math.max(runChecked,Number(p.cumulative_checked)||0,bootstrapBase+runChecked));
       if(p.status==='running'||p.status==='starting'||p.status==='paused'){
         const limited=p.ai_status==='rate_limited',paused=p.status==='paused';
         if(badge)badge.textContent=limited?`Gemini 한도 대기 · ${checked.toLocaleString()} / ${total.toLocaleString()}`:(paused?`다음 수집 주기 대기 · ${checked.toLocaleString()} / ${total.toLocaleString()}`:(total>0?`수집 중 · ${checked.toLocaleString()} / ${total.toLocaleString()}`:'자동 수집 준비 중'));
