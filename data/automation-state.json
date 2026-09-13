@@ -1,5 +1,5 @@
 {
-  "cursor": 1250,
+  "cursor": 1255,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -7708,8 +7708,8 @@
       "_unit_id": "SNU-RU-D0C6368A72C4F8"
     },
     "SNU-RU-90921E5E3FB27B": {
-      "fingerprint": "2afdaf69e59d98c919e768f25dcaa57cdea2393776709a1915b91d019e1b86de",
-      "checked_at": "2026-09-11T01:48:25Z",
+      "fingerprint": "72341dc4036bf9ab45e6d17bc7677a19751ef1481273ff581d50b8f849b80b58",
+      "checked_at": "2026-09-13T17:06:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -7725,12 +7725,12 @@
           "https://stat.snu.ac.kr/snu__professor/%EC%9E%A5%EC%9B%90/",
           "https://stat.snu.ac.kr",
           "https://www.wonchang.net/CV_WonChang.pdf",
-          "https://admission.snu.ac.kr/index.html",
-          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ec%a1%b8%ec%97%85%ec%83%9d%ec%a7%84%eb%a1%9c/",
-          "https://stat.snu.ac.kr/%ec%9e%85%ed%95%99/%ed%95%99%eb%b6%80%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91/",
           "https://stat.snu.ac.kr/en/people/faculty/",
-          "https://stat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90/%ea%b5%90%ec%88%98/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://stat.snu.ac.kr/snu__professor/%EC%9E%A5%EC%9B%90/#container",
+          "https://stat.snu.ac.kr/snu__professor/%EC%9E%A5%EC%9B%90/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://stat.snu.ac.kr/snu__professor/%EC%9E%A5%EC%9B%90/#none",
+          "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
         ]
       },
       "enrichment": {
@@ -7852,7 +7852,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:53:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-90921E5E3FB27B"
     },
@@ -52952,8 +52953,8 @@
       "_unit_id": "SNU-RU-08ADD4DA84FEE4"
     },
     "SNU-RU-EEBEF86A0FE6F2": {
-      "fingerprint": "17f7b6863e870200fd4520722d2cbb5eaf444003474816d8736d8a9b4127f21f",
-      "checked_at": "2026-09-11T02:19:40Z",
+      "fingerprint": "08941134f7808238b62fd59886b92b356437acdfb51ec76bc55bade5fa48213b",
+      "checked_at": "2026-09-13T17:06:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -52967,6 +52968,11 @@
             "kind": "publication"
           },
           {
+            "title": "Publications",
+            "url": "https://idea.snu.ac.kr/publications/",
+            "kind": "publication"
+          },
+          {
             "title": "Jihu Lee, Kunwoong Kim, Sehyun Park, Insung Kong, Dongyoon Yang, Yongdai Kim (2026). A Fair Bayesian Inference through Matched Gibbs Posterior. ICLR 2026.",
             "url": "https://idea.snu.ac.kr/publication/jihu-lee-kunwoong-kim-sehyun-park-insung-kong-dongyoon-yang-yongdai-kim-2026-a-fair-bayesian-inference-through-matched-gibbs-posterior-iclr-2026/",
             "kind": "publication"
@@ -52974,11 +52980,6 @@
           {
             "title": "Yongdai Kim, Ilsang Ohn, Jae-Kyung Lee and Young-Oh Kim (2019). Generalizing uncertainty decomposition theory in climate change impact assessments. Journal of Hydrology X. 3, 100024.",
             "url": "https://idea.snu.ac.kr/publication/yongdai-kim-ilsang-ohn-jae-kyung-lee-and-young-oh-kim-2019-generalizing-uncertainty-decomposition-theory-in-climate-change-impact-assessments-journal-of-hydrology-x-3-100024/",
-            "kind": "publication"
-          },
-          {
-            "title": "Kim, Yongdai, Kim, Yuwon, Kim, Jinseog, Sangin Lee and Sunghoon Kwon (2009) Boosting on the functional ANOVA decomposition. Statistics and Its Interface. 2. 361-368.",
-            "url": "https://idea.snu.ac.kr/publication/kim-yongdai-kim-yuwon-kim-jinseog-sangin-lee-and-sunghoon-kwon-2009-boosting-on-the-functional-anova-decomposition-statistics-and-its-interface-2-361-368/",
             "kind": "publication"
           }
         ],
@@ -52994,13 +52995,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "[수업] 2026학년도 2학기 통계학과 교과맞춤형(전공) 피어튜터링 튜터-튜티 모집 안내 (~9/11 17시)",
+            "url": "https://stat.snu.ac.kr/32618/",
             "kind": "recruitment"
           },
           {
-            "title": "학부수시모집",
-            "url": "https://stat.snu.ac.kr/%ec%9e%85%ed%95%99/%ed%95%99%eb%b6%80%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91/",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
@@ -53068,8 +53069,8 @@
           "https://idea.snu.ac.kr/",
           "https://stat.snu.ac.kr/snu__professor/%EA%B9%80%EC%9A%A9%EB%8C%80/",
           "https://stat.snu.ac.kr",
-          "https://idea.snu.ac.kr/publications/",
           "https://idea.snu.ac.kr/members/",
+          "https://idea.snu.ac.kr/publications/",
           "https://idea.snu.ac.kr/alumni/",
           "https://idea.snu.ac.kr/#container",
           "https://idea.snu.ac.kr/#footer",
@@ -53078,8 +53079,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-EEBEF86A0FE6F2",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-EEBEF86A0FE6F2"
     },
     "SNU-RU-78FBD7778E3416": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -62733,10 +62733,15 @@
       "_unit_id": "SNU-RU-0B76275E0F57C4"
     },
     "SNU-RU-52F543BB90E1EF": {
-      "fingerprint": "cf524e7ec09d0444ade8066bbfc6a6e532f4d4a51309ea92c909961cb7615a1e",
-      "checked_at": "2026-09-11T02:25:15Z",
+      "fingerprint": "88c3d334cd6154dcd31eb100e318ee17f7c15f6bf5f7b8259e253d334c2ee3f8",
+      "checked_at": "2026-09-13T17:06:04Z",
       "activity": {
         "publicationPages": [
+          {
+            "title": "논문유사도 검색프로그램 “Copykiller” 및 “Turnitin” 활용법 교육 안내",
+            "url": "https://stat.snu.ac.kr/32623/",
+            "kind": "publication"
+          },
           {
             "title": "논문유사도 검색프로그램 “Copykiller” 및 “Turnitin” 활용법 교육 안내",
             "url": "https://stat.snu.ac.kr/32623/",
@@ -62765,17 +62770,17 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "[수업] 2026학년도 2학기 통계학과 교과맞춤형(전공) 피어튜터링 튜터-튜티 모집 안내 (~9/11 17시)",
+            "url": "https://stat.snu.ac.kr/32618/",
             "kind": "recruitment"
           },
           {
-            "title": "학부수시모집",
-            "url": "https://stat.snu.ac.kr/%ec%9e%85%ed%95%99/%ed%95%99%eb%b6%80%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91/",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://stat.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ec%a1%b8%ec%97%85%ec%83%9d%ec%a7%84%eb%a1%9c/",
+        "membersUrl": "https://stat.snu.ac.kr/en/people/faculty/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -62783,7 +62788,7 @@
             "alt": "서울대학교 통계학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/sites/36/2021/02/jisu.jpg",
@@ -62797,60 +62802,59 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/sites/36/2021/02/icon_main_intro_01-2.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/sites/36/2021/02/icon_main_intro_02-2.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/sites/36/2021/02/icon_main_intro_03-2.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/editor/36/EDITOR_20260908014648_8TQxG3CWvu.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           },
           {
             "url": "https://stat.snu.ac.kr/wp-content/uploads/editor/36/EDITOR_20260908014652_02wEDSzeIL.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://stat.snu.ac.kr"
+            "parent_source_url": "https://stat.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://jkim82133.github.io/",
           "https://stat.snu.ac.kr/snu__professor/%EA%B9%80%EC%A7%80%EC%88%98/",
           "https://stat.snu.ac.kr",
+          "https://stat.snu.ac.kr/",
           "https://jkim82133.github.io/index.html",
           "https://jkim82133.github.io/research.html",
           "https://jkim82133.github.io/software.html",
           "https://jkim82133.github.io/teaching.html",
           "https://jkim82133.github.io/cv_Jisu_KIM.pdf",
-          "https://jkim82133.github.io/files/20260825_tda_easiam_Jisu_KIM.pdf",
-          "https://etl.snu.ac.kr/passni/sso/spLogin.php"
+          "https://jkim82133.github.io/files/20260825_tda_easiam_Jisu_KIM.pdf"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-52F543BB90E1EF",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-52F543BB90E1EF"
     },
     "SNU-RU-C7748FFA0A9414": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -85907,8 +85911,8 @@
       "_unit_id": "SNU-RU-0EF7C066237748"
     },
     "SNU-RU-45C62B62DBAD8E": {
-      "fingerprint": "98a31de6625ef8eac389681d60cd5b7c1384b60cc838a95d1ed2fde9ed740345",
-      "checked_at": "2026-09-11T02:37:33Z",
+      "fingerprint": "d73e14495b5d95a19d4898b0ff8eaf3c07968c91c7ce875131650d201f44ec8c",
+      "checked_at": "2026-09-13T17:06:06Z",
       "activity": {
         "publicationPages": [
           {
@@ -86009,17 +86013,16 @@
           "https://stat.snu.ac.kr/snu__professor/%EB%AC%B8%ED%95%98%EC%9D%80/",
           "https://snuti.snu.ac.kr",
           "https://sites.google.com/view/haeunmoon/people",
+          "https://stat.snu.ac.kr/",
           "https://sites.google.com/view/haeunmoon/about",
           "https://sites.google.com/view/haeunmoon/research",
           "https://sites.google.com/view/haeunmoon/teaching",
           "https://sites.google.com/view/haeunmoon/resources",
-          "https://sites.google.com/view/haeunmoon#h.puvognqol676",
-          "https://stat.snu.ac.kr/"
+          "https://sites.google.com/view/haeunmoon#h.puvognqol676"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-45C62B62DBAD8E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-45C62B62DBAD8E"
     },
     "SNU-RU-876FAF4707A260": {
       "fingerprint": "533a2107685f9048fe4687ea9a0d97a72257c6b38e59a81e1c587d8b46744c34",
@@ -88102,8 +88105,8 @@
       "_unit_id": "SNU-RU-DC778E8A56817F"
     },
     "SNU-RU-6ECAB822CC171D": {
-      "fingerprint": "c23d15efa686753559c58230b839b15912e3cc0a8dca1dc35b060c6ef815b1c6",
-      "checked_at": "2026-09-11T02:38:26Z",
+      "fingerprint": "3dcb40497c1144993edb8a6c309b44505bda3a372136a4d92add3d4b7ef53b5e",
+      "checked_at": "2026-09-13T17:06:03Z",
       "activity": {
         "publicationPages": [
           {
@@ -88149,8 +88152,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "[수업] 2026학년도 2학기 통계학과 교과맞춤형(전공) 피어튜터링 튜터-튜티 모집 안내 (~9/11 17시)",
+            "url": "https://stat.snu.ac.kr/32618/",
             "kind": "recruitment"
           }
         ],
@@ -88221,15 +88224,15 @@
           "https://sites.google.com/view/gwpark/people",
           "https://sites.google.com/view/gwpark/publications",
           "https://sites.google.com/view/gwpark/boards/relavant-journals",
+          "https://sites.google.com/view/gwpark/boards/award",
           "https://sites.google.com/view/gwpark/boards/joint-workshop",
           "https://sites.google.com/view/gwpark/home",
-          "https://sites.google.com/view/gwpark/code",
-          "https://sites.google.com/view/gwpark/projects"
+          "https://sites.google.com/view/gwpark/code"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-6ECAB822CC171D",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E55207F1C9698B": {
       "fingerprint": "18d1e339224e640a0752904cd1f0ed33a1b23706ec6dace855b28ae3a32f4037",
@@ -230180,26 +230183,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
     },
-    "SNU-RU-6ECAB822CC171D": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:43Z"
-    },
-    "SNU-RU-52F543BB90E1EF": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:51Z"
-    },
-    "SNU-RU-45C62B62DBAD8E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:22:59Z"
-    },
-    "SNU-RU-90921E5E3FB27B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:23:07Z"
-    },
-    "SNU-RU-EEBEF86A0FE6F2": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:23:15Z"
-    },
     "SNU-RU-D2D50A607A9CA4": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:23:49Z"
@@ -231934,9 +231917,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:05:41Z",
+    "at": "2026-09-13T17:06:24Z",
     "checked": 5,
-    "seconds": 26.22,
+    "seconds": 28.71,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
