@@ -4,7 +4,7 @@
 The wrapper preserves the collector's state/cursor, evidence, Gemini and quality
 rules. It only improves discovery of official faculty profiles on nested sites.
 """
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 import collector_entry as entry
 
 collector = entry.collector
@@ -25,19 +25,49 @@ def _art_url(url):
     return (urlparse(str(url or "")).hostname or "").lower() == "art.snu.ac.kr"
 
 
+def _verified_profile(url, professor):
+    try:
+        candidate = collector.page(url, 0)
+    except Exception:
+        return ""
+    text = collector.norm(candidate.text)
+    # Individual SNU Art pages expose the professor name near the top and use
+    # /members/ URLs. Never accept a guessed URL unless the fetched page itself
+    # verifies the target professor name.
+    if "/members/" in candidate.url and professor in text:
+        return candidate.url
+    return ""
+
+
 def _find_art_profile(unit):
-    """Find the current professor's official /members/ page without storing names/URLs."""
+    """Find this professor's official SNU Art /members/ page without hardcoded people."""
     professor = collector.norm(unit.get("name"))
     if not professor:
         return ""
+
+    # SNU Art uses stable percent-encoded professor slugs. Try the canonical
+    # forms first, but accept them only after fetching and verifying the name.
+    slug = quote(professor, safe="")
+    for url in (
+        f"https://art.snu.ac.kr/members/{slug}/",
+        f"https://art.snu.ac.kr/members/{slug}-2/",
+    ):
+        verified = _verified_profile(url, professor)
+        if verified:
+            return verified
+
     starts = []
     for key in ("profile", "departmentUrl", "homepage"):
         url = collector.clean_url(unit.get(key))
         if url and _art_url(url) and url not in starts:
             starts.append(url)
+    # Always retain the official college faculty surface as a generic fallback.
+    if "https://art.snu.ac.kr/" not in starts:
+        starts.append("https://art.snu.ac.kr/")
+
     queue = [(url, 0) for url in starts]
     seen = set()
-    while queue and len(seen) < 18:
+    while queue and len(seen) < 24:
         url, depth = queue.pop(0)
         if url in seen or depth > 3:
             continue
@@ -46,20 +76,16 @@ def _find_art_profile(unit):
             page = collector.page(url, depth)
         except Exception:
             continue
-        # Exact visible professor-name links are strongest evidence.
         exact = [x for x in page.links if _art_url(x.get("url")) and collector.norm(x.get("title")) == professor]
-        if exact:
-            return exact[0]["url"]
-        # SNU Art individual profiles use /members/; only accept a fetched page
-        # when the target professor name is actually present in that page text.
+        for link in exact:
+            verified = _verified_profile(link["url"], professor)
+            if verified:
+                return verified
         member_links = [x for x in page.links if _art_url(x.get("url")) and "/members/" in x.get("url", "")]
-        for link in member_links[:16]:
-            try:
-                candidate = collector.page(link["url"], depth + 1)
-            except Exception:
-                continue
-            if professor in collector.norm(candidate.text):
-                return candidate.url
+        for link in member_links[:20]:
+            verified = _verified_profile(link["url"], professor)
+            if verified:
+                return verified
         nav = []
         for link in page.links:
             if not _art_url(link.get("url")) or link.get("url") in seen:
@@ -78,7 +104,11 @@ def navigation_scan(unit, key, model, prev, budget):
     if not profile:
         return _original_scan(unit, key, model, prev, budget)
     enriched_unit = dict(unit)
+    # Put the verified individual page first in the normal collector roots so
+    # URL Context sees the same authoritative page that supplied the successful
+    # Kim Jeong-han / Park Kwan-taek exhibition records.
     enriched_unit["profile"] = profile
+    enriched_unit["homepage"] = profile
     return _original_scan(enriched_unit, key, model, prev, budget)
 
 
