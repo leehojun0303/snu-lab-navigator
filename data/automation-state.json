@@ -1,5 +1,5 @@
 {
-  "cursor": 120,
+  "cursor": 125,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -20392,8 +20392,8 @@
       "_unit_id": "SNU-RU-E720F805E53B9D"
     },
     "SNU-RU-6426D3EFF96672": {
-      "fingerprint": "fe32931641d0270a6a19861b50b15af4b57339bdd20b6de48c7c17da0a55031e",
-      "checked_at": "2026-09-13T14:34:47Z",
+      "fingerprint": "1f9e024928419a5b7a0eb79998fcd45b424539e1f67d792ea9518d9181829915",
+      "checked_at": "2026-09-13T22:45:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -20474,7 +20474,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:35:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-6426D3EFF96672"
     },
@@ -22603,27 +22604,118 @@
       "_unit_id": "SNU-RU-151979BDC1F26E"
     },
     "SNU-RU-33DFF092306307": {
-      "fingerprint": "2e0435194370b2ef912f6d380112b411acb970056f0e4b156956f621a00d0243",
-      "checked_at": "2026-09-13T14:34:42Z",
+      "fingerprint": "cc4f0107a9049d80e1666e3e96481a603f1103584d1c35cea0eb612c7adb9d25",
+      "checked_at": "2026-09-13T22:45:26Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "http://aone.snu.ac.kr/pub_SCI.html"
+            "url": "http://aone.snu.ac.kr/pub_SCI.html",
+            "kind": "publication"
           },
           {
             "title": "Journal(non-SCIE)",
-            "url": "http://aone.snu.ac.kr/pub_nonSCI.html"
+            "url": "http://aone.snu.ac.kr/pub_nonSCI.html",
+            "kind": "publication"
+          },
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+            "kind": "publication"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+            "kind": "publication"
+          },
+          {
+            "title": "이종호 교수 연구팀, Advanced Science 표지 논문 선정",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+            "kind": "recruitment"
+          },
+          {
+            "title": "취업ㆍ진로",
+            "url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "http://aone.snu.ac.kr/member.html",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "http://aone.snu.ac.kr/gal/2026graduation_2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://aone.snu.ac.kr/"
+          },
+          {
+            "url": "https://img.etnews.com/news/article/2026/07/15/news-p.v1.20260715.f245ad1c27384b3d80ee090eef3fd7b8_P1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://aone.snu.ac.kr/"
+          },
+          {
+            "url": "https://advanced.onlinelibrary.wiley.com/cms/asset/3003e35d-fb07-4a75-ab54-fb6129cf07a6/aenm70927-gra-0001-m.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://aone.snu.ac.kr/"
+          },
+          {
+            "url": "http://aone.snu.ac.kr/logo.webp",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://aone.snu.ac.kr/pub_nonSCI.html"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/professor/086zd8dz634z9faz87cza67z703zca1z15fza7czac.jpg",
+            "alt": "곽정훈 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p834"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p834"
+          }
+        ],
         "sourcePagesScanned": [
           "http://aone.snu.ac.kr/",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p834",
@@ -22717,9 +22809,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:34:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-33DFF092306307"
+      "_unit_id": "SNU-RU-33DFF092306307",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-7472A1DEF6653A": {
       "fingerprint": "10a0edbfa5ffc1aa513588ae209c9eb8214a9e16acd9c01f59ccbbda050404de",
@@ -111661,8 +111755,8 @@
       "_unit_id": "SNU-RU-DC8F99BF345EC8"
     },
     "SNU-RU-E3CE6F29894ED3": {
-      "fingerprint": "6117fc3cb2f240e4ce40e0103f6a317ddb6c109aeacb48f7926b3ba1488c6f16",
-      "checked_at": "2026-09-13T14:34:44Z",
+      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
+      "checked_at": "2026-09-13T22:45:28Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -111740,7 +111834,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:34:59Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-E3CE6F29894ED3"
     },
@@ -126200,8 +126295,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-33225B7ACB7BE7": {
-      "fingerprint": "6117fc3cb2f240e4ce40e0103f6a317ddb6c109aeacb48f7926b3ba1488c6f16",
-      "checked_at": "2026-09-13T14:34:44Z",
+      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
+      "checked_at": "2026-09-13T22:45:28Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -126279,7 +126374,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:35:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-33225B7ACB7BE7"
     },
@@ -129689,8 +129785,8 @@
       "_unit_id": "SNU-RU-039B51A9A93F81"
     },
     "SNU-RU-7F232E0BF51BE8": {
-      "fingerprint": "6117fc3cb2f240e4ce40e0103f6a317ddb6c109aeacb48f7926b3ba1488c6f16",
-      "checked_at": "2026-09-13T14:34:44Z",
+      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
+      "checked_at": "2026-09-13T22:45:27Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -129768,7 +129864,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:35:07Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-7F232E0BF51BE8"
     },
@@ -244329,9 +244426,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:45:00Z",
+    "at": "2026-09-13T22:45:30Z",
     "checked": 5,
-    "seconds": 23.85,
+    "seconds": 17.66,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
