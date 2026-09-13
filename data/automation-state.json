@@ -1,5 +1,5 @@
 {
-  "cursor": 75,
+  "cursor": 80,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -11284,17 +11284,39 @@
     },
     "SNU-RU-587BAB7602A022": {
       "fingerprint": "eacbab37f58e67fce1345e3438531b80a123c4690db204cfdf87ac6c23f90769",
-      "checked_at": "2026-09-12T03:08:40Z",
+      "checked_at": "2026-09-13T14:26:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "SCI(E) papers",
-            "url": "https://kang-lab.snu.ac.kr/publications/scie-papers"
+            "url": "https://kang-lab.snu.ac.kr/publications/scie-papers",
+            "kind": "publication"
+          },
+          {
+            "title": "KCI papers",
+            "url": "https://kang-lab.snu.ac.kr/publications/kci-papers",
+            "kind": "publication"
+          },
+          {
+            "title": "Patents",
+            "url": "https://kang-lab.snu.ac.kr/publications/patents",
+            "kind": "publication"
+          },
+          {
+            "title": "Other publications",
+            "url": "https://kang-lab.snu.ac.kr/publications/other-publications",
+            "kind": "publication"
+          },
+          {
+            "title": "SCI(E) papers",
+            "url": "https://kang-lab.snu.ac.kr/publications/scie-papers",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [],
         "membersUrl": "https://kang-lab.snu.ac.kr/members/professor",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://kang-lab.snu.ac.kr/",
           "https://ere.snu.ac.kr",
@@ -11473,7 +11495,8 @@
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v3_paper_insights"
       },
-      "_unit_id": "SNU-RU-587BAB7602A022"
+      "_unit_id": "SNU-RU-587BAB7602A022",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-587FBD1235327B": {
       "fingerprint": "50e9596d78ae0b0d0dd78fe971d5076bded1ff722809aad7cbe75483e3e163c0",
@@ -12807,7 +12830,7 @@
     },
     "SNU-RU-9E9F88D1023FFA": {
       "fingerprint": "029c2356958f30ca78b6285e78b9e043df8bcbd1144e645388d8ddace2964bc0",
-      "checked_at": "2026-09-12T03:08:47Z",
+      "checked_at": "2026-09-13T14:26:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -12816,7 +12839,7 @@
           }
         ],
         "recruitmentPages": [],
-        "membersUrl": "https://snuti.snu.ac.kr/commt/professor/",
+        "membersUrl": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://eee.snu.ac.kr/",
@@ -12832,56 +12855,45 @@
         ]
       },
       "enrichment": {
-        "research_summary": "전기화학에너지공학 분야를 연구하며, 특히 탄소 전극의 표면 전기화학, 전기화학적 이산화탄소 분리, 리튬 회수 및 에너지 저장 장치 관련 연구를 수행하고 있습니다.",
+        "research_summary": "전기화학에너지공학 분야를 연구하며, 특히 탄소 전극의 표면 전기화학, 전기화학적 탈염, 에너지 저장 및 변환 장치(태양전지, 촉매 등)와 관련된 연구를 수행하고 있습니다.",
         "research_topics": [
           "전기화학에너지공학",
-          "탄소 전극 표면 전기화학",
-          "전기화학적 이산화탄소 분리",
-          "전기화학적 리튬 회수",
+          "표면 전기화학",
+          "전기화학적 탈염",
           "에너지 저장 및 변환"
         ],
         "recommendation_keywords": [
           "전기화학",
           "에너지공학",
           "탄소 전극",
-          "이산화탄소 분리",
-          "리튬 회수",
+          "전기화학적 탈염",
+          "촉매",
           "전기화학에너지공학",
-          "탄소 전극 표면 전기화학",
-          "전기화학적 이산화탄소 분리",
-          "전기화학적 리튬 회수",
+          "표면 전기화학",
           "에너지 저장 및 변환"
         ],
         "recent_papers": [
           {
             "title": "Platinum/tantalum carbide core-shell nanoparticles with sub-monolayer shells for methanol and oxygen electrocatalysis",
-            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
             "year": "2024",
             "venue": "Advanced Energy Materials",
-            "summary": "메탄올 및 산소 전기촉매 반응을 위한 아원자층 껍질을 가진 백금/탄탈륨 탄화물 코어-쉘 나노입자에 관한 연구입니다."
+            "summary": "메탄올 및 산소 전기촉매를 위한 아원자층 껍질을 가진 백금/탄탈륨 탄화물 코어-쉘 나노입자 연구."
           },
           {
             "title": "Electrochemical methods for carbon dioxide separations",
-            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
             "year": "2022",
             "venue": "Nature Reviews Methods Primers",
-            "summary": "이산화탄소 분리를 위한 전기화학적 방법론을 종합적으로 검토한 논문입니다."
+            "summary": "이산화탄소 분리를 위한 전기화학적 방법론에 대한 리뷰."
           },
           {
             "title": "Surface electrochemistry of carbon electrodes and Faradaic reactions in capacitive deionization",
-            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
             "year": "2022",
             "venue": "Environmental Science & Technology",
-            "summary": "용량성 탈이온화 공정에서의 탄소 전극 표면 전기화학 및 패러데이 반응을 분석한 연구입니다."
+            "summary": "용량성 탈이온화에서 탄소 전극의 표면 전기화학 및 패러데이 반응 연구."
           }
         ],
-        "recent_year_paper_count": 1,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Advanced Energy Materials",
-            "count": 1
-          }
-        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -12889,19 +12901,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 화학생물공학부에서 학사 및 박사 학위를 취득하였습니다.",
+        "education_summary": "2015년 서울대학교 화학생물공학부에서 공학박사 학위를 취득하였으며, 2012년 동 학부에서 공학사 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "강진수 - 서울대학교 첨단융합학부",
             "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/"
           }
         ],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snuti.snu.ac.kr/commt/professor/",
+        "member_page_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -12921,19 +12933,15 @@
           "https://eee.snu.ac.kr/home",
           "https://eee.snu.ac.kr/news",
           "https://snuti.snu.ac.kr/17904/",
-          "https://admission.snu.ac.kr/",
-          "https://admission.snu.ac.kr",
-          "https://snuti.snu.ac.kr/18051/",
-          "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/11/강진수-1.jpg",
-          "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png"
+          "https://admission.snu.ac.kr/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E9F88D1023FFA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:09:05Z",
+        "_saved_at": "2026-09-13T14:27:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-9E9F88D1023FFA"
     },
@@ -86294,10 +86302,15 @@
     },
     "SNU-RU-6C0374C4367BA0": {
       "fingerprint": "7a1e3473ebd90218915e3be270f993ceee8ec7d57ea2a92a16183b3720d2c54d",
-      "checked_at": "2026-09-12T03:08:43Z",
+      "checked_at": "2026-09-13T14:26:56Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "서울대학교 암반공학연구실",
+            "url": "https://rockeng.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -86311,7 +86324,12 @@
         ]
       },
       "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -86319,18 +86337,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [],
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "member_page_url": "",
+        "recruitment_summary": "2026학년도 1학기 대학원 인턴십 채용 공고가 게시된 바 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "서울대학교 암반공학연구실",
+            "url": "https://rockeng.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://rockeng.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "recommendation_keywords": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "member_page_url": "",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -86349,11 +86368,13 @@
           "https://rockeng.snu.ac.kr/DEV/atch/rsrchlab/7/file/dcb21815-29c7-48d4-b7e6-c3f88418779c__P1020967.JPG",
           "https://rockeng.snu.ac.kr/images/common/ico_top.png"
         ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6C0374C4367BA0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:08:57Z",
+        "_saved_at": "2026-09-13T14:27:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6C0374C4367BA0"
     },
@@ -178673,7 +178694,7 @@
     },
     "SNU-RU-EF3CD6CC057EEC": {
       "fingerprint": "6037516c8795b71e9a0c5e796300fdfc7662bdfef2312ab70f49a1f8f8223dd7",
-      "checked_at": "2026-09-12T03:08:51Z",
+      "checked_at": "2026-09-13T14:27:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -178681,7 +178702,16 @@
             "url": "https://fre.snu.ac.kr/publication-list/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
         "membersUrl": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -178698,48 +178728,39 @@
         ]
       },
       "enrichment": {
-        "research_summary": "금융공학, 확률모형, 웨이블렛 분석을 기반으로 딥러닝 및 강화학습을 활용한 금융 시계열 예측과 투자 전략 연구를 수행하고 있습니다.",
+        "research_summary": "장우진 교수는 서울대학교 산업공학과 금융리스크 공학 연구실(Financial Risk Engineering Lab)을 이끌고 있으며, 금융공학, 확률모형, 웨이블렛 분석을 중심으로 연구를 수행하고 있습니다. 주요 연구 분야는 딥러닝 기반의 금융 시계열 예측, 강화학습을 활용한 트레이딩 전략, 그리고 위험 관리 모델링 등을 포함합니다.",
         "research_topics": [
           "금융공학",
           "확률모형",
           "웨이블렛 분석",
           "딥러닝 기반 금융 예측",
-          "강화학습 기반 트레이딩"
+          "강화학습 트레이딩"
         ],
         "recommendation_keywords": [
           "금융공학",
           "확률모형",
           "웨이블렛 분석",
+          "금융리스크",
           "딥러닝",
-          "강화학습",
           "딥러닝 기반 금융 예측",
-          "강화학습 기반 트레이딩"
+          "강화학습 트레이딩"
         ],
         "recent_papers": [
           {
             "title": "Maximizing the risk-adjusted return of classification model-based investments",
             "url": "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
-            "year": "null",
-            "venue": "null",
-            "summary": "분류 모델 기반 투자에서 위험 조정 수익률을 극대화하는 방법론을 연구하였습니다."
-          },
-          {
-            "title": "Forecasting realized volatility using deep learning quantile function",
-            "url": "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
-            "year": "null",
-            "venue": "null",
-            "summary": "딥러닝 분위수 함수를 활용하여 실현 변동성을 예측하는 모델을 제안하였습니다."
-          },
-          {
-            "title": "NQF-RNN: probabilistic forecasting via neural quantile function-based recurrent neural networks",
-            "url": "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
-            "year": "null",
-            "venue": "null",
-            "summary": "신경망 분위수 함수 기반 순환 신경망을 통해 확률적 예측을 수행하는 모델을 개발하였습니다."
+            "year": "2026",
+            "venue": "Applied Soft Computing",
+            "summary": "분류 모델 기반 투자의 위험 조정 수익률을 극대화하는 방법론을 제안함."
           }
         ],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_year_paper_count": 1,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Applied Soft Computing",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -178747,16 +178768,25 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 산업공학과에서 금융공학 및 관련 분야의 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "Publication",
             "url": "https://fre.snu.ac.kr/publication-list/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 산업공학과 대학원은 전기 및 후기 모집을 통해 신입생을 선발하며, 지원자는 희망 연구실을 지정하여 제출해야 합니다. 입학 전형은 서류 심사 및 면접(지필형 심층면접 포함)으로 진행됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "recruitment_source_url": "https://ie.snu.ac.kr/grad_admission/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
@@ -178768,31 +178798,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
-          "https://fre.snu.ac.kr/publication-list/",
           "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
-          "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
-          "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://ie.snu.ac.kr/grad_admission/",
           "https://fre.snu.ac.kr/",
           "https://ie.snu.ac.kr",
+          "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
           "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
           "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
-          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6398",
-          "https://admission.snu.ac.kr/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
-          "https://fre.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-          "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/12/shutterstock_2113411355.jpg",
-          "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/12/shutterstock_2375508667.jpg"
+          "https://fre.snu.ac.kr/publication-list/",
+          "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
+          "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
+          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EF3CD6CC057EEC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:09:11Z",
+        "_saved_at": "2026-09-13T14:27:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-EF3CD6CC057EEC"
     },
@@ -208057,94 +208082,76 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-03F54F9A62EBEF": {
-      "fingerprint": "f303265f516ace31d62a62af4b1cd179fad9d089089e16fb8698b81121dda4a8",
-      "checked_at": "2026-09-12T03:08:56Z",
+      "fingerprint": "777d2d3ae1bfebd9be833ca8c3e2e1483a2471e67ffb5c14c62245c7749c1293",
+      "checked_at": "2026-09-13T14:27:09Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journal - PSE Lab. | 제품·서비스공학연구실",
-            "url": "https://product.snu.ac.kr/journal/"
+            "title": "Publication",
+            "url": "https://product.snu.ac.kr/journal"
           }
         ],
         "recruitmentPages": [],
         "membersUrl": "https://product.snu.ac.kr/students/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://product.snu.ac.kr/",
-          "https://ie.snu.ac.kr",
+          "https://product.snu.ac.kr/article/?mod=document&uid=91",
+          "https://product.snu.ac.kr/professor/",
           "https://product.snu.ac.kr/students/",
           "https://product.snu.ac.kr/alumni/",
           "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/publication/variant-level-interface-standardization-methodology-for-complexity-reduction-in-product-family-design/",
           "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/",
-          "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/",
-          "https://product.snu.ac.kr/article/?mod=document&uid=91"
+          "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/"
         ]
       },
       "enrichment": {
-        "research_summary": "제품과 서비스의 체계적 분석을 통해 최적의 시스템을 설계하는 방법을 연구하며, 제품 개발 과정의 의사결정 합리화, 설계 최적화, 제품 아키텍처 및 서비스 과학 분야를 다룹니다.",
+        "research_summary": "제품·서비스공학연구실(PSE Lab.)을 운영하며 제품 서비스 융합을 통한 가치혁신, 아키텍처 기반의 시스템 분석 및 개발, 개발 프로세스의 효율성, 위험 및 품질 관리, 제품 서비스 설계 분야를 연구합니다.",
         "research_topics": [
-          "제품 서비스 융합을 통한 가치혁신",
-          "아키텍처 기반의 시스템 분석 및 개발",
-          "개발 프로세스의 효율, 위험, 품질 관리",
+          "제품 서비스 융합",
+          "가치혁신",
+          "아키텍처 기반 시스템 분석 및 개발",
+          "개발 프로세스 효율화",
+          "위험 및 품질 관리",
           "제품 서비스 설계"
         ],
         "recommendation_keywords": [
-          "제품 서비스 융합을 통한 가치혁신",
-          "아키텍처 기반의 시스템 분석 및 개발",
-          "개발 프로세스의 효율",
-          "위험",
-          "품질 관리",
+          "제품 서비스 융합",
+          "가치혁신",
+          "시스템 아키텍처",
+          "시스템 분석",
           "제품 서비스 설계",
-          "개발 프로세스의 효율, 위험, 품질 관리"
+          "아키텍처 기반 시스템 분석 및 개발",
+          "개발 프로세스 효율화",
+          "위험 및 품질 관리"
         ],
         "recent_papers": [
           {
             "title": "Variant-level Interface Standardization Methodology for Complexity Reduction in Product Family Design",
             "url": "https://product.snu.ac.kr/publication/variant-level-interface-standardization-methodology-for-complexity-reduction-in-product-family-design/",
-            "year": "2026",
-            "venue": "Journal of Mechanical Design",
-            "summary": "제품군 설계에서 복잡성을 줄이기 위해 변형 수준의 인터페이스 표준화 방법론을 제안합니다."
+            "year": "null",
+            "venue": "null",
+            "summary": "제품군 설계에서 복잡성을 줄이기 위한 변형 수준의 인터페이스 표준화 방법론을 제시합니다."
           },
           {
             "title": "Variant mode and effects analysis for effective product family expansion under modular architecture",
             "url": "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/",
-            "year": "2025",
-            "venue": "Journal of Engineering Design",
-            "summary": "모듈형 아키텍처 하에서 효과적인 제품군 확장을 위한 변형 모드 및 영향 분석을 연구합니다."
+            "year": "null",
+            "venue": "null",
+            "summary": "모듈형 아키텍처 하에서 효과적인 제품군 확장을 위한 변형 모드 및 영향 분석 연구입니다."
           },
           {
             "title": "A Framework for Designing Zonal Architectures for In-Vehicle Networks: Balancing Communication Load and Wiring Length",
             "url": "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/",
-            "year": "2024",
-            "venue": "IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY",
-            "summary": "차량 내 네트워크의 통신 부하와 배선 길이를 균형 있게 고려한 구역 아키텍처 설계 프레임워크를 제시합니다."
+            "year": "null",
+            "venue": "null",
+            "summary": "차량 내 네트워크를 위한 영역 아키텍처 설계 프레임워크로, 통신 부하와 배선 길이를 균형 있게 최적화하는 방법을 다룹니다."
           }
         ],
-        "recent_year_paper_count": 6,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Journal of Mechanical Design",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Engineering Design",
-            "count": 2
-          },
-          {
-            "venue": "IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY",
-            "count": 1
-          },
-          {
-            "venue": "International Journal of Production Research",
-            "count": 1
-          },
-          {
-            "venue": "IEEE Access",
-            "count": 1
-          }
-        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -208152,92 +208159,47 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Journal - PSE Lab. | 제품·서비스공학연구실",
-            "url": "https://product.snu.ac.kr/journal/"
+            "title": "Publication",
+            "url": "https://product.snu.ac.kr/journal"
           }
         ],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
-        "current_members": [
-          {
-            "name": "김대영",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "오상현",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "민광기",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "강소라",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "박태영",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "백민재",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "류준열",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          },
-          {
-            "name": "조성원",
-            "role": "Ph.D. Candidates",
-            "url": "https://product.snu.ac.kr/students/"
-          }
-        ],
+        "current_members": [],
         "alumni": [],
         "member_page_url": "https://product.snu.ac.kr/students/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "서울대학교 PSE Lab. | 제품·서비스공학연구실",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://product.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+        "poster_source_url": "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/",
+        "poster_evidence": "연구실 공식 로고 및 명칭 확인",
         "source_urls_used": [
           "https://product.snu.ac.kr/",
-          "https://product.snu.ac.kr/journal/",
-          "https://product.snu.ac.kr/students/",
-          "https://ie.snu.ac.kr",
-          "https://product.snu.ac.kr/alumni/",
+          "https://product.snu.ac.kr/journal",
           "https://product.snu.ac.kr/publication/variant-level-interface-standardization-methodology-for-complexity-reduction-in-product-family-design/",
           "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/",
           "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/",
           "https://product.snu.ac.kr/article/?mod=document&uid=91",
-          "https://product.snu.ac.kr/journal",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6398",
-          "https://admission.snu.ac.kr/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://product.snu.ac.kr/professor/",
+          "https://product.snu.ac.kr/students/",
+          "https://product.snu.ac.kr/alumni/",
+          "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-          "https://product.snu.ac.kr/wp-content/uploads/sites/96/2024/07/김대영.jpg"
+          "https://product.snu.ac.kr/wordpress/wp-content/uploads/2015/12/20151216_052325-300x196.jpg"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-03F54F9A62EBEF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:09:19Z",
+        "_saved_at": "2026-09-13T14:27:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-03F54F9A62EBEF"
     },
@@ -219755,26 +219717,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-587BAB7602A022": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:18:07Z"
-    },
-    "SNU-RU-6C0374C4367BA0": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:18:23Z"
-    },
-    "SNU-RU-9E9F88D1023FFA": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:18:15Z"
-    },
-    "SNU-RU-EF3CD6CC057EEC": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:18:31Z"
-    },
-    "SNU-RU-03F54F9A62EBEF": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:18:39Z"
-    },
     "SNU-RU-6E5D0FD6BFDE9D": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:18:55Z"
@@ -221781,11 +221723,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T14:26:46Z",
-    "checked": 20,
-    "seconds": 233.64,
+    "at": "2026-09-13T14:27:37Z",
+    "checked": 25,
+    "seconds": 284.04,
     "gemini": true,
-    "ai_requests": 13,
+    "ai_requests": 17,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
