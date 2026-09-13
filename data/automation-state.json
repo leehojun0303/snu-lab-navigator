@@ -1,5 +1,5 @@
 {
-  "cursor": 35,
+  "cursor": 40,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -48631,8 +48631,8 @@
       "_unit_id": "SNU-RU-436BA3CB9151DC"
     },
     "SNU-RU-0C1591B44492F0": {
-      "fingerprint": "f67aa8513bbe4a48d01596d09bede0d39d8b1cccaa050c85614334b5d884e773",
-      "checked_at": "2026-09-12T03:00:17Z",
+      "fingerprint": "25ebbcc604517f2250ea26f9e7155113852fe907c04bde962d9ad9a37a16e71b",
+      "checked_at": "2026-09-13T08:26:48Z",
       "activity": {
         "publicationPages": [
           {
@@ -48653,78 +48653,82 @@
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%95%84%EC%98%81-kim-ayoung/",
           "https://me.snu.ac.kr",
           "https://ayoungk.github.io/contact",
-          "https://rpm.snu.ac.kr/",
           "https://en.snu.ac.kr/index.html",
           "https://ayoungk.github.io/schedule",
           "https://admission.snu.ac.kr/index.html",
           "https://admission.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/personal_information"
+          "https://www.snu.ac.kr/personal_information",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%95%84%EC%98%81-kim-ayoung/#footer"
         ]
       },
       "enrichment": {
-        "research_summary": "김아영 교수는 로봇 인식, 공간 지능, 다중 모달 SLAM 및 물리 기반 AI 분야를 연구하며, 특히 자율 주행 및 로봇의 환경 인식 능력을 향상시키는 기술을 개발하고 있습니다.",
+        "research_summary": "김아영 교수는 로봇 인식, 공간 지능, 다중 모달 SLAM 및 물리 기반 AI 분야를 연구하며, 특히 로봇 자율 주행을 위한 인식 및 환경 이해 기술에 집중하고 있습니다.",
         "research_topics": [
-          "Robotic Perception",
-          "Spatial AI",
-          "Multi-modal SLAM",
-          "Physical AI"
+          "로봇 인식 (Robotic Perception)",
+          "공간 지능 (Spatial AI)",
+          "다중 모달 SLAM (Multi-modal SLAM)",
+          "물리 기반 AI (Physical AI)"
         ],
         "recommendation_keywords": [
           "로보틱스",
-          "인식기반 지능적 환경 인식",
-          "로봇 자율 주행",
-          "센서 융합",
           "SLAM",
-          "Robotic Perception",
-          "Spatial AI",
-          "Multi-modal SLAM",
-          "Physical AI"
+          "자율 주행",
+          "공간 지능",
+          "로봇 인식",
+          "로봇 인식 (Robotic Perception)",
+          "공간 지능 (Spatial AI)",
+          "다중 모달 SLAM (Multi-modal SLAM)",
+          "물리 기반 AI (Physical AI)"
         ],
         "recent_papers": [
           {
-            "title": "GaRLILEO",
-            "url": "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=cynoh-2026-ijrr",
-            "year": "2026",
-            "venue": "IJRR",
-            "summary": "중력 정렬 레이더-다리-관성 주행 거리 측정 기술을 제안합니다."
-          },
-          {
-            "title": "TRaIL-Odom",
-            "url": "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=cynoh-2026-ral",
-            "year": "2026",
-            "venue": "RA-L",
-            "summary": ""
-          },
-          {
-            "title": "X-spectral Stereo VINS",
-            "url": "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=ssyun-2026-ral",
-            "year": "2026",
-            "venue": "RA-L",
-            "summary": ""
-          }
-        ],
-        "books": [
-          {
-            "title": "SLAM Handbook",
+            "title": "GaRLILEO: Gravity-aligned radar-leg-inertial odometry",
             "url": "https://ayoungk.github.io/",
             "year": "2026",
-            "venue": "Cambridge University Press"
+            "venue": "IJRR",
+            "summary": "중력 정렬을 이용한 레이더-다리-관성 주행 거리 측정 기술을 제안합니다."
+          },
+          {
+            "title": "TherA: Thermal-aware visual-language prompting for controllable RGB-to-thermal infrared translation",
+            "url": "https://ayoungk.github.io/",
+            "year": "2026",
+            "venue": "CVPR",
+            "summary": "제어 가능한 RGB-열화상 변환을 위한 열 인식 시각-언어 프롬프팅 기술입니다."
+          },
+          {
+            "title": "MOANA: Multi-radar dataset for maritime odometry and autonomous navigation",
+            "url": "https://ayoungk.github.io/",
+            "year": "2026",
+            "venue": "IJRR",
+            "summary": "해상 주행 거리 측정 및 자율 항법을 위한 다중 레이더 데이터셋을 제공합니다."
           }
         ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "IJRR",
+            "count": 2
+          },
+          {
+            "venue": "CVPR",
+            "count": 1
+          }
+        ],
+        "books": [],
         "conference_presentations": [],
         "research_projects": [],
         "recent_performances": [],
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "미시간 대학교에서 기계공학 박사(2012) 및 전기공학 석사(2011) 학위를 취득하였으며, 서울대학교에서 기계공학 석사(2007) 및 학사(2005) 학위를 받았습니다.",
+        "education_summary": "미시간 대학교에서 기계공학 박사 학위(2012) 및 전기공학 석사 학위(2011)를 취득하였으며, 서울대학교에서 기계공학 석사(2007) 및 학사(2005) 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "Ayoung Kim Personal Page",
             "url": "https://ayoungk.github.io/"
           }
         ],
-        "recruitment_summary": "로봇 인식, SLAM, 공간 지능 및 구현 지능에 관심 있는 학부 인턴, 석사 및 박사 과정 학생을 상시 모집하고 있습니다.",
+        "recruitment_summary": "RPM 로보틱스 연구실에서는 로봇 인식, SLAM, 공간 지능 및 구현 지능에 관심 있는 학부 인턴, 석사 및 박사 과정 학생을 상시 모집하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Joining RPM Robotics Lab",
@@ -48746,28 +48750,23 @@
           "https://ayoungk.github.io/",
           "https://ayoungk.github.io/contact",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%95%84%EC%98%81-kim-ayoung/",
-          "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=cynoh-2026-ijrr",
-          "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=cynoh-2026-ral",
-          "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=ssyun-2026-ral",
-          "https://rpm.snu.ac.kr/index.php/Main/Publication?action=bibentry&bibfile=ref.bib&bibref=thrhee-2026-iros",
           "https://me.snu.ac.kr",
-          "https://rpm.snu.ac.kr/",
           "https://en.snu.ac.kr/index.html",
           "https://ayoungk.github.io/schedule",
           "https://admission.snu.ac.kr/index.html",
           "https://www.snu.ac.kr/personal_information",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%95%84%EC%98%81-kim-ayoung/#footer",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/",
-          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/김아영.png",
-          "https://rpm.snu.ac.kr/img/group/2026.jpg"
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0C1591B44492F0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:00:36Z",
+        "_saved_at": "2026-09-13T08:27:10Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0C1591B44492F0"
     },
@@ -66568,7 +66567,7 @@
     },
     "SNU-RU-E194A15B77D74C": {
       "fingerprint": "81951c0c915c8e885de3cfbeb175f15e18527763a09a0222d1ab78fe6abbc29a",
-      "checked_at": "2026-09-12T03:00:13Z",
+      "checked_at": "2026-09-13T08:26:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -66593,7 +66592,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "나노 에너지 전달 공학 연구실은 광학 분광학 및 초고속 전자현미경을 활용하여 열 및 전자 운반체의 미시적 수송 현상을 연구하며, 이를 통해 고효율 에너지 소재 및 소자를 개발합니다.",
+        "research_summary": "나노 에너지 전달 공학 연구실(NETE)은 기계공학, 전기공학, 응용물리학, 재료과학의 교차점에서 열 및 전자 에너지 운반체의 미시적 전달 현상을 연구합니다. 광학 분광법과 초고속 전자현미경을 활용하여 열 전도 물성 분석, 방열 소재 개발, 복사 냉각, 초고속 광전자 동역학 등을 연구하며, 이를 통해 고효율 에너지 소재 및 소자를 개발하는 것을 목표로 합니다.",
         "research_topics": [
           "열 전도 물성 분석 및 방열 소재 개발",
           "복사 냉각",
@@ -66616,7 +66615,7 @@
             "title": "Origin of high thermal conductivity in disentangled ultra-high molecular weight polyethylene films: ballistic phonons within enlarged crystals",
             "year": "2022",
             "venue": "Nature Communications",
-            "summary": "초고분자량 폴리에틸렌 필름에서 결정 크기 증가에 따른 탄도 포논의 기여로 높은 열전도도가 나타남을 규명하였습니다."
+            "summary": "얽힘이 풀린 초고분자량 폴리에틸렌 필름에서 결정 크기 증가에 따른 탄도 포논의 기여로 높은 열전도도가 나타남을 규명하였습니다."
           },
           {
             "title": "Transient strain induced electronic structure modulation in a conducting polymer imaged by scanning ultrafast electron microscopy",
@@ -66628,9 +66627,11 @@
             "title": "Origin of micrometer scale propagation lengths of heat-carrying acoustic excitations in amorphous silicon",
             "year": "2021",
             "venue": "Physical Review Materials",
-            "summary": "비정질 실리콘에서 열을 전달하는 음향 여기의 마이크로미터 규모 전파 길이의 기원을 연구하였습니다."
+            "summary": "비정질 실리콘에서 열을 전달하는 음향 여기의 마이크로미터 규모 전파 길이의 기원을 분석하였습니다."
           }
         ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -66638,16 +66639,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "연세대학교 전기전자공학부 학사(2013), Caltech 전기공학 석사(2015), Caltech 응용물리학 박사(2020) 학위를 취득하였습니다.",
+        "education_summary": "연세대학교 전기전자공학부 학사(2013), Caltech 전기공학 석사(2015) 및 응용물리학 박사(2020) 학위를 취득하였으며, UCSB에서 박사 후 연구원을 거쳐 2022년부터 서울대학교 기계공학부 교수로 재직 중입니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://nanoheat.snu.ac.kr/publications"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "현재 연구실에서 대학원생 및 연구 인력을 모집하고 있는지에 대한 구체적인 공고는 확인되지 않았으나, 연구실 홈페이지를 통해 연락처를 제공하고 있습니다.",
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_source_url": "https://nanoheat.snu.ac.kr/contact",
         "current_members": [
           {
             "name": "Hyunseok Oh",
@@ -66705,29 +66706,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://nanoheat.snu.ac.kr/home",
+          "https://nanoheat.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9A%A9-kim-taeyong/",
           "https://nanoheat.snu.ac.kr/publications",
           "https://nanoheat.snu.ac.kr/research",
           "https://nanoheat.snu.ac.kr/team",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9A%A9-kim-taeyong/",
-          "https://nanoheat.snu.ac.kr/",
           "https://me.snu.ac.kr",
+          "https://nanoheat.snu.ac.kr/home",
           "https://nanoheat.snu.ac.kr/equipment",
           "https://nanoheat.snu.ac.kr/news",
           "https://nanoheat.snu.ac.kr/contact",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/",
-          "https://admission.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/personal_information",
-          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/김태용.png"
+          "https://admission.snu.ac.kr/"
         ],
         "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E194A15B77D74C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:00:22Z",
+        "_saved_at": "2026-09-13T08:26:38Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E194A15B77D74C"
     },
@@ -73083,121 +73081,20 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-566EBD24CA0ACE": {
-      "fingerprint": "2af00ac5120a5a4e5b7abf5b992141ea75788f2a5e52d65ceb83a44ee1aab8b0",
-      "checked_at": "2026-09-12T03:00:18Z",
+      "fingerprint": "76bd20011ab709b088c02090c97b7a5c60f7df39b028894035d5a79393590281",
+      "checked_at": "2026-09-13T08:26:34Z",
       "activity": {
         "publicationPages": [
           {
             "title": "PUBLICATIONS",
-            "url": "https://fluids.snu.ac.kr/publication.html",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "PUBLICATIONS",
-            "url": "https://fluids.snu.ac.kr/publication.html",
-            "kind": "publication"
-          },
-          {
-            "title": "PUBLICATIONS",
-            "url": "https://fluids.snu.ac.kr/publication.html",
-            "kind": "publication"
-          },
-          {
-            "title": "PDF",
-            "url": "https://fluids.snu.ac.kr/Publication/Soil water harvest inspired by desert horned lizards, Phrynosoma platyrhinos.pdf",
-            "kind": "publication"
+            "url": "https://fluids.snu.ac.kr/publication.html"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://fluids.snu.ac.kr/group.html",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://fluids.snu.ac.kr/logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fluids.snu.ac.kr/mis.html"
-          },
-          {
-            "url": "https://fluids.snu.ac.kr/main_pic.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fluids.snu.ac.kr/index.html"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/김호영.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%B8%EC%98%81-kim-ho-young/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://fluids.snu.ac.kr/Research/resear1.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fluids.snu.ac.kr/research.html"
-          },
-          {
-            "url": "https://fluids.snu.ac.kr/Research/root.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fluids.snu.ac.kr/research.html"
-          },
-          {
-            "url": "https://fluids.snu.ac.kr/mis1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fluids.snu.ac.kr/mis.html"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://fluids.snu.ac.kr/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%B8%EC%98%81-kim-ho-young/",
           "https://me.snu.ac.kr",
           "https://fluids.snu.ac.kr/group.html",
           "https://fluids.snu.ac.kr/publication.html",
@@ -73205,12 +73102,80 @@
           "https://fluids.snu.ac.kr/research.html",
           "https://fluids.snu.ac.kr/press.html",
           "https://fluids.snu.ac.kr/mis.html",
+          "https://admission.snu.ac.kr/index.html",
           "https://admission.snu.ac.kr/index.html"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-566EBD24CA0ACE",
-      "verify_error": "verify_JSONDecodeError"
+      "enrichment": {
+        "research_summary": "마이크로유체역학, 소프트물질, 생체모방공학 및 소프트기계 분야를 중심으로 미세 유체 제어와 소프트 소재의 물리적 특성을 연구합니다.",
+        "research_topics": [
+          "마이크로유체",
+          "소프트물질",
+          "마이크로/나노유체역학",
+          "생체모방공학",
+          "소프트기계"
+        ],
+        "recommendation_keywords": [
+          "마이크로유체",
+          "소프트물질",
+          "나노유체역학",
+          "생체모방공학",
+          "소프트기계",
+          "마이크로/나노유체역학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://fluids.snu.ac.kr/publication.html"
+          }
+        ],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://fluids.snu.ac.kr/group.html",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://fluids.snu.ac.kr/",
+          "https://fluids.snu.ac.kr/group.html",
+          "https://fluids.snu.ac.kr/publication.html",
+          "https://fluids.snu.ac.kr/research.html",
+          "https://fluids.snu.ac.kr/mis.html",
+          "https://me.snu.ac.kr",
+          "https://fluids.snu.ac.kr/index.html",
+          "https://fluids.snu.ac.kr/press.html",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://fluids.snu.ac.kr/Publication/Soil",
+          "https://admission.snu.ac.kr/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-566EBD24CA0ACE",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:26:48Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-566EBD24CA0ACE"
     },
     "SNU-RU-EB5D879A29D9DF": {
       "fingerprint": "c160c9978b350af2c6762969f3f3103f552bd64aa98200223af3996aaf650eb0",
@@ -85561,7 +85526,7 @@
     },
     "SNU-RU-EE615F4C4D3B4D": {
       "fingerprint": "3de926b693ea403b9a0d43b131fc42fd409b2687ba55e353f7329a2cc1b6b90b",
-      "checked_at": "2026-09-12T03:00:17Z",
+      "checked_at": "2026-09-13T08:26:33Z",
       "activity": {
         "publicationPages": [
           {
@@ -85573,12 +85538,7 @@
             "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_1"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "Member",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -85595,43 +85555,25 @@
         ]
       },
       "enrichment": {
-        "research_summary": "민경덕 교수가 이끄는 동력공학 연구실(SNU Automotive Laboratory)은 자동차 동력원, 엔진 해석 및 실험, 연료전지(Fuel Cell) 실험 및 해석, 전기차 배터리 시스템 열관리 분야를 중점적으로 연구합니다.",
+        "research_summary": "동력공학 연구실은 자동차 동력원, 엔진 해석 및 실험, 연료전지(Fuel Cell) 실험 및 해석, 전기차 배터리 시스템 열관리 분야를 중점적으로 연구합니다.",
         "research_topics": [
           "자동차 동력원",
           "엔진 해석 및 실험",
-          "연료전지(FUEL CELL) 실험 및 해석",
-          "전기차 배터리시스템 열관리"
+          "연료전지 실험 및 해석",
+          "전기차 배터리 시스템 열관리"
         ],
         "recommendation_keywords": [
           "자동차 동력원",
+          "엔진 해석",
+          "연료전지",
+          "배터리 열관리",
           "엔진 해석 및 실험",
-          "FUEL CELL 실험 및 해석",
-          "전기차 배터리시스템 열관리",
-          "연료전지(FUEL CELL) 실험 및 해석"
+          "연료전지 실험 및 해석",
+          "전기차 배터리 시스템 열관리"
         ],
-        "recent_papers": [
-          {
-            "title": "Integrated modeling and multi-objective optimization of a PEMFC system",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_2&wr_id=214",
-            "year": "2026",
-            "venue": "Applied Thermal Engineering",
-            "summary": "고분자 전해질 연료전지 시스템의 통합 모델링 및 다목적 최적화 연구를 수행하였습니다."
-          },
-          {
-            "title": "Integrated multiscale modeling and coordinated balance-of-plant control for PEMFC systems",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_2&wr_id=213",
-            "year": "2026",
-            "venue": "Applied Energy",
-            "summary": "고분자 전해질 연료전지 시스템을 위한 통합 다중 스케일 모델링 및 주변기기 제어 연구를 수행하였습니다."
-          },
-          {
-            "title": "A novel approach to modeling of polymer electrolyte membrane fuel cell",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_2&wr_id=212",
-            "year": "2026",
-            "venue": "Applied Energy",
-            "summary": "고분자 전해질 막 연료전지 모델링을 위한 새로운 접근 방식을 제시하였습니다."
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -85639,7 +85581,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1986년 서울대학교 기계공학과 학사, 1988년 석사를 거쳐 1994년 미국 MIT에서 기계공학 박사 학위를 취득하였습니다.",
+        "education_summary": "서울대학교 기계공학부 교수로서 동력공학 연구실을 운영하며 자동차 및 에너지 시스템 관련 교육과 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "International Journals",
@@ -85650,58 +85592,40 @@
             "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_1"
           }
         ],
-        "recruitment_summary": "동력공학 연구실(SNUAL)은 연구 교수 및 대학원생을 모집하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "Member",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor"
-          }
-        ],
-        "recruitment_source_url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor",
-        "current_members": [
-          {
-            "name": "명차리",
-            "role": "Research Professor",
-            "url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor"
-          }
-        ],
+        "recruitment_summary": "현재 연구실의 공식적인 채용 공고 페이지는 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
         "alumni": [],
         "member_page_url": "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor",
         "poster_status": "none_detected",
-        "source_urls_used": [
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor",
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_1",
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_2",
-          "https://me.snu.ac.kr/snu__professor/%EB%AF%BC%EA%B2%BD%EB%8D%95-min-kyoungdoug/",
-          "http://snual.snu.ac.kr/",
-          "https://me.snu.ac.kr",
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_3",
-          "http://snual.snu.ac.kr/index.php",
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
-          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub2_1_1",
-          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/",
-          "https://admission.snu.ac.kr/index.html",
-          "http://snual.snu.ac.kr/data/editor/2609/d20bf8a5d849fadd6e4d3aeea3619a3a_1788232787_7759.jpg",
-          "http://snual.snu.ac.kr/images/common/h_menu.png",
-          "http://snual.snu.ac.kr/images/main/m_scroll.png",
-          "http://snual.snu.ac.kr/images/main/visual_car.jpg",
-          "http://snual.snu.ac.kr/images/main/research1.jpg",
-          "http://snual.snu.ac.kr/images/main/research2.jpg"
-        ],
-        "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "",
         "poster_source_url": "",
         "poster_evidence": "",
+        "source_urls_used": [
+          "http://snual.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EB%AF%BC%EA%B2%BD%EB%8D%95-min-kyoungdoug/",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_2",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub3_1",
+          "https://me.snu.ac.kr",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_2&sca=Research+Professor",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_3",
+          "http://snual.snu.ac.kr/index.php",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
+          "http://snual.snu.ac.kr/bbs/board.php?bo_table=sub2_1_1",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+          "https://admission.snu.ac.kr/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EE615F4C4D3B4D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:00:31Z",
+        "_saved_at": "2026-09-13T08:26:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-EE615F4C4D3B4D"
     },
@@ -219522,25 +219446,9 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:26:19Z"
     },
-    "SNU-RU-E194A15B77D74C": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:12:33Z"
-    },
-    "SNU-RU-566EBD24CA0ACE": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:12:41Z"
-    },
-    "SNU-RU-0C1591B44492F0": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:13:05Z"
-    },
     "SNU-RU-833C2008C81EF2": {
       "reason": "NameError",
-      "checked_at": "2026-09-13T02:12:49Z"
-    },
-    "SNU-RU-EE615F4C4D3B4D": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:12:57Z"
+      "checked_at": "2026-09-13T08:27:06Z"
     },
     "SNU-RU-648A2DD7231350": {
       "reason": "NameError",
@@ -221700,11 +221608,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T08:26:19Z",
-    "checked": 1575,
-    "seconds": 16901.64,
+    "at": "2026-09-13T08:27:10Z",
+    "checked": 1580,
+    "seconds": 16952.89,
     "gemini": true,
-    "ai_requests": 349,
+    "ai_requests": 353,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
