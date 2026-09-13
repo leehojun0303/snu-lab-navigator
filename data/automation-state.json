@@ -1,5 +1,5 @@
 {
-  "cursor": 345,
+  "cursor": 350,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -8588,8 +8588,8 @@
       "_unit_id": "SNU-RU-A336B5B5CA5A99"
     },
     "SNU-RU-78B9293BF5DE13": {
-      "fingerprint": "3d6cb4aaecf49dabfb38c9c75dbb292a3e2428f652121c9db16563738672211c",
-      "checked_at": "2026-09-12T03:39:22Z",
+      "fingerprint": "2f89a7abb8bb152a20d5cb35a2e01cfe5c5a824edcd6ecd5e2deb41e50c9c684",
+      "checked_at": "2026-09-13T15:09:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -8605,12 +8605,12 @@
           "https://forestry.snu.ac.kr/snu__professor/%EA%B0%95%EA%B7%9C%EC%84%9D/",
           "https://forestry.snu.ac.kr",
           "https://fgtblab.snu.ac.kr/%ec%86%8c%ea%b0%9c/%ec%97%b0%ea%b5%ac%ec%9b%90/",
+          "https://fgtblab.snu.ac.kr/%ec%86%8c%ea%b0%9c/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://fgtblab.snu.ac.kr/%ec%8b%a4%ec%a0%81/%eb%85%bc%eb%ac%b8/",
           "https://fgtblab.snu.ac.kr/member/7103/",
           "https://fgtblab.snu.ac.kr/member/%ea%b9%80%eb%8f%84%ec%97%b0/",
           "https://fgtblab.snu.ac.kr/member/%ea%b9%80%ea%b0%80%ec%96%b8/",
-          "https://fgtblab.snu.ac.kr/member/%ea%b9%80%ec%98%81/",
-          "https://fgtblab.snu.ac.kr/publication/%ec%a3%bc%ec%9a%94-%ec%9e%ac%eb%b0%b0%ec%a7%80%ec%97%90%ec%84%9c-%ec%82%b0%ec%96%91%ec%82%bcpanax-ginseng%ec%9d%98-%ed%98%95%ed%83%9c%ec%a0%81-%ed%8a%b9%ec%84%b1-%eb%b0%8f-%ed%99%98%ea%b2%bd/",
-          "https://fgtblab.snu.ac.kr/publication/provenance-analysis-of-teak-tectona-grandis-l-f-in-myanmar-growth-heritability-and-trait-trait-correlations-at-different-ages/"
+          "https://fgtblab.snu.ac.kr/member/%ec%9d%b4%ec%a0%95%ec%9d%80/"
         ]
       },
       "enrichment": {
@@ -8723,7 +8723,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:39:28Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-78B9293BF5DE13"
     },
@@ -21997,33 +21998,23 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-FA91721CFA07CE": {
-      "fingerprint": "4553245b1696025be4bc5d920787be5749c1ff2027dfb9c4d3a64a1913863450",
-      "checked_at": "2026-09-12T03:39:32Z",
+      "fingerprint": "e493d0a2da159ef543f6bb551d58328dfd92b3676e8e73c1e96076766b918bb0",
+      "checked_at": "2026-09-13T15:09:27Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "Publication",
-            "url": "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=13&cate=13",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1311&cate=1311",
-            "kind": "publication"
-          },
-          {
-            "title": "Conference Papers",
-            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1312&cate=1312",
-            "kind": "publication"
-          },
           {
             "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
             "kind": "publication"
           },
           {
-            "title": "Publication",
-            "url": "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=13&cate=13",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           }
         ],
@@ -22049,77 +22040,77 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=12&cate=12",
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA09/images/global/font-plus.png",
-            "alt": "폰트크기 키움",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA09/images/global/font-base.png",
-            "alt": "폰트크기 100%",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA09/images/global/font-minus.png",
-            "alt": "폰트크기 줄임",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA09/images/mobile/menu_open2.png",
-            "alt": "메뉴보기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/hosts/wpl/mainVisual.jpg",
-            "alt": "메인비주얼이미지",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA09/images/global/btn_more.png",
-            "alt": "더보기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/wpl/#gnb-go"
-          },
           {
             "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/forestry-logo.png",
             "alt": "서울대학교 산림과학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://forestry.snu.ac.kr"
+            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#none"
           },
           {
             "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/곽효원-조교수.jpeg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/"
+            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#none"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2021/02/푸터베이직로고-5.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#none"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-includes/images/rss.png",
+            "alt": "RSS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
           }
         ],
         "sourcePagesScanned": [
-          "https://calslab.snu.ac.kr/wpl/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
           "https://forestry.snu.ac.kr",
-          "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=12&cate=12",
-          "https://calslab.snu.ac.kr/wpl/board.list?mcode=1212&cate=1212",
-          "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=13&cate=13",
-          "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1311&cate=1311",
-          "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1312&cate=1312",
-          "https://calslab.snu.ac.kr/wpl/#cont-sbj",
-          "https://calslab.snu.ac.kr/wpl/#gnb-go"
+          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#container",
+          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#none"
         ]
       },
       "enrichment": {},
@@ -70795,33 +70786,129 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7FD710F1FB406F": {
-      "fingerprint": "6ddef94dd0a701863858ba8856282761bcaa01864e0e281fad44c34b0e055ebc",
-      "checked_at": "2026-09-12T03:39:27Z",
+      "fingerprint": "aead74b2f4b1d9604a6a4f85a13972293d6d703fe3e38568d1f163b516fb5bbd",
+      "checked_at": "2026-09-13T15:09:10Z",
       "activity": {
         "publicationPages": [
           {
+            "title": "Publications",
+            "url": "https://treephys.snu.ac.kr/publications-new/",
+            "kind": "publication"
+          },
+          {
+            "title": "Thesis",
+            "url": "https://treephys.snu.ac.kr/publications-new/publications-thesis/",
+            "kind": "publication"
+          },
+          {
             "title": "Journals",
-            "url": "https://treephys.snu.ac.kr/publications-new/publications-journals/"
+            "url": "https://treephys.snu.ac.kr/publications-new/publications-journals/",
+            "kind": "publication"
+          },
+          {
+            "title": "Presentation",
+            "url": "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/",
+            "kind": "publication"
           },
           {
             "title": "Books",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/"
+            "url": "https://treephys.snu.ac.kr/publications-new/books/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "서울대학교 스타트업 채용박람회 홍보",
+            "url": "https://forestry.snu.ac.kr/?kboard_content_redirect=51",
+            "kind": "recruitment"
+          },
+          {
+            "title": "각 군 현역병 모집일정(2~3월) 및 육군 특기병 모집",
+            "url": "https://forestry.snu.ac.kr/?kboard_content_redirect=50",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+            "alt": "서울대학교 수목생리학연구실 | 서울대학교 산림환경학전공",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/"
+          },
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-8-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/"
+          },
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-2-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/"
+          },
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-12-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/"
+          },
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-3-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/"
+          },
+          {
+            "url": "https://treephys.snu.ac.kr/wp-content/uploads/sites/260/2026/03/수목생리학연구실-단체사진.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://treephys.snu.ac.kr/"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/forestry-logo.png",
+            "alt": "서울대학교 산림과학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/김현석1.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%84%9D/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://treephys.snu.ac.kr/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%84%9D/",
           "https://forestry.snu.ac.kr",
           "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
+          "https://treephys.snu.ac.kr/main-template-01-pro/members-professor/",
           "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/",
           "https://treephys.snu.ac.kr/publications-new/",
           "https://treephys.snu.ac.kr/publications-new/publications-thesis/",
           "https://treephys.snu.ac.kr/publications-new/publications-journals/",
-          "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/",
-          "https://treephys.snu.ac.kr/publications-new/books/"
+          "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/"
         ]
       },
       "enrichment": {
@@ -71045,9 +71132,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:39:48Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-7FD710F1FB406F"
+      "_unit_id": "SNU-RU-7FD710F1FB406F",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D6F112E84308A2": {
       "fingerprint": "ef497607fca6b22b72f42af56c11cce2fca6ec58221122e222907e74cd1981f6",
@@ -72014,8 +72103,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1A03A7C614BE45": {
-      "fingerprint": "173a3b4fcaf1729e0514402fc7ae7e477a3af8c6c02bbffa5e2fdd75c72af1eb",
-      "checked_at": "2026-09-12T03:39:23Z",
+      "fingerprint": "21aed84799b73cd3ef2dbbb8c38c74ac5d6005137e5fdb0a912ffeed660b3cbf",
+      "checked_at": "2026-09-13T15:09:12Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -72024,14 +72113,14 @@
         "sourcePagesScanned": [
           "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%A4%91/",
           "https://forestry.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/personal_information",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%A4%91/#container",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request",
-          "https://forestry.snu.ac.kr/passni/sso/spLogin.php",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%A4%91/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%A4%91/#none"
         ]
       },
       "enrichment": {
@@ -72101,7 +72190,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:39:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-1A03A7C614BE45"
     },
@@ -214677,33 +214767,23 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-A924119D4C4A6B": {
-      "fingerprint": "837ee5d870d455430005f41af595c73f3649dad83ebf0229df6a076c4a0616c5",
-      "checked_at": "2026-09-12T03:39:30Z",
+      "fingerprint": "9cb1c3171402cce6416023492eedd64783dae93dd6f22378bd8aea59f29efad7",
+      "checked_at": "2026-09-13T15:09:17Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/nbsl/menu.blank?mcode=15&cate=15",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/nbsl/doc.view?mcode=1510&cate=1510",
-            "kind": "publication"
-          },
           {
             "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/nbsl/menu.blank?mcode=15&cate=15",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/nbsl/doc.view?mcode=1510&cate=1510",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           }
         ],
@@ -214729,43 +214809,29 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://calslab.snu.ac.kr/nbsl/menu.blank?mcode=12&cate=12",
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA01/images/mobile/menu_open.png",
-            "alt": "메뉴보기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/nbsl/main"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/hosts/nbsl/mainVisual.jpg",
-            "alt": "메인비주얼이미지",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/nbsl/main"
-          },
           {
             "url": "https://bio4u.snu.ac.kr/wp-content/uploads/sites/96/2021/12/로고122-2.png",
             "alt": "서울대학교 서울대학교 농업생명과학대학 바이오시스템소재학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://bio4u.snu.ac.kr"
+            "parent_source_url": "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#none"
           },
           {
             "url": "https://bio4u.snu.ac.kr/wp-content/uploads/sites/96/2021/12/현진호-1-1.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/"
+            "parent_source_url": "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#none"
           },
           {
             "url": "https://bio4u.snu.ac.kr/wp-content/uploads/sites/96/2021/02/top-logo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://bio4u.snu.ac.kr"
+            "parent_source_url": "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#none"
           },
           {
             "url": "https://bio4u.snu.ac.kr/wp-content/uploads/sites/96/2020/12/icon_main_intro_01-2.png",
@@ -214787,24 +214853,37 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://bio4u.snu.ac.kr"
+          },
+          {
+            "url": "https://bio4u.snu.ac.kr/wp-content/uploads/sites/96/2022/01/bb.jpg",
+            "alt": "bb",
+            "title": "bb",
+            "score": 0,
+            "parent_source_url": "https://bio4u.snu.ac.kr"
+          },
+          {
+            "url": "https://bio4u.snu.ac.kr/wp-includes/images/rss.png",
+            "alt": "RSS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bio4u.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
-          "https://calslab.snu.ac.kr/nbsl/",
           "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/",
           "https://bio4u.snu.ac.kr",
-          "https://calslab.snu.ac.kr/nbsl/menu.blank?mcode=12&cate=12",
-          "https://calslab.snu.ac.kr/nbsl/doc.view?mcode=1210&cate=1210",
-          "https://calslab.snu.ac.kr/nbsl/menu.blank?mcode=15&cate=15",
-          "https://calslab.snu.ac.kr/nbsl/doc.view?mcode=1510&cate=1510",
-          "https://calslab.snu.ac.kr/nbsl/#cont-sbj",
-          "https://calslab.snu.ac.kr/nbsl/#gnb-go",
-          "https://calslab.snu.ac.kr/nbsl/main"
+          "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#container",
+          "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://bio4u.snu.ac.kr/%ec%a0%84%ea%b3%b5/",
+          "https://bio4u.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95/",
+          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%952/",
+          "https://bio4u.snu.ac.kr/snu__professor/%ED%98%84%EC%A7%84%ED%98%B8/#none"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-A924119D4C4A6B",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-A924119D4C4A6B"
     },
     "SNU-RU-239399B670F302": {
       "fingerprint": "83d756cb0986689343302b71e4b939b467db86a20cb10dec20445b5c3dd92e7d",
@@ -222328,26 +222407,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-1A03A7C614BE45": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:59:04Z"
-    },
-    "SNU-RU-78B9293BF5DE13": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:59:12Z"
-    },
-    "SNU-RU-7FD710F1FB406F": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:59:20Z"
-    },
-    "SNU-RU-FA91721CFA07CE": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:59:28Z"
-    },
-    "SNU-RU-A924119D4C4A6B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:59:36Z"
-    },
     "SNU-RU-4410C2C623B9CA": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:59:44Z"
@@ -223286,9 +223345,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T15:08:35Z",
+    "at": "2026-09-13T15:09:27Z",
     "checked": 5,
-    "seconds": 23.12,
+    "seconds": 35.68,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
