@@ -1,5 +1,5 @@
 {
-  "cursor": 50,
+  "cursor": 55,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -144906,8 +144906,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-F81AB2CC1BC16E": {
-      "fingerprint": "66c2ac0c39c6ef5223511704dd6dae36d388015b61a3771b10d148cde9c0c1a4",
-      "checked_at": "2026-09-13T08:28:56Z",
+      "fingerprint": "31b671e509d91d8eb1556aae5d4a43631998a9eba94ca76fbda2bcb0a6d69444",
+      "checked_at": "2026-09-13T22:37:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -144927,12 +144927,12 @@
           "https://me.snu.ac.kr/snu__professor/%EC%9C%A4%EB%B3%91%EB%8F%99-youn-byeng-dong/",
           "https://me.snu.ac.kr",
           "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
+          "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
           "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
           "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub4_1_a",
           "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub6_2",
           "http://hai.snu.ac.kr/index.php",
-          "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
-          "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub1_2"
+          "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub1_1"
         ]
       },
       "enrichment": {
@@ -145006,7 +145006,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:29:15Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-F81AB2CC1BC16E"
     },
@@ -153226,8 +153227,8 @@
       "_unit_id": "SNU-RU-EB925D53B11651"
     },
     "SNU-RU-85A16466673183": {
-      "fingerprint": "2154668ecf64ffde4087a7a787f342858b3056ebc8f780b001907782516ed585",
-      "checked_at": "2026-09-12T03:05:34Z",
+      "fingerprint": "2a7669bbf7e3f75238959732ebade6179aa26814806a5456a6b9a5616deaf5a7",
+      "checked_at": "2026-09-13T22:37:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -153242,13 +153243,13 @@
           "https://www.inrol.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/",
           "https://me.snu.ac.kr",
+          "https://www.inrol.snu.ac.kr/people",
+          "https://www.inrol.snu.ac.kr/people-v1",
           "https://www.inrol.snu.ac.kr/journal",
-          "https://admission.snu.ac.kr/index.html",
-          "https://admission.snu.ac.kr/index.html",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#container",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/"
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#none"
         ]
       },
       "enrichment": {
@@ -153332,7 +153333,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:05:43Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-85A16466673183"
     },
@@ -161154,7 +161156,7 @@
     },
     "SNU-RU-54754343728AF7": {
       "fingerprint": "d6085490670271b4311ab422942e8489c8b3023c437ca7b32e6678afda9ca840",
-      "checked_at": "2026-09-12T03:05:13Z",
+      "checked_at": "2026-09-13T22:37:50Z",
       "activity": {
         "publicationPages": [
           {
@@ -166989,18 +166991,83 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-2F521DF2FF1EF3": {
-      "fingerprint": "9b6d66add2cb9cf90d1fc694a45a9a434b626547072bd63bbad88fa9fee2828d",
-      "checked_at": "2026-09-12T03:05:12Z",
+      "fingerprint": "5a12a351c76157d115ddb3e22abb3d5046d4282de3480447c112f78405866367",
+      "checked_at": "2026-09-13T22:37:49Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://energy.snu.ac.kr/publications"
+            "url": "https://energy.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://energy.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://energy.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://energy.snu.ac.kr/publications#h.p_Ylm9n8FvIVAI",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://energy.snu.ac.kr/member",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
+            "alt": "서울대학교 서울대학교 기계공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/이윤석교수.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://energy.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/",
@@ -167082,9 +167149,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:05:23Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-2F521DF2FF1EF3"
+      "_unit_id": "SNU-RU-2F521DF2FF1EF3",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-1346C82E01F143": {
       "fingerprint": "78738381c2abe17c01738a2161cc322edb57551f7ca3f44ba5c2b768857ae12c",
@@ -183991,8 +184060,8 @@
       "_unit_id": "SNU-RU-740B404050E175"
     },
     "SNU-RU-305A937960F6ED": {
-      "fingerprint": "74e5d194a14bbbf3f529c247cb4bb7b860105370caee24f6b93c12b36011b3e2",
-      "checked_at": "2026-09-13T08:28:58Z",
+      "fingerprint": "14323ab64ecdff373e44d6092816c3aae73ecb73cd3595c8d8f83d1e725ca32e",
+      "checked_at": "2026-09-13T22:37:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -184018,11 +184087,11 @@
           "https://me.snu.ac.kr",
           "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=120",
           "https://3dprinting.snu.ac.kr/sub2.php",
+          "https://3dprinting.snu.ac.kr/sub2.php#p_professor",
           "https://3dprinting.snu.ac.kr/sub2.php#p_student",
           "https://3dprinting.snu.ac.kr/sub2.php#p_alumni",
           "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub3_2",
-          "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=70",
-          "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=119"
+          "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=70"
         ]
       },
       "enrichment": {
@@ -184104,7 +184173,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:29:26Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-305A937960F6ED"
     },
@@ -244078,27 +244148,15 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
     },
-    "SNU-RU-2F521DF2FF1EF3": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T08:29:11Z"
-    },
-    "SNU-RU-54754343728AF7": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T08:29:05Z"
-    },
-    "SNU-RU-85A16466673183": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T08:29:39Z"
-    },
     "SNU-RU-CD306042820062": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:48:01Z"
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:37:26Z",
+    "at": "2026-09-13T22:37:57Z",
     "checked": 5,
-    "seconds": 16.78,
+    "seconds": 15.28,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
