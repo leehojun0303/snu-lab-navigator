@@ -1,5 +1,5 @@
 {
-  "cursor": 15,
+  "cursor": 20,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -10125,29 +10125,108 @@
       "_unit_id": "SNU-RU-67CECC4F398C1A"
     },
     "SNU-RU-7E86905934781C": {
-      "fingerprint": "0c480bbd3f7362d8026bea4b4f2ff189327f235b016ef4f926ac2c9af7e84208",
-      "checked_at": "2026-09-13T08:22:32Z",
+      "fingerprint": "eebe19a14c205c9c2b777e98f258f001eee3e2817b6e56ff87cbacf328d3588b",
+      "checked_at": "2026-09-13T22:34:02Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://laus.snu.ac.kr/publications"
+            "url": "https://laus.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://laus.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://laus.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "[appendix]",
+            "url": "https://laus.snu.ac.kr/publications/urban-shrinkage-appendix",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://laus.snu.ac.kr/publications",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [],
         "membersUrl": "https://laus.snu.ac.kr/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_1980to2025.png",
+            "alt": "1980-2025년 출판된 국내 도시설계 학술 논문의 연구 주제-사례지 관계 메타분석",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_segregated_aging.png",
+            "alt": "Segregated aging: Neighborhood environments and mobility among vulnerable older adults in Seoul",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_llm.png",
+            "alt": "LLM 기반 건축가능영역 설계 자동화 - 일조권 사선제한 개정안 효과 시뮬레이션을 중심으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/_pages/img_2023_gunsan.jpg",
+            "alt": "x",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr/members"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_apart_arcade.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr/publications"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_shrinkage.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr/publications"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2026_urban_renewal.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr/publications"
+          },
+          {
+            "url": "https://laus.snu.ac.kr/assets/pubpic/2025_older_adults.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://laus.snu.ac.kr/publications"
+          }
+        ],
         "sourcePagesScanned": [
           "https://laus.snu.ac.kr/",
           "https://architecture.snu.ac.kr",
           "https://laus.snu.ac.kr/members",
           "https://laus.snu.ac.kr/publications",
+          "https://architecture.snu.ac.kr/",
           "https://laus.snu.ac.kr",
           "https://laus.snu.ac.kr/teaching",
           "https://laus.snu.ac.kr/research",
           "https://laus.snu.ac.kr/news",
-          "https://laus.snu.ac.kr/contact/",
-          "https://www.snu.ac.kr/index.html"
+          "https://laus.snu.ac.kr/contact/"
         ]
       },
       "enrichment": {
@@ -10240,9 +10319,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:22:34Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-7E86905934781C"
+      "_unit_id": "SNU-RU-7E86905934781C",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-55F1A1C2EE676F": {
       "fingerprint": "e766750da0c828b464888214a8a606c58ef3659f6d57dcc9986643213b13e552",
@@ -102315,8 +102396,8 @@
       "_unit_id": "SNU-RU-AF4E19C3094D5B"
     },
     "SNU-RU-EBCEBEC2FDFC46": {
-      "fingerprint": "259172bc2a699bf69f311e4f5539795bf4edfd7d34ceb3eaa758aa81f3cb7356",
-      "checked_at": "2026-09-13T08:22:36Z",
+      "fingerprint": "518ca32072fe128411121595228bc48371cd3e563a525448a59eec390a12ac65",
+      "checked_at": "2026-09-13T22:34:07Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -102324,15 +102405,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://cee.snu.ac.kr",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4658",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664"
         ]
       },
       "enrichment": {
@@ -102384,7 +102465,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:22:49Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-EBCEBEC2FDFC46"
     },
@@ -102929,8 +103011,8 @@
       "_unit_id": "SNU-RU-24C86D671451A3"
     },
     "SNU-RU-81A1B5F31A65C4": {
-      "fingerprint": "24332399df3a02b46abfbe80851c4e781d297380dd5ad58eee057c532961c673",
-      "checked_at": "2026-09-13T08:22:36Z",
+      "fingerprint": "77467653f772bda7c69cf0fcc7c253a27836ec82bd1ff0087d6ed3527701e31a",
+      "checked_at": "2026-09-13T22:34:07Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -102938,15 +103020,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://cee.snu.ac.kr",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4658",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664"
         ]
       },
       "enrichment": {
@@ -102998,7 +103080,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:23:06Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-81A1B5F31A65C4"
     },
@@ -108091,8 +108174,8 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-0409E21FB9727C": {
-      "fingerprint": "3c1bc85ea7a9dbb6273b34e09f8be5d3c86895e2ba787816d4bc9f1f00af6a4b",
-      "checked_at": "2026-09-13T08:22:36Z",
+      "fingerprint": "eecfbca75524ff06b7e92edb2e756788c9b97284ba4bdd0e54648227d99e084f",
+      "checked_at": "2026-09-13T22:34:07Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -108100,15 +108183,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://cee.snu.ac.kr",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4658",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664"
         ]
       },
       "enrichment": {
@@ -108160,7 +108243,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:22:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-0409E21FB9727C"
     },
@@ -108594,8 +108678,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FBB827BDAE04AF": {
-      "fingerprint": "8dbd14a8781cc215b7e8cabda7c92e9cac03c79c51bdec4823cec0dbbfeb2d63",
-      "checked_at": "2026-09-13T08:22:36Z",
+      "fingerprint": "3cdf56eeb14f9bbc69c95f7cc5349c59ed08e6e8da91b201386edd1492357550",
+      "checked_at": "2026-09-13T22:34:07Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -108603,15 +108687,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://cee.snu.ac.kr",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4658",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1804",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1801",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_2&wr_id=1800",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4671",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4670",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4669",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4665",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
-          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661"
+          "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664"
         ]
       },
       "enrichment": {
@@ -108663,7 +108747,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:22:42Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-FBB827BDAE04AF"
     },
@@ -243740,9 +243825,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:33:39Z",
+    "at": "2026-09-13T22:34:07Z",
     "checked": 5,
-    "seconds": 17.44,
+    "seconds": 13.15,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
