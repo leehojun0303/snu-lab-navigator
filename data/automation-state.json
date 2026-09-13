@@ -1,5 +1,5 @@
 {
-  "cursor": 1720,
+  "cursor": 1725,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -105737,7 +105737,7 @@
     },
     "SNU-RU-C56F88BC2A754A": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T06:40:36Z",
+      "checked_at": "2026-09-13T18:20:24Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -106337,8 +106337,8 @@
       "_unit_id": "SNU-RU-CA6B64CCADC881"
     },
     "SNU-RU-F0BFBAFAA7F977": {
-      "fingerprint": "98dfe957ec8bb2f9b7bcbcff533e9cf85dcefc334c3c5d9ebf6640b4e30592c3",
-      "checked_at": "2026-09-12T07:46:43Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-13T18:20:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -106350,7 +106350,6 @@
         "membersUrl": "https://snu.elsevierpure.com/en/persons/chul-kee-park/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://snu.elsevierpure.com/en/persons/chul-kee-park/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
@@ -106359,7 +106358,8 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home"
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -106442,7 +106442,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:47:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-F0BFBAFAA7F977"
     },
@@ -120752,29 +120753,119 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-56420C57867698": {
-      "fingerprint": "4884b46b65f7fe53825b33993199379275b7bcf558a929f8870ac81ef52de9d6",
-      "checked_at": "2026-09-12T13:13:16Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-13T18:20:24Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 171 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-sung/publications/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-sung/publications/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
-          "https://snu.elsevierpure.com/en/persons/y-sung/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snu.elsevierpure.com/en/publications/quality-of-life-and-care-burden-of-people-living-with-amyotrophic/",
-          "https://snu.elsevierpure.com/en/persons/y-sung/#main-navigation",
-          "https://snu.elsevierpure.com/en/persons/y-sung/#main-search",
-          "https://snu.elsevierpure.com/en/persons/y-sung/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -120839,9 +120930,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:46:42Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-56420C57867698"
+      "_unit_id": "SNU-RU-56420C57867698",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-7D2210DEAD6281": {
       "fingerprint": "175fd89ee76a183e9e42b2f4c78bab75f01bbf3b69ab80c86d166fc949b2e725",
@@ -127843,8 +127936,8 @@
       "_unit_id": "SNU-RU-FAF2201482551A"
     },
     "SNU-RU-A6F724F198D21A": {
-      "fingerprint": "045d9b60c166e9b1b53235d26caca02145698c8f4fdbad830012ac717cd9ae3e",
-      "checked_at": "2026-09-12T13:13:16Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-13T18:20:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -127856,16 +127949,16 @@
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-shin-19/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://snu.elsevierpure.com/en/persons/y-shin-19/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snu.elsevierpure.com/en/persons/y-shin-19/#main-navigation",
-          "https://snu.elsevierpure.com/en/persons/y-shin-19/#main-search",
-          "https://snu.elsevierpure.com/en/persons/y-shin-19/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -127928,7 +128021,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:46:55Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-A6F724F198D21A"
     },
@@ -135252,8 +135346,8 @@
       "_unit_id": "SNU-RU-91ED44EE67805C"
     },
     "SNU-RU-8371049B2C5A5A": {
-      "fingerprint": "7fafe3149ceb417a1922ec37d80fb94df71aa7192f644b27edbd6492a22632e0",
-      "checked_at": "2026-09-12T13:13:16Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-13T18:20:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -135265,16 +135359,16 @@
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-oh-20/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://snu.elsevierpure.com/en/persons/y-oh-20/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snu.elsevierpure.com/en/publications/effect-of-level-of-posterosuperior-cuff-tear-severity-on-joint-co/",
-          "https://snu.elsevierpure.com/en/persons/y-oh-20/#main-navigation",
-          "https://snu.elsevierpure.com/en/persons/y-oh-20/#main-search",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -135350,7 +135444,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:46:49Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-8371049B2C5A5A"
     },
@@ -235506,10 +235601,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-F0BFBAFAA7F977": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T06:40:52Z"
-    },
     "SNU-RU-1A521DE3015260": {
       "reason": "NameError",
       "checked_at": "2026-09-13T06:42:22Z"
@@ -235613,18 +235704,6 @@
     "SNU-RU-2E88FBAF327685": {
       "reason": "NameError",
       "checked_at": "2026-09-13T06:59:56Z"
-    },
-    "SNU-RU-A6F724F198D21A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T06:40:36Z"
-    },
-    "SNU-RU-8371049B2C5A5A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T06:40:44Z"
-    },
-    "SNU-RU-56420C57867698": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T06:41:00Z"
     },
     "SNU-RU-667AD86A9E1B24": {
       "reason": "NameError",
@@ -235792,9 +235871,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T18:19:20Z",
+    "at": "2026-09-13T18:20:25Z",
     "checked": 5,
-    "seconds": 50.51,
+    "seconds": 47.26,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
