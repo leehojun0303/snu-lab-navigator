@@ -2,6 +2,7 @@
   'use strict';
 
   const clean = v => String(v || '').replace(/\s+/g, ' ').trim();
+  let selectedUnitId='';
 
   function currentUnits() {
     const raw=[...(window.RESEARCH_UNITS||[]),...(window.RESEARCH_UNIT_SUPPLEMENTS||[])];
@@ -16,6 +17,7 @@
   function selectedDetailUnit(units) {
     const detail=document.querySelector('#detail');
     if(!detail?.open)return null;
+    if(selectedUnitId){const exact=units.find(x=>String(x.id)===selectedUnitId);if(exact)return exact;}
     const heading=clean(detail.querySelector('.detail-head h2')?.textContent);
     const name=(heading.match(/^(.+?)\s*교수\s*\//)||[])[1];
     if(!name)return null;
@@ -116,8 +118,8 @@
 
   function install() {
     updateHomeCopy();fixAffiliations();
-    const style=document.createElement('style');
-    style.textContent=`#stableCompareDialog .stable-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}#stableCompareDialog table.equal-professor-columns{table-layout:fixed;width:max-content;min-width:100%}#stableCompareDialog table.equal-professor-columns th:first-child{width:92px;min-width:92px;max-width:92px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:280px;min-width:280px;max-width:280px;white-space:normal;overflow-wrap:break-word;word-break:normal}@media(max-width:600px){#stableCompareDialog{width:calc(100% - 18px);padding:18px 14px}#stableCompareDialog table.equal-professor-columns th:first-child{width:76px;min-width:76px;max-width:76px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:220px;min-width:220px;max-width:220px}}`;
+    document.addEventListener('click',e=>{const card=e.target.closest?.('#results .card[data-i]');if(!card)return;const x=currentUnits()[Number(card.dataset.i)];selectedUnitId=x?String(x.id):'';},true);
+    const style=document.createElement('style');style.textContent=`#stableCompareDialog .stable-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}#stableCompareDialog table.equal-professor-columns{table-layout:fixed;width:max-content;min-width:100%}#stableCompareDialog table.equal-professor-columns th:first-child{width:92px;min-width:92px;max-width:92px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:280px;min-width:280px;max-width:280px;white-space:normal;overflow-wrap:break-word;word-break:normal}@media(max-width:600px){#stableCompareDialog{width:calc(100% - 18px);padding:18px 14px}#stableCompareDialog table.equal-professor-columns th:first-child{width:76px;min-width:76px;max-width:76px}#stableCompareDialog table.equal-professor-columns th:not(:first-child),#stableCompareDialog table.equal-professor-columns td{width:220px;min-width:220px;max-width:220px}}`;
     document.head.appendChild(style);
     let queued=false;
     const apply=()=>{queued=false;updateHomeCopy();fixAffiliations();hideDetailCollectionStatus();refineCompare(document.querySelector('#stableCompareDialog'));};
