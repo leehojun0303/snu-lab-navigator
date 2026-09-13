@@ -21,8 +21,16 @@ def _is_fine_arts(unit):
     return "미술대학" in str(unit.get("college", ""))
 
 
+def _is_music(unit):
+    return "음악대학" in str(unit.get("college", ""))
+
+
 def _art_url(url):
     return (urlparse(str(url or "")).hostname or "").lower() == "art.snu.ac.kr"
+
+
+def _music_url(url):
+    return (urlparse(str(url or "")).hostname or "").lower() == "music.snu.ac.kr"
 
 
 def _verified_profile(url, professor):
@@ -31,9 +39,6 @@ def _verified_profile(url, professor):
     except Exception:
         return ""
     text = collector.norm(candidate.text)
-    # Individual SNU Art pages expose the professor name near the top and use
-    # /members/ URLs. Never accept a guessed URL unless the fetched page itself
-    # verifies the target professor name.
     if "/members/" in candidate.url and professor in text:
         return candidate.url
     return ""
@@ -44,9 +49,6 @@ def _find_art_profile(unit):
     professor = collector.norm(unit.get("name"))
     if not professor:
         return ""
-
-    # SNU Art uses stable percent-encoded professor slugs. Try the canonical
-    # forms first, but accept them only after fetching and verifying the name.
     slug = quote(professor, safe="")
     for url in (
         f"https://art.snu.ac.kr/members/{slug}/",
@@ -55,16 +57,13 @@ def _find_art_profile(unit):
         verified = _verified_profile(url, professor)
         if verified:
             return verified
-
     starts = []
     for key in ("profile", "departmentUrl", "homepage"):
         url = collector.clean_url(unit.get(key))
         if url and _art_url(url) and url not in starts:
             starts.append(url)
-    # Always retain the official college faculty surface as a generic fallback.
     if "https://art.snu.ac.kr/" not in starts:
         starts.append("https://art.snu.ac.kr/")
-
     queue = [(url, 0) for url in starts]
     seen = set()
     while queue and len(seen) < 24:
@@ -97,16 +96,82 @@ def _find_art_profile(unit):
     return ""
 
 
+def _verified_music_profile(url, professor):
+    try:
+        candidate = collector.page(url, 0)
+    except Exception:
+        return ""
+    text = collector.norm(candidate.text)
+    if _music_url(candidate.url) and professor in text and any(term in text for term in ("전공", "학력사항", "경력사항", "실적", "수상")):
+        return candidate.url
+    return ""
+
+
+def _find_music_profile(unit):
+    """Follow SNU Music faculty/detail links and verify the professor on the fetched page."""
+    professor = collector.norm(unit.get("name"))
+    if not professor:
+        return ""
+    starts = []
+    for key in ("profile", "departmentUrl", "homepage"):
+        url = collector.clean_url(unit.get(key))
+        if url and _music_url(url) and url not in starts:
+            starts.append(url)
+    faculty = "https://music.snu.ac.kr/faculty"
+    if faculty not in starts:
+        starts.append(faculty)
+    queue = [(url, 0) for url in starts]
+    seen = set()
+    while queue and len(seen) < 28:
+        url, depth = queue.pop(0)
+        if url in seen or depth > 3:
+            continue
+        seen.add(url)
+        try:
+            page = collector.page(url, depth)
+        except Exception:
+            continue
+        # Prefer links whose visible card/detail text contains the exact professor name.
+        exact = [x for x in page.links if _music_url(x.get("url")) and professor in collector.norm(x.get("title"))]
+        for link in exact:
+            verified = _verified_music_profile(link["url"], professor)
+            if verified:
+                return verified
+        # Faculty detail links may have generic labels such as '상세히 보기'. Verify
+        # each candidate page itself rather than relying on its URL shape.
+        detail_links = []
+        for link in page.links:
+            if not _music_url(link.get("url")) or link.get("url") in seen:
+                continue
+            hint = collector.norm(link.get("title", "") + " " + link.get("url", "")).lower()
+            if any(term in hint for term in ("상세히 보기", "detail", "view", "faculty")):
+                detail_links.append(link["url"])
+        for candidate_url in list(dict.fromkeys(detail_links))[:24]:
+            verified = _verified_music_profile(candidate_url, professor)
+            if verified:
+                return verified
+        nav = []
+        for link in page.links:
+            if not _music_url(link.get("url")) or link.get("url") in seen:
+                continue
+            hint = collector.norm(link.get("title", "") + " " + link.get("url", "")).lower()
+            if any(term in hint for term in ("faculty", "교수진", "성악과", "작곡과", "음악학과", "피아노과", "관현악과", "국악과", "대학원 음악과")):
+                nav.append(link["url"])
+        queue.extend((u, depth + 1) for u in list(dict.fromkeys(nav))[:14])
+    return ""
+
+
 def navigation_scan(unit, key, model, prev, budget):
-    if not _is_fine_arts(unit):
+    profile = ""
+    if _is_fine_arts(unit):
+        profile = _find_art_profile(unit)
+    elif _is_music(unit):
+        profile = _find_music_profile(unit)
+    else:
         return _original_scan(unit, key, model, prev, budget)
-    profile = _find_art_profile(unit)
     if not profile:
         return _original_scan(unit, key, model, prev, budget)
     enriched_unit = dict(unit)
-    # Put the verified individual page first in the normal collector roots so
-    # URL Context sees the same authoritative page that supplied the successful
-    # Kim Jeong-han / Park Kwan-taek exhibition records.
     enriched_unit["profile"] = profile
     enriched_unit["homepage"] = profile
     return _original_scan(enriched_unit, key, model, prev, budget)
