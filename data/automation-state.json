@@ -1,5 +1,5 @@
 {
-  "cursor": 1465,
+  "cursor": 1470,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -17498,7 +17498,7 @@
     },
     "SNU-RU-7D83CE604B9D26": {
       "fingerprint": "7b93fb596c81ac970896f396a52fca9dd656b9671dfcb9d500f4b5c2e02aab41",
-      "checked_at": "2026-09-11T02:01:18Z",
+      "checked_at": "2026-09-13T17:31:21Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -17511,7 +17511,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-7D83CE604B9D26",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-078FB272453C1B": {
       "fingerprint": "0efe0b1122deee0d41ffbc6f9c9a8ff136aa6912ffab4f5359bda1062e51ca3b",
@@ -29230,7 +29230,7 @@
     },
     "SNU-RU-90BDC7168782BB": {
       "fingerprint": "d54f580dad2ce9413891225c1abef4afc1a3e0703770804778f09bc8a24bd4d5",
-      "checked_at": "2026-09-11T02:07:19Z",
+      "checked_at": "2026-09-13T17:31:23Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -29272,8 +29272,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-90BDC7168782BB",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-90BDC7168782BB"
     },
     "SNU-RU-E05F721C5F8189": {
       "fingerprint": "c73580c7d9f561cf81022026dd415fe0b0d828be1098a8c9f951203c05e2e526",
@@ -33959,8 +33958,8 @@
       "_unit_id": "SNU-RU-9EA9F02A0789F3"
     },
     "SNU-RU-1E0DC5E2819B1E": {
-      "fingerprint": "eb8711b2f5b7d70bfc1d1345129f3fff6cedcd1f0260b742560183127a4e6953",
-      "checked_at": "2026-09-11T02:09:33Z",
+      "fingerprint": "1767796783d3fe9c00594c368a5e77b08ddf41488248523872fa39104c5ba3e2",
+      "checked_at": "2026-09-13T17:31:48Z",
       "activity": {
         "publicationPages": [
           {
@@ -33996,6 +33995,11 @@
             "kind": "recruitment"
           },
           {
+            "title": "대학원 워크샵 소비자학과 대학원에서는 매년 대학원 워크숍을 진행하고 있습니다. 연사 초청 강의를 통해 대학원생들의 연구 활동을 지원합니다.",
+            "url": "https://consumer.snu.ac.kr/대학원-워크샵/",
+            "kind": "recruitment"
+          },
+          {
             "title": "[포스코그룹] 2026년 하반기 포스코그룹 신입사원/연구원 채용 (~9.16 15시)",
             "url": "https://consumer.snu.ac.kr/24098/",
             "kind": "recruitment"
@@ -34003,11 +34007,6 @@
           {
             "title": "2026학년도 2학기 학위논문제출기한 초과자 연구생 등록 신청 안내",
             "url": "https://consumer.snu.ac.kr/23912/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 1학기 소비자문제 해결을 위한 석·박사 학위논문 연구비 지원사업 개최 안내",
-            "url": "https://consumer.snu.ac.kr/23726/",
             "kind": "recruitment"
           }
         ],
@@ -34019,49 +34018,49 @@
             "alt": "서울대학교 생활과학대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://che.snu.ac.kr/en/"
+            "parent_source_url": "https://che.snu.ac.kr/en/kim-rando/"
           },
           {
             "url": "https://che.snu.ac.kr/wp-content/uploads/sites/35/2021/02/chelogowhite.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://che.snu.ac.kr/en/"
+            "parent_source_url": "https://che.snu.ac.kr/en/kim-rando/"
           },
           {
             "url": "https://consumer.snu.ac.kr/wp-content/uploads/sites/53/2021/03/20210318_144007-e1669734543734.png",
-            "alt": "",
+            "alt": "서울대학교 소비자학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://consumer.snu.ac.kr"
+            "parent_source_url": "https://consumer.snu.ac.kr/23726/"
           },
           {
             "url": "https://consumer.snu.ac.kr/wp-content/uploads/sites/53/2022/11/c_icon2-2.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://consumer.snu.ac.kr"
+            "parent_source_url": "https://consumer.snu.ac.kr/"
           },
           {
             "url": "https://consumer.snu.ac.kr/wp-content/uploads/sites/53/2022/11/c_icon1.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://consumer.snu.ac.kr"
+            "parent_source_url": "https://consumer.snu.ac.kr/"
           },
           {
             "url": "https://consumer.snu.ac.kr/wp-content/uploads/sites/53/2022/11/c_icon3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://consumer.snu.ac.kr"
+            "parent_source_url": "https://consumer.snu.ac.kr/"
           },
           {
             "url": "https://consumer.snu.ac.kr/wp-content/uploads/sites/53/2022/11/c_icon4.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://consumer.snu.ac.kr"
+            "parent_source_url": "https://consumer.snu.ac.kr/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -34075,18 +34074,17 @@
           "https://che.snu.ac.kr/en/kim-rando/",
           "https://consumer.snu.ac.kr",
           "https://admission.snu.ac.kr/index.html",
+          "https://consumer.snu.ac.kr/",
+          "https://foodnutrition.snu.ac.kr/",
+          "https://clothing.snu.ac.kr/",
+          "https://childfamily.snu.ac.kr/faculty/",
           "https://www.snu.ac.kr/personal_information",
-          "https://che.snu.ac.kr/en/kim-rando/#container",
-          "https://che.snu.ac.kr/en/kim-rando/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request",
-          "https://che.snu.ac.kr/en/"
+          "https://consumer.snu.ac.kr/24098/",
+          "https://consumer.snu.ac.kr/23726/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-1E0DC5E2819B1E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-1E0DC5E2819B1E"
     },
     "SNU-RU-8E88F7597EFA8E": {
       "fingerprint": "b4005721007b4c79b1b707ae7755ebcb44232be6465d19d11015e4b146f642eb",
@@ -133358,8 +133356,8 @@
       "_unit_id": "SNU-RU-8371049B2C5A5A"
     },
     "SNU-RU-EDA0C0017085E4": {
-      "fingerprint": "e73a0b8485cf40df6e1d762cb4bed094be72d9a7904166c0675825800440dfb5",
-      "checked_at": "2026-09-11T03:14:43Z",
+      "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
+      "checked_at": "2026-09-13T17:31:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -133410,7 +133408,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://gsiat.snu.ac.kr/information/chairperson.asp",
+        "membersUrl": "https://gsiat.snu.ac.kr/people/people01.asp",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -133418,14 +133416,14 @@
             "alt": "사이트맵",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/common/head_logo_on.png",
             "alt": "평창캠퍼스",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/upload_file/banner/research.png",
@@ -133446,33 +133444,32 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/share_face.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/share_twit.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/home_icon.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           }
         ],
         "sourcePagesScanned": [
           "https://gsiat.snu.ac.kr",
-          "https://gsiat.snu.ac.kr/information/chairperson.asp",
           "https://gsiat.snu.ac.kr/people/people01.asp",
           "https://gsiat.snu.ac.kr/people/people02.asp",
           "https://gsiat.snu.ac.kr/people/people03.asp",
@@ -133480,12 +133477,12 @@
           "https://gsiat.snu.ac.kr/people/people05.asp",
           "https://gsiat.snu.ac.kr/people/people06.asp",
           "https://gsiat.snu.ac.kr/people/retirement_professor.asp",
-          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003",
+          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-EDA0C0017085E4",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-EDA0C0017085E4"
     },
     "SNU-RU-52670A9B08E42E": {
       "fingerprint": "f041498ea246ff8fb368bf626ae39ec545e12b28b34779f797ffa2249e0b1645",
@@ -156980,8 +156977,8 @@
       "_unit_id": "SNU-RU-1346C82E01F143"
     },
     "SNU-RU-1EC82D999DD11E": {
-      "fingerprint": "e73a0b8485cf40df6e1d762cb4bed094be72d9a7904166c0675825800440dfb5",
-      "checked_at": "2026-09-11T03:27:45Z",
+      "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
+      "checked_at": "2026-09-13T17:31:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -157032,7 +157029,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://gsiat.snu.ac.kr/information/chairperson.asp",
+        "membersUrl": "https://gsiat.snu.ac.kr/people/people01.asp",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -157040,14 +157037,14 @@
             "alt": "사이트맵",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/common/head_logo_on.png",
             "alt": "평창캠퍼스",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/upload_file/banner/research.png",
@@ -157068,33 +157065,32 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/share_face.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/share_twit.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           },
           {
             "url": "https://gsiat.snu.ac.kr/images/sub/home_icon.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+            "parent_source_url": "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
           }
         ],
         "sourcePagesScanned": [
           "https://gsiat.snu.ac.kr",
-          "https://gsiat.snu.ac.kr/information/chairperson.asp",
           "https://gsiat.snu.ac.kr/people/people01.asp",
           "https://gsiat.snu.ac.kr/people/people02.asp",
           "https://gsiat.snu.ac.kr/people/people03.asp",
@@ -157102,12 +157098,12 @@
           "https://gsiat.snu.ac.kr/people/people05.asp",
           "https://gsiat.snu.ac.kr/people/people06.asp",
           "https://gsiat.snu.ac.kr/people/retirement_professor.asp",
-          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003"
+          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0003",
+          "https://gsiat.snu.ac.kr/include/?pidx=33&htop=MN0023&ctop=MN0041&ptop=MN0023"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-1EC82D999DD11E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-1EC82D999DD11E"
     },
     "SNU-RU-A8DD0B376729AB": {
       "fingerprint": "674316d85ae6583724acfb8bc6c7b8ea69fea927a9748ddc521fcb29f6785fb6",
@@ -231551,26 +231547,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
     },
-    "SNU-RU-7D83CE604B9D26": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:53:08Z"
-    },
-    "SNU-RU-90BDC7168782BB": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:53:16Z"
-    },
-    "SNU-RU-EDA0C0017085E4": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:53:24Z"
-    },
-    "SNU-RU-1EC82D999DD11E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:53:32Z"
-    },
-    "SNU-RU-1E0DC5E2819B1E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:53:40Z"
-    },
     "SNU-RU-E0F6D893EBFDB0": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:53:48Z"
@@ -232517,9 +232493,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:31:05Z",
+    "at": "2026-09-13T17:31:48Z",
     "checked": 5,
-    "seconds": 18.16,
+    "seconds": 30.05,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
