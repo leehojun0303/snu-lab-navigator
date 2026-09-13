@@ -10,43 +10,28 @@
   };
   const cleanFields = value => String(value || '').split(/[;|]/).map(v => v.trim()).filter(v => v && !/^(안내|확인 필요|미확인|unknown|n\/?a)$/i.test(v)).join('; ');
 
-  // The app's unit objects share these source object references, so sanitize
-  // placeholder topic tokens before a detail view is opened.
   raw.forEach(unit => { if (unit && 'fields' in unit) unit.fields = cleanFields(unit.fields); });
-
   window.SnuAffiliationLabel = label;
-  let selected = null;
 
-  function fixCards(root = document) {
-    root.querySelectorAll?.('.card[data-i]').forEach(card => {
-      const unit = scopedUnits[Number(card.dataset.i)];
-      const meta = card.querySelector('.meta');
-      if (!unit || !meta) return;
-      meta.textContent = [label(unit), unit.rank].filter(Boolean).join(' · ');
-    });
-  }
-
-  function fixDetail() {
-    if (!selected) return;
+  function fixDetail(unit) {
     const detail = document.querySelector('#detailContent');
-    if (!detail) return;
-    const expected = [label(selected), selected.rank].filter(Boolean).join(' · ');
-    const metas = [...detail.querySelectorAll('.meta')];
-    const affiliationMeta = metas.find(el => /대학|학부|학과|대학원/.test(el.textContent || ''));
-    if (affiliationMeta) affiliationMeta.textContent = expected;
+    if (!detail || !unit) return;
+    const expected = [label(unit), unit.rank].filter(Boolean).join(' · ');
+    const affiliationMeta = [...detail.querySelectorAll('.meta')].find(el => /대학|학부|학과|대학원/.test(el.textContent || ''));
+    if (affiliationMeta && affiliationMeta.textContent !== expected) affiliationMeta.textContent = expected;
   }
 
+  // Fix only the card/detail involved in an actual user click. Do not observe
+  // the whole document: rewriting .meta nodes from a MutationObserver can
+  // recursively retrigger itself and lock the main thread.
   document.addEventListener('click', event => {
     const card = event.target.closest?.('.card[data-i]');
     if (!card) return;
-    selected = scopedUnits[Number(card.dataset.i)] || null;
-    setTimeout(fixDetail, 0);
+    const unit = scopedUnits[Number(card.dataset.i)];
+    if (!unit) return;
+    const meta = card.querySelector('.meta');
+    const expected = [label(unit), unit.rank].filter(Boolean).join(' · ');
+    if (meta && meta.textContent !== expected) meta.textContent = expected;
+    setTimeout(() => fixDetail(unit), 0);
   }, true);
-
-  const observer = new MutationObserver(() => {
-    fixCards();
-    if (document.querySelector('#detail[open]')) fixDetail();
-  });
-  observer.observe(document.documentElement, {subtree: true, childList: true});
-  fixCards();
 })();
