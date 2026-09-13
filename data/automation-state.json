@@ -1,5 +1,5 @@
 {
-  "cursor": 800,
+  "cursor": 805,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -134460,12 +134460,59 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-91ED44EE67805C": {
-      "fingerprint": "18a0bfdf48102d3d3ae5b043a7f3215719eb68c2cffca68163e87f716fdc9c89",
-      "checked_at": "2026-09-11T03:13:52Z",
+      "fingerprint": "85198db0f8b662494183a3fa96a2cb2058e95ee535da6e670a72c915215a1968",
+      "checked_at": "2026-09-13T16:09:05Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "더보기",
+            "url": "https://snupharm.snu.ac.kr/연구성과/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "행정지원 업무 연락처",
+            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -134526,12 +134573,20 @@
           }
         ],
         "sourcePagesScanned": [
-          "http://ykoh.snu.ac.kr/frontpage.asp?catalogid=snupharm&language=ko"
+          "http://ykoh.snu.ac.kr/frontpage.asp?catalogid=snupharm&language=ko",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9C%A0%EA%B2%BD/",
+          "https://snupharm.snu.ac.kr",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9C%A0%EA%B2%BD/#container",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9C%A0%EA%B2%BD/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-91ED44EE67805C",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-91ED44EE67805C"
     },
     "SNU-RU-8371049B2C5A5A": {
       "fingerprint": "7fafe3149ceb417a1922ec37d80fb94df71aa7192f644b27edbd6492a22632e0",
@@ -134862,18 +134917,23 @@
       "_unit_id": "SNU-RU-52670A9B08E42E"
     },
     "SNU-RU-DEAA6D2C909059": {
-      "fingerprint": "62a96779b914c1370d6b803b9371bb7e83b5c67f6123a7420d64ce7db1130366",
-      "checked_at": "2026-09-11T03:14:52Z",
+      "fingerprint": "485c6e3a5d23b716c80751be127da4bc85d2919150fbac562717ec5a1d963ecd",
+      "checked_at": "2026-09-13T16:09:03Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
             "kind": "publication"
           },
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "더보기",
+            "url": "https://snupharm.snu.ac.kr/연구성과/",
             "kind": "publication"
           },
           {
@@ -134885,36 +134945,31 @@
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           },
           {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
+            "title": "행정지원 업무 연락처",
+            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
             "kind": "recruitment"
           },
           {
-            "title": "서울대뉴스 서울대와 함께 만들어가는 고등학생들의 별빛 미래 서울대학교와 금천구청이 금천구 소재 고등학생 약 100명을 대상으로 전공 탐색과 멘토링, 캠퍼스 투어 등 진로지원 프로그램 ‘별 따는 캠퍼스’를 진행했다.",
-            "url": "https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=174803",
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
             "kind": "recruitment"
           },
           {
-            "title": "서울대뉴스 행정에 AI를 더해 변화를 만드는 사람들 학생지원, 연구윤리, 재무·회계, 안전관리. 각자의 행정 현장에서 AI로 새로운 변화를 만들어가는 SNU AI Vanguard 네 사람을 만났다.",
-            "url": "https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=174719",
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/campuslife/aid/disabled",
+        "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -134953,43 +135008,42 @@
             "parent_source_url": "http://pharmacognosy.snu.ac.kr/frontpage.asp?catalogid=wkoh&language=ko"
           },
           {
-            "url": "https://www.snu.ac.kr/webdata/kor/topbanner/7e1z072zcbdzb17z1b3z829z505ze18z81dz5ffz74.jpg",
-            "alt": "개교80주년 홈페이지 바로가기",
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
+            "alt": "서울대학교 서울대학교 약학대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/research/highlights?sc=y"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/#footer"
           },
           {
-            "url": "https://www.snu.ac.kr/webdata/kor/topbanner/9a1z489zde3z9f9za4fze1az82fzcaez80ez887z72.jpg",
-            "alt": "개교80주년 홈페이지 바로가기",
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/오원근-사진.jpg",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/research/highlights?sc=y"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/#footer"
           },
           {
-            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/wkoh_work-1.jpg",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snu.ac.kr/research/highlights?sc=y"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/#footer"
           }
         ],
         "sourcePagesScanned": [
           "http://pharmacognosy.snu.ac.kr/frontpage.asp?catalogid=wkoh&language=ko",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/",
+          "https://snupharm.snu.ac.kr",
           "http://pharmacognosy.snu.ac.kr/frontpage.asp?catalogid=wkoh&language=ko",
           "https://www.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/campuslife/aid/disabled",
-          "https://www.snu.ac.kr/campuslife/aid/administration",
-          "https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=174803",
-          "https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=174719",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snupharm.snu.ac.kr/",
+          "https://snuherb.snu.ac.kr/",
+          "https://snucepharm.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/#container",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%9B%90%EA%B7%BC/#footer"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-DEAA6D2C909059",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-DEAA6D2C909059"
     },
     "SNU-RU-5653B79F856D4B": {
       "fingerprint": "76c9e57a2ec4583330b7c33133f4bc33a13f6c17f03810cc8c3e00a4735cc839",
@@ -136593,8 +136647,8 @@
       "_unit_id": "SNU-RU-F81AB2CC1BC16E"
     },
     "SNU-RU-29AAF7E956EE3D": {
-      "fingerprint": "11a3b0420eb3a468229ec161c2ab1c010821654dd53ec8af6390985df277e39f",
-      "checked_at": "2026-09-11T03:20:06Z",
+      "fingerprint": "0425f351bb61f45522e6057c1f7e925197a21611922b579d8625728f0f5a0036",
+      "checked_at": "2026-09-13T16:08:51Z",
       "activity": {
         "publicationPages": [
           {
@@ -136603,18 +136657,18 @@
             "kind": "publication"
           },
           {
-            "title": "Publication",
-            "url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs41",
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
             "kind": "publication"
           },
           {
-            "title": "Publication",
-            "url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs41",
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
             "kind": "publication"
           },
           {
-            "title": "Publication",
-            "url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs41",
+            "title": "더보기",
+            "url": "https://snupharm.snu.ac.kr/연구성과/",
             "kind": "publication"
           },
           {
@@ -136623,7 +136677,28 @@
             "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "행정지원 업무 연락처",
+            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs31",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
@@ -136632,14 +136707,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs42"
+            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs51"
           },
           {
             "url": "http://yeojoonyoon.com/images/main/head_logo_on.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs42"
+            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs51"
           },
           {
             "url": "http://yeojoonyoon.com/rolling_banner/item/a3fefc8137.jpg",
@@ -136667,39 +136742,39 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs42"
+            "parent_source_url": "http://yeojoonyoon.com/sub01/sub01.php"
           },
           {
-            "url": "http://yeojoonyoon.com/bbs/data/bbs31/ab3a4a9a_kej09.jpg",
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
+            "alt": "서울대학교 서울대학교 약학대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9C%A4%EC%97%AC%EC%A4%80/#container"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/joon.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs31"
-          },
-          {
-            "url": "http://yeojoonyoon.com/bbs/data/bbs31/685cb64d_ECB0A8EC8AB9EC9AB0.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "http://yeojoonyoon.com/bbs/board.php?tbl=bbs31"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9C%A4%EC%97%AC%EC%A4%80/#container"
           }
         ],
         "sourcePagesScanned": [
           "http://yeojoonyoon.com/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9C%A4%EC%97%AC%EC%A4%80/",
+          "https://snupharm.snu.ac.kr",
           "http://yeojoonyoon.com/bbs/board.php?tbl=bbs31",
+          "http://yeojoonyoon.com/sub02/sub01.php",
           "http://yeojoonyoon.com/bbs/board.php?tbl=bbs41",
           "http://yeojoonyoon.com/main.php",
           "http://yeojoonyoon.com/sub01/sub01.php",
-          "http://yeojoonyoon.com/sub02/sub01.php",
           "http://yeojoonyoon.com/bbs/board.php?tbl=bbs51",
-          "http://yeojoonyoon.com/bbs/board.php?tbl=bbs32",
-          "http://yeojoonyoon.com/bbs/board.php?tbl=bbs43",
-          "http://yeojoonyoon.com/bbs/board.php?tbl=bbs42"
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9C%A4%EC%97%AC%EC%A4%80/#container"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-29AAF7E956EE3D",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-610AFE3BC3A1AB": {
       "fingerprint": "ac552049a14516598a90bf98aa40aed8d41acdd164372c217a41a4f9f2bf9c1e",
@@ -146390,8 +146465,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-5EC1F693AA8F87": {
-      "fingerprint": "896f694309d7d3b3043d769901fbe92cd340fb004681ff0b21a65897434405ba",
-      "checked_at": "2026-09-11T03:23:50Z",
+      "fingerprint": "2abd72585bbe85e3e2a8f6d27db9aea9e1469caf7e83eeaa164fc2a48f3b356e",
+      "checked_at": "2026-09-13T16:09:02Z",
       "activity": {
         "publicationPages": [
           {
@@ -146410,13 +146485,13 @@
             "kind": "publication"
           },
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
+            "title": "연구성과 세계 최초 반도체처럼 찍어내는 웨이퍼 일체형 6G 안테나 ‘STARE’ 개발 전기·정보공학부 오정석 교수 연구팀은 6G 안테나를 반도체처럼 한 번에 찍어낼 수 있는 기술을 세계 최초로 개발했다고 밝혔다.",
+            "url": "https://www.snu.ac.kr/research/highlights?md=v&bbsidx=173918",
             "kind": "publication"
           },
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
           }
         ],
@@ -146485,21 +146560,21 @@
             "alt": "서울대학교 서울대학교 약학대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/#none"
           },
           {
             "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/moklee.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/#none"
           },
           {
             "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/mokee_sub-scaled.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/"
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/#none"
           }
         ],
         "sourcePagesScanned": [
@@ -146510,14 +146585,13 @@
           "https://www.snu.ac.kr/index.html",
           "https://snupharm.snu.ac.kr/",
           "https://snurips.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/#footer",
           "https://admission.snu.ac.kr/index.html",
-          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EB%AF%B8%EC%98%A5/#none"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-5EC1F693AA8F87",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-5EC1F693AA8F87"
     },
     "SNU-RU-AEC800608A4524": {
       "fingerprint": "246cde255404b14c8cca5eeb9555d9cb753596b820098ac8feefe27aaf6df7a7",
@@ -224775,6 +224849,135 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-B768E0BD0689E1"
+    },
+    "SNU-RU-A2A34B3FDBF432": {
+      "fingerprint": "8406a14bcb54019a5e1a8e321275901363f64c8a5b27ac32650132eb4c499718",
+      "checked_at": "2026-09-13T16:08:54Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "발표논문 및 저서",
+            "url": "https://jmoh.snu.ac.kr/professor_2",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "더보기",
+            "url": "https://snupharm.snu.ac.kr/연구성과/",
+            "kind": "publication"
+          },
+          {
+            "title": "발표논문 및 저서",
+            "url": "https://jmoh.snu.ac.kr/professor_2",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "행정지원 업무 연락처",
+            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://jmoh.snu.ac.kr/index.php?mid=index&act=dispMemberSignUpForm",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://jmoh.snu.ac.kr/files/attach/images/89/78b3e1e9f5076cff2cfaa4f01ad1fc45.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/thumbnails/648/220x180.crop.jpg?20230502163229",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/thumbnails/628/220x180.crop.jpg?20230208110342",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/thumbnails/619/220x180.crop.jpg?20221027192711",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/thumbnails/614/220x180.crop.jpg?20221031191915",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/thumbnails/606/220x180.crop.jpg?20220927165741",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://jmoh.snu.ac.kr/files/attach/images/89/36ad5a2ca0f51d8cbb9647b2d3d0a002.png",
+            "alt": "서울대학교 약학대학 임상약학연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://jmoh.snu.ac.kr/"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
+            "alt": "서울대학교 서울대학교 약학대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://jmoh.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EB%AF%B8/",
+          "https://snupharm.snu.ac.kr",
+          "https://jmoh.snu.ac.kr/index.php?mid=index&act=dispMemberSignUpForm",
+          "https://jmoh.snu.ac.kr/professor_2",
+          "https://jmoh.snu.ac.kr/team",
+          "https://jmoh.snu.ac.kr/index.php?mid=index&act=dispMemberLoginForm",
+          "https://jmoh.snu.ac.kr/professor_1",
+          "https://jmoh.snu.ac.kr/#content",
+          "https://jmoh.snu.ac.kr/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-A2A34B3FDBF432"
     }
   },
   "failures": {
@@ -224881,10 +225084,6 @@
     "SNU-RU-F196504AEFEDF0": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:14:56Z"
-    },
-    "SNU-RU-A2A34B3FDBF432": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:13:14Z"
     },
     "SNU-RU-BAD9184C82671B": {
       "reason": "NameError",
@@ -225229,22 +225428,6 @@
     "SNU-RU-9324214FE0D148": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
-    },
-    "SNU-RU-29AAF7E956EE3D": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:13:06Z"
-    },
-    "SNU-RU-91ED44EE67805C": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:13:22Z"
-    },
-    "SNU-RU-DEAA6D2C909059": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:13:30Z"
-    },
-    "SNU-RU-5EC1F693AA8F87": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:13:38Z"
     },
     "SNU-RU-46E4121A9C15BE": {
       "reason": "NameError",
@@ -228560,9 +228743,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:08:23Z",
+    "at": "2026-09-13T16:09:05Z",
     "checked": 5,
-    "seconds": 24.36,
+    "seconds": 26.13,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
