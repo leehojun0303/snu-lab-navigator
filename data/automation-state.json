@@ -1,5 +1,5 @@
 {
-  "cursor": 905,
+  "cursor": 910,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -104,8 +104,8 @@
       "_unit_id": "SNU-RU-608E6D31594D9F"
     },
     "SNU-RU-61F74813A36DAA": {
-      "fingerprint": "3e0dbde6c8ea96912bb7cc729bfbb4be6eadfdd082d6f276116d8e20efb06c64",
-      "checked_at": "2026-09-11T01:39:53Z",
+      "fingerprint": "bc628a229653185c34ca8c071dbe88b6b539482921bef0dfe65f03b03436a99b",
+      "checked_at": "2026-09-13T16:23:03Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -114,14 +114,14 @@
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=3&profidx=25",
           "https://korean.snu.ac.kr",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
           "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
           "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
           "https://humanities.snu.ac.kr/research/CHIO",
-          "https://humanities.snu.ac.kr/research/CHESO",
-          "https://humanities.snu.ac.kr/research/CDCC",
-          "https://humanities.snu.ac.kr/campus-life/activities/student-council",
-          "https://humanities.snu.ac.kr/community/student-council-news",
-          "https://humanities.snu.ac.kr/ai/students"
+          "https://humanities.snu.ac.kr/research/CHESO"
         ]
       },
       "enrichment": {
@@ -204,7 +204,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:40:07Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-61F74813A36DAA"
     },
@@ -35555,23 +35556,13 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-DCD5F545957CED": {
-      "fingerprint": "24f6f00b033330b1de9899b230dfe7ffb0fc268be477467de8c5cebd73dac883",
-      "checked_at": "2026-09-11T02:10:26Z",
+      "fingerprint": "2c3a84078dcd59af1d35a354125c86e373548696cf57ebe9d077b245c936d1c0",
+      "checked_at": "2026-09-13T16:23:16Z",
       "activity": {
         "publicationPages": [
           {
             "title": "2026학년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://korean.snu.ac.kr/12801/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           },
           {
@@ -35615,21 +35606,21 @@
             "alt": "서울대학교 국어국문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/#container"
+            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/11/김대중-선생님.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/#container"
+            "parent_source_url": "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer02.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/#container"
+            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut01-1-1.png",
@@ -35670,19 +35661,18 @@
         "sourcePagesScanned": [
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/",
           "https://korean.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://ih.snu.ac.kr/",
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/#container",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request"
+          "https://admission.snu.ac.kr/index.html",
+          "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EB%8C%80%EC%A4%91/#none",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/",
+          "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-DCD5F545957CED",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-DCD5F545957CED"
     },
     "SNU-RU-09FFC01D7C14A1": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -45151,23 +45141,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C6E20230174E2F": {
-      "fingerprint": "757f2d7d677fb92ed100a1cb1077dba69ef7b65ec7ce63f0fd2a3de5a1a397bf",
-      "checked_at": "2026-09-11T02:15:18Z",
+      "fingerprint": "e52906d614825b5b4e98a288c43c219934889e2fab6125ca5570102992f15770",
+      "checked_at": "2026-09-13T16:23:12Z",
       "activity": {
         "publicationPages": [
           {
             "title": "2026학년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://korean.snu.ac.kr/12801/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           },
           {
@@ -45211,21 +45191,21 @@
             "alt": "서울대학교 국어국문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/11/김성규-선생님.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer02.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut01-1-1.png",
@@ -45266,19 +45246,18 @@
         "sourcePagesScanned": [
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/",
           "https://korean.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://ih.snu.ac.kr/",
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#container",
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/"
+          "https://admission.snu.ac.kr/index.html",
+          "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EA%B7%9C/#none",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C6E20230174E2F",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-C6E20230174E2F"
     },
     "SNU-RU-978C85FB712624": {
       "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
@@ -54667,23 +54646,13 @@
       "_unit_id": "SNU-RU-10D7EBF477F18E"
     },
     "SNU-RU-F36BE974E84592": {
-      "fingerprint": "49086d54cb0e5669e96c425bf6a9b3f3a52e6b6a15fbff98f3074b921e987e63",
-      "checked_at": "2026-09-11T02:20:39Z",
+      "fingerprint": "55dced7e959af86869403affd4f0aff0e10c5cbeef6b14e67de1f8e1a1de9530",
+      "checked_at": "2026-09-13T16:23:15Z",
       "activity": {
         "publicationPages": [
           {
             "title": "2026학년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://korean.snu.ac.kr/12801/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           },
           {
@@ -54727,21 +54696,21 @@
             "alt": "서울대학교 국어국문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/11/김유중-선생님.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer02.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#footer"
+            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut01-1-1.png",
@@ -54782,19 +54751,18 @@
         "sourcePagesScanned": [
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/",
           "https://korean.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://ih.snu.ac.kr/",
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#container",
           "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/"
+          "https://admission.snu.ac.kr/index.html",
+          "https://korean.snu.ac.kr/snu__professor/%EA%B9%80%EC%9C%A0%EC%A4%91/#none",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-F36BE974E84592",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-F36BE974E84592"
     },
     "SNU-RU-BDEB356862596F": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -181303,8 +181271,8 @@
       "_unit_id": "SNU-RU-1DDD88FB2D3D1E"
     },
     "SNU-RU-127380D99CB398": {
-      "fingerprint": "20dce9a767db37d4309844f31b85b332e3240fe171ec4c6eaebc8421f851fa9d",
-      "checked_at": "2026-09-11T03:35:32Z",
+      "fingerprint": "eac51a3b14a012375adf9af6c1a5dbd2b50d309f723489729a27ead070bb03c7",
+      "checked_at": "2026-09-13T16:23:02Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -181337,14 +181305,14 @@
             "alt": "서울대학교 인문대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
             "alt": "서울대학교 인문대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/webdata/professor/b99z3a0z3f9z6cbz886z150zefeza4azcd6z1bfzb7.jpg",
@@ -181358,53 +181326,53 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
             "alt": "서울대학교 인문대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
             "alt": "학생생활문화원",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
             "alt": "인문학 역량강화",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/ai/students"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           },
           {
             "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
             "alt": "교육지원센터",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/community/student-council-news"
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
           }
         ],
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=15&profidx=141",
           "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
           "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
           "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
           "https://humanities.snu.ac.kr/research/CHIO",
-          "https://humanities.snu.ac.kr/research/CHESO",
-          "https://humanities.snu.ac.kr/research/CDCC",
-          "https://humanities.snu.ac.kr/campus-life/activities/student-council",
-          "https://humanities.snu.ac.kr/community/student-council-news",
-          "https://humanities.snu.ac.kr/ai/students"
+          "https://humanities.snu.ac.kr/research/CHESO"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-127380D99CB398",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FFFC338A58E596": {
       "fingerprint": "2041dadd2ce318e9976bcae5029bd0222ed0112e9d42040450473b6e0e79b7b2",
@@ -225538,26 +225506,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
     },
-    "SNU-RU-127380D99CB398": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:28:37Z"
-    },
-    "SNU-RU-61F74813A36DAA": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:28:45Z"
-    },
-    "SNU-RU-DCD5F545957CED": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:28:53Z"
-    },
-    "SNU-RU-C6E20230174E2F": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:29:01Z"
-    },
-    "SNU-RU-F36BE974E84592": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:29:09Z"
-    },
     "SNU-RU-9F10FB6CDD6E5E": {
       "reason": "NameError",
       "checked_at": "2026-09-13T04:29:56Z"
@@ -228500,9 +228448,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:22:32Z",
+    "at": "2026-09-13T16:23:16Z",
     "checked": 5,
-    "seconds": 22.29,
+    "seconds": 30.83,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
