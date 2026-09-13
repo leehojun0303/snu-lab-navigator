@@ -1,5 +1,5 @@
 {
-  "cursor": 2160,
+  "cursor": 2165,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -203835,21 +203835,125 @@
     },
     "SNU-RU-ERE-CHOE-JONGGEUN": {
       "fingerprint": "20805aae39c584f9c34592a181c97bbae015de398046a4e18c1b1d83d315906e",
-      "checked_at": "2026-09-11T03:52:54Z",
+      "checked_at": "2026-09-13T08:18:31Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "최종근 > 전임교수 | 서울대학교 에너지자원공학과",
+            "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7"
+          }
+        ],
         "recruitmentPages": [],
-        "membersUrl": "",
+        "membersUrl": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://petro.modoo.at/",
           "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-ERE-CHOE-JONGGEUN",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "글로벌석유연구센터(GPRC)를 운영하며 저류층 특성화, 유전개발계획 최적화, 시추공학, 비전통 석유 자원 개발 및 이산화탄소 지중저장 기술을 연구하고 있습니다.",
+        "research_topics": [
+          "저류층 모델링 및 특성화",
+          "유전개발계획 최적화",
+          "이산화탄소 지중저장",
+          "전통 및 비전통 석유자원 개발",
+          "시추공학 및 유정제어",
+          "기계학습응용"
+        ],
+        "recommendation_keywords": [
+          "석유가스공학",
+          "저류층 특성화",
+          "유전개발",
+          "이산화탄소 지중저장",
+          "기계학습",
+          "저류층 모델링 및 특성화",
+          "유전개발계획 최적화",
+          "전통 및 비전통 석유자원 개발",
+          "시추공학 및 유정제어",
+          "기계학습응용"
+        ],
+        "recent_papers": [
+          {
+            "title": "Reliable initial model selection for efficient characterization of channel reservoirs in ensemble Kalman filter",
+            "year": "2023",
+            "venue": "J. of Energy Resources Technology",
+            "summary": "앙상블 칼만 필터를 이용한 채널 저류층의 효율적인 특성화를 위한 신뢰성 있는 초기 모델 선택 방법을 제시하였습니다."
+          },
+          {
+            "title": "Model regeneration scheme using a deep learning algorithm for reliable uncertainty quantification of channel reservoirs",
+            "year": "2022",
+            "venue": "J. of Energy Resources Technology",
+            "summary": "채널 저류층의 신뢰성 있는 불확실성 정량화를 위해 딥러닝 알고리즘을 활용한 모델 재생성 기법을 연구하였습니다."
+          },
+          {
+            "title": "Reliable channel reservoir characterization using variational autoencoder and ensemble smoother with multiple data assimilation",
+            "year": "2022",
+            "venue": "J. of Petroleum Science & Engineering",
+            "summary": "변분 오토인코더와 다중 데이터 동화 앙상블 스무더를 결합하여 채널 저류층 특성화를 수행하였습니다."
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [
+          {
+            "title": "광구개발 실무",
+            "year": "2023",
+            "venue": "None",
+            "summary": "광구개발 실무에 관한 교재를 저술하였습니다."
+          },
+          {
+            "title": "석유와 석유공학 이해",
+            "year": "2020",
+            "venue": "None",
+            "summary": "석유와 석유공학에 대한 이해를 돕는 교재를 저술하였습니다."
+          },
+          {
+            "title": "해양시추공학",
+            "year": "2017",
+            "venue": "None",
+            "summary": "해양시추공학에 관한 교재를 저술하였습니다."
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 자원공학과 학사 및 석사, 미국 텍사스 A&M 대학교 석유공학 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "최종근 > 전임교수 | 서울대학교 에너지자원공학과",
+            "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7"
+          }
+        ],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7",
+          "https://petro.modoo.at/"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-ERE-CHOE-JONGGEUN",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:18:35Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-ERE-CHOE-JONGGEUN"
     },
     "SNU-RU-644B1A894AE6A1": {
       "fingerprint": "495b29afe183891e47900f1d4107886b0ed63555a877d897ec85819fe78aef8a",
@@ -214445,6 +214549,303 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AEE2F273EC483B"
+    },
+    "SNU-RU-EEB598EC5E997D": {
+      "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
+      "checked_at": "2026-09-13T08:18:43Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
+        ]
+      },
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-EEB598EC5E997D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:18:45Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-EEB598EC5E997D"
+    },
+    "SNU-RU-A5E655989D77F3": {
+      "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
+      "checked_at": "2026-09-13T08:18:43Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
+        ]
+      },
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://dentistry.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6",
+          "https://dentsci.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-A5E655989D77F3",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:18:54Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-A5E655989D77F3"
+    },
+    "SNU-RU-278C4153417D50": {
+      "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
+      "checked_at": "2026-09-13T08:18:43Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
+        ]
+      },
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-278C4153417D50",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:19:11Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-278C4153417D50"
+    },
+    "SNU-RU-BF5A9E0FF1C4D1": {
+      "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
+      "checked_at": "2026-09-13T08:18:45Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
+        ]
+      },
+      "enrichment": {
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "None",
+        "verified_publication_pages": [],
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-BF5A9E0FF1C4D1",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:19:17Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-BF5A9E0FF1C4D1"
     }
   },
   "failures": {
@@ -214888,10 +215289,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T03:59:01Z"
     },
-    "SNU-RU-278C4153417D50": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:06:26Z"
-    },
     "SNU-RU-E20FD7ABA9470A": {
       "reason": "NameError",
       "checked_at": "2026-09-13T03:08:28Z"
@@ -214903,14 +215300,6 @@
     "SNU-RU-D18FB7A32A9701": {
       "reason": "NameError",
       "checked_at": "2026-09-13T04:09:27Z"
-    },
-    "SNU-RU-BF5A9E0FF1C4D1": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:06:34Z"
-    },
-    "SNU-RU-A5E655989D77F3": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:06:50Z"
     },
     "SNU-RU-43CA315C290988": {
       "reason": "NameError",
@@ -214951,10 +215340,6 @@
     "SNU-RU-3E0C803C506A9A": {
       "reason": "NameError",
       "checked_at": "2026-09-13T03:05:14Z"
-    },
-    "SNU-RU-EEB598EC5E997D": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:06:42Z"
     },
     "SNU-RU-7B87E45E338A10": {
       "reason": "NameError",
@@ -218948,10 +219333,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T06:31:51Z"
     },
-    "SNU-RU-ERE-CHOE-JONGGEUN": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:06:15Z"
-    },
     "SNU-RU-ERE-KANG-JINSU": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:06:58Z"
@@ -221290,11 +221671,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T08:18:26Z",
-    "checked": 1530,
-    "seconds": 16428.91,
+    "at": "2026-09-13T08:19:17Z",
+    "checked": 1535,
+    "seconds": 16479.94,
     "gemini": true,
-    "ai_requests": 307,
+    "ai_requests": 312,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
