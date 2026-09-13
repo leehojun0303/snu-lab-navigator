@@ -1,5 +1,5 @@
 {
-  "cursor": 380,
+  "cursor": 385,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -175716,8 +175716,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-4426E200B53D68": {
-      "fingerprint": "d81ca2a47d20548d735c3d6adf5166c13f327471ae334059690474eb62f5d57b",
-      "checked_at": "2026-09-11T03:33:06Z",
+      "fingerprint": "d6e56f4befc55ca4bfd755cbc7152abef85155c3202e42a50e32d8fee9bba922",
+      "checked_at": "2026-09-13T15:14:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -175822,13 +175822,13 @@
           "https://pomology.snu.ac.kr/members#graduate-students",
           "https://pomology.snu.ac.kr/members#undergraduate-researchers",
           "https://pomology.snu.ac.kr/members#alumni",
-          "https://pomology.snu.ac.kr/publications",
-          "https://pomology.snu.ac.kr/news#latest"
+          "https://pomology.snu.ac.kr/news#latest",
+          "https://pomology.snu.ac.kr/publications"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-4426E200B53D68",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-44FFE8F1D74AE6": {
       "fingerprint": "5ed772bfa17c5e2156e95bf95cc4e980ac3dd52630265a2a67fe9b107a3b861e",
@@ -175956,8 +175956,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6619E9FA1CE02E": {
-      "fingerprint": "6b3c8d29fddc70b0bf0074e27fab4c06711618463ed53f316da2a56750c1df37",
-      "checked_at": "2026-09-11T03:33:09Z",
+      "fingerprint": "170be0005dc0d81e3a5e26fcf7cfdd8b4fa3fb1b8a7925860270d1d7e61303e5",
+      "checked_at": "2026-09-13T15:14:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -175971,17 +175971,17 @@
             "kind": "publication"
           },
           {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
             "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
             "url": "https://cals.snu.ac.kr/student/lecture/paper",
             "kind": "publication"
           }
@@ -176008,7 +176008,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://cals.snu.ac.kr/student/lecture/paper",
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -176016,28 +176016,28 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
             "alt": "SNU CALS",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2022/05/그룹-1.png",
@@ -176071,19 +176071,18 @@
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://plantsci.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
           "https://cals.snu.ac.kr/student/lecture/paper",
           "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
           "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq",
-          "https://cals.snu.ac.kr/about/guide/program",
-          "https://cals.snu.ac.kr/campuslife/activity/StudentCouncil",
-          "https://cals.snu.ac.kr/campuslife/activity/counsel",
-          "https://cals.snu.ac.kr/research-affairs/support/cals"
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-6619E9FA1CE02E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-6619E9FA1CE02E"
     },
     "SNU-RU-69E00BA6D8D5D0": {
       "fingerprint": "03fcad5d52b160dbb84155636495f18b66e1f322ad5367c845df010f14050ccf",
@@ -186476,8 +186475,8 @@
       "_unit_id": "SNU-RU-D872EA9E01A6C0"
     },
     "SNU-RU-66C9E64239708E": {
-      "fingerprint": "b25a2e2d899002a3184a8546d6cfaa38e407cd42653ed66a31e5f75f14a78a20",
-      "checked_at": "2026-09-11T03:36:51Z",
+      "fingerprint": "305490afb9ccc5d7090047150398e204c022d8e287f7961155e1dce911f73107",
+      "checked_at": "2026-09-13T15:14:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -186501,8 +186500,8 @@
             "kind": "publication"
           },
           {
-            "title": "본문 바로가기",
-            "url": "https://vegetablelab.snu.ac.kr/publication/#container",
+            "title": "Publications",
+            "url": "https://vegetablelab.snu.ac.kr/publication/",
             "kind": "publication"
           }
         ],
@@ -186513,18 +186512,18 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
-            "kind": "recruitment"
-          },
-          {
             "title": "교수학습지원",
             "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+            "kind": "recruitment"
+          },
+          {
+            "title": "장애학생지원센터",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
             "kind": "recruitment"
           }
         ],
@@ -186536,7 +186535,7 @@
             "alt": "서울대학교 채소학 연구실",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vegetablelab.snu.ac.kr/login/?redirect_to=%2F"
+            "parent_source_url": "https://vegetablelab.snu.ac.kr/#footer"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2022/05/그룹-1.png",
@@ -186592,18 +186591,17 @@
           "https://vegetablelab.snu.ac.kr/",
           "https://plantsci.snu.ac.kr",
           "https://vegetablelab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
+          "https://vegetablelab.snu.ac.kr/professors/",
+          "https://vegetablelab.snu.ac.kr/former-professors/",
           "https://vegetablelab.snu.ac.kr/alumni/",
           "https://vegetablelab.snu.ac.kr/publication/",
           "https://www.snu.ac.kr/personal_information",
           "https://vegetablelab.snu.ac.kr/#container",
-          "https://vegetablelab.snu.ac.kr/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://vegetablelab.snu.ac.kr/login/?redirect_to=%2F"
+          "https://vegetablelab.snu.ac.kr/#footer"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-66C9E64239708E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-66C9E64239708E"
     },
     "SNU-RU-7A46EE0A203A86": {
       "fingerprint": "fedbb10ab7a60a688090f2f8080af9960a8712aaf74d498463e735077f252af2",
@@ -191063,8 +191061,8 @@
       "_unit_id": "SNU-RU-7270C3ACD7E6FF"
     },
     "SNU-RU-6BE8AE04397506": {
-      "fingerprint": "6b3c8d29fddc70b0bf0074e27fab4c06711618463ed53f316da2a56750c1df37",
-      "checked_at": "2026-09-11T03:38:27Z",
+      "fingerprint": "170be0005dc0d81e3a5e26fcf7cfdd8b4fa3fb1b8a7925860270d1d7e61303e5",
+      "checked_at": "2026-09-13T15:14:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -191078,17 +191076,17 @@
             "kind": "publication"
           },
           {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
             "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
             "url": "https://cals.snu.ac.kr/student/lecture/paper",
             "kind": "publication"
           }
@@ -191115,7 +191113,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://cals.snu.ac.kr/student/lecture/paper",
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -191123,28 +191121,28 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
             "alt": "SNU CALS",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2022/05/그룹-1.png",
@@ -191178,19 +191176,18 @@
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://plantsci.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
           "https://cals.snu.ac.kr/student/lecture/paper",
           "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
           "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq",
-          "https://cals.snu.ac.kr/about/guide/program",
-          "https://cals.snu.ac.kr/campuslife/activity/StudentCouncil",
-          "https://cals.snu.ac.kr/campuslife/activity/counsel",
-          "https://cals.snu.ac.kr/research-affairs/support/cals"
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-6BE8AE04397506",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-6BE8AE04397506"
     },
     "SNU-RU-B10418C92B43A0": {
       "fingerprint": "6defee75b5776a1f3ab537413956e347f31cec57089f4f4fc882e567845e2c8c",
@@ -203927,33 +203924,33 @@
       "_unit_id": "SNU-RU-B1E94430786EE5"
     },
     "SNU-RU-3A43205C09BE6B": {
-      "fingerprint": "f639c1ce7ba4b964b0bc2aa681d2ede5cf7c62a51c9d460d3a76f6378dcb641b",
-      "checked_at": "2026-09-11T03:43:00Z",
+      "fingerprint": "457ee72a2fe698d8c6d46b33524c87d33f608701d4e5a394de8882ad4dd8d2a3",
+      "checked_at": "2026-09-13T15:14:37Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=1310&cate=1310",
-            "kind": "publication"
-          },
           {
             "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
             "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=1310&cate=1310",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=1310&cate=1310",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=1310&cate=1310",
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
             "kind": "publication"
           }
         ],
@@ -203962,38 +203959,32 @@
             "title": "입학포털",
             "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+            "kind": "recruitment"
+          },
+          {
+            "title": "장애학생지원",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://calslab.snu.ac.kr/mglab/menu.blank?mcode=11&cate=11",
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
-          {
-            "url": "https://calslab.snu.ac.kr/hosts/mglab/topLogo.png",
-            "alt": "원예작물유전체학연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=10&cate=10"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/theme/SNUA01/images/mobile/menu_open.png",
-            "alt": "메뉴보기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/mglab/doc.view?mcode=10&cate=10"
-          },
-          {
-            "url": "https://calslab.snu.ac.kr/hosts/mglab/mainVisual.jpg",
-            "alt": "메인비주얼이미지",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/mglab/main"
-          },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2022/05/그룹-1.png",
             "alt": "서울대학교 식물생산과학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr"
+            "parent_source_url": "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
           },
           {
             "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2020/12/icon_main_intro_03-2.png",
@@ -204014,32 +204005,52 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://plantsci.snu.ac.kr"
+            "parent_source_url": "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
           },
           {
-            "url": "https://calslab.snu.ac.kr/hosts/mglab/menu/201812/thumb_1115.1.1.jpg",
-            "alt": "강희정",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://calslab.snu.ac.kr/mglab/board.list?mcode=1115&cate=1115"
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
           }
         ],
         "sourcePagesScanned": [
-          "https://calslab.snu.ac.kr/mglab/",
           "https://plantsci.snu.ac.kr",
-          "https://calslab.snu.ac.kr/mglab/menu.blank?mcode=11&cate=11",
-          "https://calslab.snu.ac.kr/mglab/board.list?mcode=1115&cate=1115",
-          "https://calslab.snu.ac.kr/mglab/doc.view?mcode=1310&cate=1310",
-          "https://calslab.snu.ac.kr/mglab/#cont-sbj",
-          "https://calslab.snu.ac.kr/mglab/#gnb-go",
-          "https://calslab.snu.ac.kr/mglab/main",
-          "https://calslab.snu.ac.kr/mglab/sitemap.view",
-          "https://calslab.snu.ac.kr/mglab/doc.view?mcode=10&cate=10"
+          "https://admission.snu.ac.kr/index.html",
+          "https://plantsci.snu.ac.kr/%ec%9e%91%eb%ac%bc%ec%83%9d%eb%aa%85%ea%b3%bc%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12975",
+          "https://www.snu.ac.kr/personal_information",
+          "https://hort.snu.ac.kr/",
+          "https://aged.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-3A43205C09BE6B",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-3A43205C09BE6B"
     },
     "SNU-RU-8B04B37185F6FB": {
       "fingerprint": "4c284ebd371b9676c3ce5c8e0c67e836067ed92fb20cbb534910429a21f258af",
@@ -219130,26 +219141,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T14:24:39Z"
     },
-    "SNU-RU-4426E200B53D68": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:04:26Z"
-    },
-    "SNU-RU-6619E9FA1CE02E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:04:38Z"
-    },
-    "SNU-RU-6BE8AE04397506": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:04:46Z"
-    },
-    "SNU-RU-66C9E64239708E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:04:55Z"
-    },
-    "SNU-RU-3A43205C09BE6B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:05:02Z"
-    },
     "SNU-RU-9014753E781415": {
       "reason": "NameError",
       "checked_at": "2026-09-13T03:05:38Z"
@@ -223888,9 +223879,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T15:13:52Z",
+    "at": "2026-09-13T15:14:37Z",
     "checked": 5,
-    "seconds": 22.32,
+    "seconds": 29.92,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
