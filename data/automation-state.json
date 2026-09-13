@@ -1,5 +1,5 @@
 {
-  "cursor": 455,
+  "cursor": 460,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -975,8 +975,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-12EC136919597E": {
-      "fingerprint": "00e8988024941e16bef91ff90d6ed168fb0497bf99efe6d41e8f5b41e4fffbb0",
-      "checked_at": "2026-09-11T01:40:09Z",
+      "fingerprint": "de07baa11576b56249ab3369521bc68164e656a6c9e85c4374386592d5b4364c",
+      "checked_at": "2026-09-13T15:23:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -991,13 +991,13 @@
           "https://law.snu.ac.kr/page/professor.php?wr_id=395",
           "https://law.snu.ac.kr",
           "https://law.snu.ac.kr/page/councel.php",
-          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
           "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=102",
-          "https://www.snu.ac.kr/personal_information",
-          "https://law.snu.ac.kr/index_en.php",
-          "https://law.snu.ac.kr/page/sitemap.php",
-          "https://law.snu.ac.kr/passni/sso/spLogin.php",
-          "https://law.snu.ac.kr/page/greeting.php"
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=103",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=104"
         ]
       },
       "enrichment": {
@@ -1055,7 +1055,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:42:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-12EC136919597E"
     },
@@ -7974,29 +7975,114 @@
       "_unit_id": "SNU-RU-1B856D343B8D4D"
     },
     "SNU-RU-F781D10273EEFA": {
-      "fingerprint": "5861af0c508dee386f11c44bdac039bcf623c7c5137188d708e529014e6d9331",
-      "checked_at": "2026-09-11T01:48:38Z",
+      "fingerprint": "6db026a4d29895d98d60c90978e4699229236315774fd361fb416b4cf1ebbf47",
+      "checked_at": "2026-09-13T15:23:49Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 대학원 논문연구 보고서 제…",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7499",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=72",
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-gkm_k_1_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=72",
           "https://law.snu.ac.kr",
           "https://law.snu.ac.kr/page/councel.php",
-          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
           "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102",
-          "https://www.snu.ac.kr/personal_information",
-          "https://law.snu.ac.kr/index_en.php",
-          "https://law.snu.ac.kr/page/sitemap.php",
-          "https://law.snu.ac.kr/passni/sso/spLogin.php",
-          "https://law.snu.ac.kr/page/greeting.php"
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=103",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=104"
         ]
       },
       "enrichment": {
@@ -8094,9 +8180,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:53:50Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-F781D10273EEFA"
+      "_unit_id": "SNU-RU-F781D10273EEFA",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-14116F9BC821D2": {
       "fingerprint": "47e541498cc324e6597d23917d3f705885d9a780aecd8ce481eb53d7a36dac90",
@@ -16683,8 +16771,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-078FB272453C1B": {
-      "fingerprint": "ca1416842dc931e9b10dad00b60cabd79077e516e9e9621e84f451292dec17df",
-      "checked_at": "2026-09-11T02:01:23Z",
+      "fingerprint": "0efe0b1122deee0d41ffbc6f9c9a8ff136aa6912ffab4f5359bda1062e51ca3b",
+      "checked_at": "2026-09-13T15:23:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -16695,16 +16783,6 @@
           {
             "title": "2026학년도 2학기 대학원 논문연구 보고서 제…",
             "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7499",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           }
         ],
@@ -16738,35 +16816,35 @@
             "alt": "서울대학교 법학전문대학원",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
           },
           {
             "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
             "alt": "close",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
           },
           {
             "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
           },
           {
             "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_GzyCv0t1_EAB3A0EBAA85EC8898_120x.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
           },
           {
             "url": "https://law.snu.ac.kr/image/btn-gototop.png",
             "alt": "상단으로",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
           },
           {
             "url": "https://law.snu.ac.kr/image/splash1.jpg",
@@ -16794,18 +16872,17 @@
           "https://law.snu.ac.kr/page/professor.php?wr_id=379",
           "https://law.snu.ac.kr",
           "https://law.snu.ac.kr/page/councel.php",
-          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
           "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=102",
-          "https://www.snu.ac.kr/personal_information",
-          "https://law.snu.ac.kr/index_en.php",
-          "https://law.snu.ac.kr/page/sitemap.php",
-          "https://law.snu.ac.kr/passni/sso/spLogin.php",
-          "https://law.snu.ac.kr/page/greeting.php"
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=103",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=104"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-078FB272453C1B",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-078FB272453C1B"
     },
     "SNU-RU-92B16EDF731820": {
       "fingerprint": "e9ec8bb83572eb485ffa21f73abad1369b53c06f809911be82cb23801ebe59da",
@@ -220474,25 +220551,13 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:23:07Z"
     },
-    "SNU-RU-078FB272453C1B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:15:42Z"
-    },
-    "SNU-RU-F781D10273EEFA": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:15:50Z"
-    },
-    "SNU-RU-12EC136919597E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:15:58Z"
-    },
     "SNU-RU-79C201B3C6F06C": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:16:14Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T15:23:40Z"
     },
     "SNU-RU-99412DE98B8234": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:16:06Z"
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-13T15:23:40Z"
     },
     "SNU-RU-050DBF2620E3BC": {
       "reason": "NameError",
@@ -224984,9 +225049,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T15:23:22Z",
-    "checked": 10,
-    "seconds": 18.02,
+    "at": "2026-09-13T15:23:49Z",
+    "checked": 5,
+    "seconds": 11.34,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
