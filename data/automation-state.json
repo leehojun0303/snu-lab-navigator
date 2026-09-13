@@ -1,5 +1,5 @@
 {
-  "cursor": 115,
+  "cursor": 120,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -87245,8 +87245,8 @@
       "_unit_id": "SNU-RU-6DCEFB1F2DEBAB"
     },
     "SNU-RU-468B4134E3C7C4": {
-      "fingerprint": "6117fc3cb2f240e4ce40e0103f6a317ddb6c109aeacb48f7926b3ba1488c6f16",
-      "checked_at": "2026-09-13T14:33:51Z",
+      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
+      "checked_at": "2026-09-13T22:44:55Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -87324,7 +87324,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:34:03Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-468B4134E3C7C4"
     },
@@ -87970,8 +87971,8 @@
       "_unit_id": "SNU-RU-FAC1A7A3835D3A"
     },
     "SNU-RU-87D7EF8277E91C": {
-      "fingerprint": "6117fc3cb2f240e4ce40e0103f6a317ddb6c109aeacb48f7926b3ba1488c6f16",
-      "checked_at": "2026-09-13T14:33:51Z",
+      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
+      "checked_at": "2026-09-13T22:44:55Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -88049,7 +88050,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:34:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-87D7EF8277E91C"
     },
@@ -97210,7 +97212,7 @@
     },
     "SNU-RU-F44D2EC5CF8825": {
       "fingerprint": "ecbce1f1d71e5e817e62806a31a47afb573c3ced4d401c376a253f74ea257b29",
-      "checked_at": "2026-09-13T14:33:46Z",
+      "checked_at": "2026-09-13T22:44:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -103986,8 +103988,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-EC63F9765372A9": {
-      "fingerprint": "70c7cda2c4103cc3e6269416e9b1a3176a1bbd487a8a50d9c26185b279990b0a",
-      "checked_at": "2026-09-13T14:34:01Z",
+      "fingerprint": "0486f709826375263bc38d251e0b28ea9d87ad5e6ced4abc03b7fefaeffc4538",
+      "checked_at": "2026-09-13T22:45:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -104003,12 +104005,12 @@
           "https://mse.snu.ac.kr",
           "https://espark.snu.ac.kr/member/eun-soo-park/",
           "https://espark.snu.ac.kr/students-awards/",
-          "https://espark.snu.ac.kr/alumni/",
+          "https://espark.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
+          "https://espark.snu.ac.kr/paper/",
           "https://www.snu.ac.kr/personal_information",
           "https://espark.snu.ac.kr/#container",
           "https://espark.snu.ac.kr/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://espark.snu.ac.kr/"
+          "https://snu.ac.kr/index.html"
         ]
       },
       "enrichment": {
@@ -104134,7 +104136,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T14:34:29Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-EC63F9765372A9"
     },
@@ -108222,7 +108225,7 @@
     },
     "SNU-RU-867F53DB77ED3E": {
       "fingerprint": "5b3f63cf69f1e40e476011ea8f68b8d3cb52276e8556a0f5a4075bf4c900d7d9",
-      "checked_at": "2026-09-13T14:33:44Z",
+      "checked_at": "2026-09-13T22:44:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -108471,7 +108474,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-867F53DB77ED3E",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-0409E21FB9727C": {
       "fingerprint": "eecfbca75524ff06b7e92edb2e756788c9b97284ba4bdd0e54648227d99e084f",
@@ -244326,9 +244329,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:44:21Z",
+    "at": "2026-09-13T22:45:00Z",
     "checked": 5,
-    "seconds": 12.0,
+    "seconds": 23.85,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
