@@ -1,5 +1,5 @@
 {
-  "cursor": 670,
+  "cursor": 675,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -215881,8 +215881,8 @@
       "_unit_id": "SNU-RU-9014753E781415"
     },
     "SNU-RU-5434608B110086": {
-      "fingerprint": "b8a6b73d49ae9b73abb9662d8fbe6d9d2119734b9d2369f65a035682a4aebdfa",
-      "checked_at": "2026-09-13T15:50:00Z",
+      "fingerprint": "af48db97bfa0fcf75b213a9995ca8925a39ad4b5ae5e12b268ab49129c3554bb",
+      "checked_at": "2026-09-13T23:54:59Z",
       "activity": {
         "publicationPages": [
           {
@@ -216002,7 +216002,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-5434608B110086"
+      "_unit_id": "SNU-RU-5434608B110086",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E827E9079751D7": {
       "fingerprint": "6305494f2bbac4a1faee3bd5a774bc1adff98675f823c75f655424e86842c751",
@@ -233230,8 +233231,8 @@
       "_unit_id": "SNU-RU-2F60A3D29EA88A"
     },
     "SNU-RU-20167956D8AA23": {
-      "fingerprint": "e68b3ec3f420a17654c8e00c6312d8014bfaca2f53722107a0e8ac42ba972681",
-      "checked_at": "2026-09-13T15:49:58Z",
+      "fingerprint": "cb4c059b8eecd5256dc07c4fa7f11cac11260d8b08a3606981d211c4bf14e9fa",
+      "checked_at": "2026-09-13T23:55:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -233351,12 +233352,11 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-20167956D8AA23",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-20167956D8AA23"
     },
     "SNU-RU-923700BE458383": {
-      "fingerprint": "6d24c02baee04783464327b56f68c52323f56fa886cbde358811659e24109c54",
-      "checked_at": "2026-09-13T15:49:58Z",
+      "fingerprint": "cb4c059b8eecd5256dc07c4fa7f11cac11260d8b08a3606981d211c4bf14e9fa",
+      "checked_at": "2026-09-13T23:55:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -233479,8 +233479,8 @@
       "_unit_id": "SNU-RU-923700BE458383"
     },
     "SNU-RU-5D2A6D43E6ADEB": {
-      "fingerprint": "e68b3ec3f420a17654c8e00c6312d8014bfaca2f53722107a0e8ac42ba972681",
-      "checked_at": "2026-09-13T15:49:58Z",
+      "fingerprint": "af48db97bfa0fcf75b213a9995ca8925a39ad4b5ae5e12b268ab49129c3554bb",
+      "checked_at": "2026-09-13T23:54:59Z",
       "activity": {
         "publicationPages": [
           {
@@ -233603,8 +233603,8 @@
       "_unit_id": "SNU-RU-5D2A6D43E6ADEB"
     },
     "SNU-RU-87465DBBE2F5E4": {
-      "fingerprint": "f0d648d2c232d69c384b2c9b14ffee1aa2310d3cfa2570cb5870b2ff038cb762",
-      "checked_at": "2026-09-13T15:49:59Z",
+      "fingerprint": "cb4c059b8eecd5256dc07c4fa7f11cac11260d8b08a3606981d211c4bf14e9fa",
+      "checked_at": "2026-09-13T23:55:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -244875,9 +244875,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T23:54:31Z",
-    "checked": 5,
-    "seconds": 3.01,
+    "at": "2026-09-13T23:55:01Z",
+    "checked": 10,
+    "seconds": 32.66,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
