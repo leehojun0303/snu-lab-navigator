@@ -16,12 +16,12 @@
   function selectedDetailUnit(units) {
     const detail=document.querySelector('#detail');
     if(!detail?.open)return null;
-    const heading=clean(detail.querySelector('h2,h1')?.textContent);
+    const heading=clean(detail.querySelector('.detail-head h2')?.textContent);
     const name=(heading.match(/^(.+?)\s*교수\s*\//)||[])[1];
     if(!name)return null;
     const candidates=units.filter(x=>clean(x.name)===clean(name));
     if(candidates.length===1)return candidates[0];
-    const lab=(heading.split('/').slice(1).join('/')).trim();
+    const lab=clean(heading.split('/').slice(1).join('/'));
     return candidates.find(x=>clean(String(x.labs||'').split(/[;|]/)[0])===lab)||null;
   }
 
@@ -35,14 +35,10 @@
       if(correct&&clean(meta.textContent)!==correct)meta.textContent=correct;
     });
     const x=selectedDetailUnit(units);
-    if(x){
-      const detail=document.querySelector('#detail');
-      const heading=detail.querySelector('h2,h1');
-      const meta=heading?.parentElement?.querySelector('.meta');
-      if(meta){
-        const correct=[unitAffiliation(x),clean(x.rank)].filter(Boolean).join(' · ');
-        if(correct&&clean(meta.textContent)!==correct)meta.textContent=correct;
-      }
+    const meta=document.querySelector('#detail .detail-head .detail-meta');
+    if(x&&meta){
+      const correct=[unitAffiliation(x),clean(x.rank)].filter(Boolean).join(' · ');
+      if(correct&&clean(meta.textContent)!==correct)meta.textContent=correct;
     }
     window.SnuAffiliationLabel=unitAffiliation;
   }
