@@ -1,5 +1,5 @@
 {
-  "cursor": 1385,
+  "cursor": 1390,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -99422,7 +99422,7 @@
     },
     "SNU-RU-4F5B7FA4D61EF4": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-11T02:46:43Z",
+      "checked_at": "2026-09-13T17:23:27Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -99434,8 +99434,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-4F5B7FA4D61EF4",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-4F5B7FA4D61EF4"
     },
     "SNU-RU-D21424803F4889": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
@@ -148627,7 +148626,7 @@
     },
     "SNU-RU-703DE296494D5E": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-11T03:24:33Z",
+      "checked_at": "2026-09-13T17:23:27Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -148639,8 +148638,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-703DE296494D5E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-703DE296494D5E"
     },
     "SNU-RU-93F1DF853064B5": {
       "fingerprint": "f3eba47e586f84772800087c68e5f34ca22dfff57b5fbd7184d05b74d9f54ad2",
@@ -231107,6 +231105,55 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-165F0C5A6CB84B"
+    },
+    "SNU-RU-99AC77C548A8F7": {
+      "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
+      "checked_at": "2026-09-13T17:23:27Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "posterCandidates": [],
+        "sourcePagesScanned": [
+          "https://gspa.snu.ac.kr"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-99AC77C548A8F7",
+      "verify_error": "gemini_rate_limited"
+    },
+    "SNU-RU-620099FDCC6265": {
+      "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
+      "checked_at": "2026-09-13T17:23:27Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "posterCandidates": [],
+        "sourcePagesScanned": [
+          "https://gspa.snu.ac.kr"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-620099FDCC6265"
+    },
+    "SNU-RU-B0A865810EFFAD": {
+      "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
+      "checked_at": "2026-09-13T17:23:27Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "posterCandidates": [],
+        "sourcePagesScanned": [
+          "https://gspa.snu.ac.kr"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-B0A865810EFFAD"
     }
   },
   "failures": {
@@ -231142,10 +231189,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T05:58:52Z"
     },
-    "SNU-RU-620099FDCC6265": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:41:53Z"
-    },
     "SNU-RU-169004FF3D077B": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:23:07Z"
@@ -231158,17 +231201,9 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T05:46:39Z"
     },
-    "SNU-RU-99AC77C548A8F7": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:42:09Z"
-    },
     "SNU-RU-E11F03148B4C8A": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:44:59Z"
-    },
-    "SNU-RU-B0A865810EFFAD": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:42:17Z"
     },
     "SNU-RU-634AB3722E89EE": {
       "reason": "fetch_failed",
@@ -231429,14 +231464,6 @@
     "SNU-RU-2F9035D4B9A99C": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
-    },
-    "SNU-RU-4F5B7FA4D61EF4": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:42:01Z"
-    },
-    "SNU-RU-703DE296494D5E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:41:45Z"
     },
     "SNU-RU-04260B44551CB0": {
       "reason": "NameError",
@@ -232664,9 +232691,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:23:10Z",
+    "at": "2026-09-13T17:23:27Z",
     "checked": 5,
-    "seconds": 5.17,
+    "seconds": 2.86,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
