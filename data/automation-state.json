@@ -1,5 +1,5 @@
 {
-  "cursor": 1150,
+  "cursor": 1155,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -155470,8 +155470,8 @@
       "_unit_id": "SNU-RU-43F4956DEDFD14"
     },
     "SNU-RU-ACBFE1BB945114": {
-      "fingerprint": "0f66549c3620f1e5a60d9bdaf9d6fd6ee256ee7f2beb1aeada034a729125a88e",
-      "checked_at": "2026-09-11T03:27:16Z",
+      "fingerprint": "baa4b9cbc1251fc69ef58b8b4c06ce7e84773e366e9fd06aac90e5c4538cd1da",
+      "checked_at": "2026-09-13T16:55:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -155502,6 +155502,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
             "title": "입학안내",
             "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
             "kind": "recruitment"
@@ -155515,14 +155520,9 @@
             "title": "편입학",
             "url": "https://biosci.snu.ac.kr/admissions/transfer",
             "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://biosci.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://biosci.snu.ac.kr/about/alumni",
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -155530,14 +155530,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/webdata/faculty/photo/66bz4f6z5b1zbc9z493zdd8zfdez609z6ecz5efzca.jpg",
@@ -155558,46 +155558,46 @@
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           }
         ],
         "sourcePagesScanned": [
           "https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=51",
           "https://biosci.snu.ac.kr",
-          "https://biosci.snu.ac.kr/about/alumni",
           "https://biosci.snu.ac.kr/people/faculty",
           "https://biosci.snu.ac.kr/people/adjunct-professor",
           "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
           "https://biosci.snu.ac.kr/peopley/previous-faculty",
           "https://biosci.snu.ac.kr/people/lecture-professor",
-          "https://biosci.snu.ac.kr/admissions/undergraduate",
-          "https://biosci.snu.ac.kr/admissions/graduate"
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-ACBFE1BB945114",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-59AF24CA5E9F11": {
       "fingerprint": "fd42d458453dc216c80b9a695dfcfb5238a2ef539646c28a9c1b21c3fe38d559",
@@ -156007,8 +156007,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-CEDD1616767DA4": {
-      "fingerprint": "596f0a0dc885ebb3e972671ed3e006c2b8450a87283179d027372fe02ae5d5af",
-      "checked_at": "2026-09-11T03:27:25Z",
+      "fingerprint": "35159963e23c0995cf71ef322bad69d0ab4a537ef2bab6cbdd13194a81d55de5",
+      "checked_at": "2026-09-13T16:55:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -156039,6 +156039,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
             "title": "입학안내",
             "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
             "kind": "recruitment"
@@ -156052,14 +156057,9 @@
             "title": "편입학",
             "url": "https://biosci.snu.ac.kr/admissions/transfer",
             "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://biosci.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://biosci.snu.ac.kr/about/alumni",
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -156067,14 +156067,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/webdata/faculty/photo/fc5z98bzff2z1e5z0d5za85z628z0eaz63az287z69.jpg",
@@ -156095,46 +156095,45 @@
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           }
         ],
         "sourcePagesScanned": [
           "https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=86",
           "https://biosci.snu.ac.kr",
-          "https://biosci.snu.ac.kr/about/alumni",
           "https://biosci.snu.ac.kr/people/faculty",
           "https://biosci.snu.ac.kr/people/adjunct-professor",
           "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
           "https://biosci.snu.ac.kr/peopley/previous-faculty",
           "https://biosci.snu.ac.kr/people/lecture-professor",
-          "https://biosci.snu.ac.kr/admissions/undergraduate",
-          "https://biosci.snu.ac.kr/admissions/graduate"
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CEDD1616767DA4",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-CEDD1616767DA4"
     },
     "SNU-RU-A3167B738AAF41": {
       "fingerprint": "327a5e15e18dde3c32e2005b083bd4ecba4a6af8be5e3f08aaf23572887ad4ae",
@@ -157929,8 +157928,8 @@
       "_unit_id": "SNU-RU-F0EA7FC5DA0D8E"
     },
     "SNU-RU-8E6A2D1CB74F84": {
-      "fingerprint": "5ffd93c41f69468cf9b3887504614a0cba16878dfce24875f72597c62b9fd239",
-      "checked_at": "2026-09-11T03:27:58Z",
+      "fingerprint": "f1c2cb36694eb77c5771999820e28af8aa4f77842a524bfc913b149a18aa83d6",
+      "checked_at": "2026-09-13T16:55:33Z",
       "activity": {
         "publicationPages": [
           {
@@ -157961,6 +157960,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
             "title": "입학안내",
             "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
             "kind": "recruitment"
@@ -157974,14 +157978,9 @@
             "title": "편입학",
             "url": "https://biosci.snu.ac.kr/admissions/transfer",
             "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://biosci.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://biosci.snu.ac.kr/about/alumni",
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -157989,14 +157988,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/webdata/faculty/photo/560zdf5z934z155z364ze4ezee7z343z47azc1azf7.jpg",
@@ -158017,46 +158016,45 @@
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           }
         ],
         "sourcePagesScanned": [
           "https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=30",
           "https://biosci.snu.ac.kr",
-          "https://biosci.snu.ac.kr/about/alumni",
           "https://biosci.snu.ac.kr/people/faculty",
           "https://biosci.snu.ac.kr/people/adjunct-professor",
           "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
           "https://biosci.snu.ac.kr/peopley/previous-faculty",
           "https://biosci.snu.ac.kr/people/lecture-professor",
-          "https://biosci.snu.ac.kr/admissions/undergraduate",
-          "https://biosci.snu.ac.kr/admissions/graduate"
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-8E6A2D1CB74F84",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-8E6A2D1CB74F84"
     },
     "SNU-RU-F3E3E1147F6C1A": {
       "fingerprint": "74767d9e49000397e022acfdd8a5c77557cad3a1a8144b89f80350d4d28c8bf1",
@@ -158878,8 +158876,8 @@
       "_unit_id": "SNU-RU-ADD05F7E41E9DA"
     },
     "SNU-RU-2EE864062070D9": {
-      "fingerprint": "b08c9966b2ac32c382b31996f98ce6df407f8353b8ce004331a2a5351f518ccf",
-      "checked_at": "2026-09-11T03:28:15Z",
+      "fingerprint": "7b035d5d34c3c7871d369f347bba596997a85717ca511971b390bacaebc7c969",
+      "checked_at": "2026-09-13T16:55:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -158910,6 +158908,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
             "title": "입학안내",
             "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
             "kind": "recruitment"
@@ -158923,14 +158926,9 @@
             "title": "편입학",
             "url": "https://biosci.snu.ac.kr/admissions/transfer",
             "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://biosci.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://biosci.snu.ac.kr/about/alumni",
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -158938,14 +158936,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/webdata/faculty/photo/95cz5e5z22fzc9ez3c0z487z329z885zecfz62azd5.jpg",
@@ -158966,46 +158964,45 @@
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           }
         ],
         "sourcePagesScanned": [
           "https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=31",
           "https://biosci.snu.ac.kr",
-          "https://biosci.snu.ac.kr/about/alumni",
           "https://biosci.snu.ac.kr/people/faculty",
           "https://biosci.snu.ac.kr/people/adjunct-professor",
           "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
           "https://biosci.snu.ac.kr/peopley/previous-faculty",
           "https://biosci.snu.ac.kr/people/lecture-professor",
-          "https://biosci.snu.ac.kr/admissions/undergraduate",
-          "https://biosci.snu.ac.kr/admissions/graduate"
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-2EE864062070D9",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-2EE864062070D9"
     },
     "SNU-RU-FB72734FE7F710": {
       "fingerprint": "5dacf93a3ba05fff313878fe214b77cae74cddff6bdd19aa459a204249548205",
@@ -166458,8 +166455,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-2DD7C3E405B679": {
-      "fingerprint": "01938ee883b16d0a38496038b8a8b93f6a321b39d5e3d6b2fa7312c0a11ba28e",
-      "checked_at": "2026-09-11T03:30:38Z",
+      "fingerprint": "6270ba581af4e10f3b28a6d58c44c80372cb8031bd5359080bea69a86de81875",
+      "checked_at": "2026-09-13T16:55:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -166490,6 +166487,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
             "title": "입학안내",
             "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
             "kind": "recruitment"
@@ -166503,14 +166505,9 @@
             "title": "편입학",
             "url": "https://biosci.snu.ac.kr/admissions/transfer",
             "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://biosci.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://biosci.snu.ac.kr/about/alumni",
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -166518,14 +166515,14 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/webdata/faculty/photo/742z1f2z20cz1cbz30dz9f6zdf6ze23z239zb34z86.jpg",
@@ -166546,46 +166543,45 @@
             "alt": "BIOSCI",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           },
           {
             "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://biosci.snu.ac.kr/admissions/graduate"
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
           }
         ],
         "sourcePagesScanned": [
           "https://biosci.snu.ac.kr/people/faculty?mode=view&profidx=33",
           "https://biosci.snu.ac.kr",
-          "https://biosci.snu.ac.kr/about/alumni",
           "https://biosci.snu.ac.kr/people/faculty",
           "https://biosci.snu.ac.kr/people/adjunct-professor",
           "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
           "https://biosci.snu.ac.kr/peopley/previous-faculty",
           "https://biosci.snu.ac.kr/people/lecture-professor",
-          "https://biosci.snu.ac.kr/admissions/undergraduate",
-          "https://biosci.snu.ac.kr/admissions/graduate"
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-2DD7C3E405B679",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-2DD7C3E405B679"
     },
     "SNU-RU-0EAC55215C3331": {
       "fingerprint": "c9b95160db6f09e8e0b28ff45b061019b6af25658daa8e0ec1f2f2743c80ba1c",
@@ -228086,26 +228082,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T16:52:08Z"
     },
-    "SNU-RU-8E6A2D1CB74F84": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:09:10Z"
-    },
-    "SNU-RU-2EE864062070D9": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:08:46Z"
-    },
-    "SNU-RU-ACBFE1BB945114": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:08:54Z"
-    },
-    "SNU-RU-2DD7C3E405B679": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:08:38Z"
-    },
-    "SNU-RU-CEDD1616767DA4": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:09:02Z"
-    },
     "SNU-RU-619C2F800D2C1E": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:09:54Z"
@@ -230168,9 +230144,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:54:59Z",
+    "at": "2026-09-13T16:55:35Z",
     "checked": 5,
-    "seconds": 13.75,
+    "seconds": 20.26,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
