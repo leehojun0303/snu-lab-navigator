@@ -1,5 +1,5 @@
 {
-  "cursor": 230,
+  "cursor": 235,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -124025,8 +124025,8 @@
       "_unit_id": "SNU-RU-51B6D6F947EC70"
     },
     "SNU-RU-41D172501A36E9": {
-      "fingerprint": "925a003628de90e9bef654644f58979b68136387eb0450b711b5ab929d9dccf9",
-      "checked_at": "2026-09-12T03:30:37Z",
+      "fingerprint": "c205de5e27bc9e99ddff26a784a4f5adc4989c5afe11de6974369fca8d6c029d",
+      "checked_at": "2026-09-13T14:53:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -124039,7 +124039,6 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://yongsoosong.github.io/",
-          "https://cse.snu.ac.kr/ko/people/faculty/13",
           "https://cse.snu.ac.kr/ko",
           "https://yongsoosong.github.io/publications/",
           "https://yongsoosong.github.io/presentations/",
@@ -124047,7 +124046,8 @@
           "https://yongsoosong.github.io/contact/",
           "https://yongsoosong.github.io/sitemap/",
           "https://yongsoosong.github.io/feed.xml",
-          "https://cse.snu.ac.kr/ko/people"
+          "https://cse.snu.ac.kr/ko/community/news/1212",
+          "https://cse.snu.ac.kr/ko/community/news/1216"
         ]
       },
       "enrichment": {
@@ -124123,7 +124123,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:30:39Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-41D172501A36E9"
     },
@@ -125134,7 +125135,7 @@
     },
     "SNU-RU-723D7DB2E0F4D5": {
       "fingerprint": "d902a5aa79c9761e26ffeeffd0c33c1b42f2c6d53d39973fbcf0174ca3b12945",
-      "checked_at": "2026-09-12T03:30:39Z",
+      "checked_at": "2026-09-13T14:53:44Z",
       "activity": {
         "publicationPages": [
           {
@@ -125180,8 +125181,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학",
-            "url": "https://cse.snu.ac.kr/ko/admissions",
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내 2026/3/31 인공지능(AI) 기술의 급속한 발전과 함께 컴퓨터공학 전반이 새로운 전환기를 맞이하고 있습니다. 이에 서울대학교 컴퓨터공학부는 컴퓨터공학의 견고한 이론적 토대를 바탕으로, 확장 가",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207",
             "kind": "recruitment"
           }
         ],
@@ -125259,8 +125260,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-723D7DB2E0F4D5",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-723D7DB2E0F4D5"
     },
     "SNU-RU-8707551C2D3CBB": {
       "fingerprint": "42310dad5a0eabcc8afdf76e12a42c42a4c38a6353cbd505a8ba2477773728a9",
@@ -132585,21 +132585,99 @@
       "_unit_id": "SNU-RU-9E43F4F8B27771"
     },
     "SNU-RU-58BF740C2ABFED": {
-      "fingerprint": "9de149f050d0654a48766b34fc77ee4a1546ff082bbc371fa235aa186ad16690",
-      "checked_at": "2026-09-12T03:30:37Z",
+      "fingerprint": "1e0dd6481b3e4235955fd90939bc182932b8818e708fe4da8491c770f6d9b5c0",
+      "checked_at": "2026-09-13T14:53:39Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publication",
-            "url": "https://geniajh.github.io/#publication"
+            "url": "https://geniajh.github.io/#publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://geniajh.github.io/#publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://geniajh.github.io/#publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://geniajh.github.io/#publication",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://geniajh.github.io/#publication",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "서울대학교 융합과학기술대학원 2026학년도 제2차 교수채용 공고",
+            "url": "https://convergence.snu.ac.kr/22553/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2027학년도 전기 대학원 신입생 모집단위 변경 안내(지능정보융합학과 관련)",
+            "url": "https://convergence.snu.ac.kr/22511/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026학년도 융합과학기술대학원 헬스케어융합학과(계약학과) 신입생 후기모집 안내",
+            "url": "https://convergence.snu.ac.kr/21719/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://geniajh.github.io/#current",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dblp.org/img/dblp.icon.192x192.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://geniajh.github.io/#patents"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Linkedin-logo-blue-In-square-40px.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://geniajh.github.io/#patents"
+          },
+          {
+            "url": "https://geniajh.github.io/images/gajh.jpg",
+            "alt": "Picture of Jung Ho Ahn",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://geniajh.github.io/#patents"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2024/01/logo-2.png",
+            "alt": "서울대학교 서울대학교 융합과학기술대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
+            "alt": "그림1",
+            "title": "그림1",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://geniajh.github.io/",
-          "https://cse.snu.ac.kr/ko/people/faculty/221",
           "https://convergence.snu.ac.kr",
           "https://geniajh.github.io/#honors",
           "https://geniajh.github.io/#current",
@@ -132607,7 +132685,8 @@
           "https://geniajh.github.io/#publication",
           "https://geniajh.github.io/post/",
           "https://geniajh.github.io/#research",
-          "https://geniajh.github.io/#experiences"
+          "https://geniajh.github.io/#experiences",
+          "https://geniajh.github.io/#patents"
         ]
       },
       "enrichment": {
@@ -132780,9 +132859,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:30:48Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-58BF740C2ABFED"
+      "_unit_id": "SNU-RU-58BF740C2ABFED",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D93105796E8871": {
       "fingerprint": "7441c4302c5a40bc95cf2481a7073465e4ee7f2764147e36318ed022b6b61cd7",
@@ -213076,8 +213157,8 @@
       "_unit_id": "SNU-RU-539B9D44187386"
     },
     "SNU-RU-602CF7A763B7E3": {
-      "fingerprint": "8a2bd882cf73d40f2396f450d398704149d73fa3b1200df054959fb157d6cb0e",
-      "checked_at": "2026-09-12T03:30:44Z",
+      "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
+      "checked_at": "2026-09-13T14:53:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -213089,16 +213170,16 @@
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://cse.snu.ac.kr/ko/people/faculty/16",
           "https://cse.snu.ac.kr/ko",
+          "https://cse.snu.ac.kr/ko/community/news/1212",
+          "https://cse.snu.ac.kr/ko/community/news/1216",
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/notice/24826",
           "https://cse.snu.ac.kr/ko/people",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
-          "https://cse.snu.ac.kr/ko/people/staff",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko"
+          "https://cse.snu.ac.kr/ko/community/news/1211",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
+          "https://cse.snu.ac.kr/ko/community/news/1206",
+          "https://cse.snu.ac.kr/ko/community/news/1198"
         ]
       },
       "enrichment": {
@@ -213175,29 +213256,30 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:30:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-602CF7A763B7E3"
     },
     "SNU-RU-5A92D6B65E1D54": {
-      "fingerprint": "11ef8052abbb16baf813a81c73ccbf24a34759a607d45a33970d09d7ef8fea5c",
-      "checked_at": "2026-09-12T03:30:44Z",
+      "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
+      "checked_at": "2026-09-13T14:53:47Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://cse.snu.ac.kr/ko/people/faculty/17",
           "https://cse.snu.ac.kr/ko",
+          "https://cse.snu.ac.kr/ko/community/news/1212",
+          "https://cse.snu.ac.kr/ko/community/news/1216",
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/notice/24826",
           "https://cse.snu.ac.kr/ko/people",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
-          "https://cse.snu.ac.kr/ko/people/staff",
-          "https://cse.snu.ac.kr/ko/people/faculty",
-          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko"
+          "https://cse.snu.ac.kr/ko/community/news/1211",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
+          "https://cse.snu.ac.kr/ko/community/news/1206",
+          "https://cse.snu.ac.kr/ko/community/news/1198"
         ]
       },
       "enrichment": {
@@ -213256,7 +213338,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:30:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-5A92D6B65E1D54"
     },
@@ -222526,26 +222609,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:39Z"
     },
-    "SNU-RU-58BF740C2ABFED": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:41:56Z"
-    },
-    "SNU-RU-5A92D6B65E1D54": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-13T02:42:07Z"
-    },
-    "SNU-RU-602CF7A763B7E3": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-13T02:42:07Z"
-    },
-    "SNU-RU-41D172501A36E9": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:42:07Z"
-    },
-    "SNU-RU-723D7DB2E0F4D5": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:42:15Z"
-    },
     "SNU-RU-F004EEBAB42A82": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T02:42:48Z"
@@ -223944,9 +224007,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T14:53:19Z",
+    "at": "2026-09-13T14:53:47Z",
     "checked": 5,
-    "seconds": 134.07,
+    "seconds": 13.7,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
