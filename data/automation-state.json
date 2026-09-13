@@ -1,5 +1,5 @@
 {
-  "cursor": 1400,
+  "cursor": 1405,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -11088,8 +11088,8 @@
       "_unit_id": "SNU-RU-EAF2E5F8031DFD"
     },
     "SNU-RU-97681C7AE0690F": {
-      "fingerprint": "c577643d70b230f98551be7c91fd58acc6b1492b410664a9d05989349847014d",
-      "checked_at": "2026-09-11T01:55:25Z",
+      "fingerprint": "1bcd637519ecb147fcacb8bed006c802b18525cc2b68b66cc962214a8e5e3c67",
+      "checked_at": "2026-09-13T17:24:45Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -11098,14 +11098,14 @@
         "sourcePagesScanned": [
           "https://nursing.snu.ac.kr",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
           "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
           "https://nursing.snu.ac.kr/member/login",
-          "https://nursing.snu.ac.kr/admission/undergraduate",
-          "https://nursing.snu.ac.kr/admission/graduate",
-          "https://nursing.snu.ac.kr/education/undergraduate/research",
-          "https://nursing.snu.ac.kr/campuslife/student-council",
-          "https://nursing.snu.ac.kr/campuslife/student-activities"
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus",
+          "https://nursing.snu.ac.kr/admission/undergraduate"
         ]
       },
       "enrichment": {
@@ -11155,7 +11155,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:56:53Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-97681C7AE0690F"
     },
@@ -19239,18 +19240,13 @@
       "_unit_id": "SNU-RU-A48C44B8228879"
     },
     "SNU-RU-CE21F471B6E075": {
-      "fingerprint": "f9bd0457e042fdaf8cbb16ec56dd723146977d1841d264ac15f1d5276c02f4e9",
-      "checked_at": "2026-09-11T02:02:24Z",
+      "fingerprint": "c53d45d3f451a1846cff439b43aa8fb5f8b20be3e9220f1a85590d8f5a035b41",
+      "checked_at": "2026-09-13T17:24:44Z",
       "activity": {
         "publicationPages": [
           {
             "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
             "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026학년도 제2학기 석.박사학위 논문제출자격시험 시간표 및 수험생 유의사항",
-            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157531",
             "kind": "publication"
           }
         ],
@@ -19284,21 +19280,35 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize-mo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-ca3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/89bzfe9z902z756z0f2z933zb63zbe0za81z388zf5.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/9c5z862z4a1z061z114z931zf17z73az621z2e4z5e.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
           },
           {
             "url": "https://nursing.snu.ac.kr/webdata/homenews/fa8ze9bz7d5z183z4dbz7b0z020za62zf02z303z41.png",
@@ -19320,38 +19330,24 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/c34z2a8z5f1zdfez056zd85z8d3z5f5zfb2z64ez8b.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/4c3zd35za77z1ebz7cbz956zf16z09ezb70z49bzcc.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
           "https://nursing.snu.ac.kr",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
           "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
           "https://nursing.snu.ac.kr/member/login",
-          "https://nursing.snu.ac.kr/admission/undergraduate",
-          "https://nursing.snu.ac.kr/admission/graduate",
-          "https://nursing.snu.ac.kr/education/undergraduate/research",
-          "https://nursing.snu.ac.kr/campuslife/student-council",
-          "https://nursing.snu.ac.kr/campuslife/student-activities"
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus",
+          "https://nursing.snu.ac.kr/admission/undergraduate"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-CE21F471B6E075",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E720F805E53B9D": {
       "fingerprint": "7e47b51ddaa9d2f6921cd0b51940c2205e3da3c50a57991df5eaa4653da94e80",
@@ -94402,18 +94398,13 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-BE2AE62E892DFB": {
-      "fingerprint": "c25044c451a918ed7b0297a4f05f171df96cad79b64b28331935f00cae5b398c",
-      "checked_at": "2026-09-11T02:42:13Z",
+      "fingerprint": "1bcd637519ecb147fcacb8bed006c802b18525cc2b68b66cc962214a8e5e3c67",
+      "checked_at": "2026-09-13T17:24:45Z",
       "activity": {
         "publicationPages": [
           {
             "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
             "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026학년도 제2학기 석.박사학위 논문제출자격시험 시간표 및 수험생 유의사항",
-            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157531",
             "kind": "publication"
           }
         ],
@@ -94447,21 +94438,35 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize-mo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-ca3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/89bzfe9z902z756z0f2z933zb63zbe0za81z388zf5.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/9c5z862z4a1z061z114z931zf17z73az621z2e4z5e.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
           },
           {
             "url": "https://nursing.snu.ac.kr/webdata/homenews/fa8ze9bz7d5z183z4dbz7b0z020za62zf02z303z41.png",
@@ -94483,38 +94488,23 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/c34z2a8z5f1zdfez056zd85z8d3z5f5zfb2z64ez8b.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/4c3zd35za77z1ebz7cbz956zf16z09ezb70z49bzcc.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
           "https://nursing.snu.ac.kr",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
           "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
           "https://nursing.snu.ac.kr/member/login",
-          "https://nursing.snu.ac.kr/admission/undergraduate",
-          "https://nursing.snu.ac.kr/admission/graduate",
-          "https://nursing.snu.ac.kr/education/undergraduate/research",
-          "https://nursing.snu.ac.kr/campuslife/student-council",
-          "https://nursing.snu.ac.kr/campuslife/student-activities"
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus",
+          "https://nursing.snu.ac.kr/admission/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-BE2AE62E892DFB",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-BE2AE62E892DFB"
     },
     "SNU-RU-F37FC6A6764BB8": {
       "fingerprint": "38c5805eed9e935f6199531b2631fada124233ef256c5289190166cf4edb3abd",
@@ -114994,18 +114984,13 @@
       "_unit_id": "SNU-RU-3552875EB1BE36"
     },
     "SNU-RU-CBAAD7343128BB": {
-      "fingerprint": "828e20c714c8bdd6af34739a8737087a16f573aab120029daf905684f15a06d0",
-      "checked_at": "2026-09-11T02:54:28Z",
+      "fingerprint": "1bcd637519ecb147fcacb8bed006c802b18525cc2b68b66cc962214a8e5e3c67",
+      "checked_at": "2026-09-13T17:24:45Z",
       "activity": {
         "publicationPages": [
           {
             "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
             "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026학년도 제2학기 석.박사학위 논문제출자격시험 시간표 및 수험생 유의사항",
-            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157531",
             "kind": "publication"
           }
         ],
@@ -115039,21 +115024,35 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize-mo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-ca3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/campuslife/student-activities"
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/89bzfe9z902z756z0f2z933zb63zbe0za81z388zf5.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/9c5z862z4a1z061z114z931zf17z73az621z2e4z5e.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
           },
           {
             "url": "https://nursing.snu.ac.kr/webdata/homenews/fa8ze9bz7d5z183z4dbz7b0z020za62zf02z303z41.png",
@@ -115075,38 +115074,23 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/c34z2a8z5f1zdfez056zd85z8d3z5f5zfb2z64ez8b.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/4c3zd35za77z1ebz7cbz956zf16z09ezb70z49bzcc.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
           "https://nursing.snu.ac.kr",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
           "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
           "https://nursing.snu.ac.kr/member/login",
-          "https://nursing.snu.ac.kr/admission/undergraduate",
-          "https://nursing.snu.ac.kr/admission/graduate",
-          "https://nursing.snu.ac.kr/education/undergraduate/research",
-          "https://nursing.snu.ac.kr/campuslife/student-council",
-          "https://nursing.snu.ac.kr/campuslife/student-activities"
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus",
+          "https://nursing.snu.ac.kr/admission/undergraduate"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CBAAD7343128BB",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-CBAAD7343128BB"
     },
     "SNU-RU-0A5ACE61A0DB11": {
       "fingerprint": "d974fe76949a8b313a3311285170d9ff9b411a660cf00669ed14bb92c33e174f",
@@ -231197,6 +231181,115 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-666F411A6D1949"
+    },
+    "SNU-RU-E0053A41AE806C": {
+      "fingerprint": "1bcd637519ecb147fcacb8bed006c802b18525cc2b68b66cc962214a8e5e3c67",
+      "checked_at": "2026-09-13T17:24:45Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "2025년 여름방학 학생인턴십 결과발표회",
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
+            "kind": "recruitment"
+          },
+          {
+            "title": "공통 2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
+            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학안내",
+            "url": "https://nursing.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nursing.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize-mo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-ca3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/89bzfe9z902z756z0f2z933zb63zbe0za81z388zf5.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/9c5z862z4a1z061z114z931zf17z73az621z2e4z5e.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/fa8ze9bz7d5z183z4dbz7b0z020za62zf02z303z41.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/934z907z093zf2fzc2fz6dbz7c1z5cez5eez5baz9a.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          },
+          {
+            "url": "https://nursing.snu.ac.kr/webdata/homenews/820z38az104z9a9zd35z524zde1z143z9a4z058z39.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nursing.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://nursing.snu.ac.kr",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
+          "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157533",
+          "https://nursing.snu.ac.kr/member/login",
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus",
+          "https://nursing.snu.ac.kr/admission/undergraduate"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-E0053A41AE806C"
     }
   },
   "failures": {
@@ -231275,10 +231368,6 @@
     "SNU-RU-9D9E5A378256C3": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T05:58:56Z"
-    },
-    "SNU-RU-E0053A41AE806C": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:44:26Z"
     },
     "SNU-RU-5C7D8B67E02726": {
       "reason": "NameError",
@@ -231495,22 +231584,6 @@
     "SNU-RU-2F9035D4B9A99C": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
-    },
-    "SNU-RU-BE2AE62E892DFB": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:44:18Z"
-    },
-    "SNU-RU-97681C7AE0690F": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:43:54Z"
-    },
-    "SNU-RU-CE21F471B6E075": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:44:10Z"
-    },
-    "SNU-RU-CBAAD7343128BB": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:44:02Z"
     },
     "SNU-RU-7875EE99E095C2": {
       "reason": "NameError",
@@ -232694,9 +232767,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:24:13Z",
+    "at": "2026-09-13T17:24:45Z",
     "checked": 5,
-    "seconds": 14.42,
+    "seconds": 17.14,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
