@@ -1,5 +1,5 @@
 {
-  "cursor": 1365,
+  "cursor": 1370,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -2473,17 +2473,13 @@
     },
     "SNU-RU-CAB81CFAEF0020": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-11T01:40:34Z",
+      "checked_at": "2026-09-13T17:21:53Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [
-          {
-            "title": "[조교모집] Dostal 교수님 BK 및 GSI 조교 모집/TA Recruiting for Professor Dost",
-            "url": "https://gspa.snu.ac.kr"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://gspa.snu.ac.kr"
         ]
@@ -2537,7 +2533,8 @@
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v1"
       },
-      "_unit_id": "SNU-RU-CAB81CFAEF0020"
+      "_unit_id": "SNU-RU-CAB81CFAEF0020",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-1533F8954B555B": {
       "fingerprint": "18adb3e527035af443d99a818731487e7e5cc3bd91e48117cc6b2e8f7a63d7d7",
@@ -16992,7 +16989,7 @@
     },
     "SNU-RU-A74B95FE14BDAC": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-11T02:01:12Z",
+      "checked_at": "2026-09-13T17:21:53Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -17004,8 +17001,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-A74B95FE14BDAC",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-A74B95FE14BDAC"
     },
     "SNU-RU-C16D016A73EE20": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -207807,13 +207803,18 @@
       "_unit_id": "SNU-RU-F954A2D007A9B9"
     },
     "SNU-RU-ADD04006A755B4": {
-      "fingerprint": "79f79c8089d1c76a0cea8e7dae20ffafe2061df17ce579528cdc54ba65252f90",
-      "checked_at": "2026-09-11T04:00:13Z",
+      "fingerprint": "b47a29cf1c9acecd892241128857a5c89ccd45d5046604fb7950f61ae5a16984",
+      "checked_at": "2026-09-13T17:21:59Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
             "url": "https://www.eisslab.com/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "[디지털헬스케어전공 이원령 교수] 연구성과 게재(npj Flexible Electronics)",
+            "url": "https://snuti.snu.ac.kr/17904/",
             "kind": "publication"
           },
           {
@@ -207830,33 +207831,105 @@
             "title": "publication",
             "url": "https://www.eisslab.com/publications#h.yfrl1j799lbx",
             "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://www.eisslab.com/publications",
-            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학본부",
+            "url": "https://admission.snu.ac.kr",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
+            "url": "https://snuti.snu.ac.kr/18051/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://www.eisslab.com/people",
-        "posterStatus": "none_detected",
-        "posterCandidates": [],
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/허태민.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%ED%97%88%ED%83%9C%EB%AF%BC/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2021/02/snuti-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png",
+            "alt": "BAD UX POPUP 27",
+            "title": "",
+            "score": 80,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://www.eisslab.com/",
+          "https://snuti.snu.ac.kr/snu__professor/%ED%97%88%ED%83%9C%EB%AF%BC/",
+          "https://snuti.snu.ac.kr",
           "https://www.eisslab.com/people",
           "https://www.eisslab.com/publications",
           "https://www.eisslab.com/home",
           "https://www.eisslab.com/news",
           "https://www.eisslab.com/research",
           "https://www.eisslab.com/outreach",
-          "https://www.eisslab.com/#h.gqt12ixivuox",
-          "https://www.eisslab.com/#h.9gh4yn6uu7ik",
-          "https://www.eisslab.com/#h.yfrl1j799lbx"
+          "https://www.eisslab.com/#h.gqt12ixivuox"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-ADD04006A755B4",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-ADD04006A755B4"
     },
     "SNU-RU-D75C77E6FCED2E": {
       "fingerprint": "0675739a32e906d7e3d594b92df0073a612599515ea59d729559dc0faf6f11b1",
@@ -230808,6 +230881,244 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-AB19AB5E533CE1"
+    },
+    "SNU-RU-D8F1AC42A053C5": {
+      "fingerprint": "0341141147352dbb83d731141a7ec0fa6374974d737979f4c3446c63b8b68c52",
+      "checked_at": "2026-09-13T17:22:13Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "[디지털헬스케어전공 이원령 교수] 연구성과 게재(npj Flexible Electronics)",
+            "url": "https://snuti.snu.ac.kr/17904/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
+            "url": "https://snuti.snu.ac.kr/18051/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[LG Display] 2026 하반기 LG Display 신입사원 / LGenius Master 채용 (~9/16(수) 17:00)",
+            "url": "https://snuti.snu.ac.kr/18041/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[Let’s Grow with LG전자] 2026 K-뉴딜 아카데미 2기 모집 (~9/30 수)",
+            "url": "https://snuti.snu.ac.kr/18039/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snuti.snu.ac.kr/18051/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png",
+            "alt": "BAD UX POPUP 27",
+            "title": "",
+            "score": 80,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/sustainable-technology/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/digital-healthcare/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/sustainable-technology/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-4.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-5.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://snuti.snu.ac.kr",
+          "https://snuti.snu.ac.kr/18051/",
+          "https://snuti.snu.ac.kr/18003/",
+          "https://snuti.snu.ac.kr/17904/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://snuti.snu.ac.kr/commt/professor/",
+          "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://snuti.snu.ac.kr/digital-healthcare/",
+          "https://snuti.snu.ac.kr/convergence-data-science/",
+          "https://snuti.snu.ac.kr/sustainable-technology/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D8F1AC42A053C5"
+    },
+    "SNU-RU-165F0C5A6CB84B": {
+      "fingerprint": "bb1027d447a9c012c8ada9609bca0a14109a9ebfa46fc5d2c039a9395ab6ca9c",
+      "checked_at": "2026-09-13T17:22:16Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "[디지털헬스케어전공 이원령 교수] 연구성과 게재(npj Flexible Electronics)",
+            "url": "https://snuti.snu.ac.kr/17904/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
+            "url": "https://snuti.snu.ac.kr/18051/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[LG Display] 2026 하반기 LG Display 신입사원 / LGenius Master 채용 (~9/16(수) 17:00)",
+            "url": "https://snuti.snu.ac.kr/18041/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[Let’s Grow with LG전자] 2026 K-뉴딜 아카데미 2기 모집 (~9/30 수)",
+            "url": "https://snuti.snu.ac.kr/18039/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snuti.snu.ac.kr/18051/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png",
+            "alt": "BAD UX POPUP 27",
+            "title": "",
+            "score": 80,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/digital-healthcare/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/sustainable-technology/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-4.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-5.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://snuti.snu.ac.kr",
+          "https://snuti.snu.ac.kr/18051/",
+          "https://snuti.snu.ac.kr/18003/",
+          "https://snuti.snu.ac.kr/17904/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://snuti.snu.ac.kr/commt/professor/",
+          "https://snuti.snu.ac.kr/digital-healthcare/",
+          "https://snuti.snu.ac.kr/convergence-data-science/",
+          "https://snuti.snu.ac.kr/sustainable-technology/",
+          "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-165F0C5A6CB84B"
     }
   },
   "failures": {
@@ -230890,14 +231201,6 @@
     "SNU-RU-86A6C79913B4BD": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T05:58:56Z"
-    },
-    "SNU-RU-165F0C5A6CB84B": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:39:29Z"
-    },
-    "SNU-RU-D8F1AC42A053C5": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:39:37Z"
     },
     "SNU-RU-286F58E29839C4": {
       "reason": "NameError",
@@ -231138,18 +231441,6 @@
     "SNU-RU-2F9035D4B9A99C": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
-    },
-    "SNU-RU-A74B95FE14BDAC": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:39:05Z"
-    },
-    "SNU-RU-CAB81CFAEF0020": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:39:13Z"
-    },
-    "SNU-RU-ADD04006A755B4": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T05:39:21Z"
     },
     "SNU-RU-B5FD7F3C94EA75": {
       "reason": "NameError",
@@ -232445,9 +232736,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:21:35Z",
+    "at": "2026-09-13T17:22:16Z",
     "checked": 5,
-    "seconds": 28.67,
+    "seconds": 26.34,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
