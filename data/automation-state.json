@@ -1,5 +1,5 @@
 {
-  "cursor": 45,
+  "cursor": 50,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -133001,8 +133001,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-791E293BA5ABCF": {
-      "fingerprint": "2e2e144ba9f4a7a2132f78b9074fdcb88724ce82d8396fdfbea777ab0a897493",
-      "checked_at": "2026-09-13T08:28:19Z",
+      "fingerprint": "7b31f76762346cf7cb319cf88774c9cd237d10cd1b3fafa9b45fce2d6adb553e",
+      "checked_at": "2026-09-13T22:37:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -133022,12 +133022,12 @@
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%ED%95%9C%ED%98%B8-song-han-ho/",
           "https://me.snu.ac.kr",
           "https://aesl.co.kr/board/board_list?code=members",
+          "https://aesl.co.kr/company/professor",
           "https://aesl.co.kr/board/board_list?code=alumni",
           "https://aesl.co.kr/goods/goods_list?cate=001",
           "https://aesl.co.kr/goods/goods_list?cate=002",
           "https://aesl.co.kr/#header",
-          "https://aesl.co.kr/#content",
-          "https://aesl.co.kr/#sub_nav"
+          "https://aesl.co.kr/#content"
         ]
       },
       "enrichment": {
@@ -133124,7 +133124,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:28:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-791E293BA5ABCF"
     },
@@ -134637,22 +134638,82 @@
     },
     "SNU-RU-DE8AD2891EDF3A": {
       "fingerprint": "7d5a4669ac9c8b85af546d585b0b9e007000fc95bab0bf40968d50ef023a835f",
-      "checked_at": "2026-09-12T03:03:14Z",
+      "checked_at": "2026-09-13T22:37:17Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publication",
-            "url": "https://sites.google.com/view/shinlab/publication"
+            "url": "https://sites.google.com/view/shinlab/publication",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://sites.google.com/view/shinlab/publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://sites.google.com/view/shinlab/publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://sites.google.com/view/shinlab/publication",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "Principal investigator",
-            "url": "https://sites.google.com/view/shinlab/team/principal-investigator"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://sites.google.com/view/shinlab/team/lab-members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
+            "alt": "서울대학교 서울대학교 기계공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/신용대.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%8B%A0%EC%9A%A9%EB%8C%80-shin-yongdae/"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/shinlab/home",
           "https://me.snu.ac.kr/snu__professor/%EC%8B%A0%EC%9A%A9%EB%8C%80-shin-yongdae/",
@@ -134870,7 +134931,8 @@
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v3_paper_insights"
       },
-      "_unit_id": "SNU-RU-DE8AD2891EDF3A"
+      "_unit_id": "SNU-RU-DE8AD2891EDF3A",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FAF2201482551A": {
       "fingerprint": "21ff815edc05be9412bccfd1ff68c088f5ccf133608b43fe159c0d1aab0f43da",
@@ -140029,8 +140091,8 @@
       "_unit_id": "SNU-RU-FBD88BBDF03D1B"
     },
     "SNU-RU-43EF0C67E3EC1D": {
-      "fingerprint": "58f0cddd821902e6736debb5ddce882093faa986e814fae36b19fde6a401be3a",
-      "checked_at": "2026-09-13T08:28:15Z",
+      "fingerprint": "8ccef43ba92e15553b0e06891c943dc9f7ca057217e9c8c8a1c297aa639d2c4b",
+      "checked_at": "2026-09-13T22:37:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -140200,7 +140262,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:28:35Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-43EF0C67E3EC1D"
     },
@@ -141123,8 +141186,8 @@
       "_unit_id": "SNU-RU-ECDD4DB0B5A918"
     },
     "SNU-RU-B4E8648C8262D8": {
-      "fingerprint": "73693d71381828f1b09f7c65fb0e8568daabf7f64062eb1d7fa83d53d2e9bc27",
-      "checked_at": "2026-09-13T08:28:12Z",
+      "fingerprint": "060e9e5b515acf6d2b1a8a326b25f6fb80c5e29a2d05eb685c7bda90bf6f927f",
+      "checked_at": "2026-09-13T22:37:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -141140,10 +141203,10 @@
           "https://me.snu.ac.kr/snu__professor/%EC%96%91%EC%A7%84%EA%B7%9C-yang-jinkyu/",
           "https://me.snu.ac.kr",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2",
+          "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_3",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub3_1",
           "https://starlab.snu.ac.kr/index.php",
-          "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub2_2"
         ]
@@ -141217,7 +141280,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-13T08:28:25Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-B4E8648C8262D8"
     },
@@ -142866,7 +142930,7 @@
     },
     "SNU-RU-5653B79F856D4B": {
       "fingerprint": "76c9e57a2ec4583330b7c33133f4bc33a13f6c17f03810cc8c3e00a4735cc839",
-      "checked_at": "2026-09-13T08:28:06Z",
+      "checked_at": "2026-09-13T22:37:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -244014,10 +244078,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T17:05:21Z"
     },
-    "SNU-RU-DE8AD2891EDF3A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T08:28:15Z"
-    },
     "SNU-RU-2F521DF2FF1EF3": {
       "reason": "NameError",
       "checked_at": "2026-09-13T08:29:11Z"
@@ -244036,9 +244096,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T22:36:54Z",
+    "at": "2026-09-13T22:37:26Z",
     "checked": 5,
-    "seconds": 25.58,
+    "seconds": 16.78,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
