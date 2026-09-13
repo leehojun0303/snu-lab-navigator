@@ -1,5 +1,5 @@
 {
-  "cursor": 640,
+  "cursor": 645,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -111218,7 +111218,7 @@
     },
     "SNU-RU-C620C22D48B736": {
       "fingerprint": "ed42f51ca97bcb1c859b1913b95f497d84a7939164477c01d8274d661cb4ea12",
-      "checked_at": "2026-09-13T15:47:41Z",
+      "checked_at": "2026-09-13T23:52:39Z",
       "activity": {
         "publicationPages": [
           {
@@ -111343,8 +111343,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C620C22D48B736",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-C620C22D48B736"
     },
     "SNU-RU-50F3F1F6C1F394": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -139483,7 +139482,7 @@
     },
     "SNU-RU-D1AE5B59E8D705": {
       "fingerprint": "e5dfcb66433b127e7bbeb52b4acaa94d42437340c44870ba2422cb1f4c8cd767",
-      "checked_at": "2026-09-13T15:47:43Z",
+      "checked_at": "2026-09-13T23:52:39Z",
       "activity": {
         "publicationPages": [
           {
@@ -139608,7 +139607,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D1AE5B59E8D705"
+      "_unit_id": "SNU-RU-D1AE5B59E8D705",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-B53550B402B1AB": {
       "fingerprint": "6e58771c01d82940f01fbe1aed86cfc41553a5143442b171fb6c42a1e2d08cf5",
@@ -196732,7 +196732,7 @@
     },
     "SNU-RU-F5288F37770E05": {
       "fingerprint": "7019a1a2be72a2202689bec71c092a796668d7a57684c613d97285a0ac569e4c",
-      "checked_at": "2026-09-13T15:47:42Z",
+      "checked_at": "2026-09-13T23:52:39Z",
       "activity": {
         "publicationPages": [
           {
@@ -244711,11 +244711,11 @@
     },
     "SNU-RU-5860C1E8B69BD9": {
       "reason": "fetch_failed",
-      "checked_at": "2026-09-13T15:47:37Z"
+      "checked_at": "2026-09-13T23:52:34Z"
     },
     "SNU-RU-90C4F265C1012A": {
       "reason": "fetch_failed",
-      "checked_at": "2026-09-13T15:47:38Z"
+      "checked_at": "2026-09-13T23:52:34Z"
     },
     "SNU-RU-65179BE993B8C9": {
       "reason": "fetch_failed",
@@ -244875,9 +244875,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T23:52:16Z",
+    "at": "2026-09-13T23:52:39Z",
     "checked": 5,
-    "seconds": 27.66,
+    "seconds": 7.99,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
