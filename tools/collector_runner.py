@@ -10,9 +10,8 @@ _original_scan = collector.scan
 _original_http_json = entry.http_json
 
 # Keep paper summaries inside the existing one-Gemini-call-per-professor verification.
-# URL Context verifies SNU pages; Google Search is used only to locate a public
-# abstract/metadata page for an already identified paper. The model must match
-# title + this professor as author (and year when available) before summarizing.
+# Prefer a public abstract, but allow other verified scholarly content when the
+# exact paper and professor authorship are confirmed. Never summarize from title alone.
 def _paper_grounded_http_json(url,key,payload,timeout=60):
     try:
         tools=payload.get("tools") or []
@@ -24,36 +23,32 @@ def _paper_grounded_http_json(url,key,payload,timeout=60):
                 schema=prompt.get("output_schema") or {}
                 papers=schema.get("recent_papers")
                 if isinstance(papers,list) and papers and isinstance(papers[0],dict):
-                    papers[0].update({"authors":"string","doi":"string","summary":"string","summary_source":"abstract_verified | empty"})
+                    papers[0].update({"authors":"string","doi":"string","summary":"string","summary_source":"abstract_verified | fulltext_verified | scholarly_metadata_verified | empty"})
                     rules=prompt.setdefault("rules",[])
                     rules.extend([
                         "For each recent paper, use Google Search only after the paper is identified from the supplied professor/publication evidence.",
                         "Before writing a paper summary, verify the searched paper by exact or near-exact title AND that this professor is an author; also match publication year when the supplied evidence has a year.",
-                        "Write a concise Korean 1-2 sentence paper summary only from a publicly visible abstract on a publisher, DOI landing page, PubMed, arXiv, institutional repository, or other scholarly metadata page.",
-                        "Never summarize a paper from its title alone, general model knowledge, snippets that do not expose the abstract, or a different paper with a similar title.",
-                        "If no matching public abstract is found, set summary to an empty string and summary_source to empty. If verified, set summary_source to abstract_verified.",
+                        "Prefer a publicly visible abstract. If no abstract is available, a public full-text section or substantive scholarly description from a publisher, DOI landing page, PubMed, arXiv, institutional repository, or comparable scholarly metadata source may be used.",
+                        "Write a concise Korean 1-2 sentence summary only from content actually visible in the verified source. Do not add claims beyond that source.",
+                        "Never summarize from the title alone, general model knowledge, a search snippet without substantive paper content, or a different paper with a similar title.",
+                        "Set summary_source to abstract_verified for an abstract, fulltext_verified for public full text, scholarly_metadata_verified for a substantive verified scholarly description, or empty when no adequate content source is available.",
                         "Prefer at most the three most recent papers already attributable to this professor; do not replace them with unrelated search results."
                     ])
                     parts[0]["text"]=json.dumps(prompt,ensure_ascii=False)
-                    if not any("google_search" in t for t in tools):
-                        payload["tools"]=[*tools,{"google_search":{}}]
-    except Exception as exc:
-        print(f"Paper-summary grounding patch skipped: {type(exc).__name__}: {exc}",flush=True)
+                    if not any("google_search" in t for t in tools):payload["tools"]=[*tools,{"google_search":{}}]
+    except Exception as exc:print(f"Paper-summary grounding patch skipped: {type(exc).__name__}: {exc}",flush=True)
     return _original_http_json(url,key,payload,timeout)
 
-entry.http_json = _paper_grounded_http_json
+entry.http_json=_paper_grounded_http_json
 
-
-def _is_fine_arts(unit): return "미술대학" in str(unit.get("college",""))
-def _is_music(unit): return "음악대학" in str(unit.get("college",""))
-def _art_url(url): return (urlparse(str(url or "")).hostname or "").lower()=="art.snu.ac.kr"
-def _music_url(url): return (urlparse(str(url or "")).hostname or "").lower()=="music.snu.ac.kr"
-
+def _is_fine_arts(unit):return "미술대학" in str(unit.get("college",""))
+def _is_music(unit):return "음악대학" in str(unit.get("college",""))
+def _art_url(url):return (urlparse(str(url or "")).hostname or "").lower()=="art.snu.ac.kr"
+def _music_url(url):return (urlparse(str(url or "")).hostname or "").lower()=="music.snu.ac.kr"
 def _verified_profile(url,professor):
-    try: candidate=collector.page(url,0)
+    try:candidate=collector.page(url,0)
     except Exception:return ""
     return candidate.url if "/members/" in candidate.url and professor in collector.norm(candidate.text) else ""
-
 def _find_art_profile(unit):
     professor=collector.norm(unit.get("name"))
     if not professor:return ""
@@ -73,8 +68,7 @@ def _find_art_profile(unit):
         seen.add(url)
         try:page=collector.page(url,depth)
         except Exception:continue
-        exact=[x for x in page.links if _art_url(x.get("url")) and collector.norm(x.get("title"))==professor]
-        for link in exact:
+        for link in [x for x in page.links if _art_url(x.get("url")) and collector.norm(x.get("title"))==professor]:
             verified=_verified_profile(link["url"],professor)
             if verified:return verified
         for link in [x for x in page.links if _art_url(x.get("url")) and "/members/" in x.get("url","")][:20]:
@@ -87,13 +81,11 @@ def _find_art_profile(unit):
             if any(term in hint for term in ("faculty","교수진","교수","major","학과","전공","category/")):nav.append(link["url"])
         queue.extend((u,depth+1) for u in list(dict.fromkeys(nav))[:12])
     return ""
-
 def _verified_music_profile(url,professor):
     try:candidate=collector.page(url,0)
     except Exception:return ""
     text=collector.norm(candidate.text)
     return candidate.url if _music_url(candidate.url) and professor in text and any(term in text for term in ("전공","학력사항","경력사항","실적","수상")) else ""
-
 def _find_music_profile(unit):
     professor=collector.norm(unit.get("name"))
     if not professor:return ""
@@ -109,8 +101,7 @@ def _find_music_profile(unit):
         seen.add(url)
         try:page=collector.page(url,depth)
         except Exception:continue
-        exact=[x for x in page.links if _music_url(x.get("url")) and professor in collector.norm(x.get("title"))]
-        for link in exact:
+        for link in [x for x in page.links if _music_url(x.get("url")) and professor in collector.norm(x.get("title"))]:
             verified=_verified_music_profile(link["url"],professor)
             if verified:return verified
         detail=[]
@@ -128,7 +119,6 @@ def _find_music_profile(unit):
             if any(term in hint for term in ("faculty","교수진","성악과","작곡과","음악학과","피아노과","관현악과","국악과","대학원 음악과")):nav.append(link["url"])
         queue.extend((u,depth+1) for u in list(dict.fromkeys(nav))[:14])
     return ""
-
 def navigation_scan(unit,key,model,prev,budget):
     if _is_fine_arts(unit):profile=_find_art_profile(unit)
     elif _is_music(unit):profile=_find_music_profile(unit)
@@ -136,10 +126,7 @@ def navigation_scan(unit,key,model,prev,budget):
     if not profile:return _original_scan(unit,key,model,prev,budget)
     enriched=dict(unit);enriched["profile"]=profile;enriched["homepage"]=profile
     return _original_scan(enriched,key,model,prev,budget)
-
 collector.scan=navigation_scan
-
 if __name__=="__main__":
     try:entry.main()
-    except Exception as exc:
-        entry.write_failure_progress(exc);raise
+    except Exception as exc:entry.write_failure_progress(exc);raise
