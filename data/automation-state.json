@@ -1,5 +1,5 @@
 {
-  "cursor": 0,
+  "cursor": 5,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -18292,8 +18292,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-5CBCA6B5F2EE07": {
-      "fingerprint": "739c0bd7cd617a5494f81f73bf927a0bf2d05f735c56b2d877a5d06b152e815b",
-      "checked_at": "2026-09-12T02:54:48Z",
+      "fingerprint": "ac30fd0b7c291bc4e0cf4c8ad168f7c2ce106423a6d7d47ef25fe74cca05e8ae",
+      "checked_at": "2026-09-13T08:20:10Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -18317,6 +18317,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -18351,21 +18353,15 @@
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4664",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub6_1&wr_id=4661",
           "https://cee.snu.ac.kr/bbs/board.php?bo_table=sub7_1&wr_id=136",
-          "https://cee.snu.ac.kr/images/main/right_img03.png",
-          "https://cee.snu.ac.kr/images/main/link7.jpg",
-          "https://cee.snu.ac.kr/images/main/link8.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_aAMuFCrK_ED9994EBA9B4_ECBAA1ECB298_2026-08-05_174038.png",
-          "https://cee.snu.ac.kr/data/file/sub6_2/2469351719_d5CYv0Fo_20260805_173507.png",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_51lfHQZn_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_1EC9588.jpg",
-          "https://cee.snu.ac.kr/data/file/sub6_1/2469274403_i7uX9SsT_2026_EC849CEC9AB8EB8C80ED9599EAB590XED93A8ECB298ED948CEBA088EC9DB4_EB94A5ED858CED81AC_EC9DB8EC9EACECB184EC9AA9_EBB095EB9E8CED9A8C_2EC9588.jpg"
+          "https://cee.snu.ac.kr/images/main/right_img03.png"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-5CBCA6B5F2EE07",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:54:50Z",
+        "_saved_at": "2026-09-13T08:20:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-5CBCA6B5F2EE07"
     },
@@ -103063,15 +103059,10 @@
       "_unit_id": "SNU-RU-598095B957FF2F"
     },
     "SNU-RU-462679C6AEDDF1": {
-      "fingerprint": "8c2154e3b34120c006f164b62fa9c0c79ce192747beeeacfa498e02f29d3b180",
-      "checked_at": "2026-09-12T02:54:53Z",
+      "fingerprint": "35f11dc6aed87948b03ed37e1ad35aed0b1583384ddd6fe1d5fdece1ac7d20f6",
+      "checked_at": "2026-09-13T08:20:15Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "Books",
-            "url": "https://cba.snu.ac.kr/research/publications/books"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
@@ -103089,36 +103080,21 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박진수 교수는 경영학 분야에서 연구를 수행하고 있으며, 최근 프롬프트 엔지니어링 관련 저서를 출간하는 등 관련 분야의 지식 확산에 기여하고 있습니다.",
-        "research_topics": [
-          "프롬프트 엔지니어링"
-        ],
-        "recommendation_keywords": [
-          "프롬프트 엔지니어링",
-          "경영학"
-        ],
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
-        "books": [
-          {
-            "title": "바로 쓰는 프롬프트 엔지니어링",
-            "url": "https://cba.snu.ac.kr/research/publications/books",
-            "year": "2026",
-            "venue": "한빛아카데미"
-          }
-        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
         "conference_presentations": [],
         "research_projects": [],
         "recent_performances": [],
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 경영대학 경영학과 교수로서 학부 및 대학원 교육을 담당하고 있습니다.",
-        "verified_publication_pages": [
-          {
-            "title": "Books",
-            "url": "https://cba.snu.ac.kr/research/publications/books"
-          }
-        ],
+        "education_summary": "None",
+        "verified_publication_pages": [],
         "recruitment_summary": null,
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
@@ -103133,32 +103109,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://cba.snu.ac.kr/research/publications/books",
           "https://cba.snu.ac.kr",
           "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=26450",
           "https://admission.snu.ac.kr/index.html",
           "https://cba.snu.ac.kr/international/overseas/cba/01",
           "https://cba.snu.ac.kr/research/publications/search",
           "https://cba.snu.ac.kr/research/publications/journal-articles",
+          "https://cba.snu.ac.kr/research/publications/books",
           "https://cba.snu.ac.kr/research/publications/book-chapters",
           "https://cba.snu.ac.kr/research/publications/dissertation",
           "https://cba.snu.ac.kr/admission/graduate",
           "https://admission.snu.ac.kr",
-          "https://cba.snu.ac.kr/admission/MDC",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/a12z6f6z7edzb51z90fzb91z593zb96zeb2zeb8ze0.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c22z37az0dazb52ze5dzb8dz205z2f3zd77zbd3zae.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4ecz257z152z1f9z862z5edz33fz491z53ez1c8zbf.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4e3z5f7z4fcz955zb28zb7az3dfzdd5z295z195z9b.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/d86zf65z848zd3fz01ez03ez33fzd73ze26za5az36.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c35z91czfc8z091z805zdaezf70z942z58ez6d7z1d.png"
+          "https://cba.snu.ac.kr/admission/MDC"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-462679C6AEDDF1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:54:56Z",
+        "_saved_at": "2026-09-13T08:20:49Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-462679C6AEDDF1"
     },
@@ -179932,12 +179902,21 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-FBA04E4E61B049": {
-      "fingerprint": "103676675b0ca539de217045bba5b7030b3f53542c7f868fb52fa8c42ecc0857",
-      "checked_at": "2026-09-12T02:54:54Z",
+      "fingerprint": "06e020495958da8d3eceea0d6a29c05d40044e9f98fc56dc8de68e40db96d188",
+      "checked_at": "2026-09-13T08:20:14Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "Publication Search",
+            "url": "https://cba.snu.ac.kr/research/publications/search"
+          },
+          {
+            "title": "Journal Articles",
+            "url": "https://cba.snu.ac.kr/research/publications/journal-articles"
+          }
+        ],
         "recruitmentPages": [],
-        "membersUrl": "",
+        "membersUrl": "https://cba.snu.ac.kr/members/faculty",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://cba.snu.ac.kr",
@@ -179953,10 +179932,49 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
-        "research_topics": [],
-        "recommendation_keywords": [],
-        "recent_papers": [],
+        "research_summary": "장정주 교수는 디지털 정보 채널의 가치와 미디어 의존 이론, 오픈 커뮤니티 내 기여자의 역할 및 조직 학습 이론 등을 중심으로 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "디지털 정보 채널",
+          "미디어 의존 이론",
+          "오픈 커뮤니티",
+          "조직 학습 이론"
+        ],
+        "recommendation_keywords": [
+          "디지털 정보",
+          "미디어 의존",
+          "오픈 커뮤니티",
+          "조직 학습",
+          "디지털 정보 채널",
+          "미디어 의존 이론",
+          "조직 학습 이론"
+        ],
+        "recent_papers": [
+          {
+            "title": "위기는 디지털 정보 채널의 가치를 어떻게 재편하는가? 미디어 의존 이론의 사회기술적 확장을 통한 정보 채널 유형과 만족도의 동태적 관계",
+            "url": "https://cba.snu.ac.kr/research/publications/search",
+            "year": "2026",
+            "venue": "경영정보학연구",
+            "summary": "위기 상황에서 디지털 정보 채널의 가치와 만족도 간의 동태적 관계를 미디어 의존 이론을 통해 분석하였습니다."
+          },
+          {
+            "title": "Who is the key contributor in an open community? Based on organizational learning theory with structural holes and strength of ties",
+            "url": "https://cba.snu.ac.kr/research/publications/search",
+            "year": "2026",
+            "venue": "Information and Software Technology",
+            "summary": "조직 학습 이론과 구조적 공백, 관계의 강도를 바탕으로 오픈 커뮤니티 내 핵심 기여자의 특성을 규명하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 2,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "경영정보학연구",
+            "count": 1
+          },
+          {
+            "venue": "Information and Software Technology",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -179965,13 +179983,22 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "None",
-        "verified_publication_pages": [],
+        "verified_publication_pages": [
+          {
+            "title": "Publication Search",
+            "url": "https://cba.snu.ac.kr/research/publications/search"
+          },
+          {
+            "title": "Journal Articles",
+            "url": "https://cba.snu.ac.kr/research/publications/journal-articles"
+          }
+        ],
         "recruitment_summary": null,
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://cba.snu.ac.kr/members/faculty",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -179980,32 +180007,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://cba.snu.ac.kr/research/publications/journal-articles",
+          "https://cba.snu.ac.kr/research/publications/search",
           "https://cba.snu.ac.kr",
           "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=26450",
           "https://admission.snu.ac.kr/index.html",
           "https://cba.snu.ac.kr/international/overseas/cba/01",
-          "https://cba.snu.ac.kr/research/publications/search",
-          "https://cba.snu.ac.kr/research/publications/journal-articles",
           "https://cba.snu.ac.kr/research/publications/books",
           "https://cba.snu.ac.kr/research/publications/book-chapters",
           "https://cba.snu.ac.kr/research/publications/dissertation",
           "https://cba.snu.ac.kr/admission/graduate",
           "https://admission.snu.ac.kr",
-          "https://cba.snu.ac.kr/admission/MDC",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/a12z6f6z7edzb51z90fzb91z593zb96zeb2zeb8ze0.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c22z37az0dazb52ze5dzb8dz205z2f3zd77zbd3zae.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4ecz257z152z1f9z862z5edz33fz491z53ez1c8zbf.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4e3z5f7z4fcz955zb28zb7az3dfzdd5z295z195z9b.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/d86zf65z848zd3fz01ez03ez33fzd73ze26za5az36.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c35z91czfc8z091z805zdaezf70z942z58ez6d7z1d.png"
+          "https://cba.snu.ac.kr/admission/MDC"
         ],
-        "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_visible": 2,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FBA04E4E61B049",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:02Z",
+        "_saved_at": "2026-09-13T08:20:30Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-FBA04E4E61B049"
     },
@@ -194740,8 +194761,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F3B1C6FFCFE65A": {
-      "fingerprint": "8c2154e3b34120c006f164b62fa9c0c79ce192747beeeacfa498e02f29d3b180",
-      "checked_at": "2026-09-12T02:54:54Z",
+      "fingerprint": "06e020495958da8d3eceea0d6a29c05d40044e9f98fc56dc8de68e40db96d188",
+      "checked_at": "2026-09-13T08:20:14Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -194765,6 +194786,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -194799,21 +194822,15 @@
           "https://cba.snu.ac.kr/research/publications/dissertation",
           "https://cba.snu.ac.kr/admission/graduate",
           "https://admission.snu.ac.kr",
-          "https://cba.snu.ac.kr/admission/MDC",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/a12z6f6z7edzb51z90fzb91z593zb96zeb2zeb8ze0.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c22z37az0dazb52ze5dzb8dz205z2f3zd77zbd3zae.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4ecz257z152z1f9z862z5edz33fz491z53ez1c8zbf.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4e3z5f7z4fcz955zb28zb7az3dfzdd5z295z195z9b.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/d86zf65z848zd3fz01ez03ez33fzd73ze26za5az36.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c35z91czfc8z091z805zdaezf70z942z58ez6d7z1d.png"
+          "https://cba.snu.ac.kr/admission/MDC"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F3B1C6FFCFE65A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:54:58Z",
+        "_saved_at": "2026-09-13T08:20:32Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F3B1C6FFCFE65A"
     },
@@ -207636,8 +207653,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DAAE7B16CC512A": {
-      "fingerprint": "103676675b0ca539de217045bba5b7030b3f53542c7f868fb52fa8c42ecc0857",
-      "checked_at": "2026-09-12T02:54:54Z",
+      "fingerprint": "06e020495958da8d3eceea0d6a29c05d40044e9f98fc56dc8de68e40db96d188",
+      "checked_at": "2026-09-13T08:20:14Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -207661,6 +207678,8 @@
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -207695,21 +207714,15 @@
           "https://cba.snu.ac.kr/research/publications/dissertation",
           "https://cba.snu.ac.kr/admission/graduate",
           "https://admission.snu.ac.kr",
-          "https://cba.snu.ac.kr/admission/MDC",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/a12z6f6z7edzb51z90fzb91z593zb96zeb2zeb8ze0.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c22z37az0dazb52ze5dzb8dz205z2f3zd77zbd3zae.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4ecz257z152z1f9z862z5edz33fz491z53ez1c8zbf.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/4e3z5f7z4fcz955zb28zb7az3dfzdd5z295z195z9b.jpeg",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/d86zf65z848zd3fz01ez03ez33fzd73ze26za5az36.png",
-          "https://cba.snu.ac.kr/webdata/homenews/ko/c35z91czfc8z091z805zdaezf70z942z58ez6d7z1d.png"
+          "https://cba.snu.ac.kr/admission/MDC"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DAAE7B16CC512A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:55:00Z",
+        "_saved_at": "2026-09-13T08:20:42Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-DAAE7B16CC512A"
     },
@@ -219616,26 +219629,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T06:31:51Z"
     },
-    "SNU-RU-5CBCA6B5F2EE07": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:07:44Z"
-    },
-    "SNU-RU-462679C6AEDDF1": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:07:52Z"
-    },
-    "SNU-RU-FBA04E4E61B049": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:00Z"
-    },
-    "SNU-RU-DAAE7B16CC512A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:08Z"
-    },
-    "SNU-RU-F3B1C6FFCFE65A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:08:16Z"
-    },
     "SNU-RU-F3C35BB8AFC810": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:08:29Z"
@@ -221934,11 +221927,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T08:19:57Z",
-    "checked": 1540,
-    "seconds": 16520.58,
+    "at": "2026-09-13T08:20:49Z",
+    "checked": 1545,
+    "seconds": 16572.29,
     "gemini": true,
-    "ai_requests": 317,
+    "ai_requests": 322,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
