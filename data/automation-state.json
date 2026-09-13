@@ -1,5 +1,5 @@
 {
-  "cursor": 25,
+  "cursor": 30,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -10331,8 +10331,8 @@
       "_unit_id": "SNU-RU-319E38BAE8D594"
     },
     "SNU-RU-63864435ADEF48": {
-      "fingerprint": "d2ca2d12866b23cb3c160daef88811a19e689fa278ec32876558dbeb9c0a4029",
-      "checked_at": "2026-09-12T02:57:56Z",
+      "fingerprint": "42234578fd2125b93c6b5319f4e770072b4d9f07e020282db61448edbd6ca562",
+      "checked_at": "2026-09-13T08:24:36Z",
       "activity": {
         "publicationPages": [
           {
@@ -10357,7 +10357,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "음향 및 진동 연구실은 차량 NVH 성능 예측 및 고도화, 로드노이즈 능동 제어, 음질 평가 기법 개발 등 음향공학 분야의 다양한 연구를 수행하고 있습니다.",
+        "research_summary": "음향 및 진동 연구실은 차량 NVH 성능 예측, 로드노이즈 능동 제어, 음질 평가 기법 개발 및 음향 재료 연구를 통해 음향공학 분야의 고도화된 기술을 연구합니다.",
         "research_topics": [
           "음향공학",
           "차실 음향 최적화를 위한 음향 재료 연구",
@@ -10370,7 +10370,8 @@
           "음향공학",
           "NVH",
           "진동",
-          "소음 제어",
+          "음질평가",
+          "능동제어",
           "차실 음향 최적화를 위한 음향 재료 연구",
           "차량 NVH 성능 예측 및 고도화 기법 연구",
           "실험-해석 융합을 통한 모델 정확도 향상 연구",
@@ -10378,6 +10379,8 @@
           "음질평가 기법 개발 연구"
         ],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -10385,16 +10388,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 공과대학 기계공학부 교수로서 음향 및 진동 연구실을 운영하고 있습니다.",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "Journals",
             "url": "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
           }
         ],
-        "recruitment_summary": "현재 연구실 공식 홈페이지를 통해 별도의 상시 모집 공고를 명시하고 있지 않습니다.",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://acustica.snu.ac.kr/",
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://acustica.snu.ac.kr/member/",
@@ -10407,9 +10410,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://acustica.snu.ac.kr/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
           "https://acustica.snu.ac.kr/member/",
           "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
+          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
           "https://me.snu.ac.kr",
           "https://acustica.snu.ac.kr/alumni/",
           "https://acustica.snu.ac.kr/awards/",
@@ -10417,21 +10420,15 @@
           "https://admission.snu.ac.kr/index.html",
           "https://devacustica.snu.ac.kr/awards/?mod=document&uid=159",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/",
-          "https://acustica.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-          "https://acustica.snu.ac.kr/wp-content/uploads/sites/85/2024/06/intro1.jpg",
-          "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/강연준.png",
-          "https://acustica.snu.ac.kr/wp-content/uploads/sites/85/2019/06/남정민.jpg",
-          "https://acustica.snu.ac.kr/wp-content/uploads/sites/85/2020/01/오준영.jpg",
-          "https://acustica.snu.ac.kr/wp-content/uploads/sites/85/2021/09/우정우.jpg"
+          "https://admission.snu.ac.kr/"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-63864435ADEF48",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:59:00Z",
+        "_saved_at": "2026-09-13T08:25:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-63864435ADEF48"
     },
@@ -103835,15 +103832,14 @@
       "_unit_id": "SNU-RU-C56F88BC2A754A"
     },
     "SNU-RU-7ACB3EED2FB582": {
-      "fingerprint": "5552eac3ab964f027b81ad3218049f5f3154e7f4f8e87efeb67c6cff5227c47f",
-      "checked_at": "2026-09-12T02:57:31Z",
+      "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
+      "checked_at": "2026-09-13T08:24:35Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "http://bs.snu.ac.kr/",
           "https://architecture.snu.ac.kr"
         ]
       },
@@ -103864,8 +103860,10 @@
         "current_members": [],
         "alumni": [],
         "recommendation_keywords": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -103874,14 +103872,13 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://bs.snu.ac.kr/",
           "https://architecture.snu.ac.kr"
         ],
         "_unit_id": "SNU-RU-7ACB3EED2FB582",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:58:58Z",
+        "_saved_at": "2026-09-13T08:25:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7ACB3EED2FB582"
     },
@@ -106442,7 +106439,7 @@
     },
     "SNU-RU-C8FB7C45BB2149": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-12T02:57:30Z",
+      "checked_at": "2026-09-13T08:24:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -106469,8 +106466,10 @@
         "current_members": [],
         "alumni": [],
         "recommendation_keywords": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -106483,9 +106482,9 @@
         ],
         "_unit_id": "SNU-RU-C8FB7C45BB2149",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:58:39Z",
+        "_saved_at": "2026-09-13T08:24:36Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-C8FB7C45BB2149"
     },
@@ -110788,20 +110787,54 @@
     },
     "SNU-RU-4818F5C541FBE7": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-12T02:57:30Z",
+      "checked_at": "2026-09-13T08:24:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://architecture.snu.ac.kr"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-4818F5C541FBE7",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://architecture.snu.ac.kr"
+        ],
+        "_unit_id": "SNU-RU-4818F5C541FBE7",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-13T08:24:51Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-4818F5C541FBE7"
     },
     "SNU-RU-A3DFAB880F5441": {
       "fingerprint": "48d808015a7ff0915c16dd5976e1978d19ab6f33cb677b9c77488d21e2340dea",
@@ -115490,11 +115523,11 @@
     },
     "SNU-RU-B6D2843562B618": {
       "fingerprint": "1a0b1119549dc6ac19bd64852905bcac149dca6d914d121f4a1392585dcac4f7",
-      "checked_at": "2026-09-12T02:57:31Z",
+      "checked_at": "2026-09-13T08:24:21Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "SALT workshop",
+            "title": "SALT workshop - Scholar",
             "url": "https://saltworkshop.net/"
           }
         ],
@@ -115521,24 +115554,29 @@
           "도시 건축"
         ],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [
           {
             "title": "계급욕망의 유전자",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "None",
+            "summary": "계급과 욕망에 관한 건축적, 인문학적 고찰을 담은 저서입니다."
           },
           {
             "title": "도시논객",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "None",
+            "summary": "도시에 대한 다양한 논의를 담은 저서입니다."
           },
           {
             "title": "내 마음을 담은 집",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "None",
+            "summary": "집에 대한 철학과 건축적 생각을 담은 저서입니다."
           }
         ],
         "conference_presentations": [],
@@ -115548,28 +115586,31 @@
           {
             "title": "당산하늘마루",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "Built Projects",
+            "summary": "당산하늘마루 건축 프로젝트입니다."
           },
           {
-            "title": "망월대",
+            "title": "아이엠팩토리 순창 리노베이션",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "Built Projects",
+            "summary": "순창 지역의 리노베이션 건축 프로젝트입니다."
           },
           {
             "title": "Khumbu Icefall Foldable Bridge",
             "url": "https://saltworkshop.net/",
-            "year": "N/A",
-            "venue": "SALT workshop"
+            "year": "None",
+            "venue": "Proposed Projects",
+            "summary": "쿰부 빙폭을 위한 접이식 다리 제안 프로젝트입니다."
           }
         ],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 건축학과 교수로서 건축 교육 및 연구 활동을 수행하고 있습니다.",
+        "education_summary": "서울대학교 건축학과 교수로서 건축 설계 및 이론 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "SALT workshop",
+            "title": "SALT workshop - Scholar",
             "url": "https://saltworkshop.net/"
           }
         ],
@@ -115591,12 +115632,12 @@
           "https://saltworkshop.net/"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B6D2843562B618",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T02:58:42Z",
+        "_saved_at": "2026-09-13T08:24:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-B6D2843562B618"
     },
@@ -219479,26 +219520,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T06:31:51Z"
     },
-    "SNU-RU-4818F5C541FBE7": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:11:12Z"
-    },
-    "SNU-RU-C8FB7C45BB2149": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:11:20Z"
-    },
-    "SNU-RU-B6D2843562B618": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:11:28Z"
-    },
-    "SNU-RU-7ACB3EED2FB582": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:11:36Z"
-    },
-    "SNU-RU-63864435ADEF48": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T02:11:44Z"
-    },
     "SNU-RU-3744060538F429": {
       "reason": "NameError",
       "checked_at": "2026-09-13T02:11:52Z"
@@ -221697,11 +221718,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T08:24:16Z",
-    "checked": 1565,
-    "seconds": 16779.57,
+    "at": "2026-09-13T08:25:13Z",
+    "checked": 1570,
+    "seconds": 16835.86,
     "gemini": true,
-    "ai_requests": 342,
+    "ai_requests": 347,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11"
