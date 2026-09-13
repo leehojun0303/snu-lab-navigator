@@ -1,5 +1,5 @@
 {
-  "cursor": 935,
+  "cursor": 940,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -719,29 +719,109 @@
       "_unit_id": "SNU-RU-23391F55F85758"
     },
     "SNU-RU-985CCD36F02F62": {
-      "fingerprint": "610fe2a84161887b68a4cf6a44a9e4a5f35fb178448ee6f912a7ac40bbfb5048",
-      "checked_at": "2026-09-11T01:40:07Z",
+      "fingerprint": "6ab1302a42171244eb9ff211c9859752692ae524a431a20632d4070f0f52f78b",
+      "checked_at": "2026-09-13T16:27:21Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Christian Baier 교수 - 전체 교수소개",
-            "url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=9&profidx=86"
+            "title": "졸업논문",
+            "url": "https://german.snu.ac.kr/category/board-225-GN-bC1xmh2d-20231111143937/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=9&profidx=86",
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "서울대학교 인문대학 독어독문학과 조교 채용 공고",
+            "url": "https://german.snu.ac.kr/?kboard_content_redirect=2500",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/db3z4adzd9azfe1z386z125z5b8zdf3z27azf1cz4b.jpg",
+            "alt": "Christian Baier",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=9&profidx=86"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+            "alt": "학생생활문화원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
+            "alt": "인문학 역량강화",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
+            "alt": "교육지원센터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=9&profidx=86",
           "https://german.snu.ac.kr",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
           "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
           "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
           "https://humanities.snu.ac.kr/research/CHIO",
-          "https://humanities.snu.ac.kr/research/CHESO",
-          "https://humanities.snu.ac.kr/research/CDCC",
-          "https://humanities.snu.ac.kr/campus-life/activities/student-council",
-          "https://humanities.snu.ac.kr/community/student-council-news",
-          "https://humanities.snu.ac.kr/ai/students"
+          "https://humanities.snu.ac.kr/research/CHESO"
         ]
       },
       "enrichment": {
@@ -841,9 +921,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:41:46Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-985CCD36F02F62"
+      "_unit_id": "SNU-RU-985CCD36F02F62",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E88A49806397EE": {
       "fingerprint": "f83975ab549eff6294bd54c8289d2cf256817620a0426cbcd106b9d25b1e6edd",
@@ -112992,8 +113074,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-663F9B0E5C9B05": {
-      "fingerprint": "208ab602664b9af4a64ce7309c6557144d58d516a6e58307a5eefd972d511234",
-      "checked_at": "2026-09-11T02:53:41Z",
+      "fingerprint": "30c5c92fdda310b1ea7b82c5bd048e47b1121dfd7d4e3c62efd79318f888545e",
+      "checked_at": "2026-09-13T16:27:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -113004,21 +113086,6 @@
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "학위논문",
-            "url": "https://russian.snu.ac.kr",
             "kind": "publication"
           }
         ],
@@ -113039,12 +113106,12 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://russian.snu.ac.kr/19435/",
+        "membersUrl": "https://russian.snu.ac.kr/19417/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -113052,7 +113119,7 @@
             "alt": "서울대학교 노어노문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://russian.snu.ac.kr#container"
+            "parent_source_url": "https://russian.snu.ac.kr/19410/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -113106,20 +113173,19 @@
         ],
         "sourcePagesScanned": [
           "https://russian.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
-          "https://russian.snu.ac.kr/19410/",
-          "https://russian.snu.ac.kr/19435/",
-          "https://russian.snu.ac.kr/19423/",
           "https://russian.snu.ac.kr/19417/",
-          "https://russian.snu.ac.kr/19391/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://russian.snu.ac.kr#container"
+          "https://admission.snu.ac.kr/index.html",
+          "https://russian.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://russian.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://russian.snu.ac.kr/%ec%9e%85%ed%95%99-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
+          "https://russian.snu.ac.kr/%ec%a0%9c2%ec%a0%84%ea%b3%b5-%eb%b0%8f-%ea%b5%90%ec%a7%81/",
+          "https://russian.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://russian.snu.ac.kr/19440/",
+          "https://russian.snu.ac.kr/19410/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-663F9B0E5C9B05",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-663F9B0E5C9B05"
     },
     "SNU-RU-172D10071067CA": {
       "fingerprint": "67a00db016936c24f6e6cacbd5e14d3b592df7dcc931ba76117f29f6c09400e0",
@@ -123940,8 +124006,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-FCE01B0C29D764": {
-      "fingerprint": "ee5aaffe9ea3d6b63632589431764229ba98661298d5fb6eb34703a9c483c1fc",
-      "checked_at": "2026-09-11T02:57:30Z",
+      "fingerprint": "8776e903bc33e5d5c7f6752edd953865ec5e42f5a9537d35b71b3d8b401b734a",
+      "checked_at": "2026-09-13T16:27:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -123955,18 +124021,8 @@
             "kind": "publication"
           },
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
             "title": "학위논문",
-            "url": "https://russian.snu.ac.kr",
+            "url": "https://russian.snu.ac.kr/19417/",
             "kind": "publication"
           }
         ],
@@ -123987,12 +124043,12 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://russian.snu.ac.kr/19435/",
+        "membersUrl": "https://russian.snu.ac.kr/19417/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -124000,7 +124056,7 @@
             "alt": "서울대학교 노어노문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://russian.snu.ac.kr#container"
+            "parent_source_url": "https://russian.snu.ac.kr/19417/#container"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -124054,20 +124110,19 @@
         ],
         "sourcePagesScanned": [
           "https://russian.snu.ac.kr",
+          "https://russian.snu.ac.kr/19417/",
           "https://admission.snu.ac.kr/index.html",
+          "https://russian.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://russian.snu.ac.kr/%ec%9e%85%ed%95%99-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
+          "https://russian.snu.ac.kr/%ec%a0%9c2%ec%a0%84%ea%b3%b5-%eb%b0%8f-%ea%b5%90%ec%a7%81/",
+          "https://russian.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
           "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
           "https://russian.snu.ac.kr/19410/",
-          "https://russian.snu.ac.kr/19435/",
-          "https://russian.snu.ac.kr/19423/",
-          "https://russian.snu.ac.kr/19417/",
-          "https://russian.snu.ac.kr/19391/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://russian.snu.ac.kr#container"
+          "https://russian.snu.ac.kr/19417/#container"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-FCE01B0C29D764",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-FCE01B0C29D764"
     },
     "SNU-RU-6A7B98B57CFADC": {
       "fingerprint": "053e9996b0dedca04222fe46aa5f788dc7953fc94bdeae5227c36517822e42a8",
@@ -190401,8 +190456,8 @@
       "_unit_id": "SNU-RU-CA5E94D6193BF1"
     },
     "SNU-RU-10D155B9041630": {
-      "fingerprint": "208ab602664b9af4a64ce7309c6557144d58d516a6e58307a5eefd972d511234",
-      "checked_at": "2026-09-11T03:38:47Z",
+      "fingerprint": "46d7811a4142804c2c032eaec6db15e1dc655b07b28fe95ca259566466f053f7",
+      "checked_at": "2026-09-13T16:27:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -190413,21 +190468,6 @@
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "학위논문",
-            "url": "https://russian.snu.ac.kr",
             "kind": "publication"
           }
         ],
@@ -190448,12 +190488,12 @@
             "kind": "recruitment"
           },
           {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://russian.snu.ac.kr/19435/",
+        "membersUrl": "https://russian.snu.ac.kr/19417/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -190461,7 +190501,7 @@
             "alt": "서울대학교 노어노문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://russian.snu.ac.kr#container"
+            "parent_source_url": "https://russian.snu.ac.kr/19440/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -190515,20 +190555,19 @@
         ],
         "sourcePagesScanned": [
           "https://russian.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
-          "https://russian.snu.ac.kr/19410/",
-          "https://russian.snu.ac.kr/19435/",
-          "https://russian.snu.ac.kr/19423/",
           "https://russian.snu.ac.kr/19417/",
-          "https://russian.snu.ac.kr/19391/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://russian.snu.ac.kr#container"
+          "https://admission.snu.ac.kr/index.html",
+          "https://russian.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://russian.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://russian.snu.ac.kr/%ec%9e%85%ed%95%99-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
+          "https://russian.snu.ac.kr/%ec%a0%9c2%ec%a0%84%ea%b3%b5-%eb%b0%8f-%ea%b5%90%ec%a7%81/",
+          "https://russian.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
+          "https://russian.snu.ac.kr/19440/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-10D155B9041630",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-10D155B9041630"
     },
     "SNU-RU-B83CE749E8950B": {
       "fingerprint": "5f39a8d53efffccbfe8169475780d3d4f004aea2c4685e2e6847a15c6fe12aa2",
@@ -225339,6 +225378,120 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-5F3868E8BDA6A5"
+    },
+    "SNU-RU-2AD9FB99F60147": {
+      "fingerprint": "46d7811a4142804c2c032eaec6db15e1dc655b07b28fe95ca259566466f053f7",
+      "checked_at": "2026-09-13T16:27:24Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "채용 / 행사 / 모집안내",
+            "url": "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026-2학기 인문대학 학부 인문아너스 프로그램 모집 안내",
+            "url": "https://russian.snu.ac.kr/19410/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://russian.snu.ac.kr/19417/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://russian.snu.ac.kr/wp-content/uploads/sites/31/2021/02/Secondary_Kor_Eng_Horizontal.jpg",
+            "alt": "서울대학교 노어노문학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://russian.snu.ac.kr/19440/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-visit_lg.png",
+            "alt": "견학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-map_lg.png",
+            "alt": "캠퍼스맵",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://russian.snu.ac.kr",
+          "https://russian.snu.ac.kr/19417/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://russian.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://russian.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://russian.snu.ac.kr/%ec%9e%85%ed%95%99-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
+          "https://russian.snu.ac.kr/%ec%a0%9c2%ec%a0%84%ea%b3%b5-%eb%b0%8f-%ea%b5%90%ec%a7%81/",
+          "https://russian.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://russian.snu.ac.kr/category/board-31-GN-1306Xk6x-20210222203800/",
+          "https://russian.snu.ac.kr/19440/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-2AD9FB99F60147"
     }
   },
   "failures": {
@@ -225602,10 +225755,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T05:16:54Z"
     },
-    "SNU-RU-2AD9FB99F60147": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:33:55Z"
-    },
     "SNU-RU-17687CDA13E19E": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:46:47Z"
@@ -225729,22 +225878,6 @@
     "SNU-RU-9324214FE0D148": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:49:32Z"
-    },
-    "SNU-RU-985CCD36F02F62": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:33:47Z"
-    },
-    "SNU-RU-FCE01B0C29D764": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:34:03Z"
-    },
-    "SNU-RU-663F9B0E5C9B05": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:34:19Z"
-    },
-    "SNU-RU-10D155B9041630": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T04:34:11Z"
     },
     "SNU-RU-2BB9BAE3383160": {
       "reason": "NameError",
@@ -228588,9 +228721,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T16:26:45Z",
+    "at": "2026-09-13T16:27:25Z",
     "checked": 5,
-    "seconds": 26.08,
+    "seconds": 25.63,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
