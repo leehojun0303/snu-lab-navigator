@@ -17,6 +17,7 @@ def main():
     roster=(ROOT/'tools/roster_sync.py').read_text(encoding='utf-8')
     entry=(ROOT/'tools/collector_entry.py').read_text(encoding='utf-8')
     workflow=(ROOT/'.github/workflows/collect.yml').read_text(encoding='utf-8')
+    discipline=(ROOT/'dist/discipline-detail-and-search.js').read_text(encoding='utf-8')
     migration=(ROOT/'supabase/migrations/20260911_user_accounts.sql').read_text(encoding='utf-8')
     proxy=(ROOT/'supabase/functions/gemini-proxy/index.ts').read_text(encoding='utf-8')
     setup=(ROOT/'docs/handoff/SUPABASE_SETUP.md').read_text(encoding='utf-8')
@@ -29,7 +30,9 @@ def main():
     assert 'MAX_COMPARE = 4' in favorites and 'SnuAccount' in bridge
     assert 'isResearchOriented' in favorites and 'latest_papers' in favorites and '논문 기반 최근 관심 분야' in favorites
     assert 'SnuAffiliationLabel' in (ROOT/'dist/app.js').read_text(encoding='utf-8')
-    assert 'ai-search-row' in (ROOT/'dist/discipline-detail-and-search.js').read_text(encoding='utf-8')
+    # Current discipline layer must keep college-aware detail routing and verified activity rendering.
+    assert 'window.activityHtml' in discipline and "fine_arts" in discipline and "humanities" in discipline and "music" in discipline
+    assert 'recent_solo_exhibitions' in discipline and 'recent_group_exhibitions' in discipline and 'recent_performances' in discipline
     assert 'UNION' in roster and 'absent_from_all_successful_official_rosters_for_two_consecutive_syncs' in roster
     assert 'roster_sync.py' in workflow
     assert 'on:\n  schedule:' in workflow and '\n  push:' not in workflow
@@ -37,7 +40,6 @@ def main():
     assert 'SUPABASE_CONFIG' in config
     assert 'supa.rpc' in account and 'SUPABASE_CONFIG' in config
     assert '비밀번호<input' not in account and 'Gemini API 키<input' not in account
-    assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
     assert 'profiles' in migration and 'favorites' in migration and 'compare_cache' in migration
     assert not re.search(r'create\s+table[^;]*gemini_keys', migration, re.I | re.S)
     assert 'drop table if exists public.gemini_keys cascade' in migration.lower()
@@ -48,6 +50,6 @@ def main():
     assert 'ID-only' in setup and '비밀번호·이메일·전화번호' in setup
     assert 'service-role' not in account.lower()
     assert 'account.css' in index and len(account_css) > 100
-    print('PASS: static app, quality layer, passwordless ID-only account, favorites/compare, roster union, and collector workflow checks')
+    print('PASS: static app, discipline detail layer, quality, passwordless account, favorites/compare, roster union, and collector workflow checks')
 
 if __name__=='__main__': main()
