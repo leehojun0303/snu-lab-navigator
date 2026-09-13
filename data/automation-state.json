@@ -1,5 +1,5 @@
 {
-  "cursor": 1500,
+  "cursor": 1505,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -59793,24 +59793,24 @@
       "_unit_id": "SNU-RU-A4C1F4C518CF56"
     },
     "SNU-RU-19C62D7F5B725F": {
-      "fingerprint": "40abc99e550ffeec54ba623d1de7a6d62d82bc7b13ce76e19e9ad1cb7d01c4ad",
-      "checked_at": "2026-09-13T05:56:09Z",
+      "fingerprint": "9bbb3992bae3e412ffbe74338bd464c01f643312173dd487fa8b6395c9bd2a20",
+      "checked_at": "2026-09-13T17:34:28Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://art.snu.ac.kr/members/%ea%b9%80%ec%a0%95%ed%95%9c/?cate=painting&catemenu=Faculty&type=major",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://art.snu.ac.kr/members/%EA%B9%80%EC%A0%95%ED%95%9C/",
           "https://art.snu.ac.kr/category/painting/?cate=&catemenu=Faculty&type=major",
+          "https://art.snu.ac.kr/members/%EA%B9%80%EC%A0%95%ED%95%9C/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
+          "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
           "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ec%a0%95%ed%95%9c/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%8b%a0%ec%a0%95%ed%9b%88/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ed%98%95%ea%b4%80/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%9e%84%ec%9e%90%ed%98%81/?cate=painting&catemenu=Faculty&type=major"
+          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D="
         ]
       },
       "enrichment": {
@@ -59868,7 +59868,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:04:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-19C62D7F5B725F"
     },
@@ -127639,24 +127640,103 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FBD58454073E33": {
-      "fingerprint": "40abc99e550ffeec54ba623d1de7a6d62d82bc7b13ce76e19e9ad1cb7d01c4ad",
-      "checked_at": "2026-09-13T05:56:08Z",
+      "fingerprint": "3fd274d4bba93f7f7a56d1ef6d23fec18fae63b63389ded258d75a7584a89caa",
+      "checked_at": "2026-09-13T17:34:24Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://art.snu.ac.kr/members/%ec%8b%a0%ec%a0%95%ec%95%84/?cate=painting&catemenu=Faculty&type=major",
+        "recruitmentPages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://art.snu.ac.kr/members/%EC%8B%A0%EC%A0%95%ED%9B%88/#content",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2019/03/신정훈-프로필-2-741x1011.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/en/members/shin-chunghoon/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2017/11/s_3I6A6167-1024x683.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2017/11/s_3I6A5787-1024x683.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2017/11/s_3I6A5457-1024x683.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2017/12/F31A3387-1024x683.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/category/program-in-media-art/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2018/01/event_우석홀.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2024/01/sd홀-768x511.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/"
+          },
+          {
+            "url": "https://art.snu.ac.kr/wp-content/uploads/2026/03/정승은-영매-학사-1-400x262.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]="
+          }
+        ],
         "sourcePagesScanned": [
+          "https://art.snu.ac.kr/members/%EC%8B%A0%EC%A0%95%ED%9B%88/",
           "https://art.snu.ac.kr/category/painting/?cate=&catemenu=Faculty&type=major",
+          "https://art.snu.ac.kr/members/%EC%8B%A0%EC%A0%95%ED%9B%88/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/en/members/shin-chunghoon/",
+          "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
+          "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
-          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ec%a0%95%ed%95%9c/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%8b%a0%ec%a0%95%ed%9b%88/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ed%98%95%ea%b4%80/?cate=painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%9e%84%ec%9e%90%ed%98%81/?cate=painting&catemenu=Faculty&type=major"
+          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship"
         ]
       },
       "enrichment": {
@@ -127714,9 +127794,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:03:52Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-FBD58454073E33"
+      "_unit_id": "SNU-RU-FBD58454073E33",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-87A31F39E5AB3B": {
       "fingerprint": "15049eb297e88063eb27caf8f016b6d72e8ec953c71c78a71b5a4968494a051e",
@@ -128225,24 +128307,24 @@
       "_unit_id": "SNU-RU-7303EC8F20A552"
     },
     "SNU-RU-FF0680CF1972FF": {
-      "fingerprint": "a7aec902622c5b0d692f3ee02e93c9a42c7c81f9bbc1f14a0e43a23a542ca11e",
-      "checked_at": "2026-09-13T05:56:17Z",
+      "fingerprint": "70692a37ae547718e6d30042bef99a90eb78192f6fdd2b0974c4309f6cf8e615",
+      "checked_at": "2026-09-13T17:34:24Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://art.snu.ac.kr/members/%ec%b5%9c%ec%84%9d%ec%9b%90/?cate=oriental-painting&catemenu=Faculty&type=major",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://art.snu.ac.kr/members/%EC%8B%A0%ED%95%98%EC%88%9C/",
           "https://art.snu.ac.kr/category/oriental-painting/?cate=&catemenu=Faculty&type=major",
+          "https://art.snu.ac.kr/members/%EC%8B%A0%ED%95%98%EC%88%9C/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/en/members/shin-hasoon/",
+          "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
+          "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
-          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/members/%ec%b5%9c%ec%84%9d%ec%9b%90/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ec%84%b1%ed%9d%ac/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ed%98%95%ec%88%99/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%8b%a0%ed%95%98%ec%88%9c/?cate=oriental-painting&catemenu=Faculty&type=major"
+          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship"
         ]
       },
       "enrichment": {
@@ -128298,7 +128380,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:04:30Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-FF0680CF1972FF"
     },
@@ -190037,24 +190120,24 @@
       "_unit_id": "SNU-RU-F07B514802B7D8"
     },
     "SNU-RU-CA5E94D6193BF1": {
-      "fingerprint": "a7aec902622c5b0d692f3ee02e93c9a42c7c81f9bbc1f14a0e43a23a542ca11e",
-      "checked_at": "2026-09-13T05:56:09Z",
+      "fingerprint": "02c22792ffd95c42df76bf284dd401b47d7d599495d1950794173e28eb922792",
+      "checked_at": "2026-09-13T17:34:25Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://art.snu.ac.kr/members/%EC%A0%95%ED%95%B4%EB%82%98/",
           "https://art.snu.ac.kr/category/oriental-painting/?cate=&catemenu=Faculty&type=major",
+          "https://art.snu.ac.kr/members/%EC%A0%95%ED%95%B4%EB%82%98/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/en/members/jung-haena/",
+          "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
+          "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
-          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/members/%ec%b5%9c%ec%84%9d%ec%9b%90/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ec%84%b1%ed%9d%ac/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ed%98%95%ec%88%99/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%8b%a0%ed%95%98%ec%88%9c/?cate=oriental-painting&catemenu=Faculty&type=major"
+          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship"
         ]
       },
       "enrichment": {
@@ -190110,7 +190193,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:04:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-CA5E94D6193BF1"
     },
@@ -195033,24 +195117,24 @@
       "_unit_id": "SNU-RU-F3B1C6FFCFE65A"
     },
     "SNU-RU-C9DC50B0A47747": {
-      "fingerprint": "a7aec902622c5b0d692f3ee02e93c9a42c7c81f9bbc1f14a0e43a23a542ca11e",
-      "checked_at": "2026-09-13T05:56:10Z",
+      "fingerprint": "c7b54c7873e76e3b1cffa14b218e5bfa345c90b4677c942b21e27d010b3bb5b8",
+      "checked_at": "2026-09-13T17:34:26Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://art.snu.ac.kr/members/%EC%A1%B0%EC%9D%B8%ED%98%B8/",
           "https://art.snu.ac.kr/category/oriental-painting/?cate=&catemenu=Faculty&type=major",
+          "https://art.snu.ac.kr/members/%EC%A1%B0%EC%9D%B8%ED%98%B8/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/en/members/cho-inho/",
+          "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
+          "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
-          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/members/%ec%b5%9c%ec%84%9d%ec%9b%90/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ec%84%b1%ed%9d%ac/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ea%b9%80%ed%98%95%ec%88%99/?cate=oriental-painting&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%ec%8b%a0%ed%95%98%ec%88%9c/?cate=oriental-painting&catemenu=Faculty&type=major"
+          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship"
         ]
       },
       "enrichment": {
@@ -195104,7 +195188,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:04:21Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-C9DC50B0A47747"
     },
@@ -232670,9 +232755,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T17:33:49Z",
+    "at": "2026-09-13T17:34:28Z",
     "checked": 5,
-    "seconds": 21.48,
+    "seconds": 24.2,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
