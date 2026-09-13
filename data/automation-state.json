@@ -1,5 +1,5 @@
 {
-  "cursor": 255,
+  "cursor": 260,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -215375,7 +215375,7 @@
     },
     "SNU-RU-E190B3D85B2828": {
       "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T14:56:48Z",
+      "checked_at": "2026-09-13T23:02:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -225010,7 +225010,7 @@
     },
     "SNU-RU-2874951C79B328": {
       "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T14:56:48Z",
+      "checked_at": "2026-09-13T23:02:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -225082,7 +225082,7 @@
     },
     "SNU-RU-E3678537FBF8D0": {
       "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T14:56:49Z",
+      "checked_at": "2026-09-13T23:02:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -225150,11 +225150,12 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-E3678537FBF8D0"
+      "_unit_id": "SNU-RU-E3678537FBF8D0",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-57319622CC6116": {
       "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T14:56:48Z",
+      "checked_at": "2026-09-13T23:02:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -225222,12 +225223,11 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-57319622CC6116",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-57319622CC6116"
     },
     "SNU-RU-2F34B6F4D545A5": {
       "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T14:56:48Z",
+      "checked_at": "2026-09-13T23:02:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -244950,9 +244950,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T23:01:36Z",
+    "at": "2026-09-13T23:02:11Z",
     "checked": 5,
-    "seconds": 13.39,
+    "seconds": 19.75,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
