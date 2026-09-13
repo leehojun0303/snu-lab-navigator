@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - name: Start from latest snapshot
         run: |
           git fetch origin main
@@ -25,17 +27,19 @@ jobs:
           python-version: '3.12'
       - name: Validate targeted collector
         run: python -m py_compile tools/report_targeted_collect.py tools/collector_entry.py tools/automated_enrichment_v2.py
-      - name: Collect report samples
+      - name: Collect isolated report samples
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python tools/report_targeted_collect.py
-      - name: Merge targeted results into latest main
+      - name: Publish isolated result only
         run: |
+          cp data/report-targeted-results.json /tmp/report-targeted-results.json
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/report-targeted-results.json data/report-targeted-results.json
           git config user.name "snu-lab-automation"
           git config user.email "actions@users.noreply.github.com"
-          git add dist/automation-data.js data/automation-state.json data/report-targeted-results.json
+          git add data/report-targeted-results.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Collect report discipline samples"
-          git fetch origin main
-          git rebase origin/main
+          git commit -m "Collect isolated report discipline samples"
           git push
