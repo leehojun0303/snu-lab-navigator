@@ -1,5 +1,5 @@
 {
-  "cursor": 515,
+  "cursor": 520,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "a8f9d1ae1dc797dae88501168cf2a5bd64c59a204d1a69db8c904464abfc6fc7",
@@ -4045,23 +4045,97 @@
       "_unit_id": "SNU-RU-3D02FA11A58BBC"
     },
     "SNU-RU-198E0FAF9BD53E": {
-      "fingerprint": "85d892194d0ed892f1b24f4c0b8a3beffb715a2f9378def9d34000a2a9668ace",
-      "checked_at": "2026-09-11T01:41:05Z",
+      "fingerprint": "73734096a1c5298c8f085e7c9c770503668033f3662945b365a60c2a11316806",
+      "checked_at": "2026-09-13T15:29:47Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://sites.google.com/site/snuehe/publications"
+            "url": "https://sites.google.com/site/snuehe/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "이전 연구업적리스트",
+            "url": "https://health.snu.ac.kr/?jet_download=038f3c4ed531450a4163249392727a65920ff6fd",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 논문작성계획서 발표 평가 결과 안내",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5793",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 석 · 박사 논문심사 일정안내(Thesis Defense Schedules)",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5792",
+            "kind": "publication"
+          },
+          {
+            "title": "논문유사도 검색프로그램 “Copykiller” 및 “Turnitin” 활용법 교육 안내",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5771",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Opening",
-            "url": "https://sites.google.com/site/snuehe/opportunities"
+            "url": "https://sites.google.com/site/snuehe/opportunities",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "채용정보",
+            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2027학년도 사범대학 대학원 전기모집 입학고사(전공필답고사)에 따른 건물 통제 안내",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5786",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://sites.google.com/site/snuehe/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/02/GSPH-logo3-2.png",
+            "alt": "서울대학교 서울대학교 보건대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://health.snu.ac.kr"
+          },
+          {
+            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/01/NaomichiYamamoto교수.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://health.snu.ac.kr/snu__professor/naomichi-yamamoto_%ED%99%98%EA%B2%BD%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC/"
+          },
+          {
+            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/05/healthPU1_small-e1682900835485.png",
+            "alt": "BAD UX POPUP 3",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://health.snu.ac.kr"
+          },
+          {
+            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2025/05/202505popup.jpg",
+            "alt": "BAD UX POPUP 20",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://health.snu.ac.kr"
+          },
+          {
+            "url": "https://www.gstatic.com/images/icons/material/product/1x/drive_2026_32dp.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sites.google.com/site/snuehe/about-myself"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/site/snuehe/home",
           "https://health.snu.ac.kr/snu__professor/naomichi-yamamoto_%ED%99%98%EA%B2%BD%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC/",
@@ -4155,9 +4229,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:46:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-198E0FAF9BD53E"
+      "_unit_id": "SNU-RU-198E0FAF9BD53E",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-B8EBA7883C6F74": {
       "fingerprint": "edaef92d2e66858188424a13a02712c7d5620b24c01bb0891a3606c34cd0b8de",
@@ -16624,8 +16700,8 @@
       "_unit_id": "SNU-RU-155E7657130429"
     },
     "SNU-RU-5035F0D67E8067": {
-      "fingerprint": "33d83f5e43fa0c5ebe60884b764e59a2319ec781aff858db450dcdbb026376d5",
-      "checked_at": "2026-09-11T02:01:17Z",
+      "fingerprint": "93f896589726046fb2004ae27f493661c9df55e48df3eff4b5cb6ec877ed9709",
+      "checked_at": "2026-09-13T15:29:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -16666,13 +16742,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "2027학년도 사범대학 대학원 전기모집 입학고사(전공필답고사)에 따른 건물 통제 안내",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5786",
             "kind": "recruitment"
           },
           {
-            "title": "채용정보",
-            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
@@ -16692,13 +16768,6 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://health.snu.ac.kr/snu__professor/%EA%B3%A0%EA%B4%91%ED%91%9C_%ED%99%98%EA%B2%BD%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC/"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
           },
           {
             "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/05/healthPU1_small-e1682900835485.png",
@@ -16734,6 +16803,13 @@
             "title": "",
             "score": 0,
             "parent_source_url": "http://ehml.snu.ac.kr/people/members.php"
+          },
+          {
+            "url": "http://ehml.snu.ac.kr/twcenter/data/bbs/members/S2512090403197_1.jpg",
+            "alt": "김은영 프로필 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://ehml.snu.ac.kr/people/members.php"
           }
         ],
         "sourcePagesScanned": [
@@ -16750,8 +16826,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-5035F0D67E8067",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-5035F0D67E8067"
     },
     "SNU-RU-7D83CE604B9D26": {
       "fingerprint": "7b93fb596c81ac970896f396a52fca9dd656b9671dfcb9d500f4b5c2e02aab41",
@@ -24838,8 +24913,8 @@
       "_unit_id": "SNU-RU-7DF8894C5B154A"
     },
     "SNU-RU-AFBE69D913FADC": {
-      "fingerprint": "6407621a8acdca612c109be93ee6c743cefa2018edb970b38e04a76bc929e84f",
-      "checked_at": "2026-09-11T02:05:29Z",
+      "fingerprint": "50c1daef5ce65d22e532f4ba63b881aa45fac3d1204a453dbaae0176910bd98f",
+      "checked_at": "2026-09-13T15:29:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -24855,11 +24930,6 @@
           {
             "title": "논문유사도 검색프로그램 “Copykiller” 및 “Turnitin” 활용법 교육 안내",
             "url": "https://health.snu.ac.kr/?kboard_content_redirect=5771",
-            "kind": "publication"
-          },
-          {
-            "title": "제21회 김진복암연구상 공모 및 제5회 암연구 박사학위논문상 공모",
-            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5770",
             "kind": "publication"
           }
         ],
@@ -24880,8 +24950,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "2027학년도 사범대학 대학원 전기모집 입학고사(전공필답고사)에 따른 건물 통제 안내",
+            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5786",
             "kind": "recruitment"
           }
         ],
@@ -24893,74 +24963,73 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/?page_id=36"
+            "parent_source_url": "http://heconpol.org/?page_id=114"
           },
           {
             "url": "http://heconpol.org/wp-content/uploads/2017/12/slider21.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/uploads/2017/12/slider1.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/uploads/2017/12/slider31.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/themes/business-prime/images/about-us.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port1.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port2.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           },
           {
             "url": "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port3.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "http://heconpol.org/#content"
+            "parent_source_url": "http://heconpol.org/"
           }
         ],
         "sourcePagesScanned": [
           "http://heconpol.org/",
           "https://health.snu.ac.kr/snu__professor/%EA%B6%8C%EC%88%9C%EB%A7%8C_%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC-%EB%B3%B4%EA%B1%B4%EC%A0%95%EC%B1%85%EA%B4%80%EB%A6%AC%ED%95%99/",
           "https://health.snu.ac.kr",
+          "http://heconpol.org/?page_id=32",
           "http://heconpol.org/?page_id=172",
           "http://heconpol.org/?page_id=3730",
           "http://heconpol.org/?page_id=114",
-          "http://heconpol.org/#content",
-          "http://heconpol.org/?page_id=57",
-          "http://heconpol.org/?page_id=32",
-          "http://heconpol.org/?page_id=36"
+          "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port1.jpg",
+          "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port2.jpg",
+          "http://heconpol.org/wp-content/themes/business-prime/images/portfolio/port3.jpg"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-AFBE69D913FADC",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-AFBE69D913FADC"
     },
     "SNU-RU-22994EB4EECE56": {
       "fingerprint": "f1cea41f16d2548441a9252ff85371a637ccc536fc4eeb834e90e753694b6b60",
@@ -219901,6 +219970,234 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-D8EB97FF06F6A7"
+    },
+    "SNU-RU-70CEB0143E78DF": {
+      "fingerprint": "0e2a56ed34125b67cc19c4c23c148ce24f0dfec69fd41481ce4d4e2eb8a898a6",
+      "checked_at": "2026-09-13T15:29:47Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "논문",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=102",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 대학원 논문연구 보고서 제…",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7499",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_FiKRt92B_ED998DECA784EC9881_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=138"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://law.snu.ac.kr/page/professor.php?wr_id=138",
+          "https://law.snu.ac.kr",
+          "https://law.snu.ac.kr/page/councel.php",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=102",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=103",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jinyoung.hong&code=104"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-70CEB0143E78DF"
+    },
+    "SNU-RU-99F22D279B5D5A": {
+      "fingerprint": "e15c5f72b7ec23894c728e16c16c75f2f4a8af982d058fc033d3179779a6766b",
+      "checked_at": "2026-09-13T15:29:48Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "논문",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=102",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 대학원 논문연구 보고서 제…",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7499",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_QIM68Y7r_Profile_2026_SWH-1_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=40"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://law.snu.ac.kr/page/professor.php?wr_id=40",
+          "https://law.snu.ac.kr",
+          "https://law.snu.ac.kr/page/councel.php",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=102",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=103",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=heosw&code=104"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-99F22D279B5D5A"
     }
   },
   "failures": {
@@ -220296,10 +220593,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T04:25:50Z"
     },
-    "SNU-RU-99F22D279B5D5A": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:25:00Z"
-    },
     "SNU-RU-0C534A2A63AD52": {
       "reason": "NameError",
       "checked_at": "2026-09-13T04:48:56Z"
@@ -220380,10 +220673,6 @@
       "reason": "NameError",
       "checked_at": "2026-09-13T04:33:55Z"
     },
-    "SNU-RU-70CEB0143E78DF": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:25:08Z"
-    },
     "SNU-RU-17687CDA13E19E": {
       "reason": "NameError",
       "checked_at": "2026-09-13T05:46:47Z"
@@ -220463,18 +220752,6 @@
     "SNU-RU-99412DE98B8234": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-13T15:23:40Z"
-    },
-    "SNU-RU-198E0FAF9BD53E": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:24:52Z"
-    },
-    "SNU-RU-5035F0D67E8067": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:25:16Z"
-    },
-    "SNU-RU-AFBE69D913FADC": {
-      "reason": "NameError",
-      "checked_at": "2026-09-13T03:25:24Z"
     },
     "SNU-RU-9A085B715C21BD": {
       "reason": "NameError",
@@ -224750,9 +225027,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-13T15:29:19Z",
+    "at": "2026-09-13T15:29:57Z",
     "checked": 5,
-    "seconds": 13.58,
+    "seconds": 20.07,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
