@@ -1,5 +1,5 @@
 {
-  "cursor": 1370,
+  "cursor": 1375,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -24025,7 +24025,7 @@
     },
     "SNU-RU-B3BD7739654A95": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-13T17:22:34Z",
+      "checked_at": "2026-09-14T01:29:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -24037,7 +24037,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B3BD7739654A95"
+      "_unit_id": "SNU-RU-B3BD7739654A95",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-0A11F8C16C89D5": {
       "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
@@ -29047,7 +29048,7 @@
     },
     "SNU-RU-B5FD7F3C94EA75": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-13T17:22:34Z",
+      "checked_at": "2026-09-14T01:29:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -29816,7 +29817,7 @@
     },
     "SNU-RU-517B07F8313171": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-13T17:22:34Z",
+      "checked_at": "2026-09-14T01:29:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -29828,8 +29829,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-517B07F8313171",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-517B07F8313171"
     },
     "SNU-RU-29056D6AF45965": {
       "fingerprint": "7f60605c9854d75aa86f0dec058bf7c04cabc4f733d02bc2b8dce09a32992f1f",
@@ -30908,7 +30908,7 @@
     },
     "SNU-RU-2AB650BC883AB1": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-13T17:22:34Z",
+      "checked_at": "2026-09-14T01:29:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -44070,7 +44070,7 @@
     },
     "SNU-RU-77422959EC5B30": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-13T17:22:34Z",
+      "checked_at": "2026-09-14T01:29:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -245174,9 +245174,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T01:29:41Z",
+    "at": "2026-09-14T01:29:59Z",
     "checked": 5,
-    "seconds": 28.97,
+    "seconds": 2.97,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
