@@ -1,5 +1,5 @@
 {
-  "cursor": 1340,
+  "cursor": 1345,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -132945,7 +132945,7 @@
     },
     "SNU-RU-6A7B98B57CFADC": {
       "fingerprint": "bc7c1e3c7b6003e0c07beb580232d3bf4ea5aa2cd04cfd31a447bb3e82cfcb06",
-      "checked_at": "2026-09-13T17:18:23Z",
+      "checked_at": "2026-09-14T01:25:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -133070,7 +133070,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-6A7B98B57CFADC"
+      "_unit_id": "SNU-RU-6A7B98B57CFADC",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-83D1D2504F7F9D": {
       "fingerprint": "6e52d4730cad760103cd322869b728e0ed017e0cf3107f97b34bc1074b53d708",
@@ -143197,8 +143198,8 @@
       "_unit_id": "SNU-RU-39D9EF266EE848"
     },
     "SNU-RU-5BA9F700D9C190": {
-      "fingerprint": "3f4a62299f767489dc459ddbf8b90fa8206ec247e829f02fb3877acf7bc2b745",
-      "checked_at": "2026-09-13T17:18:38Z",
+      "fingerprint": "41718d816ba98322b4068346ec09d593bb1ef6e2baa2997535280996de983431",
+      "checked_at": "2026-09-14T01:25:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -143308,8 +143309,8 @@
           "https://snuti.snu.ac.kr/snu__professor/13624/#footer",
           "https://admission.snu.ac.kr/index.html",
           "https://snuti.snu.ac.kr/commt/professor/",
-          "https://snuti.snu.ac.kr/sustainable-technology/",
-          "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/"
+          "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://snuti.snu.ac.kr/sustainable-technology/"
         ]
       },
       "enrichment": {},
@@ -145228,7 +145229,7 @@
     },
     "SNU-RU-C364C01825E87D": {
       "fingerprint": "a4d0922176266e501aea6b5b4f7ff0783e82c7cafb05f44867b77a329c82268d",
-      "checked_at": "2026-09-13T17:18:21Z",
+      "checked_at": "2026-09-14T01:25:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -145353,8 +145354,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C364C01825E87D",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-C364C01825E87D"
     },
     "SNU-RU-7CA896A8D56525": {
       "fingerprint": "367f68e639ab15dedb2ae0b2829c0bf5a7ddd281ddbbabc65d4a9ad9d14354d0",
@@ -146355,8 +146355,8 @@
       "_unit_id": "SNU-RU-1D79853BF33DB2"
     },
     "SNU-RU-28110722CB9B1B": {
-      "fingerprint": "16b017e55590e39823d21d1294414cc24cf3bdd4f3e13ad95615132f15de99ba",
-      "checked_at": "2026-09-13T17:18:42Z",
+      "fingerprint": "465865df0cdb4e097fe4db1366b78b09d51bc570a19ebc53173963bd80c32c80",
+      "checked_at": "2026-09-14T01:25:56Z",
       "activity": {
         "publicationPages": [
           {
@@ -147829,7 +147829,7 @@
     },
     "SNU-RU-4C0DF5E8E4B5C0": {
       "fingerprint": "e06e11c578a6b9af25572de5e4857a2f5c914ce279430467ef4227447ae0a6bb",
-      "checked_at": "2026-09-13T17:18:23Z",
+      "checked_at": "2026-09-14T01:25:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -245180,9 +245180,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T01:25:07Z",
+    "at": "2026-09-14T01:25:56Z",
     "checked": 5,
-    "seconds": 33.61,
+    "seconds": 34.92,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
