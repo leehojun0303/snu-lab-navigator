@@ -1,5 +1,5 @@
 {
-  "cursor": 1475,
+  "cursor": 1480,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -182129,7 +182129,7 @@
     },
     "SNU-RU-814853D0944963": {
       "fingerprint": "34d230cbb487096c3cb91f84c7aff666e8d3e257065c16f7f38c0c4ee4204bf3",
-      "checked_at": "2026-09-13T17:32:26Z",
+      "checked_at": "2026-09-14T01:39:55Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -185504,7 +185504,7 @@
     },
     "SNU-RU-3D0CDEC6AC261C": {
       "fingerprint": "f01c0c66403b1136fdded8ab0231d6aa9ab7d8931e039ecfe0ec728bb8867a95",
-      "checked_at": "2026-09-13T17:32:25Z",
+      "checked_at": "2026-09-14T01:39:54Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -185517,8 +185517,7 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-3D0CDEC6AC261C",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-3D0CDEC6AC261C"
     },
     "SNU-RU-4426E200B53D68": {
       "fingerprint": "d6e56f4befc55ca4bfd755cbc7152abef85155c3202e42a50e32d8fee9bba922",
@@ -211106,7 +211105,7 @@
     },
     "SNU-RU-F294B5C7181B5A": {
       "fingerprint": "842d5c1a64eeb40439edd1729294b44fcb1021ee7b29b4fa57d5db93db6659f4",
-      "checked_at": "2026-09-13T17:32:26Z",
+      "checked_at": "2026-09-14T01:39:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -217683,8 +217682,8 @@
       "_unit_id": "SNU-RU-9D89853AE2126C"
     },
     "SNU-RU-3CFA30CBD7D3BE": {
-      "fingerprint": "80bc82862dd4aa26e98b4eb053f6edced291c50868afe45c2cb3ced4855cb03f",
-      "checked_at": "2026-09-13T17:32:27Z",
+      "fingerprint": "93d2676b49a714462dd8c6faa8112fc97a4c90dbf4d0bb557268e81f840bac95",
+      "checked_at": "2026-09-14T01:39:58Z",
       "activity": {
         "publicationPages": [
           {
@@ -217698,7 +217697,9 @@
         "sourcePagesScanned": [
           "https://www.thecns.snu.ac.kr/",
           "https://psych.snu.ac.kr",
-          "https://www.thecns.snu.ac.kr/professor"
+          "https://www.thecns.snu.ac.kr/professor",
+          "https://www.thecns.snu.ac.kr/about3",
+          "https://www.thecns.snu.ac.kr/alumni"
         ]
       },
       "enrichment": {
@@ -217811,7 +217812,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T07:00:09Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-3CFA30CBD7D3BE"
     },
@@ -219593,7 +219595,7 @@
     },
     "SNU-RU-B124A12D330A5B": {
       "fingerprint": "0449c503d5fa6706ce31535ba3dc746900caa5c9f040f2b973535a407ab06d58",
-      "checked_at": "2026-09-13T17:32:26Z",
+      "checked_at": "2026-09-14T01:39:53Z",
       "activity": {
         "publicationPages": [
           {
@@ -219708,7 +219710,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B124A12D330A5B"
+      "_unit_id": "SNU-RU-B124A12D330A5B",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-5558E290CE766C": {
       "fingerprint": "c94d7481a974576daf59211c5e3645ef0466077520292e0bd2ad0d486f96f261",
@@ -245202,9 +245205,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T01:39:34Z",
+    "at": "2026-09-14T01:39:58Z",
     "checked": 5,
-    "seconds": 5.47,
+    "seconds": 7.62,
     "gemini": true,
     "ai_requests": 0,
     "completed_full_pass": false
