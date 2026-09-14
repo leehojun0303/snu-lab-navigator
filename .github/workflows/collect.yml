@@ -2,10 +2,7 @@ name: Refresh official SNU lab data
 
 on:
   schedule:
-    # Production refresh: once daily at 02:00 KST (17:00 UTC).
     - cron: '0 17 * * *'
-    # Fallback bootstrap watchdog. The primary bootstrap continuation is chained
-    # directly at the end of each unfinished run below.
     - cron: '30 * * * *'
   workflow_dispatch:
     inputs:
@@ -118,6 +115,29 @@ jobs:
           --max-ai-requests "$MAX_AI_REQUESTS"
           --batch-size "$BATCH_SIZE"
 
+      - name: Preserve cursor on Gemini quota pause
+        if: steps.mode.outputs.should_run == 'true' && steps.mode.outputs.bootstrap_complete != 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          state_path=Path('data/automation-state.json')
+          progress_path=Path('data/automation-progress.json')
+          state=json.loads(state_path.read_text(encoding='utf-8'))
+          progress=json.loads(progress_path.read_text(encoding='utf-8')) if progress_path.exists() else {}
+          if progress.get('ai_status') == 'rate_limited':
+              start=int(Path('/tmp/snu_lab_start_cursor').read_text(encoding='utf-8'))
+              end=int(state.get('cursor',0))
+              state['cursor']=start
+              state['last_quota_pause']={'at':progress.get('updated_at',''),'cursor':start,'attempted_end_cursor':end}
+              state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              progress['message']='Gemini 한도 대기 · 현재 위치를 보존하고 다음 정기 재시도에서 이어서 수집'
+              progress_path.write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              print(f'Gemini quota pause: restored cursor {end} -> {start}')
+          else:
+              print('No Gemini quota pause; cursor remains advanced normally.')
+          PY
+
       - name: Mark initial full pass complete
         if: steps.mode.outputs.should_run == 'true' && steps.mode.outputs.bootstrap_complete != 'true'
         run: |
@@ -132,7 +152,8 @@ jobs:
           end=int(state.get('cursor',0))
           checked=int(progress.get('checked',0))
           total=int(progress.get('total',0))
-          completed=(checked >= total > 0) or (checked > 0 and end <= start and start != 0)
+          rate_limited=progress.get('ai_status') == 'rate_limited'
+          completed=(not rate_limited) and ((checked >= total > 0) or (checked > 0 and end <= start and start != 0))
           if completed:
               state['initial_collection_complete']=True
               state['initial_collection_completed_at']=progress.get('updated_at','')
@@ -141,7 +162,7 @@ jobs:
               progress_path.write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
               print('Initial full pass completed; bootstrap chaining will stop.')
           else:
-              print(f'Initial pass continues: cursor {start} -> {end}, checked_this_run={checked}, total={total}')
+              print(f'Initial pass continues: cursor {start} -> {end}, checked_this_run={checked}, total={total}, rate_limited={rate_limited}')
           PY
 
       - name: Store changed snapshot
@@ -165,18 +186,31 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          COMPLETE=$(python - <<'PY'
+          STATUS=$(python - <<'PY'
           import json
           from pathlib import Path
           try:
               state=json.loads(Path('data/automation-state.json').read_text(encoding='utf-8'))
           except Exception:
               state={}
-          print('true' if state.get('initial_collection_complete') else 'false')
+          try:
+              progress=json.loads(Path('data/automation-progress.json').read_text(encoding='utf-8'))
+          except Exception:
+              progress={}
+          if state.get('initial_collection_complete'):
+              print('complete')
+          elif progress.get('ai_status') == 'rate_limited':
+              print('rate_limited')
+          else:
+              print('continue')
           PY
           )
-          if [ "$COMPLETE" = "true" ]; then
+          if [ "$STATUS" = "complete" ]; then
             echo "Initial collection is complete; no continuation queued."
+            exit 0
+          fi
+          if [ "$STATUS" = "rate_limited" ]; then
+            echo "Gemini quota is exhausted; cursor is preserved and immediate continuation is suppressed. Hourly watchdog will retry."
             exit 0
           fi
           echo "Initial collection is incomplete; queueing the next continuation run."
