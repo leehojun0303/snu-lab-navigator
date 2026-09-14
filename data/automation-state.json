@@ -1,5 +1,5 @@
 {
-  "cursor": 85,
+  "cursor": 90,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -98711,18 +98711,13 @@
       "_unit_id": "SNU-RU-13F2B38D00EB61"
     },
     "SNU-RU-DD0BCCCEAB0072": {
-      "fingerprint": "f7a9f95e6775b07fa7c2b91b79fb45af5911bb6bfaccaceed1775702a386471b",
-      "checked_at": "2026-09-13T22:36:37Z",
+      "fingerprint": "ab1bcc6887567ca1d815d03581a22dae38c0c9d970f812c7d61be3711f39b867",
+      "checked_at": "2026-09-14T10:06:22Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
             "url": "https://www.hydrogen.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
             "kind": "publication"
           },
           {
@@ -98738,6 +98733,11 @@
           {
             "title": "publication",
             "url": "https://www.hydrogen.snu.ac.kr/publications#h.ta1kt9yqmj5j",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://www.hydrogen.snu.ac.kr/publications",
             "kind": "publication"
           }
         ],
@@ -98758,8 +98758,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "Join",
+            "url": "https://www.hydrogen.snu.ac.kr/join",
             "kind": "recruitment"
           }
         ],
@@ -98771,7 +98771,7 @@
             "alt": "서울대학교 서울대학교 기계공학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%83%81%EC%9A%B1-park-sangwook/"
           },
           {
             "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/박상욱.png",
@@ -98785,20 +98785,20 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%83%81%EC%9A%B1-park-sangwook/"
           }
         ],
         "sourcePagesScanned": [
           "https://www.hydrogen.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%83%81%EC%9A%B1-park-sangwook/",
-          "https://me.snu.ac.kr",
           "https://www.hydrogen.snu.ac.kr/people",
           "https://www.hydrogen.snu.ac.kr/publications",
           "https://www.hydrogen.snu.ac.kr/join",
           "https://www.hydrogen.snu.ac.kr/home",
           "https://www.hydrogen.snu.ac.kr/news",
           "https://www.hydrogen.snu.ac.kr/research",
-          "https://www.hydrogen.snu.ac.kr/patent"
+          "https://www.hydrogen.snu.ac.kr/patent",
+          "https://www.hydrogen.snu.ac.kr/#h.dqzk783zorg4"
         ]
       },
       "enrichment": {
@@ -98986,10 +98986,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:01:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v2_compact_detail"
+        "_quality_gate": "ai_verified_v2_compact_detail",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DD0BCCCEAB0072",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-CE165020613408": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
@@ -105938,24 +105939,129 @@
       "_unit_id": "SNU-RU-5FDD66923E7C55"
     },
     "SNU-RU-77B88B8F610A28": {
-      "fingerprint": "d595cbfd0d39f6f577519e39940c48f57f8206c818894756d2eb64ca15306de3",
-      "checked_at": "2026-09-13T22:36:54Z",
+      "fingerprint": "e4cc28303e720ef1591d32f046435efc942dc33e512d7a86f20436c508ea8855",
+      "checked_at": "2026-09-14T10:06:34Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://softrobotics.snu.ac.kr/publications.php",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://softrobotics.snu.ac.kr/publications.php",
+            "kind": "publication"
+          },
+          {
+            "title": "A Soft 3-DOF Interaction Force Measurement System for Estimating the Biomechanical Effect of Soft Wearable Robot on Human Joint",
+            "url": "https://softrobotics.snu.ac.kr/publications/Cho_SWR_WTC_2025.pdf",
+            "kind": "publication"
+          },
+          {
+            "title": "Ultra-Thin Multi-Modal Soft Sensor Using Liquid-Metal Thin-Film Deposition for Enhanced Human-Robot Interaction",
+            "url": "https://softrobotics.snu.ac.kr/publications/JungJW_IEEE_RAL_2024.pdf",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://softrobotics.snu.ac.kr/people.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://softrobotics.snu.ac.kr/images/img_leg.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://softrobotics.snu.ac.kr/"
+          },
+          {
+            "url": "https://softrobotics.snu.ac.kr/images/img_robotarm.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://softrobotics.snu.ac.kr/"
+          },
+          {
+            "url": "https://softrobotics.snu.ac.kr/images/img_sensor.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://softrobotics.snu.ac.kr/"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
+            "alt": "서울대학교 서울대학교 기계공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#footer"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/박용래-교수님-768x1004.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#footer"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#footer"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://eng.snu.ac.kr/dext5editordata/2024/10/20241017_093528347_17995.jpg",
+            "alt": "▲ (좌측부터) 전기·정보공학부 이경한 교수, 재료공학부 선정윤 교수, 기계공학부 박용래 교수, 공과대학 김영오 학장, 건설환경공학부 최용주 교수, 산업공학과 이성주 교수, 원자핵공학과 오다 타쿠치 교수",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://eng.snu.ac.kr/communication/promotion/news?md=v&bbsidx=5452"
+          }
+        ],
         "sourcePagesScanned": [
+          "https://softrobotics.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/",
           "https://me.snu.ac.kr",
-          "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#container",
+          "https://softrobotics.snu.ac.kr/people.php",
+          "https://softrobotics.snu.ac.kr/publications.php",
+          "https://eng.snu.ac.kr/communication/promotion/news?md=v&bbsidx=5452",
+          "https://softrobotics.snu.ac.kr/research.php",
+          "https://softrobotics.snu.ac.kr/media.php",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://me.snu.ac.kr/snu__professor/%EB%B0%95%EC%9A%A9%EB%9E%98-park-yong-lae/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/bk%ea%b5%90%ec%88%98/"
+          "https://admission.snu.ac.kr/index.html"
         ]
       },
       "enrichment": {
@@ -106025,7 +106131,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-77B88B8F610A28"
+      "_unit_id": "SNU-RU-77B88B8F610A28",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-EB042BACDDD801": {
       "fingerprint": "3fd7240f070d2430b8fd282288b3264458cd2659d075fd3ac2331c555ba5d8aa",
@@ -107888,8 +107995,8 @@
       "_unit_id": "SNU-RU-F06CAF8AC59140"
     },
     "SNU-RU-648A2DD7231350": {
-      "fingerprint": "23085686e2b4c0a2f8ab2e4342dad8a57489d3eff4f4ec89bd5386ae87ad400e",
-      "checked_at": "2026-09-13T22:36:37Z",
+      "fingerprint": "a23711bba255c288203a9b365001fed474df97cfb9c3b75d1f8b9c584f6f009c",
+      "checked_at": "2026-09-14T10:06:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -107963,6 +108070,13 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
@@ -107979,7 +108093,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-648A2DD7231350"
+      "_unit_id": "SNU-RU-648A2DD7231350",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-A2A2357E889325": {
       "fingerprint": "f2a45eec5f67617422ec24bea6609a194f570569fc26f8d7053ce50a43aa8fb4",
@@ -115666,33 +115781,28 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-4BC5DCB67025C9": {
-      "fingerprint": "f2cc4b0af9700e838756e3a3fbaa2bde29eb76ada64a9363c99615f661c5960a",
-      "checked_at": "2026-09-13T22:36:51Z",
+      "fingerprint": "e36341b7013b8c4ca5cc56d378c8ab22efb334b593861fe5114e1a004df13c47",
+      "checked_at": "2026-09-14T10:06:45Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "박형민 (Park, Hyungmin) - 서울대학교 기계공학부",
-            "url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/",
           "https://me.snu.ac.kr",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#container",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#footer",
           "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#none",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
           "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/bk%ea%b5%90%ec%88%98/",
           "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
           "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/"
         ]
       },
       "enrichment": {
-        "research_summary": "다상유동, 난류 및 유동제어, 유체-구조 상호 작용, 환경 및 바이오 유체역학, 머신러닝 기반 유동가시화 및 측정 분야를 연구합니다.",
+        "research_summary": "다상유동, 난류 및 유동제어, 유체-구조 상호 작용, 환경 및 바이오 유체역학, 머신러닝 기반 유동가시화 및 측정 분야를 연구하고 있습니다.",
         "research_topics": [
           "다상유동",
           "난류 및 유동제어",
@@ -115704,13 +115814,10 @@
           "유체역학",
           "다상유동",
           "난류",
-          "유동제어",
-          "유체-구조 상호 작용",
-          "환경 유체역학",
-          "바이오 유체역학",
-          "머신러닝",
           "유동가시화",
+          "머신러닝",
           "난류 및 유동제어",
+          "유체-구조 상호 작용",
           "환경 및 바이오 유체역학",
           "머신러닝 기반 유동가시화 및 측정"
         ],
@@ -115719,19 +115826,19 @@
             "title": "Particle dispersion induced by vortical interactions in particle-laden upward jet with a partial crossflow",
             "year": "2021",
             "venue": "Journal of Fluid Mechanics",
-            "summary": "부분 횡류가 있는 입자 함유 상향 제트에서 와류 상호작용에 의해 유도되는 입자 분산을 연구하였습니다."
+            "summary": ""
           },
           {
             "title": "Optimized mechanism for fast removal of infectious pathogen-laden aerosols in the negative-pressure unit",
             "year": "2022",
             "venue": "Journal of Hazardous Materials",
-            "summary": "음압 병동에서 감염성 병원균을 포함한 에어로졸을 빠르게 제거하기 위한 최적화 메커니즘을 제시하였습니다."
+            "summary": ""
           },
           {
             "title": "Analysis of the liquid column atomization by the annular dual-nozzle gas jet flow",
             "year": "2022",
             "venue": "Journal of Fluid Mechanics",
-            "summary": "환형 이중 노즐 가스 제트 흐름에 의한 액주 미립화 현상을 분석하였습니다."
+            "summary": ""
           }
         ],
         "recent_year_paper_count": null,
@@ -115743,20 +115850,15 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 기계항공공학부 학사(2000) 및 박사(2010) 학위를 취득하였습니다.",
-        "verified_publication_pages": [
-          {
-            "title": "박형민 (Park, Hyungmin) - 서울대학교 기계공학부",
-            "url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/"
-          }
-        ],
-        "recruitment_summary": null,
+        "education_summary": "1996~2000 서울대학교 기계항공공학부 학사, 2004~2010 서울대학교 기계항공공학부 박사.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -115766,25 +115868,24 @@
         "source_urls_used": [
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/",
           "https://me.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/personal_information",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#container",
           "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EB%AF%BC-park-hyungmin/#none",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://www.snu.ac.kr/research/highlights"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4BC5DCB67025C9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:27:46Z",
+        "_saved_at": "2026-09-14T10:07:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4BC5DCB67025C9"
     },
@@ -131764,32 +131865,32 @@
       "_unit_id": "SNU-RU-170B788FC6DE06"
     },
     "SNU-RU-5E1B719F01DC4D": {
-      "fingerprint": "096f3f942123506ab689e37ce7b449311c382e8869e2615289fa2e13e479542c",
-      "checked_at": "2026-09-13T22:36:54Z",
+      "fingerprint": "9b2549f6f5fff7f1dd702badb862435ecf05a87e4f243ce3e3f1bc899feede0d",
+      "checked_at": "2026-09-14T10:06:48Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/",
           "https://me.snu.ac.kr",
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/#container",
-          "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/#footer",
           "https://admission.snu.ac.kr/index.html",
-          "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/#none",
           "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
           "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
           "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/bk%ea%b5%90%ec%88%98/"
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/",
+          "https://me.snu.ac.kr/%ed%95%99%eb%b6%80%eb%89%b4%ec%8a%a4/?mod=document&uid=22139"
         ]
       },
       "enrichment": {
-        "research_summary": "송성진 교수는 터보기계의 공력 해석 및 실험, 추진 및 발전 시스템의 유체공학적 해석을 전문으로 연구하고 있습니다.",
+        "research_summary": "터보기계의 공력 해석 및 실험, 추진 및 발전 시스템의 해석, 그리고 유체공학 전반에 걸친 연구를 수행하고 있습니다.",
         "research_topics": [
-          "유체공학",
           "터보기계 공력 해석 및 실험",
-          "추진 및 발전 시스템 해석"
+          "추진/발전 시스템 해석",
+          "유체공학"
         ],
         "recommendation_keywords": [
           "유체공학",
@@ -131798,9 +131899,28 @@
           "추진 시스템",
           "발전 시스템",
           "터보기계 공력 해석 및 실험",
-          "추진 및 발전 시스템 해석"
+          "추진/발전 시스템 해석"
         ],
-        "recent_papers": [],
+        "recent_papers": [
+          {
+            "title": "Surface Roughness Impact on Boundary Layer Transition and Loss Mechanisms Over a Flat-Plate Under a Low-Pressure Turbine Pressure Gradient",
+            "year": "None",
+            "venue": "ASME Journal of Turbomachinery",
+            "summary": ""
+          },
+          {
+            "title": "Non-Axisymmetric Flows and Rotordynamic Forces in an Eccentric Shrouded Centrifugal Compressor-Part 1: Measurement",
+            "year": "None",
+            "venue": "ASME Journal of Turbomachinery",
+            "summary": ""
+          },
+          {
+            "title": "Visualization of Rotating Cavitation Oscillation Mechanism in a Turbopump Inducer",
+            "year": "None",
+            "venue": "ASME Journal of Turbomachinery",
+            "summary": ""
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -131810,15 +131930,15 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "1986년 미국 Duke University 기계공학과 학사, 1988년 MIT 항공공학과 석사, 1995년 MIT 항공공학과 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "현재 제공된 공식 URL 내에서 해당 연구실의 구체적인 채용 공고를 확인할 수 없습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -131828,25 +131948,24 @@
         "source_urls_used": [
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/",
           "https://me.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/personal_information",
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/#container",
-          "https://me.snu.ac.kr/snu__professor/%EC%86%A1%EC%84%B1%EC%A7%84-song-seung-jin/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://my.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/resources/certificate/request",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/",
+          "https://me.snu.ac.kr/%ed%95%99%eb%b6%80%eb%89%b4%ec%8a%a4/?mod=document&uid=22139",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://www.snu.ac.kr/research/highlights"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-5E1B719F01DC4D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:27:49Z",
+        "_saved_at": "2026-09-14T10:07:20Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-5E1B719F01DC4D"
     },
@@ -244275,11 +244394,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:06:15Z",
-    "checked": 85,
-    "seconds": 647.63,
+    "at": "2026-09-14T10:07:20Z",
+    "checked": 90,
+    "seconds": 712.58,
     "gemini": true,
-    "ai_requests": 27,
+    "ai_requests": 29,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
