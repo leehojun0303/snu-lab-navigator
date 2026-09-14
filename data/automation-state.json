@@ -1,5 +1,5 @@
 {
-  "cursor": 90,
+  "cursor": 95,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -134027,8 +134027,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-791E293BA5ABCF": {
-      "fingerprint": "7b31f76762346cf7cb319cf88774c9cd237d10cd1b3fafa9b45fce2d6adb553e",
-      "checked_at": "2026-09-13T22:37:26Z",
+      "fingerprint": "95ec5d7f36a54f929d4da0ce201b5d306ea0268ce615ae3778d9f4ab6404ab68",
+      "checked_at": "2026-09-14T10:07:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -134040,9 +134040,14 @@
             "url": "https://aesl.co.kr/goods/goods_list?cate=002"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://aesl.co.kr/board/board_list?code=members",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://aesl.co.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%86%A1%ED%95%9C%ED%98%B8-song-han-ho/",
@@ -134057,7 +134062,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "어드밴스드 에너지 시스템 연구실은 열공학을 기반으로 자동차 내연기관의 실험 및 시뮬레이션, 발전시스템 사이클의 개발 및 해석 연구를 수행합니다.",
+        "research_summary": "송한호 교수는 어드밴스드 에너지 시스템 연구실(AESL)을 이끌며 열공학을 기반으로 자동차 내연기관의 실험 및 시뮬레이션, 발전시스템 사이클 개발 및 해석 분야를 연구하고 있습니다.",
         "research_topics": [
           "열공학",
           "자동차 내연기관 실험 및 시뮬레이션",
@@ -134067,6 +134072,7 @@
           "열공학",
           "자동차 내연기관",
           "발전시스템",
+          "에너지 시스템",
           "자동차 내연기관 실험 및 시뮬레이션",
           "발전시스템 사이클 개발 및 해석"
         ],
@@ -134080,7 +134086,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 공과대학 기계공학부 교수로서 열공학 및 에너지 시스템 관련 교육과 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "International Journal",
@@ -134091,9 +134097,14 @@
             "url": "https://aesl.co.kr/goods/goods_list?cate=002"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 입학포털을 통해 학부 및 대학원 입학 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [
           {
             "name": "박현호",
@@ -134114,16 +134125,11 @@
             "name": "이예임",
             "role": "연구원",
             "url": "https://aesl.co.kr/board/board_list?code=members"
-          },
-          {
-            "name": "배유정",
-            "role": "연구원",
-            "url": "https://aesl.co.kr/board/board_list?code=members"
           }
         ],
         "alumni": [],
         "member_page_url": "https://aesl.co.kr/board/board_list?code=members",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -134131,27 +134137,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://aesl.co.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EC%86%A1%ED%95%9C%ED%98%B8-song-han-ho/",
           "https://aesl.co.kr/board/board_list?code=members",
           "https://aesl.co.kr/goods/goods_list?cate=001",
           "https://aesl.co.kr/goods/goods_list?cate=002",
-          "https://me.snu.ac.kr/snu__professor/%EC%86%A1%ED%95%9C%ED%98%B8-song-han-ho/",
-          "https://aesl.co.kr/",
+          "https://admission.snu.ac.kr/",
           "https://me.snu.ac.kr",
+          "https://aesl.co.kr/company/professor",
           "https://aesl.co.kr/board/board_list?code=alumni",
           "https://aesl.co.kr/#header",
           "https://aesl.co.kr/#content",
-          "https://aesl.co.kr/#sub_nav",
-          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/"
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-791E293BA5ABCF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:28:41Z",
+        "_saved_at": "2026-09-14T10:08:06Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-791E293BA5ABCF"
     },
@@ -135664,8 +135669,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-DE8AD2891EDF3A": {
-      "fingerprint": "7d5a4669ac9c8b85af546d585b0b9e007000fc95bab0bf40968d50ef023a835f",
-      "checked_at": "2026-09-13T22:37:17Z",
+      "fingerprint": "8b9ae9c89f70f280c407274c69039940f1f73cb9f47382a355e42657407fbf57",
+      "checked_at": "2026-09-14T10:07:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -135736,6 +135741,13 @@
           {
             "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
             "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
             "title": "",
             "score": 0,
             "parent_source_url": "https://me.snu.ac.kr"
@@ -135956,10 +135968,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:03:31Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DE8AD2891EDF3A",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-FAF2201482551A": {
       "fingerprint": "21ff815edc05be9412bccfd1ff68c088f5ccf133608b43fe159c0d1aab0f43da",
@@ -141070,8 +141083,8 @@
       "_unit_id": "SNU-RU-FBD88BBDF03D1B"
     },
     "SNU-RU-43EF0C67E3EC1D": {
-      "fingerprint": "8ccef43ba92e15553b0e06891c943dc9f7ca057217e9c8c8a1c297aa639d2c4b",
-      "checked_at": "2026-09-13T22:37:25Z",
+      "fingerprint": "01ac9691e8b47e8e565d95c02d4c6835484b13eb6e998c6db9650bd4229e183a",
+      "checked_at": "2026-09-14T10:07:44Z",
       "activity": {
         "publicationPages": [
           {
@@ -141079,11 +141092,11 @@
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93"
           },
           {
-            "title": "International Journal Surface nanopatterned shape memory alloy",
+            "title": "International Journal",
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=85"
           },
           {
-            "title": "Domestic Journal A Bladeless Wind Generator",
+            "title": "Domestic Journal",
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94"
           }
         ],
@@ -141106,72 +141119,54 @@
         "sourcePagesScanned": [
           "https://fab.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%95%88%EC%84%B1%ED%9B%88-ahn-sung-hoon/",
-          "https://me.snu.ac.kr",
           "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93",
           "https://fab.snu.ac.kr/member/join.php",
           "https://fab.snu.ac.kr/team/intern.php",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7240&category=",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7180&category=",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7178&category=",
-          "https://fab.snu.ac.kr/member/login.php?prev=%2Findex.php"
+          "https://fab.snu.ac.kr/member/login.php?prev=%2Findex.php",
+          "https://fab.snu.ac.kr/team/professor.php"
         ]
       },
       "enrichment": {
-        "research_summary": "혁신설계 및 통합생산 연구실은 설계와 생산의 통합, 로보틱스 및 AI 응용, 적정 기술, 스마트 및 디지털 트윈, 복합재료 및 지능재료 배터리 제작, 신재생 스마트 그리드 분야를 연구합니다.",
+        "research_summary": "안성훈 교수의 혁신설계 및 통합생산 연구실은 설계 및 생산 공정의 혁신을 중심으로 로보틱스, AI 응용, 적정 기술, 디지털 트윈, 복합재료 및 지능재료, 배터리 제작, 신재생 스마트 그리드 등 다양한 융합 분야를 연구하고 있습니다.",
         "research_topics": [
-          "설계 생산",
+          "설계 및 생산",
           "혁신적 제품 설계",
           "로보틱스 및 AI 응용",
           "적정 기술",
-          "스마트 및 디지털 트윈",
-          "복합재료 및 지능재료 배터리 제작",
+          "디지털 트윈",
+          "복합재료 및 지능재료",
+          "배터리 제작",
           "신재생 스마트 그리드"
         ],
         "recommendation_keywords": [
           "설계 생산",
           "혁신적 제품 설계",
-          "로보틱스 및 AI 응용",
+          "로보틱스",
+          "AI 응용",
           "적정 기술",
-          "스마트 및 디지털 트윈",
+          "디지털 트윈",
           "복합재료",
-          "지능재료 배터리 제작",
+          "지능재료",
+          "배터리 제작",
           "신재생 스마트 그리드",
-          "복합재료 및 지능재료 배터리 제작"
+          "설계 및 생산",
+          "로보틱스 및 AI 응용",
+          "복합재료 및 지능재료"
         ],
         "recent_papers": [
-          {
-            "title": "Honors/Awards Tsai Best Student Paper Award Finalist N. Choi, J.Y., J. F. Callanga, Gil, E., Jeon, J. H., and Ahn, S.H.",
-            "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93",
-            "year": "2026",
-            "venue": "24th International Conference on Composite Materials",
-            "summary": "복합재료 분야 국제 학술대회에서 학생 논문상 최종 후보로 선정되었습니다."
-          },
-          {
-            "title": "A Bladeless Wind Generator with Deployable boom N. 빌란쿨로 로키 산도, 임종혁",
-            "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94",
-            "year": "2026",
-            "venue": "Journal of Appropriate Technology",
-            "summary": "전개형 붐을 활용한 블레이드리스 풍력 발전기에 관한 연구 논문입니다."
-          },
           {
             "title": "Surface nanopatterned shape memory alloy (SMA)-based photosensitive artificial muscle",
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=85",
             "year": "2022",
             "venue": "Advanced Optical Materials",
-            "summary": "나노 패턴 표면을 가진 형상기억합금 기반의 광감응 인공 근육에 관한 연구입니다."
+            "summary": ""
           }
         ],
-        "recent_year_paper_count": 2,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "24th International Conference on Composite Materials",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Appropriate Technology",
-            "count": 1
-          }
-        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -141186,15 +141181,15 @@
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93"
           },
           {
-            "title": "International Journal Surface nanopatterned shape memory alloy",
+            "title": "International Journal",
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=85"
           },
           {
-            "title": "Domestic Journal A Bladeless Wind Generator",
+            "title": "Domestic Journal",
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94"
           }
         ],
-        "recruitment_summary": "연구실에서는 인턴십 학생 및 연구 인력을 상시 모집하고 있습니다.",
+        "recruitment_summary": "연구실에서는 인턴십 학생을 상시 모집하고 있으며, 연구실 홈페이지를 통해 지원 가능합니다.",
         "verified_recruitment_pages": [
           {
             "title": "Join",
@@ -141209,7 +141204,7 @@
             "url": "https://fab.snu.ac.kr/open/open.php"
           }
         ],
-        "recruitment_source_url": "https://fab.snu.ac.kr/open/open.php",
+        "recruitment_source_url": "https://fab.snu.ac.kr/member/join.php",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93",
@@ -141229,20 +141224,19 @@
           "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94",
           "https://fab.snu.ac.kr/open/open.php",
           "https://me.snu.ac.kr/snu__professor/%EC%95%88%EC%84%B1%ED%9B%88-ahn-sung-hoon/",
-          "https://me.snu.ac.kr",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7240&category=",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7180&category=",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7178&category=",
-          "https://fab.snu.ac.kr/member/login.php?prev=%2Findex.php"
+          "https://fab.snu.ac.kr/member/login.php?prev=%2Findex.php",
+          "https://fab.snu.ac.kr/team/professor.php"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-43EF0C67E3EC1D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:28:35Z",
+        "_saved_at": "2026-09-14T10:08:14Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-43EF0C67E3EC1D"
     },
@@ -142168,8 +142162,8 @@
       "_unit_id": "SNU-RU-ECDD4DB0B5A918"
     },
     "SNU-RU-B4E8648C8262D8": {
-      "fingerprint": "060e9e5b515acf6d2b1a8a326b25f6fb80c5e29a2d05eb685c7bda90bf6f927f",
-      "checked_at": "2026-09-13T22:37:23Z",
+      "fingerprint": "58abacc52a3a39c6f249916496797b823d1e86faf74bbe472218739569c66af8",
+      "checked_at": "2026-09-14T10:07:38Z",
       "activity": {
         "publicationPages": [
           {
@@ -142177,7 +142171,12 @@
             "url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub3_1"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "서울대학교 기계공학부 STAR Laboratory",
+            "url": "https://starlab.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -142194,7 +142193,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "트랜스포머티브 아키텍쳐 연구실(STAR Lab)은 경량 및 전개 구조물 설계, 첨단 소재(메타물질, 복합재료) 개발, 비선형 파동역학, 비파괴검사 및 구조물 진단 분야를 연구합니다.",
+        "research_summary": "트랜스포머티브 아키텍쳐 연구실(STAR Lab)은 항공우주 구조물, 생체 의학 기기, 로봇 공학, 에너지 및 환경 등 다양한 공학 응용 분야를 위한 첨단 아키텍처 시스템을 설계하고 개발합니다. 이를 위해 역학, 물리학, 로봇 공학, 데이터 과학, 예술 및 디자인 등 학제 간 지식을 활용합니다.",
         "research_topics": [
           "경량 및 전개 구조물 설계",
           "첨단 소재 개발 (메타물질, 복합재료)",
@@ -142206,15 +142205,49 @@
           "항공우주공학",
           "메타물질",
           "복합재료",
+          "비선형 파동역학",
+          "비파괴검사",
           "구조물 진단",
+          "전개 구조물",
           "경량 및 전개 구조물 설계",
           "첨단 소재 개발 (메타물질, 복합재료)",
-          "비선형 파동역학",
           "비파괴검사 및 구조물 진단"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Topological edge states and amplitude-dependent delocalization in quasiperiodic elliptically geared lattices",
+            "year": "2026",
+            "venue": "Physical Review Applied",
+            "summary": ""
+          },
+          {
+            "title": "Double-Layer Self-Locking Origami Based on Opposite Folding Motion",
+            "year": "2025",
+            "venue": "Soft Robotics",
+            "summary": ""
+          },
+          {
+            "title": "Physics-informed neural networks for programmable origami metamaterials with controlled deployment",
+            "year": "2025",
+            "venue": "Materials Horizons 12",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 14,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "International Journal of Mechanical Sciences",
+            "count": 2
+          },
+          {
+            "venue": "Composites Part A",
+            "count": 2
+          },
+          {
+            "venue": "Extreme Mechanics Letters",
+            "count": 2
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -142222,17 +142255,38 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "2005년 스탠포드대학교에서 항공우주공학 박사 학위를 취득하였으며, 현재 서울대학교 기계공학부 교수로 재직 중입니다.",
         "verified_publication_pages": [
           {
             "title": "Journal",
             "url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub3_1"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "current_members": [],
+        "recruitment_summary": "대학원생, 학부 인턴, 박사후연구원을 상시 모집합니다. 공학, 수학, 물리, 건축, 산업 디자인 등 다양한 전공 배경을 가진 지원자를 환영하며, 입학 후 해외 대학과의 교류 및 연수 기회가 제공될 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "서울대학교 기계공학부 STAR Laboratory",
+            "url": "https://starlab.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://starlab.snu.ac.kr/",
+        "current_members": [
+          {
+            "name": "Jae-Kyeong KIM",
+            "role": "Post Doctoral Researcher",
+            "url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2"
+          },
+          {
+            "name": "Somya Ranjan PATRO",
+            "role": "Post Doctoral Researcher",
+            "url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2"
+          },
+          {
+            "name": "Yasuhiro MIYAZAWA",
+            "role": "Post Doctoral Researcher",
+            "url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2"
+          }
+        ],
         "alumni": [],
         "member_page_url": "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2",
         "poster_status": "none_detected",
@@ -142245,25 +142299,24 @@
         "source_urls_used": [
           "https://starlab.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%96%91%EC%A7%84%EA%B7%9C-yang-jinkyu/",
+          "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_2",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub3_1",
-          "https://starlab.snu.ac.kr/index.php",
           "https://me.snu.ac.kr",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_3",
-          "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
+          "https://starlab.snu.ac.kr/index.php",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
           "https://starlab.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
           "https://admission.snu.ac.kr/"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B4E8648C8262D8",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:28:25Z",
+        "_saved_at": "2026-09-14T10:08:02Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-B4E8648C8262D8"
     },
@@ -143897,59 +143950,72 @@
       "_unit_id": "SNU-RU-DEAA6D2C909059"
     },
     "SNU-RU-5653B79F856D4B": {
-      "fingerprint": "76c9e57a2ec4583330b7c33133f4bc33a13f6c17f03810cc8c3e00a4735cc839",
-      "checked_at": "2026-09-13T22:37:18Z",
+      "fingerprint": "0499f427d19be59a1b1457a3766169fd4baf479159ea462d0a910807f2e749ce",
+      "checked_at": "2026-09-14T10:07:29Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "International Journals",
-            "url": "https://metastruct.snu.ac.kr/publications/international-journals"
+            "title": "Publications",
+            "url": "https://metastruct.snu.ac.kr/publications"
           },
           {
-            "title": "International Conferences",
-            "url": "https://metastruct.snu.ac.kr/publications/international-conferences"
+            "title": "International Journals",
+            "url": "https://metastruct.snu.ac.kr/publications/international-journals"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://metastruct.snu.ac.kr/members",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://metastruct.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%98%A4%EC%A3%BC%ED%99%98-oh-joo-hwan/",
-          "https://me.snu.ac.kr",
           "https://metastruct.snu.ac.kr/members",
           "https://metastruct.snu.ac.kr/members/professor",
           "https://metastruct.snu.ac.kr/members/researchers",
           "https://metastruct.snu.ac.kr/members/students",
           "https://metastruct.snu.ac.kr/members/alumni",
           "https://metastruct.snu.ac.kr/publications",
-          "https://metastruct.snu.ac.kr/publications/international-journals"
+          "https://metastruct.snu.ac.kr/publications/international-journals",
+          "https://metastruct.snu.ac.kr/publications/international-conferences"
         ]
       },
       "enrichment": {
-        "research_summary": "인공구조 기반 혁신 연구실(MetaStructure Lab.)은 인공구조(Metastructure)를 활용하여 혁신적인 기계 시스템을 설계하고 구현하는 것을 목표로 하며, 고체역학, 탄성파 및 설계 분야를 중점적으로 연구합니다.",
+        "research_summary": "인공구조 기반 혁신 연구실(MetaStructure Lab.)은 인공구조(Metastructure)를 활용하여 혁신적인 기계 시스템을 설계하고 구현하는 연구를 수행합니다. 주요 연구 분야는 고체역학, 탄성파 및 설계이며, 이를 통해 극한 메타물질, 다중물리 메타구조, 메타구조 설계 방법론 등을 다룹니다.",
         "research_topics": [
           "고체역학",
           "탄성파",
-          "설계"
+          "설계",
+          "극한 메타물질",
+          "다중물리 메타구조",
+          "메타구조 설계 방법론"
         ],
         "recommendation_keywords": [
           "고체역학",
           "탄성파",
-          "설계"
+          "설계",
+          "메타물질",
+          "메타구조",
+          "극한 메타물질",
+          "다중물리 메타구조",
+          "메타구조 설계 방법론"
         ],
         "recent_papers": [
           {
             "title": "Fluid-like Elastic Metasurface",
             "year": "2023",
             "venue": "Applied Physics Letters",
-            "summary": "유체와 유사한 거동을 보이는 탄성 메타표면에 관한 연구로, Editor’s Pick으로 선정되었습니다."
+            "summary": "유체와 유사한 거동을 보이는 탄성 메타표면에 관한 연구로, Editor's Pick으로 선정되었습니다."
           },
           {
             "title": "Asymmetric elastic metasurface for wave manipulation between different media",
             "year": "2023",
             "venue": "Physical Review Applied",
-            "summary": "서로 다른 매질 간의 파동 조작을 위한 비대칭 탄성 메타표면을 제안하였습니다."
+            "summary": "서로 다른 매질 사이에서 파동을 조작하기 위한 비대칭 탄성 메타표면을 제안하였습니다."
           },
           {
             "title": "Amplitude-induced Bandgap: New Type of Bandgap for Nonlinear Elastic Metamaterials",
@@ -143970,21 +144036,26 @@
         "education_summary": "서울대학교 기계공학 학사(2008) 및 박사(2014) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
-            "title": "International Journals",
-            "url": "https://metastruct.snu.ac.kr/publications/international-journals"
+            "title": "Publications",
+            "url": "https://metastruct.snu.ac.kr/publications"
           },
           {
-            "title": "International Conferences",
-            "url": "https://metastruct.snu.ac.kr/publications/international-conferences"
+            "title": "International Journals",
+            "url": "https://metastruct.snu.ac.kr/publications/international-journals"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "인공구조 기반 혁신 연구실(MetaStructure Lab.)에서 연구원을 모집하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://metastruct.snu.ac.kr/members",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -143996,20 +144067,20 @@
           "https://me.snu.ac.kr/snu__professor/%EC%98%A4%EC%A3%BC%ED%99%98-oh-joo-hwan/",
           "https://metastruct.snu.ac.kr/members",
           "https://metastruct.snu.ac.kr/publications/international-journals",
-          "https://metastruct.snu.ac.kr/publications/international-conferences",
-          "https://me.snu.ac.kr",
           "https://metastruct.snu.ac.kr/members/professor",
           "https://metastruct.snu.ac.kr/members/researchers",
           "https://metastruct.snu.ac.kr/members/students",
           "https://metastruct.snu.ac.kr/members/alumni",
           "https://metastruct.snu.ac.kr/publications",
-          "https://metastruct.snu.ac.kr/publications/domestic-conferences"
+          "https://metastruct.snu.ac.kr/publications/international-conferences",
+          "https://metastruct.snu.ac.kr/publications/domestic-conferences",
+          "https://admission.snu.ac.kr/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-5653B79F856D4B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:28:23Z",
+        "_saved_at": "2026-09-14T10:07:37Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244394,11 +244465,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:07:20Z",
-    "checked": 90,
-    "seconds": 712.58,
+    "at": "2026-09-14T10:08:14Z",
+    "checked": 95,
+    "seconds": 766.25,
     "gemini": true,
-    "ai_requests": 29,
+    "ai_requests": 33,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
