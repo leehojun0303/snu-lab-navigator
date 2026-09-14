@@ -1,5 +1,5 @@
 {
-  "cursor": 70,
+  "cursor": 75,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -12003,8 +12003,8 @@
       "_unit_id": "SNU-RU-319E38BAE8D594"
     },
     "SNU-RU-63864435ADEF48": {
-      "fingerprint": "bdcd08aebf4e181357c819b61c3b79f3d12707284e5ea74dd329140308225b12",
-      "checked_at": "2026-09-13T22:34:55Z",
+      "fingerprint": "5130901ff44cc6a36eb5b18de521f9725dd892bd912695942bba3206f16dbc18",
+      "checked_at": "2026-09-14T10:03:59Z",
       "activity": {
         "publicationPages": [
           {
@@ -12012,9 +12012,14 @@
             "url": "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://acustica.snu.ac.kr/member/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://acustica.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
@@ -12025,11 +12030,11 @@
           "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
           "https://acustica.snu.ac.kr/awards/",
           "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/#container",
-          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/#footer"
+          "https://admission.snu.ac.kr/index.html"
         ]
       },
       "enrichment": {
-        "research_summary": "음향 및 진동 연구실은 차량 NVH 성능 예측, 로드노이즈 능동 제어, 음질 평가 기법 개발 및 음향 재료 연구를 통해 음향공학 분야의 고도화된 기술을 연구합니다.",
+        "research_summary": "강연준 교수는 음향공학 및 소음·진동공학 분야를 연구하며, 특히 차실 음향 최적화를 위한 음향 재료, 차량 NVH(소음·진동·불쾌감) 성능 예측, 실험-해석 융합 모델, 로드노이즈 능동 제어 및 음질 평가 기법 개발에 주력하고 있습니다.",
         "research_topics": [
           "음향공학",
           "차실 음향 최적화를 위한 음향 재료 연구",
@@ -12041,18 +12046,53 @@
         "recommendation_keywords": [
           "음향공학",
           "NVH",
-          "진동",
-          "음질평가",
-          "능동제어",
+          "차량 음향",
+          "소음진동",
+          "능동 제어",
           "차실 음향 최적화를 위한 음향 재료 연구",
           "차량 NVH 성능 예측 및 고도화 기법 연구",
           "실험-해석 융합을 통한 모델 정확도 향상 연구",
           "로드노이즈 능동 제어 고도화 연구",
           "음질평가 기법 개발 연구"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "End-to-end virtual sensing with head tracking using a temporal convolutional network for active noise control",
+            "url": "https://acustica.snu.ac.kr/publication/end-to-end-virtual-sensing-with-head-tracking-using-a-temporal-convolutional-network-for-active-noise-control/",
+            "year": "2026",
+            "venue": "Mechanical Systems and Signal Processing 260",
+            "summary": ""
+          },
+          {
+            "title": "Deep learning-based approach for linking microstructural and macroscopic acoustic properties of sound-absorbing polyurethane foam",
+            "url": "https://acustica.snu.ac.kr/publication/deep-learning-based-approach-for-linking-microstructural-and-macroscopic-acoustic-properties-of-sound-absorbing-polyurethane-foam/",
+            "year": "2026",
+            "venue": "The journal of the Acoustical Society of America 159 (5)",
+            "summary": ""
+          },
+          {
+            "title": "Head-tracking active road noise control by real-time path adaptation using neural networks",
+            "url": "https://acustica.snu.ac.kr/publication/head-tracking-active-road-noise-control-by-real-time-path-adaptation-using-neural-networks/",
+            "year": "2026",
+            "venue": "Mechanical Systems and Signal Processing 250",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 5,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Mechanical Systems and Signal Processing",
+            "count": 3
+          },
+          {
+            "venue": "The journal of the Acoustical Society of America",
+            "count": 1
+          },
+          {
+            "venue": "Journal of Sound and Vibration",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -12060,48 +12100,69 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 기계설계학과에서 학사(1988) 및 석사(1990) 학위를 취득하였으며, 미국 Purdue University에서 기계공학 박사(1994) 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "Journals",
             "url": "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "current_members": [],
+        "recruitment_summary": "서울대학교 기계공학부 음향 및 진동 연구실은 대학원생을 모집하며, 입학 관련 정보는 서울대학교 입학포털을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [
+          {
+            "name": "남정민",
+            "role": "Combined course-Ph.D. Candidate",
+            "url": "https://acustica.snu.ac.kr/member/"
+          },
+          {
+            "name": "오준영",
+            "role": "Combined course-Ph.D. Candidate",
+            "url": "https://acustica.snu.ac.kr/member/"
+          },
+          {
+            "name": "우정우",
+            "role": "Ph.D. Candidate",
+            "url": "https://acustica.snu.ac.kr/member/"
+          }
+        ],
         "alumni": [],
         "member_page_url": "https://acustica.snu.ac.kr/member/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_status": "verified",
+        "poster_title": "서울대학교 음향 및 진동 연구실",
+        "poster_date": "2026-08-25",
+        "poster_event": "2026년 5월 한국음향학회",
+        "poster_image_url": "https://acustica.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+        "poster_source_url": "https://acustica.snu.ac.kr/awards/",
+        "poster_evidence": "연구실 홈페이지의 Awards 게시판을 통해 최근 학회 활동 및 수상 내역이 확인됨.",
         "source_urls_used": [
           "https://acustica.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
+          "https://acustica.snu.ac.kr/yeonjune/",
           "https://acustica.snu.ac.kr/member/",
           "https://acustica.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/",
+          "https://admission.snu.ac.kr/",
           "https://me.snu.ac.kr",
           "https://acustica.snu.ac.kr/alumni/",
           "https://acustica.snu.ac.kr/awards/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%97%B0%EC%A4%80-kang-yeon-june/#container",
           "https://admission.snu.ac.kr/index.html",
           "https://devacustica.snu.ac.kr/awards/?mod=document&uid=159",
-          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://admission.snu.ac.kr/"
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-63864435ADEF48",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:25:13Z",
+        "_saved_at": "2026-09-14T10:04:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-63864435ADEF48"
     },
@@ -113040,13 +113101,12 @@
     },
     "SNU-RU-7ACB3EED2FB582": {
       "fingerprint": "5552eac3ab964f027b81ad3218049f5f3154e7f4f8e87efeb67c6cff5227c47f",
-      "checked_at": "2026-09-13T22:34:38Z",
+      "checked_at": "2026-09-14T10:03:38Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "",
         "posterStatus": "none_detected",
-        "posterCandidates": [],
         "sourcePagesScanned": [
           "http://bs.snu.ac.kr/",
           "https://architecture.snu.ac.kr"
@@ -113090,8 +113150,7 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-7ACB3EED2FB582",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-7ACB3EED2FB582"
     },
     "SNU-RU-654E1917C9CAC6": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
@@ -115975,7 +116034,7 @@
     },
     "SNU-RU-C8FB7C45BB2149": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-13T22:34:36Z",
+      "checked_at": "2026-09-14T10:03:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -120637,7 +120696,7 @@
     },
     "SNU-RU-4818F5C541FBE7": {
       "fingerprint": "61769354ab224a3021b2ba1a079445abfd154c631dfb7e9fecd33e04596adbd1",
-      "checked_at": "2026-09-13T22:34:36Z",
+      "checked_at": "2026-09-14T10:03:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -125554,7 +125613,7 @@
     },
     "SNU-RU-B6D2843562B618": {
       "fingerprint": "1a0b1119549dc6ac19bd64852905bcac149dca6d914d121f4a1392585dcac4f7",
-      "checked_at": "2026-09-13T22:34:37Z",
+      "checked_at": "2026-09-14T10:03:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -244076,11 +244135,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:03:32Z",
-    "checked": 70,
-    "seconds": 484.45,
+    "at": "2026-09-14T10:04:11Z",
+    "checked": 75,
+    "seconds": 523.12,
     "gemini": true,
-    "ai_requests": 19,
+    "ai_requests": 20,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
