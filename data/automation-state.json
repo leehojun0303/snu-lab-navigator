@@ -1,5 +1,5 @@
 {
-  "cursor": 390,
+  "cursor": 395,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -104824,8 +104824,8 @@
       "_unit_id": "SNU-RU-D77453EFD228BA"
     },
     "SNU-RU-4410C2C623B9CA": {
-      "fingerprint": "91101cd04f339fd0fa932a0f93799e294df106578502632bda4541b252615d40",
-      "checked_at": "2026-09-13T23:14:03Z",
+      "fingerprint": "828663ee2f915dcfaa934b346f6262b8cbe1fccbd17f4bd10cedd9d90f415c88",
+      "checked_at": "2026-09-14T11:08:31Z",
       "activity": {
         "publicationPages": [
           {
@@ -104861,11 +104861,6 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
             "title": "서울대학교 스타트업 채용박람회 홍보",
             "url": "https://forestry.snu.ac.kr/?kboard_content_redirect=51",
             "kind": "recruitment"
@@ -104887,11 +104882,11 @@
             "parent_source_url": "https://forestry.snu.ac.kr"
           },
           {
-            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/박일권1.jpeg",
-            "alt": "",
+            "url": "https://forestry.snu.ac.kr/wp-includes/images/rss.png",
+            "alt": "RSS",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%EC%9D%BC%EA%B6%8C/"
+            "parent_source_url": "https://forestry.snu.ac.kr"
           },
           {
             "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2021/02/푸터베이직로고-5.png",
@@ -104899,18 +104894,10 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://forestry.snu.ac.kr"
-          },
-          {
-            "url": "https://forestry.snu.ac.kr/wp-includes/images/rss.png",
-            "alt": "RSS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://forestry.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
           "https://sites.google.com/snu.ac.kr/fplab",
-          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%EC%9D%BC%EA%B6%8C/",
           "https://forestry.snu.ac.kr",
           "https://sites.google.com/snu.ac.kr/fplab/members/professor",
           "https://sites.google.com/snu.ac.kr/fplab/members/lab-members",
@@ -104918,7 +104905,8 @@
           "https://sites.google.com/snu.ac.kr/fplab/research/publication",
           "https://sites.google.com/snu.ac.kr/fplab/home",
           "https://sites.google.com/snu.ac.kr/fplab/information/lectures",
-          "https://sites.google.com/snu.ac.kr/fplab/information/equipment"
+          "https://sites.google.com/snu.ac.kr/fplab/information/equipment",
+          "https://sites.google.com/snu.ac.kr/fplab/research/project"
         ]
       },
       "enrichment": {
@@ -105187,10 +105175,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:54:53Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-4410C2C623B9CA",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-E229535F0FA4BC": {
       "fingerprint": "e3f0a140694a229d14a8664cb03019e2a5eeaa0317239e5516ea2db7b1473d6c",
@@ -114407,22 +114396,13 @@
       "_unit_id": "SNU-RU-8D6EB7335D812E"
     },
     "SNU-RU-5882E07BEC924F": {
-      "fingerprint": "01339217d32ae544061dc8fd2a87a22be6196aa8aff4cd41cbf16806e16f19bb",
-      "checked_at": "2026-09-13T23:14:20Z",
+      "fingerprint": "bcfcf45c8a6c10d701f24cf04feac1d27da5509b643fdf9b95a443caf21f5474",
+      "checked_at": "2026-09-14T11:08:51Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=1113&cate=18"
-          },
-          {
-            "title": "Journal",
-            "url": "https://calslab.snu.ac.kr/foreco/doc.view?mcode=111310&cate=1810"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [],
-        "membersUrl": "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=12&cate=12",
-        "posterStatus": "none_detected",
+        "membersUrl": "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/",
           "https://forestry.snu.ac.kr",
@@ -114430,25 +114410,21 @@
           "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#footer",
           "https://admission.snu.ac.kr/index.html",
           "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://forestry.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#none"
+          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#none",
+          "https://www.snu.ac.kr/personal_information",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
         ]
       },
       "enrichment": {
-        "research_summary": "박필선 교수의 산림생태학 연구실은 조림학 및 산림생태학을 중심으로 산림의 구조와 기능, 생태계 복원 및 관리 방안을 연구합니다.",
+        "research_summary": "조림학 및 산림생태학 분야를 연구하고 있습니다.",
         "research_topics": [
           "조림학",
-          "산림생태학",
-          "산림 복원",
-          "산림 관리"
+          "산림생태학"
         ],
         "recommendation_keywords": [
           "조림학",
-          "산림생태학",
-          "산림 복원",
-          "산림 관리"
+          "산림생태학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -114460,59 +114436,42 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 농업생명과학대학 산림과학부에서 조림학 및 산림생태학 관련 교육을 담당하고 있습니다.",
-        "verified_publication_pages": [
-          {
-            "title": "Publications",
-            "url": "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=1113&cate=18"
-          },
-          {
-            "title": "Journal",
-            "url": "https://calslab.snu.ac.kr/foreco/doc.view?mcode=111310&cate=1810"
-          }
-        ],
-        "recruitment_summary": "현재 연구실 차원의 공식적인 채용 공고는 확인되지 않습니다.",
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=12&cate=12",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/",
+        "poster_status": "verified",
+        "poster_title": "박필선",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/박필선1.jpeg",
+        "poster_source_url": "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
-          "https://calslab.snu.ac.kr/foreco/",
-          "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=1113&cate=18",
-          "https://calslab.snu.ac.kr/foreco/doc.view?mcode=111310&cate=1810",
-          "https://calslab.snu.ac.kr/foreco/menu.blank?mcode=12&cate=12",
           "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/",
           "https://forestry.snu.ac.kr",
-          "https://calslab.snu.ac.kr/foreco/doc.view?mcode=1210&cate=1210",
-          "https://calslab.snu.ac.kr/foreco/doc.view?mcode=1211&cate=1211",
-          "https://calslab.snu.ac.kr/foreco/doc.view?mcode=1212&cate=1212",
-          "https://calslab.snu.ac.kr/foreco/board.read?mcode=1510&id=13",
+          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#container",
+          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://forestry.snu.ac.kr/snu__professor/%EB%B0%95%ED%95%84%EC%84%A0/#none",
+          "https://www.snu.ac.kr/personal_information",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://admission.snu.ac.kr/",
-          "https://forestry.snu.ac.kr/?kboard_content_redirect=51",
-          "https://calslab.snu.ac.kr/theme/SNUA10/images/global/font-plus.png",
-          "https://calslab.snu.ac.kr/theme/SNUA10/images/global/font-minus.png",
-          "https://calslab.snu.ac.kr/theme/SNUA10/images/mobile/menu_open.png",
-          "https://calslab.snu.ac.kr/hosts/foreco/visual/mainVisual_01.jpg",
-          "https://calslab.snu.ac.kr/hosts/foreco/visual/mainVisual_02.jpg",
-          "https://calslab.snu.ac.kr/hosts/foreco/menu/201703/thumb_1513.4.1.1489046739_.jpg"
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-5882E07BEC924F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:55:12Z",
+        "_saved_at": "2026-09-14T11:09:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-5882E07BEC924F"
     },
@@ -225373,12 +225332,21 @@
     },
     "SNU-RU-239399B670F302": {
       "fingerprint": "194c7652de057abb9325640d66aca78273d50cb6450146e182a80964fde4ebf0",
-      "checked_at": "2026-09-13T23:14:10Z",
+      "checked_at": "2026-09-14T11:08:44Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
-        "posterStatus": "none_detected",
+        "recruitmentPages": [
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
@@ -225393,7 +225361,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "오규덕 교수는 서울대학교 농업생명과학대학 산림과학부 소속으로, 지류가공학 분야를 연구하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
           "지류가공학"
         ],
@@ -225410,57 +225378,62 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 농업생명과학대학 산림과학부 조교수로 재직 중입니다.",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/guide/admission",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "오규덕",
+        "poster_date": "2023-12-14",
+        "poster_event": "교수진 프로필",
+        "poster_image_url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/오규덕.png",
+        "poster_source_url": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
+        "poster_evidence": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
         "source_urls_used": [
           "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EA%B7%9C%EB%8D%95/",
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://forestry.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
           "https://cals.snu.ac.kr/student/lecture/paper",
           "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
           "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq",
-          "https://cals.snu.ac.kr/about/guide/program",
-          "https://cals.snu.ac.kr/campuslife/activity/StudentCouncil",
-          "https://cals.snu.ac.kr/campuslife/activity/counsel",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/research-affairs/support/cals",
-          "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/오규덕.png",
-          "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2021/02/푸터베이직로고-5.png",
-          "https://forestry.snu.ac.kr/wp-includes/images/rss.png"
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-239399B670F302",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:54:59Z",
+        "_saved_at": "2026-09-14T11:08:51Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-239399B670F302"
     },
     "SNU-RU-0E3D59AE79D826": {
       "fingerprint": "2ae1d1ef8cd3bf610a0a9faaf7a34340e00f6562981233103b1616942dfe1a10",
-      "checked_at": "2026-09-13T23:14:10Z",
+      "checked_at": "2026-09-14T11:08:44Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
-        "membersUrl": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/",
-        "posterStatus": "none_detected",
+        "membersUrl": "",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/",
@@ -225475,7 +225448,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "오정권 교수는 서울대학교 농업생명과학대학 산림과학부 소속으로, 목구조학 분야를 연구하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
           "목구조학"
         ],
@@ -225492,15 +225465,15 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/",
-        "poster_status": "none_detected",
+        "member_page_url": "",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -225511,27 +225484,23 @@
           "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/",
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://forestry.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
           "https://cals.snu.ac.kr/student/lecture/paper",
           "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
           "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq",
-          "https://cals.snu.ac.kr/about/guide/program",
-          "https://cals.snu.ac.kr/campuslife/activity/StudentCouncil",
-          "https://cals.snu.ac.kr/campuslife/activity/counsel",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/research-affairs/support/cals",
-          "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/오정권_증명사진-768x987.jpg",
-          "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2021/02/푸터베이직로고-5.png",
-          "https://forestry.snu.ac.kr/wp-includes/images/rss.png"
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0E3D59AE79D826",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:55:07Z",
+        "_saved_at": "2026-09-14T11:08:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0E3D59AE79D826"
     },
@@ -244175,14 +244144,18 @@
     "SNU-RU-96FF46F5A57607": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-14T11:00:54Z"
+    },
+    "SNU-RU-22B320F1E061E7": {
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-14T11:08:58Z"
     }
   },
   "last_run": {
-    "at": "2026-09-14T11:08:24Z",
-    "checked": 390,
-    "seconds": 4376.67,
+    "at": "2026-09-14T11:09:05Z",
+    "checked": 395,
+    "seconds": 4417.07,
     "gemini": true,
-    "ai_requests": 289,
+    "ai_requests": 292,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
