@@ -3,7 +3,9 @@ name: Refresh official SNU lab data
 on:
   schedule:
     - cron: '0 17 * * *'
-    - cron: '30 * * * *'
+    # Staggered bootstrap watchdogs avoid relying on a single scheduled trigger.
+    - cron: '17 * * * *'
+    - cron: '47 * * * *'
   workflow_dispatch:
     inputs:
       max_units:
@@ -64,7 +66,7 @@ jobs:
           schedule = os.environ.get('EVENT_SCHEDULE', '')
           daily = event == 'schedule' and schedule == '0 17 * * *'
           manual = event == 'workflow_dispatch'
-          bootstrap = event == 'schedule' and schedule == '30 * * * *'
+          bootstrap = event == 'schedule' and schedule in {'17 * * * *', '47 * * * *'}
           should_run = manual or daily or (bootstrap and not complete)
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
               f.write(f'should_run={str(should_run).lower()}\n')
@@ -214,7 +216,7 @@ jobs:
             exit 0
           fi
           if [ "$STATUS" = "rate_limited" ]; then
-            echo "Gemini quota is exhausted; cursor is preserved and immediate continuation is suppressed. Hourly watchdog will retry."
+            echo "Gemini quota is exhausted; cursor is preserved and immediate continuation is suppressed. Staggered watchdogs will retry."
             exit 0
           fi
           echo "Initial collection is incomplete; queueing the next continuation run."
