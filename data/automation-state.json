@@ -1,5 +1,5 @@
 {
-  "cursor": 150,
+  "cursor": 155,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -45259,8 +45259,8 @@
       "_unit_id": "SNU-RU-E33179B169CCBD"
     },
     "SNU-RU-5B0F7791F898B5": {
-      "fingerprint": "38041f51b05d02449a0f0af886791435f52ecaf6c5b5dc9bc27d5ba23b3da447",
-      "checked_at": "2026-09-13T22:44:15Z",
+      "fingerprint": "68c0ec3ecc0d226cf6016eb235b4dc0ba99b8feb8448d44d22bcdd1bd224b3c9",
+      "checked_at": "2026-09-14T10:18:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -45358,10 +45358,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:13:15Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-5B0F7791F898B5",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-02400C17DA81D6": {
       "fingerprint": "16b35accfa33e2e9a827ebbf4adf7bd6db6fa8981a6d5279a6203df7d5086e75",
@@ -54809,8 +54810,8 @@
       "_unit_id": "SNU-RU-1727A011E88A36"
     },
     "SNU-RU-4AD215956409EC": {
-      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
-      "checked_at": "2026-09-13T22:44:21Z",
+      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
+      "checked_at": "2026-09-14T10:18:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -54830,12 +54831,12 @@
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -54848,9 +54849,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -54869,27 +54870,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4AD215956409EC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:33:36Z",
+        "_saved_at": "2026-09-14T10:18:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4AD215956409EC"
     },
@@ -70102,8 +70100,8 @@
       "_unit_id": "SNU-RU-B5BF90BD41B709"
     },
     "SNU-RU-880A0BEDD8FC72": {
-      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
-      "checked_at": "2026-09-13T22:44:21Z",
+      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
+      "checked_at": "2026-09-14T10:18:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -70123,12 +70121,12 @@
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -70141,9 +70139,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "서울대학교 재료공학부 입학 안내 페이지를 통해 대학원 및 학부 입학 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -70170,19 +70168,16 @@
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-880A0BEDD8FC72",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:33:29Z",
+        "_saved_at": "2026-09-14T10:19:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-880A0BEDD8FC72"
     },
@@ -71327,8 +71322,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-0CD702865C2986": {
-      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
-      "checked_at": "2026-09-13T22:44:21Z",
+      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
+      "checked_at": "2026-09-14T10:18:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -71348,8 +71343,8 @@
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ]
       },
       "enrichment": {
@@ -71368,7 +71363,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -71395,19 +71390,16 @@
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0CD702865C2986",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:33:11Z",
+        "_saved_at": "2026-09-14T10:18:56Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0CD702865C2986"
     },
@@ -83775,8 +83767,8 @@
       "_unit_id": "SNU-RU-669728F70BCE26"
     },
     "SNU-RU-FE97393855A2FA": {
-      "fingerprint": "14800317b8b7538d350a692fcd78af533538b122cfefc31626c5d921fa6f39aa",
-      "checked_at": "2026-09-13T22:44:21Z",
+      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
+      "checked_at": "2026-09-14T10:18:36Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -83796,12 +83788,12 @@
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -83814,9 +83806,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -83843,19 +83835,16 @@
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FE97393855A2FA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:33:24Z",
+        "_saved_at": "2026-09-14T10:18:48Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-FE97393855A2FA"
     },
@@ -244421,11 +244410,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:18:22Z",
-    "checked": 150,
-    "seconds": 1374.0,
+    "at": "2026-09-14T10:19:05Z",
+    "checked": 155,
+    "seconds": 1417.02,
     "gemini": true,
-    "ai_requests": 77,
+    "ai_requests": 81,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
