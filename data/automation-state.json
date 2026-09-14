@@ -1,5 +1,5 @@
 {
-  "cursor": 255,
+  "cursor": 260,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -21481,8 +21481,8 @@
       "_unit_id": "SNU-RU-BE7BB7CAC059BF"
     },
     "SNU-RU-CB25251D30CE73": {
-      "fingerprint": "ed6f75b576c118b96c06a190f3092e4c5583034e0d34744b43c33ad544746e46",
-      "checked_at": "2026-09-13T22:57:01Z",
+      "fingerprint": "216b67f363c726ecb12f4a9985aa2d7800fce43bd6fa971d947c5d71913570b2",
+      "checked_at": "2026-09-14T10:38:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -21547,6 +21547,13 @@
             "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
             "alt": "그림1",
             "title": "그림1",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2026/09/09_14.png",
+            "alt": "BAD UX POPUP 95",
+            "title": "",
             "score": 0,
             "parent_source_url": "https://convergence.snu.ac.kr"
           }
@@ -21645,10 +21652,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T03:26:19Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v3_paper_insights",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-CB25251D30CE73",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_TimeoutError"
     },
     "SNU-RU-95D449A700ACC6": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
@@ -26067,11 +26075,16 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-7D839D4528BDF5": {
-      "fingerprint": "bfaa7d0232016958a481832fff7604fbc6ce5c39c4742b864f4e96b0b21a8ba1",
-      "checked_at": "2026-09-13T22:57:09Z",
+      "fingerprint": "f1c6248850228d389d123d85abdc3bcc9d6c86cb09b111d20a7ff1cf6e2e5f64",
+      "checked_at": "2026-09-14T10:39:08Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "서울대학교 융합과학기술대학원 2026학년도 제2차 교수채용 공고",
+            "url": "https://convergence.snu.ac.kr/22553/"
+          }
+        ],
         "membersUrl": "https://cse.snu.ac.kr/ko/people/faculty/211",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -26088,7 +26101,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "권가진 교수는 인지컴퓨팅(Human-Computer Interaction) 분야를 연구하며, 서울대학교 컴퓨터공학부 및 융합과학기술대학원 지능정보융합학과 교수로 재직 중입니다.",
+        "research_summary": "권가진 교수는 인지컴퓨팅(Human-Computer Interaction) 분야를 연구하며, 서울대학교 융합과학기술대학원 교수이자 컴퓨터공학부 겸무 교수로 재직 중입니다.",
         "research_topics": [
           "인지컴퓨팅",
           "Human-Computer Interaction"
@@ -26096,7 +26109,8 @@
         "recommendation_keywords": [
           "인지컴퓨팅",
           "HCI",
-          "인간-컴퓨터 상호작용",
+          "서울대학교",
+          "융합과학기술대학원",
           "Human-Computer Interaction"
         ],
         "recent_papers": [],
@@ -26111,9 +26125,14 @@
         "recent_group_exhibitions": [],
         "education_summary": "Carnegie Mellon University에서 Human-Computer Interaction 전공으로 석사 및 박사 학위를 취득하였으며, University of California, Berkeley에서 Computer Science 및 Economics 학사 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 융합과학기술대학원 및 관련 학과에서 교수 채용 및 신입생 모집 공고를 정기적으로 게시하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "서울대학교 융합과학기술대학원 2026학년도 제2차 교수채용 공고",
+            "url": "https://convergence.snu.ac.kr/22553/"
+          }
+        ],
+        "recruitment_source_url": "https://convergence.snu.ac.kr",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://cse.snu.ac.kr/ko/people/faculty/211",
@@ -26125,34 +26144,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://cse.snu.ac.kr/ko/people/faculty/211",
           "https://convergence.snu.ac.kr",
+          "https://cse.snu.ac.kr/ko/people/faculty/211",
+          "https://imai.snu.ac.kr",
           "https://cclab.snu.ac.kr/",
           "https://cse.snu.ac.kr/ko/people",
           "https://cse.snu.ac.kr/ko/people/faculty",
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
           "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://imai.snu.ac.kr/17241/",
           "https://cse.snu.ac.kr/community/faculty-recruitment",
-          "https://admission.snu.ac.kr/",
-          "https://convergence.snu.ac.kr/lab_support/",
-          "https://convergence.snu.ac.kr/category/admission-notice/",
-          "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+          "https://convergence.snu.ac.kr/22553/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7D839D4528BDF5",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:26:22Z",
+        "_saved_at": "2026-09-14T10:40:23Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7D839D4528BDF5"
     },
@@ -28878,30 +28889,23 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-CEF8E4B3A22338": {
-      "fingerprint": "701bbee8257ca87480f118eca6e930a215ba9ae38c951e4fed25fe073d1c92e0",
-      "checked_at": "2026-09-13T22:57:13Z",
+      "fingerprint": "40844dc47d3280749d08f13219d9ca803edbc34829dba6053c1f7b380863b298",
+      "checked_at": "2026-09-14T10:39:10Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Publications",
-            "url": "https://mmlab.snu.ac.kr/publications/international"
-          },
-          {
             "title": "International",
             "url": "https://mmlab.snu.ac.kr/publications/international/"
-          },
-          {
-            "title": "Domestic",
-            "url": "https://mmlab.snu.ac.kr/publications/domestic/"
-          },
-          {
-            "title": "Patents",
-            "url": "https://mmlab.snu.ac.kr/publications/patents/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          }
+        ],
         "membersUrl": "https://mmlab.snu.ac.kr/members/",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://mmlab.snu.ac.kr/",
           "https://cse.snu.ac.kr/ko/people/faculty/2",
@@ -28916,23 +28920,62 @@
         ]
       },
       "enrichment": {
-        "research_summary": "인터넷 융합 및 보안 연구실(MM Lab)은 네트워크 시스템, 보안, 그리고 인터넷 기술 전반에 걸친 연구를 수행합니다.",
+        "research_summary": "권태경 교수는 서울대학교 컴퓨터공학부 인터넷 융합 및 보안 연구실(MMLAB)을 이끌며 컴퓨터 네트워크, 네트워크 보안 및 프라이버시, 웹 보안, 시스템 보안 분야를 연구하고 있습니다. 주요 연구 주제로는 인터넷 프로토콜, 전송 및 라우팅, TLS, DNS, DDoS 대응, 클라우드 보안 등이 포함됩니다.",
         "research_topics": [
-          "네트워크 시스템",
-          "인터넷 보안",
-          "융합 기술"
+          "Computer Networks",
+          "Network Security & Privacy",
+          "Web Security",
+          "Computer Security"
         ],
         "recommendation_keywords": [
-          "네트워크",
-          "보안",
-          "인터넷",
-          "네트워크 시스템",
-          "인터넷 보안",
-          "융합 기술"
+          "네트워크 보안",
+          "인터넷 프로토콜",
+          "시스템 보안",
+          "프라이버시",
+          "클라우드 보안",
+          "Computer Networks",
+          "Network Security & Privacy",
+          "Web Security",
+          "Computer Security"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "A Replay-Attack Resistant and Lightweight Token Validation Framework with Hash Chain",
+            "url": "https://mmlab.snu.ac.kr/",
+            "year": "2026",
+            "venue": "IEEE International Conference on Distributed Computing Systems (ICDCS '26)",
+            "summary": "해시 체인을 활용하여 재전송 공격에 강인하고 경량화된 토큰 검증 프레임워크를 제안합니다."
+          },
+          {
+            "title": "Measuring Apex TXT Bloat from DNS-Based Domain Verification: Growth, Privacy Implications, and Design Requirements",
+            "url": "https://mmlab.snu.ac.kr/2026/04/usenix-symposium-on-networked-systems-design-and-implementation-nsdi-26-posters/",
+            "year": "2026",
+            "venue": "23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI '26, Posters)",
+            "summary": "DNS 기반 도메인 검증에서 발생하는 Apex TXT 레코드의 비대화 현상을 측정하고, 이에 따른 성장 추이, 프라이버시 영향 및 설계 요구사항을 분석합니다."
+          },
+          {
+            "title": "Wi-Fi-based Detection of GNSS Spoofing Attacks",
+            "url": "https://mmlab.snu.ac.kr/",
+            "year": "2026",
+            "venue": "IEEE International Conference on Communications (ICC '26)",
+            "summary": "Wi-Fi 신호를 기반으로 GNSS 스푸핑 공격을 탐지하는 기술을 연구합니다."
+          }
+        ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "ICDCS '26",
+            "count": 1
+          },
+          {
+            "venue": "NSDI '26",
+            "count": 1
+          },
+          {
+            "venue": "ICC '26",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -28940,68 +28983,41 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 공과대학 컴퓨터공학부 교수로서 인터넷 융합 및 보안 연구실(MMLAB)을 운영하며 대학원생 및 연구원들을 지도하고 있습니다.",
         "verified_publication_pages": [
-          {
-            "title": "Publications",
-            "url": "https://mmlab.snu.ac.kr/publications/international"
-          },
           {
             "title": "International",
             "url": "https://mmlab.snu.ac.kr/publications/international/"
-          },
-          {
-            "title": "Domestic",
-            "url": "https://mmlab.snu.ac.kr/publications/domestic/"
-          },
-          {
-            "title": "Patents",
-            "url": "https://mmlab.snu.ac.kr/publications/patents/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "컴퓨터공학부 대학원 신입생 모집 및 교원 채용 관련 정보는 서울대학교 컴퓨터공학부 공식 홈페이지를 통해 공지됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          }
+        ],
+        "recruitment_source_url": "https://cse.snu.ac.kr/ko/community/notice/25577",
         "current_members": [
           {
-            "name": "Taekyoung (Ted) Kwon",
-            "role": "Professor",
-            "url": "https://mmlab.snu.ac.kr/members/"
-          },
-          {
-            "name": "Yanghee Choi",
-            "role": "Professor",
-            "url": "https://mmlab.snu.ac.kr/members/"
-          },
-          {
             "name": "Hyunsoo Kim",
-            "role": "Member",
+            "role": "Post Doctor",
             "url": "https://mmlab.snu.ac.kr/members/"
           },
           {
             "name": "Sungmin Lee",
-            "role": "Member",
+            "role": "Ph. D Candidate",
             "url": "https://mmlab.snu.ac.kr/members/"
           },
           {
             "name": "Gyeongheon Jeong",
-            "role": "Member",
-            "url": "https://mmlab.snu.ac.kr/members/"
-          },
-          {
-            "name": "Jungbum Lee",
-            "role": "Member",
-            "url": "https://mmlab.snu.ac.kr/members/"
-          },
-          {
-            "name": "Eunbee Hwang",
-            "role": "Member",
+            "role": "Ph. D Candidate",
             "url": "https://mmlab.snu.ac.kr/members/"
           }
         ],
         "alumni": [],
         "member_page_url": "https://mmlab.snu.ac.kr/members/",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -29009,35 +29025,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://mmlab.snu.ac.kr/",
+          "https://mmlab.snu.ac.kr/2026/04/usenix-symposium-on-networked-systems-design-and-implementation-nsdi-26-posters/",
           "https://mmlab.snu.ac.kr/members/",
-          "https://mmlab.snu.ac.kr/publications/international",
+          "https://cse.snu.ac.kr/ko/people/faculty/2",
+          "https://cse.snu.ac.kr/ko",
           "https://mmlab.snu.ac.kr/publications/international/",
           "https://mmlab.snu.ac.kr/publications/domestic/",
           "https://mmlab.snu.ac.kr/publications/patents/",
-          "https://mmlab.snu.ac.kr/",
-          "https://cse.snu.ac.kr/ko/people/faculty/2",
-          "https://cse.snu.ac.kr/ko",
-          "https://mmlab.snu.ac.kr/2026/04/usenix-symposium-on-networked-systems-design-and-implementation-nsdi-26-posters/",
           "https://mmlab.snu.ac.kr/category/notice/paper-accepted/",
-          "https://cse.snu.ac.kr/community/faculty-recruitment",
-          "https://cse.snu.ac.kr/ko/community/notice/25577",
-          "https://cse.snu.ac.kr/ko/community/notice/24826",
-          "https://cse.snu.ac.kr/ko/admissions",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/20210818162716b8067d52d7ef1281f66ffdb246aeee44cd6dc875.jpg",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/20190906150156b9dce783d0aa93e34f571b948b711e0f353510f3.jpg",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/20230427153403cc19a1bb4de5aec4835193a792f78dcf712c92ee-150x150.png",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/fit_800x800_5118042390c08e4baa47a68342858ffb86eb6ff4-150x150.jpg",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/fit_800x800_b1ba47e4fd943f63fa424541d2bd0c16717ee556-150x150.png",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/2022123013392692ba431dd2fd7481864a2503d6a7984dcf049d62-150x150.png",
-          "https://mmlab.snu.ac.kr/wp-content/uploads/2025/05/ebhwang-150x150.png"
+          "https://mmlab.snu.ac.kr/publications/international",
+          "https://cse.snu.ac.kr/community/faculty-recruitment"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CEF8E4B3A22338",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:26:32Z",
+        "_saved_at": "2026-09-14T10:40:34Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights"
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CEF8E4B3A22338"
     },
@@ -31355,24 +31362,62 @@
       "_unit_id": "SNU-RU-D08720C35AF998"
     },
     "SNU-RU-A87108436C79EA": {
-      "fingerprint": "28ffc132c7285aebce5969c2177898edc9a73046a4fb40897539b3c834c3bc5b",
-      "checked_at": "2026-09-13T22:57:06Z",
+      "fingerprint": "1060e5247fd58c9e6e1c1f2774a017fd0d1e57c35700e9b92fc27e02b957e28d",
+      "checked_at": "2026-09-14T10:39:06Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "서울대 엄현상 교수 연구팀, Ethereum 저장비용 94.1% 절감 기술로 IEEE CLOUD 2026 최우수 학생 논문상 수상 2026/8/28 서울대 엄현상 교수 연구팀은 7월에 열린 IEEE CLOUD 2026에서, 서윤형 (서울대 컴퓨터공학부 석박사통합과정) 학생이 제1저자로 작성한 논문을 발표하여 Best Stude",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1216"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "송현오 교수 연구진, 반도체 설계검증을 위한 AI 에이전트 및 복잡한 환경 예측을 위한 월드 모델 기술 개발 2026/5/22 - ICML 2026 논문 2편 게재 - 반도체 설계검증 자동화를 위한 대규모 LLM 에이전트 벤치마크 Rule2DRC 개발 - 복잡한 시각 환경 예측을",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1211"
+          },
+          {
+            "title": "제 6회 민상렬 장학금 수여식 개최 2026/3/16 故 민상렬 교수님의 연구에 대한 열정과 후학 양성의 뜻을 기리고자 '민상렬 장학금'이 제정되었습니다. 민상렬장학금은 컴퓨터시스템 관련 연구업적이 탁월한 대학원생을 매년 1인 선정하",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1206"
+          },
+          {
+            "title": "송현오 교수 연구진 NeurIPS oral presentation 논문 선정 (상위 0.35%, 77/21575) 2025/9/29 NeurIPS 2025 3편 (이중 1편은 Oral Presentation, 최상위 0.35% = 77/21,575 선정) 및 TMLR 1편 게재문맥 복원 기반 중요도 정량화를 활",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1198"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 인권/성평등 교육(법정의무교육) 이수 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/24826"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내 2026/3/31",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
+          }
+        ],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://cse.snu.ac.kr/ko/people/faculty/3",
           "https://cse.snu.ac.kr/ko",
-          "https://cse.snu.ac.kr/ko/community/news/1212",
-          "https://cse.snu.ac.kr/ko/community/news/1216",
-          "https://cse.snu.ac.kr/ko/community/notice/25577",
-          "https://cse.snu.ac.kr/ko/community/notice/24826",
           "https://cse.snu.ac.kr/ko/people",
-          "https://cse.snu.ac.kr/ko/community/news/1211",
-          "https://cse.snu.ac.kr/ko/community/news/1207",
-          "https://cse.snu.ac.kr/ko/community/news/1206",
-          "https://cse.snu.ac.kr/ko/community/news/1198"
+          "https://cse.snu.ac.kr/ko/people/faculty",
+          "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
+          "https://cse.snu.ac.kr/ko/people/staff",
+          "https://cse.snu.ac.kr/ko/people/faculty",
+          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
+          "https://imai.snu.ac.kr",
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
@@ -31390,10 +31435,48 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "서울대 엄현상 교수 연구팀, Ethereum 저장비용 94.1% 절감 기술로 IEEE CLOUD 2026 최우수 학생 논문상 수상 2026/8/28 서울대 엄현상 교수 연구팀은 7월에 열린 IEEE CLOUD 2026에서, 서윤형 (서울대 컴퓨터공학부 석박사통합과정) 학생이 제1저자로 작성한 논문을 발표하여 Best Stude",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1216"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "송현오 교수 연구진, 반도체 설계검증을 위한 AI 에이전트 및 복잡한 환경 예측을 위한 월드 모델 기술 개발 2026/5/22 - ICML 2026 논문 2편 게재 - 반도체 설계검증 자동화를 위한 대규모 LLM 에이전트 벤치마크 Rule2DRC 개발 - 복잡한 시각 환경 예측을",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1211"
+          },
+          {
+            "title": "제 6회 민상렬 장학금 수여식 개최 2026/3/16 故 민상렬 교수님의 연구에 대한 열정과 후학 양성의 뜻을 기리고자 '민상렬 장학금'이 제정되었습니다. 민상렬장학금은 컴퓨터시스템 관련 연구업적이 탁월한 대학원생을 매년 1인 선정하",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1206"
+          },
+          {
+            "title": "송현오 교수 연구진 NeurIPS oral presentation 논문 선정 (상위 0.35%, 77/21575) 2025/9/29 NeurIPS 2025 3편 (이중 1편은 Oral Presentation, 최상위 0.35% = 77/21,575 선정) 및 TMLR 1편 게재문맥 복원 기반 중요도 정량화를 활",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1198"
+          }
+        ],
+        "recruitment_summary": "서울대학교 컴퓨터공학부 2027학년도 대학원 신입생 전기모집이 2026년 9월 28일부터 10월 2일까지 진행됩니다. 지원자는 서류심사, 구술고사, 심층구술면접을 거쳐 선발되며, 심층구술면접 대상자는 개별 교수 면담 및 연구실 탐방을 통해 전공을 탐색해야 합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 인권/성평등 교육(법정의무교육) 이수 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/24826"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내 2026/3/31",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
+          }
+        ],
+        "recruitment_source_url": "https://cse.snu.ac.kr/ko/community/notice/25577",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://cse.snu.ac.kr/ko/people",
@@ -31405,34 +31488,31 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://cse.snu.ac.kr/ko/people",
+          "https://cse.snu.ac.kr/ko/community/news/1216",
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/news/1211",
+          "https://cse.snu.ac.kr/ko/community/news/1206",
+          "https://cse.snu.ac.kr/ko/community/news/1198",
+          "https://cse.snu.ac.kr/community/faculty-recruitment",
+          "https://cse.snu.ac.kr/ko/community/notice/24826",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
           "https://cse.snu.ac.kr/ko/people/faculty/3",
           "https://cse.snu.ac.kr/ko",
+          "https://cse.snu.ac.kr/ko/people",
           "https://cse.snu.ac.kr/ko/people/faculty",
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
           "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko/community/news/1216",
-          "https://cse.snu.ac.kr/ko/community/notice/25577",
-          "https://cse.snu.ac.kr/ko/community/news/1215",
-          "https://cse.snu.ac.kr/ko/community/news/1211",
-          "https://cse.snu.ac.kr/ko/community/news/1206",
-          "https://cse.snu.ac.kr/community/faculty-recruitment",
-          "https://cse.snu.ac.kr/ko/community/notice/24826",
-          "https://cse.snu.ac.kr/ko/admissions",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
-          "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png"
+          "https://imai.snu.ac.kr",
+          "https://www.snu.ac.kr/personal_information"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A87108436C79EA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:26:20Z",
+        "_saved_at": "2026-09-14T10:40:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-A87108436C79EA"
     },
@@ -47563,18 +47643,118 @@
       "_unit_id": "SNU-RU-13153F2E3E40EE"
     },
     "SNU-RU-3A2D5B754AC0B0": {
-      "fingerprint": "c1a29d5d5c128a269b68eb929bb740b2097f6c491deafbc213698084bf924593",
-      "checked_at": "2026-09-13T22:57:26Z",
+      "fingerprint": "95fef5d54d6bcd5436285cd081f7567126b81a64f4e22671a2b366e6aaca94e0",
+      "checked_at": "2026-09-14T10:39:19Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "서울대 엄현상 교수 연구팀, Ethereum 저장비용 94.1% 절감 기술로 IEEE CLOUD 2026 최우수 학생 논문상 수상 2026/8/28 서울대 엄현상 교수 연구팀은 7월에 열린 IEEE CLOUD 2026에서, 서윤형 (서울대 컴퓨터공학부 석박사통합과정) 학생이 제1저자로 작성한 논문을 발표하여 Best Stude",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1216",
+            "kind": "publication"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내 ​**정년이 5년 미만의 교수님은 석박통합과정, 박사과정을 선발하지 않습니다.(정년이 5년 미만의 교수님 명단: 김지홍,이광근 교수님)**정년이 2년 미만의 교수님은 석사과정,석박통합과정,박사과정을 선발하지 않습니다.(정년이 2년 미만의 교수님 명단: 김선,이상구,장병탁,하순회 교수님)**휴직 중인 교수님은 석사과정,석박통합과정,박사과정을 선발하지 않습니다.(휴직 중인 교수님 명단: 전병곤 교수님)** 신임 교수님 : 이영운 교수님. ​​[컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내]1.모집인원-석사과정: 24명-석박사통합과정: 42명-박사과정: 10명* 석박사통합과정은 학사학위자가 석사학위 및 박사학위의 과정이 통합된 과정을 이수하는 것으로서, 통합과정 이수중단 시 학칙 및 규정이 정하는 기준에 따라 석사학위 수여가 가능합니다.2.지원서 교부 및 접수(인터넷)▶ 접수기간: 2026. 9. 28.(월) 10:00~10. 2.(금) 17:00까지 온라인 접수 ※ 본교 입학관리본부 홈페이지(http://admission.snu.ac.k에 접속하여 안내에 따라 입학지원서, 자기소개 및 수학(연구)계획서 온라인 접수하고 나머지 추가 서류(4번 사항)는 기간 내에 컴퓨터공학부 행정실에 필히 제출(미제출 시 탈락)※ 입학지원서 및 자기소개서 희망전공 분야란에 ‘컴퓨터공학부’로 기재.3.영어성적※ 지원서 접수마감일(2026.10.2.) 기준 2년 이내 응시하고 발표 완료, 서류제출일[2026. 10. 6.(화)까지 성적을 제출한 경우로서, 입학지원서에 기재한 성적만 유효함. 다만, 본교에 공식적으로 인정받은 성적(“본교 대학원 입학 시 또는 논문제출자격시험에서 인정받은”석사학위자의 영어성적)은 지원서 접수마감일(2026.10.2.) 기준 10년 이내 응시 성적만 인정 가능⇒ 해당 성적(응시회차 및 점수)은 출신 단과대학 교무행정실에서 확인 가능하며, 원서 작성 시 기재하여야 함※ TOEFL 점수 중 MyBest Scores를 제출하고자 하는 경우, 4개 영역 응시일자 중 가장 빠른 날짜가 지원서 접수마감일(2026. 10. 2.) 기준 2년 이내여야 함.※ 영어권 대학(원)졸업(예정)자의 영어성적은 면제임(영어성적 제출이 면제된 최종 합격자는 해당 영어권 국가 소재 대학(원)의 졸업(학위)증명서 및 해당 증명서에 대한 아포스티유 또는 영사확인을 제출해야 함)4. 컴퓨터공학부 추가 제출 서류 (우편 혹은 방문)▶ 제출기한 2026.10.6(화) 17:00까지 ▶ 제출장소 : 컴퓨터공학부 행정실(301동 316호)* 우편 제출은 제출일 마감 도착분에 한함(반드시 등기로 보낼 것)(주소: 08826 서울시 관악구 관악로 1 서울대학교 공과대학 컴퓨터공학부 301동 316호 입시담당자 앞)※ 추가 제출 서류<석사과정>1) 학사 성적증명서 원본 1부(편입학 졸업자는 전/후 성적표 각1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 구술고사과목 신청서 1부: 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중 2과목을 반드시 선택 기재 (첨부파일 다운받아 사용)<석박사통합과정>1 )학사 성적증명서 원본 1부(편입학 졸업자는 전/후 성적표 각 1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 구술고사과목 신청서 1부: 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중 2과목을 반드시 선택 기재 (첨부파일 다운받아 사용)<박사과정>1) 성적증명서 원본 1부(학사/석사 성적증명서 각 1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 박사과정 지도교수 신청서 1부 (첨부파일 다운받아 사용)5. 구술고사과목 시험범위(석사/석박통합 과정)• 구술고사는 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템) 중에서 지원자가 신청한 2과목에서 문제를 풉니다.- 각 과목 당 시험 범위는 다음과 같음.- 반드시 참고 도서로 준비해야 하는 것은 아니며 시험 범위에서 다루는 주제들을 참조할 것.- 세부적인 내용을 묻는 문제보다는 가장 중요한 핵심 개념을 이해하고 있는지 위주로 출제됨.과목명범위참고도서소프트웨어의 기초Chapter 2, 3, 6, 8-13쉽게 배우는 자료구조 with 자바 / 문병로 / 한빛미디어 / 2022하드웨어의 기초Chapter 9-11Foundations of Analog and Digital Electronic Circuits / Anant Agarwal, Jeffrey Lang / Morgan Kaufman / 2005Chapter 10Contemporary Logic Design / Katz / Prentice-Hall / 2012컴퓨터공학을 위한 수학Chapter 1-2, 5-7Discrete Mathematics and Its Applications / Kenneth H. Rosen / McGraw-Hill / 2019Chapter 7-8Advanced Engineering Mathematics / Erwin Kreyszig / John Wiley & Sons / 2011컴퓨터시스템Chapters 4-5Computer Organization and Design: The Hardware Software Interface / David A. Patterson, John L. Hennessy / Morgan Kaufmann / 2020 6. 수험표 교부- 교부기간: 2026. 10. 16(금) 면접 및 구술고사 당일 배부-교부장소:면접 및 구술고사 대기실(추후공지)7. 선발일정 및 방식<석사 및 석박사통합과정>1) 선발일정일정내용비고2026. 10. 16(금)면접 및 구술고사면접 대기 시간, 장소컴퓨터공학부 홈페이지 추후공지2026. 10. 16(금) 저녁심층구술 면접 대상자 발표컴퓨터공학부 홈페이지2026. 10. 16(금) 저녁 ~10. 22(목) 오후개별 교수면담 및 연구실 탐방을 통한 전공탐색연구실 소개 자료 참고(cse.snu.ac.kr/research/labs)2026. 10. 23(금)심층구술면접시간, 장소 추후공지 2) 선발방식(1) 서류심사,구술고사,심층구술면접을 통해 신입생을 선발한다.(2) 구술고사는 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중에서 지원자가 신청한 2과목에서 2~3 문제를 푼다.(3)서류심사와 구술고사 응시자의 일부를 대상으로 심층구술면접을 시행할 수 있다.(4)심층구술면접 대상자는 정해진 기간 동안 본인이 선택한 연구실에 대해 개별 교수면담과 연구실 탐방 등을 통해 해당 전공분야를 심층 탐색해야 한다 (반드시 한 명 이상의 교수와 면담할 것/연구실 소개 자료:cse.snu.ac.kr/research/labs)​(5) 심층구술 면접은 연구실 탐색기간 종료 후 하루 동안 실시하고,심층구술면접을 통해 연구실이 확정된 지원자가 최종 합격됩니다. < 박사과정 >1) 선발일정일정내용비고2026. 10. 16(금)면접 및 구술고사시간, 장소추후공지2) 선발방식서류심사와 면접 및 구술고사를 통해 선발한다.8. 합격자 발표 : 2026. 11. 19(목) 18:00 이후(예정)※본교 입학관리본부 홈페이지(http://admission.snu.ac.kr))(서울대학교⇒입학⇒대학원 공지사항⇒합격자발표⇒성명,생년월일과 수험번호로 검색) [첨부]1) 2027학년도 대학원 전기모집 박사과정 지도교수 신청서 1부.2) 2027학년도 대학원 전기모집 석사/석박사통합과정 구술고사과목 신청서 1부.",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577",
+            "kind": "publication"
+          },
+          {
+            "title": "송현오 교수 연구진, 반도체 설계검증을 위한 AI 에이전트 및 복잡한 환경 예측을 위한 월드 모델 기술 개발 2026/5/22 - ICML 2026 논문 2편 게재 - 반도체 설계검증 자동화를 위한 대규모 LLM 에이전트 벤치마크 Rule2DRC 개발 - 복잡한 시각 환경 예측을",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1211",
+            "kind": "publication"
+          },
+          {
+            "title": "제 6회 민상렬 장학금 수여식 개최 2026/3/16 故 민상렬 교수님의 연구에 대한 열정과 후학 양성의 뜻을 기리고자 '민상렬 장학금'이 제정되었습니다. 민상렬장학금은 컴퓨터시스템 관련 연구업적이 탁월한 대학원생을 매년 1인 선정하",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1206",
+            "kind": "publication"
+          },
+          {
+            "title": "송현오 교수 연구진 NeurIPS oral presentation 논문 선정 (상위 0.35%, 77/21575) 2025/9/29 NeurIPS 2025 3편 (이중 1편은 Oral Presentation, 최상위 0.35% = 77/21,575 선정) 및 TMLR 1편 게재문맥 복원 기반 중요도 정량화를 활",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1198",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
-            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
-            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내 ​**정년이 5년 미만의 교수님은 석박통합과정, 박사과정을 선발하지 않습니다.(정년이 5년 미만의 교수님 명단: 김지홍,이광근 교수님)**정년이 2년 미만의 교수님은 석사과정,석박통합과정,박사과정을 선발하지 않습니다.(정년이 2년 미만의 교수님 명단: 김선,이상구,장병탁,하순회 교수님)**휴직 중인 교수님은 석사과정,석박통합과정,박사과정을 선발하지 않습니다.(휴직 중인 교수님 명단: 전병곤 교수님)** 신임 교수님 : 이영운 교수님. ​​[컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내]1.모집인원-석사과정: 24명-석박사통합과정: 42명-박사과정: 10명* 석박사통합과정은 학사학위자가 석사학위 및 박사학위의 과정이 통합된 과정을 이수하는 것으로서, 통합과정 이수중단 시 학칙 및 규정이 정하는 기준에 따라 석사학위 수여가 가능합니다.2.지원서 교부 및 접수(인터넷)▶ 접수기간: 2026. 9. 28.(월) 10:00~10. 2.(금) 17:00까지 온라인 접수 ※ 본교 입학관리본부 홈페이지(http://admission.snu.ac.k에 접속하여 안내에 따라 입학지원서, 자기소개 및 수학(연구)계획서 온라인 접수하고 나머지 추가 서류(4번 사항)는 기간 내에 컴퓨터공학부 행정실에 필히 제출(미제출 시 탈락)※ 입학지원서 및 자기소개서 희망전공 분야란에 ‘컴퓨터공학부’로 기재.3.영어성적※ 지원서 접수마감일(2026.10.2.) 기준 2년 이내 응시하고 발표 완료, 서류제출일[2026. 10. 6.(화)까지 성적을 제출한 경우로서, 입학지원서에 기재한 성적만 유효함. 다만, 본교에 공식적으로 인정받은 성적(“본교 대학원 입학 시 또는 논문제출자격시험에서 인정받은”석사학위자의 영어성적)은 지원서 접수마감일(2026.10.2.) 기준 10년 이내 응시 성적만 인정 가능⇒ 해당 성적(응시회차 및 점수)은 출신 단과대학 교무행정실에서 확인 가능하며, 원서 작성 시 기재하여야 함※ TOEFL 점수 중 MyBest Scores를 제출하고자 하는 경우, 4개 영역 응시일자 중 가장 빠른 날짜가 지원서 접수마감일(2026. 10. 2.) 기준 2년 이내여야 함.※ 영어권 대학(원)졸업(예정)자의 영어성적은 면제임(영어성적 제출이 면제된 최종 합격자는 해당 영어권 국가 소재 대학(원)의 졸업(학위)증명서 및 해당 증명서에 대한 아포스티유 또는 영사확인을 제출해야 함)4. 컴퓨터공학부 추가 제출 서류 (우편 혹은 방문)▶ 제출기한 2026.10.6(화) 17:00까지 ▶ 제출장소 : 컴퓨터공학부 행정실(301동 316호)* 우편 제출은 제출일 마감 도착분에 한함(반드시 등기로 보낼 것)(주소: 08826 서울시 관악구 관악로 1 서울대학교 공과대학 컴퓨터공학부 301동 316호 입시담당자 앞)※ 추가 제출 서류<석사과정>1) 학사 성적증명서 원본 1부(편입학 졸업자는 전/후 성적표 각1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 구술고사과목 신청서 1부: 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중 2과목을 반드시 선택 기재 (첨부파일 다운받아 사용)<석박사통합과정>1 )학사 성적증명서 원본 1부(편입학 졸업자는 전/후 성적표 각 1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 구술고사과목 신청서 1부: 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중 2과목을 반드시 선택 기재 (첨부파일 다운받아 사용)<박사과정>1) 성적증명서 원본 1부(학사/석사 성적증명서 각 1부)2) TOEFL인 경우 성적표 사본 또는 성적이 기재되어 있는 인터넷 출력물 1부(TEPS인 경우 온라인 접수 시 성적 기재만 하고 성적표은 별도로 제출하지 않아도 됨)3) 박사과정 지도교수 신청서 1부 (첨부파일 다운받아 사용)5. 구술고사과목 시험범위(석사/석박통합 과정)• 구술고사는 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템) 중에서 지원자가 신청한 2과목에서 문제를 풉니다.- 각 과목 당 시험 범위는 다음과 같음.- 반드시 참고 도서로 준비해야 하는 것은 아니며 시험 범위에서 다루는 주제들을 참조할 것.- 세부적인 내용을 묻는 문제보다는 가장 중요한 핵심 개념을 이해하고 있는지 위주로 출제됨.과목명범위참고도서소프트웨어의 기초Chapter 2, 3, 6, 8-13쉽게 배우는 자료구조 with 자바 / 문병로 / 한빛미디어 / 2022하드웨어의 기초Chapter 9-11Foundations of Analog and Digital Electronic Circuits / Anant Agarwal, Jeffrey Lang / Morgan Kaufman / 2005Chapter 10Contemporary Logic Design / Katz / Prentice-Hall / 2012컴퓨터공학을 위한 수학Chapter 1-2, 5-7Discrete Mathematics and Its Applications / Kenneth H. Rosen / McGraw-Hill / 2019Chapter 7-8Advanced Engineering Mathematics / Erwin Kreyszig / John Wiley & Sons / 2011컴퓨터시스템Chapters 4-5Computer Organization and Design: The Hardware Software Interface / David A. Patterson, John L. Hennessy / Morgan Kaufmann / 2020 6. 수험표 교부- 교부기간: 2026. 10. 16(금) 면접 및 구술고사 당일 배부-교부장소:면접 및 구술고사 대기실(추후공지)7. 선발일정 및 방식<석사 및 석박사통합과정>1) 선발일정일정내용비고2026. 10. 16(금)면접 및 구술고사면접 대기 시간, 장소컴퓨터공학부 홈페이지 추후공지2026. 10. 16(금) 저녁심층구술 면접 대상자 발표컴퓨터공학부 홈페이지2026. 10. 16(금) 저녁 ~10. 22(목) 오후개별 교수면담 및 연구실 탐방을 통한 전공탐색연구실 소개 자료 참고(cse.snu.ac.kr/research/labs)2026. 10. 23(금)심층구술면접시간, 장소 추후공지 2) 선발방식(1) 서류심사,구술고사,심층구술면접을 통해 신입생을 선발한다.(2) 구술고사는 4과목(소프트웨어의 기초, 하드웨어의 기초, 컴퓨터공학을 위한 수학, 컴퓨터시스템)중에서 지원자가 신청한 2과목에서 2~3 문제를 푼다.(3)서류심사와 구술고사 응시자의 일부를 대상으로 심층구술면접을 시행할 수 있다.(4)심층구술면접 대상자는 정해진 기간 동안 본인이 선택한 연구실에 대해 개별 교수면담과 연구실 탐방 등을 통해 해당 전공분야를 심층 탐색해야 한다 (반드시 한 명 이상의 교수와 면담할 것/연구실 소개 자료:cse.snu.ac.kr/research/labs)​(5) 심층구술 면접은 연구실 탐색기간 종료 후 하루 동안 실시하고,심층구술면접을 통해 연구실이 확정된 지원자가 최종 합격됩니다. < 박사과정 >1) 선발일정일정내용비고2026. 10. 16(금)면접 및 구술고사시간, 장소추후공지2) 선발방식서류심사와 면접 및 구술고사를 통해 선발한다.8. 합격자 발표 : 2026. 11. 19(목) 18:00 이후(예정)※본교 입학관리본부 홈페이지(http://admission.snu.ac.kr))(서울대학교⇒입학⇒대학원 공지사항⇒합격자발표⇒성명,생년월일과 수험번호로 검색) [첨부]1) 2027학년도 대학원 전기모집 박사과정 지도교수 신청서 1부.2) 2027학년도 대학원 전기모집 석사/석박사통합과정 구술고사과목 신청서 1부.",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 인권/성평등 교육(법정의무교육) 이수 안내 4대 폭력예방교육(성희롱·성폭력·가정폭력·성매매)은 관련 법령에 따라 실시되는 법정의무교육으로 대학 전 구성원은 매년 1회 이상 교육을 이수하여야 합니다. ※ 본교에서는 \"인권/성평등 교육\"으로 통합·운영하고 있음.2026년 성평등가족부 \"폭력예방교육 운영안내 지침\" 강화에 따라 교내 구성원의 교육 이수율 달성 기준 및 교육 운영 요건은 다음과 같습니다.대상기준학생학부생, 대학원생(휴학생 제외)50% 이상 이수다음과 같이 온·오프라인 인권/성평등 교육을 지원하고 있으니 이수하여 주시기 바랍니다.○ 이수방법 - 온라인 교육 : 온라인 인권/성평등 교육 시스템(https://helplms.snu.ac.kr)에서 이수 - 맞춤형 교육 : 5인 이상 상시 신청 가능(대면) ※ 오프라인 인권/성평등 교육 신청서(붙임2) 작성 후 hrcedu@snu.ac.kr로 신청",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/24826",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내 2026/3/31 인공지능(AI) 기술의 급속한 발전과 함께 컴퓨터공학 전반이 새로운 전환기를 맞이하고 있습니다. 이에 서울대학교 컴퓨터공학부는 컴퓨터공학의 견고한 이론적 토대를 바탕으로, 확장 가",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://imai.snu.ac.kr/wp-content/uploads/sites/56/2021/03/logo.png",
+            "alt": "서울대학교 서울대학교 연합전공 인공지능",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://imai.snu.ac.kr"
+          },
+          {
+            "url": "https://imai.snu.ac.kr/wp-content/uploads/sites/56/2026/05/icon_apply.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://imai.snu.ac.kr"
+          },
+          {
+            "url": "https://imai.snu.ac.kr/wp-content/uploads/sites/56/2026/05/icon_about-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://imai.snu.ac.kr"
+          },
+          {
+            "url": "https://imai.snu.ac.kr/wp-content/uploads/sites/56/2026/05/icon_courses-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://imai.snu.ac.kr"
+          },
+          {
+            "url": "https://imai.snu.ac.kr/wp-content/uploads/sites/56/2020/12/logo_grey.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://imai.snu.ac.kr"
+          },
+          {
+            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.snu.ac.kr/personal_information"
+          },
+          {
+            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-subgnb-search_sm.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.snu.ac.kr/personal_information"
+          },
+          {
+            "url": "https://www.snu.ac.kr/_skin/kor/layout/image/header-gnb-d2-close_sm.png",
+            "alt": "뒤로가기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.snu.ac.kr/personal_information"
+          }
+        ],
         "sourcePagesScanned": [
           "https://cse.snu.ac.kr/ko/people/faculty/4",
           "https://cse.snu.ac.kr/ko",
@@ -47652,7 +47832,8 @@
         "_quality_gate": "ai_verified_v3_paper_insights",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-3A2D5B754AC0B0"
+      "_unit_id": "SNU-RU-3A2D5B754AC0B0",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-4794071A9F56D1": {
       "fingerprint": "e02397175e3c5e8faa01696697f0f05483ead2857beee2d478eb3d2ec9bf3ae1",
@@ -243669,11 +243850,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:38:46Z",
-    "checked": 255,
-    "seconds": 2598.68,
+    "at": "2026-09-14T10:40:41Z",
+    "checked": 260,
+    "seconds": 2713.03,
     "gemini": true,
-    "ai_requests": 172,
+    "ai_requests": 175,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
