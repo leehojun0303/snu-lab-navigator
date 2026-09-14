@@ -1,5 +1,5 @@
 {
-  "cursor": 445,
+  "cursor": 450,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -15218,7 +15218,7 @@
     },
     "SNU-RU-9DF47E273F29CD": {
       "fingerprint": "0a1916cfd7faed14f873366d92935b80837099694efab41bc124692375beca87",
-      "checked_at": "2026-09-13T23:21:49Z",
+      "checked_at": "2026-09-14T11:18:48Z",
       "activity": {
         "publicationPages": [
           {
@@ -15343,7 +15343,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-9DF47E273F29CD"
+      "_unit_id": "SNU-RU-9DF47E273F29CD",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-2F9035D4B9A99C": {
       "fingerprint": "1b990854dfcbda9e7d222fde2e24b8c4cebcfbd85ae38b3e053ded57ee89d645",
@@ -27761,8 +27762,8 @@
       "_unit_id": "SNU-RU-AA19CAEC920BDC"
     },
     "SNU-RU-063E0B6C725DCF": {
-      "fingerprint": "030714daeb2c085bba90132b7797457699a70b86438a19488cd0ad74be1d32e4",
-      "checked_at": "2026-09-13T23:21:46Z",
+      "fingerprint": "b58012484dc31d598c359a76ac7e237176219e0027b8bd2200ddeb41ae6fbb34",
+      "checked_at": "2026-09-14T11:18:45Z",
       "activity": {
         "publicationPages": [
           {
@@ -27888,7 +27889,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-063E0B6C725DCF",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-19C2629337A7EA": {
       "fingerprint": "7dd674f72aec00752edfcb09353b810102bd86334c8f2217425a140488f0f806",
@@ -165513,122 +165514,87 @@
       "_unit_id": "SNU-RU-ACBFE1BB945114"
     },
     "SNU-RU-59AF24CA5E9F11": {
-      "fingerprint": "fd42d458453dc216c80b9a695dfcfb5238a2ef539646c28a9c1b21c3fe38d559",
-      "checked_at": "2026-09-13T23:22:24Z",
+      "fingerprint": "258e89e8d69536f672ad84f5b2288bacfd93de509faf2361a786fa447a6d68fc",
+      "checked_at": "2026-09-14T11:19:18Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 대학생 청소년 AI 교육지원장학생 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12955",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/abc-logo.png",
-            "alt": "서울대학교 응용생물화학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/이용환.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2021/02/푸터베이직로고-5.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/cals.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/그룹3-3-2-prscf887jncgm7xgvcoq8d3jmvr0cvitpbcnnilmug.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/그룹1-1-prsbqqjlh1ti3zi5vrko9jl6fggpssalo3f7hywwyw.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-includes/images/rss.png",
-            "alt": "RSS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
-          "https://abc.snu.ac.kr",
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#container",
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#footer",
           "https://admission.snu.ac.kr/index.html",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
-          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none"
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none",
+          "https://www.snu.ac.kr/personal_information",
+          "https://snu.ac.kr/index.html"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "식물균병학을 전공하며, 식물 병원균의 병원성 기작 및 식물-미생물 상호작용에 관한 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "식물균병학",
+          "식물 병원균 병원성 기작",
+          "식물-미생물 상호작용"
+        ],
+        "recommendation_keywords": [
+          "식물균병학",
+          "식물 병원균",
+          "병원성 기작",
+          "식물 병원균 병원성 기작",
+          "식물-미생물 상호작용"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
+        "poster_status": "verified",
+        "poster_title": "이용환 석좌교수",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/이용환.jpeg",
+        "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진 및 정보",
+        "source_urls_used": [
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#container",
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none",
+          "https://www.snu.ac.kr/personal_information",
+          "https://snu.ac.kr/index.html",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-59AF24CA5E9F11",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-14T11:19:27Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-59AF24CA5E9F11"
     },
     "SNU-RU-D20D0FAE801BE6": {
@@ -229464,117 +229430,38 @@
     },
     "SNU-RU-031EBA1DAB0244": {
       "fingerprint": "a85d3e8d8c91f7146ba6222a9c2e607f6956c502d943db506c027fbfe5207963",
-      "checked_at": "2026-09-13T23:21:59Z",
+      "checked_at": "2026-09-14T11:18:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
           },
           {
             "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/student/global/support"
           },
           {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/로고123-6.png",
-            "alt": "서울대학교 서울대학교 농업생명과학대학 식품동물생명공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/전공.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2020/12/icon_main_intro_02-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://fabio.snu.ac.kr",
@@ -229588,122 +229475,119 @@
           "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          },
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램, 입학 모집 안내, FAQ 및 다양한 지원 사업 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "서울대학교 농업생명과학대학 식품동물생명공학부",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/로고123-6.png",
+        "poster_source_url": "https://fabio.snu.ac.kr",
+        "poster_evidence": "식품·동물생명공학부 공식 홈페이지 로고 및 학부 소개 정보",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://fabio.snu.ac.kr",
+          "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-031EBA1DAB0244",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-14T11:19:11Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-031EBA1DAB0244"
     },
     "SNU-RU-E20FD7ABA9470A": {
       "fingerprint": "a85d3e8d8c91f7146ba6222a9c2e607f6956c502d943db506c027fbfe5207963",
-      "checked_at": "2026-09-13T23:22:00Z",
+      "checked_at": "2026-09-14T11:18:54Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
           },
           {
             "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/student/global/support"
           },
           {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/로고123-6.png",
-            "alt": "서울대학교 서울대학교 농업생명과학대학 식품동물생명공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/전공.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          },
-          {
-            "url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2020/12/icon_main_intro_02-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fabio.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://fabio.snu.ac.kr",
@@ -229717,7 +229601,83 @@
           "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          },
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램, 입학 모집 안내, FAQ, 그리고 다양한 지원사업을 운영하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/guide/admission",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "서울대학교 농업생명과학대학 식품동물생명공학부",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://fabio.snu.ac.kr/wp-content/uploads/sites/105/2022/03/로고123-6.png",
+        "poster_source_url": "https://fabio.snu.ac.kr",
+        "poster_evidence": "식품·동물생명공학부 공식 홈페이지 로고 이미지",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://fabio.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-E20FD7ABA9470A",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-14T11:19:19Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-E20FD7ABA9470A"
     },
     "SNU-RU-BE602FCE74062A": {
@@ -243838,11 +243798,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T11:18:37Z",
-    "checked": 445,
-    "seconds": 4989.01,
+    "at": "2026-09-14T11:19:27Z",
+    "checked": 450,
+    "seconds": 5038.97,
     "gemini": true,
-    "ai_requests": 334,
+    "ai_requests": 337,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
