@@ -1,5 +1,5 @@
 {
-  "cursor": 345,
+  "cursor": 350,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -3502,29 +3502,100 @@
       "_unit_id": "SNU-RU-35843CAF07727B"
     },
     "SNU-RU-45186959DBA072": {
-      "fingerprint": "66842469d457dd11aaa730758a8310d2703cc10964a3b24a7329f69705495564",
-      "checked_at": "2026-09-13T23:08:08Z",
+      "fingerprint": "cf0a6439ee1bbf9f270545af22f6c1e352be2318eef03fca9e244807569b3bd6",
+      "checked_at": "2026-09-14T11:00:14Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Soohyung (Soo) Lee - Research",
-            "url": "https://www.soohyunglee.com/research"
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://www.soohyunglee.com/team",
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admission Notice",
+            "url": "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/snu-gsis_logo_th.png",
+            "alt": "서울대학교 SNU GSIS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/이수형교수.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/snu__professor/lee-soohyung/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/스크린샷-2024-07-23-오전-10.22.41.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/snu__professor/lee-soohyung/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2021/02/snu-gsis_logo_th-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "url": "https://www.gstatic.com/images/icons/material/product/1x/drive_2026_32dp.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.soohyunglee.com/cv"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/themes/hello-elementor/images/icon/ico_download_btn.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://www.soohyunglee.com/",
           "https://gsis.snu.ac.kr/snu__professor/lee-soohyung/",
-          "https://gsis.snu.ac.kr",
           "https://www.soohyunglee.com/home",
           "https://www.soohyunglee.com/cv",
           "https://www.soohyunglee.com/research",
           "https://www.soohyunglee.com/book",
           "https://www.soohyunglee.com/media-coverage",
           "https://www.soohyunglee.com/teaching",
-          "https://www.soohyunglee.com/team"
+          "https://www.soohyunglee.com/team",
+          "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
         ]
       },
       "enrichment": {
@@ -3667,7 +3738,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-45186959DBA072"
+      "_unit_id": "SNU-RU-45186959DBA072",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-757885A590EF7E": {
       "fingerprint": "30d4c78d9dd6603caadb9b641d9a1160b779f62538ad634dceb80ccaa48a9f20",
@@ -4132,18 +4204,118 @@
       "_unit_id": "SNU-RU-78440A0442AF92"
     },
     "SNU-RU-3D02FA11A58BBC": {
-      "fingerprint": "abc7bf7923dc4bbb09b687250dcc0fa02ca948c11c057d47043d253b144a23de",
-      "checked_at": "2026-09-13T23:08:14Z",
+      "fingerprint": "4bba09134c4d0325558e74c02b4fe014a336d3fef5c82cab15e15534d0fcf8bc",
+      "checked_at": "2026-09-14T11:00:21Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Yoonsoo Lee - Research",
-            "url": "https://sites.google.com/view/yoonsoolee/research"
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "Application Number Ticket for the Fall 2026 Thesis Qualifying Exam is Now Available / 2026년 2학기 논문제출자격시험 수험표 확인 및 출력가능 안내",
+            "url": "https://gsis.snu.ac.kr/31696/",
+            "kind": "publication"
+          },
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://gsis.snu.ac.kr/snu__professor/lee-yoon-soo-%E6%9D%8E%E7%8E%A7%E7%A7%80/",
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admission Notice",
+            "url": "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/snu-gsis_logo_th.png",
+            "alt": "서울대학교 SNU GSIS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/03/unnamed-768x796.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/snu__professor/lee-yoon-soo-%e6%9d%8e%e7%8e%a7%e7%a7%80/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2021/02/snu-gsis_logo_th-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/09/웹배너서울대-국제대학원-김채완님-국제대학원-입학설명회-마이스누-행사-웹배너_마이스누-국문.jpg",
+            "alt": "BAD UX POPUP 14",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/themes/hello-elementor/images/icon/ico_download_btn.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/04/o_1jmpf2r501eia391j73jlt1gbta.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/03/o_1jjalc06616f3br611tnjel2rra.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2025/12/o_1jcfs65s11f63pqj10h15hap6a.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/yoonsoolee/home?authuser=0",
           "https://gsis.snu.ac.kr/snu__professor/lee-yoon-soo-%E6%9D%8E%E7%8E%A7%E7%A7%80/",
@@ -4230,7 +4402,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-3D02FA11A58BBC"
+      "_unit_id": "SNU-RU-3D02FA11A58BBC",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-198E0FAF9BD53E": {
       "fingerprint": "73734096a1c5298c8f085e7c9c770503668033f3662945b365a60c2a11316806",
@@ -4495,15 +4668,10 @@
       "_unit_id": "SNU-RU-B8EBA7883C6F74"
     },
     "SNU-RU-5B2D633DD52B9C": {
-      "fingerprint": "53fe496335153170c193e17c4d248a17627f8712539840402ec3bc7fb5e7e9f1",
-      "checked_at": "2026-09-13T23:08:07Z",
+      "fingerprint": "249ceff181cf56334563063b41eec724946b2e54411d81da2ea3d8d7a2c6e38b",
+      "checked_at": "2026-09-14T11:00:18Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "IIA Journals",
-            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
-            "kind": "publication"
-          },
           {
             "title": "IIA Journals",
             "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
@@ -4522,18 +4690,18 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "서울대학교 교직원 대상 제7회 서울대학교 부설학교진흥원 창의융합캠프 학생 모집",
+            "url": "https://gsis.snu.ac.kr/31776/",
             "kind": "recruitment"
           },
           {
-            "title": "Admission Notice",
-            "url": "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
+            "title": "2026학년도 2학기 대학원연구생 등록 안내 / Registration for Graduate Research Student for Fall 2026",
+            "url": "https://gsis.snu.ac.kr/31454/",
             "kind": "recruitment"
           },
           {
-            "title": "Faculty Job Openings",
-            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "title": "2026년 하반기 군산시 대학생 학자금 이자 지원사업 안내",
+            "url": "https://gsis.snu.ac.kr/31425/",
             "kind": "recruitment"
           }
         ],
@@ -4545,54 +4713,57 @@
             "alt": "서울대학교 SNU GSIS",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsis.snu.ac.kr"
-          },
-          {
-            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/Oh-Yoon-Ah.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsis.snu.ac.kr/snu__professor/oh-yoon-ah/"
+            "parent_source_url": "https://gsis.snu.ac.kr/"
           },
           {
             "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2021/02/snu-gsis_logo_th-wh.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsis.snu.ac.kr"
+            "parent_source_url": "https://gsis.snu.ac.kr/"
           },
           {
             "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/09/웹배너서울대-국제대학원-김채완님-국제대학원-입학설명회-마이스누-행사-웹배너_마이스누-국문.jpg",
             "alt": "BAD UX POPUP 14",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://gsis.snu.ac.kr"
+            "parent_source_url": "https://gsis.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/yoonahoh",
-          "https://gsis.snu.ac.kr/snu__professor/oh-yoon-ah/",
-          "https://gsis.snu.ac.kr",
           "https://sites.google.com/view/yoonahoh/home",
           "https://sites.google.com/view/yoonahoh/research",
           "https://sites.google.com/view/yoonahoh/teaching",
           "https://sites.google.com/view/yoonahoh/advising",
           "https://sites.google.com/view/yoonahoh/miscellaneous",
           "https://sites.google.com/view/yoonahoh#h.x1s0k7y46xos",
-          "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2025/03/Oh_CV-250306.pdf"
+          "https://gsis.snu.ac.kr/",
+          "https://s-space.snu.ac.kr/handle/10371/188865",
+          "https://sites.google.com/view/yoonahoh/home#h.x1s0k7y46xos"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-5B2D633DD52B9C",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-541251381EA89C": {
-      "fingerprint": "3f3f0b827c21b21fe0043fd5f8489670f88cc720bb69e3a421df4224b26005e8",
-      "checked_at": "2026-09-13T23:08:28Z",
+      "fingerprint": "16a6133eaa79c6a7e36fa9dbb9dcf4876319009565600dae9da473d63475dff7",
+      "checked_at": "2026-09-14T11:00:35Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/",
+        "publicationPages": [
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/",
@@ -4600,37 +4771,66 @@
           "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
           "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
           "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/#container",
-          "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/#footer",
           "https://admission.snu.ac.kr/index.html",
-          "https://gsis.snu.ac.kr/student-roundtables/",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/application/",
           "https://gsis.snu.ac.kr/31776/",
-          "https://gsis.snu.ac.kr/31454/"
+          "https://gsis.snu.ac.kr/31425/"
         ]
       },
       "enrichment": {
-        "research_summary": "Erik Mobrand is a professor at the Seoul National University Graduate School of International Studies (GSIS). His research focuses on Korean studies, with specific interests in political institutions, elections, and the development of democracy in South Korea.",
+        "research_summary": "Erik Mobrand's research focuses on Korean politics, specifically examining the evolution of political institutions, electoral systems, and the relationship between the state and society in South Korea.",
         "research_topics": [
-          "Korean Studies",
+          "Korean Politics",
           "Political Institutions",
-          "Elections",
-          "Democracy in South Korea"
+          "Electoral Systems",
+          "State-Society Relations"
         ],
         "recommendation_keywords": [
           "Korean Studies",
           "Political Science",
           "South Korean Politics",
+          "Korean Politics",
           "Political Institutions",
-          "Elections",
-          "Democracy in South Korea"
+          "Electoral Systems",
+          "State-Society Relations"
         ],
         "recent_papers": [],
-        "verified_publication_pages": [],
-        "recruitment_summary": "There is no current recruitment information available specifically for Professor Erik Mobrand's research group.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [
+          {
+            "title": "Top-Down Democracy in South Korea",
+            "url": "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/",
+            "year": "2019",
+            "venue": "University of Washington Press",
+            "summary": "이 책은 한국의 민주화 과정에서 정치 엘리트들이 어떻게 제도를 설계하고 통제했는지 분석하며, 한국 민주주의의 독특한 발전 경로를 탐구합니다."
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "Erik Mobrand received his Ph.D. in Political Science from Princeton University.",
+        "verified_publication_pages": [
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 국제대학원은 정기적으로 전임교원 채용 공고를 게시하며, 관련 정보는 공식 홈페이지의 채용 게시판을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          }
+        ],
+        "recruitment_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/",
+        "member_page_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -4640,118 +4840,130 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/",
-          "https://gsis.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
-          "https://gsis.snu.ac.kr/student-roundtables/",
-          "https://gsis.snu.ac.kr/application/",
-          "https://gsis.snu.ac.kr/korean-students/",
-          "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
           "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
-          "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
-          "https://gsis.snu.ac.kr/theses-by-gsis-students/",
           "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
-          "https://gsis.snu.ac.kr/31696/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://admission.snu.ac.kr/",
+          "https://gsis.snu.ac.kr",
+          "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+          "https://gsis.snu.ac.kr/snu__professor/mobrand-erik/#container",
+          "https://admission.snu.ac.kr/index.html",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/application/",
           "https://gsis.snu.ac.kr/31776/",
-          "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/Mobrand-Erik.png",
-          "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/09/웹배너서울대-국제대학원-김채완님-국제대학원-입학설명회-마이스누-행사-웹배너_마이스누-국문.jpg",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png"
+          "https://gsis.snu.ac.kr/31425/",
+          "https://gsis.snu.ac.kr/31696/"
         ],
         "paper_count_visible": 0,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-541251381EA89C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:46:56Z",
+        "_saved_at": "2026-09-14T11:00:51Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-541251381EA89C"
     },
     "SNU-RU-9E10B5F89BBA89": {
-      "fingerprint": "9cabcd7813c077e72e8820de6a4c64491285314a9a2c26c88fe07d794728f2bb",
-      "checked_at": "2026-09-13T23:08:29Z",
+      "fingerprint": "53564daf07194e02a61083328f8fee14a94a080b5b145937d0ddd3e19aa14889",
+      "checked_at": "2026-09-14T11:00:29Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Oh, Frederick Dongchuhl / 吳東哲 - SNU GSIS",
-            "url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/"
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          },
+          {
+            "title": "Application Number Ticket for the Fall 2026 Thesis Qualifying Exam is Now Available / 2026년 2학기 논문제출자격시험 수험표 확인 및 출력가능 안내",
+            "url": "https://gsis.snu.ac.kr/31696/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "title": "서울대학교 교직원 대상 제7회 서울대학교 부설학교진흥원 창의융합캠프 학생 모집",
+            "url": "https://gsis.snu.ac.kr/31776/"
+          },
+          {
+            "title": "2026학년도 2학기 대학원연구생 등록 안내 / Registration for Graduate Research Student for Fall 2026",
+            "url": "https://gsis.snu.ac.kr/31454/"
+          },
+          {
+            "title": "2026년 하반기 군산시 대학생 학자금 이자 지원사업 안내",
+            "url": "https://gsis.snu.ac.kr/31425/"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
           "https://gsis.snu.ac.kr",
           "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
           "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
-          "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/#container",
+          "https://gsis.snu.ac.kr/31776/",
+          "https://gsis.snu.ac.kr/31454/",
+          "https://gsis.snu.ac.kr/31425/",
           "https://admission.snu.ac.kr/index.html",
-          "https://gsis.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://gsis.snu.ac.kr/visiting-professors/",
           "https://gsis.snu.ac.kr/emeritusretired-professors/",
-          "https://gsis.snu.ac.kr/student-roundtables/",
-          "https://gsis.snu.ac.kr/application/"
+          "https://gsis.snu.ac.kr/student-roundtables/"
         ]
       },
       "enrichment": {
-        "research_summary": "Dr. Frederick Dongchuhl Oh is a Professor of Finance and Business Economics at the SNU Graduate School of International Studies. His research interests primarily focus on corporate and international finance, applied game theory, financial intermediation, and the economics of religion. His work has been published in journals such as the Journal of Financial Economics, Journal of Financial Intermediation, and Management Science.",
+        "research_summary": "",
         "research_topics": [
-          "Corporate Finance",
-          "International Finance",
-          "Applied Game Theory",
-          "Financial Intermediation",
-          "Economics of Religion"
+          "Major Finance",
+          "Business Economics"
         ],
         "recommendation_keywords": [
           "Finance",
           "Business Economics",
-          "Corporate Governance",
-          "Financial Contagion",
-          "Credit Ratings",
-          "Corporate Finance",
-          "International Finance",
-          "Applied Game Theory",
-          "Financial Intermediation",
-          "Economics of Religion"
+          "Major Finance"
         ],
-        "recent_papers": [
-          {
-            "title": "Foreign Direct Investment during Financial Crises: Evidence from Korea",
-            "url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
-            "year": "2026",
-            "venue": "International Review of Economics & Finance"
-          },
-          {
-            "title": "The Role of Internal Capital Markets during Financial Crises: Evidence from Korean Chaebols",
-            "url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
-            "year": "2026",
-            "venue": "Journal of Financial Research"
-          },
-          {
-            "title": "Corporate Disclosure, Government Bailout, and Liquidity Crisis",
-            "url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
-            "year": "2026",
-            "venue": "Journal of Corporate Finance"
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Oh, Frederick Dongchuhl / 吳東哲 - SNU GSIS",
-            "url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/"
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          },
+          {
+            "title": "Application Number Ticket for the Fall 2026 Thesis Qualifying Exam is Now Available / 2026년 2학기 논문제출자격시험 수험표 확인 및 출력가능 안내",
+            "url": "https://gsis.snu.ac.kr/31696/"
           }
         ],
-        "recruitment_summary": "No specific lab recruitment information is currently available on the professor's official profile page.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
+        "recruitment_summary": "서울대학교 국제대학원 관련 채용 및 학사 안내 공고가 확인됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "title": "서울대학교 교직원 대상 제7회 서울대학교 부설학교진흥원 창의융합캠프 학생 모집",
+            "url": "https://gsis.snu.ac.kr/31776/"
+          },
+          {
+            "title": "2026학년도 2학기 대학원연구생 등록 안내 / Registration for Graduate Research Student for Fall 2026",
+            "url": "https://gsis.snu.ac.kr/31454/"
+          },
+          {
+            "title": "2026년 하반기 군산시 대학생 학자금 이자 지원사업 안내",
+            "url": "https://gsis.snu.ac.kr/31425/"
+          }
+        ],
+        "recruitment_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
+        "member_page_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -4760,36 +4972,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://gsis.snu.ac.kr/snu__professor/oh-frederick-dongchuhl/",
-          "https://admission.snu.ac.kr/index.html",
-          "https://gsis.snu.ac.kr/student-roundtables/",
-          "https://gsis.snu.ac.kr/application/",
-          "https://gsis.snu.ac.kr/korean-students/",
+          "https://gsis.snu.ac.kr",
           "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
           "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
-          "https://gsis.snu.ac.kr/theses-by-gsis-students/",
+          "https://gsis.snu.ac.kr/31776/",
+          "https://gsis.snu.ac.kr/31454/",
+          "https://gsis.snu.ac.kr/31425/",
+          "https://gsis.snu.ac.kr/31696/",
           "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://admission.snu.ac.kr/",
-          "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
-          "https://www.snu.ac.kr/campuslife/aid/disabled",
-          "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2023/06/오동철사진프로필2-768x1024.jpg",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-          "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png"
+          "https://admission.snu.ac.kr/index.html",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/emeritusretired-professors/",
+          "https://gsis.snu.ac.kr/student-roundtables/"
         ],
-        "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E10B5F89BBA89",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:47:04Z",
+        "_saved_at": "2026-09-14T11:00:43Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-9E10B5F89BBA89"
     },
@@ -244041,11 +244243,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T11:00:04Z",
-    "checked": 345,
-    "seconds": 3876.36,
+    "at": "2026-09-14T11:00:51Z",
+    "checked": 350,
+    "seconds": 3922.75,
     "gemini": true,
-    "ai_requests": 252,
+    "ai_requests": 254,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
