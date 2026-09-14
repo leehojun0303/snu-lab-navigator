@@ -8,7 +8,12 @@ collector = entry.collector
 collector.TERMS.setdefault("directory", ("faculty","professor","professors","people","members","department","departments","major","majors","교수","교수진","교원","학과","전공","구성원"))
 _original_scan = collector.scan
 _original_http_json = entry.http_json
+_original_load_units = entry.load_units_compatible
+_original_load_state = collector.load_state
 
+# Free-tier safe paper summaries: keep URL Context, but never attach Google Search.
+# If a supplied verified page exposes enough paper content, Gemini may summarize it;
+# otherwise the summary remains empty and cannot block the professor detail scan.
 def _paper_grounded_http_json(url,key,payload,timeout=60):
     try:
         tools=payload.get("tools") or []
@@ -19,16 +24,14 @@ def _paper_grounded_http_json(url,key,payload,timeout=60):
                 if isinstance(papers,list) and papers and isinstance(papers[0],dict):
                     papers[0].update({"authors":"string","doi":"string","summary":"string","summary_source":"abstract_verified | fulltext_verified | scholarly_metadata_verified | empty"})
                     prompt.setdefault("rules",[]).extend([
-                        "For each recent paper, use Google Search only after the paper is identified from the supplied professor/publication evidence.",
-                        "Before writing a paper summary, verify the searched paper by exact or near-exact title AND that this professor is an author; also match publication year when the supplied evidence has a year.",
-                        "Prefer a publicly visible abstract. If no abstract is available, a public full-text section or substantive scholarly description from a publisher, DOI landing page, PubMed, arXiv, institutional repository, or comparable scholarly metadata source may be used.",
-                        "Write a concise Korean 1-2 sentence summary only from content actually visible in the verified source. Do not add claims beyond that source.",
-                        "Never summarize from the title alone, general model knowledge, a search snippet without substantive paper content, or a different paper with a similar title.",
-                        "Set summary_source to abstract_verified for an abstract, fulltext_verified for public full text, scholarly_metadata_verified for a substantive verified scholarly description, or empty when no adequate content source is available.",
-                        "Prefer at most the three most recent papers already attributable to this professor; do not replace them with unrelated search results."
+                        "Paper summaries must not require Google Search or any unsupported paid-only search tool.",
+                        "Before writing a paper summary, verify the paper from the supplied URL Context by title and this professor's authorship; match year when available.",
+                        "Prefer a visible abstract; otherwise use substantive full text or scholarly metadata only when it is actually visible in a supplied verified URL.",
+                        "Write a concise Korean 1-2 sentence summary only from visible verified content. Never summarize from title alone or general model knowledge.",
+                        "Set summary_source to abstract_verified, fulltext_verified, scholarly_metadata_verified, or empty. If adequate content is unavailable, leave summary empty rather than failing the professor scan."
                     ]);parts[0]["text"]=json.dumps(prompt,ensure_ascii=False)
-                    if not any("google_search" in t for t in tools):payload["tools"]=[*tools,{"google_search":{}}]
-    except Exception as exc:print(f"Paper-summary grounding patch skipped: {type(exc).__name__}: {exc}",flush=True)
+                    payload["tools"]=[t for t in tools if "google_search" not in t]
+    except Exception as exc:print(f"Paper-summary free-tier patch skipped: {type(exc).__name__}: {exc}",flush=True)
     return _original_http_json(url,key,payload,timeout)
 entry.http_json=_paper_grounded_http_json
 
@@ -38,6 +41,24 @@ def _is_ere(unit):return "에너지자원공학" in (str(unit.get("department","
 def _art_url(url):return (urlparse(str(url or "")).hostname or "").lower()=="art.snu.ac.kr"
 def _music_url(url):return (urlparse(str(url or "")).hostname or "").lower()=="music.snu.ac.kr"
 def _ere_url(url):return (urlparse(str(url or "")).hostname or "").lower()=="ere.snu.ac.kr"
+
+# One-time bootstrap ordering: preserve all existing records, but start the remaining
+# initial pass with Fine Arts and ERE so their verified detail adapters are exercised first.
+def _priority_units():
+    units=_original_load_units()
+    indexed=list(enumerate(units))
+    indexed.sort(key=lambda pair:(0 if _is_fine_arts(pair[1]) else 1 if _is_ere(pair[1]) else 2,pair[0]))
+    return [unit for _,unit in indexed]
+entry.load_units_compatible=_priority_units
+
+def _priority_state():
+    state=_original_load_state()
+    if not state.get("priority_bootstrap_art_ere_v1") and not state.get("initial_collection_complete"):
+        state["cursor"]=0
+        state["priority_bootstrap_art_ere_v1"]=True
+        print("Priority bootstrap enabled: Fine Arts -> ERE -> remaining units; existing enrichment preserved.",flush=True)
+    return state
+collector.load_state=_priority_state
 
 def _verified_profile(url,professor):
     try:candidate=collector.page(url,0)
@@ -110,7 +131,6 @@ def _verified_ere_profile(url,professor):
     is_detail=_ere_url(candidate.url) and "bo_table=sub2_1" in parsed.query and "wr_id=" in parsed.query
     return candidate.url if is_detail and professor in text else ""
 def _find_ere_profile(unit):
-    """Find an ERE professor's board detail page by professor name; no person URL is hardcoded."""
     professor=collector.norm(unit.get("name"));
     if not professor:return ""
     starts=[]
