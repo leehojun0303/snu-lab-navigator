@@ -1,5 +1,5 @@
 {
-  "cursor": 105,
+  "cursor": 110,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -16245,20 +16245,16 @@
       "_unit_id": "SNU-RU-2BD18EC1CA695B"
     },
     "SNU-RU-A9D1E68CCF9294": {
-      "fingerprint": "32d92e2dd58dc1a0ea0f8f24fe169c7b1d3b6bafe0239fbfd24d788926e44134",
-      "checked_at": "2026-09-13T22:39:14Z",
+      "fingerprint": "182db5a10079eef2b37c0cd3412c8ff5c8737b8b684a7a1b2247c106d2190650",
+      "checked_at": "2026-09-14T10:10:43Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6440"
+            "title": "DSBA Lab - 서울대학교",
+            "url": "https://dsba.snu.ac.kr/"
           }
         ],
         "recruitmentPages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -16269,27 +16265,24 @@
         "sourcePagesScanned": [
           "https://dsba.snu.ac.kr/",
           "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr/grad_admission/",
           "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6398",
           "https://admission.snu.ac.kr/index.html",
           "https://ie.snu.ac.kr/intro/",
-          "https://ie.snu.ac.kr/professor/",
-          "https://ie.snu.ac.kr/former_faculty/"
+          "https://ie.snu.ac.kr/former_faculty/",
+          "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6471",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6440"
         ]
       },
       "enrichment": {
-        "research_summary": "데이터 기반 지능형 알고리즘을 통해 산업 문제를 해결하고 신뢰할 수 있는 AI 기술을 연구합니다. 시계열, 언어, 시각 데이터를 아우르는 멀티모달 AI를 핵심으로 하며, 이상 탐지, 예지 보전, 대규모 언어 모델 안전성, 강건한 시각 인식 및 Industrial AI, Agentic AI, Efficient AI 분야로 연구 영역을 확장하고 있습니다.",
+        "research_summary": "강필성 교수는 데이터 과학 및 비즈니스 애널리틱스 연구실(DSBA)을 이끌며, 시계열, 자연어, 시각 데이터를 아우르는 지능형 알고리즘을 연구합니다. 주요 연구 분야는 이상 탐지, 예지 보전, 대규모 언어 모델(LLM) 안전성, 강건한 시각 인식 등이며, 산업 AI, Agentic AI, 멀티모달 AI, 효율적 AI로 영역을 확장하여 제조, 금융, 에너지 등 다양한 산업 현장에 적용 가능한 기술을 개발하고 있습니다.",
         "research_topics": [
           "산업 데이터 애널리틱스",
           "멀티모달(시계열/자연어/비전) 인공지능",
           "이상 탐지 및 예지 보전",
-          "대규모 언어 모델 안전성",
-          "강건한 시각 인식",
-          "Industrial AI",
-          "Agentic AI",
-          "Efficient AI"
+          "대규모 언어 모델(LLM) 안전성",
+          "강건한 시각 인식"
         ],
         "recommendation_keywords": [
           "산업 데이터 애널리틱스",
@@ -16297,17 +16290,34 @@
           "시계열 분석",
           "자연어 처리",
           "비전 AI",
-          "이상 탐지",
-          "예지 보전",
           "멀티모달(시계열/자연어/비전) 인공지능",
           "이상 탐지 및 예지 보전",
-          "대규모 언어 모델 안전성",
-          "강건한 시각 인식",
-          "Industrial AI",
-          "Agentic AI",
-          "Efficient AI"
+          "대규모 언어 모델(LLM) 안전성",
+          "강건한 시각 인식"
         ],
-        "recent_papers": [],
+        "recent_papers": [
+          {
+            "title": "CRANE: Cell Type-Conditional mRNA Half-Life Prediction with Cell-Line-Aware Evaluation",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "AI4Sci Korea",
+            "summary": ""
+          },
+          {
+            "title": "Avoid Wasted Annotation Costs in Open-set Active Learning with Pre-trained Vision-Language Model",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "Engineering Applications of Artificial Intelligence",
+            "summary": ""
+          },
+          {
+            "title": "AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "ICML",
+            "summary": ""
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -16317,48 +16327,52 @@
             "title": "AI 기반 산업 시계열 데이터 품질 향상 및 설명가능한 예측적 이상 탐지 통합 프레임워크 개발",
             "url": "https://dsba.snu.ac.kr/",
             "date": "2025.10 ~ 2028.9",
-            "organization": "삼성전자",
-            "summary": "산업 시계열 데이터의 품질을 높이고 설명 가능한 이상 탐지 프레임워크를 개발하는 연구입니다."
+            "organization": "삼성전자"
           },
           {
             "title": "Duo 2.0 – Long Conversation Reliability 평가 프레임워크 개발",
             "url": "https://dsba.snu.ac.kr/",
             "date": "2025.12 ~ 2026.7",
-            "organization": "카카오뱅크",
-            "summary": "긴 대화의 신뢰성을 평가하기 위한 프레임워크를 개발합니다."
+            "organization": "카카오뱅크"
           },
           {
             "title": "키친 로봇 이상 감지를 위한 AI 모델 개발",
             "url": "https://dsba.snu.ac.kr/",
             "date": "2025.07 ~ 2026.02",
-            "organization": "삼성전자",
-            "summary": "키친 로봇의 이상 상태를 감지하기 위한 AI 모델을 연구합니다."
+            "organization": "삼성전자"
           }
         ],
         "recent_performances": [],
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 산업공학과에서 데이터과학 및 비즈니스 애널리틱스 연구실(DSBA)을 운영하며 학부 및 대학원생을 지도하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6440"
+            "title": "DSBA Lab - 서울대학교",
+            "url": "https://dsba.snu.ac.kr/"
           }
         ],
-        "recruitment_summary": "DSBA 연구실에서는 신입생을 상시 모집하고 있으며, 연구실 홈페이지를 통해 지원 절차를 안내하고 있습니다.",
+        "recruitment_summary": "DSBA 연구실에서는 신입생을 모집하고 있으며, 연구실 홈페이지의 APPLY 메뉴를 통해 절차를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
         "recruitment_source_url": "https://dsba.snu.ac.kr/",
-        "current_members": [],
+        "current_members": [
+          {
+            "name": "강필성",
+            "role": "교수",
+            "url": "https://dsba.snu.ac.kr/"
+          },
+          {
+            "name": "김재희",
+            "role": "총무",
+            "url": "https://dsba.snu.ac.kr/"
+          }
+        ],
         "alumni": [],
         "member_page_url": "https://dsba.snu.ac.kr/",
         "poster_status": "none_detected",
@@ -16370,27 +16384,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dsba.snu.ac.kr/",
-          "https://ie.snu.ac.kr/",
-          "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr/grad_admission/",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6398",
-          "https://admission.snu.ac.kr/index.html",
           "https://ie.snu.ac.kr/intro/",
+          "https://ie.snu.ac.kr",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
+          "https://admission.snu.ac.kr/index.html",
           "https://ie.snu.ac.kr/former_faculty/",
           "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6471",
           "https://ie.snu.ac.kr/notice/?mod=document&uid=6440",
-          "https://www.snu.ac.kr/research/highlights"
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A9D1E68CCF9294",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:24:36Z",
+        "_saved_at": "2026-09-14T10:11:23Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-A9D1E68CCF9294"
     },
@@ -30802,8 +30814,8 @@
       "_unit_id": "SNU-RU-04371ED9231123"
     },
     "SNU-RU-B97A53428DC666": {
-      "fingerprint": "f4f9b27dfc0072b8ff097d68890a8275b9b9c8d32c4451fd92eb6042cd3678c0",
-      "checked_at": "2026-09-13T22:39:13Z",
+      "fingerprint": "3efcd50c55e95ab3c6c30c59965f6183b8d70235e43e810e6cc6501eb219a881",
+      "checked_at": "2026-09-14T10:10:38Z",
       "activity": {
         "publicationPages": [
           {
@@ -30837,16 +30849,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "금영정 교수는 데이터 기반 기술기획, 서비스 혁신, 연구개발관리 분야를 중심으로 연구를 수행하고 있으며, 특히 데이터 분석을 활용한 기술 로드맵 수립 및 품질 속성 재정의 등에 관한 연구를 진행하고 있습니다.",
+        "research_summary": "금영정 교수는 데이터 기반 기술기획, 서비스 혁신, 연구개발관리 분야를 중심으로 연구를 수행하고 있으며, 특히 스마트 제품-서비스 시스템을 위한 기술 로드맵 수립 및 기술 기회 발견을 위한 방법론 개발에 주력하고 있습니다.",
         "research_topics": [
           "데이터 기반 기술기획",
           "서비스 혁신",
-          "연구개발관리"
+          "연구개발관리",
+          "스마트 제품-서비스 시스템",
+          "기술 로드맵"
         ],
         "recommendation_keywords": [
           "데이터 기반 기술기획",
           "서비스 혁신",
-          "연구개발관리"
+          "연구개발관리",
+          "스마트 제품-서비스 시스템",
+          "기술 로드맵"
         ],
         "recent_papers": [
           {
@@ -30854,21 +30870,21 @@
             "url": "https://ddsi.snu.ac.kr/publication/nyamsuren-u-geum-y-2026-beyond-kano-data-driven-redefinition-of-quality-attributes-electronic-commerce-research-and-applications-accepted-for-publication/",
             "year": "2026",
             "venue": "Electronic Commerce Research and Applications",
-            "summary": "데이터 분석을 통해 기존의 카노 모델을 넘어선 품질 속성의 재정의를 다룬 연구입니다."
+            "summary": ""
           },
           {
             "title": "From Data to Sustainable Innovation: A Data-Driven Technology Roadmap for Smart Product-Service Systems",
             "url": "https://ddsi.snu.ac.kr/publication/geum-y-lee-j-choi-w-woo-m-2026-from-data-to-sustainable-innovation-a-data-driven-technology-roadmap-for-smart-product-service-systems-service-business-201-1-37/",
             "year": "2026",
             "venue": "Service Business",
-            "summary": "스마트 제품-서비스 시스템을 위한 데이터 기반 기술 로드맵을 통해 지속 가능한 혁신 방안을 제시합니다."
+            "summary": ""
           },
           {
             "title": "GC-GTM: A Generative-Convergent Extension of Generative Topographic Mapping for Discovering and Interpreting Technology Opportunities",
             "url": "https://ddsi.snu.ac.kr/publication/lee-h-geum-y-2026-gc-gtm-a-generative-convergent-extension-of-generative-topographic-mapping-for-discovering-and-interpreting-technology-opportunities-journal-of-informetrics-202-101807/",
             "year": "2026",
             "venue": "Journal of Informetrics",
-            "summary": "기술 기회 발견 및 해석을 위해 생성적 지형 매핑(GTM)을 확장한 GC-GTM 방법론을 제안합니다."
+            "summary": ""
           }
         ],
         "recent_year_paper_count": 3,
@@ -30893,14 +30909,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 공과대학 산업공학과 소속으로 데이터 기반 기술기획 및 서비스 혁신 관련 교육과 연구를 수행하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "read more",
             "url": "https://ddsi.snu.ac.kr/journal/"
           }
         ],
-        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내를 통해 학생을 모집하고 있습니다.",
+        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내를 통해 관련 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
@@ -30921,15 +30937,15 @@
         "poster_event": "",
         "poster_image_url": "https://ddsi.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
         "poster_source_url": "https://ddsi.snu.ac.kr/publication/lee-h-geum-y-2026-gc-gtm-a-generative-convergent-extension-of-generative-topographic-mapping-for-discovering-and-interpreting-technology-opportunities-journal-of-informetrics-202-101807/",
-        "poster_evidence": "연구실 공식 로고 및 명칭 확인",
+        "poster_evidence": "서울대학교 서비스 혁신 연구실 로고가 포함된 이미지 확인됨.",
         "source_urls_used": [
           "https://ddsi.snu.ac.kr/",
           "https://ddsi.snu.ac.kr/journal/",
+          "https://ddsi.snu.ac.kr/publication/nyamsuren-u-geum-y-2026-beyond-kano-data-driven-redefinition-of-quality-attributes-electronic-commerce-research-and-applications-accepted-for-publication/",
           "https://ddsi.snu.ac.kr/publication/geum-y-lee-j-choi-w-woo-m-2026-from-data-to-sustainable-innovation-a-data-driven-technology-roadmap-for-smart-product-service-systems-service-business-201-1-37/",
           "https://ddsi.snu.ac.kr/publication/lee-h-geum-y-2026-gc-gtm-a-generative-convergent-extension-of-generative-topographic-mapping-for-discovering-and-interpreting-technology-opportunities-journal-of-informetrics-202-101807/",
-          "https://ddsi.snu.ac.kr/publication/nyamsuren-u-geum-y-2026-beyond-kano-data-driven-redefinition-of-quality-attributes-electronic-commerce-research-and-applications-accepted-for-publication/",
-          "https://ie.snu.ac.kr/grad_admission/",
           "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://ie.snu.ac.kr/grad_admission/",
           "https://ie.snu.ac.kr",
           "https://ddsi.snu.ac.kr/professor/",
           "https://ddsi.snu.ac.kr/students/",
@@ -30941,7 +30957,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B97A53428DC666",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:24:28Z",
+        "_saved_at": "2026-09-14T10:11:09Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -217664,38 +217680,119 @@
       "_unit_id": "SNU-RU-E0C5460A7B56FE"
     },
     "SNU-RU-0D8E8858CA2684": {
-      "fingerprint": "6dccf4a435ba2bc762ad078eb8c667791ff5afa92590ee9b5feaa7300837d5bf",
-      "checked_at": "2026-09-13T22:39:07Z",
+      "fingerprint": "78c08eca54aef95c2a93aa32883ffef79d9daee6cbf8f7de1d191eb77d49491a",
+      "checked_at": "2026-09-14T10:10:33Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "JOURNAL",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
+            "title": "PUBLICATIONS",
+            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
+            "kind": "publication"
           },
           {
             "title": "PATENTS",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent"
+            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent",
+            "kind": "publication"
+          },
+          {
+            "title": "JOURNAL",
+            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
+            "kind": "publication"
+          },
+          {
+            "title": "PATENTS",
+            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent",
+            "kind": "publication"
+          },
+          {
+            "title": "JOURNAL",
+            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://tfc.snu.ac.kr/images/common/logo.png",
+            "alt": "로고",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/common/allmenu_bt.png",
+            "alt": "menu",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/common/down_arrow.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/main/main_img1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/main/more.png",
+            "alt": "more",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/main/main_img2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/main/main_img3.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/"
+          },
+          {
+            "url": "https://tfc.snu.ac.kr/images/main/notice_img.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://tfc.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://tfc.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%B5%9C%ED%95%B4%EC%B2%9C-choi-haecheon/",
-          "https://me.snu.ac.kr",
           "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PM_D",
           "https://tfc.snu.ac.kr/index.php?hCode=MEMBERS_02_07",
           "https://tfc.snu.ac.kr/index.php?hCode=BOARD&bo_idx=1&page=view&idx=322",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PH",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=CP",
-          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS"
+          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS",
+          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
         ]
       },
       "enrichment": {
@@ -217827,7 +217924,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-0D8E8858CA2684"
+      "_unit_id": "SNU-RU-0D8E8858CA2684",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-30C1B0EE279C68": {
       "fingerprint": "b67206f3e28c52b1f65635c3661e001b9afd2c91c816ff067738eb565e79eb9b",
@@ -218266,8 +218364,8 @@
       "_unit_id": "SNU-RU-D4AE8F76A51D16"
     },
     "SNU-RU-EB722C631261A9": {
-      "fingerprint": "ef634a0926cd41a516c485f01b328cc7c178b85c05a95adefd72245513f109d3",
-      "checked_at": "2026-09-13T22:39:06Z",
+      "fingerprint": "c80d03682cf21429693cd13e946e6a9f851251bb52717e7b5a895a1caf57ad6c",
+      "checked_at": "2026-09-14T10:10:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -218527,7 +218625,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-EB722C631261A9",
-      "verify_error": "gemini_rate_limited"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-D3C3BCC1BD52B3": {
       "fingerprint": "d27226017cec24ed6e0106dc559a9058ee93e759272fcc15b546a1cec07fb58c",
@@ -221031,8 +221129,8 @@
       "_unit_id": "SNU-RU-DAAE7B16CC512A"
     },
     "SNU-RU-10C81698697F17": {
-      "fingerprint": "6d6826da7ddd6cad3c4ddece04b14e92e46c6f357e31114e3a97b7dc82655efa",
-      "checked_at": "2026-09-13T22:39:07Z",
+      "fingerprint": "744713f1b5556c7c3eaf6a7123d4780fc241fa86ba5bf4d6d2bc77d69c1cff53",
+      "checked_at": "2026-09-14T10:10:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -221048,9 +221146,18 @@
             "url": "https://eeflow.snu.ac.kr/publication/patent"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html"
+          }
+        ],
         "membersUrl": "https://eeflow.snu.ac.kr/members/professor",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://eeflow.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%ED%99%A9%EC%9B%90%ED%83%9C-hwang-wontae/",
@@ -221065,7 +221172,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "에너지 및 환경유동 연구실은 유체역학을 기반으로 다상 난류 유동, 환경 유동, 호흡기 유동, 가스터빈 열유동 및 항공기/무인기 엔진 관련 연구를 수행합니다.",
+        "research_summary": "황원태 교수의 에너지 및 환경유동 연구실은 유체역학을 기반으로 다상 난류 유동, 환경 유동, 호흡기 유동, 가스터빈 열유동, 항공기 및 무인기 엔진 관련 연구를 수행하고 있습니다.",
         "research_topics": [
           "유체역학",
           "다상 난류 유동",
@@ -221092,7 +221199,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "Journals",
@@ -221107,49 +221214,50 @@
             "url": "https://eeflow.snu.ac.kr/publication/patent"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 입학포털을 통해 학부 및 대학원 입학 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://eeflow.snu.ac.kr/members/professor",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_status": "verified",
+        "poster_title": "GTS 2026",
+        "poster_date": "2026",
+        "poster_event": "GTS 2026",
+        "poster_image_url": "https://eeflow.snu.ac.kr/webdata/boardimages/gallery/t_e1az346z0e7zbe0z905z1b9z0e3z331zc5dz802zc2.jpg",
+        "poster_source_url": "https://eeflow.snu.ac.kr/",
+        "poster_evidence": "연구실 홈페이지 메인 갤러리에 GTS 2026 관련 이미지가 게시되어 있습니다.",
         "source_urls_used": [
           "https://eeflow.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%ED%99%A9%EC%9B%90%ED%83%9C-hwang-wontae/",
           "https://eeflow.snu.ac.kr/members/professor",
           "https://eeflow.snu.ac.kr/publication/journals",
           "https://eeflow.snu.ac.kr/publication/conferences",
           "https://eeflow.snu.ac.kr/publication/patent",
-          "https://me.snu.ac.kr/snu__professor/%ED%99%A9%EC%9B%90%ED%83%9C-hwang-wontae/",
+          "https://admission.snu.ac.kr/",
           "https://me.snu.ac.kr",
-          "https://eeflow.snu.ac.kr/board/news?bm=v&bbsidx=11305",
-          "https://eeflow.snu.ac.kr/board/news?bm=v&bbsidx=11303",
           "https://eeflow.snu.ac.kr/members/current",
           "https://eeflow.snu.ac.kr/members/alumni",
-          "https://admission.snu.ac.kr/",
-          "https://admission.snu.ac.kr/index.html",
-          "https://eeflow.snu.ac.kr/webdata/widget/mainslide/1b8ze94z3a2z42dzd3ezd32z91az0f3zf9az97dz66.png",
-          "https://eeflow.snu.ac.kr/webdata/widget/mainslide/4a6z599z51fzee2z780z216z365zda7z6b4za8bz6f.png",
-          "https://eeflow.snu.ac.kr/webdata/widget/mainslide/95dz192z50cz385z79dz38az445z5c0z006zfeazd4.jpg",
-          "https://eeflow.snu.ac.kr/webdata/widget/mainslide/0bfzd62za98z0aezc13z64ezb6dz2d4z908z422zd5.png",
-          "https://eeflow.snu.ac.kr/webdata/widget/mainslide/588z0e1z0fbz1efz801z1d7z098z395zc30zff8z93.png",
-          "https://eeflow.snu.ac.kr/webdata/boardimages/gallery/t_e1az346z0e7zbe0z905z1b9z0e3z331zc5dz802zc2.jpg",
-          "https://eeflow.snu.ac.kr/webdata/boardimages/gallery/t_6e9z23bz531ze9cz6ebzdf1zdc2zdefz70dzee4z10.jpg"
+          "https://eeflow.snu.ac.kr/board/news?bm=v&bbsidx=11305",
+          "https://eeflow.snu.ac.kr/board/news?bm=v&bbsidx=11303",
+          "https://eeflow.snu.ac.kr/board/news?bm=v&bbsidx=11298"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-10C81698697F17",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:06:55Z",
+        "_saved_at": "2026-09-14T10:11:01Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-10C81698697F17"
     },
@@ -244406,11 +244514,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-14T10:10:19Z",
-    "checked": 105,
-    "seconds": 890.87,
+    "at": "2026-09-14T10:11:23Z",
+    "checked": 110,
+    "seconds": 954.99,
     "gemini": true,
-    "ai_requests": 42,
+    "ai_requests": 45,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
