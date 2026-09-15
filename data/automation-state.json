@@ -1,5 +1,5 @@
 {
-  "cursor": 170,
+  "cursor": 175,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -56673,8 +56673,8 @@
       "_unit_id": "SNU-RU-EA0805C0AB84AB"
     },
     "SNU-RU-78D5183F83F074": {
-      "fingerprint": "4c5dcbfe2fe11414d9ddcbf744673be94ed39c67535952941b3eac8cad0ad09d",
-      "checked_at": "2026-09-14T10:22:01Z",
+      "fingerprint": "55542eb0583607bdbef6d8001fcd7c961726ab834ce379c8de0cbcb5f061f08c",
+      "checked_at": "2026-09-15T09:58:10Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -56774,7 +56774,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-78D5183F83F074",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:22:18Z",
+        "_saved_at": "2026-09-15T09:58:20Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -62414,8 +62414,8 @@
       "_unit_id": "SNU-RU-98E6345EC8E630"
     },
     "SNU-RU-FC1AC1E3F1BF36": {
-      "fingerprint": "77b2ae1a8c9731ce211cccb5e8b28107fb7a3da38cbbfa5f60bde49ae5995894",
-      "checked_at": "2026-09-14T10:22:00Z",
+      "fingerprint": "e01ff8ff134289632e7ab13c26c2c8c3e68f98d38649e1ced1d62ee55ad722de",
+      "checked_at": "2026-09-15T09:58:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -62535,7 +62535,7 @@
           "https://www.snu.ac.kr/index.html",
           "https://hpcs.snu.ac.kr/research/server-architecture/",
           "https://hpcs.snu.ac.kr/research/ai-acceleration-system/",
-          "https://hpcs.snu.ac.kr/research",
+          "https://hpcs.snu.ac.kr/research/",
           "https://ece.snu.ac.kr/faculty/job-openings"
         ]
       },
@@ -63396,8 +63396,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-71DAE5F006B66B": {
-      "fingerprint": "665a6e0c2a23ed03f415cdd8f1547c57176cbc9db73ace23f0e28bae9c3bd9f0",
-      "checked_at": "2026-09-14T10:22:04Z",
+      "fingerprint": "c3affeada7924cd61537a1ac865172f02c598962ffd87b50b5eb25a578bd88cb",
+      "checked_at": "2026-09-15T09:58:12Z",
       "activity": {
         "publicationPages": [
           {
@@ -63405,7 +63405,12 @@
             "url": "https://vlsi.snu.ac.kr/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          }
+        ],
         "membersUrl": "https://vlsi.snu.ac.kr/team/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
@@ -63422,18 +63427,21 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김재준 교수는 대규모 회로 및 시스템 연구실(VLSI Lab)을 이끌며 집적회로, 디지털 회로, 뉴럴 네트워크 및 뉴로모픽 시스템 분야를 연구하고 있습니다.",
+        "research_summary": "김재준 교수는 저전력 집적 회로 설계, 뉴럴 네트워크 가속기 회로 및 시스템 설계, 그리고 뉴럴 네트워크 추론 최적화 및 경량화 분야를 중점적으로 연구하고 있습니다.",
         "research_topics": [
-          "집적회로",
-          "디지털 회로",
-          "뉴럴 네트워크",
-          "뉴로모픽"
+          "저전력 집적 회로 설계",
+          "뉴럴 네트워크 가속기 회로 및 시스템 설계",
+          "뉴럴 네트워크 추론 최적화/경량화"
         ],
         "recommendation_keywords": [
           "집적회로",
           "디지털 회로",
           "뉴럴 네트워크",
-          "뉴로모픽"
+          "뉴로모픽",
+          "저전력 설계",
+          "저전력 집적 회로 설계",
+          "뉴럴 네트워크 가속기 회로 및 시스템 설계",
+          "뉴럴 네트워크 추론 최적화/경량화"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -63445,16 +63453,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "1994년 서울대학교 전자공학과 학사, 1998년 서울대학교 전기공학부 석사, 2004년 미국 퍼듀 대학교 전기 및 컴퓨터공학과 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://vlsi.snu.ac.kr/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지의 신임교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          }
+        ],
+        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://vlsi.snu.ac.kr/team/",
@@ -63468,11 +63481,11 @@
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p872",
           "https://vlsi.snu.ac.kr/publications/",
-          "https://vlsi.snu.ac.kr/team/",
           "https://vlsi.snu.ac.kr/",
           "https://ece.snu.ac.kr",
           "https://vlsi.snu.ac.kr/research-interests/",
           "https://vlsi.snu.ac.kr/lab-safety/",
+          "https://vlsi.snu.ac.kr/team/",
           "https://vlsi.snu.ac.kr/gallery/",
           "http://vlsi.snu.ac.kr/publications/",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
@@ -63483,15 +63496,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-71DAE5F006B66B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:22:35Z",
+        "_saved_at": "2026-09-15T09:58:41Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-71DAE5F006B66B"
     },
     "SNU-RU-C1CD4E9ADA4CE7": {
-      "fingerprint": "ee533942cbfc78dc20e71571d9edda7a153f0598a15ba825a5b48a73bfa774a0",
-      "checked_at": "2026-09-14T10:22:01Z",
+      "fingerprint": "bea2e868b7490a485dc17712144bf10246a06b88b935bd3fb9184ef46d15a785",
+      "checked_at": "2026-09-15T09:58:11Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -63505,7 +63518,7 @@
           }
         ],
         "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
-        "posterStatus": "unverified_candidate",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://mics.snu.ac.kr/jaeha/",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
@@ -63532,7 +63545,7 @@
           "설계자동화",
           "아날로그 회로",
           "혼합신호 회로",
-          "저전력 설계",
+          "반도체 설계",
           "고성능 아날로그 집적회로 설계",
           "저전력 혼합신호 집적회로 설계",
           "아날로그 및 혼합신호 설계자동화",
@@ -63548,9 +63561,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2003년 미국 스탠포드대학교에서 전기공학 박사 학위를 취득하였으며, 1999년 동 대학에서 석사, 1997년 서울대학교에서 전기공학부 학사 학위를 받았습니다.",
+        "education_summary": "미국 스탠포드대학교에서 전기공학 박사(2003) 및 석사(1999) 학위를 취득하였으며, 서울대학교에서 전기공학부 학사(1997) 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 전기·정보공학부 공식 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부 공식 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -63565,7 +63578,7 @@
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
-        "poster_status": "unverified_candidate",
+        "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -63573,9 +63586,9 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
           "https://mics.snu.ac.kr/jaeha/",
           "https://ece.snu.ac.kr",
           "https://mics.snu.ac.kr/wiki/jaeha",
@@ -63590,7 +63603,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C1CD4E9ADA4CE7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:22:28Z",
+        "_saved_at": "2026-09-15T09:58:31Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -70645,8 +70658,8 @@
       "_unit_id": "SNU-RU-3C9BDBB6CDB7CC"
     },
     "SNU-RU-AE56CD9C4E041B": {
-      "fingerprint": "d0075174a6b71302ee35a4b1260cf66b0bd23e668e452373c4dc40f692adbc99",
-      "checked_at": "2026-09-14T10:21:59Z",
+      "fingerprint": "301c142d90afbc2734c4382c4a5eecb30585a59d7c06c63ed75eda034fca48b7",
+      "checked_at": "2026-09-15T09:58:09Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -70659,7 +70672,7 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+        "membersUrl": "",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p896",
@@ -70675,17 +70688,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김진수 교수는 서울대학교 전기·정보공학부 조교수로 재직 중이며, 웨어러블 로봇 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "로보틱스, 엑소스켈레톤, 생체역학, 제어 및 웨어러블 로봇 분야를 연구하고 있습니다.",
         "research_topics": [
           "로보틱스",
-          "웨어러블 로봇"
+          "엑소스켈레톤",
+          "생체역학",
+          "제어",
+          "웨어러블"
         ],
         "recommendation_keywords": [
           "로보틱스",
-          "웨어러블 로봇",
           "엑소스켈레톤",
           "생체역학",
-          "제어"
+          "제어",
+          "웨어러블"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -70697,7 +70713,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "하버드대학교에서 공학과학 박사(2022) 및 석사(2022) 학위를 취득하였으며, 서울대학교에서 전기컴퓨터공학부 석사(2012) 및 전기공학부 학사(2010) 학위를 받았습니다.",
         "verified_publication_pages": [],
         "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
@@ -70713,7 +70729,7 @@
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+        "member_page_url": "",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -70722,12 +70738,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p896",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
           "https://ece.snu.ac.kr/research-faculty/faculty/emeritus",
           "https://ece.snu.ac.kr/research-faculty/faculty/former-deans",
@@ -70739,7 +70755,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AE56CD9C4E041B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:22:05Z",
+        "_saved_at": "2026-09-15T09:58:15Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245555,11 +245571,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T09:57:52Z",
-    "checked": 590,
-    "seconds": 6992.71,
+    "at": "2026-09-15T09:58:49Z",
+    "checked": 595,
+    "seconds": 7049.73,
     "gemini": true,
-    "ai_requests": 379,
+    "ai_requests": 383,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
