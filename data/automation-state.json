@@ -1,5 +1,5 @@
 {
-  "cursor": 1940,
+  "cursor": 1945,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -76530,28 +76530,38 @@
       "_unit_id": "SNU-RU-47B23C1705CDDD"
     },
     "SNU-RU-96646E2A3F3978": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:03:53Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-15T08:38:25Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [
           "파킨슨병 및 파킨슨 증후군",
           "파킨슨병 치매",
@@ -76561,12 +76571,14 @@
           "무도증"
         ],
         "recommendation_keywords": [
-          "파킨슨병 및 파킨슨 증후군",
+          "파킨슨병",
+          "파킨슨 증후군",
           "파킨슨병 치매",
           "소뇌위축",
           "떨림",
           "근긴장이상",
-          "무도증"
+          "무도증",
+          "파킨슨병 및 파킨슨 증후군"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -76578,14 +76590,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 학교생활에서의 우울, 불안, 대인관계, 적응, 학습, 의사소통 등 여러 가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -76594,24 +76616,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/en/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "http://yss.snu.ac.kr/index.php"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-96646E2A3F3978",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T08:29:59Z",
+        "_saved_at": "2026-09-15T08:38:49Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -77434,7 +77456,7 @@
     },
     "SNU-RU-8D041FCC91C49A": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:05:05Z",
+      "checked_at": "2026-09-15T08:38:28Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -77511,33 +77533,47 @@
       "_unit_id": "SNU-RU-8D041FCC91C49A"
     },
     "SNU-RU-DB37684D7DDD42": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:05:05Z",
+      "fingerprint": "4671c3ffccd629c36674d49e4fc6e349f26955c625dbaaac020fa3b4d8de1f2c",
+      "checked_at": "2026-09-15T08:38:21Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "View all 157 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "김현경 교수는 진단혈액학 분야를 전문으로 하며, 혈액 질환의 진단 및 관련 임상 연구를 수행하고 있습니다.",
         "research_topics": [
-          "진단혈액학"
+          "진단혈액학",
+          "혈액 질환 진단"
         ],
         "recommendation_keywords": [
-          "진단혈액학"
+          "진단혈액학",
+          "혈액학",
+          "임상병리학",
+          "혈액 질환 진단"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -77549,40 +77585,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "View all 157 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/",
+        "poster_status": "verified",
+        "poster_title": "Hyun Kyung Kim",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959960/256_Kim_+Hyun+Kyung.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-content",
+        "poster_evidence": "Official profile image verified via SNU Elsevier Pure profile page.",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-154/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DB37684D7DDD42",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:28:51Z",
+        "_saved_at": "2026-09-15T08:38:33Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -78355,7 +78401,7 @@
     },
     "SNU-RU-B628E885BD45E8": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:05:05Z",
+      "checked_at": "2026-09-15T08:38:27Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -78609,33 +78655,44 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-51929C62F5877A": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:05:05Z",
+      "fingerprint": "4c807e5e704890feb7aadd4503ab902d93dcff8e3c3a5cc4f40d944084958b53",
+      "checked_at": "2026-09-15T08:38:21Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "View all 60 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-search",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "김현지 교수는 모체태아의학 분야를 전문으로 하며, 산부인과학교실에서 임상 및 연구 활동을 수행하고 있습니다.",
         "research_topics": [
           "모체태아의학"
         ],
         "recommendation_keywords": [
-          "모체태아의학"
+          "모체태아의학",
+          "산부인과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -78647,14 +78704,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "View all 60 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -78663,24 +78730,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/en/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-search",
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/hyeon-ji-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-51929C62F5877A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:28:58Z",
+        "_saved_at": "2026-09-15T08:38:24Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244815,11 +244882,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T08:37:52Z",
-    "checked": 190,
-    "seconds": 2193.1,
+    "at": "2026-09-15T08:38:49Z",
+    "checked": 195,
+    "seconds": 2249.6,
     "gemini": true,
-    "ai_requests": 136,
+    "ai_requests": 139,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
