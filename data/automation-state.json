@@ -1,5 +1,5 @@
 {
-  "cursor": 1775,
+  "cursor": 1780,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -25060,29 +25060,45 @@
       "_unit_id": "SNU-RU-D8275D20AFEA44"
     },
     "SNU-RU-46D0081CA5C319": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-14T11:27:47Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-15T08:06:25Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": null,
-        "research_topics": [],
+        "research_summary": "",
+        "research_topics": [
+          "내분비대사내과"
+        ],
         "recommendation_keywords": [
           "내분비대사내과"
         ],
@@ -25096,14 +25112,28 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -25114,22 +25144,22 @@
         "source_urls_used": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-46D0081CA5C319",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:56:44Z",
+        "_saved_at": "2026-09-15T08:06:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -25490,144 +25520,48 @@
       "_unit_id": "SNU-RU-6DADA5CF48730A"
     },
     "SNU-RU-1E61CDF973F581": {
-      "fingerprint": "608c0ede9d7d9ac2ac16c1809a52312ac9f16791165652c27f003432d8f19936",
-      "checked_at": "2026-09-14T11:27:48Z",
+      "fingerprint": "23badcfa78a41703a4f457cbc50d5798555fa9ecf4bd87cc69d3684d54db466d",
+      "checked_at": "2026-09-15T08:06:25Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 487 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "418",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "28",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "13",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
-          },
-          {
-            "title": "8",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fchapter",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960955/48_Ku_+Ja+Hyeon.jpg?w=160&f=jpg",
-            "alt": "Ja Hyeon Ku",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-ku-2/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "Search",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "Close",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "Close",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/en/"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ku-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://libguides.snu.ac.kr/home"
         ]
       },
       "enrichment": {
-        "research_summary": "비뇨기계 종양학을 전문으로 하며, 특히 방광암, 전립선암, 신장암 등 비뇨기계 암의 진단, 치료 및 예후에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "비뇨기계 종양학을 전문으로 하며, 비뇨기암의 진단, 치료 및 예후와 관련된 다양한 임상 연구를 수행하고 있습니다.",
         "research_topics": [
           "비뇨기계종양학",
-          "방광암",
-          "전립선암",
-          "신장암"
+          "비뇨기암",
+          "임상 비뇨의학"
         ],
         "recommendation_keywords": [
+          "비뇨기암",
           "비뇨기계종양학",
-          "방광암",
-          "전립선암",
-          "신장암"
+          "비뇨의학",
+          "임상 비뇨의학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -25646,24 +25580,29 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적으로 확인된 연구실 단위의 채용 정보는 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "Ja Hyeon Ku",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960955/48_Ku_+Ja+Hyeon.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ku-2/",
+        "poster_evidence": "Official profile page contains the professor's portrait.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-ku-2/",
           "https://snu.elsevierpure.com/en/persons/y-ku-2/publications/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -25677,127 +25616,30 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1E61CDF973F581",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:57:36Z",
+        "_saved_at": "2026-09-15T08:06:34Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-1E61CDF973F581",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-1E61CDF973F581"
     },
     "SNU-RU-266ADF83DF74D3": {
-      "fingerprint": "59738d0a830d931fb3795685b8bf7df7cc1bad45d66532a40590b0099190d658",
-      "checked_at": "2026-09-14T11:27:43Z",
+      "fingerprint": "6a995ee46d56d18568abe05653eb617a7e92bdd88bdbcec977a897dfd9df82d1",
+      "checked_at": "2026-09-15T08:06:16Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 68 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "63",
-            "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "1",
-            "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "Research output",
-            "url": "https://snu.elsevierpure.com/en/publications/",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
-            "alt": "No photo of Changhoon Koo",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -25805,14 +25647,14 @@
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-search",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "마취통증의학 분야에서 임상 연구 및 학술 활동을 수행하고 있으며, 다양한 저널에 논문을 발표하고 있습니다.",
+        "research_summary": "구창훈 교수는 마취통증의학 분야를 전문으로 하며, 학술 연구 활동을 통해 다수의 논문을 발표하고 있습니다.",
         "research_topics": [
           "마취통증의학"
         ],
@@ -25829,16 +25671,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 68 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "현재 구창훈 교수의 공식 페이지에서 별도의 연구실 모집 공고는 확인되지 않습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/",
@@ -25852,28 +25699,26 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-search",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/changhoon-koo/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-266ADF83DF74D3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:57:12Z",
+        "_saved_at": "2026-09-15T08:06:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-266ADF83DF74D3",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-266ADF83DF74D3"
     },
     "SNU-RU-77336CFFAD4AD5": {
       "fingerprint": "1b14ae2665c770656973ca2cf6066d4a932dc36e858fe6e26ee9746a6336dda5",
@@ -26135,8 +25980,8 @@
       "_unit_id": "SNU-RU-9624AA7778DE82"
     },
     "SNU-RU-52C70DA33FF95F": {
-      "fingerprint": "20e78a74b85f4fc27395d4ef593dee94fbb76e367ee67e49d058332e1c14d392",
-      "checked_at": "2026-09-14T11:27:45Z",
+      "fingerprint": "e8eb9b0ccc679e3f6c0fb0e7ad2e8a18a6a23a43d650fa657cbf4d49fb30276e",
+      "checked_at": "2026-09-15T08:06:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -26148,10 +25993,6 @@
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-goo/publications/",
@@ -26174,14 +26015,13 @@
         "research_topics": [
           "흉부영상의학",
           "폐암 진단",
-          "영상 의학적 평가"
+          "영상의학"
         ],
         "recommendation_keywords": [
           "흉부영상의학",
           "폐암",
           "영상의학",
-          "폐암 진단",
-          "영상 의학적 평가"
+          "폐암 진단"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -26200,15 +26040,11 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-goo/publications/"
           }
         ],
-        "recruitment_summary": "제공된 공식 URL에서는 구진모 교수의 개별 연구실 모집 정보가 확인되지 않습니다. 연건학생지원센터 및 중앙연구지원실 등 일반적인 학교 지원 페이지가 확인됩니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
@@ -26221,12 +26057,11 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960996/49_Goo_+Jin+Mo.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-goo/#main-search",
-        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 프로필 사진입니다.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-goo/",
           "https://snu.elsevierpure.com/en/persons/y-goo/publications/",
           "http://yss.snu.ac.kr/",
-          "https://medcorelab.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-goo/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-goo/#main-search",
@@ -26241,7 +26076,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-52C70DA33FF95F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:28:19Z",
+        "_saved_at": "2026-09-15T08:06:28Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -26249,7 +26084,7 @@
     },
     "SNU-RU-934AA72F34951C": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-14T11:27:47Z",
+      "checked_at": "2026-09-15T08:06:25Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -243983,11 +243818,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T08:05:48Z",
-    "checked": 25,
-    "seconds": 269.23,
+    "at": "2026-09-15T08:06:44Z",
+    "checked": 30,
+    "seconds": 324.63,
     "gemini": true,
-    "ai_requests": 16,
+    "ai_requests": 20,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
