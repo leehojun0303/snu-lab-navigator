@@ -1,5 +1,5 @@
 {
-  "cursor": 120,
+  "cursor": 125,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -5103,8 +5103,8 @@
       "_unit_id": "SNU-RU-1388AFC748E134"
     },
     "SNU-RU-A1C06411A211A0": {
-      "fingerprint": "176b9af52df097a535be60827e18982659b99d3071418c0b40dee0084cce4772",
-      "checked_at": "2026-09-14T10:13:49Z",
+      "fingerprint": "9fbc6fa019fc809efd6bed316f220d264ed5d68503dc787575c1a9bb16e29320",
+      "checked_at": "2026-09-15T09:47:45Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -5117,10 +5117,10 @@
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24001",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23999",
           "https://nucleng.snu.ac.kr/about/introduction",
           "https://nucleng.snu.ac.kr/admission/undergraduate",
-          "https://nucleng.snu.ac.kr/about/history"
+          "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate"
         ]
       },
       "enrichment": {
@@ -5159,18 +5159,18 @@
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24001",
-          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23999",
           "https://nucleng.snu.ac.kr/about/introduction",
           "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/history",
+          "https://nucleng.snu.ac.kr/admission/graduate",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
-          "https://nucleng.snu.ac.kr/admission/graduate"
+          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A1C06411A211A0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:13:51Z",
+        "_saved_at": "2026-09-15T09:48:49Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -14918,13 +14918,13 @@
       "_unit_id": "SNU-RU-DC8B200DC62221"
     },
     "SNU-RU-9E9F88D1023FFA": {
-      "fingerprint": "029c2356958f30ca78b6285e78b9e043df8bcbd1144e645388d8ddace2964bc0",
-      "checked_at": "2026-09-14T10:13:46Z",
+      "fingerprint": "487ad471a44741f5973b70371f905c9f50f51afe31ca671b98350e88791ffa09",
+      "checked_at": "2026-09-15T09:47:41Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "강진수 - 서울대학교 첨단융합학부",
-            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/"
+            "title": "Publications",
+            "url": "https://eee.snu.ac.kr/publications"
           }
         ],
         "recruitmentPages": [],
@@ -14944,41 +14944,42 @@
         ]
       },
       "enrichment": {
-        "research_summary": "전기화학에너지공학 분야를 연구하며, 특히 탄소 전극의 표면 전기화학, 전기화학적 탈염, 에너지 저장 및 변환 장치(태양전지, 촉매 등)와 관련된 연구를 수행하고 있습니다.",
+        "research_summary": "강진수 교수는 전기화학에너지공학 분야를 연구하며, 특히 에너지 저장 및 변환 장치, 전기화학적 분리 기술, 나노 소재 합성 등에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "전기화학에너지공학",
-          "표면 전기화학",
-          "전기화학적 탈염",
-          "에너지 저장 및 변환"
+          "에너지 저장 및 변환",
+          "전기화학적 분리 기술",
+          "나노 소재 합성"
         ],
         "recommendation_keywords": [
           "전기화학",
           "에너지공학",
-          "탄소 전극",
-          "전기화학적 탈염",
-          "촉매",
+          "나노입자",
+          "전기화학적 분리",
+          "에너지 저장",
           "전기화학에너지공학",
-          "표면 전기화학",
-          "에너지 저장 및 변환"
+          "에너지 저장 및 변환",
+          "전기화학적 분리 기술",
+          "나노 소재 합성"
         ],
         "recent_papers": [
           {
             "title": "Platinum/tantalum carbide core-shell nanoparticles with sub-monolayer shells for methanol and oxygen electrocatalysis",
             "year": "2024",
             "venue": "Advanced Energy Materials",
-            "summary": "메탄올 및 산소 전기촉매를 위한 아원자층 껍질을 가진 백금/탄탈륨 탄화물 코어-쉘 나노입자 연구."
+            "summary": "메탄올 및 산소 전기촉매 반응을 위한 서브 단층 쉘을 가진 백금/탄탈륨 탄화물 코어-쉘 나노입자에 관한 연구입니다."
           },
           {
             "title": "Electrochemical methods for carbon dioxide separations",
             "year": "2022",
             "venue": "Nature Reviews Methods Primers",
-            "summary": "이산화탄소 분리를 위한 전기화학적 방법론에 대한 리뷰."
+            "summary": "이산화탄소 분리를 위한 전기화학적 방법론을 다룬 리뷰 논문입니다."
           },
           {
             "title": "Surface electrochemistry of carbon electrodes and Faradaic reactions in capacitive deionization",
             "year": "2022",
             "venue": "Environmental Science & Technology",
-            "summary": "용량성 탈이온화에서 탄소 전극의 표면 전기화학 및 패러데이 반응 연구."
+            "summary": "용량성 탈이온화(CDI) 공정에서 탄소 전극의 표면 전기화학 및 패러데이 반응을 분석한 연구입니다."
           }
         ],
         "recent_year_paper_count": null,
@@ -14990,14 +14991,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2015년 서울대학교 화학생물공학부에서 공학박사 학위를 취득하였으며, 2012년 동 학부에서 공학사 학위를 받았습니다.",
+        "education_summary": "서울대학교 화학생물공학부에서 학사(2012) 및 박사(2015) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
-            "title": "강진수 - 서울대학교 첨단융합학부",
-            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/"
+            "title": "Publications",
+            "url": "https://eee.snu.ac.kr/publications"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "현재 별도의 모집 공고가 확인되지 않습니다.",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
@@ -15028,7 +15029,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E9F88D1023FFA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:27:18Z",
+        "_saved_at": "2026-09-15T09:48:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -35014,27 +35015,18 @@
       "_unit_id": "SNU-RU-5B6F8D54651EDA"
     },
     "SNU-RU-31C11151A69261": {
-      "fingerprint": "0b37887cd97e522146e003f6ad87e9e09fd1980d032e4b893dfd66f8de9db3cd",
-      "checked_at": "2026-09-14T10:13:49Z",
+      "fingerprint": "f4ab5e7aca3e3deb7ccf5c80c3d029c1a5a91d1d697c02e28f2d293ecc514fd6",
+      "checked_at": "2026-09-15T09:47:45Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "· 학부입학",
+            "title": "학부입학",
             "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "· 대학원입학",
+            "title": "대학원입학",
             "url": "https://nucleng.snu.ac.kr/admission/graduate"
-          },
-          {
-            "title": "[장학] 2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24001"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
@@ -35053,7 +35045,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "방사선 계측 및 응용 분야를 연구하며, 방사선 검출기 및 계측 방법론 개발, 방사선 계측기술 활용, 방사선 영상, 선량평가 등에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "방사선 계측 및 응용 분야를 중심으로 방사선 검출기 및 계측 방법론 개발, 방사선 계측기술 활용, 방사선 영상, 선량평가에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "방사선 검출기 및 계측 방법론 개발",
           "방사선 계측기술 활용",
@@ -35079,25 +35071,16 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "2013년 미시간 대학교에서 핵/방사선공학 박사 학위를 취득하였으며, 2007년 서울대학교 원자핵공학과에서 학사 학위를 받았습니다.",
-        "verified_publication_pages": [
-          {
-            "title": "[공모전/홍보] 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986"
-          }
-        ],
-        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내를 제공하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
-            "title": "· 학부입학",
+            "title": "학부입학",
             "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "· 대학원입학",
+            "title": "대학원입학",
             "url": "https://nucleng.snu.ac.kr/admission/graduate"
-          },
-          {
-            "title": "[장학] 2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집 안내",
-            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24001"
           }
         ],
         "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/graduate",
@@ -35110,18 +35093,18 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/3e9z23cz1a6z7c2z2f7z86dz4d2z5aez81bzc54z22.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
-        "poster_evidence": "공식 교수진 페이지에 게시된 김기현 교수의 프로필 사진입니다.",
+        "poster_evidence": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+          "https://nucleng.snu.ac.kr/admission/graduate",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
           "https://nucleng.snu.ac.kr/about/people/emeritus",
           "https://nucleng.snu.ac.kr/about/people/staff",
           "https://nucleng.snu.ac.kr/about/introduction",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/about/history",
-          "https://nucleng.snu.ac.kr/admission/graduate",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=23986",
           "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24001"
         ],
@@ -35129,7 +35112,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-31C11151A69261",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:14:01Z",
+        "_saved_at": "2026-09-15T09:48:57Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -191624,8 +191607,8 @@
       "_unit_id": "SNU-RU-47B68D349ED662"
     },
     "SNU-RU-EF3CD6CC057EEC": {
-      "fingerprint": "358c654ae61fd3281136767b99a42f139b21f6b93780b6b6e7adcd3109d99715",
-      "checked_at": "2026-09-14T10:13:55Z",
+      "fingerprint": "00cb386fa7fc40e4bf0d694fdb4ce869f06688669e3536d159803ea02637460f",
+      "checked_at": "2026-09-15T09:47:50Z",
       "activity": {
         "publicationPages": [
           {
@@ -191633,65 +191616,84 @@
             "url": "https://fre.snu.ac.kr/publication-list/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
         "membersUrl": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
-        "posterStatus": "verified",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://fre.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
           "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
           "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
           "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
+          "https://fre.snu.ac.kr/publication-list/",
           "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
           "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
-          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
-          "https://fre.snu.ac.kr/publication/fractal-structure-in-the-sp500-a-correlation-based-threshold-network-approach/",
-          "https://fre.snu.ac.kr/member_tax/professor/",
-          "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/#container"
+          "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
+          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/"
         ]
       },
       "enrichment": {
-        "research_summary": "장우진 교수는 금융공학, 확률모형, 웨이블렛 분석을 기반으로 금융 시장의 변동성 예측, 딥러닝을 활용한 투자 전략, 강화학습을 이용한 거래 신호 생성 등 금융 데이터 분석 및 모델링 연구를 수행하고 있습니다.",
+        "research_summary": "장우진 교수는 서울대학교 산업공학과 금융리스크 공학 연구실에서 금융공학, 확률모형, 웨이블렛 분석을 중심으로 연구를 수행하고 있습니다. 주요 연구 분야는 딥러닝 기반의 금융 시계열 예측, 강화학습을 활용한 트레이딩 전략, 그리고 금융 시장의 네트워크 구조 분석 등을 포함합니다.",
         "research_topics": [
           "금융공학",
           "확률모형",
           "웨이블렛 분석",
-          "금융 시계열 예측",
-          "딥러닝 기반 투자 전략"
+          "딥러닝 기반 금융 예측",
+          "강화학습 트레이딩",
+          "금융 시장 네트워크 분석"
         ],
         "recommendation_keywords": [
           "금융공학",
           "확률모형",
           "웨이블렛 분석",
-          "금융 데이터 분석",
-          "딥러닝",
-          "금융 시계열 예측",
-          "딥러닝 기반 투자 전략"
+          "금융리스크 공학",
+          "딥러닝 기반 금융 예측",
+          "강화학습 트레이딩",
+          "금융 시장 네트워크 분석"
         ],
         "recent_papers": [
           {
             "title": "Maximizing the risk-adjusted return of classification model-based investments",
             "url": "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
-            "year": "null",
-            "venue": "null",
+            "year": "2026",
+            "venue": "Applied Soft Computing",
             "summary": ""
           },
           {
             "title": "Forecasting realized volatility using deep learning quantile function",
             "url": "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
-            "year": "null",
-            "venue": "null",
+            "year": "2025",
+            "venue": "Applied Soft Computing",
             "summary": ""
           },
           {
             "title": "NQF-RNN: probabilistic forecasting via neural quantile function-based recurrent neural networks",
             "url": "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
-            "year": "null",
-            "venue": "null",
+            "year": "2024",
+            "venue": "Applied Intelligence",
             "summary": ""
           }
         ],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Applied Soft Computing",
+            "count": 2
+          },
+          {
+            "venue": "Applied Intelligence",
+            "count": 1
+          },
+          {
+            "venue": "Information Sciences",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -191699,45 +191701,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "2002년 조지아 공과대학교(Georgia Tech)에서 산업공학 박사 학위를, 1998년 동 대학에서 오퍼레이션스 리서치(Operations Research) 석사 학위를 취득하였으며, 1997년 서울대학교에서 섬유고분자공학 학사 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "Publication",
             "url": "https://fre.snu.ac.kr/publication-list/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "금융리스크 공학 연구실은 대학원생을 모집하고 있으며, 자세한 입학 안내는 서울대학교 산업공학과 대학원 입학 안내 페이지를 참조할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "recruitment_source_url": "https://ie.snu.ac.kr/grad_admission/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
-        "poster_status": "verified",
-        "poster_title": "서울대학교 금융리스크 공학 연구실",
+        "poster_status": "none_detected",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://fre.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-        "poster_source_url": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/#container",
-        "poster_evidence": "서울대학교 금융리스크 공학 연구실 로고 이미지",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
-          "https://fre.snu.ac.kr/",
           "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
           "https://fre.snu.ac.kr/publication-list/",
+          "https://ie.snu.ac.kr/grad_admission/",
+          "https://fre.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
+          "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
+          "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
           "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
           "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
           "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
           "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
-          "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
-          "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
-          "https://fre.snu.ac.kr/publication/fractal-structure-in-the-sp500-a-correlation-based-threshold-network-approach/",
-          "https://fre.snu.ac.kr/member_tax/professor/",
-          "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/#container"
+          "https://ie.snu.ac.kr/undergrad_admission/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EF3CD6CC057EEC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:14:08Z",
+        "_saved_at": "2026-09-15T09:49:12Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -222208,8 +222215,8 @@
       "_unit_id": "SNU-RU-46C254258D3F72"
     },
     "SNU-RU-03F54F9A62EBEF": {
-      "fingerprint": "dc22c61362a10c2fd89540bcc7b87518d4316e97d7d66ab4b9ed2390950bddc0",
-      "checked_at": "2026-09-14T10:13:59Z",
+      "fingerprint": "82880f279727e7251031af4ab9a8883dd699b0da3ff00283f44da412f566b17a",
+      "checked_at": "2026-09-15T09:47:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -222247,11 +222254,6 @@
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "[서울대 언어교육원] 말레이시아 정부 장학생 버디 모집",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6411",
             "kind": "recruitment"
           },
           {
@@ -245572,11 +245574,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T09:47:30Z",
-    "checked": 540,
-    "seconds": 6370.61,
+    "at": "2026-09-15T09:49:24Z",
+    "checked": 545,
+    "seconds": 6485.57,
     "gemini": true,
-    "ai_requests": 337,
+    "ai_requests": 341,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
