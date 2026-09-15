@@ -1,5 +1,5 @@
 {
-  "cursor": 155,
+  "cursor": 160,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -89024,8 +89024,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-468B4134E3C7C4": {
-      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
-      "checked_at": "2026-09-14T10:19:19Z",
+      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
+      "checked_at": "2026-09-15T09:54:55Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -89099,7 +89099,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-468B4134E3C7C4",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:19:33Z",
+        "_saved_at": "2026-09-15T09:55:09Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -89851,8 +89851,8 @@
       "_unit_id": "SNU-RU-FAC1A7A3835D3A"
     },
     "SNU-RU-87D7EF8277E91C": {
-      "fingerprint": "635991edf8e2bd10dd95d143df906e9bef1f55dfbe8937abcfb9e49b0d5f6368",
-      "checked_at": "2026-09-14T10:19:19Z",
+      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
+      "checked_at": "2026-09-15T09:54:56Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -89892,7 +89892,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
+        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -89911,8 +89911,8 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
@@ -89926,7 +89926,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-87D7EF8277E91C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:19:42Z",
+        "_saved_at": "2026-09-15T09:55:19Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -99170,118 +99170,26 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-F44D2EC5CF8825": {
-      "fingerprint": "d10011cd7ac85811b086372f7578792c2beb61e3d34cee814b3db28ed9d308b7",
-      "checked_at": "2026-09-14T10:19:15Z",
+      "fingerprint": "28c944097dd4bf1f0fa8da38818f449671d0163da9562c9b7a6088bb7c8332d0",
+      "checked_at": "2026-09-15T09:54:50Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://nano.snu.ac.kr/publications",
-            "kind": "publication"
+            "url": "https://nano.snu.ac.kr/publications"
           },
           {
             "title": "Journal Papers",
-            "url": "https://nano.snu.ac.kr/publications/journal-papers",
-            "kind": "publication"
+            "url": "https://nano.snu.ac.kr/publications/journal-papers"
           },
           {
             "title": "International",
-            "url": "https://nano.snu.ac.kr/publications/journal-papers/international",
-            "kind": "publication"
-          },
-          {
-            "title": "Domestic",
-            "url": "https://nano.snu.ac.kr/publications/journal-papers/domestic",
-            "kind": "publication"
-          },
-          {
-            "title": "Conference Proceedings",
-            "url": "https://nano.snu.ac.kr/publications/journal-papers/conference-proceedings",
-            "kind": "publication"
+            "url": "https://nano.snu.ac.kr/publications/journal-papers/international"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학본부",
-            "url": "https://admission.snu.ac.kr",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
-            "url": "https://snuti.snu.ac.kr/18051/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://nano.snu.ac.kr/people",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
-            "alt": "서울대학교 서울대학교 첨단융합학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2024/02/박민혁-1.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%EB%B0%95%EB%AF%BC%ED%98%81/"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2021/02/snuti-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png",
-            "alt": "BAD UX POPUP 27",
-            "title": "",
-            "score": 80,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          },
-          {
-            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snuti.snu.ac.kr"
-          }
-        ],
         "sourcePagesScanned": [
           "https://nano.snu.ac.kr/",
           "https://snuti.snu.ac.kr/snu__professor/%EB%B0%95%EB%AF%BC%ED%98%81/",
@@ -99296,7 +99204,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박민혁 교수는 반도체 소재, 소자 및 공정 분야를 연구하며, 특히 강유전체 및 차세대 반도체 소자 관련 연구에서 탁월한 성과를 내고 있습니다. 110편 이상의 SCIE 논문을 발표하였으며, 10,000회 이상의 피인용과 H-index 50 이상의 연구 실적을 보유하고 있습니다.",
+        "research_summary": "박민혁 교수는 반도체 소재, 소자 및 공정 분야를 연구하며, 110편 이상의 SCIE 논문과 10,000회 이상의 피인용 횟수, H-index 50 이상의 연구 성과를 보유하고 있습니다.",
         "research_topics": [
           "반도체 소재",
           "반도체 소자",
@@ -99304,9 +99212,10 @@
         ],
         "recommendation_keywords": [
           "반도체",
+          "소재",
+          "소자",
+          "공정",
           "강유전체",
-          "소재공학",
-          "차세대지능형반도체",
           "반도체 소재",
           "반도체 소자",
           "반도체 공정"
@@ -99321,21 +99230,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2008년 서울대학교 재료공학부 학사 졸업 후, 2014년 동 대학원에서 재료공학 박사 학위를 취득하였습니다.",
+        "education_summary": "서울대학교 공과대학 재료공학부에서 학사(2008) 및 박사(2014) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://nano.snu.ac.kr/publications"
+          },
+          {
+            "title": "Journal Papers",
+            "url": "https://nano.snu.ac.kr/publications/journal-papers"
+          },
+          {
+            "title": "International",
+            "url": "https://nano.snu.ac.kr/publications/journal-papers/international"
           }
         ],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://nano.snu.ac.kr/people",
@@ -99347,14 +99259,14 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://nano.snu.ac.kr/people/principal-investigator",
-          "https://nano.snu.ac.kr/publications",
-          "https://snuti.snu.ac.kr/snu__professor/%EB%B0%95%EB%AF%BC%ED%98%81/",
           "https://nano.snu.ac.kr/",
+          "https://nano.snu.ac.kr/people/principal-investigator",
+          "https://snuti.snu.ac.kr/snu__professor/%EB%B0%95%EB%AF%BC%ED%98%81/",
           "https://snuti.snu.ac.kr",
           "https://nano.snu.ac.kr/people",
           "https://nano.snu.ac.kr/people/members",
           "https://nano.snu.ac.kr/people/alumni",
+          "https://nano.snu.ac.kr/publications",
           "https://nano.snu.ac.kr/publications/journal-papers",
           "https://nano.snu.ac.kr/publications/journal-papers/international",
           "https://nano.snu.ac.kr/publications/journal-papers/domestic",
@@ -99364,13 +99276,11 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F44D2EC5CF8825",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T14:34:00Z",
+        "_saved_at": "2026-09-15T09:55:04Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-F44D2EC5CF8825",
-      "verify_error": "verify_JSONDecodeError"
+      "_unit_id": "SNU-RU-F44D2EC5CF8825"
     },
     "SNU-RU-69143D972EE09F": {
       "fingerprint": "a39d5c25039290fdc29721dcc641f94aa4ad0efb69a7b02ec8a3c99962b0c251",
@@ -106784,8 +106694,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-EC63F9765372A9": {
-      "fingerprint": "924c8a3bd6e057c725a65ef58fdef6027b1a934f44880435dc33892c95d6d523",
-      "checked_at": "2026-09-14T10:19:32Z",
+      "fingerprint": "6ed4e1e80ac56b1f09de0a0407e4dab390f0c1edd363201dab90d97e4928f5da",
+      "checked_at": "2026-09-15T09:55:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -106844,42 +106754,42 @@
             "alt": "poster1",
             "title": "poster1",
             "score": 80,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/uploads/sites/121/elementor/thumbs/poster2-2-qy02m476t59vno454u5ytn848s77c7btz1elu4ikw8.png",
             "alt": "poster2",
             "title": "poster2",
             "score": 80,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/uploads/sites/121/elementor/thumbs/poster3-2-qy02g40b591xhcu678prw5s3m5ss5thkhbcxghf4nc.png",
             "alt": "poster3",
             "title": "poster3",
             "score": 80,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/uploads/sites/121/elementor/thumbs/poster4-3-qy02bfr75wnlr5mkhpzjzu8la6u2vzxm66l0jycll4.png",
             "alt": "poster4",
             "title": "poster4",
             "score": 80,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
             "alt": "서울대학교 ESPark Research Group",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/uploads/sites/121/2024/11/location.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://espark.snu.ac.kr/"
+            "parent_source_url": "https://espark.snu.ac.kr/#footer"
           },
           {
             "url": "https://espark.snu.ac.kr/wp-content/uploads/sites/121/2023/11/서울대학교박은수교수.jpg",
@@ -106903,10 +106813,10 @@
           "https://espark.snu.ac.kr/students-awards/",
           "https://espark.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1-2/",
           "https://espark.snu.ac.kr/alumni/",
+          "https://espark.snu.ac.kr/paper/",
           "https://www.snu.ac.kr/personal_information",
           "https://espark.snu.ac.kr/#container",
-          "https://snu.ac.kr/index.html",
-          "https://espark.snu.ac.kr/"
+          "https://espark.snu.ac.kr/#footer"
         ]
       },
       "enrichment": {
@@ -111120,8 +111030,8 @@
       "_unit_id": "SNU-RU-16001FA4B2F552"
     },
     "SNU-RU-867F53DB77ED3E": {
-      "fingerprint": "c247f351f79ad4030cad08f986cad27296e472ebbb3da3320d3dc5c33c716eab",
-      "checked_at": "2026-09-14T10:19:12Z",
+      "fingerprint": "8ce87ff783191221f52014ce5a1b2589730e9f8637b3a71a1bd2fa4f4494b109",
+      "checked_at": "2026-09-15T09:54:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -245633,11 +245543,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T09:54:36Z",
-    "checked": 575,
-    "seconds": 6797.5,
+    "at": "2026-09-15T09:55:33Z",
+    "checked": 580,
+    "seconds": 6853.73,
     "gemini": true,
-    "ai_requests": 366,
+    "ai_requests": 369,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
