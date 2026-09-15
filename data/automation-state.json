@@ -1,5 +1,5 @@
 {
-  "cursor": 2060,
+  "cursor": 2065,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -120335,7 +120335,7 @@
     },
     "SNU-RU-5334257823B86F": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:28:46Z",
+      "checked_at": "2026-09-15T09:02:24Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -120411,28 +120411,38 @@
       "_unit_id": "SNU-RU-5334257823B86F"
     },
     "SNU-RU-6EE90E3080348E": {
-      "fingerprint": "fe33f6979fca27f99d8145deea09de372cd24e08e2c0289b6d28bb73f4b063d5",
-      "checked_at": "2026-09-13T19:29:48Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-15T09:02:23Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [
           "수부",
           "족부"
@@ -120451,14 +120461,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 도움을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -120467,8 +120487,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -120476,18 +120498,15 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6EE90E3080348E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:57:51Z",
+        "_saved_at": "2026-09-15T09:02:36Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6EE90E3080348E"
     },
@@ -120572,28 +120591,38 @@
       "_unit_id": "SNU-RU-48564CE71DB9BE"
     },
     "SNU-RU-B8E455A23E2F24": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:29:50Z",
+      "fingerprint": "de15c97d7453c83dafd9a7602a77e56f48a2c64f38541233ed230a43cd32bbab",
+      "checked_at": "2026-09-15T09:02:16Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "http://yss.snu.ac.kr/",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "View all 41 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-8/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-bae-8/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "배우경 교수는 가정의학 분야에서 평생건강관리 및 만성피로와 관련된 연구를 수행하고 있으며, 서울대학교 의과대학 가정의학교실 소속으로 활동하고 있습니다.",
         "research_topics": [
           "평생건강관리",
           "만성피로"
@@ -120612,40 +120641,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
+        "education_summary": "서울대학교 의과대학 가정의학교실 소속 교수로서 학생 교육 및 연구 활동을 수행하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "View all 41 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-8/publications/"
+          }
+        ],
+        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 확인되지 않으나, 연건학생지원센터 등을 통해 학생 지원 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-bae-8/",
+        "poster_status": "verified",
+        "poster_title": "Woo Kyung Bae",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960616/403_Bae_+Woo+Kyung.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/files-asset/13960616/403_Bae_+Woo+Kyung.jpg?w=160&f=jpg",
+        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-bae-8/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B8E455A23E2F24",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:58:00Z",
+        "_saved_at": "2026-09-15T09:02:19Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -120762,7 +120801,7 @@
     },
     "SNU-RU-2B779BBC9723D4": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:29:38Z",
+      "checked_at": "2026-09-15T09:02:22Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -120968,34 +121007,47 @@
       "_unit_id": "SNU-RU-CCC71F801AF22F"
     },
     "SNU-RU-F748D2FDD1D7FF": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-13T19:29:49Z",
+      "fingerprint": "5a55eb2e5b2a3a146b9cc0863451e799715b76153dbd2341eaf79d9c1201b37a",
+      "checked_at": "2026-09-15T09:02:17Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "View all 155 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "배은정 교수는 소아과학교실 소속으로 심장학 분야를 연구하며, 특히 소아 심장 질환과 관련된 다양한 학술적 연구 성과를 발표하고 있습니다.",
         "research_topics": [
-          "심장학"
+          "심장학",
+          "소아 심장학"
         ],
         "recommendation_keywords": [
           "심장학",
-          "소아과학교실"
+          "소아과",
+          "소아 심장",
+          "소아 심장학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -121007,40 +121059,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "서울대학교 의과대학 소아과학교실에서 교육 및 연구 활동을 수행하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "View all 155 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/",
+        "poster_status": "verified",
+        "poster_title": "Eunjung Bae",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960624/405_Bae_+Eunjung.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-content",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
         "source_urls_used": [
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/",
           "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-content",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F748D2FDD1D7FF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:57:43Z",
+        "_saved_at": "2026-09-15T09:02:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -246094,11 +246156,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T09:01:44Z",
-    "checked": 310,
-    "seconds": 3625.09,
+    "at": "2026-09-15T09:02:36Z",
+    "checked": 315,
+    "seconds": 3677.07,
     "gemini": true,
-    "ai_requests": 219,
+    "ai_requests": 222,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
