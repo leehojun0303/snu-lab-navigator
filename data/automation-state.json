@@ -1,5 +1,5 @@
 {
-  "cursor": 1950,
+  "cursor": 1955,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -80187,91 +80187,21 @@
       "_unit_id": "SNU-RU-5A900A5A2AF28B"
     },
     "SNU-RU-297D0D344C41D5": {
-      "fingerprint": "e3f0a140694a229d14a8664cb03019e2a5eeaa0317239e5516ea2db7b1473d6c",
-      "checked_at": "2026-09-13T19:05:48Z",
-      "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
-        "sourcePagesScanned": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
-        ]
-      },
-      "enrichment": {
-        "research_summary": null,
-        "research_topics": [],
-        "recommendation_keywords": [
-          "호흡기내과"
-        ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "books": [],
-        "conference_presentations": [],
-        "research_projects": [],
-        "recent_performances": [],
-        "creative_works": [],
-        "recent_solo_exhibitions": [],
-        "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "current_members": [],
-        "alumni": [],
-        "member_page_url": "",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
-        "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://libguides.snu.ac.kr/research/academicwriting",
-          "https://medcorelab.snu.ac.kr/",
-          "https://www.snu.ac.kr/campuslife/aid/disabled",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home"
-        ],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
-        "_unit_id": "SNU-RU-297D0D344C41D5",
-        "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T08:32:09Z",
-        "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
-      },
-      "_unit_id": "SNU-RU-297D0D344C41D5"
-    },
-    "SNU-RU-3714D4B7DE9E3A": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:07:07Z",
+      "checked_at": "2026-09-15T08:40:27Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -80288,12 +80218,10 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
-        "research_topics": [
-          "흉부영상의학"
-        ],
+        "research_summary": "",
+        "research_topics": [],
         "recommendation_keywords": [
-          "흉부영상의학"
+          "호흡기내과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -80305,11 +80233,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 지원을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "",
@@ -80322,8 +80260,8 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/research/highlights",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -80331,14 +80269,112 @@
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://www.snu.ac.kr/research/highlights",
+          "https://medicine.snu.ac.kr/en/",
           "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-297D0D344C41D5",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-15T08:40:55Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-297D0D344C41D5"
+    },
+    "SNU-RU-3714D4B7DE9E3A": {
+      "fingerprint": "eb365c00f530a403420eb5a1708d0b5a310b5579e2af4beed7b425b3c748b4a8",
+      "checked_at": "2026-09-15T08:40:26Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "View all 143 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/#main-search",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "김형진 교수는 흉부영상의학 분야를 전문으로 하며, 흉부 질환의 영상 진단 및 관련 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "흉부영상의학"
+        ],
+        "recommendation_keywords": [
+          "흉부영상의학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": 143,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "View all 143 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/",
+          "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/#main-search",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-60/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3714D4B7DE9E3A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:30:55Z",
+        "_saved_at": "2026-09-15T08:40:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -81610,33 +81646,45 @@
       "_unit_id": "SNU-RU-2F173522B6D42D"
     },
     "SNU-RU-CC3303CA741288": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:07:07Z",
+      "fingerprint": "3e4c6d42f5f1cc05bff18897147a15fe0e343437993d4bf330addf0043d8c2a2",
+      "checked_at": "2026-09-15T08:40:24Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "View all 85 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-search",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "김홍규 교수는 유방내분비외과 분야를 전문으로 하며, 유방암 및 내분비 질환과 관련된 다양한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "유방내분비외과"
+          "유방내분비외과",
+          "유방암"
         ],
         "recommendation_keywords": [
-          "유방내분비외과"
+          "유방내분비외과",
+          "유방암"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -81648,14 +81696,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "View all 85 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/"
+          }
+        ],
+        "recruitment_summary": "현재 공식 페이지에서 특정 연구실의 모집 공고를 확인하기 어렵습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -81664,24 +81722,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/en/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-search",
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC3303CA741288",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:31:04Z",
+        "_saved_at": "2026-09-15T08:40:28Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -81689,7 +81747,7 @@
     },
     "SNU-RU-3308B8344FD243": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:07:07Z",
+      "checked_at": "2026-09-15T08:40:28Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -81982,31 +82040,48 @@
       "_unit_id": "SNU-RU-3360A8F62E98DC"
     },
     "SNU-RU-C287289F95187D": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-13T19:07:07Z",
+      "fingerprint": "4d5cc3773c48d9bc2233e911df902bfd5b61bfa5a0b63ece953b1784bb94d772",
+      "checked_at": "2026-09-15T08:40:25Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "View all 355 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": null,
-        "research_topics": [],
+        "research_summary": "김홍빈 교수는 감염내과 분야의 전문가로서 감염병 관리, 항생제 내성, 그리고 임상 감염학 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "감염내과",
+          "항생제 내성",
+          "감염병 관리"
+        ],
         "recommendation_keywords": [
-          "감염내과"
+          "감염내과",
+          "항생제 내성",
+          "감염병",
+          "감염병 관리"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -82018,40 +82093,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "View all 355 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
+        "poster_status": "verified",
+        "poster_title": "Hong Bin Kim",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960028/271_Kim_+Hong+Bin.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
+        "poster_evidence": "Official profile image verified from SNU Elsevier Pure profile.",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/en/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C287289F95187D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:31:15Z",
+        "_saved_at": "2026-09-15T08:40:37Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244935,11 +245020,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-15T08:39:54Z",
-    "checked": 200,
-    "seconds": 2315.03,
+    "at": "2026-09-15T08:40:55Z",
+    "checked": 205,
+    "seconds": 2375.89,
     "gemini": true,
-    "ai_requests": 144,
+    "ai_requests": 148,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
