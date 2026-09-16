@@ -1,5 +1,5 @@
 {
-  "cursor": 2110,
+  "cursor": 2115,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -8529,10 +8529,19 @@
       "_unit_id": "SNU-RU-5EBFB68B3072A1"
     },
     "SNU-RU-B7337DA4332216": {
-      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
-      "checked_at": "2026-09-15T09:12:37Z",
+      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
+      "checked_at": "2026-09-16T08:58:09Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
+          }
+        ],
         "recruitmentPages": [],
         "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
@@ -8546,13 +8555,21 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentsci.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "감명환 교수는 서울대학교 치의학대학원 치과마취과학교실 소속 기금부교수로 재직 중입니다.",
-        "research_topics": [],
-        "recommendation_keywords": [],
+        "research_summary": "감명환 교수는 치과마취과학교실 소속으로, 치과마취 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "치과마취",
+          "임상치의학"
+        ],
+        "recommendation_keywords": [
+          "치과마취",
+          "서울대학교 치의학대학원",
+          "감명환",
+          "임상치의학"
+        ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -8563,9 +8580,18 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 치과마취과학교실 기금부교수",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "education_summary": "서울대학교 치의학대학원 치과마취과학교실 기금부교수로 재직 중입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
+          }
+        ],
+        "recruitment_summary": "현재 공식적인 채용 정보는 확인되지 않습니다.",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
@@ -8580,6 +8606,8 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/research/publications/",
           "https://www.snu.ac.kr/personal_information",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
@@ -8587,8 +8615,6 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6",
-          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=5",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
@@ -8596,10 +8622,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B7337DA4332216",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T08:08:04Z",
+        "_saved_at": "2026-09-16T08:58:43Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-B7337DA4332216"
     },
@@ -21080,42 +21105,28 @@
       "_unit_id": "SNU-RU-498826E632AA7E"
     },
     "SNU-RU-33A3806CCA2691": {
-      "fingerprint": "7ccb7a248ba62bff26892aabd5820ca17ce9cbe67df98c8c6c6ac94674dadf8d",
-      "checked_at": "2026-09-15T09:12:34Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-16T08:58:05Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "고홍섭 교수는 서울대학교 치의학대학원 구강내과진단학교실 소속으로, 타액선 기능이상, 구강점막질환, 측두하악장애 및 구강안면통증 분야를 전문으로 연구하고 있습니다.",
+        "research_summary": "고홍섭 교수는 구강내과진단학교실 소속으로, 타액선 기능이상, 구강점막질환, 측두하악장애 및 구강안면통증 분야를 전문적으로 연구하고 있습니다.",
         "research_topics": [
           "타액선 기능이상",
           "구강점막질환",
@@ -21141,24 +21152,10 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
+        "verified_publication_pages": [],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
-          }
-        ],
-        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -21172,22 +21169,22 @@
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/"
+          "https://dentistry.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-33A3806CCA2691",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:12:38Z",
+        "_saved_at": "2026-09-16T08:58:15Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -230498,32 +230495,23 @@
       "_unit_id": "SNU-RU-231DCF7B49E08C"
     },
     "SNU-RU-2ACF6A8E561E4B": {
-      "fingerprint": "1f98f03c9c76a1d441de37427ab00b7f158cd27b61d8bd6d84f85e0845d0f9c4",
-      "checked_at": "2026-09-15T09:12:37Z",
+      "fingerprint": "b26d467f90eb2e29261fb46372620c1cf929a285b00dd81896201d8b26bebd54",
+      "checked_at": "2026-09-16T08:58:06Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          },
-          {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
           "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
@@ -230542,22 +230530,13 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          },
-          {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
-          }
-        ],
+        "verified_publication_pages": [],
         "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -230567,57 +230546,46 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://dentsci.snu.ac.kr/research/publications/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2ACF6A8E561E4B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:13:17Z",
+        "_saved_at": "2026-09-16T08:58:32Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-2ACF6A8E561E4B"
     },
     "SNU-RU-C6DDF1490A7F14": {
-      "fingerprint": "1f98f03c9c76a1d441de37427ab00b7f158cd27b61d8bd6d84f85e0845d0f9c4",
-      "checked_at": "2026-09-15T09:12:35Z",
+      "fingerprint": "b26d467f90eb2e29261fb46372620c1cf929a285b00dd81896201d8b26bebd54",
+      "checked_at": "2026-09-16T08:58:06Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
-          }
-        ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
           "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
@@ -230636,23 +230604,13 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
+        "verified_publication_pages": [],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
-          }
-        ],
-        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "member_page_url": "",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -230662,23 +230620,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://dentistry.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C6DDF1490A7F14",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:12:59Z",
+        "_saved_at": "2026-09-16T08:58:21Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -230686,7 +230644,7 @@
     },
     "SNU-RU-353F04AFCA8EA8": {
       "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
-      "checked_at": "2026-09-15T09:12:39Z",
+      "checked_at": "2026-09-16T08:58:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -247158,11 +247116,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T08:57:46Z",
-    "checked": 360,
-    "seconds": 4419.6,
+    "at": "2026-09-16T08:58:43Z",
+    "checked": 365,
+    "seconds": 4477.3,
     "gemini": true,
-    "ai_requests": 259,
+    "ai_requests": 263,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
