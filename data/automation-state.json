@@ -1,5 +1,5 @@
 {
-  "cursor": 195,
+  "cursor": 200,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -223437,12 +223437,21 @@
       "_unit_id": "SNU-RU-A486056B6167E0"
     },
     "SNU-RU-7C4488094CAF3E": {
-      "fingerprint": "89ad870a96a2d7e6c88f7de9b3e56711c0b4e2d6387cf0ce126fcf86e54d4888",
-      "checked_at": "2026-09-15T10:02:59Z",
+      "fingerprint": "5d034e05708ae382c59f2568c563f826fe4ead85f942d246eff2930d61cf7fe8",
+      "checked_at": "2026-09-16T09:42:18Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
@@ -223458,19 +223467,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "로보틱스, 컴퓨터 비전, 머신러닝, 사이버-물리 시스템(Cyber-physical systems) 분야를 연구하고 있습니다.",
+        "research_summary": "오성회 교수는 로봇학습 연구실을 운영하며 로보틱스 분야를 연구하고 있습니다.",
         "research_topics": [
           "로보틱스",
-          "컴퓨터 비전",
-          "머신러닝",
-          "사이버-물리 시스템"
+          "로봇학습"
         ],
         "recommendation_keywords": [
           "로보틱스",
-          "로봇학습",
-          "컴퓨터 비전",
-          "머신러닝",
-          "사이버-물리 시스템"
+          "로봇학습"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -223482,14 +223486,23 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "미국 UC Berkeley에서 전기컴퓨터공학 학사(1995), 석사(2003), 박사(2006) 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
+        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -223499,9 +223512,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -223515,18 +223528,27 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7C4488094CAF3E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:03:04Z",
+        "_saved_at": "2026-09-16T09:42:20Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7C4488094CAF3E"
     },
     "SNU-RU-0DB9D189A89110": {
-      "fingerprint": "bbf8daf699e357b93a1c5aff03fe03052baa546bdc9d22b5bec72663e29c131b",
-      "checked_at": "2026-09-15T10:03:00Z",
+      "fingerprint": "dc1cb1dffb46506fb551f11bfe729b222f5f3d65575d08b11782cc22cb953d6a",
+      "checked_at": "2026-09-16T09:42:19Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
         "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p828",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
@@ -223543,12 +223565,8 @@
         ]
       },
       "enrichment": {
-        "research_summary": "광자 인공지능 시스템, 광자 뉴로모픽 소자, 빛 기반 양자 컴퓨팅, 무질서 및 위상학적 파동역학 분야를 연구하고 있습니다.",
+        "research_summary": "광자 인공지능 시스템, 광자 뉴로모픽 소자, 빛 기반 양자 컴퓨팅, 그리고 무질서 및 위상학적 파동역학 분야를 중점적으로 연구하고 있습니다.",
         "research_topics": [
-          "무질서 광학",
-          "광자 컴퓨팅/AI",
-          "위상 광학",
-          "양자 광학",
           "광자 인공지능 시스템",
           "광자 뉴로모픽 소자",
           "빛 기반 양자 컴퓨팅",
@@ -223560,7 +223578,6 @@
           "AI",
           "위상 광학",
           "양자 광학",
-          "광자 컴퓨팅/AI",
           "광자 인공지능 시스템",
           "광자 뉴로모픽 소자",
           "빛 기반 양자 컴퓨팅",
@@ -223576,11 +223593,20 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2007년 서울대학교 전기공학부 학사, 2015년 서울대학교 전기컴퓨터공학부 박사 학위를 취득하였습니다.",
+        "education_summary": "2007년 서울대학교 전기공학부 학사 학위를 취득하였으며, 2015년 서울대학교 전기컴퓨터공학부에서 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 전기·정보공학부의 공식 초빙 안내 페이지를 통해 교수 채용 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p828",
@@ -223609,15 +223635,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0DB9D189A89110",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:03:14Z",
+        "_saved_at": "2026-09-16T09:43:23Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0DB9D189A89110"
     },
     "SNU-RU-42A77CC6C710C9": {
-      "fingerprint": "f881e77c468f2cfb1241136ac67fbdf6b23bb32457b3d431a4f1710b51556ed4",
-      "checked_at": "2026-09-15T10:03:02Z",
+      "fingerprint": "1c52c0c9c8f291468268a9c293b85752268e1345d9dd8ebd409230d35ec21dff",
+      "checked_at": "2026-09-16T09:42:19Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -223646,16 +223672,18 @@
         ]
       },
       "enrichment": {
-        "research_summary": "유무선 통신 시스템, 분산 학습 시스템, 커넥티드 로봇 시스템 분야를 연구하고 있습니다.",
+        "research_summary": "유무선 통신 시스템, 분산 학습 시스템, 커넥티드 로봇 시스템 분야를 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "통신 시스템",
           "분산 학습 시스템",
-          "커넥티드 로봇 시스템"
+          "커넥티드 로보틱스"
         ],
         "recommendation_keywords": [
           "통신 시스템",
+          "병렬 신호처리",
           "분산 학습 시스템",
-          "커넥티드 로봇 시스템"
+          "커넥티드 로봇",
+          "커넥티드 로보틱스"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -223669,7 +223697,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "한국과학기술원에서 전기 및 전자공학 학사(2004), 석사(2006), 박사(2010) 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지의 초빙안내 및 지원서 작성 페이지를 통해 신임교수 초빙 정보를 제공하고 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -223693,9 +223721,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p903",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -223709,15 +223737,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-42A77CC6C710C9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:03:22Z",
+        "_saved_at": "2026-09-16T09:43:20Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-42A77CC6C710C9"
     },
     "SNU-RU-BFD86383A1A23D": {
-      "fingerprint": "d7ff636a1440b3ab438b4166e844382557965e34d97cdd7a48ee107099db42bb",
-      "checked_at": "2026-09-15T10:03:03Z",
+      "fingerprint": "b3fca278ddb782f064dbb965b0f1be92a9e936b893f52fe80f2100211c7e48e1",
+      "checked_at": "2026-09-16T09:42:18Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -223746,25 +223774,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "집적회로 및 시스템 설계, 바이오메디컬 및 초음파 시스템, 머신러닝, 드론 및 의료용 초음파 회로, 인체영역네트워크(통신 및 전력전송), 차세대 컴퓨팅 회로 및 시스템을 연구합니다.",
+        "research_summary": "유담 교수는 집적회로 및 시스템 설계, 바이오메디컬 및 초음파 시스템, 머신러닝 분야를 연구하며, 특히 인체영역네트워크(통신 및 전력전송), 드론 및 의료용 초음파 회로, 차세대 컴퓨팅 회로 및 시스템에 중점을 두고 있습니다.",
         "research_topics": [
           "집적회로 및 시스템 설계",
           "바이오메디컬 및 초음파 시스템",
           "머신러닝",
-          "드론 및 의료용 초음파 회로 및 시스템",
-          "인체영역네트워크 (통신 및 전력전송)",
+          "인체영역네트워크(통신 및 전력전송)",
           "차세대 컴퓨팅 회로 및 시스템"
         ],
         "recommendation_keywords": [
           "집적회로",
-          "바이오메디컬",
+          "바이오메디컬 시스템",
           "초음파 시스템",
           "머신러닝",
           "인체영역네트워크",
           "집적회로 및 시스템 설계",
           "바이오메디컬 및 초음파 시스템",
-          "드론 및 의료용 초음파 회로 및 시스템",
-          "인체영역네트워크 (통신 및 전력전송)",
+          "인체영역네트워크(통신 및 전력전송)",
           "차세대 컴퓨팅 회로 및 시스템"
         ],
         "recent_papers": [],
@@ -223779,7 +223805,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "2010년 한국과학기술원(KAIST)에서 전기 및 전자공학 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 정보를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부의 교수 초빙 안내 및 지원서 작성 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -223819,15 +223845,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BFD86383A1A23D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:03:39Z",
+        "_saved_at": "2026-09-16T09:42:37Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-BFD86383A1A23D"
     },
     "SNU-RU-2C58B9D2B72762": {
-      "fingerprint": "cbe6a23d1e0343ef6d1dbe1b3b0d20e79f098fdc69593795865615ba0e59bb4e",
-      "checked_at": "2026-09-15T10:03:03Z",
+      "fingerprint": "9db190a06b9e189cc234cec6f963e65b6d4a9d57c5c4fc0c2ec1e3ea32363dc7",
+      "checked_at": "2026-09-16T09:42:18Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -223856,7 +223882,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "오정석 교수는 능동 및 수동 메타표면, 안테나 시스템(AiP/AoP/AoC), RFIC/MMIC, 그리고 실내외 전파전파 모델링(Ray Tracing) 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "능동 및 수동 메타표면, 안테나 시스템(AiP/AoP/AoC), RFIC/MMIC, 그리고 실내외 전파전파 모델링(Ray Tracing) 분야를 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "능동 및 수동 메타표면",
           "안테나 시스템 (AiP/AoP/AoC)",
@@ -223865,11 +223891,16 @@
         ],
         "recommendation_keywords": [
           "능동 및 수동 메타표면",
-          "안테나 시스템 (AiP; AoP; AoC)",
+          "안테나 시스템",
+          "AiP",
+          "AoP",
+          "AoC",
           "RFIC",
           "MMIC",
-          "전파전파 모델링 (Indoor; Outdoor Ray Tracing)",
-          "RFIC/MMIC"
+          "전파전파 모델링",
+          "안테나 시스템 (AiP/AoP/AoC)",
+          "RFIC/MMIC",
+          "전파전파 모델링 (Indoor/Outdoor Ray Tracing)"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -223881,9 +223912,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2002년 서울대학교 전기공학과 학사, 2007년 동 대학원 석사, 2012년 미시간대학교 전기공학과 박사 학위를 취득하였습니다.",
+        "education_summary": "2002년 서울대학교 전기공학과 학사, 2007년 동 대학원 석사 학위를 취득하였으며, 2012년 미시간대학교에서 전기공학 박사 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 전기·정보공학부의 공식 초빙안내 및 지원서 작성 페이지를 통해 교수 초빙 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -223923,7 +223954,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2C58B9D2B72762",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:03:30Z",
+        "_saved_at": "2026-09-16T09:42:29Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245889,11 +245920,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T09:41:56Z",
-    "checked": 615,
-    "seconds": 7070.46,
+    "at": "2026-09-16T09:43:23Z",
+    "checked": 620,
+    "seconds": 7157.5,
     "gemini": true,
-    "ai_requests": 414,
+    "ai_requests": 419,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
