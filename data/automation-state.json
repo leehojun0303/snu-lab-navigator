@@ -1,5 +1,5 @@
 {
-  "cursor": 1750,
+  "cursor": 1755,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -16970,8 +16970,8 @@
       "_unit_id": "SNU-RU-A76640F3D2D5E6"
     },
     "SNU-RU-1DA2C3CA85B469": {
-      "fingerprint": "5e68ea55dd12135bed3e685ae15358326e7cc819497112590d1b6fbcd4f147db",
-      "checked_at": "2026-09-16T13:33:21Z",
+      "fingerprint": "9d0a8cf1bd8aa95a456d9c6502cc4c848659c0fc7a265bec847dd6d0ee91d207",
+      "checked_at": "2026-09-16T17:17:08Z",
       "activity": {
         "publicationPages": [
           {
@@ -17001,20 +17001,22 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강현철 교수는 방사선종양학 분야에서 소화기암, 부인암, 육종, 피부암 등을 전문으로 연구하며, 특히 전신 방사선 조사(TBI)를 위한 기계 학습 기반의 선량 측정 및 치료 계획 수립 등에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "강현철 교수는 방사선종양학 분야에서 소화기암, 부인암, 육종, 피부암 등을 전문으로 연구하며, 특히 머신러닝을 활용한 전신 방사선 조사(TBI)의 선량 측정 및 치료 계획 최적화 등에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "소화기암",
           "부인암",
           "육종",
           "피부암",
-          "방사선종양학"
+          "방사선종양학",
+          "머신러닝 기반 선량 측정"
         ],
         "recommendation_keywords": [
           "소화기암",
           "부인암",
           "육종",
           "피부암",
-          "방사선종양학"
+          "방사선종양학",
+          "머신러닝 기반 선량 측정"
         ],
         "recent_papers": [
           {
@@ -17022,16 +17024,11 @@
             "url": "https://snu.elsevierpure.com/en/publications/machine-learning-approach-to-estimation-of-in-vivo-measured-dose-/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "전신 방사선 조사(TBI) 시 생체 내 측정 선량을 예측하고 치료 계획을 수립하기 위해 기계 학습 모델을 활용한 연구입니다."
+            "summary": "전신 방사선 조사(TBI) 시 생체 내 측정 선량을 예측하고 치료 계획을 수립하기 위해 머신러닝 모델을 적용한 연구입니다."
           }
         ],
         "recent_year_paper_count": 59,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Scientific Reports",
-            "count": 1
-          }
-        ],
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -17046,7 +17043,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-12/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -17083,7 +17080,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1DA2C3CA85B469",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T12:05:44Z",
+        "_saved_at": "2026-09-16T17:17:12Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -17290,8 +17287,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D6B509F16B90EF": {
-      "fingerprint": "9d80515f99c047e5fc521f8b3c0c9918ac96681365414ffdb9f312b9a75bad7d",
-      "checked_at": "2026-09-16T13:33:22Z",
+      "fingerprint": "92d8e7decd2dcd8de36cba5ca35f9a617d13e048c054c339fc820d6deef031f9",
+      "checked_at": "2026-09-16T17:17:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -17523,18 +17520,118 @@
       "_unit_id": "SNU-RU-BEE670BB01A967"
     },
     "SNU-RU-EC7F28337CB5A9": {
-      "fingerprint": "ebb47bd3a1dc9c975e72975a7b14f51e84947d4821a550a846788e502f3ac394",
-      "checked_at": "2026-09-16T13:33:22Z",
+      "fingerprint": "41d72d9a67fb631b473292d8a10c55f1723d101b7ecfbc2c118d42a63f8966ca",
+      "checked_at": "2026-09-16T17:17:10Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Hye Ryun Kang - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/"
+            "title": "View all 216 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "188",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "13",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
+          },
+          {
+            "title": "12",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13959846/23_Kang_+Hye+Ryun.jpg?w=160&f=jpg",
+            "alt": "Hye Ryun Kang",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kang-13/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kang-13/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -17663,11 +17760,12 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-EC7F28337CB5A9"
+      "_unit_id": "SNU-RU-EC7F28337CB5A9",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FC05D8FC5968E3": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T13:33:26Z",
+      "checked_at": "2026-09-16T17:17:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -17891,7 +17989,7 @@
     },
     "SNU-RU-C16D016A73EE20": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T13:33:26Z",
+      "checked_at": "2026-09-16T17:17:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -245846,9 +245944,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T13:34:04Z",
-    "checked": 10,
-    "seconds": 71.0,
+    "at": "2026-09-16T17:17:18Z",
+    "checked": 5,
+    "seconds": 41.16,
     "gemini": true,
     "ai_requests": 1,
     "completed_full_pass": false
