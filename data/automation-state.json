@@ -1,5 +1,5 @@
 {
-  "cursor": 180,
+  "cursor": 185,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -98313,8 +98313,8 @@
       "_unit_id": "SNU-RU-75F19F8496F901"
     },
     "SNU-RU-A490462DCEA8F8": {
-      "fingerprint": "a679564144b8c71c3edd60b21e96a725731f8fb2b1d6e5e1b2c9beb8e9cda783",
-      "checked_at": "2026-09-15T09:59:53Z",
+      "fingerprint": "05c13cdf13f4a71768df56277cfe5e354b380cabf2d60e85f93b9a3cf6796533",
+      "checked_at": "2026-09-16T09:39:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -98324,6 +98324,10 @@
           {
             "title": "JOURNALS",
             "url": "https://stargate.snu.ac.kr/publications/journals"
+          },
+          {
+            "title": "CONFERENCES",
+            "url": "https://stargate.snu.ac.kr/publications/conferences"
           },
           {
             "title": "BOOKS / PATENTS",
@@ -98352,25 +98356,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박남규 교수는 광자 시스템 연구실(Photonic Systems Lab)을 이끌며 광통신, 나노광학, 메타물질 분야를 연구하고 있습니다. 주요 연구 주제로는 광학적 코딩 기법, 나노 구조를 적용한 차세대 초광대역 집적 회로, 나노 포토닉스 및 실리콘 포토닉스, 그리고 메타물질의 다양한 응용(광학, RF, 음향, 탄성) 등이 있습니다.",
+        "research_summary": "박남규 교수는 광자 시스템 연구실을 이끌며 광통신 및 광응용 시스템 분야를 연구하고 있습니다.",
         "research_topics": [
           "광통신",
-          "광응용시스템",
-          "나노광학",
-          "메타물질",
-          "나노 포토닉스",
-          "실리콘 포토닉스",
-          "광학적 코딩 기법"
+          "광응용시스템"
         ],
         "recommendation_keywords": [
           "광통신",
-          "나노광학",
-          "메타물질",
-          "나노 포토닉스",
-          "광자 시스템",
-          "광응용시스템",
-          "실리콘 포토닉스",
-          "광학적 코딩 기법"
+          "광응용시스템"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -98382,7 +98375,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1987년 서울대학교 물리학과 학사, 1988년 Brown University 물리학과 석사, 1994년 California Institute of Technology 응용물리학과 박사 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "PUBLICATIONS",
@@ -98393,11 +98386,15 @@
             "url": "https://stargate.snu.ac.kr/publications/journals"
           },
           {
+            "title": "CONFERENCES",
+            "url": "https://stargate.snu.ac.kr/publications/conferences"
+          },
+          {
             "title": "BOOKS / PATENTS",
             "url": "https://stargate.snu.ac.kr/publications/books-patents"
           }
         ],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 관련 정보를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 및 입시, 취업 관련 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -98418,22 +98415,22 @@
         "source_urls_used": [
           "https://stargate.snu.ac.kr/",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p015",
-          "https://stargate.snu.ac.kr/members",
           "https://stargate.snu.ac.kr/publications",
-          "https://stargate.snu.ac.kr/publications/journals",
-          "https://stargate.snu.ac.kr/publications/books-patents",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr",
+          "https://stargate.snu.ac.kr/members",
           "https://stargate.snu.ac.kr/professor",
           "https://stargate.snu.ac.kr/alumni",
+          "https://stargate.snu.ac.kr/publications/journals",
           "https://stargate.snu.ac.kr/publications/conferences",
+          "https://stargate.snu.ac.kr/publications/books-patents",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A490462DCEA8F8",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:00:09Z",
+        "_saved_at": "2026-09-16T09:39:31Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -103835,8 +103832,8 @@
       "_unit_id": "SNU-RU-F7B3D00575A847"
     },
     "SNU-RU-6CB51C41AA8893": {
-      "fingerprint": "c0f3e8d2ace39b293b9e616065e4ae043d16168f1cc4e777529943c255a1b310",
-      "checked_at": "2026-09-15T10:00:04Z",
+      "fingerprint": "b2aa29f3251cfb8ae49c07353b357e9b6de472e5997253e3ef4b059532603d50",
+      "checked_at": "2026-09-16T09:39:31Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -103865,7 +103862,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "무선 네트워크, 네트워크 디자인 및 성능 분석, 인터넷 프로토콜 분야를 중점적으로 연구하고 있습니다.",
+        "research_summary": "박세웅 교수는 무선 네트워크, 네트워크 디자인 및 성능 분석, 인터넷 프로토콜 분야를 중점적으로 연구하고 있습니다.",
         "research_topics": [
           "무선 네트워크",
           "네트워크 디자인 및 성능 분석",
@@ -103873,7 +103870,7 @@
         ],
         "recommendation_keywords": [
           "네트워크 디자인",
-          "성능분석",
+          "성능 분석",
           "무선 네트워크",
           "인터넷 프로토콜",
           "네트워크 디자인 및 성능 분석"
@@ -103890,7 +103887,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "1984년 서울대학교 전기공학과 학사, 1986년 동 대학원 석사를 거쳐 1991년 미국 펜실베니아 대학원에서 시스템공학 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부의 신임교수 초빙 안내 및 지원서 작성 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부의 신임교수 초빙 안내 및 지원서 작성 페이지가 제공되고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -103930,7 +103927,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6CB51C41AA8893",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:00:39Z",
+        "_saved_at": "2026-09-16T09:40:02Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -108744,8 +108741,8 @@
       "_unit_id": "SNU-RU-77B88B8F610A28"
     },
     "SNU-RU-EB042BACDDD801": {
-      "fingerprint": "9c79de0bcda5322a9fb785e7528ef31cf469d6dc7490b035c4dc27553e1a1255",
-      "checked_at": "2026-09-15T10:00:03Z",
+      "fingerprint": "df59696cf5ab58f9e0168be4c91ce1a6d51b76d2403df9edb38c661240af3c4c",
+      "checked_at": "2026-09-16T09:39:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -108758,7 +108755,7 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "",
+        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p897",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p897",
@@ -108801,7 +108798,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -108815,7 +108812,7 @@
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p897",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -108824,10 +108821,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://ece.snu.ac.kr/faculty/job-openings",
-          "https://ece.snu.ac.kr/faculty/job-openings/application",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p897",
           "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -108841,7 +108838,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EB042BACDDD801",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:00:28Z",
+        "_saved_at": "2026-09-16T09:39:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -112718,8 +112715,8 @@
       "_unit_id": "SNU-RU-FBB827BDAE04AF"
     },
     "SNU-RU-409581344AB3FF": {
-      "fingerprint": "b5fbfa827c368b42cb65b420241c9b44ad6a12d2afe13dd668cad8613a81b5e5",
-      "checked_at": "2026-09-15T09:59:53Z",
+      "fingerprint": "76d1e1d030dda32661f6ecd850ad5a1e928669d24a8602d527a49605a1688347",
+      "checked_at": "2026-09-16T09:39:20Z",
       "activity": {
         "publicationPages": [
           {
@@ -112746,12 +112743,12 @@
       "enrichment": {
         "research_summary": "지능형 시스템 반도체 설계 연구실(AI SOC Lab)은 차세대 컴퓨팅을 위한 특화 하드웨어 시스템을 연구합니다. 주요 연구 분야는 컴퓨터 아키텍처, VLSI 설계, 하드웨어-소프트웨어 코디자인, 인메모리 프로세싱 아키텍처이며, 특히 AI 기반 애플리케이션을 지원하는 고성능 컴퓨팅 플랫폼 개발에 집중하고 있습니다.",
         "research_topics": [
-          "Deep Learning / Deep Neural Network Accelerator",
-          "AI System-on-Chip",
-          "In-memory Processing Architecture",
-          "저전력/고성능 디지털 시스템-온-칩 설계",
-          "응용 특화 프로세서 및 가속기 설계",
-          "하드웨어-소프트웨어 코디자인"
+          "AI 시스템-온-칩 (AI System-on-Chip)",
+          "딥러닝/심층 신경망 가속기 (Deep Learning / Deep Neural Network Accelerator)",
+          "인메모리 프로세싱 아키텍처 (In-memory Processing Architecture)",
+          "컴퓨터 아키텍처 (Computer Architecture)",
+          "VLSI 설계 (VLSI Design)",
+          "하드웨어-소프트웨어 코디자인 (Hardware-Software Co-design)"
         ],
         "recommendation_keywords": [
           "AI 시스템-온-칩",
@@ -112759,12 +112756,12 @@
           "저전력 디지털 회로 설계",
           "컴퓨터 아키텍처",
           "VLSI 설계",
-          "Deep Learning / Deep Neural Network Accelerator",
-          "AI System-on-Chip",
-          "In-memory Processing Architecture",
-          "저전력/고성능 디지털 시스템-온-칩 설계",
-          "응용 특화 프로세서 및 가속기 설계",
-          "하드웨어-소프트웨어 코디자인"
+          "AI 시스템-온-칩 (AI System-on-Chip)",
+          "딥러닝/심층 신경망 가속기 (Deep Learning / Deep Neural Network Accelerator)",
+          "인메모리 프로세싱 아키텍처 (In-memory Processing Architecture)",
+          "컴퓨터 아키텍처 (Computer Architecture)",
+          "VLSI 설계 (VLSI Design)",
+          "하드웨어-소프트웨어 코디자인 (Hardware-Software Co-design)"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -112776,14 +112773,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2015년 한국과학기술원(KAIST)에서 전기 및 전자공학 박사 학위를 취득하였습니다.",
+        "education_summary": "박준석 교수는 한국과학기술원(KAIST)에서 전기 및 전자공학 학사(2009), 석사(2011), 박사(2015) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publication",
             "url": "https://sites.google.com/snu.ac.kr/soc/publication"
           }
         ],
-        "recruitment_summary": "지능형 시스템 반도체 설계 연구실에서는 전기·전자공학 분야의 배경지식을 갖춘 대학원생 및 인턴을 상시 모집하고 있습니다. 관심 있는 학생은 박준석 교수(junseok.park@snu.ac.kr)에게 이력서를 제출하여 지원할 수 있습니다.",
+        "recruitment_summary": "지능형 시스템 반도체 설계 연구실은 전기·전자공학 분야의 배경지식을 갖춘 열정적인 대학원생을 모집하고 있습니다. AI 프로세서, 컴퓨터 아키텍처, VLSI 설계에 관심 있는 학생은 박준석 교수에게 이메일로 이력서를 보내 지원할 수 있습니다.",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "https://sites.google.com/snu.ac.kr/soc",
         "current_members": [],
@@ -112799,12 +112796,12 @@
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p920",
           "https://sites.google.com/snu.ac.kr/soc",
-          "https://ece.snu.ac.kr",
           "https://sites.google.com/snu.ac.kr/soc/members",
+          "https://sites.google.com/snu.ac.kr/soc/publication",
+          "https://ece.snu.ac.kr",
           "https://sites.google.com/snu.ac.kr/soc/members/professor",
           "https://sites.google.com/snu.ac.kr/soc/members/researchers",
           "https://sites.google.com/snu.ac.kr/soc/members/alumni",
-          "https://sites.google.com/snu.ac.kr/soc/publication",
           "https://sites.google.com/snu.ac.kr/soc/publication/international-conference",
           "https://sites.google.com/snu.ac.kr/soc/publication/journals",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
@@ -112814,7 +112811,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-409581344AB3FF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:00:02Z",
+        "_saved_at": "2026-09-16T09:39:28Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -124200,27 +124197,19 @@
       "_unit_id": "SNU-RU-B921BEEF4CA709"
     },
     "SNU-RU-21721BBAF74C91": {
-      "fingerprint": "b03166e717c41e09a473f81ec12f3dd8c40ff5f61fd26f6f88b61e3af2108b3b",
-      "checked_at": "2026-09-15T10:00:02Z",
+      "fingerprint": "a50c4055779709f888b094ef0d615d807e406ad282e95d79895100e7090072b9",
+      "checked_at": "2026-09-16T09:39:29Z",
       "activity": {
         "publicationPages": [
           {
             "title": "International Papers",
             "url": "http://sor.snu.ac.kr/board/Publication"
-          },
-          {
-            "title": "Domestic Papers",
-            "url": "http://sor.snu.ac.kr/board/d_papers"
           }
         ],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "입시",
-            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
           }
         ],
         "membersUrl": "http://sor.snu.ac.kr/board/Students",
@@ -124239,32 +124228,79 @@
         ]
       },
       "enrichment": {
-        "research_summary": "백윤흥 교수의 보안 최적화 연구실(SOR Lab)은 컴퓨터 및 네트워크 시스템의 보안성 향상을 위한 연구를 수행합니다. 주요 연구 분야는 보안 하드웨어 및 시스템 설계(하드웨어 격리 실행 환경, 보안 연산 가속 ISA 설계 등), 시스템 소프트웨어 및 어플리케이션 보안(OS 커널/하이퍼바이저 수정, 컴파일러 기반 취약점 방어), 그리고 보안을 위한 AI 및 AI 보안 기술을 포함합니다.",
+        "research_summary": "백윤흥 교수는 서울대학교 전기·정보공학부 소속으로, 보안 최적화 연구실(SOR Lab)을 이끌고 있습니다. 주요 연구 분야는 시스템 보안, 시스템온칩(SoC) 최적화, 컴파일러, 프로세서 설계이며, 특히 소프트웨어와 시스템 보안, 보안을 위한 하드웨어 기술, 지능형 보안 및 AI 보안 기술에 집중하고 있습니다.",
         "research_topics": [
           "시스템 보안",
           "시스템온칩 최적화",
           "컴파일러",
           "프로세서 설계",
-          "소프트웨어와 시스템의 보안",
-          "보안을 위한 하드웨어",
+          "소프트웨어와 시스템 보안",
+          "보안을 위한 하드웨어 기술",
           "지능형 보안",
-          "AI의 보안"
+          "AI 보안"
         ],
         "recommendation_keywords": [
           "시스템 보안",
           "시스템온칩 최적화",
           "컴파일러",
           "프로세서 설계",
-          "보안 하드웨어",
-          "AI 보안",
-          "소프트웨어와 시스템의 보안",
-          "보안을 위한 하드웨어",
+          "프로그램 분석",
+          "정보 보안 및 프라이버시",
+          "소프트웨어와 시스템 보안",
+          "보안을 위한 하드웨어 기술",
           "지능형 보안",
-          "AI의 보안"
+          "AI 보안"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "PCPSI: Efficient Unbalanced Private Set Intersection Using Homomorphic Encryption with Plaintext–Ciphertext Multiplication",
+            "url": "http://sor.snu.ac.kr/post/909",
+            "year": "2026",
+            "venue": "IEEE Access",
+            "summary": ""
+          },
+          {
+            "title": "PI-FD: Property Inference Attacks on Federated Learning with Distillation via Synthetic Data Generation",
+            "url": "http://sor.snu.ac.kr/post/908",
+            "year": "2026",
+            "venue": "IEEE Access",
+            "summary": ""
+          },
+          {
+            "title": "HEPIC: Private Inference over Homomorphic Encryption with Client Intervention",
+            "url": "http://sor.snu.ac.kr/post/890",
+            "year": "2026",
+            "venue": "ASPLOS 2026",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 10,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "IEEE Access",
+            "count": 3
+          },
+          {
+            "venue": "ASPLOS",
+            "count": 2
+          },
+          {
+            "venue": "USENIX Security",
+            "count": 2
+          },
+          {
+            "venue": "ICSE",
+            "count": 1
+          },
+          {
+            "venue": "NDSS",
+            "count": 1
+          },
+          {
+            "venue": "Future Generation Computer Systems",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -124272,26 +124308,18 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1988년 서울대학교 컴퓨터공학과 학사, 1990년 동 대학원 석사를 거쳐 1997년 미국 일리노이 주립대학교(UIUC)에서 전산학 박사 학위를 취득하였습니다.",
+        "education_summary": "1988년 서울대학교 컴퓨터공학과 학사, 1990년 석사를 취득하였으며, 1997년 미국 일리노이 주립대학교(UIUC)에서 전산학 박사 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "International Papers",
             "url": "http://sor.snu.ac.kr/board/Publication"
-          },
-          {
-            "title": "Domestic Papers",
-            "url": "http://sor.snu.ac.kr/board/d_papers"
           }
         ],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지의 신임교수 초빙 및 입시 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지의 신임교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "입시",
-            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
@@ -124307,23 +124335,24 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://sor.snu.ac.kr/",
-          "http://sor.snu.ac.kr/document/introduction",
+          "http://sor.snu.ac.kr/board/Publication",
+          "http://sor.snu.ac.kr/document/professors",
+          "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p058",
           "https://ece.snu.ac.kr",
-          "http://sor.snu.ac.kr/document/professors",
           "http://sor.snu.ac.kr/board/Students",
           "http://sor.snu.ac.kr/board/Alumni",
-          "http://sor.snu.ac.kr/board/Publication",
           "http://sor.snu.ac.kr/board/d_papers",
           "http://sor.snu.ac.kr/board/news",
+          "http://sor.snu.ac.kr/document/introduction",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-21721BBAF74C91",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T10:00:24Z",
+        "_saved_at": "2026-09-16T09:39:49Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245950,11 +245979,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T09:39:13Z",
-    "checked": 600,
-    "seconds": 6907.03,
+    "at": "2026-09-16T09:40:02Z",
+    "checked": 605,
+    "seconds": 6955.84,
     "gemini": true,
-    "ai_requests": 399,
+    "ai_requests": 404,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
