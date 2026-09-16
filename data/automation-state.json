@@ -1,5 +1,5 @@
 {
-  "cursor": 1855,
+  "cursor": 1860,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -53172,28 +53172,42 @@
       "_unit_id": "SNU-RU-122BBA7624EE32"
     },
     "SNU-RU-9F476B36B9C810": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-15T08:21:49Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-16T08:06:44Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [
           "소아신경학"
         ],
@@ -53210,14 +53224,28 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학습 및 생활 적응을 지원합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -53228,31 +53256,30 @@
         "source_urls_used": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9F476B36B9C810",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:08:19Z",
+        "_saved_at": "2026-09-16T08:07:07Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-9F476B36B9C810"
     },
     "SNU-RU-7089FFF9B804A9": {
-      "fingerprint": "9b6529984ca25bf0d1bb5827fe98efa70d3726360993741a69aa67696dc2078c",
-      "checked_at": "2026-09-15T08:21:46Z",
+      "fingerprint": "4fb24232f4450a8ff39fe24bcda019030a629eb4e4d4dc9d872574ac63af65ee",
+      "checked_at": "2026-09-16T08:06:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -53310,7 +53337,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "현재 공식 페이지에서 특정 연구실의 모집 공고를 확인하기 어렵습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -53327,7 +53354,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959487/148_Kim_+Soowoong.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-content",
-        "poster_evidence": "Official profile image of Soowoong Kim found on the SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-31/",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/",
@@ -53346,15 +53373,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7089FFF9B804A9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:22:04Z",
+        "_saved_at": "2026-09-16T08:06:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7089FFF9B804A9"
     },
     "SNU-RU-AA7A02EBAFB2B0": {
-      "fingerprint": "d12e0dd21920963959512a80025389c4e2d6aee90d941f1a938800309e4a9bf7",
-      "checked_at": "2026-09-15T08:21:46Z",
+      "fingerprint": "223333d6ef58b2a3190f05cc4a7fe0a6b109a3527428a302f230fb5559a91732",
+      "checked_at": "2026-09-16T08:06:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -53362,12 +53389,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -53384,16 +53406,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김수진 교수는 유방내분비외과학 분야를 전문으로 하며, 유방암 및 내분비 질환과 관련된 다양한 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김수진 교수는 유방내분비외과학 분야를 전문으로 하며, 유방암 치료 및 관련 임상 연구를 수행하고 있습니다.",
         "research_topics": [
           "유방내분비외과학",
-          "유방암",
-          "내분비외과"
+          "유방암"
         ],
         "recommendation_keywords": [
-          "유방암",
-          "내분비외과",
-          "유방내분비외과학"
+          "유방내분비외과학",
+          "유방암"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -53405,21 +53425,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 외과학교실 소속으로 유방내분비외과학을 연구 및 교육하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 158 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 확인되지 않으며, 연건캠퍼스 학생지원센터를 통해 학생 지원 프로그램을 안내하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
@@ -53429,26 +53444,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959494/150_Kim_+Su-Jin.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-content",
-        "poster_evidence": "Official profile image of Su-Jin Kim found on the SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-32/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA7A02EBAFB2B0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:21:56Z",
+        "_saved_at": "2026-09-16T08:06:59Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -53547,8 +53562,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-436BA3CB9151DC": {
-      "fingerprint": "5db43ef9f978577229ad045a8aea09be6d61ed786ae5f5db8f681125d3797938",
-      "checked_at": "2026-09-15T08:21:45Z",
+      "fingerprint": "a0d0638bb439eb6d4271af0237e6afd91cfbd17095434f9f71b8eb9b2fb61fad",
+      "checked_at": "2026-09-16T08:06:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -53556,12 +53571,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -53570,27 +53580,27 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "김슬기 교수는 생식내분비학 분야를 전문으로 하며, 산부인과학교실에서 연구 및 교육 활동을 수행하고 있습니다. 주요 연구 성과로는 115건 이상의 연구 산출물을 발표하였으며, 특히 학술지 논문과 체계적 문헌고찰 분야에서 활발한 연구를 진행하고 있습니다.",
+        "research_summary": "김슬기 교수는 산부인과학교실 소속으로 생식내분비학 분야를 연구하며, 난임, 생식 의학 및 관련 질환에 관한 다수의 학술 논문을 발표하고 있습니다.",
         "research_topics": [
           "생식내분비학",
-          "산부인과학"
+          "산부인과",
+          "난임"
         ],
         "recommendation_keywords": [
           "생식내분비학",
           "산부인과",
-          "의학",
-          "산부인과학"
+          "난임"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 115,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -53599,21 +53609,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 산부인과학교실 소속으로 생식내분비학 관련 교육 및 연구를 담당하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 115 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 제공된 URL에서 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/",
@@ -53623,26 +53628,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959502/152_Kim_+Seul+Ki.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-33/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-436BA3CB9151DC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:21:48Z",
+        "_saved_at": "2026-09-16T08:06:43Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -53792,7 +53797,7 @@
     },
     "SNU-RU-73A27825E43D5D": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-15T08:21:49Z",
+      "checked_at": "2026-09-16T08:06:45Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -245829,11 +245834,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T08:06:12Z",
-    "checked": 105,
-    "seconds": 1326.11,
+    "at": "2026-09-16T08:07:07Z",
+    "checked": 110,
+    "seconds": 1381.38,
     "gemini": true,
-    "ai_requests": 77,
+    "ai_requests": 81,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
