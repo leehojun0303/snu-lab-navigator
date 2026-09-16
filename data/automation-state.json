@@ -1,5 +1,5 @@
 {
-  "cursor": 160,
+  "cursor": 165,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -20659,8 +20659,8 @@
       "_unit_id": "SNU-RU-E720F805E53B9D"
     },
     "SNU-RU-6426D3EFF96672": {
-      "fingerprint": "15b048b4c491511166348458107b2a312bcc0cd8563c8b604ddd3e3dffd2515c",
-      "checked_at": "2026-09-15T09:56:14Z",
+      "fingerprint": "502089c0cd5a33c89c2e43f2b54d1c0fdefeb1de1f81169c74c2345e87ad4651",
+      "checked_at": "2026-09-16T09:35:55Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -20689,13 +20689,12 @@
         ]
       },
       "enrichment": {
-        "research_summary": "컴퓨터 그래픽스, 애니메이션, 가상현실 분야를 중심으로 디지털 액터 및 특수효과 관련 연구를 수행하고 있습니다.",
+        "research_summary": "컴퓨터 그래픽스, 애니메이션, 가상현실 분야를 연구하며, 특히 컴퓨터 애니메이션과 디지털 액터 기술에 집중하고 있습니다.",
         "research_topics": [
           "컴퓨터 그래픽스",
           "애니메이션",
           "가상현실",
-          "디지털 액터",
-          "특수효과"
+          "디지털 액터"
         ],
         "recommendation_keywords": [
           "컴퓨터 애니메이션",
@@ -20715,9 +20714,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1985년 서울대학교 계산통계학과(전산학전공) 학사, 1987년 동 대학원 석사 졸업 후, 1994년 미국 펜실바니아 대학교에서 컴퓨터그래픽스 전공으로 박사 학위를 취득하였습니다.",
+        "education_summary": "1985년 서울대학교 계산통계학과(전산학전공) 학사, 1987년 동 대학원 석사, 1994년 미국 펜실바니아 대학교에서 컴퓨터그래픽스 전공으로 박사 학위를 취득했습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부의 교수 초빙 안내 및 지원서 작성 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -20740,12 +20739,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p001",
           "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
           "https://ece.snu.ac.kr/about/greetings",
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
           "https://ece.snu.ac.kr/research-faculty/faculty/emeritus",
           "https://ece.snu.ac.kr/research-faculty/faculty/former-deans",
@@ -20757,7 +20756,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6426D3EFF96672",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:56:55Z",
+        "_saved_at": "2026-09-16T09:36:25Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -22761,12 +22760,12 @@
       "_unit_id": "SNU-RU-151979BDC1F26E"
     },
     "SNU-RU-33DFF092306307": {
-      "fingerprint": "5b2dfadd311edbf12f99a050e8f924cd677d93e1f85339ab7147040a6a490f39",
-      "checked_at": "2026-09-15T09:56:09Z",
+      "fingerprint": "b4215b5971bf1c7325486cba1fb12298b619fd69ba69e10b0d7173a6ea34ad6d",
+      "checked_at": "2026-09-16T09:35:50Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journal(SCIE)",
+            "title": "Publications",
             "url": "http://aone.snu.ac.kr/pub_SCI.html"
           },
           {
@@ -22796,23 +22795,25 @@
         ]
       },
       "enrichment": {
-        "research_summary": "광·나노 전자소자 연구실(AONE Lab)은 차세대 디스플레이 및 미래 전자소자를 위한 광전자 및 나노전자 소자를 연구합니다. 주요 연구 분야는 양자점(QD) 및 유기발광다이오드(OLED) 기반의 고성능 디스플레이, 에너지 수확을 위한 유기 열전소자, 그리고 뉴로모픽 컴퓨팅을 위한 저항성 메모리(RRAM) 소자 개발과 소자 물리학 연구를 포함합니다.",
+        "research_summary": "광·나노 전자소자 연구실(AONE Lab)을 운영하며 차세대 디스플레이 및 미래 전자소자를 위한 광전자·나노전자 소자를 연구합니다. 주요 연구 분야는 퀀텀닷 발광다이오드(QLED), 유기발광다이오드(OLED), 유기 열전소자, 그리고 뉴로몰픽 컴퓨팅을 위한 저항 변화 메모리(RRAM) 소자입니다.",
         "research_topics": [
           "디스플레이",
-          "양자점",
+          "양자점(퀀텀닷)",
           "유기반도체",
-          "열전",
-          "뉴로모픽 소자",
-          "소자 물리학"
+          "열전소자",
+          "뉴로몰픽 소자",
+          "소자물리"
         ],
         "recommendation_keywords": [
           "디스플레이",
           "양자점",
           "유기반도체",
           "열전",
-          "뉴로모픽",
-          "뉴로모픽 소자",
-          "소자 물리학"
+          "뉴로몰픽",
+          "양자점(퀀텀닷)",
+          "열전소자",
+          "뉴로몰픽 소자",
+          "소자물리"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -22827,7 +22828,7 @@
         "education_summary": "2005년 서울대학교 전기공학부 학사, 2010년 서울대학교 전기컴퓨터공학부 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
-            "title": "Journal(SCIE)",
+            "title": "Publications",
             "url": "http://aone.snu.ac.kr/pub_SCI.html"
           },
           {
@@ -22835,7 +22836,7 @@
             "url": "http://aone.snu.ac.kr/pub_nonSCI.html"
           }
         ],
-        "recruitment_summary": "대학원생을 수시 모집하며, 전기/전자/반도체 분야 전공자 및 복수/부전공자를 우대합니다. 또한 삼성디스플레이 장학생 프로그램(Display Track)에 관심 있는 학부 2, 3학년 학생들의 문의를 환영합니다.",
+        "recruitment_summary": "QLED, 열전소자, 인공신경망 소자 등 유기전자소자 연구에 관심 있는 대학원생을 수시 모집하며, 삼성디스플레이 장학생 프로그램(Display Track)에 관심 있는 학부생(2, 3학년)의 문의도 환영합니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -22871,7 +22872,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-33DFF092306307",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:56:17Z",
+        "_saved_at": "2026-09-16T09:35:55Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -115518,8 +115519,8 @@
       "_unit_id": "SNU-RU-DC8F99BF345EC8"
     },
     "SNU-RU-E3CE6F29894ED3": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:56:11Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:35:50Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -115544,7 +115545,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -115557,9 +115558,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": "재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -115587,13 +115588,14 @@
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E3CE6F29894ED3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:56:38Z",
+        "_saved_at": "2026-09-16T09:36:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -129766,8 +129768,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-33225B7ACB7BE7": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:56:11Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:35:50Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -129792,7 +129794,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -129805,9 +129807,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 재료공학부에서는 학부 및 대학원 과정에 대한 입학 정보를 제공하고 있으며, 관련 상세 내용은 서울대학교 입학본부 홈페이지를 통해 확인할 수 있습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 재료공학부 입학 관련 안내는 공식 홈페이지의 입학(Admissions) 페이지를 통해 제공됩니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -129826,8 +129828,8 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
@@ -129835,13 +129837,14 @@
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-33225B7ACB7BE7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:56:31Z",
+        "_saved_at": "2026-09-16T09:36:17Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -132914,8 +132917,8 @@
       "_unit_id": "SNU-RU-039B51A9A93F81"
     },
     "SNU-RU-7F232E0BF51BE8": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:56:10Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:35:50Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -132983,13 +132986,14 @@
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7F232E0BF51BE8",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:56:21Z",
+        "_saved_at": "2026-09-16T09:36:00Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245933,11 +245937,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T09:35:37Z",
-    "checked": 580,
-    "seconds": 6691.02,
+    "at": "2026-09-16T09:36:25Z",
+    "checked": 585,
+    "seconds": 6739.23,
     "gemini": true,
-    "ai_requests": 380,
+    "ai_requests": 385,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
