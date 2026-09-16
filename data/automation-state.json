@@ -1,5 +1,5 @@
 {
-  "cursor": 175,
+  "cursor": 180,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -75487,13 +75487,22 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-0E8CF5216A68CB": {
-      "fingerprint": "1e48aec6b33d7821e13fde62a96a3886306b8ffc4dbf038783df4e915c2aff65",
-      "checked_at": "2026-09-15T09:59:07Z",
+      "fingerprint": "92c368231a78f7b1cb74819d10aeef95c540d30b8a7a39db17dcc9601092598e",
+      "checked_at": "2026-09-16T09:38:35Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "membersUrl": "https://snucad.snu.ac.kr/~tkim",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p062",
           "https://ece.snu.ac.kr",
@@ -75508,7 +75517,23 @@
         ]
       },
       "enrichment": {
+        "research_summary": "임베디드 하드웨어 및 소프트웨어의 최적 설계, 시스템-온-칩(SoC) 설계, 그리고 저전력 설계 분야를 중점적으로 연구하고 있습니다.",
+        "research_topics": [
+          "임베디드 시스템 설계",
+          "시스템-온-칩 설계",
+          "저전력 설계"
+        ],
+        "recommendation_keywords": [
+          "임베디드 시스템",
+          "SoC",
+          "저전력 설계",
+          "하드웨어/소프트웨어 최적화",
+          "임베디드 시스템 설계",
+          "시스템-온-칩 설계"
+        ],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -75516,19 +75541,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "1985년 서울대학교 계산통계학과 학사, 1987년 동 대학원 석사를 거쳐 1993년 미국 일리노이 주립대(어바나-샴페인)에서 전산학 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "member_page_url": "",
+        "recruitment_summary": "전기·정보공학부 홈페이지 내 신임교수 초빙 안내 및 지원서 작성 페이지를 통해 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "recommendation_keywords": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
-        "poster_status": "none_detected",
+        "member_page_url": "https://snucad.snu.ac.kr/~tkim",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -75537,9 +75567,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p062",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -75549,9 +75579,11 @@
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000"
         ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0E8CF5216A68CB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:59:46Z",
+        "_saved_at": "2026-09-16T09:39:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -85926,20 +85958,11 @@
       "_unit_id": "SNU-RU-FE97393855A2FA"
     },
     "SNU-RU-D33EC6B6DC27FD": {
-      "fingerprint": "195c72ea5ed750a51e3ca9215fe2735cc391d30edbb32668d09cd5a9087d1efc",
-      "checked_at": "2026-09-15T09:59:05Z",
+      "fingerprint": "64fde1c7220e7294759cd93bc265e4a77971338c4c56d44b38341ae288f68fea",
+      "checked_at": "2026-09-16T09:38:33Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [
-          {
-            "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p919",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
@@ -85956,17 +85979,17 @@
         ]
       },
       "enrichment": {
-        "research_summary": "반도체 기반 광집적회로 및 양자기술을 연구하며, 광집적회로, 양자기술, 반도체 공정 분야에 주력하고 있습니다.",
+        "research_summary": "반도체 기반 광집적회로 및 양자기술 분야를 연구하며, 광집적회로, 양자기술, 반도체 공정 등을 주요 연구 관심사로 다루고 있습니다.",
         "research_topics": [
           "광집적회로",
           "양자기술",
-          "반도체공정"
+          "반도체 공정"
         ],
         "recommendation_keywords": [
           "반도체 기반 광집적회로",
           "양자기술",
           "광집적회로",
-          "반도체공정"
+          "반도체 공정"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -85978,20 +86001,11 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "미국 스탠포드대학교 전기공학과에서 박사 및 석사 학위를 취득하였으며, 고려대학교 전파통신공학과에서 학사 학위를 받았습니다.",
+        "education_summary": "미국 스탠퍼드 대학교에서 전기공학 박사(2014) 및 석사(2012) 학위를 취득하였으며, 고려대학교에서 전파통신공학 학사(2009) 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
-          }
-        ],
-        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p919",
@@ -86020,7 +86034,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D33EC6B6DC27FD",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:59:22Z",
+        "_saved_at": "2026-09-16T09:38:36Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -89512,8 +89526,8 @@
       "_unit_id": "SNU-RU-0AECF4F80DF2DB"
     },
     "SNU-RU-BDC45AB5D8DA21": {
-      "fingerprint": "585d39b7e942d01df9d2fb433eba2003e04aac4f5f456ff61b3c2a0ec749328c",
-      "checked_at": "2026-09-15T09:59:05Z",
+      "fingerprint": "1074dda4a570c587ae0d546adad63a7c999f67b6e0d0d899e91c1c039552538f",
+      "checked_at": "2026-09-16T09:38:34Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -89555,8 +89569,9 @@
           "머신러닝",
           "자연어 처리",
           "AI 시스템",
-          "차세대 메모리",
-          "빅데이터/AI 시스템"
+          "빅데이터",
+          "빅데이터/AI 시스템",
+          "차세대 메모리"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -89594,9 +89609,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p901",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -89610,7 +89625,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BDC45AB5D8DA21",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:59:11Z",
+        "_saved_at": "2026-09-16T09:38:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -93282,8 +93297,8 @@
       "_unit_id": "SNU-RU-A5428957FCD057"
     },
     "SNU-RU-157370EFE9F1F0": {
-      "fingerprint": "3fc0da974fda5cf8480a999c8ba94506ec38b644e65b3d150e6601cf50caf13c",
-      "checked_at": "2026-09-15T09:59:06Z",
+      "fingerprint": "b6cc90fd2062278e03bd6ed5999931047e95c7e1e4d846e99bc15a6caa3064a1",
+      "checked_at": "2026-09-16T09:38:33Z",
       "activity": {
         "publicationPages": [
           {
@@ -93297,8 +93312,8 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
           },
           {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
           }
         ],
         "membersUrl": "https://altair.snu.ac.kr/smoon/",
@@ -93317,7 +93332,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "문수묵 교수는 가상머신 및 최적화 연구실을 운영하며 컴파일러 최적화, 가상머신 최적화, 웹 브라우저 최적화, 인공지능을 위한 엣지 컴퓨팅, 프로그램 변환, 블록체인 가상머신 등을 연구하고 있습니다. 주요 연구 관심 분야로는 블록체인 최적화, 연합학습, 메모리 반도체 테스트 프로그램의 변환, 웹 앱 가속화 등이 있습니다.",
+        "research_summary": "문수묵 교수는 가상머신 및 최적화 연구실을 운영하며 컴파일러 최적화, 가상머신 최적화, 웹 브라우저 최적화, 인공지능을 위한 엣지 컴퓨팅, 프로그램 변환, 블록체인 가상머신 및 연합학습 분야를 연구하고 있습니다.",
         "research_topics": [
           "컴파일러 최적화",
           "가상머신 최적화",
@@ -93325,20 +93340,16 @@
           "인공지능을 위한 엣지 컴퓨팅",
           "프로그램 변환",
           "블록체인 가상머신",
-          "연합학습",
-          "메모리 반도체 테스트 프로그램 변환"
+          "연합학습"
         ],
         "recommendation_keywords": [
           "컴파일러 최적화",
           "가상머신 최적화",
           "웹 브라우저 최적화",
-          "엣지 컴퓨팅",
-          "블록체인",
-          "연합학습",
           "인공지능을 위한 엣지 컴퓨팅",
           "프로그램 변환",
           "블록체인 가상머신",
-          "메모리 반도체 테스트 프로그램 변환"
+          "연합학습"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -93350,22 +93361,22 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1987년 서울대학교 컴퓨터공학과 학사, 1990년 및 1993년 미국 메릴랜드 대학교(University of Maryland, College Park)에서 각각 석사 및 박사 학위를 취득하였습니다.",
+        "education_summary": "1987년 서울대학교 컴퓨터공학과 학사, 1990년 및 1993년 University of Maryland, College Park에서 각각 석사 및 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publication",
             "url": "https://altair.snu.ac.kr/publication/"
           }
         ],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지의 신임교수 초빙 안내 및 입시 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
           },
           {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
@@ -93397,7 +93408,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-157370EFE9F1F0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:59:31Z",
+        "_saved_at": "2026-09-16T09:38:46Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -95079,8 +95090,8 @@
       "_unit_id": "SNU-RU-45C62B62DBAD8E"
     },
     "SNU-RU-876FAF4707A260": {
-      "fingerprint": "f55bedceef67acc5dc273c78ecfaa6858f143eecdaf93cbc98d6a2b1d103efc4",
-      "checked_at": "2026-09-15T09:59:06Z",
+      "fingerprint": "5a6c063d143bd4967d6da1cb4950ce1852b64888631a762ae257388ae97abb3c",
+      "checked_at": "2026-09-16T09:38:34Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -95109,7 +95120,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "문태섭 교수는 적응형 기계학습, 신뢰가능 AI, 데이터 응용 분야를 중점적으로 연구하고 있습니다.",
+        "research_summary": "문태섭 교수는 적응형 기계학습, 신뢰가능 AI, 데이터 응용 분야를 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "적응형 기계학습",
           "신뢰가능 AI",
@@ -95159,9 +95170,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p870",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -95175,7 +95186,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-876FAF4707A260",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:59:36Z",
+        "_saved_at": "2026-09-16T09:39:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245939,11 +245950,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T09:38:16Z",
-    "checked": 595,
-    "seconds": 6850.46,
+    "at": "2026-09-16T09:39:13Z",
+    "checked": 600,
+    "seconds": 6907.03,
     "gemini": true,
-    "ai_requests": 394,
+    "ai_requests": 399,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
