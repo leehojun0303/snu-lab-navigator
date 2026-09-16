@@ -1,5 +1,5 @@
 {
-  "cursor": 150,
+  "cursor": 155,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -45334,23 +45334,46 @@
       "_unit_id": "SNU-RU-E33179B169CCBD"
     },
     "SNU-RU-5B0F7791F898B5": {
-      "fingerprint": "e2dc6b61c4698b1b5c03330e19a253bcc6c1c63399f3164f0fe5aaa85d261c2f",
-      "checked_at": "2026-09-15T09:53:51Z",
+      "fingerprint": "3ff917517314d0fdb8e31e98b9f288bc3a23d1446b5197dd81bb5d64f3755754",
+      "checked_at": "2026-09-16T09:34:08Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://neuromorphic.snu.ac.kr/publications"
+            "url": "https://neuromorphic.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://neuromorphic.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://neuromorphic.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://neuromorphic.snu.ac.kr/publications#h.rb9e5yc8pkqx",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://neuromorphic.snu.ac.kr/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://neuromorphic.snu.ac.kr/",
           "https://mse.snu.ac.kr",
@@ -45469,9 +45492,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-15T09:54:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-5B0F7791F898B5"
+      "_unit_id": "SNU-RU-5B0F7791F898B5",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-02400C17DA81D6": {
       "fingerprint": "16b35accfa33e2e9a827ebbf4adf7bd6db6fa8981a6d5279a6203df7d5086e75",
@@ -55141,8 +55166,8 @@
       "_unit_id": "SNU-RU-1727A011E88A36"
     },
     "SNU-RU-4AD215956409EC": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:54:03Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:34:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -55182,7 +55207,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -55210,13 +55235,14 @@
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4AD215956409EC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:54:09Z",
+        "_saved_at": "2026-09-16T09:34:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -71217,30 +71243,115 @@
       "_unit_id": "SNU-RU-B5BF90BD41B709"
     },
     "SNU-RU-880A0BEDD8FC72": {
-      "fingerprint": "59d41d70fb06187df49c2bc7f3cf77e11eccd59383f6467a46f6051721a20ab9",
-      "checked_at": "2026-09-15T09:54:09Z",
+      "fingerprint": "b1100b0afb261f9b87d19ac3f60644c99cc8b707b16dfc2cf4e95a02432700d2",
+      "checked_at": "2026-09-16T09:34:25Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://solarmat.snu.ac.kr/%eb%85%bc%eb%ac%b8/"
+            "url": "https://solarmat.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
+            "kind": "publication"
+          },
+          {
+            "title": "Pure-Iodide Wide-Bandgap Perovskite Solar Cells With Enhanced Photo/Thermal Stability",
+            "url": "https://solarmat.snu.ac.kr/publication/pure-iodide-wide-bandgap-perovskite-solar-cells-with-enhanced-photo-thermal-stability/",
+            "kind": "publication"
+          },
+          {
+            "title": "Tailored self-assembled monolayer molecules for perovskite/PERC tandem solar cells with efficiencies over 30%",
+            "url": "https://solarmat.snu.ac.kr/publication/tailored-self-assembled-monolayer-molecules-for-perovskite-perc-tandem-solar-cells-with-efficiencies-over-30/",
+            "kind": "publication"
+          },
+          {
+            "title": "A ruthenium–titania core–shell nanocluster catalyst for efficient and durable alkaline hydrogen evolution",
+            "url": "https://solarmat.snu.ac.kr/publication/a-ruthenium-titania-core-shell-nanocluster-catalyst-for-efficient-and-durable-alkaline-hydrogen-evolution/",
+            "kind": "publication"
+          },
+          {
+            "title": "Stable pure-iodide wide-band-gap perovskites for efficient Si tandem cells via kinetically controlled phase evolution",
+            "url": "https://solarmat.snu.ac.kr/publication/stable-pure-iodide-wide-band-gap-perovskites-for-efficient-si-tandem-cells-via-kinetically-controlled-phase-evolution/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Rational design of self-assembled monolayer composition for efficient perovskite/Si tandem solar cells",
+            "url": "https://solarmat.snu.ac.kr/publication/rational-design-of-self-assembled-monolayer-composition-for-efficient-perovskite-si-tandem-solar-cells/",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://solarmat.snu.ac.kr/member/%ea%b9%80%ec%a7%84%ec%98%81/",
+        "membersUrl": "https://solarmat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/08/SEML-로고_wtih-caption-e1787310351555.png",
+            "alt": "서울대학교 SEML",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%ec%b1%84%ec%9d%80%ec%b4%9d/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/1900/08/교수님_재료공학부.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%ea%b9%80%ec%a7%84%ec%98%81/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/08/조덕기.jpg",
+            "alt": "조덕기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/08/박기순.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%eb%b0%95%ea%b8%b0%ec%88%9c/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/08/소정누나.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%eb%b0%95%ec%86%8c%ec%a0%95/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2023/03/민섭_증사.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%ea%b9%80%eb%af%bc%ec%84%ad/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/09/채은총.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/member/%ec%b1%84%ec%9d%80%ec%b4%9d/"
+          },
+          {
+            "url": "https://solarmat.snu.ac.kr/wp-content/uploads/sites/134/2026/08/홍건표.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://solarmat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://solarmat.snu.ac.kr/",
           "https://mse.snu.ac.kr",
           "https://solarmat.snu.ac.kr/%ec%9d%bc%eb%b0%98-%ea%b2%8c%ec%8b%9c%ed%8c%90/?mod=document&uid=108",
           "https://solarmat.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90_1/",
+          "https://solarmat.snu.ac.kr/%eb%85%bc%eb%ac%b8/",
           "https://solarmat.snu.ac.kr/member/%ea%b9%80%ec%a7%84%ec%98%81/",
-          "https://solarmat.snu.ac.kr/member/%ec%a1%b0%eb%8d%95%ea%b8%b0/",
           "https://solarmat.snu.ac.kr/member/%eb%b0%95%ea%b8%b0%ec%88%9c/",
           "https://solarmat.snu.ac.kr/member/%eb%b0%95%ec%86%8c%ec%a0%95/",
           "https://solarmat.snu.ac.kr/member/%ea%b9%80%eb%af%bc%ec%84%ad/",
@@ -71346,9 +71457,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-15T09:54:36Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-880A0BEDD8FC72"
+      "_unit_id": "SNU-RU-880A0BEDD8FC72",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-BB2D8F3F986A49": {
       "fingerprint": "15dca07915b707edb5abdb170c247919f1e52fca527dd73190cb0e1a7f2aa5c3",
@@ -72715,8 +72828,8 @@
       "_unit_id": "SNU-RU-BE68437995B54A"
     },
     "SNU-RU-0CD702865C2986": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:54:04Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:34:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -72756,7 +72869,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -72784,13 +72897,14 @@
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/"
+          "https://mse.snu.ac.kr/%eb%b0%95%eb%af%bc%ed%98%81-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%af%b8%eb%9e%98-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%8b%a0%ec%86%8c%ec%9e%ac-%eb%82%b4-%ec%82%b0%ec%86%8c-%eb%b9%88%ec%9e%90/",
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0CD702865C2986",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:54:19Z",
+        "_saved_at": "2026-09-16T09:34:42Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -85708,10 +85822,19 @@
       "_unit_id": "SNU-RU-669728F70BCE26"
     },
     "SNU-RU-FE97393855A2FA": {
-      "fingerprint": "d18b4fd86bd3e6279254d611c7ea6fe1440e9470551838d4f1016bc0da2e3f10",
-      "checked_at": "2026-09-15T09:54:04Z",
+      "fingerprint": "4b946e323a79486b1699aaeb05783c5b188ff0d4e6e1366cded663661e205644",
+      "checked_at": "2026-09-16T09:34:16Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/"
+          },
+          {
+            "title": "[대학원] 2026-2학기 석·박사 학위논문심사 안내",
+            "url": "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "Admissions 입학",
@@ -85748,8 +85871,17 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 학부 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/"
+          },
+          {
+            "title": "[대학원] 2026-2학기 석·박사 학위논문심사 안내",
+            "url": "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -85768,11 +85900,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://mse.snu.ac.kr/2026-2gkrdnlshsanstlatk/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
@@ -85783,7 +85916,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FE97393855A2FA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:54:28Z",
+        "_saved_at": "2026-09-16T09:34:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245876,11 +246009,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T09:34:03Z",
-    "checked": 570,
-    "seconds": 6596.89,
+    "at": "2026-09-16T09:34:53Z",
+    "checked": 575,
+    "seconds": 6646.66,
     "gemini": true,
-    "ai_requests": 374,
+    "ai_requests": 377,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
