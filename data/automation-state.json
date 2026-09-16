@@ -1,5 +1,5 @@
 {
-  "cursor": 2030,
+  "cursor": 2035,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -112120,28 +112120,50 @@
       "_unit_id": "SNU-RU-C80779F294B5C3"
     },
     "SNU-RU-16001FA4B2F552": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-15T08:55:49Z",
+      "fingerprint": "e3f0a140694a229d14a8664cb03019e2a5eeaa0317239e5516ea2db7b1473d6c",
+      "checked_at": "2026-09-16T08:41:56Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [
           "호흡기내과"
@@ -112156,14 +112178,36 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -112173,23 +112217,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
+          "https://medcorelab.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-16001FA4B2F552",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:49:25Z",
+        "_saved_at": "2026-09-16T08:42:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -113243,8 +113289,8 @@
       "_unit_id": "SNU-RU-71718C29960383"
     },
     "SNU-RU-1080A55337B760": {
-      "fingerprint": "1e930c37b1ef0050833f170473a6a8cf81e9cf430986572918a5d8f040cfde84",
-      "checked_at": "2026-09-15T08:55:43Z",
+      "fingerprint": "5ead38a3150e6d8136eec1e17daca4e5fe4699dd466c65a7a5bdb695c8f4968d",
+      "checked_at": "2026-09-16T08:41:51Z",
       "activity": {
         "publicationPages": [
           {
@@ -113252,12 +113298,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-35/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-35/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -113274,14 +113315,15 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박준동 교수는 소아중환자의학 분야를 전문으로 하며, 소아청소년의 중증 질환 관리 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "박준동 교수는 소아중환자의학 분야를 전문으로 하며, 소아 중환자의 생리적 변화, 중환자 관리 및 관련 임상 연구를 수행하고 있습니다.",
         "research_topics": [
           "소아중환자의학",
           "소아청소년과"
         ],
         "recommendation_keywords": [
           "소아중환자의학",
-          "소아청소년과"
+          "소아청소년과",
+          "중환자 관리"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -113293,21 +113335,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 소아과학교실 소속으로 소아청소년과 및 소아중환자의학 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 116 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-35/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "현재 공식적인 연구실 채용 정보는 제공된 URL에서 확인되지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-35/publications/",
@@ -113317,72 +113354,185 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960472/371_Park_+June+Dong.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-35/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 박준동 교수의 프로필 사진입니다.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-35/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-park-35/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-35/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-35/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-35/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-park-35/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-35/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1080A55337B760",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:55:55Z",
+        "_saved_at": "2026-09-16T08:41:53Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-1080A55337B760"
     },
     "SNU-RU-77D041BA5B61C7": {
-      "fingerprint": "d0861cf9ea82ab02c933220fb04d3e8a0ff360085bb1fb7b8f199ee62fe8e0c4",
-      "checked_at": "2026-09-15T08:55:42Z",
+      "fingerprint": "f94b82b662157b4c01827482f4ba64ae14cbbf31c7ab9244e9158ea00c5fc56d",
+      "checked_at": "2026-09-16T08:41:53Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "View all 195 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-10/publications/"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-10/publications/",
-        "posterStatus": "verified",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-10/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-10/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-10/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-10/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "박준빈 교수는 서울대학교 의과대학 내과학교실 소속으로, 순환기내과 분야에서 심혈관 질환 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
-          "순환기내과",
-          "심혈관 질환"
+          "순환기내과"
         ],
         "recommendation_keywords": [
-          "순환기내과",
-          "심혈관 질환",
-          "서울대학교 의과대학"
+          "순환기내과"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          }
+        ],
+        "recruitment_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-10/publications/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-content",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-park-10/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-77D041BA5B61C7",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-16T08:42:09Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-77D041BA5B61C7"
+    },
+    "SNU-RU-1551E3C454A65E": {
+      "fingerprint": "0d4e3a532219954c69aa42c794950cc41677dc6e3eed91646c92d997f8007437",
+      "checked_at": "2026-09-16T08:41:57Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/",
+          "https://admission.snu.ac.kr/index.html"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "간담췌외과"
+        ],
+        "recommendation_keywords": [
+          "간담췌외과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -113397,96 +113547,22 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 195 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-10/publications/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
-        "current_members": [],
-        "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-10/publications/",
-        "poster_status": "verified",
-        "poster_title": "Jun-Bean Park",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960476/372_Park_+Jun+Bean.jpg?w=160&f=jpg",
-        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-10/#main-content",
-        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
-        "source_urls_used": [
-          "https://snu.elsevierpure.com/en/persons/y-park-10/",
-          "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-navigation",
-          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-search",
-          "https://snu.elsevierpure.com/en/persons/y-park-10/#main-content",
-          "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-park-10/publications/",
-          "https://snu.elsevierpure.com/en/persons/y-park-10/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
-        ],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
-        "_unit_id": "SNU-RU-77D041BA5B61C7",
-        "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:55:46Z",
-        "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
-      },
-      "_unit_id": "SNU-RU-77D041BA5B61C7"
-    },
-    "SNU-RU-1551E3C454A65E": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-15T08:55:49Z",
-      "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "http://yss.snu.ac.kr/",
-        "posterStatus": "none_detected",
-        "sourcePagesScanned": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
-        ]
-      },
-      "enrichment": {
-        "research_summary": null,
-        "research_topics": [
-          "간담췌외과"
-        ],
-        "recommendation_keywords": [
-          "간담췌외과"
-        ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "books": [],
-        "conference_presentations": [],
-        "research_projects": [],
-        "recent_performances": [],
-        "creative_works": [],
-        "recent_solo_exhibitions": [],
-        "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "http://yss.snu.ac.kr/",
@@ -113498,9 +113574,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://admission.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -113508,14 +113586,14 @@
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/",
+          "https://admission.snu.ac.kr/index.html"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1551E3C454A65E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T08:49:10Z",
+        "_saved_at": "2026-09-16T08:42:24Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -114073,7 +114151,7 @@
     },
     "SNU-RU-C52F302D1B3F33": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-15T08:55:49Z",
+      "checked_at": "2026-09-16T08:41:56Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -246801,11 +246879,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-16T08:41:21Z",
-    "checked": 280,
-    "seconds": 3435.05,
+    "at": "2026-09-16T08:42:24Z",
+    "checked": 285,
+    "seconds": 3497.78,
     "gemini": true,
-    "ai_requests": 202,
+    "ai_requests": 206,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
