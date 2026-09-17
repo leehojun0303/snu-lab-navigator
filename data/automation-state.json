@@ -1,5 +1,5 @@
 {
-  "cursor": 1875,
+  "cursor": 1880,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -61546,13 +61546,103 @@
       "_unit_id": "SNU-RU-1CEDA4EB987CC6"
     },
     "SNU-RU-032440F964CB7D": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T08:10:59Z",
+      "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
+      "checked_at": "2026-09-17T12:25:50Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
@@ -61562,8 +61652,8 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -61617,9 +61707,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-12T08:16:38Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-032440F964CB7D"
+      "_unit_id": "SNU-RU-032440F964CB7D",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-34147081F04192": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
@@ -62126,8 +62218,8 @@
       "_unit_id": "SNU-RU-F36BE974E84592"
     },
     "SNU-RU-BDEB356862596F": {
-      "fingerprint": "5efaff741eabc7899ed9456cb29c1f6baaebb38708d78b9bd530a53e4bb460c0",
-      "checked_at": "2026-09-16T08:10:52Z",
+      "fingerprint": "f2244ff46d817a8f4d131966bdfadf1416aca8dd6b94a768cd739164aa6e3e02",
+      "checked_at": "2026-09-17T12:25:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -62157,18 +62249,16 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김유정 교수는 혈액종양내과 분야를 전문으로 하며, 암 환자의 치료 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김유정 교수는 혈액종양내과 분야를 전문으로 하며, 암 치료 및 관련 임상 연구를 수행하고 있습니다. Elsevier Pure 프로필을 통해 300편 이상의 연구 성과를 발표한 것으로 확인됩니다.",
         "research_topics": [
           "혈액종양내과",
-          "암 치료",
-          "임상 종양학"
+          "암 연구"
         ],
         "recommendation_keywords": [
           "혈액종양내과",
-          "암 연구",
-          "임상 연구",
           "암 치료",
-          "임상 종양학"
+          "임상 연구",
+          "암 연구"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -62187,7 +62277,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-170/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -62223,7 +62313,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BDEB356862596F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:11:02Z",
+        "_saved_at": "2026-09-17T12:25:58Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -62588,7 +62678,7 @@
     },
     "SNU-RU-FDCBAA890F2982": {
       "fingerprint": "c79af7bcbf30f21d7cf513faaad39fedfe7332251ae5839e928c356374ca424d",
-      "checked_at": "2026-09-16T08:10:50Z",
+      "checked_at": "2026-09-17T12:25:45Z",
       "activity": {
         "publicationPages": [
           {
@@ -62818,7 +62908,7 @@
     },
     "SNU-RU-EDD8F777BA8AEF": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T08:10:56Z",
+      "checked_at": "2026-09-17T12:25:50Z",
       "activity": {
         "publicationPages": [
           {
@@ -62924,8 +63014,8 @@
       "_unit_id": "SNU-RU-EDD8F777BA8AEF"
     },
     "SNU-RU-1F3A3A886D180C": {
-      "fingerprint": "508ae36e4d29ce59c62d807eeff92fdb71855dfaa4228ff67c8f1b01d91541d2",
-      "checked_at": "2026-09-16T08:10:51Z",
+      "fingerprint": "2c048481962194b05cfa988243e23a599a51e94da15e9396d39b32e94184a06d",
+      "checked_at": "2026-09-17T12:25:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -62955,16 +63045,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김윤준 교수는 소화기내과 분야, 특히 간 질환 및 간암에 관한 연구를 수행하고 있으며, 449건 이상의 연구 성과를 발표하였습니다.",
+        "research_summary": "김윤준 교수는 소화기내과 분야, 특히 간 질환과 관련된 임상 및 기초 연구를 수행하고 있으며, 간암, 간경변증, 바이러스성 간염 등에 관한 다수의 연구 논문을 발표하였습니다.",
         "research_topics": [
           "소화기내과",
           "간 질환",
-          "간암"
+          "간암",
+          "간경변증",
+          "바이러스성 간염"
         ],
         "recommendation_keywords": [
           "소화기내과",
+          "간 질환",
           "간암",
-          "간 질환"
+          "간경변증",
+          "바이러스성 간염"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -62983,7 +63077,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-181/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -63019,7 +63113,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1F3A3A886D180C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:10:54Z",
+        "_saved_at": "2026-09-17T12:25:49Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -248334,11 +248428,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T12:25:18Z",
-    "checked": 125,
-    "seconds": 2268.03,
+    "at": "2026-09-17T12:27:14Z",
+    "checked": 130,
+    "seconds": 2384.49,
     "gemini": true,
-    "ai_requests": 56,
+    "ai_requests": 58,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
