@@ -1,5 +1,5 @@
 {
-  "cursor": 1975,
+  "cursor": 1980,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -96551,8 +96551,8 @@
       "_unit_id": "SNU-RU-C322456D72F344"
     },
     "SNU-RU-A28D2E4D0A4C4D": {
-      "fingerprint": "27aabed24febb6f309b804057200e1886f7011e220e262d125fcc5758f26893c",
-      "checked_at": "2026-09-16T08:31:08Z",
+      "fingerprint": "9aa005757476d6d33d8b347ab1378a5ca7c1208c9835b54d7dc528d46086b13a",
+      "checked_at": "2026-09-17T13:02:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -96749,7 +96749,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-A28D2E4D0A4C4D",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-513C12074A59CE": {
       "fingerprint": "474ac0dab4fb178b0a604bc9e285fc071e9d4df2d43640e9c93bf7efc9713155",
@@ -96867,7 +96867,7 @@
     },
     "SNU-RU-7E04C5821468CE": {
       "fingerprint": "ec5fbde2f70f95533b2cdb87da8ed1a254b5668e614f5bfc9bff7469c2e9e7d0",
-      "checked_at": "2026-09-16T08:31:06Z",
+      "checked_at": "2026-09-17T13:02:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -96987,8 +96987,8 @@
       "_unit_id": "SNU-RU-7E04C5821468CE"
     },
     "SNU-RU-6290158FEC1001": {
-      "fingerprint": "89ff5f87d2ce85180ad387be8441655b987647d3fa8e48827e5302357836bca2",
-      "checked_at": "2026-09-16T08:31:08Z",
+      "fingerprint": "4ae94de03199f07cd01d499bda4927fd2fda222a7b60c621515ab8049c29f101",
+      "checked_at": "2026-09-17T13:02:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -96996,7 +96996,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ryu/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ryu/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -97039,9 +97044,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ryu/publications/"
           }
         ],
-        "recruitment_summary": "제공된 공식 URL에서는 류호걸 교수의 직접적인 연구실 모집 공고를 확인할 수 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ryu/publications/",
@@ -97051,14 +97061,14 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960133/296_Ryu_+Ho+Geol.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ryu/#main-search",
-        "poster_evidence": "서울대학교 연구자 정보 페이지에 등록된 류호걸 교수의 프로필 사진입니다.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-ryu/",
           "https://snu.elsevierpure.com/en/persons/y-ryu/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-ryu/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-ryu/#main-search",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -97070,7 +97080,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6290158FEC1001",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:31:17Z",
+        "_saved_at": "2026-09-17T13:02:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -98125,8 +98135,8 @@
       "_unit_id": "SNU-RU-AE3C3B2DCCAE2A"
     },
     "SNU-RU-4033AB0E9A526C": {
-      "fingerprint": "860cf1c30b4614cc60ea478e1143d6a3b6b494826c7b98053885e5213c55696d",
-      "checked_at": "2026-09-16T08:31:18Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-17T13:02:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -98140,18 +98150,15 @@
             "url": "http://yss.snu.ac.kr/"
           },
           {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -98159,12 +98166,11 @@
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://admission.snu.ac.kr/index.html"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -98177,26 +98183,22 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 심리적 어려움에 대한 도움을 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
           },
           {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
@@ -98211,13 +98213,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/en/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
-          "http://yss.snu.ac.kr/",
-          "https://medcorelab.snu.ac.kr/",
-          "https://admission.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -98225,13 +98225,13 @@
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://admission.snu.ac.kr/index.html"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4033AB0E9A526C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:31:35Z",
+        "_saved_at": "2026-09-17T13:04:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -98239,7 +98239,7 @@
     },
     "SNU-RU-A5428957FCD057": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T08:31:14Z",
+      "checked_at": "2026-09-17T13:02:29Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -250753,11 +250753,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T13:01:55Z",
-    "checked": 225,
-    "seconds": 4465.73,
+    "at": "2026-09-17T13:04:08Z",
+    "checked": 230,
+    "seconds": 4598.18,
     "gemini": true,
-    "ai_requests": 95,
+    "ai_requests": 97,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
