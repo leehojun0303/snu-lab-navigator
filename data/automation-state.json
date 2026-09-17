@@ -1,5 +1,5 @@
 {
-  "cursor": 1760,
+  "cursor": 1765,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -20369,7 +20369,7 @@
     },
     "SNU-RU-33688A80B4545E": {
       "fingerprint": "de44a969e5a214cfb396358bdabc1428c4ed839dbd3c0bc835d63528ff82da27",
-      "checked_at": "2026-09-17T17:17:12Z",
+      "checked_at": "2026-09-17T20:04:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -22094,7 +22094,7 @@
     },
     "SNU-RU-95D449A700ACC6": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-17T17:17:16Z",
+      "checked_at": "2026-09-17T20:04:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -22201,7 +22201,7 @@
     },
     "SNU-RU-53C9BE90BFA707": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-17T17:17:17Z",
+      "checked_at": "2026-09-17T20:04:12Z",
       "activity": {
         "publicationPages": [
           {
@@ -22415,7 +22415,7 @@
     },
     "SNU-RU-79474D51FAAF7B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-17T17:17:16Z",
+      "checked_at": "2026-09-17T20:04:11Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -22503,10 +22503,25 @@
       "_unit_id": "SNU-RU-79474D51FAAF7B"
     },
     "SNU-RU-F24933B3363E4C": {
-      "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
-      "checked_at": "2026-09-17T17:17:16Z",
+      "fingerprint": "fe33f6979fca27f99d8145deea09de372cd24e08e2c0289b6d28bb73f4b063d5",
+      "checked_at": "2026-09-17T20:04:12Z",
       "activity": {
         "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
+          },
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights",
@@ -22535,8 +22550,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
             "kind": "recruitment"
           }
         ],
@@ -22603,14 +22618,14 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
@@ -260292,9 +260307,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T20:03:32Z",
-    "checked": 10,
-    "seconds": 91.37,
+    "at": "2026-09-17T20:04:12Z",
+    "checked": 15,
+    "seconds": 130.98,
     "gemini": true,
     "ai_requests": 2,
     "completed_full_pass": false
