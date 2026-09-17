@@ -1,5 +1,5 @@
 {
-  "cursor": 1750,
+  "cursor": 1755,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -17081,8 +17081,8 @@
       "_unit_id": "SNU-RU-A76640F3D2D5E6"
     },
     "SNU-RU-1DA2C3CA85B469": {
-      "fingerprint": "0d4713f9e53b0c7eab0f1f83da8afa7c6cf98d6d796e55c62b31dc79e5f6263d",
-      "checked_at": "2026-09-17T11:47:56Z",
+      "fingerprint": "7ac09a5f7e9499dd235099d7ce8b38adaad179b7268e21d441f81afa4a84b120",
+      "checked_at": "2026-09-17T15:44:58Z",
       "activity": {
         "publicationPages": [
           {
@@ -17112,20 +17112,22 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강현철 교수는 방사선종양학 분야에서 소화기암, 부인암, 육종, 피부암을 중심으로 연구를 수행하고 있으며, 특히 전신 방사선 조사(TBI)를 위한 기계 학습 기반의 선량 측정 및 치료 계획 수립 등에 관한 연구를 진행하고 있습니다.",
+        "research_summary": "강현철 교수는 방사선종양학 분야에서 소화기암, 부인암, 육종, 피부암 등을 전문으로 연구하며, 특히 머신러닝을 활용한 전신 방사선 조사(TBI)의 선량 측정 및 치료 계획 최적화 등에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "소화기암",
           "부인암",
           "육종",
           "피부암",
-          "방사선종양학"
+          "방사선종양학",
+          "머신러닝 기반 선량 측정"
         ],
         "recommendation_keywords": [
           "소화기암",
           "부인암",
           "육종",
           "피부암",
-          "방사선종양학"
+          "방사선종양학",
+          "머신러닝 기반 선량 측정"
         ],
         "recent_papers": [
           {
@@ -17133,7 +17135,7 @@
             "url": "https://snu.elsevierpure.com/en/publications/machine-learning-approach-to-estimation-of-in-vivo-measured-dose-/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "전신 방사선 조사(TBI) 시 생체 내 측정 선량을 추정하고 치료 계획을 수립하기 위해 기계 학습 모델을 적용한 연구입니다."
+            "summary": "전신 방사선 조사(TBI) 시 생체 내 측정 선량을 예측하고 치료 계획을 수립하기 위해 머신러닝 모델을 적용한 연구입니다."
           }
         ],
         "recent_year_paper_count": 59,
@@ -17152,7 +17154,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-12/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -17189,7 +17191,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1DA2C3CA85B469",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T11:48:01Z",
+        "_saved_at": "2026-09-17T15:45:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -17406,16 +17408,21 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D6B509F16B90EF": {
-      "fingerprint": "e8f9756f70f4123eeb4582b90660c712fd8ff23fc7de7e282cf0c00f4ddf97e2",
-      "checked_at": "2026-09-17T11:47:58Z",
+      "fingerprint": "a81ff39db2e2453d1b18b92dbfa7c671e6f126a949b58f60a21910ddcaab74a5",
+      "checked_at": "2026-09-17T15:45:00Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Hyoung Jin Kang - Seoul National University",
+            "title": "View all 298 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -17432,50 +17439,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강형진 교수는 소아혈액종양학 분야를 전문으로 하며, 특히 조혈모세포이식, 소아 급성 림프구성 백혈병, 약동학 및 관련 치료 전략 연구에 집중하고 있습니다.",
+        "research_summary": "강형진 교수는 소아혈액종양학 분야를 전문으로 하며, 소아암 및 혈액 질환에 대한 임상 연구와 치료법 개발에 주력하고 있습니다.",
         "research_topics": [
-          "Pediatrics",
-          "Hematopoietic Stem Cell Transplantation",
-          "Acute Lymphoblastic Leukemia",
-          "Pharmacokinetics",
-          "Hemophagocytic Lymphohistiocytosis"
+          "소아혈액종양학",
+          "소아암",
+          "혈액 질환"
         ],
         "recommendation_keywords": [
           "소아혈액종양학",
-          "조혈모세포이식",
           "소아암",
-          "백혈병",
-          "약동학",
-          "Pediatrics",
-          "Hematopoietic Stem Cell Transplantation",
-          "Acute Lymphoblastic Leukemia",
-          "Pharmacokinetics",
-          "Hemophagocytic Lymphohistiocytosis"
+          "혈액종양",
+          "혈액 질환"
         ],
-        "recent_papers": [
-          {
-            "title": "Design and evaluation of an automated pediatric acute lymphoblastic leukemia registry from clinical data warehouses",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-16/",
-            "year": "2026",
-            "venue": "BMC Medical Informatics and Decision Making",
-            "summary": ""
-          },
-          {
-            "title": "Clinical Impact of Maximum Plasma Concentration of Busulfan in Pediatric Patients Undergoing Allogenic Hematopoietic Stem Cell Transplantation",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-16/",
-            "year": "2026",
-            "venue": "Clinical Pharmacology and Therapeutics",
-            "summary": ""
-          },
-          {
-            "title": "Selective HDAC6 inhibition perturbs autophagy and enhances integrated stress response-mediated immunogenic apoptosis in chronic myeloid leukemia",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-16/",
-            "year": "2026",
-            "venue": "Biomedicine and Pharmacotherapy",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 12,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -17484,16 +17461,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 소아과학교실 교수로서 소아혈액종양학 분야의 교육 및 연구를 수행하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 소아과학교실 소속으로 소아혈액종양학 분야의 교육 및 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Hyoung Jin Kang - Seoul National University",
+            "title": "View all 298 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/",
@@ -17503,26 +17485,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959802/22_Kang_+Hyoung+Jin.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kang-16/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kang-16/",
-          "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kang-16/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kang-16/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kang-16/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kang-16/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D6B509F16B90EF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T06:11:33Z",
+        "_saved_at": "2026-09-17T15:45:16Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -17658,16 +17640,21 @@
       "_unit_id": "SNU-RU-BEE670BB01A967"
     },
     "SNU-RU-EC7F28337CB5A9": {
-      "fingerprint": "41d72d9a67fb631b473292d8a10c55f1723d101b7ecfbc2c118d42a63f8966ca",
-      "checked_at": "2026-09-17T11:47:58Z",
+      "fingerprint": "8c83b472b0074d2d7abeb3190e46162a2f89eeb973857b6a5741d7b326719826",
+      "checked_at": "2026-09-17T15:44:59Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Hye Ryun Kang - Seoul National University",
+            "title": "View all 216 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -17684,70 +17671,24 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강혜련 교수는 알레르기내과 분야의 전문가로, 천식, 두드러기, 혈관부종, 약물 알레르기 및 면역학적 반응에 관한 연구를 수행하고 있습니다. 특히 폐 대식세포의 염증 반응, 알레르기 질환의 역학 및 진단 가이드라인 수립 등 호흡기 및 알레르기 질환의 병태생리와 치료 전략에 집중하고 있습니다.",
+        "research_summary": "강혜련 교수는 알레르기내과 분야를 전문으로 하며, 천식, 알레르기 비염, 약물 알레르기 및 두드러기 등 다양한 알레르기 질환의 병태생리 규명과 치료 전략 연구에 집중하고 있습니다.",
         "research_topics": [
-          "Asthma",
-          "Urticaria",
-          "Angioedema",
-          "Allergic Reaction",
-          "Alveolar Macrophage",
-          "Drug Safety"
+          "알레르기내과",
+          "천식",
+          "알레르기 비염",
+          "약물 알레르기",
+          "두드러기"
         ],
         "recommendation_keywords": [
           "알레르기내과",
           "천식",
-          "두드러기",
-          "면역학",
-          "호흡기 알레르기",
-          "Asthma",
-          "Urticaria",
-          "Angioedema",
-          "Allergic Reaction",
-          "Alveolar Macrophage",
-          "Drug Safety"
+          "알레르기 비염",
+          "약물 알레르기",
+          "두드러기"
         ],
-        "recent_papers": [
-          {
-            "title": "The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
-            "year": "2026",
-            "venue": "Allergy: European Journal of Allergy and Clinical Immunology",
-            "summary": "두드러기의 정의, 분류, 진단 및 관리에 관한 국제 가이드라인을 제시한 연구입니다."
-          },
-          {
-            "title": "Cigarette Smoke Induces the Pro-inflammatory Response of Lung Macrophages via Activation of the IL-33/ST2-Dependent Pathway",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
-            "year": "2026",
-            "venue": "Immune Network",
-            "summary": "담배 연기가 IL-33/ST2 경로 활성화를 통해 폐 대식세포의 염증 반응을 유도함을 규명한 연구입니다."
-          },
-          {
-            "title": "Clarifying the scope of 1-bag rapid desensitization",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
-            "year": "2026",
-            "venue": "Annals of Allergy, Asthma and Immunology",
-            "summary": "1-bag 급속 탈감작 요법의 범위를 명확히 하기 위한 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 5,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Allergy: European Journal of Allergy and Clinical Immunology",
-            "count": 2
-          },
-          {
-            "venue": "Immune Network",
-            "count": 1
-          },
-          {
-            "venue": "Annals of Allergy, Asthma and Immunology",
-            "count": 1
-          },
-          {
-            "venue": "World Allergy Organization Journal",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -17755,16 +17696,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 내과학교실 소속으로 알레르기내과 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Hye Ryun Kang - Seoul National University",
+            "title": "View all 216 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kang-13/",
@@ -17774,35 +17720,34 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959846/23_Kang_+Hye+Ryun.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kang-13/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image verified on SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kang-13/",
-          "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kang-13/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kang-13/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kang-13/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kang-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EC7F28337CB5A9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T21:45:44Z",
+        "_saved_at": "2026-09-17T15:45:09Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-EC7F28337CB5A9"
     },
     "SNU-RU-FC05D8FC5968E3": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-17T11:48:02Z",
+      "checked_at": "2026-09-17T15:45:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -18026,7 +17971,7 @@
     },
     "SNU-RU-C16D016A73EE20": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-17T11:48:03Z",
+      "checked_at": "2026-09-17T15:45:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -260226,11 +260171,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T15:43:58Z",
-    "checked": 670,
-    "seconds": 14188.41,
+    "at": "2026-09-17T15:45:16Z",
+    "checked": 5,
+    "seconds": 45.2,
     "gemini": true,
-    "ai_requests": 297,
+    "ai_requests": 3,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
