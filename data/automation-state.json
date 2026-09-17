@@ -1,5 +1,5 @@
 {
-  "cursor": 225,
+  "cursor": 230,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -231784,8 +231784,8 @@
       "_unit_id": "SNU-RU-D93FB833A9E0A3"
     },
     "SNU-RU-221CD9FD0A593F": {
-      "fingerprint": "d99c665574f2e0eaceb7b5f2caa85f336d032b155d9f139b35273eec9fa11287",
-      "checked_at": "2026-09-16T09:48:00Z",
+      "fingerprint": "9122b7a1d897a75d199d5d67e7777d27a88448b7d6637bde92bf1e14c5b6a707",
+      "checked_at": "2026-09-17T15:33:39Z",
       "activity": {
         "publicationPages": [
           {
@@ -231793,12 +231793,7 @@
             "url": "https://www.icsl.snu.ac.kr/publications"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입시",
-            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://www.icsl.snu.ac.kr/student",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -231815,24 +231810,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "최재혁 교수의 반도체회로 및 시스템 설계 연구실(ICSL)은 고성능 및 저전력 집적회로 설계, 아날로그 및 혼성 신호 회로, 데이터 컨버터, 그리고 차세대 통신 및 컴퓨팅을 위한 회로 시스템 연구를 수행합니다.",
+        "research_summary": "최재혁 교수의 반도체회로 및 시스템 설계 연구실(ICSL)은 고성능 아날로그 및 혼성 신호 집적회로 설계, 데이터 컨버터, 전력 관리 회로 및 통신용 회로 설계 분야를 중점적으로 연구합니다.",
         "research_topics": [
-          "집적회로 설계",
-          "시스템 설계",
-          "아날로그 및 혼성 신호 회로",
-          "데이터 컨버터",
-          "저전력 회로 설계"
+          "Analog and Mixed-Signal IC Design",
+          "Data Converters",
+          "Power Management Circuits",
+          "Communication Circuits"
         ],
         "recommendation_keywords": [
           "집적회로",
           "시스템 설계",
-          "반도체회로",
-          "ICSL",
-          "전기정보공학",
-          "집적회로 설계",
-          "아날로그 및 혼성 신호 회로",
-          "데이터 컨버터",
-          "저전력 회로 설계"
+          "아날로그 회로",
+          "혼성 신호",
+          "반도체",
+          "Analog and Mixed-Signal IC Design",
+          "Data Converters",
+          "Power Management Circuits",
+          "Communication Circuits"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -231851,14 +231845,9 @@
             "url": "https://www.icsl.snu.ac.kr/publications"
           }
         ],
-        "recruitment_summary": "연구실 홈페이지를 통해 학생 모집 및 관련 정보를 안내하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입시",
-            "url": "https://ece.snu.ac.kr/community/admissions?sc=y"
-          }
-        ],
-        "recruitment_source_url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+        "recruitment_summary": "연구실 홈페이지를 통해 학생 모집 및 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://www.icsl.snu.ac.kr/student",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://www.icsl.snu.ac.kr/student",
@@ -231871,10 +231860,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://www.icsl.snu.ac.kr/",
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p894",
           "https://www.icsl.snu.ac.kr/student",
           "https://www.icsl.snu.ac.kr/publications",
-          "https://ece.snu.ac.kr/community/admissions?sc=y",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p894",
           "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/",
           "https://www.icsl.snu.ac.kr/professor-cav0",
@@ -231888,7 +231876,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-221CD9FD0A593F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:48:26Z",
+        "_saved_at": "2026-09-17T15:33:49Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -237036,22 +237024,113 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3D18EF2EB82C86": {
-      "fingerprint": "8497d6e828a2ab5508fcd3f6b93717a497d28dcc81adf38d990a801fc3d3e54e",
-      "checked_at": "2026-09-16T09:48:00Z",
+      "fingerprint": "ae34c1684c6d9138e8c33e49a3a8392fd6f26e3c75ccb2dd8a9fe1ddbb8ff874",
+      "checked_at": "2026-09-17T15:33:39Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+            "kind": "publication"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+            "kind": "publication"
+          },
+          {
+            "title": "이종호 교수 연구팀, Advanced Science 표지 논문 선정",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+            "kind": "publication"
+          },
+          {
+            "title": "★2026학년도 2학기 대학원 논문 심사 일정 안내",
+            "url": "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58072",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+            "kind": "recruitment"
+          },
+          {
+            "title": "취업ㆍ진로",
+            "url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p892",
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/research/lab"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/research/lab"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/professor/c94z36fz8edzc6dz079zcf7zde4z2ebz5bfz647z41.jpg",
+            "alt": "최우열 부교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p892"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/guest"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/mo-logo.png",
+            "alt": "서울대학교 전기·정보공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/guest"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+            "alt": "홍용택 교수 연구팀 (이병걸, 장동주 박사과정), IMID 2026, KIDS Awards (Silver) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+            "alt": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg",
+            "alt": "2025학년도 후기(제80회) 전기·정보공학부 졸업 수상자들",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p892",
           "https://ece.snu.ac.kr",
@@ -237135,22 +237214,28 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:48:21Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-3D18EF2EB82C86"
+      "_unit_id": "SNU-RU-3D18EF2EB82C86",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9EC6ACB2FEC6AB": {
-      "fingerprint": "b1b95af24c55887f716150a4b9e2409f48925a3bb60f41b74fd67fd266798564",
-      "checked_at": "2026-09-16T09:48:00Z",
+      "fingerprint": "57dcfde1e7cfdfae15ad54df46326f92882e37d39d224d9726812d8d0c821666",
+      "checked_at": "2026-09-17T15:33:38Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "",
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p840",
@@ -237166,14 +237251,15 @@
         ]
       },
       "enrichment": {
-        "research_summary": "집적회로 및 시스템 설계 분야를 연구하며, 관련 분야의 회로 및 시스템 설계에 관한 학술적 연구를 수행하고 있습니다.",
+        "research_summary": "최우석 교수는 집적회로 및 시스템 설계 분야를 연구하며, 관련 시스템의 효율적인 설계 및 구현을 위한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "집적회로 및 시스템 설계"
+          "집적회로 설계",
+          "시스템 설계"
         ],
         "recommendation_keywords": [
           "집적회로",
           "시스템 설계",
-          "집적회로 및 시스템 설계"
+          "집적회로 설계"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -237185,19 +237271,23 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2008년 서울대학교 전기공학부 학사, 2010년 서울대학교 전기컴퓨터공학부 석사, 2017년 일리노이 주립대학교(UIUC) 전기컴퓨터공학부 박사 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 전기·정보공학부의 공식 초빙 안내 페이지를 통해 교수 초빙 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -237207,9 +237297,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p840",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -237223,15 +237313,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9EC6ACB2FEC6AB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:48:12Z",
+        "_saved_at": "2026-09-17T15:33:47Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-9EC6ACB2FEC6AB"
     },
     "SNU-RU-DC07C0516CF1B5": {
-      "fingerprint": "5edd0c98d618e289665359eb893668aa324670f47b94eaf62e9d8617c81daa8b",
-      "checked_at": "2026-09-16T09:47:59Z",
+      "fingerprint": "5574ea3516301b530fb42286132d178906c2d1ac4a958a56545e315af57b198d",
+      "checked_at": "2026-09-17T15:33:39Z",
       "activity": {
         "publicationPages": [
           {
@@ -237249,7 +237339,7 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "",
+        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
@@ -237265,7 +237355,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "반도체 소자의 디자인, 제작, 측정, 분석, 모델링, 공정 및 회로 응용을 연구하며, 특히 나노 반도체 소자, 차세대 메모리/비메모리 소자, 두뇌모방 컴퓨팅 소자 및 삼차원 이종집적 기술 분야에 집중하고 있습니다.",
+        "research_summary": "최우영 교수는 MOSFET, 차세대 메모리 및 비메모리 소자, 두뇌모방 소자, 삼차원 이종집적 분야를 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "MOSFET",
           "차세대 메모리/비메모리 소자",
@@ -237280,15 +237370,7 @@
           "삼차원 이종집적",
           "차세대 메모리/비메모리 소자"
         ],
-        "recent_papers": [
-          {
-            "title": "Large-Scale and Highly Reliable Hopfield Neural Networks Using Vertical NAND Flash Memory for the In-Memory Associative Computing",
-            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
-            "year": "2026",
-            "venue": "Advanced Intelligent System",
-            "summary": "수직형 NAND 플래시 메모리를 기반으로 대규모의 고신뢰성 홉필드 신경망을 제안하여 인메모리 연상형 컴퓨팅을 구현한 연구입니다."
-          }
-        ],
+        "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -237298,14 +237380,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2006년 서울대학교 전기컴퓨터공학부에서 박사 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
             "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000"
           }
         ],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -237319,7 +237401,7 @@
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -237328,11 +237410,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
-          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -237341,32 +237423,28 @@
           "https://ece.snu.ac.kr/research-faculty/research/lab",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051"
         ],
-        "paper_count_visible": 1,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DC07C0516CF1B5",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:48:03Z",
+        "_saved_at": "2026-09-17T15:34:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-DC07C0516CF1B5"
     },
     "SNU-RU-730577D331AEED": {
-      "fingerprint": "00b5cdec7de5071c7be62ac1be0d08573575193d7085a1498fe2741ab8fb0b26",
-      "checked_at": "2026-09-16T09:48:01Z",
+      "fingerprint": "48f6fe8ba4c9b1bee3776eb31fa6a64a9ac34435c8c9f1886569aa50fa1196c3",
+      "checked_at": "2026-09-17T15:33:40Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p900",
+        "membersUrl": "",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p900",
@@ -237382,7 +237460,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "최종현 교수는 컴퓨터 비전, 머신러닝, 멀티모달 AI, 자연어 처리, Embodied AI, Continual Learning, Binary Network, Neuromorphic (event) camera 분야를 연구하고 있습니다.",
+        "research_summary": "컴퓨터 비전, 머신러닝, 멀티모달 AI, 자연어 처리, Embodied AI, Continual Learning, Binary Network, Neuromorphic (event) camera 분야를 연구하고 있습니다.",
         "research_topics": [
           "컴퓨터 비전",
           "머신러닝",
@@ -237413,23 +237491,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2015년 메릴랜드 주립대학교 전기컴퓨터공학부에서 박사 학위를 취득하였으며, 서울대학교에서 석사(2008) 및 학사(2003) 학위를 받았습니다.",
+        "education_summary": "메릴랜드 주립대학교 전기컴퓨터공학부 박사 (2015), 서울대학교 전기컴퓨터공학부 석사 (2008), 서울대학교 전기공학부 학사 (2003).",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
+        "recruitment_summary": "서울대학교 전기·정보공학부 교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p900",
+        "member_page_url": "",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -237455,7 +237529,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-730577D331AEED",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:48:36Z",
+        "_saved_at": "2026-09-17T15:34:22Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -259505,11 +259579,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T15:33:24Z",
-    "checked": 645,
-    "seconds": 13554.79,
+    "at": "2026-09-17T15:34:22Z",
+    "checked": 650,
+    "seconds": 13611.92,
     "gemini": true,
-    "ai_requests": 286,
+    "ai_requests": 290,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
