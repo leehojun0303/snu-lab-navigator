@@ -1,5 +1,5 @@
 {
-  "cursor": 1825,
+  "cursor": 1830,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -43968,7 +43968,7 @@
     },
     "SNU-RU-14BE378FF636A0": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-16T08:01:03Z",
+      "checked_at": "2026-09-17T12:06:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -44158,34 +44158,119 @@
       "_unit_id": "SNU-RU-FBE5412CFBDEF2"
     },
     "SNU-RU-6A540070E9E955": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-16T08:01:01Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-17T12:06:09Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -44252,9 +44337,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T08:01:17Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-6A540070E9E955"
+      "_unit_id": "SNU-RU-6A540070E9E955",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-77422959EC5B30": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
@@ -44491,8 +44578,8 @@
       "_unit_id": "SNU-RU-14010A9A7382FE"
     },
     "SNU-RU-3944C6BDC9DCA3": {
-      "fingerprint": "08b88e50861bf513fff5035cdca2f444ce2c5903bbaeaef465fcde393a22aa30",
-      "checked_at": "2026-09-16T08:00:57Z",
+      "fingerprint": "38f6ac49e36d8057afac77c406944a8d2bc90bf3076c8a5ca4f11bbd9ef57b0b",
+      "checked_at": "2026-09-17T12:06:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -44500,7 +44587,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -44509,60 +44601,27 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김병관 교수는 소화기내과 분야, 특히 대장내시경, 비알코올성 지방간 질환, 크론병 및 염증성 장질환의 진단과 치료를 중심으로 연구를 수행하고 있습니다. 최근에는 인공지능을 활용한 대장내시경 시뮬레이터 개발 및 3D 병리 프로토콜을 통한 장 신경계 시각화 등 첨단 기술을 임상 진단에 접목하는 연구에 집중하고 있습니다.",
+        "research_summary": "김병관 교수는 소화기내과 분야를 전문으로 하며, 특히 소화기 질환과 관련된 다양한 임상 연구 및 학술 활동을 수행하고 있습니다. 총 111건의 연구 성과를 보유하고 있으며, 주로 저널 논문 형태의 연구 결과를 발표하고 있습니다.",
         "research_topics": [
-          "Colonoscopy",
-          "Nonalcoholic Fatty Liver",
-          "Fibrosis",
-          "Crohn's Disease",
-          "Colitis",
-          "Helicobacter Pylori"
+          "소화기내과",
+          "소화기 질환"
         ],
         "recommendation_keywords": [
           "소화기내과",
-          "대장내시경",
-          "지방간",
-          "염증성 장질환",
-          "인공지능 의료",
-          "Colonoscopy",
-          "Nonalcoholic Fatty Liver",
-          "Fibrosis",
-          "Crohn's Disease",
-          "Colitis",
-          "Helicobacter Pylori"
+          "내과학교실",
+          "임상 연구",
+          "소화기 질환"
         ],
-        "recent_papers": [
-          {
-            "title": "Association Between Nonalcoholic Fatty Liver Disease and Risk of Early-onset Colorectal Cancer",
-            "url": "https://snu.elsevierpure.com/en/publications/association-between-nonalcoholic-fatty-liver-disease-and-risk-of--2/",
-            "year": "2025",
-            "venue": "Clinical Gastroenterology and Hepatology",
-            "summary": ""
-          },
-          {
-            "title": "Development and validation of the Red Flags Index for Crohn's disease in high-risk populations in Korea",
-            "url": "https://snu.elsevierpure.com/en/publications/development-and-validation-of-the-red-flags-index-for-crohns-dise/",
-            "year": "2025",
-            "venue": "Digestive and Liver Disease",
-            "summary": ""
-          },
-          {
-            "title": "SeamXSim: Seamless-textured virtual colonoscopy simulator via unpaired long-term video translation",
-            "url": "https://snu.elsevierpure.com/en/publications/seamxsim-seamless-textured-virtual-colonoscopy-simulator-via-unpa/",
-            "year": "2025",
-            "venue": "Computers in Biology and Medicine",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 7,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -44578,9 +44637,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 학습 및 생활 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/",
@@ -44590,10 +44654,10 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959338/115_Kim_+Byeong+Gwan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image of Byeong Gwan Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-14/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-search",
@@ -44602,22 +44666,22 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3944C6BDC9DCA3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:01:04Z",
+        "_saved_at": "2026-09-17T12:06:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-3944C6BDC9DCA3"
     },
     "SNU-RU-CDDB13EC469B11": {
-      "fingerprint": "13d0366e9e3018e403ed6b750d9f199591230520aebcb23002e978f715456017",
-      "checked_at": "2026-09-16T08:01:03Z",
+      "fingerprint": "cd772e503b05e0f3e67e7851cc3b7317b067ec77325de94dacbaf48b51173929",
+      "checked_at": "2026-09-17T12:06:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -44647,7 +44711,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 뇌졸중 환자의 예후 개선과 치료 전략 수립에 관한 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 뇌졸중 환자의 예후 및 치료 전략에 관한 다수의 학술 논문을 발표하였습니다.",
         "research_topics": [
           "뇌혈관질환",
           "곁순환",
@@ -44675,7 +44739,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 구체적인 연구실 모집 공고는 없습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -44711,7 +44775,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CDDB13EC469B11",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:01:25Z",
+        "_saved_at": "2026-09-17T12:07:03Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -44842,16 +44906,21 @@
       "_unit_id": "SNU-RU-637EE606F51249"
     },
     "SNU-RU-D20ADC2F34B26E": {
-      "fingerprint": "f607dee065d5a6c77b25fdd668bded70358fcd1550d266dff7aab86bf89afee0",
-      "checked_at": "2026-09-16T08:00:59Z",
+      "fingerprint": "d102eee7c46949d79a84cdfd22e22a7a0f0945fe52d67a75b093d51382d3bf97",
+      "checked_at": "2026-09-17T12:06:04Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Byoung Jae Kim - Research output",
+            "title": "View all 86 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -44860,70 +44929,29 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김병재 교수는 주산기의학 분야를 전문으로 하며, 조산, 자간전증, 임신성 당뇨병 및 태반 관련 질환에 대한 연구를 수행하고 있습니다. 특히 인공지능을 활용한 태반 분석, 대사체학을 통한 임신성 당뇨병 조기 진단 바이오마커 발굴, 그리고 조산 예방을 위한 임상 시험 등 산과적 합병증의 진단 및 치료 전략 개선에 집중하고 있습니다.",
+        "research_summary": "김병재 교수는 주산기의학 분야를 전문으로 하며, 고위험 임신, 태아 의학 및 산과적 합병증에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Premature Labor",
-          "Pre-Eclampsia",
-          "Biological Marker",
-          "Amnion Fluid",
-          "CD34",
-          "Blood Plasma",
-          "Cord Blood",
-          "Mesenchymal Stem Cell"
+          "주산기의학",
+          "고위험 임신",
+          "태아 의학"
         ],
         "recommendation_keywords": [
           "주산기의학",
-          "조산",
-          "자간전증",
-          "임신성 당뇨병",
-          "태반",
-          "Premature Labor",
-          "Pre-Eclampsia",
-          "Biological Marker",
-          "Amnion Fluid",
-          "CD34",
-          "Blood Plasma",
-          "Cord Blood",
-          "Mesenchymal Stem Cell"
+          "산부인과",
+          "고위험 임신",
+          "태아 의학"
         ],
-        "recent_papers": [
-          {
-            "title": "Impact of infectious disease outbreaks and regulatory policies on cord blood banking: a two-decade single-center analysis in Korea",
-            "url": "https://snu.elsevierpure.com/en/publications/impact-of-infectious-disease-outbreaks-and-regulatory-policies-on/",
-            "year": "2026",
-            "venue": "Stem Cells Translational Medicine",
-            "summary": "감염병 유행과 규제 정책이 제대혈 은행에 미치는 영향을 20년간의 단일 센터 데이터를 통해 분석하였습니다."
-          },
-          {
-            "title": "Antenatal Corticosteroid in Twin-Pregnant Women at Risk of Late Preterm Delivery: A Randomized Clinical Trial",
-            "url": "https://snu.elsevierpure.com/en/publications/antenatal-corticosteroid-in-twin-pregnant-women-at-risk-of-late-p/",
-            "year": "2025",
-            "venue": "JAMA Pediatrics",
-            "summary": "후기 조산 위험이 있는 쌍태 임신부에서 산전 코르티코스테로이드 투여의 효과를 평가한 무작위 임상 시험입니다."
-          },
-          {
-            "title": "Metabolomic profiling reveals early biomarkers of gestational diabetes mellitus and associated hepatic steatosis",
-            "url": "https://snu.elsevierpure.com/en/publications/metabolomic-profiling-reveals-early-biomarkers-of-gestational-dia/",
-            "year": "2025",
-            "venue": "Cardiovascular Diabetology",
-            "summary": "대사체 프로파일링을 통해 임신성 당뇨병 및 관련 지방간의 조기 진단을 위한 바이오마커를 규명하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 1,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Stem Cells Translational Medicine",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -44934,13 +44962,18 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Byoung Jae Kim - Research output",
+            "title": "View all 86 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
@@ -44950,10 +44983,10 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/353550462/20171207_37kb_square.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image verified from SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-8/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-search",
@@ -44962,14 +44995,14 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D20ADC2F34B26E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:01:11Z",
+        "_saved_at": "2026-09-17T12:06:15Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -246417,11 +246450,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T12:05:36Z",
-    "checked": 75,
-    "seconds": 1086.4,
+    "at": "2026-09-17T12:07:07Z",
+    "checked": 80,
+    "seconds": 1177.49,
     "gemini": true,
-    "ai_requests": 42,
+    "ai_requests": 45,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
