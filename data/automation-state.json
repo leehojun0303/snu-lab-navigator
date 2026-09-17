@@ -1,5 +1,5 @@
 {
-  "cursor": 245,
+  "cursor": 250,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -157353,22 +157353,98 @@
       "_unit_id": "SNU-RU-056DD85C29B46A"
     },
     "SNU-RU-45D32E85E7D6E1": {
-      "fingerprint": "68e779f323e1953610ed33b1dc86acb13f719b4ee8211cff5dedb065b6aecd1a",
-      "checked_at": "2026-09-16T09:52:08Z",
+      "fingerprint": "1afcaf971273f142f01f162687d66903ee8d423f1af536f0f0e14670fe1f3b30",
+      "checked_at": "2026-09-17T15:43:13Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "· 학부입학",
-            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
+        "membersUrl": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://naoe.snu.ac.kr/_skin/kor/images/site/logo.png?ver=2021-03-30",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
+            "alt": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
+            "alt": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/fc1zfafzcafzff3z33dzba8zab5z7a1z66az9d4zb5.jpg",
+            "alt": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/a60z10cz5a2z39bz2b3zcbdz500ze7fzeabzdaaz6f.jpg",
+            "alt": "HD현대, 서울대·미시간대와 美 조선산업 인재 육성 '맞손'",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/83ez9d8z21dzf61z0d9z140z573z56bzb51zde6z5a.jpg",
+            "alt": "노명일 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
+            "alt": "김도균 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/b1ezfa1zc16z882zf4azf14z551z5b9z9abz12cz2d.jpg",
+            "alt": "임영섭 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snupel.web.app/",
           "https://naoe.snu.ac.kr/",
@@ -157440,9 +157516,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:52:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-45D32E85E7D6E1"
+      "_unit_id": "SNU-RU-45D32E85E7D6E1",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-5253289C13B02A": {
       "fingerprint": "becd005966aeb6968217b011df5c124d0fea1fb2cace7ebb36dd5dc96a1c9d47",
@@ -177047,8 +177125,8 @@
       "_unit_id": "SNU-RU-F0AA6E02E9C6FC"
     },
     "SNU-RU-598A8A6D579A27": {
-      "fingerprint": "413b9e80211f43548aad3ca66fb95b3987756c29e3690121bfcff0bf51c30038",
-      "checked_at": "2026-09-16T09:52:10Z",
+      "fingerprint": "73aa99b4e4604a7c31f09e35d5bc0736ff8e83b87836d748805dd7bcad4b90ab",
+      "checked_at": "2026-09-17T15:43:13Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -177059,6 +177137,10 @@
           {
             "title": "· 학부입학",
             "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
@@ -177077,17 +177159,9 @@
         ]
       },
       "enrichment": {
-        "research_summary": "이신형 교수는 서울대학교 조선해양공학과 소속으로, 선박저항성능연구실을 운영하며 선박의 저항 및 추진 성능과 관련된 연구를 수행하고 있습니다.",
-        "research_topics": [
-          "선박 저항 성능",
-          "선박 추진 성능"
-        ],
-        "recommendation_keywords": [
-          "선박저항성능",
-          "조선해양공학",
-          "서울대학교",
-          "선박 추진 성능"
-        ],
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -177098,9 +177172,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 조선해양공학과 교수로서 선박저항성능연구실을 이끌고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙 및 학부/대학원 입학 안내를 제공하고 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "신임교수초빙",
@@ -177109,9 +177183,13 @@
           {
             "title": "· 학부입학",
             "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
-        "recruitment_source_url": "https://naoe.snu.ac.kr/",
+        "recruitment_source_url": "https://naoe.snu.ac.kr/faculty-job-openings",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://naoe.snu.ac.kr/about/people/faculty",
@@ -177124,23 +177202,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://naoe.snu.ac.kr/about/people/faculty",
+          "https://naoe.snu.ac.kr/admission/graduate",
+          "https://naoe.snu.ac.kr/admission/undergraduate",
+          "https://naoe.snu.ac.kr/faculty-job-openings",
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20512",
-          "https://naoe.snu.ac.kr/faculty-job-openings",
           "https://naoe.snu.ac.kr/about/people/emeritus",
           "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/department/campuslife/student-council",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535",
-          "https://naoe.snu.ac.kr/about/greetings",
-          "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21550",
-          "https://naoe.snu.ac.kr/admission/undergraduate"
+          "https://naoe.snu.ac.kr/about/greetings"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-598A8A6D579A27",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:52:35Z",
+        "_saved_at": "2026-09-17T15:43:58Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -200110,27 +200188,98 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-7DC963D3891251": {
-      "fingerprint": "8b0bb7c422ca58ce4ae9449bc479f06e52e6587e78e5ae6d899b279351b266f9",
-      "checked_at": "2026-09-16T09:52:10Z",
+      "fingerprint": "7ba54ec658d849f12723a4de056a3f4afd69eef64cc33289165b64ea8de8005a",
+      "checked_at": "2026-09-17T15:43:14Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "[대학원] 2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
-            "url": "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21550"
+            "title": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "· 학부입학",
-            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
+        "membersUrl": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://naoe.snu.ac.kr/_skin/kor/images/site/logo.png?ver=2021-03-30",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/about/greetings"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
+            "alt": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
+            "alt": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/fc1zfafzcafzff3z33dzba8zab5z7a1z66az9d4zb5.jpg",
+            "alt": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/a60z10cz5a2z39bz2b3zcbdz500ze7fzeabzdaaz6f.jpg",
+            "alt": "HD현대, 서울대·미시간대와 美 조선산업 인재 육성 '맞손'",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/83ez9d8z21dzf61z0d9z140z573z56bzb51zde6z5a.jpg",
+            "alt": "노명일 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
+            "alt": "김도균 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/b73z204z5a5z6f4z23fz78azd9az468z021z533zbc.jpg",
+            "alt": "김용환 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
@@ -200207,9 +200356,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:52:46Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-7DC963D3891251"
+      "_unit_id": "SNU-RU-7DC963D3891251",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-131A6034266F89": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -210119,8 +210270,8 @@
       "_unit_id": "SNU-RU-66C9E64239708E"
     },
     "SNU-RU-7A46EE0A203A86": {
-      "fingerprint": "1696445a6b03efa61e1b7342d94bb4648c1b943191e83cd69bef1f859e8f079f",
-      "checked_at": "2026-09-16T09:52:10Z",
+      "fingerprint": "b0ea26718f032c2224990b604256b4e8f6652aa6c508f4b2bb0af8d2cace0717",
+      "checked_at": "2026-09-17T15:43:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -210216,7 +210367,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:52:21Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-7A46EE0A203A86"
     },
@@ -238643,8 +238795,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1FD1766D3DB755": {
-      "fingerprint": "86475c3d6b7a13d0be8b7949482d03c92bc8e3c9ae0058824cbc68feffc296b4",
-      "checked_at": "2026-09-16T09:52:10Z",
+      "fingerprint": "f80405211bbe9bb5c2d5f4fee83ae3294d4760f00b95d256d49e875011df5c31",
+      "checked_at": "2026-09-17T15:43:14Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -238722,7 +238874,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:52:27Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-1FD1766D3DB755"
     },
@@ -260073,11 +260226,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T15:42:58Z",
-    "checked": 665,
-    "seconds": 14128.71,
+    "at": "2026-09-17T15:43:58Z",
+    "checked": 670,
+    "seconds": 14188.41,
     "gemini": true,
-    "ai_requests": 296,
+    "ai_requests": 297,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
