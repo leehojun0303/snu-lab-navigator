@@ -1,5 +1,5 @@
 {
-  "cursor": 15,
+  "cursor": 20,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -17085,13 +17085,18 @@
       "_unit_id": "SNU-RU-1DA2C3CA85B469"
     },
     "SNU-RU-FA2C1F1746233E": {
-      "fingerprint": "cd6e99c58b19bccf734102c7cfacfa3012e4a226fdca63154595854ea0273e3a",
-      "checked_at": "2026-09-16T09:12:47Z",
+      "fingerprint": "3ad43b7c52825d278435f667cfe5eacb6cbc02a43332c81722144c6619523931",
+      "checked_at": "2026-09-17T14:12:11Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
         "membersUrl": "https://art.snu.ac.kr/members/%EA%B0%95%ED%98%B8%EC%97%B0/#content",
-        "posterStatus": "inaccessible",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://art.snu.ac.kr/members/%EA%B0%95%ED%98%B8%EC%97%B0/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
@@ -17128,12 +17133,17 @@
         "education_summary": "",
         "verified_publication_pages": [],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
+        "recruitment_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://art.snu.ac.kr/members/%EA%B0%95%ED%98%B8%EC%97%B0/#content",
-        "poster_status": "inaccessible",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -17143,22 +17153,22 @@
         "source_urls_used": [
           "https://art.snu.ac.kr/members/%EA%B0%95%ED%98%B8%EC%97%B0/",
           "https://art.snu.ac.kr/members/%EA%B0%95%ED%98%B8%EC%97%B0/#content",
-          "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/wp-content/uploads/2024/03/얼굴.png",
+          "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
           "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
           "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
           "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
           "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/wp-content/uploads/2024/03/얼굴.png",
           "https://art.snu.ac.kr/wp-content/uploads/2017/11/s_3I6A6167-1024x683.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FA2C1F1746233E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:28:31Z",
+        "_saved_at": "2026-09-17T14:13:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -26476,11 +26486,16 @@
       "_unit_id": "SNU-RU-7D839D4528BDF5"
     },
     "SNU-RU-706C2D55A0797D": {
-      "fingerprint": "0ee8f74c3bd0ac106fc32672834731ba3dd7c232e976cc81a782840a46f3fa01",
-      "checked_at": "2026-09-16T09:12:45Z",
+      "fingerprint": "37690735511e1019da7b26c83c173a5de6314a13832ce617de49621a95c2af28",
+      "checked_at": "2026-09-17T14:12:08Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
         "membersUrl": "https://art.snu.ac.kr/members/%EA%B6%8C%EB%8C%80%ED%9B%88/#content",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
@@ -26514,8 +26529,13 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "제공된 공식 URL을 통해 확인 가능한 채용 정보가 없습니다.",
-        "verified_recruitment_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
         "recruitment_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
         "current_members": [],
         "alumni": [],
@@ -26528,24 +26548,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://art.snu.ac.kr/members/%EA%B6%8C%EB%8C%80%ED%9B%88/",
           "https://art.snu.ac.kr/en/members/kwon-dae-hun/",
-          "https://art.snu.ac.kr/wp-content/uploads/2017/11/slide0058_image409-1.jpg",
+          "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/members/%EA%B6%8C%EB%8C%80%ED%9B%88/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
           "https://art.snu.ac.kr/members/%EA%B6%8C%EB%8C%80%ED%9B%88/#content",
-          "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
           "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
           "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
           "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
+          "https://art.snu.ac.kr/wp-content/uploads/2017/11/slide0058_image409-1.jpg",
           "https://art.snu.ac.kr/wp-content/uploads/2017/11/slide0058_image407-400x267.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-706C2D55A0797D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:28:04Z",
+        "_saved_at": "2026-09-17T14:12:36Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -116318,13 +116338,13 @@
       "_unit_id": "SNU-RU-D4EC679B78FE72"
     },
     "SNU-RU-0D560C51650FC9": {
-      "fingerprint": "6c489848b1c9455d9e85eaa1afc4afd2d7f158b3ccdcb1161735656db7277237",
-      "checked_at": "2026-09-16T09:12:47Z",
+      "fingerprint": "ad80d8b9c7777a53c3f52363faafbdb7ce67abbceed2b78f3e9878e192af4bcc",
+      "checked_at": "2026-09-17T14:12:11Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/#content",
-        "posterStatus": "inaccessible",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
@@ -116339,7 +116359,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [
           "공간설치",
           "아트&테크놀로지"
@@ -116358,15 +116378,15 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/#content",
-        "poster_status": "inaccessible",
+        "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -116374,8 +116394,8 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/",
           "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/#content",
+          "https://art.snu.ac.kr/members/%EB%B0%95%EC%A0%9C%EC%84%B1/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
           "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
@@ -116391,7 +116411,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0D560C51650FC9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:29:56Z",
+        "_saved_at": "2026-09-17T14:14:00Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -150270,8 +150290,8 @@
       "_unit_id": "SNU-RU-EC78C166F4E08B"
     },
     "SNU-RU-AACE3ACFF8A296": {
-      "fingerprint": "ac68a1b064c3ca9733f0a0c44d17602309d2b6870ca16301b0c59e2022c2e3c6",
-      "checked_at": "2026-09-16T09:12:44Z",
+      "fingerprint": "b3cc45dffcdd5f90619dbd7937e0678c63e821af4f2409fd3283bb2e46b5f787",
+      "checked_at": "2026-09-17T14:12:13Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -150280,34 +150300,28 @@
             "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
           }
         ],
-        "membersUrl": "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/#content",
+        "membersUrl": "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/#content",
         "posterStatus": "verified",
         "sourcePagesScanned": [
-          "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/",
+          "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/#content",
+          "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/#content",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
-          "https://art.snu.ac.kr/en/members/shim-sang-yong/",
           "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
           "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
-          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship"
+          "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
+          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D="
         ]
       },
       "enrichment": {
-        "research_summary": "심상용 교수는 미술사학을 전공하며 현대 미술의 이론과 비평, 그리고 미술관학 분야에서 활발한 연구와 저술 활동을 이어오고 있습니다.",
+        "research_summary": "",
         "research_topics": [
-          "미술사학",
-          "현대미술비평",
-          "미술관학"
+          "미술사학"
         ],
         "recommendation_keywords": [
-          "미술사학",
-          "현대미술",
-          "미술비평",
-          "현대미술비평",
-          "미술관학"
+          "미술사학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -150319,9 +150333,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 미술대학 조소과 교수로 재직 중이며, 미술사학 분야의 교육을 담당하고 있습니다.",
+        "education_summary": "서울대학교 미술대학 조소과 교수로서 미술사학 분야를 담당하고 있습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "현재 대학학생지원기관을 통해 학생 지원 관련 정보를 제공하고 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "대학학생지원기관",
@@ -150331,33 +150345,33 @@
         "recruitment_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/#content",
+        "member_page_url": "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/#content",
         "poster_status": "verified",
-        "poster_title": "심상용 증명사진",
-        "poster_date": "2018",
-        "poster_event": "교수 프로필",
-        "poster_image_url": "https://art.snu.ac.kr/wp-content/uploads/2019/05/심상용-증명사진2018.png",
-        "poster_source_url": "https://art.snu.ac.kr/en/members/shim-sang-yong/",
-        "poster_evidence": "공식 교수 프로필 페이지에 게시된 증명사진입니다.",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://art.snu.ac.kr/wp-content/uploads/2022/04/professor_202201042027060.png",
+        "poster_source_url": "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/#content",
+        "poster_evidence": "교수 프로필 사진이 공식 페이지에 게시되어 있습니다.",
         "source_urls_used": [
-          "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/",
-          "https://art.snu.ac.kr/en/members/shim-sang-yong/",
-          "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
+          "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/",
+          "https://art.snu.ac.kr/members/%ec%8b%ac%ec%83%81%ec%9a%a9-2/#content",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
-          "https://art.snu.ac.kr/members/%EC%8B%AC%EC%83%81%EC%9A%A9/#content",
+          "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
           "https://art.snu.ac.kr/%ed%95%99%ea%b3%bc-%ed%95%99%eb%b6%80/",
           "https://art.snu.ac.kr/category/program-in-media-art/",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%ec%a0%84%ec%8b%9c%ea%b4%80/",
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
           "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
-          "https://art.snu.ac.kr/wp-content/uploads/2019/05/심상용-증명사진2018.png",
+          "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
+          "https://art.snu.ac.kr/wp-content/uploads/2022/04/professor_202201042027060.png",
           "https://art.snu.ac.kr/wp-content/uploads/2017/11/s_3I6A6167-1024x683.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AACE3ACFF8A296",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:27:49Z",
+        "_saved_at": "2026-09-17T14:14:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -185511,13 +185525,18 @@
       "_unit_id": "SNU-RU-8373AB8423184F"
     },
     "SNU-RU-098D24CAC112FA": {
-      "fingerprint": "e4acd1d886525684b7ddb0ed682d47c530b0f0f9cd71659cbcfcb7f2b6abb9b5",
-      "checked_at": "2026-09-16T09:12:47Z",
+      "fingerprint": "b28abc44bcd6ffb5d5960958f3b28dc3ae35ae549be30161b569f8d5f190d5d1",
+      "checked_at": "2026-09-17T14:12:11Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
         "membersUrl": "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/#content",
-        "posterStatus": "unverified_candidate",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
@@ -185550,20 +185569,26 @@
         "education_summary": "",
         "verified_publication_pages": [],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "대학학생지원기관",
+            "url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/"
+          }
+        ],
+        "recruitment_source_url": "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/#content",
-        "poster_status": "unverified_candidate",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "조소과 이종건 교수",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://art.snu.ac.kr/wp-content/uploads/2018/04/이종건-정사각형-741x741.jpg",
+        "poster_source_url": "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/#content",
+        "poster_evidence": "Official member page profile image alt text identifies the subject as 조소과 이종건 교수.",
         "source_urls_used": [
           "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/#content",
+          "https://art.snu.ac.kr/wp-content/uploads/2018/04/이종건-정사각형-741x741.jpg",
           "https://art.snu.ac.kr/members/%EC%9D%B4%EC%A2%85%EA%B1%B4/",
           "https://art.snu.ac.kr/category/sculpture/?cate=&catemenu=Faculty&type=major",
           "https://art.snu.ac.kr/%eb%b6%80%ec%86%8d%ea%b8%b0%ea%b4%80/%eb%8c%80%ed%95%99%ed%95%99%ec%83%9d%ec%a7%80%ec%9b%90%ea%b8%b0%ea%b4%80/",
@@ -185573,14 +185598,13 @@
           "https://art.snu.ac.kr/exgallery/?cate[0]=20251&cate[1]=&cate[2]=&cate[3]=&cate[4]=",
           "https://art.snu.ac.kr/scholar/scholarship-government/?catemenu=scholarship-government&type=Scholarship",
           "https://art.snu.ac.kr/exgallery/?cate%5B0%5D=20251&cate%5B1%5D=&cate%5B2%5D=&cate%5B3%5D=&cate%5B4%5D=",
-          "https://art.snu.ac.kr/wp-content/uploads/2018/04/이종건-정사각형-741x741.jpg",
           "https://art.snu.ac.kr/wp-content/uploads/2018/04/크기변환_01-400x264.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-098D24CAC112FA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:29:20Z",
+        "_saved_at": "2026-09-17T14:13:16Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -255253,11 +255277,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T14:11:48Z",
-    "checked": 435,
-    "seconds": 8658.01,
+    "at": "2026-09-17T14:14:13Z",
+    "checked": 440,
+    "seconds": 8803.51,
     "gemini": true,
-    "ai_requests": 184,
+    "ai_requests": 189,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
