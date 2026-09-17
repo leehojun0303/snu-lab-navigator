@@ -1,5 +1,5 @@
 {
-  "cursor": 115,
+  "cursor": 120,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -161403,13 +161403,31 @@
       "_unit_id": "SNU-RU-7875EE99E095C2"
     },
     "SNU-RU-74F99EB6224C9B": {
-      "fingerprint": "3a16906e774566a760d1a01e220bcb72c768f186b7f6dbb42944c9d534006154",
-      "checked_at": "2026-09-16T09:27:41Z",
+      "fingerprint": "8ce7eaf21263a016b567d5ade6de7b9d7d8bfe6fab8bcf36e15073a2610c0353",
+      "checked_at": "2026-09-17T14:47:36Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "(2022 Best Paper Award)",
+            "url": "http://optimize.snu.ac.kr/research/Omega_bestpaperaward_2022.pdf"
+          },
+          {
+            "title": "논문",
+            "url": "https://iisi.snu.ac.kr/result/paper/international"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "membersUrl": "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "http://optimize.snu.ac.kr/",
           "https://ie.snu.ac.kr",
@@ -161424,7 +161442,27 @@
         ]
       },
       "enrichment": {
+        "research_summary": "정수최적화, 조합최적화, 불확실성하에서의 최적화 및 이를 활용한 생산, 물류, 에너지 시스템 최적화와 산업 응용 분야를 연구합니다.",
+        "research_topics": [
+          "정수최적화",
+          "조합최적화",
+          "불확실성하에서의 최적화",
+          "생산/물류/에너지 시스템 최적화",
+          "최적화 산업 응용"
+        ],
+        "recommendation_keywords": [
+          "정수최적화",
+          "조합최적화",
+          "불확실성하에서의 최적화",
+          "생산",
+          "물류",
+          "에너지 시스템 최적화",
+          "최적화 산업 응용",
+          "생산/물류/에너지 시스템 최적화"
+        ],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -161433,41 +161471,60 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "member_page_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "(2022 Best Paper Award)",
+            "url": "http://optimize.snu.ac.kr/research/Omega_bestpaperaward_2022.pdf"
+          },
+          {
+            "title": "논문",
+            "url": "https://iisi.snu.ac.kr/result/paper/international"
+          }
+        ],
+        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내를 통해 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "recruitment_source_url": "https://ie.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "recommendation_keywords": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+        "poster_status": "verified",
+        "poster_title": "Kyungsik Lee",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "http://optimize.snu.ac.kr/kslee.jpg",
+        "poster_source_url": "http://optimize.snu.ac.kr/index.html",
+        "poster_evidence": "http://optimize.snu.ac.kr/index.html 페이지 내 Kyungsik Lee 이미지 확인됨",
         "source_urls_used": [
+          "http://optimize.snu.ac.kr/index.html",
+          "http://optimize.snu.ac.kr/research/Omega_bestpaperaward_2022.pdf",
+          "https://ie.snu.ac.kr/",
+          "https://ie.snu.ac.kr/grad_admission/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://iisi.snu.ac.kr/result/paper/international",
           "http://optimize.snu.ac.kr/",
           "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/",
-          "http://optimize.snu.ac.kr/index.html",
           "http://optimize.snu.ac.kr/schedule.html",
           "http://optimize.snu.ac.kr/research.html",
           "http://optimize.snu.ac.kr/teaching.html",
           "http://optimize.snu.ac.kr/group.html",
           "http://optimize.snu.ac.kr/CV(KyungsikLee)_current.pdf",
-          "https://iisi.snu.ac.kr/",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6440",
-          "http://optimize.snu.ac.kr/research/Omega_bestpaperaward_2022.pdf"
+          "https://iisi.snu.ac.kr/"
         ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-74F99EB6224C9B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:27:59Z",
+        "_saved_at": "2026-09-17T14:48:10Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -164516,8 +164573,8 @@
       "_unit_id": "SNU-RU-FB3F92BB693AEF"
     },
     "SNU-RU-2431F76AD1E4B0": {
-      "fingerprint": "c12f59c3be6c8468cfe50ea546aecb3498a80b9a1aa55f01c001dd73811ce8c3",
-      "checked_at": "2026-09-16T09:27:50Z",
+      "fingerprint": "fe0ec7231eee88b482a7a36268c2ea530fb716f8aea1d760a9e36b0451d04288",
+      "checked_at": "2026-09-17T14:47:42Z",
       "activity": {
         "publicationPages": [
           {
@@ -164527,18 +164584,27 @@
           {
             "title": "서울대 산업공학과 이덕주 교수, WCECS 최우수 논문상",
             "url": "https://devleesa.snu.ac.kr/news/?mod=document&uid=83"
+          },
+          {
+            "title": "논문",
+            "url": "https://leesa.snu.ac.kr/%eb%85%bc%eb%ac%b8-2/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "서울대 산업공학과 이덕주 교수, 2024 교육부 학술연구지원사업 우수성과 선정",
-            "url": "https://devleesa.snu.ac.kr/news/?mod=document&uid=86"
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
         "membersUrl": "https://leesa.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-3/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://leesa.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
           "https://leesa.snu.ac.kr/%eb%85%bc%eb%ac%b8-2/",
           "https://leesa.snu.ac.kr/%ec%9d%b4%eb%8d%95%ec%a3%bc-%ea%b5%90%ec%88%98/",
           "https://leesa.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-3/",
@@ -164546,21 +164612,16 @@
           "https://leesa.snu.ac.kr/member/%ec%9d%b4%ed%9d%ac%ec%97%b0/",
           "https://leesa.snu.ac.kr/member/%ec%9e%84%ec%a4%80%ed%98%81/",
           "https://leesa.snu.ac.kr/member/%eb%b0%95%ec%a4%80%ec%84%b1/",
-          "https://leesa.snu.ac.kr/publication/%eb%85%bc%eb%ac%b8-1/",
-          "https://leesa.snu.ac.kr/publication/assessment-of-5g-spectrum-values-and-investment-strategies-considering-demands-forecasts-and-regulations-a-korean-5g-case/"
+          "https://ie.snu.ac.kr/undergrad_admission/"
         ]
       },
       "enrichment": {
-        "research_summary": "이덕주 교수가 이끄는 경제성분석 연구실(LEESA)은 기술시스템의 경제성 분석과 시장설계 및 산업응용 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "이덕주 교수가 이끄는 경제성분석 연구실(LEESA)은 기술시스템의 경제성 분석과 시장설계 산업응용 분야를 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "기술시스템 경제성 분석",
           "시장설계 산업응용"
         ],
         "recommendation_keywords": [
-          "경제성분석",
-          "시장설계",
-          "기술시스템",
-          "산업공학",
           "기술시스템 경제성 분석",
           "시장설계 산업응용"
         ],
@@ -164582,7 +164643,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 공과대학 산업공학과 교수로서 경제성분석 연구실을 운영하며 학생들을 지도하고 있습니다.",
+        "education_summary": "서울대학교 산업공학과에서 학부 및 대학원 입학 안내를 제공하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "경제성 분석 연구실 박일, 문새다슬 2018 KEI 국제 환경 논문 공모전 최우수, 우수상 수상",
@@ -164591,30 +164652,38 @@
           {
             "title": "서울대 산업공학과 이덕주 교수, WCECS 최우수 논문상",
             "url": "https://devleesa.snu.ac.kr/news/?mod=document&uid=83"
+          },
+          {
+            "title": "논문",
+            "url": "https://leesa.snu.ac.kr/%eb%85%bc%eb%ac%b8-2/"
           }
         ],
-        "recruitment_summary": "2024년 교육부 학술연구지원사업 우수성과로 선정된 바 있습니다.",
+        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내를 통해 연구실 진학 및 학과 입학 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
-            "title": "서울대 산업공학과 이덕주 교수, 2024 교육부 학술연구지원사업 우수성과 선정",
-            "url": "https://devleesa.snu.ac.kr/news/?mod=document&uid=86"
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
-        "recruitment_source_url": "https://devleesa.snu.ac.kr/news/?mod=document&uid=86",
+        "recruitment_source_url": "https://ie.snu.ac.kr/grad_admission/",
         "current_members": [
           {
             "name": "이희연",
-            "role": "연구원",
+            "role": "재학생",
             "url": "https://leesa.snu.ac.kr/member/%ec%9d%b4%ed%9d%ac%ec%97%b0/"
           },
           {
             "name": "임준혁",
-            "role": "연구원",
+            "role": "재학생",
             "url": "https://leesa.snu.ac.kr/member/%ec%9e%84%ec%a4%80%ed%98%81/"
           },
           {
             "name": "박준성",
-            "role": "연구원",
+            "role": "재학생",
             "url": "https://leesa.snu.ac.kr/member/%eb%b0%95%ec%a4%80%ec%84%b1/"
           }
         ],
@@ -164629,25 +164698,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://leesa.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
+          "https://leesa.snu.ac.kr/%eb%85%bc%eb%ac%b8-2/",
+          "https://leesa.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-3/",
           "https://leesa.snu.ac.kr/member/%ec%9d%b4%ed%9d%ac%ec%97%b0/",
           "https://leesa.snu.ac.kr/member/%ec%9e%84%ec%a4%80%ed%98%81/",
           "https://leesa.snu.ac.kr/member/%eb%b0%95%ec%a4%80%ec%84%b1/",
-          "https://leesa.snu.ac.kr/publication/optimal-two-part-tariff-contract-between-data-provider-and-data-platform-operator-under-information-asymmetry-in-data-protection-levels/",
-          "https://devleesa.snu.ac.kr/news/?mod=document&uid=83",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://ie.snu.ac.kr/grad_admission/",
           "https://devleesa.snu.ac.kr/news/?mod=document&uid=84",
-          "https://devleesa.snu.ac.kr/news/?mod=document&uid=86",
-          "https://leesa.snu.ac.kr/%eb%85%bc%eb%ac%b8-2/",
+          "https://devleesa.snu.ac.kr/news/?mod=document&uid=83",
+          "https://leesa.snu.ac.kr/publication/optimal-two-part-tariff-contract-between-data-provider-and-data-platform-operator-under-information-asymmetry-in-data-protection-levels/",
           "https://leesa.snu.ac.kr/%ec%9d%b4%eb%8d%95%ec%a3%bc-%ea%b5%90%ec%88%98/",
-          "https://leesa.snu.ac.kr/%ec%9e%ac%ed%95%99%ec%83%9d-3/",
-          "https://leesa.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
-          "https://leesa.snu.ac.kr/publication/%eb%85%bc%eb%ac%b8-1/",
-          "https://leesa.snu.ac.kr/publication/assessment-of-5g-spectrum-values-and-investment-strategies-considering-demands-forecasts-and-regulations-a-korean-5g-case/"
+          "https://leesa.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/"
         ],
         "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2431F76AD1E4B0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:28:03Z",
+        "_saved_at": "2026-09-17T14:48:29Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -171654,70 +171723,86 @@
       "_unit_id": "SNU-RU-E37944595AA22A"
     },
     "SNU-RU-3FC02219AE7B3D": {
-      "fingerprint": "214da02bac3ca3d3cb7c9327207f4104d24ac1420102b0abc4ea4099e0f03aba",
-      "checked_at": "2026-09-16T09:27:30Z",
+      "fingerprint": "6968eb543f203478a889c96df472c11f8728c7e9c933902f3caa4a7046330c62",
+      "checked_at": "2026-09-17T14:47:43Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [
+        "publicationPages": [
           {
-            "title": "서울대학교 기술 인텔리전스 연구실 연구실 신입생 모집",
-            "url": "http://tma.snu.ac.kr/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "membersUrl": "http://tma.snu.ac.kr/",
+        "recruitmentPages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "membersUrl": "https://ie.snu.ac.kr/professor/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "http://tma.snu.ac.kr/"
+          "http://tma.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://ie.snu.ac.kr/grad_admission/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://ie.snu.ac.kr/intro/",
+          "https://ie.snu.ac.kr/professor/",
+          "https://ie.snu.ac.kr/former_faculty/",
+          "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474"
         ]
       },
       "enrichment": {
-        "research_summary": "서울대학교 기술 인텔리전스 연구실(Technology Intelligence Lab)을 이끌며 기술경영(Technology Management) 및 인텔리전스 애널리틱스(Intelligence Analytics) 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "이성주 교수는 기술경영 및 애널리틱스, 혁신정책, 지식재산관리 분야를 전문으로 연구하고 있습니다.",
         "research_topics": [
-          "Technology Management",
-          "Intelligence Analytics",
-          "기술전략",
-          "특허 분석"
+          "기술경영 및 애널리틱스",
+          "혁신정책",
+          "지식재산관리"
         ],
         "recommendation_keywords": [
           "기술경영",
           "애널리틱스",
-          "기술 인텔리전스",
-          "특허 분석",
-          "Technology Management",
-          "Intelligence Analytics",
-          "기술전략"
+          "혁신정책",
+          "지식재산관리",
+          "기술경영 및 애널리틱스"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
-        "research_projects": [
-          {
-            "title": "특허 공백을 통한 공백기술 유망성 평가",
-            "url": "http://tma.snu.ac.kr/",
-            "date": "None",
-            "organization": "IITP",
-            "summary": "특허 데이터를 활용하여 공백 기술의 유망성을 평가하는 연구를 진행 중입니다."
-          }
-        ],
+        "research_projects": [],
         "recent_performances": [],
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 기술 인텔리전스 연구실에서는 효과적인 기술전략 수립을 위해 활발히 연구할 인재를 상시 모집하고 있습니다.",
-        "verified_recruitment_pages": [
+        "verified_publication_pages": [
           {
-            "title": "서울대학교 기술 인텔리전스 연구실 연구실 신입생 모집",
-            "url": "http://tma.snu.ac.kr/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_source_url": "http://tma.snu.ac.kr/",
+        "recruitment_summary": "서울대학교 산업공학과 대학원 및 학부 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
+          }
+        ],
+        "recruitment_source_url": "https://ie.snu.ac.kr/grad_admission/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://tma.snu.ac.kr/",
+        "member_page_url": "https://ie.snu.ac.kr/professor/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -171726,13 +171811,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://tma.snu.ac.kr/"
+          "https://ie.snu.ac.kr/grad_admission/",
+          "https://ie.snu.ac.kr/professor/",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://www.snu.ac.kr/research/highlights",
+          "http://tma.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
+          "https://admission.snu.ac.kr/index.html",
+          "https://ie.snu.ac.kr/intro/",
+          "https://ie.snu.ac.kr/former_faculty/",
+          "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3FC02219AE7B3D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:27:33Z",
+        "_saved_at": "2026-09-17T14:48:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -182735,28 +182831,114 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D2FFB91AA41277": {
-      "fingerprint": "38640eb380ddd2e0a56e7c2abcda5109dfc1bb8b57d9dfc9f272dc785d35c06e",
-      "checked_at": "2026-09-16T09:27:31Z",
+      "fingerprint": "4b2944a460a0fab39ffded203a486fb1e6178d8f4e0ef64bc495dda97cd45c69",
+      "checked_at": "2026-09-17T14:47:29Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://slcf.snu.ac.kr/publications"
+            "url": "https://slcf.snu.ac.kr/publications",
+            "kind": "publication"
           },
           {
             "title": "AI Safety",
-            "url": "https://slcf.snu.ac.kr/publications/ai-safety"
+            "url": "https://slcf.snu.ac.kr/publications/ai-safety",
+            "kind": "publication"
           },
           {
             "title": "Digital Finance",
-            "url": "https://slcf.snu.ac.kr/publications/digital-finance"
+            "url": "https://slcf.snu.ac.kr/publications/digital-finance",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://slcf.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "AI Safety",
+            "url": "https://slcf.snu.ac.kr/publications/ai-safety",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2027학년도 대학원 전기모집 면접 및 필답고사 일정 안내",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6476",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://slcf.snu.ac.kr/members/professor",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
+            "alt": "서울대학교 SNU",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2021/02/f_logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://slcf.snu.ac.kr/",
+          "https://ie.snu.ac.kr",
           "https://slcf.snu.ac.kr/members/professor",
           "https://slcf.snu.ac.kr/members/researchers",
           "https://slcf.snu.ac.kr/members/alumni",
@@ -182764,8 +182946,7 @@
           "https://slcf.snu.ac.kr/publications/ai-safety",
           "https://slcf.snu.ac.kr/publications/digital-finance",
           "https://slcf.snu.ac.kr/home",
-          "https://slcf.snu.ac.kr/",
-          "https://slcf.snu.ac.kr/research/ai-safety"
+          "https://slcf.snu.ac.kr/"
         ]
       },
       "enrichment": {
@@ -182861,9 +183042,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:27:44Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-D2FFB91AA41277"
+      "_unit_id": "SNU-RU-D2FFB91AA41277",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7E5CBAE63F340C": {
       "fingerprint": "0d776c2e93fe20ca0b614c93857cb49f839cc095e2c0b1144e8c7e611eb9d014",
@@ -232590,38 +232773,129 @@
       "_unit_id": "SNU-RU-10C81698697F17"
     },
     "SNU-RU-46C254258D3F72": {
-      "fingerprint": "88c21be4e2067cdbffc03d766266d0f79e8e138b4f2562cf1b5a9f3306971f92",
-      "checked_at": "2026-09-16T09:27:55Z",
+      "fingerprint": "c20442951dbf6d481e3c22e008fb1592eb2cb89507650149381f820ff3366cda",
+      "checked_at": "2026-09-17T14:47:40Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "International Journal",
+            "url": "https://his.snu.ac.kr/international-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic Journal",
+            "url": "https://his.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "International Journal",
+            "url": "https://his.snu.ac.kr/international-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic Journal",
+            "url": "https://his.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "International Journal",
+            "url": "https://his.snu.ac.kr/international-journal/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
+            "title": "[연구참여자 모집] 운전자 대상 자율주행 과업분석 피실험자 모집 (약 1시간 소요, 참여비 3만원)",
+            "url": "https://his.snu.ac.kr/?kboard_content_redirect=102",
+            "kind": "recruitment"
+          },
+          {
             "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+            "url": "https://ie.snu.ac.kr/undergrad_admission/",
+            "kind": "recruitment"
           },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
-            "url": "https://ie.snu.ac.kr/grad_admission/"
+            "url": "https://ie.snu.ac.kr/grad_admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://ie.snu.ac.kr/professor/",
+        "membersUrl": "https://his.snu.ac.kr/students/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://his.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+            "alt": "서울대학교 HIS LAB",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://his.snu.ac.kr/#container"
+          },
+          {
+            "url": "https://his.snu.ac.kr/wp-content/uploads/sites/203/2023/11/sample-4.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://his.snu.ac.kr/#container"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
+            "alt": "서울대학교 SNU",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
+          "https://his.snu.ac.kr/",
           "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/undergrad_admission/",
-          "https://ie.snu.ac.kr/grad_admission/",
-          "https://admission.snu.ac.kr/index.html",
-          "https://ie.snu.ac.kr/intro/",
-          "https://ie.snu.ac.kr/professor/",
-          "https://ie.snu.ac.kr/former_faculty/",
-          "https://ie.snu.ac.kr/past_awardees/",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6440",
-          "https://ie.snu.ac.kr/undergrad_admission/#footer"
+          "https://his.snu.ac.kr/professor/",
+          "https://his.snu.ac.kr/students/",
+          "https://his.snu.ac.kr/alumni/",
+          "https://his.snu.ac.kr/international-journal/",
+          "https://his.snu.ac.kr/domestic-journal/",
+          "https://his.snu.ac.kr/his-news/?mod=document&uid=102",
+          "https://www.snu.ac.kr/personal_information",
+          "https://his.snu.ac.kr/#container"
         ]
       },
       "enrichment": {
@@ -232703,9 +232977,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-16T09:28:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-46C254258D3F72"
+      "_unit_id": "SNU-RU-46C254258D3F72",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-03F54F9A62EBEF": {
       "fingerprint": "516b94a351ce53df13306f67b14f0fec30036a99a9389c531e4994f0224e45a3",
@@ -256562,11 +256838,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T14:47:21Z",
-    "checked": 535,
-    "seconds": 10791.12,
+    "at": "2026-09-17T14:48:44Z",
+    "checked": 540,
+    "seconds": 10874.66,
     "gemini": true,
-    "ai_requests": 224,
+    "ai_requests": 227,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
