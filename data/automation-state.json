@@ -1,5 +1,5 @@
 {
-  "cursor": 2160,
+  "cursor": 2165,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -197693,13 +197693,13 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E155D05D1F25E9": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-16T09:08:13Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-17T14:07:42Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
         "recruitmentPages": [],
@@ -197715,22 +197715,43 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "임영준 교수는 서울대학교 치의학대학원 치과보철학교실 소속으로, 치과보철학 분야의 연구 및 교육을 수행하고 있습니다.",
+        "research_summary": "임영준 교수는 서울대학교 치의학대학원 치과보철학교실 소속으로, 최근 연구에서는 위장관 전체를 코팅하여 염증성 장질환 및 방사선 장염을 치료하는 경구 나노입자 전달 플랫폼 'SHIELD'를 개발하는 등 나노의약 분야에서 성과를 거두었습니다.",
         "research_topics": [
-          "치과보철학"
+          "치과보철학",
+          "나노의약",
+          "경구 나노입자 전달 플랫폼",
+          "염증성 장질환 치료",
+          "방사선 장염 치료"
         ],
         "recommendation_keywords": [
           "치과보철학",
-          "서울대학교",
-          "치의학대학원"
+          "나노의약",
+          "SHIELD",
+          "경구 전달 플랫폼",
+          "서울대학교 치의학대학원",
+          "경구 나노입자 전달 플랫폼",
+          "염증성 장질환 치료",
+          "방사선 장염 치료"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Orally Administered Nanoparticle Coacervate for Therapeutic Coating of Full Gastrointestinal Tract",
+            "year": "2025",
+            "venue": "Advanced Materials",
+            "summary": "위장관 전체를 균일하게 코팅하여 염증성 장질환과 방사선 장염을 치료하는 경구 투여형 나노입자 전달 플랫폼 'SHIELD'를 개발하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 1,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Advanced Materials",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -197738,11 +197759,11 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 치과보철학교실에서 치과보철학 관련 교육을 담당하고 있습니다.",
+        "education_summary": "서울대학교 치의학대학원 치과보철학교실에서 교육 및 연구 활동을 수행하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
         "recruitment_summary": "",
@@ -197760,7 +197781,8 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://dentistry.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/personal_information",
           "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
@@ -197768,15 +197790,14 @@
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E155D05D1F25E9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:08:25Z",
+        "_saved_at": "2026-09-17T14:08:17Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -197784,7 +197805,7 @@
     },
     "SNU-RU-4060BABE997CFE": {
       "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-16T09:08:14Z",
+      "checked_at": "2026-09-17T14:07:42Z",
       "activity": {
         "publicationPages": [
           {
@@ -211445,7 +211466,7 @@
     },
     "SNU-RU-B10418C92B43A0": {
       "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-16T09:08:15Z",
+      "checked_at": "2026-09-17T14:07:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -216384,117 +216405,21 @@
     },
     "SNU-RU-6B82047645576E": {
       "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-16T09:08:14Z",
+      "checked_at": "2026-09-17T14:07:42Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "url": "https://www.snu.ac.kr/research/highlights"
           },
           {
             "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
-            "url": "https://snudf.snu.ac.kr/3344/",
-            "kind": "publication"
-          },
-          {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/",
-            "kind": "publication"
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-            "kind": "recruitment"
-          },
-          {
-            "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_facebook.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_twitter.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_kakao.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_blog.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_facebook.png",
-            "alt": "페이스북",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_twitter.png",
-            "alt": "트위터",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_youtube.png",
-            "alt": "유튜브",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/"
-          },
-          {
-            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/footer_logo.png",
-            "alt": "서울대학교 치의학대학원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://dentistry.snu.ac.kr/"
-          }
-        ],
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
@@ -216570,8 +216495,7 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-6B82047645576E",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-6B82047645576E"
     },
     "SNU-RU-86F8ED00E9785B": {
       "fingerprint": "d27226017cec24ed6e0106dc559a9058ee93e759272fcc15b546a1cec07fb58c",
@@ -217708,17 +217632,26 @@
       "_unit_id": "SNU-RU-E14B93098F38BB"
     },
     "SNU-RU-F0327E06F34BB6": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-16T09:08:16Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-17T14:07:40Z",
       "activity": {
         "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "recruitmentPages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          }
+        ],
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -217730,25 +217663,13 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "조정환 교수는 서울대학교 치의학대학원 구강내과진단학교실 소속으로, 타액선 기능이상, 구강점막질환, 측두하악장애 및 구강안면통증 분야를 전문으로 연구하고 있습니다.",
-        "research_topics": [
-          "타액선 기능이상",
-          "구강점막질환",
-          "측두하악장애",
-          "구강안면통증"
-        ],
-        "recommendation_keywords": [
-          "구강내과",
-          "측두하악장애",
-          "구강안면통증",
-          "타액선질환",
-          "타액선 기능이상",
-          "구강점막질환"
-        ],
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -217759,19 +217680,28 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 구강내과진단학교실 교수로서 치의학 교육 및 연구를 수행하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          }
+        ],
+        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "member_page_url": "https://www.snu.ac.kr/personal_information",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -217781,23 +217711,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://dentsci.snu.ac.kr/research/publications/",
           "https://www.snu.ac.kr/personal_information",
           "https://dentsci.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
-          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
-          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snudf.snu.ac.kr/3344/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F0327E06F34BB6",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T09:24:18Z",
+        "_saved_at": "2026-09-17T14:07:46Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -255126,11 +255058,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-17T14:07:24Z",
-    "checked": 410,
-    "seconds": 8393.9,
+    "at": "2026-09-17T14:08:17Z",
+    "checked": 415,
+    "seconds": 8447.26,
     "gemini": true,
-    "ai_requests": 179,
+    "ai_requests": 181,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
