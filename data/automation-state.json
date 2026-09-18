@@ -1,5 +1,5 @@
 {
-  "cursor": 75,
+  "cursor": 80,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -14756,8 +14756,8 @@
       "_unit_id": "SNU-RU-ERE-KANG-JINSU"
     },
     "SNU-RU-3744060538F429": {
-      "fingerprint": "ef85f8a877ba22860da3e8839d061568125817d2834ab10b8d95d5f676fec0ac",
-      "checked_at": "2026-09-17T14:26:06Z",
+      "fingerprint": "55b870ec8d57629286ba2d82d068093235490f8849e2f141a2135ba6fd380848",
+      "checked_at": "2026-09-18T11:19:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -14765,7 +14765,12 @@
             "url": "https://kanglab.snu.ac.kr/publications"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "KANG LAB",
+            "url": "https://kanglab.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://kanglab.snu.ac.kr/members",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -14782,13 +14787,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강준호 교수의 정밀 생체계측 연구실(Precision Bioinstrumentation Lab)은 미세유체학, MEMS 기술, 광학 바이오칩, 그리고 AI 기반 데이터 분석을 융합하여 단일 세포의 물리적 특성(질량, 부피, 강성, 3D 형상 등)을 정밀하게 측정하고 분석하는 연구를 수행합니다. 이를 통해 세포의 이질성을 규명하고, 암 전이 및 신경 염증과 같은 질병의 물리적 바이오마커를 발굴하여 질병 진단 및 치료 전략을 제시하는 것을 목표로 합니다.",
+        "research_summary": "정밀 생체계측 연구실(Precision Bioinstrumentation Lab)은 세포의 물리적 특성(질량, 부피, 강성 등)을 정밀하게 측정하고 모델링하여 생물학적 현상을 예측하는 연구를 수행합니다. 주요 연구 분야는 기계적 바이오센서(SMR 등), 광학 바이오칩을 이용한 3D 세포 형상 모니터링, 그리고 AI 및 계산 모델링을 통한 세포 거동 예측입니다.",
         "research_topics": [
           "바이오공학",
           "생체계측 및 바이오센싱",
           "MEMS",
           "미세유체학",
-          "단일세포분석"
+          "단일세포분석",
+          "기계-바이오 융합"
         ],
         "recommendation_keywords": [
           "바이오공학",
@@ -14797,23 +14803,10 @@
           "MEMS",
           "미세유체학",
           "단일세포분석",
-          "생체계측 및 바이오센싱"
+          "생체계측 및 바이오센싱",
+          "기계-바이오 융합"
         ],
         "recent_papers": [
-          {
-            "title": "Microfluidic vibrational transit signals encode multidimensional single-cell biophysical states",
-            "url": "https://kanglab.snu.ac.kr/publications",
-            "year": "2026",
-            "venue": "submitted",
-            "summary": ""
-          },
-          {
-            "title": "FLEXOM: High-speed, label-free 3D height profiling of confluent monolayers",
-            "url": "https://kanglab.snu.ac.kr/publications",
-            "year": "2026",
-            "venue": "submitted",
-            "summary": ""
-          },
           {
             "title": "Stochasticity in mammalian cell growth rates drives cell-to-cell variability independently of cell size and divisions",
             "url": "https://kanglab.snu.ac.kr/publications",
@@ -14825,12 +14818,12 @@
         "recent_year_paper_count": 3,
         "recent_year_papers_by_venue": [
           {
-            "venue": "submitted",
-            "count": 2
-          },
-          {
             "venue": "Proceedings of the National Academy of Sciences",
             "count": 1
+          },
+          {
+            "venue": "submitted",
+            "count": 2
           }
         ],
         "books": [],
@@ -14840,29 +14833,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2012년 컬럼비아 대학교에서 물리학 학사 학위를, 2019년 MIT에서 물리학 박사 학위를 취득하였습니다.",
+        "education_summary": "컬럼비아 대학교 물리학 학사(2012), MIT 물리학 박사(2019) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "PUBLICATIONS",
             "url": "https://kanglab.snu.ac.kr/publications"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연구실에서는 박사후 연구원, 대학원생(석박사 통합과정), 학부 연구생을 상시 모집하고 있습니다. 관심 있는 지원자는 이메일(joonhokang@snu.ac.kr)로 문의를 권장하며, 대학원 진학 전 3개월 이상의 인턴 활동을 권장합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "KANG LAB",
+            "url": "https://kanglab.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://kanglab.snu.ac.kr/",
         "current_members": [
           {
             "name": "Daeeun Shin",
-            "role": "MS/PhD program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
-            "name": "Hyunju Ham",
-            "role": "MS/PhD program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
-            "name": "Geunwoo Shin",
             "role": "MS/PhD program",
             "url": "https://kanglab.snu.ac.kr/members"
           },
@@ -14872,12 +14860,27 @@
             "url": "https://kanglab.snu.ac.kr/members"
           },
           {
+            "name": "Minsu Park",
+            "role": "MS/PhD program",
+            "url": "https://kanglab.snu.ac.kr/members"
+          },
+          {
+            "name": "Hyunju Ham",
+            "role": "MS/PhD program",
+            "url": "https://kanglab.snu.ac.kr/members"
+          },
+          {
             "name": "Jiyul Kim",
             "role": "MS program",
             "url": "https://kanglab.snu.ac.kr/members"
           },
           {
-            "name": "Minsu Park",
+            "name": "Junyong Um",
+            "role": "BS/MS/PhD program",
+            "url": "https://kanglab.snu.ac.kr/members"
+          },
+          {
+            "name": "Geunwoo Shin",
             "role": "MS/PhD program",
             "url": "https://kanglab.snu.ac.kr/members"
           },
@@ -14887,28 +14890,8 @@
             "url": "https://kanglab.snu.ac.kr/members"
           },
           {
-            "name": "Junyong Um",
-            "role": "BS/MS/PhD program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
             "name": "Jimin Park",
             "role": "BS/MS program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
-            "name": "Induk Um",
-            "role": "MS/PhD program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
-            "name": "Jihye Ahn",
-            "role": "MS/PhD program",
-            "url": "https://kanglab.snu.ac.kr/members"
-          },
-          {
-            "name": "Hyunsu Go",
-            "role": "Undergraduate Student",
             "url": "https://kanglab.snu.ac.kr/members"
           }
         ],
@@ -14933,10 +14916,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://kanglab.snu.ac.kr/",
           "https://kanglab.snu.ac.kr/members",
           "https://kanglab.snu.ac.kr/publications",
           "https://kanglab.snu.ac.kr/research",
-          "https://kanglab.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%A4%80%ED%98%B8-kang-joon-ho/",
           "https://me.snu.ac.kr",
           "https://kanglab.snu.ac.kr/home",
@@ -14946,11 +14929,11 @@
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
           "https://admission.snu.ac.kr/"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3744060538F429",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:26:59Z",
+        "_saved_at": "2026-09-18T11:19:11Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -19456,8 +19439,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-05034AD3AF1B29": {
-      "fingerprint": "567f5b38325c16c17f29c1668bbe58073f30d601748c05af72fd041cfaba49ac",
-      "checked_at": "2026-09-17T14:26:21Z",
+      "fingerprint": "c4faf16641f9c1b81f3ebd55cb5f91434afdfa7e60f70ba669795ae96394d398",
+      "checked_at": "2026-09-18T11:19:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -38549,8 +38532,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9E529B867CDCA1": {
-      "fingerprint": "777e804b856816a7b729beecbd2dd20bfc3c0cf931a71a7ca7baae487b799bdd",
-      "checked_at": "2026-09-17T14:26:09Z",
+      "fingerprint": "df6b09003030fe91201037a9977f945100ce9da5b724b604b5453c6484ebb7a4",
+      "checked_at": "2026-09-18T11:19:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -38562,18 +38545,9 @@
             "url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
-        "posterStatus": "verified",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "http://aisdl.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EB%8F%84%EB%85%84-kim-do-nyun/",
@@ -38588,7 +38562,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김도년 교수의 AI주도 시뮬레이션 및 설계 연구실(AISDL)은 전산역학을 기반으로 Multi-physics, Multi-scale, Multi-fidelity 시뮬레이션 기술을 개발하며, 바이오나노재료의 전산 해석 및 설계와 웹 기반 해석 및 설계 기술 연구를 수행하고 있습니다.",
+        "research_summary": "김도년 교수의 AI주도 시뮬레이션 및 설계 연구실은 전산역학을 기반으로 Multi-physics, Multi-scale, Multi-fidelity 시뮬레이션 기술을 개발하며, 바이오나노재료의 전산 해석 및 설계와 웹 기반 해석 및 설계 기술 연구를 수행하고 있습니다.",
         "research_topics": [
           "전산역학",
           "Multi-physics 시뮬레이션",
@@ -38603,7 +38577,7 @@
           "Multi-scale",
           "Multi-fidelity",
           "바이오나노재료",
-          "웹기반 해석",
+          "웹기반 설계",
           "Multi-physics 시뮬레이션",
           "Multi-scale 시뮬레이션",
           "Multi-fidelity 시뮬레이션",
@@ -38631,34 +38605,24 @@
             "url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47"
           }
         ],
-        "recruitment_summary": "서울대학교 입학포털을 통해 학부 및 대학원 입학 관련 정보를 확인할 수 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "recruitment_summary": "연구실 공식 홈페이지를 통해 연구실 관련 소식 및 정보를 제공하고 있으나, 현재 구체적인 채용 공고는 명시되어 있지 않습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "http://aisdl.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
-        "poster_status": "verified",
+        "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "http://aisdl.snu.ac.kr/data/file/main_visual/thumb-663a8ca2db564262fa958934d51f8adc_dZeohaqD_9f2e3721549426ec0407fd83aaeb08622454b51d_1920x760.jpg",
-        "poster_source_url": "http://aisdl.snu.ac.kr/index.php",
-        "poster_evidence": "연구실 홈페이지 메인 비주얼 이미지로 확인됨.",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
           "http://aisdl.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EB%8F%84%EB%85%84-kim-do-nyun/",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=52",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47",
-          "https://admission.snu.ac.kr/",
           "https://me.snu.ac.kr",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
@@ -38673,7 +38637,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E529B867CDCA1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:27:03Z",
+        "_saved_at": "2026-09-18T11:19:30Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -42176,8 +42140,8 @@
       "_unit_id": "SNU-RU-D30322A316FB35"
     },
     "SNU-RU-6C0BD9C6E29AAD": {
-      "fingerprint": "0b615eea8ad19fbe27921c27d875281ba03e9321ae0fca59cbacaaa645f32880",
-      "checked_at": "2026-09-17T14:26:06Z",
+      "fingerprint": "cf202308c61bae3c7618df68ba411e59e0b39896d932adba375c4ced0afc1d17",
+      "checked_at": "2026-09-18T11:19:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -42395,7 +42359,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-6C0BD9C6E29AAD",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-B38C021CEEA5BC": {
       "fingerprint": "b959dd9c480c8c9ef50cf807f58c59332f1deac4f440aaa22fce2d2e975e9c7c",
@@ -53217,23 +53181,23 @@
       "_unit_id": "SNU-RU-B3CFABDFE9A4E2"
     },
     "SNU-RU-154D57F53FF8D9": {
-      "fingerprint": "bde75c3b657eacfb6858d73bb5fbb639dfb08b1eb8980299042870e3d0704adb",
-      "checked_at": "2026-09-17T14:26:15Z",
+      "fingerprint": "644d85ebb8b9dbd9887093a4cc7bd80a9873c0ebed19c66cca10fe51a5659140",
+      "checked_at": "2026-09-18T11:19:23Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Suyong Kim",
-            "url": "https://suyongk.github.io/"
+            "title": "Publications",
+            "url": "https://thermal.snu.ac.kr/publications/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "Suyong Kim",
-            "url": "https://suyongk.github.io/"
+            "title": "Openings",
+            "url": "https://thermal.snu.ac.kr/openings/"
           }
         ],
-        "membersUrl": "https://suyongk.github.io/",
-        "posterStatus": "none_detected",
+        "membersUrl": "https://thermal.snu.ac.kr/people/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://suyongk.github.io/",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/",
@@ -53243,16 +53207,15 @@
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#footer",
           "https://admission.snu.ac.kr/index.html",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/"
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/"
         ]
       },
       "enrichment": {
-        "research_summary": "김수용 교수는 열공학, 에너지 재료, 추진 및 연소, 열관리, 열공학 시뮬레이션, 머신러닝 및 최적화 이론 분야를 연구합니다. 특히 연소 현상의 물리적 해석, 에너지 재료의 열적 거동, 그리고 과학적 머신러닝(Scientific Machine Learning)을 활용한 동역학 시스템 및 화학 반응 모델링에 중점을 두고 있습니다.",
+        "research_summary": "김수용 교수는 열 및 반응성 시스템 설계 연구실(TRS-DLab)을 이끌며, 연소 현상의 물리적 해석, 에너지 재료의 연소 특성, 그리고 과학적 머신러닝(Scientific Machine Learning)을 활용한 열공학 시뮬레이션 및 최적화 연구를 수행하고 있습니다.",
         "research_topics": [
           "열공학",
-          "에너지 재료",
-          "추진 및 연소",
+          "에너지 재료 추진 및 연소",
           "열관리",
           "열공학 시뮬레이션",
           "머신러닝 및 최적화 이론"
@@ -53264,37 +53227,43 @@
           "열관리",
           "시뮬레이션",
           "머신러닝",
-          "추진 및 연소",
+          "최적화",
+          "에너지 재료 추진 및 연소",
           "열공학 시뮬레이션",
           "머신러닝 및 최적화 이론"
         ],
         "recent_papers": [
           {
-            "title": "Decoding Physics From Combustion Experiments: Quantification of Intrinsic Properties With Uncertainties From Reacting Flow Dynamics",
-            "url": "https://suyongk.github.io/",
+            "title": "Under-water ignition and combustion of PDMS processed Al/CuO nanoparticle composite",
             "year": "2026",
-            "venue": "Propellants Explos. Pyrotech.",
+            "venue": "Sci. Rep.",
             "summary": ""
           },
           {
-            "title": "Model Inversion and Uncertainty Quantification for Chemical Kinetics and Thermal Properties from Combustion Waves",
-            "url": "https://suyongk.github.io/",
+            "title": "Transition of combustion pattern of energetic thin film through controlled composition",
             "year": "2026",
-            "venue": "J. Comput. Phys.",
+            "venue": "Combust. Flame",
             "summary": ""
           },
           {
-            "title": "Combustion Waves and Flame Stability in Nanocomposites",
-            "url": "https://suyongk.github.io/",
-            "year": "2025",
-            "venue": "ACS Nano",
+            "title": "Competing mechanisms governing combustion behavior in carbon-additive energetic materials",
+            "year": "2026",
+            "venue": "Proc. Combust. Inst.",
             "summary": ""
           }
         ],
         "recent_year_paper_count": 5,
         "recent_year_papers_by_venue": [
           {
-            "venue": "Propellants Explos. Pyrotech.",
+            "venue": "Sci. Rep.",
+            "count": 1
+          },
+          {
+            "venue": "Combust. Flame",
+            "count": 1
+          },
+          {
+            "venue": "Proc. Combust. Inst.",
             "count": 1
           },
           {
@@ -53302,17 +53271,44 @@
             "count": 1
           },
           {
-            "venue": "ACS Nano",
-            "count": 1
-          },
-          {
-            "venue": "Neural Netw.",
-            "count": 1
-          },
-          {
-            "venue": "Phys. Chem. Chem. Phys.",
+            "venue": "Propellants Explos. Pyrotech.",
             "count": 1
           }
+        ],
+        "education_summary": "서울대학교 기계항공공학부 학사, 서울대학교 기계공학부 석사, 매사추세츠 공과대학교(MIT) 기계공학 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://thermal.snu.ac.kr/publications/"
+          }
+        ],
+        "recruitment_summary": "열 및 반응성 시스템 설계 연구실(TRS-DLab)에서 연구원을 모집하고 있습니다. 자세한 내용은 연구실 홈페이지의 Openings 메뉴를 참조하시기 바랍니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Openings",
+            "url": "https://thermal.snu.ac.kr/openings/"
+          }
+        ],
+        "recruitment_source_url": "https://thermal.snu.ac.kr/openings/",
+        "member_page_url": "https://thermal.snu.ac.kr/people/",
+        "poster_status": "verified",
+        "poster_title": "My Photo",
+        "poster_image_url": "https://suyongk.github.io/images/headshot.jpg",
+        "poster_source_url": "https://suyongk.github.io/",
+        "poster_evidence": "연구실 홈페이지 및 개인 웹사이트를 통해 확인된 교수 사진입니다.",
+        "source_urls_used": [
+          "https://suyongk.github.io/",
+          "https://thermal.snu.ac.kr/publications/",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/",
+          "https://me.snu.ac.kr",
+          "https://thermal.snu.ac.kr/",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#container",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#footer",
+          "https://admission.snu.ac.kr/index.html",
+          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#none",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061"
         ],
         "books": [],
         "conference_presentations": [],
@@ -53321,50 +53317,13 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 기계항공공학부 학사, 서울대학교 기계공학부 석사, 미국 매사추세츠 공과대학교(MIT) 기계공학 박사 학위를 취득하였습니다.",
-        "verified_publication_pages": [
-          {
-            "title": "Suyong Kim",
-            "url": "https://suyongk.github.io/"
-          }
-        ],
-        "recruitment_summary": "열 및 반응성 시스템 설계 연구실(https://thermal.snu.ac.kr/)을 운영하며 연구원을 모집하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "Suyong Kim",
-            "url": "https://suyongk.github.io/"
-          }
-        ],
-        "recruitment_source_url": "https://suyongk.github.io/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://suyongk.github.io/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
-        "source_urls_used": [
-          "https://suyongk.github.io/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/",
-          "https://me.snu.ac.kr",
-          "https://thermal.snu.ac.kr/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#container",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EC%88%98%EC%9A%A9-kim-suyong/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-          "https://thermal.snu.ac.kr/publications/"
-        ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-154D57F53FF8D9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:27:18Z",
+        "_saved_at": "2026-09-18T11:19:59Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -251427,11 +251386,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-18T11:18:52Z",
-    "checked": 495,
-    "seconds": 5354.39,
+    "at": "2026-09-18T11:19:59Z",
+    "checked": 500,
+    "seconds": 5421.19,
     "gemini": true,
-    "ai_requests": 277,
+    "ai_requests": 280,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
