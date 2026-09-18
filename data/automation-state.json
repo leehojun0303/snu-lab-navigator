@@ -1,5 +1,5 @@
 {
-  "cursor": 130,
+  "cursor": 135,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -118849,17 +118849,17 @@
       "_unit_id": "SNU-RU-CFE4EA1F11E924"
     },
     "SNU-RU-8D6EB7335D812E": {
-      "fingerprint": "808d4be0a31b0b02a2d4e1d94492159d96847699e392e108cb00dafeffe17e83",
-      "checked_at": "2026-09-17T14:52:40Z",
+      "fingerprint": "a1ecdad427b06e8bd742a45250125d87b17c9524d45579e2bf00e9dbe1159d68",
+      "checked_at": "2026-09-18T11:30:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
+            "title": "· 학부입학",
             "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "대학원입학",
+            "title": "· 대학원입학",
             "url": "https://nucleng.snu.ac.kr/admission/graduate"
           }
         ],
@@ -118879,7 +118879,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -118892,16 +118892,16 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [
           {
-            "title": "학부입학",
+            "title": "· 학부입학",
             "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "대학원입학",
+            "title": "· 대학원입학",
             "url": "https://nucleng.snu.ac.kr/admission/graduate"
           }
         ],
@@ -118934,7 +118934,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-8D6EB7335D812E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:52:45Z",
+        "_saved_at": "2026-09-18T11:30:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -145467,22 +145467,92 @@
       "_unit_id": "SNU-RU-54626FDD7CCD86"
     },
     "SNU-RU-68989AF9DA9036": {
-      "fingerprint": "a22208381606f8dbf4823bd6bdbfd76813763a932f580337b6f998169100deb0",
-      "checked_at": "2026-09-17T14:52:41Z",
+      "fingerprint": "e405d13cef30ad99591244dae88afcc11b3845a3dc0c471d01aa0a25d2f0c128",
+      "checked_at": "2026-09-18T11:30:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
-            "title": "대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=159",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/55fz64bz4d8z943z7c6z6b5zdb7z77dzef9z608ze8.jpg",
+            "alt": "심형진 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
+            "alt": "서울대학교 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg",
+            "alt": "“우라늄 농축·사용후핵연료 재처리 권한 확보, 명확한 필요성 제시돼야”",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=159",
           "https://nucleng.snu.ac.kr",
@@ -145562,9 +145632,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-17T14:54:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-68989AF9DA9036"
+      "_unit_id": "SNU-RU-68989AF9DA9036",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D04CCB878598F0": {
       "fingerprint": "f49268d58730564419f076b525da6b2ac928dd06a7815a759f2c22fb824f417b",
@@ -172877,8 +172949,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1346C82E01F143": {
-      "fingerprint": "750d07b32d5a436b8f5c1bc4bba52202abfc78a22c6efe9029fbed4291f88a07",
-      "checked_at": "2026-09-17T14:52:41Z",
+      "fingerprint": "73a070c02bcbd482f6275b9b419c2038311ef45696abe76264771080d03d45f6",
+      "checked_at": "2026-09-18T11:30:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -172907,7 +172979,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "핵연료 재료 및 원자로공학을 전공하며, 핵연료-노심 통합 전산해석, 사용후핵연료 저장, SMR 개발, 원자로 기술경제성 통합 분석, 연료수급 및 원자력 정책 등 원자력 분야의 다양한 연구를 수행하고 있습니다.",
+        "research_summary": "핵연료 재료 및 원자로공학을 전공하며, 핵연료-노심 통합 전산해석, 사용후핵연료 저장, SMR 개발, 원자로 기술경제성 통합 분석, 연료수급 및 원자력 정책 등을 연구하고 있습니다.",
         "research_topics": [
           "핵연료 재료",
           "원자력 재료",
@@ -172959,7 +173031,7 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/4d5z44ezacdza91z918z90az79dzbcczfc6zf10zb1.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=170",
-        "poster_evidence": "이유호 교수 프로필 페이지 내 사진",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=170",
           "https://nucleng.snu.ac.kr/admission/graduate",
@@ -172978,7 +173050,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1346C82E01F143",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:54:04Z",
+        "_saved_at": "2026-09-18T11:31:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -201039,8 +201111,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-B611FF2256C4EA": {
-      "fingerprint": "5dc99e32ed11506796370698e819273bb538087d640781c0d697d91dcfa8d411",
-      "checked_at": "2026-09-17T14:52:41Z",
+      "fingerprint": "790f66c14e917826c2ab38154cce6ac19f3e90df6a9c8e0b26c3833e024b0f5e",
+      "checked_at": "2026-09-18T11:30:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -201069,7 +201141,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "플라즈마 및 방사선 소스 공학을 중심으로 저온 플라즈마 물리, 반도체 및 디스플레이 공정 플라즈마, 펄스 파워 및 고밀도 비이상 플라즈마, 중성자 발생 및 방사선 계측 분야를 연구하고 있습니다.",
+        "research_summary": "플라즈마 및 방사선 소스 공학을 전공하며, 저온 플라즈마 물리, 반도체 및 디스플레이 공정 플라즈마, 펄스 파워 및 고밀도 비이상 플라즈마, 중성자 발생 및 방사선 계측 분야를 연구하고 있습니다.",
         "research_topics": [
           "저온 플라즈마 물리",
           "반도체 디스플레이 공정 플라즈마",
@@ -201077,12 +201149,7 @@
           "중성자 발생 및 방사선 계측"
         ],
         "recommendation_keywords": [
-          "플라즈마",
-          "방사선 소스 공학",
-          "저온 플라즈마",
-          "반도체 공정",
-          "펄스 파워",
-          "중성자 발생",
+          "플라즈마 및 방사선 소스 공학",
           "저온 플라즈마 물리",
           "반도체 디스플레이 공정 플라즈마",
           "펄스 파워 및 고밀도 비이상 플라즈마",
@@ -201100,7 +201167,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "서울대학교 원자핵공학과에서 학사(1997), 석사(1999), 박사(2007) 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "학부입학",
@@ -201121,7 +201188,7 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/d93z8fdzeffzc0ezbebzf70z056z1c0zacczc47z53.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=164",
-        "poster_evidence": "공식 교수진 페이지에 게시된 정경재 교수의 프로필 사진입니다.",
+        "poster_evidence": "정경재 교수 사진",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=164",
           "https://nucleng.snu.ac.kr/admission/graduate",
@@ -201140,7 +201207,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B611FF2256C4EA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:53:53Z",
+        "_saved_at": "2026-09-18T11:30:45Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -227440,8 +227507,8 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-399973A5C48F10": {
-      "fingerprint": "b13afc9a4149c27dec00e5a448295415d0a386fae18910f85e90b3a6dc6db89a",
-      "checked_at": "2026-09-17T14:52:41Z",
+      "fingerprint": "055a288eb3b92f219bb00e80899566480864f96d476b49cc441017fd66a35dbf",
+      "checked_at": "2026-09-18T11:30:20Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -227470,7 +227537,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "핵재료 모델링 및 시뮬레이션을 중심으로 핵재료공학, 핵분열 및 핵융합 재료, 컴퓨터 시뮬레이션, 이론 화학, 원자론적 시뮬레이션, 멀티스케일 모델링 분야를 연구하고 있습니다.",
+        "research_summary": "전산 핵재료 연구실을 운영하며 핵재료 모델링 및 시뮬레이션을 중심으로 핵재료공학, 핵분열 및 핵융합 재료, 이론 화학, 원자론적 시뮬레이션, 멀티스케일 모델링 분야를 연구하고 있습니다.",
         "research_topics": [
           "핵재료 모델링 및 시뮬레이션",
           "핵재료공학",
@@ -227503,9 +227570,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2007년 도쿄대학에서 원자력공학 박사 학위를 취득하였으며, 2004년 석사, 2002년 학사 학위를 받았습니다.",
+        "education_summary": "2007년 도쿄대학에서 원자력공학 박사 학위를 취득하였으며, 2004년 양자공학 및 시스템과학 석사, 2002년 동 학과 학사 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "학부입학",
@@ -227526,11 +227593,11 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/d71zdd5zdb3zc78z41fz3c8zaf5z559ze20z996zcd.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty",
-        "poster_evidence": "공식 교수진 페이지에 게시된 교수 사진입니다.",
+        "poster_evidence": "학과 홈페이지 내 교수진 소개 페이지에 게시된 공식 사진입니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=158",
-          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr/admission/graduate",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
           "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
@@ -227545,7 +227612,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-399973A5C48F10",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:53:50Z",
+        "_saved_at": "2026-09-18T11:30:53Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -251309,11 +251376,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-18T11:30:04Z",
-    "checked": 550,
-    "seconds": 6025.44,
+    "at": "2026-09-18T11:31:04Z",
+    "checked": 555,
+    "seconds": 6085.56,
     "gemini": true,
-    "ai_requests": 307,
+    "ai_requests": 311,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
