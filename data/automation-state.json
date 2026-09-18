@@ -1,5 +1,5 @@
 {
-  "cursor": 1760,
+  "cursor": 1765,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -20218,8 +20218,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-33688A80B4545E": {
-      "fingerprint": "de44a969e5a214cfb396358bdabc1428c4ed839dbd3c0bc835d63528ff82da27",
-      "checked_at": "2026-09-18T09:51:29Z",
+      "fingerprint": "dad0da0418dbc9c3f9e2696fa9009b315a4f9758f689dfd750fe56b6d3487fc6",
+      "checked_at": "2026-09-18T16:45:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -20227,8 +20227,13 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ko-2/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ko-2/",
@@ -20244,19 +20249,54 @@
         ]
       },
       "enrichment": {
-        "research_summary": "고정민 교수는 소아유전학을 전문으로 하며, 유전 질환의 진단, 병태생리 규명 및 임상적 특성에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "고정민 교수는 소아유전학 분야를 전문으로 하며, 특히 엑솜 시퀀싱(Exome Sequencing), 유전자 변이, 유전 질환 및 신경 발달 장애와 관련된 유전적 요인을 연구하고 있습니다. 최근 연구는 카부키 증후군, 누난 증후군, 비데만-슈타이너 증후군 등 다양한 유전 질환의 유전적 프로파일과 임상적 표현형 간의 상관관계를 규명하는 데 중점을 두고 있습니다.",
         "research_topics": [
-          "소아유전학",
-          "유전 질환",
-          "임상 유전학"
+          "Exon",
+          "Exome Sequencing",
+          "Body Height",
+          "Short Stature",
+          "Genotyping",
+          "Gene Mutation",
+          "Genetic Disorder"
         ],
         "recommendation_keywords": [
           "소아유전학",
-          "유전 질환",
-          "임상 유전학"
+          "유전질환",
+          "엑솜시퀀싱",
+          "유전자변이",
+          "신경발달장애",
+          "Exon",
+          "Exome Sequencing",
+          "Body Height",
+          "Short Stature",
+          "Genotyping",
+          "Gene Mutation",
+          "Genetic Disorder"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "A next-generation episignature for Kabuki syndrome enables fine mapping of the impact of KMT2D variants to inform precision medicine",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ko-2/",
+            "year": "2026",
+            "venue": "American Journal of Human Genetics",
+            "summary": "카부키 증후군 환자에서 KMT2D 변이의 영향을 정밀하게 매핑하여 정밀 의료를 지원하는 차세대 에피시그니처를 제시하였습니다."
+          },
+          {
+            "title": "Clinical and Genetic Significance of Chromosomal Microarray Screening of Asymptomatic Newborns",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ko-2/",
+            "year": "2026",
+            "venue": "Journal of Clinical Laboratory Analysis",
+            "summary": "무증상 신생아를 대상으로 한 염색체 마이크로어레이 선별 검사의 임상적 및 유전적 의의를 분석하였습니다."
+          },
+          {
+            "title": "Contribution of rare coding variants to microcephaly in individuals with neurodevelopmental disorders",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ko-2/",
+            "year": "2025",
+            "venue": "Genome Medicine",
+            "summary": "신경발달장애를 가진 개인에서 소두증에 기여하는 희귀 코딩 변이의 역할을 규명하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 2,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -20265,45 +20305,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 소아과학교실 소속으로 소아유전학 분야의 교육 및 연구를 담당하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 소아과학교실 교수로서 소아유전학 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 160 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 제공된 URL에서 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ko-2/",
         "poster_status": "verified",
         "poster_title": "Jung Min Ko",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960112/29_Ko_+Jung+Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ko-2/#main-content",
-        "poster_evidence": "서울대학교 연구자 정보 페이지에 등록된 고정민 교수의 프로필 사진입니다.",
+        "poster_evidence": "Official profile page contains the professor's photograph.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-ko-2/",
           "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-ko-2/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-ko-2/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-ko-2/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-ko-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-33688A80B4545E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T11:49:46Z",
+        "_saved_at": "2026-09-18T16:45:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -21884,7 +21929,7 @@
     },
     "SNU-RU-95D449A700ACC6": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-18T09:51:35Z",
+      "checked_at": "2026-09-18T16:45:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -21991,7 +22036,7 @@
     },
     "SNU-RU-53C9BE90BFA707": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-18T09:51:35Z",
+      "checked_at": "2026-09-18T16:45:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -22203,7 +22248,7 @@
     },
     "SNU-RU-79474D51FAAF7B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-18T09:51:35Z",
+      "checked_at": "2026-09-18T16:45:31Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -22292,7 +22337,7 @@
     },
     "SNU-RU-F24933B3363E4C": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-18T09:51:35Z",
+      "checked_at": "2026-09-18T16:45:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -248531,11 +248576,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-18T16:44:55Z",
-    "checked": 10,
-    "seconds": 117.8,
+    "at": "2026-09-18T16:45:34Z",
+    "checked": 15,
+    "seconds": 157.4,
     "gemini": true,
-    "ai_requests": 5,
+    "ai_requests": 6,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
