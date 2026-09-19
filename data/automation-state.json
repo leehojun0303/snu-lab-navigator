@@ -1,5 +1,5 @@
 {
-  "cursor": 240,
+  "cursor": 245,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -73518,23 +73518,118 @@
       "_unit_id": "SNU-RU-3938280C07DED1"
     },
     "SNU-RU-ADAAC81B3BE0E9": {
-      "fingerprint": "44fb34e7814df523571d06d2e2ea1203bfc3e27e4269a5c0a8cf0d4de848ae0b",
-      "checked_at": "2026-09-18T11:50:05Z",
+      "fingerprint": "dc086cfe13069b6a4473d181800cdb84b56c4b5e28de5ab2d7dc4e7e6a7c3ffe",
+      "checked_at": "2026-09-19T11:44:43Z",
       "activity": {
         "publicationPages": [
           {
             "title": "International Journal",
-            "url": "https://dllab.snu.ac.kr/international-journal/"
+            "url": "https://dllab.snu.ac.kr/international-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic journal",
+            "url": "https://dllab.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Journal",
+            "url": "https://dllab.snu.ac.kr/journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Latex, ISI, E-paper",
+            "url": "https://dllab.snu.ac.kr/latex/",
+            "kind": "publication"
+          },
+          {
+            "title": "Paper Format",
+            "url": "https://dllab.snu.ac.kr/paper-format/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Vamshikrishna Domala, Tae-wan Kim, \"Application of Empirical Mode Decomposition and Hodrick Prescot filter for the prediction single step and multistep significant wave height with LSTM\", Ocean Engineering, 2023.",
+            "url": "https://dllab.snu.ac.kr/international-journal/?uid=675&mod=document&pageid=1",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://dllab.snu.ac.kr/m_professor",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/2022/02/main_logo.png",
+            "alt": "Deep Learning Lab.",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/international-journal/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/2025/10/main_logo_mobile-2-scaled.png",
+            "alt": "Deep Learning Lab.",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/international-journal/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202608/6a9190f488aec6054308-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202608/6a85706f501bd8816671-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a5dd47d4099f9904352-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a44c13ba56fc9644124-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a44bf77147e89189255-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://dllab.snu.ac.kr/",
           "https://naoe.snu.ac.kr/",
@@ -73711,9 +73806,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-18T11:50:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-ADAAC81B3BE0E9"
+      "_unit_id": "SNU-RU-ADAAC81B3BE0E9",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-F7094ABFB453F4": {
       "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
@@ -84845,8 +84942,8 @@
       "_unit_id": "SNU-RU-D33EC6B6DC27FD"
     },
     "SNU-RU-0FF12E1B574E1A": {
-      "fingerprint": "5186fa48d3bb533857bb9cd2805c93fae10d3170a47a79b724d7561848b481df",
-      "checked_at": "2026-09-18T11:49:28Z",
+      "fingerprint": "4fc69f54378389a53cc751bea9ae67e2b1e49fdc3cd0b061fde56e2c44606409",
+      "checked_at": "2026-09-19T11:44:03Z",
       "activity": {
         "publicationPages": [
           {
@@ -84856,8 +84953,8 @@
         ],
         "recruitmentPages": [
           {
-            "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://sites.google.com/view/marinevehicle/people",
@@ -84876,25 +84973,25 @@
         ]
       },
       "enrichment": {
-        "research_summary": "남보우 교수는 서울대학교 조선해양공학과 내항조종연구실(Seakeeping & Manoeuvring Lab)을 이끌고 있으며, 주요 연구 분야는 선박 내항성 및 유체역학, 해양 구조물의 조종 및 제어, 해양 에너지 활용(파력 발전, 부유식 해상풍력 등), 해양 공간 활용, 그리고 해양 작업(설치, 인양, 예인 등)입니다.",
+        "research_summary": "남보우 교수의 내항조종연구실은 선박의 내항성 및 유체역학, 해양 구조물의 조종 및 제어, 해양 에너지 활용(파력 발전, 부유식 해상 풍력 등), 해양 공간 활용, 그리고 해양 작업(설치, 인양, 예인 등) 분야를 중점적으로 연구하고 있습니다.",
         "research_topics": [
           "Ship Seakeeping & Hydrodynamics",
           "Manoeuvring & Control of Ocean Vehicle",
-          "Marine Energy Utilization (WEC, FOWT)",
+          "Marine Energy Utilization (WEC, FOWT, ...)",
           "Ocean Space Utilization",
-          "Marine Operation"
+          "Marine Operation (Installation, Lifting, Towing, ...)"
         ],
         "recommendation_keywords": [
           "내항성",
-          "조종",
+          "선박 조종",
           "유체역학",
-          "부유식 해상풍력",
-          "해양 작업",
+          "부유식 해상 풍력",
+          "해양 에너지",
           "Ship Seakeeping & Hydrodynamics",
           "Manoeuvring & Control of Ocean Vehicle",
-          "Marine Energy Utilization (WEC, FOWT)",
+          "Marine Energy Utilization (WEC, FOWT, ...)",
           "Ocean Space Utilization",
-          "Marine Operation"
+          "Marine Operation (Installation, Lifting, Towing, ...)"
         ],
         "recent_papers": [
           {
@@ -84912,10 +85009,10 @@
             "summary": ""
           },
           {
-            "title": "Design Optimization of a Tension Leg Platform for Floating Offshore Wind Turbine Based on NSGA-II Algorithm With Surrogate Models",
-            "url": "https://sites.google.com/view/marinevehicle/people/advisor",
-            "year": "2025",
-            "venue": "Journal of Offshore Mechanics and Arctic Engineering",
+            "title": "Hybrid Model Identification and Prediction for Docking and Crabbing Motions of a Leisure Boat",
+            "url": "https://sites.google.com/view/marinevehicle/people/students-phd",
+            "year": "2026",
+            "venue": "International Journal of Naval Architecture and Ocean Engineering",
             "summary": ""
           }
         ],
@@ -84928,21 +85025,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2015년 서울대학교에서 박사 학위를 취득하였으며, 2006년 석사, 2004년 학사 학위를 받았습니다.",
+        "education_summary": "2015년 서울대학교에서 조선해양공학 박사 학위를 취득하였으며, 2006년 석사, 2004년 학사 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "PUBLICATIONS",
             "url": "https://sites.google.com/view/marinevehicle/publications"
           }
         ],
-        "recruitment_summary": "조선해양공학과 신임교수 초빙 및 대학원 입학 관련 정보는 학과 공식 홈페이지에서 확인할 수 있습니다.",
+        "recruitment_summary": "조선해양공학과 대학원 입학 관련 정보는 서울대학교 조선해양공학과 공식 홈페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
-            "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
-        "recruitment_source_url": "https://naoe.snu.ac.kr/faculty-job-openings",
+        "recruitment_source_url": "https://naoe.snu.ac.kr/admission/graduate",
         "current_members": [
           {
             "name": "Hyo-Jin Park",
@@ -85015,11 +85112,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://naoe.snu.ac.kr/",
-          "https://sites.google.com/view/marinevehicle",
+          "https://naoe.snu.ac.kr/admission/graduate",
           "https://sites.google.com/view/marinevehicle/people/advisor",
           "https://sites.google.com/view/marinevehicle/people/students-phd",
           "https://sites.google.com/view/marinevehicle/publications",
+          "https://sites.google.com/view/marinevehicle",
+          "https://naoe.snu.ac.kr/",
           "https://sites.google.com/view/marinevehicle/people",
           "https://sites.google.com/view/marinevehicle/people/students-master",
           "https://sites.google.com/view/marinevehicle/people/alumni",
@@ -85032,7 +85130,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0FF12E1B574E1A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:49:37Z",
+        "_saved_at": "2026-09-19T11:44:12Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -86650,23 +86748,39 @@
       "_unit_id": "SNU-RU-AE79280A108C07"
     },
     "SNU-RU-91DBA5D02F87A2": {
-      "fingerprint": "84553c63eda9da0332b68d402431c49a402e794e93de65aa626db2984159b508",
-      "checked_at": "2026-09-18T11:49:48Z",
+      "fingerprint": "018a7a0ae154cac9bb32c1c0b724a603722a632b525f8376ccb31aa7be9d20f4",
+      "checked_at": "2026-09-19T11:44:25Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journal",
+            "title": "Publication",
+            "url": "https://sydlab.snu.ac.kr/publication/"
+          },
+          {
+            "title": "Latest Papers",
             "url": "https://sydlab.snu.ac.kr/publication/journal/"
+          },
+          {
+            "title": "Conference",
+            "url": "https://sydlab.snu.ac.kr/publication/conference/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "대학원입학",
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
             "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://sydlab.snu.ac.kr/people/",
-        "posterStatus": "verified",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://sydlab.snu.ac.kr/",
           "https://naoe.snu.ac.kr/",
@@ -86674,70 +86788,19 @@
           "https://sydlab.snu.ac.kr/people/%eb%85%b8%eb%aa%85%ec%9d%bc/",
           "https://sydlab.snu.ac.kr/people-post-doctors/",
           "https://sydlab.snu.ac.kr/people-ph-d-students/",
+          "https://sydlab.snu.ac.kr/people-m-sc-students/",
           "https://sydlab.snu.ac.kr/people-interns/",
           "https://sydlab.snu.ac.kr/people-alumni/",
-          "https://sydlab.snu.ac.kr/publication/",
-          "https://sydlab.snu.ac.kr/publication/journal/"
+          "https://sydlab.snu.ac.kr/publication/"
         ]
       },
       "enrichment": {
-        "research_summary": "시스템 설계 연구실(SyDLab)은 서울대학교 조선해양공학과 노명일 교수의 지도 아래 선박 및 해양 구조물의 설계 이론과 방법론을 연구합니다. 주요 연구 분야는 최적 설계, 시뮬레이션 기반 설계, 전산 설계(AI, 빅데이터, 가상/증강현실 등), 자율 운항 기술을 포함합니다.",
-        "research_topics": [
-          "선박 및 해양 구조물 설계 이론 및 방법",
-          "최적 설계",
-          "시뮬레이션 기반 설계",
-          "전산 설계(AI, CAD/CAM/CAE, 빅데이터, 머신러닝/딥러닝, VR/AR)",
-          "자율 운항 기술"
-        ],
-        "recommendation_keywords": [
-          "조선해양공학",
-          "시스템 설계",
-          "최적 설계",
-          "자율 운항",
-          "전산 설계",
-          "선박 및 해양 구조물 설계 이론 및 방법",
-          "시뮬레이션 기반 설계",
-          "전산 설계(AI, CAD/CAM/CAE, 빅데이터, 머신러닝/딥러닝, VR/AR)",
-          "자율 운항 기술"
-        ],
-        "recent_papers": [
-          {
-            "title": "A Method of Intentional Derating Operation for Rotor Sails to Enhance Overall Energy Efficiency of Ships",
-            "url": "https://sydlab.snu.ac.kr/journal/2026-09-01-01/",
-            "year": "2026",
-            "venue": "Ocean Engineering",
-            "summary": "선박의 전체 에너지 효율을 향상시키기 위해 로터 세일의 의도적 감속 운전 방법을 제안한 연구입니다."
-          },
-          {
-            "title": "A Method for Identifying Revisions in Ship Drawings Using Change Detection and Synthetic Revision Generation",
-            "url": "https://sydlab.snu.ac.kr/journal/2026-09-01-00/",
-            "year": "2026",
-            "venue": "Ocean Engineering",
-            "summary": "변경 탐지 및 합성 수정 생성 기술을 활용하여 선박 도면의 수정 사항을 식별하는 방법을 제시합니다."
-          },
-          {
-            "title": "A Method of Learning-based Tracking for Maritime Obstacles Using a Transformer",
-            "url": "https://sydlab.snu.ac.kr/journal/2026-08-30-00/",
-            "year": "2026",
-            "venue": "Ocean Engineering",
-            "summary": "트랜스포머 모델을 사용하여 해상 장애물을 학습 기반으로 추적하는 방법을 연구하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 10,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Ocean Engineering",
-            "count": 5
-          },
-          {
-            "venue": "International Journal of Naval Architecture and Ocean Engineering",
-            "count": 4
-          },
-          {
-            "venue": "Journal of Computational Design and Engineering",
-            "count": 1
-          }
-        ],
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -86745,70 +86808,66 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1998년 서울대학교 조선해양공학과 학사, 2000년 석사, 2005년 박사 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Journal",
+            "title": "Publication",
+            "url": "https://sydlab.snu.ac.kr/publication/"
+          },
+          {
+            "title": "Latest Papers",
             "url": "https://sydlab.snu.ac.kr/publication/journal/"
+          },
+          {
+            "title": "Conference",
+            "url": "https://sydlab.snu.ac.kr/publication/conference/"
           }
         ],
-        "recruitment_summary": "서울대학교 조선해양공학과 및 시스템 설계 연구실은 대학원생을 모집하고 있으며, 자세한 사항은 학과 입학 홈페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
-            "title": "대학원입학",
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
             "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
-        "recruitment_source_url": "https://naoe.snu.ac.kr/admission/graduate",
-        "current_members": [
-          {
-            "name": "노명일",
-            "role": "Professor",
-            "url": "https://sydlab.snu.ac.kr/people/%eb%85%b8%eb%aa%85%ec%9d%bc/"
-          },
-          {
-            "name": "이성준",
-            "role": "Ph.D. Student",
-            "url": "https://sydlab.snu.ac.kr/people/%ec%9d%b4%ec%84%b1%ec%a4%80/"
-          },
-          {
-            "name": "유동훈",
-            "role": "Ph.D. Student",
-            "url": "https://sydlab.snu.ac.kr/people/%ec%9c%a0%eb%8f%99%ed%9b%88/"
-          }
-        ],
+        "recruitment_source_url": "https://naoe.snu.ac.kr/",
+        "current_members": [],
         "alumni": [],
         "member_page_url": "https://sydlab.snu.ac.kr/people/",
-        "poster_status": "verified",
-        "poster_title": "SyDLab Main",
-        "poster_date": null,
-        "poster_event": null,
-        "poster_image_url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/SyDLab-Main-1.png",
-        "poster_source_url": "https://sydlab.snu.ac.kr/",
-        "poster_evidence": "연구실 홈페이지 메인에 게시된 대표 이미지입니다.",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
-          "https://naoe.snu.ac.kr/admission/graduate",
-          "https://sydlab.snu.ac.kr/",
-          "https://sydlab.snu.ac.kr/journal/2026-08-30-00/",
-          "https://sydlab.snu.ac.kr/journal/2026-09-01-00/",
-          "https://sydlab.snu.ac.kr/journal/2026-09-01-01/",
-          "https://sydlab.snu.ac.kr/people/",
-          "https://sydlab.snu.ac.kr/people/%eb%85%b8%eb%aa%85%ec%9d%bc/",
-          "https://sydlab.snu.ac.kr/publication/journal/",
           "https://naoe.snu.ac.kr/",
+          "https://sydlab.snu.ac.kr/",
+          "https://sydlab.snu.ac.kr/people/",
+          "https://sydlab.snu.ac.kr/publication/conference/",
+          "https://sydlab.snu.ac.kr/publication/journal/",
+          "https://sydlab.snu.ac.kr/people/%eb%85%b8%eb%aa%85%ec%9d%bc/",
           "https://sydlab.snu.ac.kr/people-post-doctors/",
           "https://sydlab.snu.ac.kr/people-ph-d-students/",
+          "https://sydlab.snu.ac.kr/people-m-sc-students/",
           "https://sydlab.snu.ac.kr/people-interns/",
           "https://sydlab.snu.ac.kr/people-alumni/",
-          "https://sydlab.snu.ac.kr/publication/",
-          "https://sydlab.snu.ac.kr/publication/conference/",
-          "https://sydlab.snu.ac.kr/publication/thesis/"
+          "https://sydlab.snu.ac.kr/publication/"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-91DBA5D02F87A2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:50:10Z",
+        "_saved_at": "2026-09-19T11:44:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -125537,8 +125596,8 @@
       "_unit_id": "SNU-RU-E091099C887B49"
     },
     "SNU-RU-3552875EB1BE36": {
-      "fingerprint": "3354bbd9074f0c86fd7f395cc99fa321c3e0d795b6a7c6d022f800a24f741e44",
-      "checked_at": "2026-09-18T11:49:37Z",
+      "fingerprint": "870b844a91658ff87b748db9248630409bd84937e0dade5bd85da237aa74c824",
+      "checked_at": "2026-09-19T11:44:14Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -125556,7 +125615,7 @@
           }
         ],
         "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
@@ -125571,7 +125630,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -125584,9 +125643,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙 및 학부/대학원 입학 안내를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙을 진행하고 있으며, 학부 및 대학원 입학 안내 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "신임교수초빙",
@@ -125605,23 +125664,23 @@
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://naoe.snu.ac.kr/about/people/faculty",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
+        "poster_source_url": "https://naoe.snu.ac.kr/",
+        "poster_evidence": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
         "source_urls_used": [
+          "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/about/people/faculty",
-          "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/admission/graduate",
           "https://naoe.snu.ac.kr/admission/undergraduate",
           "https://naoe.snu.ac.kr/faculty-job-openings",
-          "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20512",
           "https://naoe.snu.ac.kr/about/people/emeritus",
+          "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/department/campuslife/student-council",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535",
           "https://naoe.snu.ac.kr/about/greetings"
@@ -125630,7 +125689,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3552875EB1BE36",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:49:55Z",
+        "_saved_at": "2026-09-19T11:44:29Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -137748,8 +137807,8 @@
       "_unit_id": "SNU-RU-DE04EC4FCEBE79"
     },
     "SNU-RU-E1B20F22C58AB0": {
-      "fingerprint": "6406093894710d9202c201e8bb94cfedb8b70aa03baad9d8af4b6f4a8c12e8eb",
-      "checked_at": "2026-09-18T11:49:31Z",
+      "fingerprint": "cfbee19a126e41172511841859231bf64a81174a41071111288f7d6e5f0fa485",
+      "checked_at": "2026-09-19T11:44:06Z",
       "activity": {
         "publicationPages": [
           {
@@ -137853,11 +137912,11 @@
             "parent_source_url": "https://naoe.snu.ac.kr"
           },
           {
-            "url": "https://naoe.snu.ac.kr/webdata/noimage/no-youtube.png",
-            "alt": "서유택 교수님 연구실",
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/b73z204z5a5z6f4z23fz78azd9az468z021z533zbc.jpg",
+            "alt": "김용환 교수님 연구실",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr/"
+            "parent_source_url": "https://naoe.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
@@ -244086,11 +244145,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:43:56Z",
-    "checked": 660,
-    "seconds": 7265.94,
+    "at": "2026-09-19T11:44:51Z",
+    "checked": 665,
+    "seconds": 7320.91,
     "gemini": true,
-    "ai_requests": 421,
+    "ai_requests": 424,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
