@@ -1,5 +1,5 @@
 {
-  "cursor": 120,
+  "cursor": 125,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -5104,7 +5104,7 @@
     },
     "SNU-RU-A1C06411A211A0": {
       "fingerprint": "a1ecdad427b06e8bd742a45250125d87b17c9524d45579e2bf00e9dbe1159d68",
-      "checked_at": "2026-09-18T11:28:20Z",
+      "checked_at": "2026-09-19T11:24:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -14880,22 +14880,17 @@
       "_unit_id": "SNU-RU-DC8B200DC62221"
     },
     "SNU-RU-9E9F88D1023FFA": {
-      "fingerprint": "f5493c41b28c7637fc7033ccea53da364692cfbb3774bb464da125289f86ca92",
-      "checked_at": "2026-09-18T11:28:18Z",
+      "fingerprint": "bd733bd2359e4213c5956d533a51fd4390b638011b3cfc6934c5ef7ad2d826d2",
+      "checked_at": "2026-09-19T11:24:40Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Publications",
-            "url": "https://eee.snu.ac.kr/publications"
+            "title": "강진수 - 서울대학교 첨단융합학부",
+            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snuti.snu.ac.kr/commt/professor/",
+        "recruitmentPages": [],
+        "membersUrl": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://eee.snu.ac.kr/",
@@ -14911,23 +14906,25 @@
         ]
       },
       "enrichment": {
-        "research_summary": "강진수 교수는 전기화학에너지공학 분야를 연구하며, 특히 에너지 저장 및 변환 장치, 전기화학적 분리 기술, 나노 소재 합성 및 응용에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "전기화학에너지공학 분야를 연구하며, 특히 탄소 전극의 표면 전기화학, 전기화학적 이산화탄소 분리, 리튬 회수, 그리고 에너지 변환 및 저장 장치를 위한 나노 소재 개발에 집중하고 있습니다.",
         "research_topics": [
           "전기화학에너지공학",
-          "에너지 저장 및 변환",
-          "전기화학적 분리 기술",
-          "나노 소재 합성"
+          "탄소 전극 표면 전기화학",
+          "전기화학적 이산화탄소 분리",
+          "전기화학적 리튬 회수",
+          "에너지 변환 및 저장 나노 소재"
         ],
         "recommendation_keywords": [
           "전기화학",
           "에너지공학",
           "나노소재",
-          "이차전지",
-          "전기화학적 분리",
+          "이산화탄소 분리",
+          "리튬 회수",
           "전기화학에너지공학",
-          "에너지 저장 및 변환",
-          "전기화학적 분리 기술",
-          "나노 소재 합성"
+          "탄소 전극 표면 전기화학",
+          "전기화학적 이산화탄소 분리",
+          "전기화학적 리튬 회수",
+          "에너지 변환 및 저장 나노 소재"
         ],
         "recent_papers": [
           {
@@ -14958,24 +14955,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 화학생물공학부에서 학사(2012) 및 박사(2015) 학위를 취득하였습니다.",
+        "education_summary": "서울대학교 화학생물공학부에서 학사 및 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
-            "title": "Publications",
-            "url": "https://eee.snu.ac.kr/publications"
+            "title": "강진수 - 서울대학교 첨단융합학부",
+            "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/"
           }
         ],
-        "recruitment_summary": "현재 별도의 모집 공고가 확인되지 않습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snuti.snu.ac.kr/commt/professor/",
+        "member_page_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B0%95%EC%A7%84%EC%88%98/",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -15001,7 +14993,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E9F88D1023FFA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:28:27Z",
+        "_saved_at": "2026-09-19T11:24:48Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -35066,7 +35058,7 @@
     },
     "SNU-RU-31C11151A69261": {
       "fingerprint": "3e07472f4e88a50101b5d205fabc3c5fbdffdd7d78769d763456d27daa70ffa9",
-      "checked_at": "2026-09-18T11:28:19Z",
+      "checked_at": "2026-09-19T11:24:46Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -191513,133 +191505,42 @@
       "_unit_id": "SNU-RU-47B68D349ED662"
     },
     "SNU-RU-EF3CD6CC057EEC": {
-      "fingerprint": "9b50d6901881df970f9a50d531a153a055fe7ef55eaf7107f68bfc18b5fc106a",
-      "checked_at": "2026-09-18T11:28:25Z",
+      "fingerprint": "d4d5527c2142fa0a0ce036ec3e716cf5f84d06003202c2216e532846191c9ee5",
+      "checked_at": "2026-09-19T11:24:50Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publication",
-            "url": "https://fre.snu.ac.kr/publication-list/",
-            "kind": "publication"
-          },
-          {
-            "title": "Maximizing the risk-adjusted return of classification model-based investments",
-            "url": "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
-            "kind": "publication"
-          },
-          {
-            "title": "Forecasting realized volatility using deep learning quantile function",
-            "url": "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
-            "kind": "publication"
-          },
-          {
-            "title": "NQF-RNN: probabilistic forecasting via neural quantile function-based recurrent neural networks",
-            "url": "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
-            "kind": "publication"
-          },
-          {
-            "title": "Self-attention based deep direct recurrent reinforcement learning with hybrid loss for trading signal generation",
-            "url": "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
-            "kind": "publication"
+            "url": "https://fre.snu.ac.kr/publication-list/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/",
-            "kind": "recruitment"
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
-            "url": "https://ie.snu.ac.kr/grad_admission/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2027학년도 대학원 전기모집 면접 및 필답고사 일정 안내",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6476",
-            "kind": "recruitment"
+            "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
         "membersUrl": "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-            "alt": "서울대학교 금융리스크 공학 연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/publication/stock-market-network-based-on-bi-dimensional-histogram-and-autoencoder/"
-          },
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/11/icon-3-1.png",
-            "alt": "icon (3)",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/"
-          },
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/11/icon-2-1.png",
-            "alt": "icon (2)",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/"
-          },
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/11/icon-9-1.png",
-            "alt": "icon (9)",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/"
-          },
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/12/shutterstock_2113411355.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/"
-          },
-          {
-            "url": "https://fre.snu.ac.kr/wp-content/uploads/sites/9/2023/12/shutterstock_2375508667.jpg",
-            "alt": "Stock market analysis, business, finance and investment. Finance analyst analyzing stock market trading graph, economic growth chart, planning and strategy, business investment with financial report",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://fre.snu.ac.kr/"
-          },
-          {
-            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
-            "alt": "서울대학교 SNU",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://ie.snu.ac.kr"
-          },
-          {
-            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://ie.snu.ac.kr"
-          }
-        ],
         "sourcePagesScanned": [
           "https://fre.snu.ac.kr/",
           "https://ie.snu.ac.kr",
           "https://fre.snu.ac.kr/member/%ec%9e%a5%ec%9a%b0%ec%a7%84/",
           "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
+          "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
           "https://fre.snu.ac.kr/publication-list/",
           "https://fre.snu.ac.kr/publication/maximizing-the-risk-adjusted-return-of-classification-model-based-investments/",
           "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
           "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
-          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
-          "https://fre.snu.ac.kr/publication/stock-market-network-based-on-bi-dimensional-histogram-and-autoencoder/"
+          "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/"
         ]
       },
       "enrichment": {
-        "research_summary": "장우진 교수는 서울대학교 산업공학과 금융리스크 공학 연구실을 이끌고 있으며, 금융공학, 확률모형, 웨이블렛 분석을 중심으로 연구를 수행하고 있습니다. 최근에는 딥러닝 기반의 변동성 예측, 신경 분위수 함수(Neural Quantile Function)를 활용한 확률적 예측, 그리고 강화학습을 이용한 트레이딩 신호 생성 등 금융 데이터 분석 및 예측 모델링 분야에서 활발한 연구를 진행하고 있습니다.",
+        "research_summary": "장우진 교수는 서울대학교 산업공학과 금융리스크 공학 연구실에서 금융공학, 확률모형, 웨이블렛 분석을 중심으로 연구를 수행하고 있습니다. 최근에는 딥러닝 기반의 변동성 예측, 신경 분위수 함수(Neural Quantile Function)를 활용한 확률적 예측, 그리고 강화학습을 이용한 트레이딩 신호 생성 등 금융 데이터 분석 및 예측 모델링 분야에 집중하고 있습니다.",
         "research_topics": [
           "금융공학",
           "확률모형",
@@ -191701,7 +191602,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 섬유고분자공학 학사(1997), 조지아 공과대학교(Georgia Tech) 오퍼레이션 리서치 석사(1998) 및 산업공학 박사(2002) 학위를 취득하였습니다. 2002년부터 2003년까지 미국 렌셀러 폴리테크닉 대학교(RPI)에서 조교수로 재직하였으며, 2004년부터 현재까지 서울대학교 산업공학과 교수로 재직 중입니다.",
+        "education_summary": "서울대학교 섬유고분자공학 학사(1997), Georgia Tech Operations Research 석사(1998), Georgia Tech Industrial Engineering 박사(2002) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publication",
@@ -191710,6 +191611,10 @@
         ],
         "recruitment_summary": "서울대학교 산업공학과 대학원은 전기 및 후기 모집을 통해 신입생을 선발하며, 지원 시 희망 연구실을 기재해야 합니다. 선발은 서류 제출 후 지필형 심층면접을 통해 이루어집니다.",
         "verified_recruitment_pages": [
+          {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -191733,24 +191638,22 @@
           "https://fre.snu.ac.kr/publication/forecasting-realized-volatility-using-deep-learning-quantile-function/",
           "https://fre.snu.ac.kr/publication/nqf-rnn-probabilistic-forecasting-via-neural-quantile-function-based-recurrent-neural-networks/",
           "https://fre.snu.ac.kr/publication/self-attention-based-deep-direct-recurrent-reinforcement-learning-with-hybrid-loss-for-trading-signal-generation/",
+          "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr/grad_admission/",
           "https://fre.snu.ac.kr/",
           "https://ie.snu.ac.kr",
           "https://fre.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d/",
-          "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/",
-          "https://ie.snu.ac.kr/undergrad_admission/"
+          "https://fre.snu.ac.kr/%ed%95%99%ec%83%9d/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EF3CD6CC057EEC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T14:50:11Z",
+        "_saved_at": "2026-09-19T11:25:01Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-EF3CD6CC057EEC",
-      "verify_error": "verify_JSONDecodeError"
+      "_unit_id": "SNU-RU-EF3CD6CC057EEC"
     },
     "SNU-RU-827EB930FDAE67": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -221862,8 +221765,8 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-03F54F9A62EBEF": {
-      "fingerprint": "415415cc1c9fa19458b329fb903fc955fa83fedb6f90eb75aa0c439c9979e644",
-      "checked_at": "2026-09-18T11:28:28Z",
+      "fingerprint": "7ce45e20b6c4dcbf10c4b233f3268a3e925a24739ba9f47a7448ae70c7d577d1",
+      "checked_at": "2026-09-19T11:25:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -221922,14 +221825,14 @@
             "alt": "서울대학교 PSE Lab. | 제품·서비스공학연구실",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/"
+            "parent_source_url": "https://product.snu.ac.kr/article/?mod=document&uid=105"
           },
           {
             "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
             "alt": "서울대학교 SNU",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://ie.snu.ac.kr"
+            "parent_source_url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
             "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
@@ -221964,7 +221867,7 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://ie.snu.ac.kr"
+            "parent_source_url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
             "url": "https://product.snu.ac.kr/wordpress/wp-content/uploads/2015/12/20151216_052325-300x196.jpg",
@@ -221979,12 +221882,12 @@
           "https://ie.snu.ac.kr",
           "https://product.snu.ac.kr/article/?mod=document&uid=91",
           "https://product.snu.ac.kr/professor/",
-          "https://product.snu.ac.kr/students/",
           "https://product.snu.ac.kr/alumni/",
           "https://product.snu.ac.kr/journal/",
-          "https://product.snu.ac.kr/journal/",
           "https://product.snu.ac.kr/publication/variant-level-interface-standardization-methodology-for-complexity-reduction-in-product-family-design/",
-          "https://product.snu.ac.kr/publication/variant-mode-and-effects-analysis-for-effective-product-family-expansion-under-modular-architecture/"
+          "https://product.snu.ac.kr/publication/a-framework-for-designing-zonal-architectures-for-in-vehicle-networks-balancing-communication-load-and-wiring-length/",
+          "https://product.snu.ac.kr/article/?mod=document&uid=105",
+          "https://ie.snu.ac.kr/undergrad_admission/"
         ]
       },
       "enrichment": {
@@ -244987,11 +244890,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:24:28Z",
-    "checked": 540,
-    "seconds": 6098.22,
+    "at": "2026-09-19T11:25:10Z",
+    "checked": 545,
+    "seconds": 6139.79,
     "gemini": true,
-    "ai_requests": 323,
+    "ai_requests": 325,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
