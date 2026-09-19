@@ -1,5 +1,5 @@
 {
-  "cursor": 1810,
+  "cursor": 1815,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -38156,8 +38156,8 @@
       "_unit_id": "SNU-RU-9E529B867CDCA1"
     },
     "SNU-RU-F10F82A4B42D8B": {
-      "fingerprint": "f68feaaf458cd4e111798258f0f20bafee0fda7518bbcae55c39244cc7c2ab09",
-      "checked_at": "2026-09-18T10:01:27Z",
+      "fingerprint": "4f8b8bf1597126d0f9b4319190a249976ea31628d482c800c954750a505d05c6",
+      "checked_at": "2026-09-19T09:54:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -38194,8 +38194,7 @@
         ],
         "recommendation_keywords": [
           "대장암",
-          "대장항문질환",
-          "외과"
+          "대장항문질환"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -38214,7 +38213,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-212/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지를 통해 특정 연구실의 학생 모집 정보는 확인되지 않습니다. 연건학생지원센터를 통해 학생 지원 프로그램을 안내하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -38250,7 +38249,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F10F82A4B42D8B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:01:52Z",
+        "_saved_at": "2026-09-19T09:55:10Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -39385,8 +39384,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-15595CA65FF7E4": {
-      "fingerprint": "1e06987d8a38f395dc57df3a01551c300de6c61262faae17c89509337d7b92c0",
-      "checked_at": "2026-09-18T10:01:22Z",
+      "fingerprint": "56dc4c042bdcf22730b11100fb4f5af6b367b250ead7a07d031383ef9a68c25b",
+      "checked_at": "2026-09-19T09:54:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -39394,7 +39393,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -39404,57 +39408,27 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김동기 교수는 신장내과 분야의 전문가로, 급성 신손상, 만성 신장 질환, 말기 신부전, 복막 투석 및 혈액 투석 등 신장 질환 전반에 걸쳐 활발한 연구를 수행하고 있습니다. 특히 신장 질환과 관련된 대사성 질환, 심혈관 질환 위험도, 면역학적 기전 등에 관한 연구를 다수 발표하였습니다.",
+        "research_summary": "김동기 교수는 신장내과 분야를 전문으로 하며, 만성 신장 질환, 투석, 신장 이식 및 관련 대사 질환에 관한 광범위한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Acute Kidney Injury",
-          "Chronic Kidney Disease",
-          "End Stage Renal Disease",
-          "Peritoneal Dialysis",
-          "Hemodialysis",
-          "IgA Nephropathy"
+          "신장내과",
+          "만성 신장 질환",
+          "투석",
+          "신장 이식"
         ],
         "recommendation_keywords": [
           "신장내과",
-          "급성 신손상",
           "만성 신장 질환",
-          "투석",
-          "Acute Kidney Injury",
-          "Chronic Kidney Disease",
-          "End Stage Renal Disease",
-          "Peritoneal Dialysis",
-          "Hemodialysis",
-          "IgA Nephropathy"
+          "신장 이식",
+          "투석"
         ],
-        "recent_papers": [
-          {
-            "title": "Chromatin accessibility of circulating CD8⁺ T cells differentiates disease severity in IgA nephropathy",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-213/",
-            "year": "2026",
-            "venue": "Scientific Reports",
-            "summary": ""
-          },
-          {
-            "title": "Early age at smoking initiation is associated with elevated cardiovascular disease and mortality risk in a nationwide population-based cohort",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-213/",
-            "year": "2026",
-            "venue": "Scientific Reports",
-            "summary": ""
-          },
-          {
-            "title": "Optimization of M1 macrophage targeting using a glucosylated albumin nanoplatform for ROS scavenging and mitochondrial rescue in acute kidney injury",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-213/",
-            "year": "2026",
-            "venue": "Journal of Nanobiotechnology",
-            "summary": ""
-          }
-        ],
+        "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -39464,16 +39438,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 내과학교실 소속으로 신장내과 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 434 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/",
@@ -39483,34 +39462,34 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13963032/95_Kim_+Dong+Ki.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-content",
-        "poster_evidence": "Official profile image of Dong Ki Kim from SNU Pure portal.",
+        "poster_evidence": "Official profile image of Dong Ki Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-213/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-213/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-213/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-15595CA65FF7E4",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:01:40Z",
+        "_saved_at": "2026-09-19T09:55:02Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-15595CA65FF7E4"
     },
     "SNU-RU-9A95652780A38E": {
-      "fingerprint": "381b743829f3afd39352dbb7f315919fa70a6318dbde23890568680b27c51f74",
-      "checked_at": "2026-09-18T10:01:23Z",
+      "fingerprint": "d22ccc4316f55176c93989234047f1dd069c1217aecfb7c5aa03b93bf6f9ee19",
+      "checked_at": "2026-09-19T09:54:44Z",
       "activity": {
         "publicationPages": [
           {
@@ -39518,12 +39497,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -39533,26 +39507,63 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-204/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-204/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김동영 교수는 이비인후과학교실 소속으로 비과학 분야를 전문으로 연구하며, 비질환 및 관련 이비인후과 질환에 대한 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김동영 교수는 이비인후과학교실 소속으로, 주로 알레르기 비염, 폐쇄성 수면 무호흡증, 설하 면역요법 및 비강 점막 면역학 분야를 연구하고 있습니다. 특히 내시경을 이용한 부비동 수술 및 수면 무호흡증 치료를 위한 외과적 접근법에 관한 연구를 활발히 수행하고 있습니다.",
         "research_topics": [
-          "비과학",
-          "이비인후과"
+          "Allergic Rhinitis",
+          "Obstructive Sleep Apnea",
+          "Sublingual Immunotherapy",
+          "Dermatophagoides",
+          "Lymphoid Tissue",
+          "Mouse Model",
+          "Mandibular Advancement Devices",
+          "Nose Mucosa"
         ],
         "recommendation_keywords": [
           "비과",
+          "알레르기 비염",
+          "수면 무호흡증",
           "이비인후과",
-          "비질환",
-          "비과학"
+          "내시경 수술",
+          "Allergic Rhinitis",
+          "Obstructive Sleep Apnea",
+          "Sublingual Immunotherapy",
+          "Dermatophagoides",
+          "Lymphoid Tissue",
+          "Mouse Model",
+          "Mandibular Advancement Devices",
+          "Nose Mucosa"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": 123,
+        "recent_papers": [
+          {
+            "title": "Therapeutic Efficacy of Endoscope-Guided Coblation for Tongue Base Reduction as Part of Multilevel Surgery in Moderate to Severe OSA Patients",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-204/",
+            "year": "2026",
+            "venue": "World Journal of Otorhinolaryngology - Head and Neck Surgery",
+            "summary": ""
+          },
+          {
+            "title": "Extent of Resection and Role of Adjuvant Radiotherapy in Olfactory Neuroblastoma Without Definite Radiologic Evidence of Dural Invasion",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-204/",
+            "year": "2025",
+            "venue": "International Forum of Allergy and Rhinology",
+            "summary": ""
+          },
+          {
+            "title": "Factors Influencing Discrepancy Between Skin Prick Test and Serum-Specific Immunoglobulin E Test Results",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-204/",
+            "year": "2025",
+            "venue": "International Forum of Allergy and Rhinology",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 1,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -39568,14 +39579,9 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/",
@@ -39588,31 +39594,31 @@
         "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-204/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-204/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-204/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-204/#main-content",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-204/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9A95652780A38E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:01:43Z",
+        "_saved_at": "2026-09-19T09:54:48Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-9A95652780A38E"
     },
     "SNU-RU-551CC3517D5B78": {
-      "fingerprint": "861b5d2d359bafb15c835baefbcd35256f2c62437e811e6d4e49ea0776bad452",
-      "checked_at": "2026-09-18T10:01:22Z",
+      "fingerprint": "b5252c9d085066d822f3698e43e53579939b5c433f0b191034ed1a564b9f7e8b",
+      "checked_at": "2026-09-19T09:54:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -39620,7 +39626,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -39630,78 +39641,30 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김동완 교수는 비소세포폐암(Non-Small Cell Lung Cancer)을 중심으로 표적 항암제 및 면역 항암제 치료에 관한 임상 연구를 수행하고 있습니다. 특히 ALK, ROS1, NTRK 등 유전자 변이 폐암 환자를 대상으로 한 차세대 티로신 키나아제 억제제(TKI)의 효능과 안전성을 평가하는 다국적 임상 시험을 주도하고 있습니다.",
+        "research_summary": "김동완 교수는 종양내과 분야에서 폐암을 중심으로 한 항암 치료, 표적 치료, 그리고 임상 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Non Small Cell Lung Cancer",
-          "Anaplastic Lymphoma Kinase",
-          "Crizotinib",
-          "Lorlatinib",
-          "Progression Free Survival"
+          "종양내과",
+          "폐암",
+          "항암 치료",
+          "표적 치료"
         ],
         "recommendation_keywords": [
           "종양내과",
           "폐암",
-          "표적치료",
-          "임상시험",
-          "Non Small Cell Lung Cancer",
-          "Anaplastic Lymphoma Kinase",
-          "Crizotinib",
-          "Lorlatinib",
-          "Progression Free Survival"
+          "임상종양학",
+          "항암 치료",
+          "표적 치료"
         ],
-        "recent_papers": [
-          {
-            "title": "Lorlatinib versus crizotinib as first-line treatment for advanced ALK-positive non-small-cell lung cancer: 7-year update from the phase III CROWN study",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-203/",
-            "year": "2026",
-            "venue": "Annals of Oncology",
-            "summary": "ALK 양성 비소세포폐암 환자를 대상으로 로라티닙과 크리조티닙의 1차 치료 효과를 비교한 3상 CROWN 연구의 7년 추적 관찰 결과입니다."
-          },
-          {
-            "title": "A Phase II Study of Durvalumab, Doxorubicin, and Ifosfamide in Recurrent and/or Metastatic Pulmonary Sarcomatoid Carcinoma (KCSG LU-19-24)",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-203/",
-            "year": "2026",
-            "venue": "Clinical Lung Cancer",
-            "summary": "재발성 또는 전이성 폐 육종양 암종 환자를 대상으로 더발루맙, 독소루비신, 이포스파미드 병용 요법의 효과를 평가한 2상 임상 연구입니다."
-          },
-          {
-            "title": "Durvalumab-containing treatment for recurrent or metastatic pulmonary sarcomatoid carcinoma: A pooled post hoc analysis of two KCSG phase II trials",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-203/",
-            "year": "2026",
-            "venue": "Lung Cancer",
-            "summary": "두 건의 KCSG 2상 임상 시험 데이터를 통합하여 재발성 또는 전이성 폐 육종양 암종에 대한 더발루맙 포함 치료법의 효과를 분석한 사후 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 7,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Annals of Oncology",
-            "count": 1
-          },
-          {
-            "venue": "Clinical Lung Cancer",
-            "count": 1
-          },
-          {
-            "venue": "Lung Cancer",
-            "count": 1
-          },
-          {
-            "venue": "Nature Medicine",
-            "count": 1
-          },
-          {
-            "venue": "JAMA Oncology",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -39709,16 +39672,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 내과학교실 소속으로 종양내과 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 438 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/",
@@ -39728,26 +39696,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/14250890/Dong_Wan.Kim.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image of Dong-Wan Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-203/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-203/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-203/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-551CC3517D5B78",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:01:31Z",
+        "_saved_at": "2026-09-19T09:54:54Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -40136,7 +40104,7 @@
     },
     "SNU-RU-E28B8297214797": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-18T10:01:27Z",
+      "checked_at": "2026-09-19T09:54:51Z",
       "activity": {
         "publicationPages": [
           {
@@ -248465,11 +248433,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T09:54:14Z",
-    "checked": 60,
-    "seconds": 683.24,
+    "at": "2026-09-19T09:55:10Z",
+    "checked": 65,
+    "seconds": 739.65,
     "gemini": true,
-    "ai_requests": 40,
+    "ai_requests": 44,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
