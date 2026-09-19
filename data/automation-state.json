@@ -1,5 +1,5 @@
 {
-  "cursor": 2020,
+  "cursor": 2025,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -107491,13 +107491,13 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-E229535F0FA4BC": {
-      "fingerprint": "a006791e5acafe3ad079629423c8fe93544bf4988c6410c4118e068149ed38de",
-      "checked_at": "2026-09-18T10:38:55Z",
+      "fingerprint": "d356a86ca623673740e23c5dc5142b64f904faffcf00c81891d8615445bf8a0b",
+      "checked_at": "2026-09-19T10:32:18Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 182 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/publications/"
+            "title": "In Kyu Park - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/"
           }
         ],
         "recruitmentPages": [
@@ -107506,7 +107506,7 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-58/publications/",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-58/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-58/",
@@ -107515,24 +107515,73 @@
           "https://snu.elsevierpure.com/en/persons/y-park-58/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-58/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "박인규 교수는 일반흉부외과학 분야를 전문으로 하며, 심장혈관흉부외과학교실에서 연구 및 교육 활동을 수행하고 있습니다. 주요 연구 성과로는 182건의 연구 산출물이 있으며, 이 중 다수의 학술지 논문과 체계적 문헌고찰 등이 포함되어 있습니다.",
+        "research_summary": "박인규 교수는 일반흉부외과학 분야, 특히 폐암, 흉선암 등 흉부 종양의 수술적 치료와 예후 분석을 중심으로 연구를 수행하고 있습니다. 주요 연구 주제로는 폐엽 절제술, 흉선 절제술, 폐암의 재발 및 예후 인자 분석, 그리고 로봇 수술을 포함한 최소 침습적 흉부 수술 기법 등이 있습니다.",
         "research_topics": [
-          "일반흉부외과학"
+          "Lobectomy",
+          "Non Small Cell Lung Cancer",
+          "Lung Cancer",
+          "Recurrent Disease",
+          "Neoplasm",
+          "Pneumonectomy",
+          "Prognostic Factor",
+          "Thymectomy"
         ],
         "recommendation_keywords": [
           "일반흉부외과학",
-          "심장혈관흉부외과"
+          "폐암",
+          "흉부외과",
+          "로봇수술",
+          "흉선암",
+          "Lobectomy",
+          "Non Small Cell Lung Cancer",
+          "Lung Cancer",
+          "Recurrent Disease",
+          "Neoplasm",
+          "Pneumonectomy",
+          "Prognostic Factor",
+          "Thymectomy"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Assistant-independent robotic lung transplantation",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/",
+            "year": "2026",
+            "venue": "JTCVS Techniques",
+            "summary": ""
+          },
+          {
+            "title": "Neoadjuvant Concurrent Chemoradiotherapy Versus Neoadjuvant Chemotherapy in Thymic Epithelial Tumors: A Propensity Score-Matched Analysis",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/",
+            "year": "2026",
+            "venue": "Cancers",
+            "summary": ""
+          },
+          {
+            "title": "Three-field lymph node dissection subsequent to neoadjuvant concurrent chemoradiotherapy in esophageal cancer",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/",
+            "year": "2025",
+            "venue": "Diseases of the Esophagus",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 2,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "JTCVS Techniques",
+            "count": 1
+          },
+          {
+            "venue": "Cancers",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -107543,11 +107592,11 @@
         "education_summary": "서울대학교 의과대학 심장혈관흉부외과학교실 소속으로 일반흉부외과학 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "View all 182 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/publications/"
+            "title": "In Kyu Park - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-58/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -107557,14 +107606,14 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-58/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-58/",
         "poster_status": "verified",
         "poster_title": "In Kyu Park",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960428/361_Park_+In+Kyu.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-58/#main-content",
-        "poster_evidence": "Official profile image found on the SNU Elsevier Pure research profile page.",
+        "poster_evidence": "Official profile page contains the professor's photograph.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-58/",
           "http://yss.snu.ac.kr/",
@@ -107572,26 +107621,26 @@
           "https://snu.elsevierpure.com/en/persons/y-park-58/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-58/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-58/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-park-58/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-58/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E229535F0FA4BC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:39:06Z",
+        "_saved_at": "2026-09-19T10:32:31Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E229535F0FA4BC"
     },
     "SNU-RU-36689C41424581": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-18T10:38:56Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-19T10:32:25Z",
       "activity": {
         "publicationPages": [
           {
@@ -107603,25 +107652,21 @@
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
-        "membersUrl": "http://yss.snu.ac.kr/",
+        "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -107647,21 +107692,17 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
+        "member_page_url": "",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -107670,11 +107711,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "http://yss.snu.ac.kr/index.php",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -107687,15 +107728,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-36689C41424581",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T13:16:34Z",
+        "_saved_at": "2026-09-19T10:32:46Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-36689C41424581"
     },
     "SNU-RU-BAA550620243D2": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-18T10:38:57Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-19T10:32:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -107714,14 +107755,14 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -107774,11 +107815,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
-          "http://yss.snu.ac.kr/",
-          "http://yss.snu.ac.kr/index.php",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -107791,7 +107832,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BAA550620243D2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:39:14Z",
+        "_saved_at": "2026-09-19T10:32:36Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -108043,7 +108084,7 @@
     },
     "SNU-RU-5FDD66923E7C55": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-18T10:38:56Z",
+      "checked_at": "2026-09-19T10:32:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -108868,8 +108909,8 @@
       "_unit_id": "SNU-RU-D0754D3082B8BF"
     },
     "SNU-RU-743F673F27D3F1": {
-      "fingerprint": "8701b858eac8f7bf8125cf04b9ff2fdfe81f2d49b7f965aad5a18c25b54a2e32",
-      "checked_at": "2026-09-18T10:38:54Z",
+      "fingerprint": "b8d74e374a198656b208fc7b82cd89a2591c03bbb2a65b42ad635327bcd5c1ef",
+      "checked_at": "2026-09-19T10:32:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -108897,25 +108938,26 @@
           "https://snu.elsevierpure.com/en/persons/y-bahk/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-bahk/#main-search",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "박재현 교수는 심폐마취 및 기도관리 분야를 전문으로 하며, 로봇 보조 복강경 수술 시 환기 전략 및 기관지 차단기 위치 선정 기술 등 마취 중 환자 안전과 효율적인 기도 관리를 위한 임상 연구를 수행하고 있습니다.",
+        "research_summary": "박재현 교수는 마취통증의학교실 소속으로 심폐마취 및 기도관리 분야를 중심으로 연구를 수행하고 있으며, 로봇 보조 복강경 수술 시 환기 전략 및 기관지 차단기 배치 기술 등 임상적 마취 관리 최적화에 관한 연구를 진행하고 있습니다.",
         "research_topics": [
           "심폐마취",
           "기도관리",
-          "로봇 보조 복강경 수술",
-          "환기 전략"
+          "로봇 보조 복강경 수술 환기 전략",
+          "일측 폐 환기"
         ],
         "recommendation_keywords": [
           "심폐마취",
           "기도관리",
           "마취통증의학",
-          "로봇 보조 복강경 수술",
-          "환기 전략"
+          "임상마취",
+          "로봇 보조 복강경 수술 환기 전략",
+          "일측 폐 환기"
         ],
         "recent_papers": [
           {
@@ -108923,17 +108965,17 @@
             "url": "https://snu.elsevierpure.com/en/publications/driving-pressure-guided-ventilation-in-robot-assisted-laparoscopi/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "로봇 보조 복강경 수술 중 급경사 트렌델렌버그 자세에서 구동 압력 기반 환기 전략이 폐 보호에 미치는 영향을 분석한 무작위 대조 연구입니다."
+            "summary": "로봇 보조 복강경 수술 중 급경사 트렌델렌버그 자세에서 구동 압력 유도 환기 전략이 폐 보호에 미치는 영향을 분석한 무작위 대조 연구입니다."
           },
           {
             "title": "A novel technique of blindly positioning bronchial blockers for one-lung ventilation: a prospective, randomized, crossover study",
             "url": "https://snu.elsevierpure.com/en/publications/a-novel-technique-of-blindly-positioning-bronchial-blockers-for-o/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "일측 폐 환기를 위한 기관지 차단기의 위치를 맹검법으로 선정하는 새로운 기술의 유효성을 평가한 전향적 무작위 교차 연구입니다."
+            "summary": "일측 폐 환기를 위한 기관지 차단기의 맹검 배치 기술을 평가한 전향적 무작위 교차 연구입니다."
           }
         ],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 213,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -108949,7 +108991,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-bahk/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 연구실 모집 공고는 확인되지 않습니다.",
+        "recruitment_summary": "현재 공식적인 연구실 모집 공고는 확인되지 않으나, 관련 연구 성과 및 학술 활동은 서울대학교 연구자 정보 페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Driving pressure guided ventilation in robot-assisted laparoscopic surgery with steep Trendelenburg position: a randomized controlled study",
@@ -108970,7 +109012,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960436/363_Bahk_+Jae-Hyon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-bahk/#main-search",
-        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
+        "poster_evidence": "서울대학교 연구자 정보 페이지 내 프로필 사진",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-bahk/",
           "https://snu.elsevierpure.com/en/publications/driving-pressure-guided-ventilation-in-robot-assisted-laparoscopi/",
@@ -108980,16 +109022,16 @@
           "https://snu.elsevierpure.com/en/persons/y-bahk/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-bahk/#main-search",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-bahk/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 2,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-743F673F27D3F1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:38:58Z",
+        "_saved_at": "2026-09-19T10:32:24Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -247403,11 +247445,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T10:31:50Z",
-    "checked": 270,
-    "seconds": 2939.32,
+    "at": "2026-09-19T10:32:46Z",
+    "checked": 275,
+    "seconds": 2995.74,
     "gemini": true,
-    "ai_requests": 171,
+    "ai_requests": 175,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
