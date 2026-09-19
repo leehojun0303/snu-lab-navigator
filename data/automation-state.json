@@ -1,5 +1,5 @@
 {
-  "cursor": 105,
+  "cursor": 110,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -16209,8 +16209,8 @@
       "_unit_id": "SNU-RU-2BD18EC1CA695B"
     },
     "SNU-RU-A9D1E68CCF9294": {
-      "fingerprint": "e722b0fadd4c9b4f8c52a48d91e55182a719e1b6970dcd86aa66052d24230a99",
-      "checked_at": "2026-09-18T11:25:41Z",
+      "fingerprint": "89347808d91ac722d7ffb78dcd6c80d2d2df61324dbe16cda9a3dd7a5bcb5dfa",
+      "checked_at": "2026-09-19T11:20:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -16219,10 +16219,6 @@
           }
         ],
         "recruitmentPages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -16244,16 +16240,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "데이터 기반 지능형 알고리즘을 통해 산업 문제를 해결하고 신뢰할 수 있는 AI 기술을 연구합니다. 시계열, 언어, 시각 데이터를 아우르는 멀티모달 AI를 핵심으로 하며, 이상 탐지, 예지 보전, 대규모 언어 모델 안전성, 강건한 시각 인식 및 Industrial AI, Agentic AI, Efficient AI 분야를 연구하여 제조, 금융, 에너지 등 다양한 산업에 적용 가능한 기술을 개발합니다.",
+        "research_summary": "데이터 기반 지능형 알고리즘을 통해 산업 문제를 해결하고 신뢰할 수 있는 AI 기술을 연구합니다. 시계열, 언어, 시각 데이터를 아우르는 멀티모달 AI를 핵심으로 하며, 이상 탐지, 예지 보전, 대규모 언어 모델 안전성, 강건한 시각 인식 등 산업 환경에 적용 가능한 기술을 개발하고 있습니다.",
         "research_topics": [
           "산업 데이터 애널리틱스",
           "멀티모달(시계열/자연어/비전) 인공지능",
-          "이상 탐지 및 예지 보전",
+          "이상 탐지",
+          "예지 보전",
           "대규모 언어 모델 안전성",
-          "강건한 시각 인식",
-          "Industrial AI",
-          "Agentic AI",
-          "Efficient AI"
+          "강건한 시각 인식"
         ],
         "recommendation_keywords": [
           "산업 데이터 애널리틱스",
@@ -16262,16 +16256,34 @@
           "자연어 처리",
           "비전 AI",
           "이상 탐지",
-          "예지 보전",
           "멀티모달(시계열/자연어/비전) 인공지능",
-          "이상 탐지 및 예지 보전",
+          "예지 보전",
           "대규모 언어 모델 안전성",
-          "강건한 시각 인식",
-          "Industrial AI",
-          "Agentic AI",
-          "Efficient AI"
+          "강건한 시각 인식"
         ],
-        "recent_papers": [],
+        "recent_papers": [
+          {
+            "title": "CRANE: Cell Type-Conditional mRNA Half-Life Prediction with Cell-Line-Aware Evaluation",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "AI4Sci Korea",
+            "summary": ""
+          },
+          {
+            "title": "Avoid Wasted Annotation Costs in Open-set Active Learning with Pre-trained Vision-Language Model",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "Engineering Applications of Artificial Intelligence",
+            "summary": ""
+          },
+          {
+            "title": "AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs",
+            "url": "https://dsba.snu.ac.kr/",
+            "year": "2026",
+            "venue": "ICML",
+            "summary": ""
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -16307,12 +16319,8 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "DSBA 연구실에서는 신입생 모집 절차를 통해 연구원을 선발하고 있습니다.",
+        "recruitment_summary": "DSBA 연구실에서는 산업 데이터 애널리틱스 및 멀티모달 AI 분야의 연구원을 모집하고 있으며, 상세 절차는 연구실 홈페이지를 통해 안내하고 있습니다.",
         "verified_recruitment_pages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -16332,22 +16340,22 @@
         "source_urls_used": [
           "https://dsba.snu.ac.kr/",
           "https://ie.snu.ac.kr/professor/",
+          "https://ie.snu.ac.kr/grad_admission/",
+          "https://www.snu.ac.kr/research/highlights",
           "https://ie.snu.ac.kr",
           "https://ie.snu.ac.kr/undergrad_admission/",
-          "https://ie.snu.ac.kr/grad_admission/",
           "https://admission.snu.ac.kr/index.html",
           "https://ie.snu.ac.kr/intro/",
           "https://ie.snu.ac.kr/former_faculty/",
           "https://ie.snu.ac.kr/past_awardees/",
           "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
-          "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A9D1E68CCF9294",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:26:09Z",
+        "_saved_at": "2026-09-19T11:20:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -30549,7 +30557,7 @@
     },
     "SNU-RU-B97A53428DC666": {
       "fingerprint": "27f0966122fe45d65b657ee6576a9b85bae36a98f5bb8f8ee82b41954e3734d2",
-      "checked_at": "2026-09-18T11:25:33Z",
+      "checked_at": "2026-09-19T11:20:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -218553,12 +218561,12 @@
       "_unit_id": "SNU-RU-E0C5460A7B56FE"
     },
     "SNU-RU-0D8E8858CA2684": {
-      "fingerprint": "aa6c5558e39bb0c284000e13802b33c1a37b13db6aec197d952b49debcf985ae",
-      "checked_at": "2026-09-18T11:25:29Z",
+      "fingerprint": "6f4ceca9e9575c1a4f643c306f05520e1810f66bb7979db9e91fe685d4d448d2",
+      "checked_at": "2026-09-19T11:20:05Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "JOURNAL",
+            "title": "PUBLICATIONS",
             "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
           },
           {
@@ -218566,17 +218574,11 @@
             "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://tfc.snu.ac.kr/",
-          "https://me.snu.ac.kr/snu__professor/%EC%B5%9C%ED%95%B4%EC%B2%9C-choi-haecheon/",
           "https://me.snu.ac.kr",
           "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PM_D",
@@ -218584,16 +218586,16 @@
           "https://tfc.snu.ac.kr/index.php?hCode=BOARD&bo_idx=1&page=view&idx=322",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PH",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=CP",
-          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS"
+          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS",
+          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
         ]
       },
       "enrichment": {
-        "research_summary": "최해천 교수는 난류, 유동 제어, 전산유체역학(CFD) 및 생체모방공학 분야를 연구하며, 특히 기계학습 기반의 대와류모사(LES)와 같은 수치해석 기법 및 유동 제어 기술을 개발하고 있습니다.",
+        "research_summary": "최해천 교수는 난류, 유동 제어, 전산유체역학(CFD) 및 생체모방공학 분야를 연구하며, 특히 유체역학적 원리를 활용한 공학적 응용과 생체 모방 기술 개발에 주력하고 있습니다.",
         "research_topics": [
-          "유체역학",
           "난류",
           "유동 제어",
-          "CFD",
+          "전산유체역학(CFD)",
           "생체모방공학"
         ],
         "recommendation_keywords": [
@@ -218601,46 +218603,12 @@
           "난류",
           "유동 제어",
           "CFD",
-          "생체모방공학"
+          "생체모방공학",
+          "전산유체역학(CFD)"
         ],
-        "recent_papers": [
-          {
-            "title": "Flow characteristics past a normal flat plate at Re=5-10000.",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
-            "year": "2026",
-            "venue": "Phys. Fluids",
-            "summary": ""
-          },
-          {
-            "title": "On the assumption of conventional FFR: a modified formulation.",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
-            "year": "2026",
-            "venue": "J. Biomechanics",
-            "summary": ""
-          },
-          {
-            "title": "A numerical study on the clustering characteristics of rising air bubbles in stagnant water.",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
-            "year": "2026",
-            "venue": "Int. J. Multiphase Flow",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 3,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Phys. Fluids",
-            "count": 1
-          },
-          {
-            "venue": "J. Biomechanics",
-            "count": 1
-          },
-          {
-            "venue": "Int. J. Multiphase Flow",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -218648,10 +218616,10 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1985년 서울대학교 기계공학과 학사, 1987년 석사 학위를 취득하였으며, 1992년 미국 Stanford University에서 기계공학 박사 학위를 받았습니다.",
+        "education_summary": "서울대학교 기계공학부 교수로서 난류, 유동제어 및 CFD/생체모방공학 실험실을 운영하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "JOURNAL",
+            "title": "PUBLICATIONS",
             "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper"
           },
           {
@@ -218659,31 +218627,10 @@
             "url": "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent"
           }
         ],
-        "recruitment_summary": "난류, 유동제어 및 CFD/생체모방공학 실험실에서 연구원을 모집하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
-        "current_members": [
-          {
-            "name": "Na, Hyunsoo",
-            "role": "Intern",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS"
-          },
-          {
-            "name": "So, Jiwon",
-            "role": "Intern",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS"
-          },
-          {
-            "name": "Son, Seungwoo",
-            "role": "Master Student",
-            "url": "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS"
-          }
-        ],
+        "recruitment_summary": "실험실 홈페이지를 통해 연구실 구성원 및 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://tfc.snu.ac.kr/",
+        "current_members": [],
         "alumni": [],
         "member_page_url": "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
         "poster_status": "none_detected",
@@ -218694,24 +218641,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
-          "https://me.snu.ac.kr/snu__professor/%EC%B5%9C%ED%95%B4%EC%B2%9C-choi-haecheon/",
-          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
-          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS",
           "https://tfc.snu.ac.kr/",
+          "https://tfc.snu.ac.kr/index.php?hCode=PROFESSOR_02_01_01",
+          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=inter_paper",
+          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent",
           "https://me.snu.ac.kr",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PM_D",
           "https://tfc.snu.ac.kr/index.php?hCode=MEMBERS_02_07",
           "https://tfc.snu.ac.kr/index.php?hCode=BOARD&bo_idx=1&page=view&idx=322",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=PH",
           "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=CP",
-          "https://tfc.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=patent"
+          "https://tfc.snu.ac.kr/index.php?hCode=STAFF_LIST&gubun=MS",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0D8E8858CA2684",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:25:57Z",
+        "_saved_at": "2026-09-19T11:20:16Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -219102,8 +219049,8 @@
       "_unit_id": "SNU-RU-D4AE8F76A51D16"
     },
     "SNU-RU-EB722C631261A9": {
-      "fingerprint": "f888011bd737d57fa11747972eff9c2a71426df640366c22f8f1997d32940c62",
-      "checked_at": "2026-09-18T11:25:28Z",
+      "fingerprint": "4ba29283d88e7c26d19758ee65d591914d6d7ea1b974ede03a8371630618355a",
+      "checked_at": "2026-09-19T11:20:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -219362,7 +219309,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-EB722C631261A9",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-D3C3BCC1BD52B3": {
       "fingerprint": "d27226017cec24ed6e0106dc559a9058ee93e759272fcc15b546a1cec07fb58c",
@@ -221738,8 +221685,8 @@
       "_unit_id": "SNU-RU-DAAE7B16CC512A"
     },
     "SNU-RU-10C81698697F17": {
-      "fingerprint": "8f31f9120758111a38a6f6b2385344837c00b77154108521beed0c5bc7e7d5b9",
-      "checked_at": "2026-09-18T11:25:29Z",
+      "fingerprint": "012945222142fd74c4cb562ec6bd46e981ea0eb7108f0b8c30c50790f3fa2d5f",
+      "checked_at": "2026-09-19T11:20:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -221777,7 +221724,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "황원태 교수의 에너지 및 환경유동 연구실은 유체역학을 기반으로 다상 난류 유동, 환경 유동, 호흡기 유동, 가스터빈 열유동, 항공기 및 무인기 엔진 분야를 연구합니다.",
+        "research_summary": "황원태 교수의 에너지 및 환경유동 연구실은 유체역학을 기반으로 다상 난류 유동, 환경 유동, 호흡기 유동, 가스터빈 열유동, 항공기 및 무인기 엔진 관련 연구를 수행하고 있습니다.",
         "research_topics": [
           "유체역학",
           "다상 난류 유동",
@@ -221819,7 +221766,7 @@
             "url": "https://eeflow.snu.ac.kr/publication/patent"
           }
         ],
-        "recruitment_summary": "서울대학교 입학포털을 통해 대학원 입학 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 공과대학 기계공학부 에너지 및 환경유동 연구실은 입학포털을 통해 학생을 모집합니다.",
         "verified_recruitment_pages": [
           {
             "title": "입학포털",
@@ -221832,11 +221779,11 @@
         "member_page_url": "https://eeflow.snu.ac.kr/members/professor",
         "poster_status": "verified",
         "poster_title": "GTS 2026",
-        "poster_date": "",
+        "poster_date": "2026",
         "poster_event": "GTS 2026",
         "poster_image_url": "https://eeflow.snu.ac.kr/webdata/boardimages/gallery/t_e1az346z0e7zbe0z905z1b9z0e3z331zc5dz802zc2.jpg",
         "poster_source_url": "https://eeflow.snu.ac.kr/",
-        "poster_evidence": "GTS 2026 관련 갤러리 이미지가 연구실 홈페이지 메인에 게시되어 있습니다.",
+        "poster_evidence": "연구실 홈페이지 메인 갤러리에 GTS 2026 관련 이미지가 게시되어 있습니다.",
         "source_urls_used": [
           "https://eeflow.snu.ac.kr/",
           "https://eeflow.snu.ac.kr/members/professor",
@@ -221855,7 +221802,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-10C81698697F17",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:25:42Z",
+        "_saved_at": "2026-09-19T11:20:24Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245194,11 +245141,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:19:49Z",
-    "checked": 525,
-    "seconds": 5819.12,
+    "at": "2026-09-19T11:20:34Z",
+    "checked": 530,
+    "seconds": 5863.91,
     "gemini": true,
-    "ai_requests": 318,
+    "ai_requests": 321,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
