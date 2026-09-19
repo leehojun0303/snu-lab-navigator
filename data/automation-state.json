@@ -1,5 +1,5 @@
 {
-  "cursor": 95,
+  "cursor": 100,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -147297,27 +147297,118 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-F81AB2CC1BC16E": {
-      "fingerprint": "624ebe62c877c1ec943ad7f2b4025cbc234e38cee3ba480c6e11371479237868",
-      "checked_at": "2026-09-18T11:23:25Z",
+      "fingerprint": "d7949a824f6d8e3f3d642513fb8e3c24520c27d176289a748f2109f2fd49b1e2",
+      "checked_at": "2026-09-19T11:16:45Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Journal",
-            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub4_1_a"
+            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub4_1_a",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "Journal",
+            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub4_1_a",
+            "kind": "publication"
           },
           {
             "title": "View Publications",
-            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_2&wr_id=80"
+            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_2&wr_id=80",
+            "kind": "publication"
+          },
+          {
+            "title": "View Publications",
+            "url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_2&wr_id=63",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "http://hai.snu.ac.kr/images/common/logo-on.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/bbs/board.php?bo_table=sub1_1"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/img/../images/common/no_img_pub.jpg",
+            "alt": "이미지가 없습니다.",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2608/thumb-1a3fe8b00e5ae1d172726152faeba9ab_1787705135_6562_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2608/thumb-44f1bb25759f3734d60ff74a07acc521_1785892846_7931_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2606/thumb-78d439b23291567a99c14c62e0bbf0a6_1780552979_7277_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2510/thumb-6b8a31565d62e1221ef80ceac31ba866_1760051973_6074_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2510/thumb-6b8a31565d62e1221ef80ceac31ba866_1760052456_3294_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          },
+          {
+            "url": "http://hai.snu.ac.kr/data/editor/2511/thumb-48903fc93fe8d42f1fc7783c01e9e7b2_1763010479_3756_340x192.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "http://hai.snu.ac.kr/index.php"
+          }
+        ],
         "sourcePagesScanned": [
           "http://hai.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9C%A4%EB%B3%91%EB%8F%99-youn-byeng-dong/",
@@ -147403,9 +147494,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-18T11:23:46Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-F81AB2CC1BC16E"
+      "_unit_id": "SNU-RU-F81AB2CC1BC16E",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-29AAF7E956EE3D": {
       "fingerprint": "e903bed3e712927e96121f371c6f49878262933e5720eaaf66e4a7ead2416290",
@@ -155418,8 +155511,8 @@
       "_unit_id": "SNU-RU-EB925D53B11651"
     },
     "SNU-RU-85A16466673183": {
-      "fingerprint": "c009f9283c15601eb63e363787ee01fa5a908905ed6a481af67aa1e3922dae32",
-      "checked_at": "2026-09-18T11:23:35Z",
+      "fingerprint": "97bb509ae84546c8d764c8adc965d9c732ef44dd73818cac53d12254f6cb3815",
+      "checked_at": "2026-09-19T11:18:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -155429,8 +155522,8 @@
         ],
         "recruitmentPages": [
           {
-            "title": "People | inrol",
-            "url": "https://www.inrol.snu.ac.kr/people"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/index.html"
           }
         ],
         "membersUrl": "https://www.inrol.snu.ac.kr/people",
@@ -155444,17 +155537,22 @@
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#footer",
           "https://admission.snu.ac.kr/index.html",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/"
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/"
         ]
       },
       "enrichment": {
-        "research_summary": "이동준 교수는 인터랙티브/네트워크 로보틱스 연구실(INRoL)을 이끌며 로봇역학 및 제어, 로봇 조작 및 시뮬레이션, 원격제어/햅틱/XR, 공중작업 드론/비행로봇, 자율이동로봇 및 센서융합 분야를 연구하고 있습니다.",
+        "research_summary": "이동준 교수는 인터랙티브/네트워크 로보틱스 연구실(INRoL)을 이끌며 로봇공학, 제어, 로봇역학, 로봇 조작 및 시뮬레이션, 원격제어, 햅틱, XR, 공중작업 드론, 비행로봇, 자율이동로봇 및 센서융합 분야를 연구하고 있습니다.",
         "research_topics": [
+          "로봇공학",
+          "제어",
           "로봇역학 및 제어",
           "로봇 조작 및 시뮬레이션",
-          "원격제어/햅틱/XR",
-          "공중작업 드론/비행로봇",
+          "원격제어",
+          "햅틱",
+          "XR",
+          "공중작업 드론",
+          "비행로봇",
           "자율이동로봇 및 센서융합"
         ],
         "recommendation_keywords": [
@@ -155462,55 +155560,17 @@
           "제어",
           "로봇역학",
           "햅틱",
-          "XR",
-          "드론",
           "비행로봇",
-          "자율이동로봇",
-          "센서융합",
           "로봇역학 및 제어",
           "로봇 조작 및 시뮬레이션",
-          "원격제어/햅틱/XR",
-          "공중작업 드론/비행로봇",
+          "원격제어",
+          "XR",
+          "공중작업 드론",
           "자율이동로봇 및 센서융합"
         ],
-        "recent_papers": [
-          {
-            "title": "Finger-based 3D Human-Swarm Interaction Interface: Design and Human-Subject Evaluation",
-            "url": "https://www.inrol.snu.ac.kr/journal",
-            "year": "2026",
-            "venue": "Expert Systems With Applications",
-            "summary": ""
-          },
-          {
-            "title": "Fast and Robust Online Initialization of Monocular Visual-Inertial Odometry via One-Dimensional Cost Approximation",
-            "url": "https://www.inrol.snu.ac.kr/journal",
-            "year": "2026",
-            "venue": "IEEE Transactions on Robotics",
-            "summary": ""
-          },
-          {
-            "title": "Real-Time Constraint-Aware Inverse Kinematics via Passivity-Based Dynamics Simulation",
-            "url": "https://www.inrol.snu.ac.kr/journal",
-            "year": "2026",
-            "venue": "IEEE Robotics & Automation Letters",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 3,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Expert Systems With Applications",
-            "count": 1
-          },
-          {
-            "venue": "IEEE Transactions on Robotics",
-            "count": 1
-          },
-          {
-            "venue": "IEEE Robotics & Automation Letters",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -155518,35 +155578,25 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1995년 KAIST 기계공학 학사, 1997년 석사를 거쳐 2004년 University of Minnesota에서 기계공학 박사 학위를 취득하였습니다.",
+        "education_summary": "서울대학교 공과대학 기계공학부 교수로서 로봇공학 및 제어 관련 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "Journal",
             "url": "https://www.inrol.snu.ac.kr/journal"
           }
         ],
-        "recruitment_summary": "인터랙티브/네트워크 로보틱스 연구실(INRoL)에서 대학원생을 모집하고 있습니다.",
+        "recruitment_summary": "인터랙티브/네트워크 로보틱스 연구실(INRoL)에서 연구원을 모집하고 있으며, 자세한 사항은 연구실 홈페이지를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
-            "title": "People | inrol",
-            "url": "https://www.inrol.snu.ac.kr/people"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/index.html"
           }
         ],
-        "recruitment_source_url": "https://www.inrol.snu.ac.kr/people",
+        "recruitment_source_url": "https://www.inrol.snu.ac.kr/",
         "current_members": [
           {
-            "name": "Hoyong Lee",
-            "role": "Ph.D. Student",
-            "url": "https://www.inrol.snu.ac.kr/people"
-          },
-          {
-            "name": "Bukun Son",
-            "role": "Ph.D. Student",
-            "url": "https://www.inrol.snu.ac.kr/people"
-          },
-          {
-            "name": "Flin Höpflinger",
-            "role": "Ph.D. Student",
+            "name": "이동준",
+            "role": "교수",
             "url": "https://www.inrol.snu.ac.kr/people"
           }
         ],
@@ -155558,26 +155608,26 @@
         "poster_event": "",
         "poster_image_url": "https://static.wixstatic.com/media/313661_2cc64ab807bd424f9c7082506ffbcb16~mv2.png/v1/crop/x_27",
         "poster_source_url": "https://www.inrol.snu.ac.kr/people",
-        "poster_evidence": "연구실 구성원 페이지에 게시된 이동준 교수 프로필 이미지",
+        "poster_evidence": "연구실 구성원 페이지에 이동준 교수의 프로필 사진으로 게시되어 있습니다.",
         "source_urls_used": [
           "https://www.inrol.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/",
           "https://www.inrol.snu.ac.kr/people",
-          "https://www.inrol.snu.ac.kr/journal",
+          "https://admission.snu.ac.kr/index.html",
           "https://me.snu.ac.kr",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#container",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#footer",
-          "https://admission.snu.ac.kr/index.html",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EB%8F%99%EC%A4%80-lee-dongjun/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://me.snu.ac.kr/%ea%b5%90%ec%9c%a1/%ea%b5%90%ea%b3%bc%eb%aa%a9/%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%eb%aa%a9/%ec%a0%84%ea%b3%b5%ed%95%84%ec%88%98/",
+          "https://www.inrol.snu.ac.kr/journal",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-85A16466673183",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:24:10Z",
+        "_saved_at": "2026-09-19T11:18:58Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -163342,8 +163392,8 @@
       "_unit_id": "SNU-RU-118BAAD4B5181A"
     },
     "SNU-RU-54754343728AF7": {
-      "fingerprint": "3741b2ec9cb904e33434a14865ff3b84f9dabaf1b062ac0708aca34ada6344ac",
-      "checked_at": "2026-09-18T11:23:19Z",
+      "fingerprint": "8a624b982b103ba6f04f8ff8c76b08aa1b9c4b3cfcf559e12b6328d560baefa7",
+      "checked_at": "2026-09-19T11:16:38Z",
       "activity": {
         "publicationPages": [
           {
@@ -163353,12 +163403,12 @@
         ],
         "recruitmentPages": [
           {
-            "title": "Home",
-            "url": "https://imaging.snu.ac.kr/home"
+            "title": "Imaging Intelligence Laboratory",
+            "url": "https://imaging.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%EC%95%84-lee-seung-ah/",
-        "posterStatus": "none_detected",
+        "membersUrl": "https://imaging.snu.ac.kr/team",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://imaging.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%EC%95%84-lee-seung-ah/",
@@ -163373,8 +163423,9 @@
         ]
       },
       "enrichment": {
-        "research_summary": "이승아 교수의 지능형 이미징 연구실(Imaging Intelligence Lab)은 광학 이미징, 생체광학, 계산 영상 및 인공지능 분야를 연구합니다. 특히 렌즈리스 카메라 기술에서 물리 모델과 딥러닝을 결합하여 이미지 복원 성능을 향상시키는 연구를 수행하고 있습니다.",
+        "research_summary": "이승아 교수가 이끄는 지능형 이미징 연구실(Imaging Intelligence Laboratory)은 광학, 현미경학, 계산 영상 및 인공지능 분야를 중심으로 연구를 수행하고 있습니다. 주요 연구 분야는 광학 이미징, 생체광학, 계산 영상 및 인공지능 기술을 활용한 차세대 이미징 시스템 개발입니다.",
         "research_topics": [
+          "광학",
           "광학 이미징",
           "생체광학",
           "계산 영상",
@@ -163387,26 +163438,7 @@
           "계산 영상",
           "인공지능"
         ],
-        "recent_papers": [
-          {
-            "title": "Restoring H&E stain in faded slides via phase-to-color virtual staining in near-infrared",
-            "year": "2024",
-            "venue": "APL Photonics",
-            "summary": "근적외선 영역에서 위상-색상 가상 염색을 통해 퇴색된 H&E 염색 슬라이드를 복원하는 기술을 제안하였습니다."
-          },
-          {
-            "title": "Design and single-shot fabrication of lensless cameras with arbitrary point spread functions",
-            "year": "2023",
-            "venue": "Optica",
-            "summary": "임의의 점 확산 함수를 갖는 렌즈리스 카메라의 설계 및 단일 샷 제작 방법을 제시하였습니다."
-          },
-          {
-            "title": "Single-shot temporal speckle correlation imaging using rolling shutter image sensors",
-            "year": "2022",
-            "venue": "Optica",
-            "summary": "롤링 셔터 이미지 센서를 사용하여 단일 샷으로 시간적 스페클 상관 이미징을 수행하는 기술을 개발하였습니다."
-          }
-        ],
+        "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -163416,25 +163448,25 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2007년 서울대학교 전기공학부 학사, 2009년 석사 학위를 취득하였으며, 2014년 Caltech에서 전기공학 박사 학위를 받았습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://imaging.snu.ac.kr/publications"
           }
         ],
-        "recruitment_summary": "학부생 인턴, 대학원생(석사/박사), 박사후 연구원을 모집하고 있습니다. 광학, 현미경, 계산 영상 또는 관련 분야에 관심 있는 학생을 선호하며, 이메일로 이력서를 제출하면 됩니다.",
+        "recruitment_summary": "지능형 이미징 연구실에서는 광학, 현미경학, 계산 영상 및 관련 분야에 관심이 있는 학부 인턴, 대학원생(석사/박사), 박사후 연구원을 모집하고 있습니다. 기계공학, 전기전자공학, 컴퓨터공학, 물리학 등 관련 공학 분야의 강력한 학문적 배경을 선호하며, 지원자는 이력서를 seungahlee@snu.ac.kr로 제출해야 합니다.",
         "verified_recruitment_pages": [
           {
-            "title": "Home",
-            "url": "https://imaging.snu.ac.kr/home"
+            "title": "Imaging Intelligence Laboratory",
+            "url": "https://imaging.snu.ac.kr/"
           }
         ],
-        "recruitment_source_url": "https://imaging.snu.ac.kr/home",
+        "recruitment_source_url": "https://imaging.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%EC%95%84-lee-seung-ah/",
-        "poster_status": "none_detected",
+        "member_page_url": "https://imaging.snu.ac.kr/team",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -163442,24 +163474,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://imaging.snu.ac.kr/home",
-          "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%EC%95%84-lee-seung-ah/",
-          "https://imaging.snu.ac.kr/publications",
-          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
           "https://imaging.snu.ac.kr/",
-          "https://me.snu.ac.kr",
-          "https://imaging.snu.ac.kr/team",
+          "https://imaging.snu.ac.kr/publications",
           "https://imaging.snu.ac.kr/research",
+          "https://imaging.snu.ac.kr/team",
+          "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%EC%95%84-lee-seung-ah/",
+          "https://me.snu.ac.kr",
+          "https://imaging.snu.ac.kr/home",
           "https://imaging.snu.ac.kr/teaching",
           "https://imaging.snu.ac.kr/#h.9by1e2jdpggg",
           "https://imaging.snu.ac.kr/#h.p_BkXkaGkVgPpF",
+          "https://me.snu.ac.kr/?kboard_content_redirect=22061",
           "https://imaging.snu.ac.kr/publications#h.jyvd8l1c37s7"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-54754343728AF7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:23:42Z",
+        "_saved_at": "2026-09-19T11:17:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -168900,90 +168932,18 @@
       "_unit_id": "SNU-RU-66B6D42B841061"
     },
     "SNU-RU-2F521DF2FF1EF3": {
-      "fingerprint": "1d4632f4c5cb39aff8b63ffeef2c9663627a4c8f75e030107961952859c01160",
-      "checked_at": "2026-09-18T11:23:18Z",
+      "fingerprint": "5823e327fd02cd46e60d2e44196c688aea528dabdebdd30cc2b92c8d042f32db",
+      "checked_at": "2026-09-19T11:16:37Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://energy.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://energy.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://energy.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://energy.snu.ac.kr/publications#h.p_Ylm9n8FvIVAI",
-            "kind": "publication"
+            "url": "https://energy.snu.ac.kr/publications"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://admission.snu.ac.kr/index.html",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://energy.snu.ac.kr/member",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
-            "alt": "서울대학교 서울대학교 기계공학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/이윤석교수.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          },
-          {
-            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://me.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://energy.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/",
@@ -168998,9 +168958,8 @@
         ]
       },
       "enrichment": {
-        "research_summary": "이윤석 교수의 에너지 디바이스 및 나노공학 연구실은 에너지공학, 반도체 신소재 및 디바이스, 뉴로모픽 컴퓨팅 디바이스, 태양전지, 배터리 분야를 연구합니다.",
+        "research_summary": "이윤석 교수는 에너지 디바이스 및 나노공학 연구실을 운영하며, 반도체 신소재 및 디바이스, 뉴로모픽 컴퓨팅 디바이스, 태양전지, 배터리 분야를 중점적으로 연구하고 있습니다.",
         "research_topics": [
-          "에너지공학",
           "반도체 신소재 및 디바이스",
           "뉴로모픽 컴퓨팅 디바이스",
           "태양전지",
@@ -169008,10 +168967,12 @@
         ],
         "recommendation_keywords": [
           "에너지공학",
-          "반도체 신소재 및 디바이스",
-          "뉴로모픽 컴퓨팅 디바이스",
+          "반도체 신소재",
+          "뉴로모픽 컴퓨팅",
           "태양전지",
-          "배터리"
+          "배터리",
+          "반도체 신소재 및 디바이스",
+          "뉴로모픽 컴퓨팅 디바이스"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -169023,7 +168984,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 기계항공공학부 학사(2006), Stanford University 기계공학 석사(2007), Massachusetts Institute of Technology(MIT) 기계공학 박사(2013) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
@@ -169036,24 +168997,24 @@
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://energy.snu.ac.kr/member",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "이윤석 교수",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/이윤석교수.png",
+        "poster_source_url": "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/",
+        "poster_evidence": "공식 교수 프로필 페이지에 게시된 사진입니다.",
         "source_urls_used": [
-          "https://energy.snu.ac.kr/contact-us",
           "https://energy.snu.ac.kr/home",
           "https://energy.snu.ac.kr/member",
           "https://energy.snu.ac.kr/publications",
+          "https://me.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9C%A4%EC%84%9D-lee-yun-seog/",
           "https://energy.snu.ac.kr/",
           "https://me.snu.ac.kr",
+          "https://energy.snu.ac.kr/contact-us",
           "https://energy.snu.ac.kr/#h.p_WEQB0o2KloH3",
           "https://energy.snu.ac.kr/#h.gjt6yrcg4ale",
           "https://energy.snu.ac.kr/#h.601omvjahyvh",
-          "https://me.snu.ac.kr/%ed%95%99%eb%b6%80%eb%89%b4%ec%8a%a4/?mod=document&uid=22139",
           "https://me.snu.ac.kr/?kboard_content_redirect=22061",
           "https://energy.snu.ac.kr/publications#h.p_Ylm9n8FvIVAI"
         ],
@@ -169061,13 +169022,11 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2F521DF2FF1EF3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:24:16Z",
+        "_saved_at": "2026-09-19T11:16:50Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-2F521DF2FF1EF3",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-2F521DF2FF1EF3"
     },
     "SNU-RU-1346C82E01F143": {
       "fingerprint": "73a070c02bcbd482f6275b9b419c2038311ef45696abe76264771080d03d45f6",
@@ -185804,8 +185763,8 @@
       "_unit_id": "SNU-RU-740B404050E175"
     },
     "SNU-RU-305A937960F6ED": {
-      "fingerprint": "0048adbfce3479ed61b28d33d778f7ea0c70af5c28dcf57f31f58dcc5dba5fa3",
-      "checked_at": "2026-09-18T11:23:27Z",
+      "fingerprint": "086b37c27f5d2334c5e48683ec08b1a24df21c301dc1af2d760abd3d8d7f30e5",
+      "checked_at": "2026-09-19T11:16:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -185855,8 +185814,8 @@
           "4D 프린팅",
           "생체모사설계",
           "기계메타물질",
-          "자가변형 고분자",
-          "형상기억 고분자"
+          "형상기억 고분자",
+          "자가변형 고분자"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -185868,7 +185827,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 기계공학부 교수로서 첨단생산기술 및 스마트소재 연구실을 운영하며 관련 분야의 연구 및 교육을 수행하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "Domestic Journal",
@@ -185879,7 +185838,7 @@
             "url": "https://3dprinting.snu.ac.kr/bbs/board.php?bo_table=sub3_1"
           }
         ],
-        "recruitment_summary": "연구실에서는 포스닥 및 대학원생을 상시 모집하고 있습니다.",
+        "recruitment_summary": "첨단생산기술 및 스마트소재 연구실에서 포스닥 및 대학원생을 상시 모집하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "2026-07-07 We have openings! (포스닥 및 대학원생 선발)",
@@ -185915,7 +185874,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-305A937960F6ED",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:23:53Z",
+        "_saved_at": "2026-09-19T11:17:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245201,11 +245160,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:16:19Z",
-    "checked": 515,
-    "seconds": 5608.9,
+    "at": "2026-09-19T11:18:58Z",
+    "checked": 520,
+    "seconds": 5767.95,
     "gemini": true,
-    "ai_requests": 311,
+    "ai_requests": 315,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
