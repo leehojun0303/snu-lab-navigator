@@ -1,5 +1,5 @@
 {
-  "cursor": 305,
+  "cursor": 310,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -114613,8 +114613,8 @@
       "_unit_id": "SNU-RU-A27972D9AE3D92"
     },
     "SNU-RU-6A99BFB263B384": {
-      "fingerprint": "21b3f3c7de15f333046cd5fd572c92597717d92f7c746dc7d6aa540b26d49930",
-      "checked_at": "2026-09-14T10:52:40Z",
+      "fingerprint": "2b3f939a23515c03800698ccc96f38c4c58eedf9fcd83d514e9fd3b9fd0d44ab",
+      "checked_at": "2026-09-19T12:03:17Z",
       "activity": {
         "publicationPages": [
           {
@@ -114622,44 +114622,47 @@
             "url": "https://nesl.snu.ac.kr/journals-2/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연구생등록",
+            "url": "https://aerospace.snu.ac.kr/graduate/research-student"
+          }
+        ],
         "membersUrl": "https://nesl.snu.ac.kr/members/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://nesl.snu.ac.kr/",
           "https://aerospace.snu.ac.kr",
-          "https://nesl.snu.ac.kr/members/",
-          "https://nesl.snu.ac.kr/journals-2/",
-          "https://nesl.snu.ac.kr/member/%ec%a0%95%ec%9e%ac%ec%98%81/",
-          "https://nesl.snu.ac.kr/member/%ec%9c%a0%ec%98%81%eb%af%bc/",
-          "https://nesl.snu.ac.kr/member/%ea%b9%80%ed%98%84%ec%9a%b1/",
-          "https://nesl.snu.ac.kr/member/%ea%b9%80%eb%8c%80%ed%98%84/",
           "https://nesl.snu.ac.kr/member/%ec%9c%a4%ec%9d%b8%eb%8f%84/",
-          "https://nesl.snu.ac.kr/member/%eb%b0%95%ec%96%b4%ec%a7%84/"
+          "https://nesl.snu.ac.kr/member/%eb%b0%95%ec%96%b4%ec%a7%84/",
+          "https://nesl.snu.ac.kr/member/%ec%b5%9c%eb%b3%91%ed%95%84/",
+          "https://nesl.snu.ac.kr/member/%ec%a0%95%ec%9b%90%ec%98%81/",
+          "https://aerospace.snu.ac.kr/graduate/research-student",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480",
+          "https://aerospace.snu.ac.kr/graduate/completion/committee"
         ]
       },
       "enrichment": {
-        "research_summary": "박찬국 교수가 이끄는 항법전자시스템연구실(NESL)은 관성 항법, 다중 센서 융합(Lidar, Vision, GPS), 보행자 추측 항법(PDR), 표적 추적 및 3D 객체 자세 추정 등 통합 항법 시스템과 표적 추적 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "항법전자시스템연구실(NESL)은 관성 항법, 보조 항법(다중 센서 융합), 표적 추적, 객체 자세 추정 등 항법 및 전자 시스템 분야의 핵심 기술을 연구합니다.",
         "research_topics": [
           "Inertial Navigation",
-          "Aided Navigation",
-          "Multi-sensor fusion (Lidar, Vision, GPS)",
+          "Aided Navigation (Multi-sensor fusion: Lidar, Vision, GPS)",
           "Pedestrian Dead Reckoning",
-          "Target Tracking",
-          "Object Pose Estimation"
+          "Target Tracking (DNN-based small target tracking)",
+          "Object Pose Estimation (PCL-based point registration, 3D object pose estimation)"
         ],
         "recommendation_keywords": [
-          "항법 시스템",
-          "센서 융합",
-          "관성 항법",
-          "표적 추적",
-          "자세 추정",
+          "항법",
+          "관성항법",
+          "센서융합",
+          "표적추적",
+          "자세추정",
           "Inertial Navigation",
-          "Aided Navigation",
-          "Multi-sensor fusion (Lidar, Vision, GPS)",
+          "Aided Navigation (Multi-sensor fusion: Lidar, Vision, GPS)",
           "Pedestrian Dead Reckoning",
-          "Target Tracking",
-          "Object Pose Estimation"
+          "Target Tracking (DNN-based small target tracking)",
+          "Object Pose Estimation (PCL-based point registration, 3D object pose estimation)"
         ],
         "recent_papers": [
           {
@@ -114684,8 +114687,25 @@
             "summary": ""
           }
         ],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "IEEE Access",
+            "count": 1
+          },
+          {
+            "venue": "IEEE Geoscience and Remote Sensing Letters",
+            "count": 1
+          },
+          {
+            "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+            "count": 1
+          },
+          {
+            "venue": "IEEE Robotics and Automation Letters",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -114700,40 +114720,45 @@
             "url": "https://nesl.snu.ac.kr/journals-2/"
           }
         ],
-        "recruitment_summary": "연구실 홈페이지를 통해 구성원 정보를 제공하고 있으며, 관련 분야 대학원생 및 연구 인력을 모집하는 것으로 보입니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://nesl.snu.ac.kr/members/",
+        "recruitment_summary": "연구실 홈페이지를 통해 연구생 모집 및 관련 공지사항을 안내하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연구생등록",
+            "url": "https://aerospace.snu.ac.kr/graduate/research-student"
+          }
+        ],
+        "recruitment_source_url": "https://aerospace.snu.ac.kr/graduate/research-student",
         "current_members": [
           {
-            "name": "박찬국",
-            "role": "Professor",
-            "url": "https://nesl.snu.ac.kr/members/"
-          },
-          {
             "name": "김헌기",
-            "role": "Ph.D. Candidates",
+            "role": "Ph.D. Candidate",
             "url": "https://nesl.snu.ac.kr/members/"
           },
           {
             "name": "이인호",
-            "role": "Ph.D. Candidates",
+            "role": "Ph.D. Candidate",
+            "url": "https://nesl.snu.ac.kr/members/"
+          },
+          {
+            "name": "전지훈",
+            "role": "Ph.D. Candidate",
             "url": "https://nesl.snu.ac.kr/members/"
           }
         ],
         "alumni": [
           {
-            "name": "정원영",
-            "role": "Samsung Electronics",
-            "url": "https://nesl.snu.ac.kr/members/"
-          },
-          {
-            "name": "박우정",
-            "role": "Samsung Electronics",
+            "name": "정재영",
+            "role": "M.S. Seoul National Univ., 2020",
             "url": "https://nesl.snu.ac.kr/members/"
           },
           {
             "name": "유영민",
-            "role": "STRADSVISION",
+            "role": "Ph.D. Seoul National Univ., 2014",
+            "url": "https://nesl.snu.ac.kr/members/"
+          },
+          {
+            "name": "김현욱",
+            "role": "M.S. Seoul National Univ., 2009",
             "url": "https://nesl.snu.ac.kr/members/"
           }
         ],
@@ -114747,23 +114772,24 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://nesl.snu.ac.kr/",
-          "https://nesl.snu.ac.kr/members/",
           "https://nesl.snu.ac.kr/journals-2/",
+          "https://nesl.snu.ac.kr/members/",
           "https://aerospace.snu.ac.kr",
-          "https://nesl.snu.ac.kr/member/%ec%a0%95%ec%9e%ac%ec%98%81/",
-          "https://nesl.snu.ac.kr/member/%ec%9c%a0%ec%98%81%eb%af%bc/",
-          "https://nesl.snu.ac.kr/member/%ea%b9%80%ed%98%84%ec%9a%b1/",
-          "https://nesl.snu.ac.kr/member/%ea%b9%80%eb%8c%80%ed%98%84/",
           "https://nesl.snu.ac.kr/member/%ec%9c%a4%ec%9d%b8%eb%8f%84/",
           "https://nesl.snu.ac.kr/member/%eb%b0%95%ec%96%b4%ec%a7%84/",
-          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
-          "https://aerospace.snu.ac.kr/graduate/completion/committee"
+          "https://nesl.snu.ac.kr/member/%ec%b5%9c%eb%b3%91%ed%95%84/",
+          "https://nesl.snu.ac.kr/member/%ec%a0%95%ec%9b%90%ec%98%81/",
+          "https://aerospace.snu.ac.kr/graduate/research-student",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480",
+          "https://aerospace.snu.ac.kr/graduate/completion/committee",
+          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6A99BFB263B384",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:53:04Z",
+        "_saved_at": "2026-09-19T12:03:30Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -117079,118 +117105,18 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-BAC10C6B7E4EF3": {
-      "fingerprint": "ffcd89271d2a2f52e6dc2faa4c607a4f425ff90f0cc0e001ca04dc7865093ade",
-      "checked_at": "2026-09-14T10:52:17Z",
+      "fingerprint": "a0d95ae90decfe5818c4fc07783a13c8e03fc4a8856698334a5c7cf835ceac63",
+      "checked_at": "2026-09-19T11:59:54Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://sites.google.com/view/snu-smrl/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "학위논문제출자격시험",
-            "url": "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
-            "kind": "publication"
-          },
-          {
-            "title": "박사학위 논문지도위원회",
-            "url": "https://aerospace.snu.ac.kr/graduate/completion/committee",
-            "kind": "publication"
-          },
-          {
-            "title": "석박사 학위 논문심사",
-            "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
-            "kind": "publication"
-          },
-          {
-            "title": "학부뉴스, 연구성과",
-            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
-            "kind": "publication"
+            "url": "https://sites.google.com/view/snu-smrl/publications"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연구생등록",
-            "url": "https://aerospace.snu.ac.kr/graduate/research-student",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/undergraduate/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/graduate/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://aerospace.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://sites.google.com/view/snu-smrl/people",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://aerospace.snu.ac.kr/_skin/kor/images/site/top-logo-w-2023.png",
-            "alt": "서울대학교 항공우주공학과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/_skin/kor/images/main/mv-01.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/_skin/kor/images/main/mv-02.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/_skin/kor/images/main/mv-03.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/_skin/kor/images/main/mv-04.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/webdata/homenews/715zd36z7baz8d4zaf3zc60z9f3zb94z4a1z340z45.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/webdata/homenews/2a8z7fezb5az958z08cz943z033zf90z5afzf22zc6.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          },
-          {
-            "url": "https://aerospace.snu.ac.kr/webdata/homenews/f32z253zea1z567z12ez9e9z08fzb8az228zb4fzd6.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://aerospace.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://sites.google.com/view/snu-smrl",
           "https://aerospace.snu.ac.kr",
@@ -117204,9 +117130,84 @@
           "https://sites.google.com/view/snu-smrl/gallery"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-BAC10C6B7E4EF3",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "박형준 교수는 서울대학교 항공우주공학과 우주 모빌리티 및 로보틱스 연구실(SMRL)을 이끌고 있으며, 지구 저궤도 우주쓰레기 문제 해결 및 지속가능한 우주개발을 위한 연구를 수행하고 있습니다. 특히 10cm 이하의 소형 우주쓰레기 탐지, 추적 및 포획 기술과 관련된 도전적인 연구 질문을 통해 미래 우주활동의 질서를 모색하고 있습니다.",
+        "research_topics": [
+          "우주 모빌리티",
+          "우주 로보틱스",
+          "우주쓰레기 포획 및 제거",
+          "지구 저궤도 환경 안전성"
+        ],
+        "recommendation_keywords": [
+          "우주쓰레기",
+          "저궤도",
+          "우주 로보틱스",
+          "우주 모빌리티",
+          "우주쓰레기 포획 및 제거",
+          "지구 저궤도 환경 안전성"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [
+          {
+            "title": "제3회 그랜드퀘스트 프라이즈(Grand Quest Prize) 연구",
+            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
+            "date": "2026-04-02",
+            "organization": "SBS문화재단",
+            "summary": "직경 10cm 이하의 우주쓰레기로 둘러싸인 지구 저궤도를 청소할 수 있을지에 대한 연구 질문을 수행하는 프로젝트입니다."
+          }
+        ],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://sites.google.com/view/snu-smrl/publications"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://sites.google.com/view/snu-smrl/people",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://sites.google.com/view/snu-smrl",
+          "https://sites.google.com/view/snu-smrl/people",
+          "https://sites.google.com/view/snu-smrl/publications",
+          "https://sites.google.com/view/snu-smrl/research",
+          "https://sites.google.com/view/snu-smrl/research/space-missions",
+          "https://sites.google.com/view/snu-smrl/research/rpod",
+          "https://sites.google.com/view/snu-smrl/research/past-projects",
+          "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
+          "https://aerospace.snu.ac.kr",
+          "https://sites.google.com/view/snu-smrl/home",
+          "https://sites.google.com/view/snu-smrl/gallery",
+          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
+          "https://aerospace.snu.ac.kr/graduate/completion/committee"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-BAC10C6B7E4EF3",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-19T12:00:12Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-BAC10C6B7E4EF3"
     },
     "SNU-RU-4BC5DCB67025C9": {
       "fingerprint": "bd7b70492be3b42fcb5b65f8b1ad8d7256bb5136af2e1a6f255b3aceec72239a",
@@ -135878,8 +135879,8 @@
       "_unit_id": "SNU-RU-6E4BF9A559A694"
     },
     "SNU-RU-3B208158A9F3DB": {
-      "fingerprint": "60ecd3d047c1a14aa6015fbb04568df604fb3497118df92cf38fc1ca99119617",
-      "checked_at": "2026-09-14T10:52:28Z",
+      "fingerprint": "cabe82a5954bf6a2526f4c151cc9d19bde3c473c7f0ebdfafc70867df05c11ba",
+      "checked_at": "2026-09-19T12:01:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -135907,41 +135908,60 @@
           "https://helicopter.snu.ac.kr/",
           "https://aerospace.snu.ac.kr",
           "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/about/faculty",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/admission",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
           "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
-          "https://aerospace.snu.ac.kr/graduate/completion/committee"
+          "https://aerospace.snu.ac.kr/graduate/completion/committee",
+          "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login"
         ]
       },
       "enrichment": {
-        "research_summary": "신상준 교수가 이끄는 지능형 공탄성 및 헬리콥터 연구실은 항공우주 분야의 공탄성, 헬리콥터 역학, 그리고 관련 지능형 시스템 연구를 수행하고 있습니다. 주요 연구 분야로는 전기화 항공기용 터보팬 엔진 핵심 기술, 재사용 발사체 그리드 핀의 플러터 안전도 확보를 위한 인공지능 기반 프레임워크 개발, 가속도 응답 기반의 동적 역모델 설계 등이 있습니다.",
+        "research_summary": "신상준 교수가 이끄는 지능형 공탄성 및 헬리콥터 연구실은 항공우주 분야의 공탄성, 헬리콥터 역학, 그리고 관련 전산역학 및 인공지능 기반 프레임워크 개발을 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
           "공탄성 (Aeroelasticity)",
           "헬리콥터 역학 (Rotorcraft Dynamics)",
-          "인공지능 기반 플러터 안전도 해석",
-          "전기화 항공기 추진 시스템",
-          "동적 역모델 설계"
+          "전산역학 (Computational Mechanics)",
+          "인공지능 기반 프레임워크",
+          "전기화 항공기 터보팬 엔진"
         ],
         "recommendation_keywords": [
           "항공우주공학",
           "공탄성",
           "헬리콥터",
-          "인공지능",
-          "발사체",
+          "전산역학",
+          "서울대학교",
           "공탄성 (Aeroelasticity)",
           "헬리콥터 역학 (Rotorcraft Dynamics)",
-          "인공지능 기반 플러터 안전도 해석",
-          "전기화 항공기 추진 시스템",
-          "동적 역모델 설계"
+          "전산역학 (Computational Mechanics)",
+          "인공지능 기반 프레임워크",
+          "전기화 항공기 터보팬 엔진"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
-        "conference_presentations": [],
+        "conference_presentations": [
+          {
+            "title": "International Forum on Aeroelasticity and Structural Dynamics 2026",
+            "url": "https://helicopter.snu.ac.kr/",
+            "date": "2026-06-16~2026-06-18",
+            "venue": "International"
+          },
+          {
+            "title": "The Vertical Flight Society's 82th Annual Forum & Technology Display",
+            "url": "https://helicopter.snu.ac.kr/",
+            "date": "2026-05-05~2026-05-07",
+            "venue": "International"
+          },
+          {
+            "title": "2026 AIAA SciTech Forum",
+            "url": "https://helicopter.snu.ac.kr/",
+            "date": "2026-01-12~2026-01-16",
+            "venue": "International"
+          }
+        ],
         "research_projects": [
           {
             "title": "전기화 항공기용 고바이패스비 터보팬 엔진 핵심기술 개발",
@@ -135966,7 +135986,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 공과대학 항공우주공학과 교수로서 지능형 공탄성 및 헬리콥터 연구실을 운영하며 대학원생 및 연구생을 지도하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "학위논문제출자격시험",
@@ -135981,7 +136001,7 @@
             "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
           }
         ],
-        "recruitment_summary": "지능형 공탄성 및 헬리콥터 연구실은 연구생을 모집하고 있으며, 관련 정보는 학과 홈페이지의 연구생 등록 안내를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 항공우주공학과 대학원 과정 및 연구생 등록에 관한 정보를 제공하며, 학과 홈페이지를 통해 관련 규정 및 모집 안내를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연구생등록",
@@ -136000,24 +136020,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://aerospace.snu.ac.kr/about/faculty",
-          "https://helicopter.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr",
-          "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
           "https://aerospace.snu.ac.kr/graduate/completion/committee",
           "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
-          "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1"
+          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
+          "https://aerospace.snu.ac.kr/graduate/research-student",
+          "https://helicopter.snu.ac.kr/",
+          "https://aerospace.snu.ac.kr",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login",
+          "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3B208158A9F3DB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:52:34Z",
+        "_saved_at": "2026-09-19T12:01:50Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -224381,8 +224401,8 @@
       "_unit_id": "SNU-RU-2F34B6F4D545A5"
     },
     "SNU-RU-D0BD35787DB3CF": {
-      "fingerprint": "aea82a75eb34350bf438b3046487f5a35f2e0907d393bfabc360247d46639364",
-      "checked_at": "2026-09-14T10:52:28Z",
+      "fingerprint": "f50c0533a7176ef9fa3e5eb74099562ee65abb7ea4ffb67adc8ca262248c7b8f",
+      "checked_at": "2026-09-19T12:01:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -224396,6 +224416,10 @@
           {
             "title": "석박사 학위 논문심사",
             "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          },
+          {
+            "title": "학부뉴스, 연구성과",
+            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1"
           }
         ],
         "recruitmentPages": [
@@ -224404,8 +224428,12 @@
             "url": "https://aerospace.snu.ac.kr/graduate/research-student"
           },
           {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/graduate/admission"
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482"
+          },
+          {
+            "title": "한국항공우주연구원 주관 초격차 기업 채용설명회 참가자 모집_(주)렛츠",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480"
           }
         ],
         "membersUrl": "https://aerospace.snu.ac.kr/graduate/research-student",
@@ -224413,27 +224441,20 @@
         "sourcePagesScanned": [
           "https://aerospace.snu.ac.kr",
           "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/about/faculty",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/admission",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
           "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
           "https://aerospace.snu.ac.kr/graduate/completion/committee",
-          "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login",
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
-        "research_summary": "여재익 교수는 서울대학교 공과대학 항공우주공학과 소속으로, 고에너지 응용연구실을 운영하며 관련 분야의 연구를 수행하고 있습니다.",
-        "research_topics": [
-          "고에너지 응용"
-        ],
-        "recommendation_keywords": [
-          "고에너지",
-          "항공우주공학",
-          "여재익",
-          "고에너지 응용"
-        ],
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -224444,7 +224465,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "학위논문제출자격시험",
@@ -224457,17 +224478,25 @@
           {
             "title": "석박사 학위 논문심사",
             "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          },
+          {
+            "title": "학부뉴스, 연구성과",
+            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1"
           }
         ],
-        "recruitment_summary": "서울대학교 항공우주공학과 대학원 입학 및 연구생 등록에 관한 정보는 학과 공식 홈페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 항공우주공학과 홈페이지를 통해 연구생 등록 안내 및 각종 장학 프로그램, 채용 설명회 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연구생등록",
             "url": "https://aerospace.snu.ac.kr/graduate/research-student"
           },
           {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/graduate/admission"
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482"
+          },
+          {
+            "title": "한국항공우주연구원 주관 초격차 기업 채용설명회 참가자 모집_(주)렛츠",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480"
           }
         ],
         "recruitment_source_url": "https://aerospace.snu.ac.kr/graduate/research-student",
@@ -224482,32 +224511,32 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://aerospace.snu.ac.kr/about/faculty",
-          "https://aerospace.snu.ac.kr/graduate/admission",
+          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
           "https://aerospace.snu.ac.kr/graduate/completion/committee",
           "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
-          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
-          "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://aerospace.snu.ac.kr",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
           "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
-          "https://aerospace.snu.ac.kr/board/job-openings"
+          "https://aerospace.snu.ac.kr/graduate/research-student",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480",
+          "https://aerospace.snu.ac.kr",
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login",
+          "https://www.snu.ac.kr/personal_information"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D0BD35787DB3CF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:52:42Z",
+        "_saved_at": "2026-09-19T12:01:55Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D0BD35787DB3CF"
     },
     "SNU-RU-51BC9207ADA73C": {
-      "fingerprint": "aea82a75eb34350bf438b3046487f5a35f2e0907d393bfabc360247d46639364",
-      "checked_at": "2026-09-14T10:52:28Z",
+      "fingerprint": "3a1ab1e6e0086a729265a28cd09215b06187111d6a984d98fa37b39ef25dc728",
+      "checked_at": "2026-09-19T12:01:36Z",
       "activity": {
         "publicationPages": [
           {
@@ -224521,6 +224550,10 @@
           {
             "title": "석박사 학위 논문심사",
             "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          },
+          {
+            "title": "학부뉴스, 연구성과",
+            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1"
           }
         ],
         "recruitmentPages": [
@@ -224529,8 +224562,12 @@
             "url": "https://aerospace.snu.ac.kr/graduate/research-student"
           },
           {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/graduate/admission"
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482"
+          },
+          {
+            "title": "한국항공우주연구원 주관 초격차 기업 채용설명회 참가자 모집_(주)렛츠",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480"
           }
         ],
         "membersUrl": "https://aerospace.snu.ac.kr/graduate/research-student",
@@ -224538,14 +224575,14 @@
         "sourcePagesScanned": [
           "https://aerospace.snu.ac.kr",
           "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/about/faculty",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480",
           "https://aerospace.snu.ac.kr/graduate/completion/committee",
-          "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login",
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
@@ -224575,17 +224612,25 @@
           {
             "title": "석박사 학위 논문심사",
             "url": "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis"
+          },
+          {
+            "title": "학부뉴스, 연구성과",
+            "url": "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1"
           }
         ],
-        "recruitment_summary": "서울대학교 항공우주공학과 대학원 연구생 등록 제도를 운영하고 있으며, 석·박사 과정 수료자가 연구생 신분을 부여받아 학교 시설 이용 및 연구 활동을 지원받을 수 있습니다.",
+        "recruitment_summary": "서울대학교 항공우주공학과 홈페이지를 통해 연구생 등록 안내 및 관련 장학 프로그램, 채용 정보 등을 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연구생등록",
             "url": "https://aerospace.snu.ac.kr/graduate/research-student"
           },
           {
-            "title": "입학",
-            "url": "https://aerospace.snu.ac.kr/graduate/admission"
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482"
+          },
+          {
+            "title": "한국항공우주연구원 주관 초격차 기업 채용설명회 참가자 모집_(주)렛츠",
+            "url": "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480"
           }
         ],
         "recruitment_source_url": "https://aerospace.snu.ac.kr/graduate/research-student",
@@ -224600,24 +224645,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://aerospace.snu.ac.kr/about/faculty",
+          "https://aerospace.snu.ac.kr",
+          "https://aerospace.snu.ac.kr/graduate/research-student",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31482",
+          "https://aerospace.snu.ac.kr/board/notice?bm=v&bbsidx=31480",
           "https://aerospace.snu.ac.kr/graduate/completion/committee",
           "https://aerospace.snu.ac.kr/graduate/completion/examination-thesis",
           "https://aerospace.snu.ac.kr/graduate/completion/qualifying-examination",
-          "https://aerospace.snu.ac.kr/graduate/research-student",
-          "https://aerospace.snu.ac.kr",
-          "https://ipss.snu.ac.kr/",
-          "https://aerospace.snu.ac.kr/about/overview",
-          "https://aerospace.snu.ac.kr/undergraduate/admission",
-          "https://aerospace.snu.ac.kr/graduate/admission",
           "https://aerospace.snu.ac.kr/board/news?bm=v&bbsidx=31192&page=1",
-          "https://aerospace.snu.ac.kr/board/job-openings"
+          "https://aerospace.snu.ac.kr/board/job-openings",
+          "https://aerospace.snu.ac.kr/board/alumni",
+          "https://aerospace.snu.ac.kr/member/login",
+          "https://www.snu.ac.kr/personal_information"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-51BC9207ADA73C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T10:52:52Z",
+        "_saved_at": "2026-09-19T12:01:39Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -243733,11 +243778,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:59:48Z",
-    "checked": 725,
-    "seconds": 8217.97,
+    "at": "2026-09-19T12:03:30Z",
+    "checked": 730,
+    "seconds": 8440.18,
     "gemini": true,
-    "ai_requests": 471,
+    "ai_requests": 476,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
