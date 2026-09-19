@@ -1,5 +1,5 @@
 {
-  "cursor": 145,
+  "cursor": 150,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -11456,8 +11456,8 @@
       "_unit_id": "SNU-RU-711747F94EB88A"
     },
     "SNU-RU-DF279D62A018DF": {
-      "fingerprint": "5b9e93b1cb077a676d2ae22bd6ec8120ad36fb0db7950021324772da0e63e29b",
-      "checked_at": "2026-09-18T11:32:45Z",
+      "fingerprint": "8fbf86c9985b06140582ac3e4abcb7e78f56378af404c7ff293cb80c7f6804ee",
+      "checked_at": "2026-09-19T11:27:01Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -11482,7 +11482,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -11495,9 +11495,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 학부 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -11533,7 +11533,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DF279D62A018DF",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:32:56Z",
+        "_saved_at": "2026-09-19T11:27:35Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -22568,8 +22568,8 @@
       "_unit_id": "SNU-RU-C5FF646B89951F"
     },
     "SNU-RU-151979BDC1F26E": {
-      "fingerprint": "5b9e93b1cb077a676d2ae22bd6ec8120ad36fb0db7950021324772da0e63e29b",
-      "checked_at": "2026-09-18T11:32:46Z",
+      "fingerprint": "8fbf86c9985b06140582ac3e4abcb7e78f56378af404c7ff293cb80c7f6804ee",
+      "checked_at": "2026-09-19T11:27:01Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -22645,7 +22645,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-151979BDC1F26E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:33:11Z",
+        "_saved_at": "2026-09-19T11:27:19Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -26201,8 +26201,8 @@
       "_unit_id": "SNU-RU-706C2D55A0797D"
     },
     "SNU-RU-79672F5FFD0ECA": {
-      "fingerprint": "5b9e93b1cb077a676d2ae22bd6ec8120ad36fb0db7950021324772da0e63e29b",
-      "checked_at": "2026-09-18T11:32:46Z",
+      "fingerprint": "8fbf86c9985b06140582ac3e4abcb7e78f56378af404c7ff293cb80c7f6804ee",
+      "checked_at": "2026-09-19T11:27:01Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -26242,7 +26242,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "Admissions 입학",
@@ -26278,7 +26278,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-79672F5FFD0ECA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:33:19Z",
+        "_saved_at": "2026-09-19T11:27:03Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -40777,11 +40777,16 @@
       "_unit_id": "SNU-RU-192395D2465D96"
     },
     "SNU-RU-6AE09C690B4646": {
-      "fingerprint": "5b9e93b1cb077a676d2ae22bd6ec8120ad36fb0db7950021324772da0e63e29b",
-      "checked_at": "2026-09-18T11:32:45Z",
+      "fingerprint": "8fbf86c9985b06140582ac3e4abcb7e78f56378af404c7ff293cb80c7f6804ee",
+      "checked_at": "2026-09-19T11:27:01Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+          }
+        ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -40813,9 +40818,14 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "재료공학부 입학 관련 정보는 공식 홈페이지의 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+          }
+        ],
+        "recruitment_source_url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
@@ -40827,12 +40837,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
-          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
           "https://mse.snu.ac.kr/materials-faculty-hiring-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
@@ -40844,7 +40854,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6AE09C690B4646",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:32:47Z",
+        "_saved_at": "2026-09-19T11:27:11Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -45276,8 +45286,8 @@
       "_unit_id": "SNU-RU-02400C17DA81D6"
     },
     "SNU-RU-DEB0368710B295": {
-      "fingerprint": "5b9e93b1cb077a676d2ae22bd6ec8120ad36fb0db7950021324772da0e63e29b",
-      "checked_at": "2026-09-18T11:32:45Z",
+      "fingerprint": "8fbf86c9985b06140582ac3e4abcb7e78f56378af404c7ff293cb80c7f6804ee",
+      "checked_at": "2026-09-19T11:27:01Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -45353,7 +45363,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DEB0368710B295",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:33:04Z",
+        "_saved_at": "2026-09-19T11:27:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244780,11 +244790,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T11:26:47Z",
-    "checked": 565,
-    "seconds": 6236.55,
+    "at": "2026-09-19T11:27:35Z",
+    "checked": 570,
+    "seconds": 6284.86,
     "gemini": true,
-    "ai_requests": 329,
+    "ai_requests": 334,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
