@@ -1,5 +1,5 @@
 {
-  "cursor": 1895,
+  "cursor": 1900,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -64244,8 +64244,8 @@
       "_unit_id": "SNU-RU-9EDC488D8185BD"
     },
     "SNU-RU-4E08EA8015E2D9": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-18T10:16:39Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-19T10:09:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -64264,21 +64264,19 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
         "research_summary": "",
-        "research_topics": [
-          "소화기내과"
-        ],
+        "research_topics": [],
         "recommendation_keywords": [
           "소화기내과"
         ],
@@ -64299,7 +64297,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 학교생활에서의 우울, 불안, 대인관계, 적응, 학습, 의사소통 등 여러 가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 도움을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -64321,37 +64319,42 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4E08EA8015E2D9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:17:02Z",
+        "_saved_at": "2026-09-19T10:09:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4E08EA8015E2D9"
     },
     "SNU-RU-AAA216315A46F2": {
-      "fingerprint": "901d01e616149ac5f0981ba4e581ba10481dc0a9da591a13a6456b830dd73f4f",
-      "checked_at": "2026-09-18T10:16:38Z",
+      "fingerprint": "dd3dca609e0c48c74b6ae129c9672bcc929494d6aae09f96d68fee51e4600338",
+      "checked_at": "2026-09-19T10:09:16Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Jeong Soo Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/"
+            "title": "View all 22 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -64368,70 +64371,16 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김정수 교수는 마취통증의학 분야에서 교감신경 차단, 만성 통증 관리, 초음파 유도하 시술 및 척추 수술 후 통증 치료 등을 중점적으로 연구하고 있습니다. 특히 대규모 코호트 연구를 통한 통증 치료의 임상적 결과 분석과 다양한 통증 증후군에 대한 중재적 시술의 효능 평가에 주력하고 있습니다.",
+        "research_summary": "김정수 교수는 마취통증의학 분야에서 연구를 수행하고 있으며, 서울대학교 연구자 정보 시스템을 통해 총 22건의 연구 성과가 확인됩니다.",
         "research_topics": [
-          "Sympathetic Blocking",
-          "Liver Transplantation",
-          "Upper Limb",
-          "Chronic Pain",
-          "Postoperative Delirium",
-          "Injection",
-          "Delirium",
-          "Analgesia"
+          "마취통증의학"
         ],
         "recommendation_keywords": [
-          "마취통증의학",
-          "교감신경차단",
-          "만성통증",
-          "초음파유도술",
-          "척추수술",
-          "Sympathetic Blocking",
-          "Liver Transplantation",
-          "Upper Limb",
-          "Chronic Pain",
-          "Postoperative Delirium",
-          "Injection",
-          "Delirium",
-          "Analgesia"
+          "마취통증의학"
         ],
-        "recent_papers": [
-          {
-            "title": "Prevalence and Risk Factors of Deep Spinal Infection after Single-shot Epidural Injections: A Nationwide Cohort Study of 3.8 Million Pain Outpatients",
-            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/",
-            "year": "2026",
-            "venue": "Anesthesiology",
-            "summary": "380만 명의 통증 외래 환자를 대상으로 단일 경막외 주사 후 발생하는 심부 척추 감염의 유병률과 위험 요인을 분석한 전국 단위 코호트 연구입니다."
-          },
-          {
-            "title": "Clinical implication of regional osteopenia in complex regional pain syndrome: a retrospective comparative study",
-            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/",
-            "year": "2026",
-            "venue": "Regional Anesthesia and Pain Medicine",
-            "summary": "복합부위통증증후군(CRPS) 환자에서 나타나는 국소 골감소증의 임상적 의미를 평가한 후향적 비교 연구입니다."
-          },
-          {
-            "title": "Ultrasound-Guided Atelocollagen Injection for Chronic Pain After Spinal Surgery: A Retrospective Cohort Study",
-            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/",
-            "year": "2026",
-            "venue": "Journal of Pain Research",
-            "summary": "척추 수술 후 발생하는 만성 통증에 대해 초음파 유도하 아텔로콜라겐 주사 치료의 효과를 분석한 후향적 코호트 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 3,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Anesthesiology",
-            "count": 1
-          },
-          {
-            "venue": "Regional Anesthesia and Pain Medicine",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Pain Research",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -64442,13 +64391,18 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Jeong Soo Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/"
+            "title": "View all 22 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/",
@@ -64462,31 +64416,30 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/",
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/jeong-soo-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AAA216315A46F2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:14:40Z",
+        "_saved_at": "2026-09-19T10:09:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AAA216315A46F2"
     },
     "SNU-RU-7B71B8DF756296": {
-      "fingerprint": "0072ceed5472b4217a0df191345c64dcadd59e34144fc8b93fe1e975dd0b5cb8",
-      "checked_at": "2026-09-18T10:16:37Z",
+      "fingerprint": "bdfa5edbf7abbf536e99cdddf59a8629badfc27bf7940354aa5b52a3b19ff0e6",
+      "checked_at": "2026-09-19T10:08:58Z",
       "activity": {
         "publicationPages": [
           {
@@ -64494,7 +64447,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -64504,14 +64462,14 @@
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김정민 교수는 뇌졸중(뇌경색, 뇌출혈) 및 뇌혈관질환을 전문으로 연구하며, 해당 분야에서 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김정민 교수는 뇌졸중(뇌경색, 뇌출혈) 및 뇌혈관질환을 전문으로 연구하며, 관련 분야에서 139건 이상의 연구 성과를 발표하였습니다.",
         "research_topics": [
           "뇌졸중",
           "뇌경색",
@@ -64541,9 +64499,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지에서 별도의 학생 모집 정보를 제공하고 있지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 확인되지 않으며, 연건학생지원센터를 통해 학생 지원 프로그램을 안내하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/",
@@ -64557,22 +64520,22 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/jeong-min-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7B71B8DF756296",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:16:46Z",
+        "_saved_at": "2026-09-19T10:09:06Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -65070,21 +65033,16 @@
       "_unit_id": "SNU-RU-3FAABB428C1CF9"
     },
     "SNU-RU-0B4326AAFF8E20": {
-      "fingerprint": "5a80ab76b24c7194d50025515863db87abc1c3639e1e169596fd0a29ed1bb090",
-      "checked_at": "2026-09-18T10:16:39Z",
+      "fingerprint": "453b3a95edef8ab8750e50bfc5e4a371883b9ab8f2f0b679d716e908bf560db6",
+      "checked_at": "2026-09-19T10:08:56Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 289 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/"
+            "title": "Jeong Eun Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -65093,29 +65051,77 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-115/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-115/#main-search",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "김정은 교수는 신경외과학교실 소속으로 뇌혈관질환 분야를 전문으로 연구하며, 뇌동맥류, 뇌졸중 등 뇌혈관 관련 질환의 진단 및 치료법에 관한 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김정은 교수는 뇌혈관질환, 특히 뇌동맥류(Intracranial Aneurysm)와 모야모야병(Moyamoya Disease)을 전문으로 연구하며, 혈관 재개통술, 우회 수술 및 관련 혈역학적 변화에 대한 임상 연구를 수행하고 있습니다.",
         "research_topics": [
-          "뇌혈관질환",
           "뇌동맥류",
-          "뇌졸중"
+          "모야모야병",
+          "뇌혈관 재개통술",
+          "뇌혈관 우회 수술",
+          "뇌혈류역학"
         ],
         "recommendation_keywords": [
           "뇌혈관질환",
-          "신경외과",
           "뇌동맥류",
-          "뇌졸중"
+          "모야모야병",
+          "신경외과",
+          "뇌혈관 재개통술",
+          "뇌혈관 우회 수술",
+          "뇌혈류역학"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Usefulness of Three-Dimensional-Printed Models in Clipping Intracranial Aneurysms via Keyhole Approaches: A Randomized Controlled Study",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/",
+            "year": "2026",
+            "venue": "3D Printing and Additive Manufacturing",
+            "summary": ""
+          },
+          {
+            "title": "Timing for the Resumption of Anticoagulants after Intracranial Hemorrhage",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/",
+            "year": "2026",
+            "venue": "Journal of Korean Neurosurgical Society",
+            "summary": ""
+          },
+          {
+            "title": "Whole-Exome Sequencing Improves Risk Assessments of Adult Moyamoya Disease",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/",
+            "year": "2026",
+            "venue": "Journal of Clinical Neurology (Korea)",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 5,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "3D Printing and Additive Manufacturing",
+            "count": 1
+          },
+          {
+            "venue": "Journal of Korean Neurosurgical Society",
+            "count": 1
+          },
+          {
+            "venue": "Journal of Clinical Neurology (Korea)",
+            "count": 1
+          },
+          {
+            "venue": "Journal of Neurosurgical Anesthesiology",
+            "count": 1
+          },
+          {
+            "venue": "Neurosurgery",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -65126,18 +65132,13 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 289 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/"
+            "title": "Jeong Eun Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-115/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 특정 연구실 모집 공고는 없습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/",
@@ -65147,26 +65148,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959730/203_Kim_+Jeong+Eun.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-115/#main-search",
-        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image from SNU Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-115/",
           "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-115/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-115/#main-search",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/persons/y-kim-115/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0B4326AAFF8E20",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:16:55Z",
+        "_saved_at": "2026-09-19T10:09:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -65687,12 +65688,12 @@
       "_unit_id": "SNU-RU-6B796FD0656CD6"
     },
     "SNU-RU-BBE9ADBC2430D7": {
-      "fingerprint": "e2fa491607f9c6eae1b6875ea47b60fee0228c27a7882bff6f156eb02de55fb7",
-      "checked_at": "2026-09-18T10:16:35Z",
+      "fingerprint": "022cc95b111221888c863ef21126e58d86afd18aa86c2914e63faccb3e27ee2a",
+      "checked_at": "2026-09-19T10:09:17Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Jeong Whun Kim - Research output",
+            "title": "View all 198 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-146/publications/"
           }
         ],
@@ -65706,61 +65707,29 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-146/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-146/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김정훈 교수는 서울대학교 의과대학 이비인후과학교실 소속으로, 주로 폐쇄성 수면 무호흡증(Obstructive Sleep Apnea), 수면 장애 호흡, 비염 및 만성 부비동염과 관련된 연구를 수행하고 있습니다. 특히 수면 다원 검사, 수면 단계 예측, 수면의 질 향상 및 이비인후과적 수술 후 결과 분석 등 수면 의학 및 비과학 분야에서 활발한 연구 활동을 이어가고 있습니다.",
+        "research_summary": "김정훈 교수는 이비인후과, 특히 비과학 분야를 전문으로 하며, 비염, 부비동염 및 관련 질환에 대한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Obstructive Sleep Apnea",
-          "Sleep Disordered Breathing",
-          "Apnea",
-          "Hypopnea",
-          "Allergic Rhinitis",
-          "Chronic Rhinosinusitis",
-          "Polysomnography"
+          "비과학",
+          "이비인후과",
+          "비염",
+          "부비동염"
         ],
         "recommendation_keywords": [
-          "수면무호흡증",
-          "이비인후과",
-          "수면다원검사",
           "비과학",
-          "만성부비동염",
-          "Obstructive Sleep Apnea",
-          "Sleep Disordered Breathing",
-          "Apnea",
-          "Hypopnea",
-          "Allergic Rhinitis",
-          "Chronic Rhinosinusitis",
-          "Polysomnography"
+          "이비인후과",
+          "김정훈",
+          "비염",
+          "부비동염"
         ],
-        "recent_papers": [
-          {
-            "title": "Changes in Prescription Patterns and Diagnostic Outcomes of Polysomnography After Insurance Coverage: A Multicenter Retrospective Study",
-            "url": "https://snu.elsevierpure.com/en/publications/changes-in-prescription-patterns-and-diagnostic-outcomes-of-polys/",
-            "year": "2025",
-            "venue": "Journal of Rhinology",
-            "summary": "보험 급여화 이후 수면다원검사의 처방 패턴과 진단 결과의 변화를 다기관 후향적 연구를 통해 분석하였습니다."
-          },
-          {
-            "title": "Comparative analysis of cardiac autonomic dysfunction between apnea-predominant and hypopnea-predominant obstructive sleep apnea: a study matched for age, sex, and apnea-hypopnea index",
-            "url": "https://snu.elsevierpure.com/en/publications/comparative-analysis-of-cardiac-autonomic-dysfunction-between-apn/",
-            "year": "2025",
-            "venue": "Sleep and Breathing",
-            "summary": "연령, 성별, 무호흡-저호흡 지수를 매칭하여 무호흡 우세형과 저호흡 우세형 폐쇄성 수면 무호흡증 환자 간의 심장 자율신경 기능 장애를 비교 분석하였습니다."
-          },
-          {
-            "title": "Polysomnographic Evidence of Enhanced Sleep Quality with Adaptive Thermal Regulation",
-            "url": "https://snu.elsevierpure.com/en/publications/polysomnographic-evidence-of-enhanced-sleep-quality-with-adaptive/",
-            "year": "2025",
-            "venue": "Healthcare (Switzerland)",
-            "summary": "적응형 온도 조절이 수면의 질 향상에 미치는 영향을 수면다원검사를 통해 입증하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 7,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -65772,11 +65741,11 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Jeong Whun Kim - Research output",
+            "title": "View all 198 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-146/publications/"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "제공된 공식 URL에서 학생 모집에 관한 구체적인 정보는 확인되지 않았습니다.",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
@@ -65788,7 +65757,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959752/209_Kim_+Jeong+Whun.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-146/#main-content",
-        "poster_evidence": "Official profile page image",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-146/",
           "https://snu.elsevierpure.com/en/persons/y-kim-146/publications/",
@@ -65797,17 +65766,17 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-146/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-146/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-146/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BBE9ADBC2430D7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:16:43Z",
+        "_saved_at": "2026-09-19T10:09:26Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -247785,11 +247754,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-19T10:08:23Z",
-    "checked": 145,
-    "seconds": 1532.64,
+    "at": "2026-09-19T10:09:34Z",
+    "checked": 150,
+    "seconds": 1603.74,
     "gemini": true,
-    "ai_requests": 89,
+    "ai_requests": 94,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
