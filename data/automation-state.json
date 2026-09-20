@@ -1,5 +1,5 @@
 {
-  "cursor": 1825,
+  "cursor": 1830,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -43111,7 +43111,7 @@
     },
     "SNU-RU-14BE378FF636A0": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T09:57:21Z",
+      "checked_at": "2026-09-20T07:17:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -43301,8 +43301,8 @@
       "_unit_id": "SNU-RU-FBE5412CFBDEF2"
     },
     "SNU-RU-6A540070E9E955": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T09:57:20Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:17:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -43316,32 +43316,28 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/bhumsuk-keam",
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": "김범석 교수는 서울대학교 의과대학 내과학교실 소속으로, 혈액종양내과 분야에서 암 치료 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
-          "혈액종양내과",
-          "암 치료"
+          "혈액종양내과"
         ],
         "recommendation_keywords": [
-          "혈액종양내과",
-          "내과학교실",
-          "서울대학교병원",
-          "암 치료"
+          "혈액종양내과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -43360,7 +43356,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 학생 지원 서비스를 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -43370,7 +43366,7 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/bhumsuk-keam",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -43379,25 +43375,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snu.elsevierpure.com/en/persons/bhumsuk-keam",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6A540070E9E955",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:57:44Z",
+        "_saved_at": "2026-09-20T07:17:39Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -43638,8 +43633,8 @@
       "_unit_id": "SNU-RU-14010A9A7382FE"
     },
     "SNU-RU-3944C6BDC9DCA3": {
-      "fingerprint": "dacb231d313281462ae211dd62bb28bd25df2639c90b31a85a244d7ae4ec2b01",
-      "checked_at": "2026-09-19T09:57:15Z",
+      "fingerprint": "406a19a1ee6dee4395cbfda8e130efa757b31d4382744b803eb834a3656a18ec",
+      "checked_at": "2026-09-20T07:17:19Z",
       "activity": {
         "publicationPages": [
           {
@@ -43680,7 +43675,7 @@
           "소화기 질환"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": 111,
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -43696,7 +43691,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-14/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -43713,7 +43708,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959338/115_Kim_+Byeong+Gwan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-14/#main-content",
-        "poster_evidence": "Official profile image verified via SNU Elsevier Pure profile.",
+        "poster_evidence": "Official profile image of Byeong Gwan Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-14/",
           "http://yss.snu.ac.kr/",
@@ -43732,15 +43727,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3944C6BDC9DCA3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:57:17Z",
+        "_saved_at": "2026-09-20T07:17:23Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-3944C6BDC9DCA3"
     },
     "SNU-RU-CDDB13EC469B11": {
-      "fingerprint": "8439d82c434c9e6c86e86e0e32f3f294c6bd6eaf1082f77e68c5e512dfa85c9e",
-      "checked_at": "2026-09-19T09:57:18Z",
+      "fingerprint": "8b914e10f51efce3b0a705171a81070c7997b26913252be332573003fd7a9104",
+      "checked_at": "2026-09-20T07:17:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -43754,7 +43749,7 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-7/",
@@ -43770,14 +43765,16 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김범준 교수는 서울대학교 의과대학 신경과학교실 소속으로, 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 뇌졸중 환자의 예후 개선과 치료 전략 수립에 기여하고 있습니다.",
         "research_topics": [
           "뇌혈관질환",
-          "곁순환"
+          "곁순환",
+          "뇌졸중"
         ],
         "recommendation_keywords": [
           "뇌혈관질환",
-          "곁순환"
+          "곁순환",
+          "뇌졸중"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -43796,7 +43793,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -43806,17 +43803,16 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
         "poster_status": "verified",
         "poster_title": "Beom Joon Kim",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959330/113_Kim_+Beom+Joon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
+        "poster_evidence": "Official profile page of Beom Joon Kim at SNU Elsevier Pure.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-7/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
@@ -43826,13 +43822,14 @@
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
+          "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CDDB13EC469B11",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:57:34Z",
+        "_saved_at": "2026-09-20T07:17:30Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -43964,7 +43961,7 @@
     },
     "SNU-RU-D20ADC2F34B26E": {
       "fingerprint": "2c904d6d05fad6410f63d560520eb06ad293a33e09887702d47f729bf1853254",
-      "checked_at": "2026-09-19T09:57:15Z",
+      "checked_at": "2026-09-20T07:17:19Z",
       "activity": {
         "publicationPages": [
           {
@@ -244092,11 +244089,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T07:16:40Z",
-    "checked": 75,
-    "seconds": 1024.06,
+    "at": "2026-09-20T07:17:39Z",
+    "checked": 80,
+    "seconds": 1083.09,
     "gemini": true,
-    "ai_requests": 49,
+    "ai_requests": 52,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
