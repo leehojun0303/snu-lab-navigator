@@ -1,5 +1,5 @@
 {
-  "cursor": 1790,
+  "cursor": 1795,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -31681,8 +31681,8 @@
       "_unit_id": "SNU-RU-FD0161A264E71E"
     },
     "SNU-RU-C4A6F673B37D47": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T09:51:04Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-20T07:08:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -31696,30 +31696,31 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "http://yss.snu.ac.kr/",
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "김건영 교수는 영상의학교실 소속으로, 분당서울대학교병원에서 영상의학 및 인터벤션 분야의 임상부교수로 재직 중입니다.",
         "research_topics": [
           "영상의학",
           "인터벤션"
         ],
         "recommendation_keywords": [
           "영상의학",
-          "인터벤션"
+          "인터벤션",
+          "분당서울대학교병원"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -31731,14 +31732,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 의과대학 영상의학교실 임상부교수로 재직 중입니다.",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": null,
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -31748,7 +31749,7 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -31757,24 +31758,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/en/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "http://yss.snu.ac.kr/index.php",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C4A6F673B37D47",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:51:23Z",
+        "_saved_at": "2026-09-20T07:08:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -32561,26 +32562,17 @@
       "_unit_id": "SNU-RU-CF2F5C6A607040"
     },
     "SNU-RU-2A839466222A00": {
-      "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
-      "checked_at": "2026-09-19T09:51:04Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:08:16Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
-        "membersUrl": "http://yss.snu.ac.kr/",
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -32591,12 +32583,12 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "방사선종양학을 전공하며 소화기암, 부인암, 육종, 피부암 분야의 임상 연구 및 치료를 수행하고 있습니다.",
         "research_topics": [
           "소화기암",
           "부인암",
@@ -32604,6 +32596,7 @@
           "피부암"
         ],
         "recommendation_keywords": [
+          "방사선종양학",
           "소화기암",
           "부인암",
           "육종",
@@ -32619,28 +32612,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 방사선종양학교실 임상조교수로 재직 중입니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -32650,9 +32634,6 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://yss.snu.ac.kr/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
@@ -32660,13 +32641,16 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/"
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2A839466222A00",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:51:15Z",
+        "_saved_at": "2026-09-20T07:08:31Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -32929,12 +32913,12 @@
       "_unit_id": "SNU-RU-9E7DF30E0A32C8"
     },
     "SNU-RU-92D95498437C1B": {
-      "fingerprint": "c28668c82159d8b6aec860068d0df7635b9c1fa372d4bc9aab948a25d7f6f8b8",
-      "checked_at": "2026-09-19T09:50:57Z",
+      "fingerprint": "91e3e92c85428a9ccca174924e6537d88e6e9d7e31ea16f004e31d73c290c647",
+      "checked_at": "2026-09-20T07:08:01Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Kyung Hwan Kim - Seoul National University",
+            "title": "View all 159 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/"
           }
         ],
@@ -32953,69 +32937,34 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김경환 교수는 심장혈관흉부외과 분야의 전문가로, 특히 삼첨판 폐쇄부전, 대동맥판막 치환술, 재수술, 심방세동 및 심장 판막 수술과 관련된 연구를 활발히 수행하고 있습니다. 최신 연구는 대동맥판막 치환술의 적응증 확대, 경피적 대동맥판막 삽입술(TAVI)과 외과적 대동맥판막 치환술(SAVR)의 비교, 심방세동 절제술의 장기적 결과 등을 다루고 있습니다.",
+        "research_summary": "김경환 교수는 심장혈관흉부외과 분야에서 심장 판막 질환, 대동맥 질환, 심부전 및 심장 이식 등을 전문으로 연구하며, 관련 분야의 수술적 치료와 임상 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Tricuspid Insufficiency",
-          "Aortic Valve Replacement",
-          "Reoperation",
-          "Tricuspid Valve Replacement",
-          "Atrial Fibrillation",
-          "Tricuspid Valve",
-          "Cardiopulmonary Bypass",
-          "Aortic Valve"
+          "심장 판막 질환",
+          "대동맥 질환",
+          "심부전",
+          "심장 이식",
+          "흉부외과학"
         ],
         "recommendation_keywords": [
-          "흉부외과학",
           "심장혈관흉부외과",
-          "심장 판막 수술",
-          "대동맥판막 치환술",
-          "심방세동",
-          "Tricuspid Insufficiency",
-          "Aortic Valve Replacement",
-          "Reoperation",
-          "Tricuspid Valve Replacement",
-          "Atrial Fibrillation",
-          "Tricuspid Valve",
-          "Cardiopulmonary Bypass",
-          "Aortic Valve"
+          "심장 수술",
+          "대동맥 수술",
+          "심장 이식",
+          "심장 판막 질환",
+          "대동맥 질환",
+          "심부전",
+          "흉부외과학"
         ],
-        "recent_papers": [
-          {
-            "title": "Pathology-Independent Expansion of Indications for Rapid-Deployment Aortic Valve Replacement: Midterm Outcomes",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-182/",
-            "year": "2026",
-            "venue": "Thoracic and Cardiovascular Surgeon",
-            "summary": "신속 배치 대동맥판막 치환술의 적응증을 병리학적 요인과 관계없이 확대한 경우의 중기 성적을 분석하였습니다."
-          },
-          {
-            "title": "National Midterm Outcomes of Transcatheter Aortic Valve Implantation vs Surgical Aortic Valve Replacement",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-182/",
-            "year": "2025",
-            "venue": "Annals of Thoracic Surgery Short Reports",
-            "summary": "경피적 대동맥판막 삽입술(TAVI)과 외과적 대동맥판막 치환술(SAVR)의 국가적 차원에서의 중기 성적을 비교 연구하였습니다."
-          },
-          {
-            "title": "Concomitant Ablation of Atrial Fibrillation in Redo Heart Valve Surgery",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-182/",
-            "year": "2025",
-            "venue": "Journal of Chest Surgery",
-            "summary": "심장 판막 재수술 시 동반되는 심방세동에 대한 절제술의 결과를 분석하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 1,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Thoracic and Cardiovascular Surgeon",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -33023,14 +32972,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 심장혈관흉부외과학교실 교수로서 흉부외과학 분야의 교육 및 연구를 담당하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 심장혈관흉부외과학교실에서 흉부외과학 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Kyung Hwan Kim - Seoul National University",
+            "title": "View all 159 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -33047,48 +32996,43 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13961932/70_Kim_+Kyung+Hwan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image of Kyung Hwan Kim found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-182/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-92D95498437C1B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T09:58:09Z",
+        "_saved_at": "2026-09-20T07:08:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-92D95498437C1B"
     },
     "SNU-RU-A6BE0C53330FDD": {
-      "fingerprint": "16f6f2d0eba6ab570a2bf75d41ab3ca2713efd90341fd5339317850117f2233a",
-      "checked_at": "2026-09-19T09:50:57Z",
+      "fingerprint": "982a92075cda18351234b9227faeb03b7b440fcd74e59abb3fff6dad32429d67",
+      "checked_at": "2026-09-20T07:08:11Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 58 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/"
+            "title": "Kyunghoon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/",
+        "recruitmentPages": [],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
@@ -33104,20 +33048,58 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김경훈 교수는 소아호흡기 및 알레르기학 분야를 전문으로 하며, 관련 질환의 병태생리 및 임상적 연구를 수행하고 있습니다.",
+        "research_summary": "김경훈 교수는 소아호흡기 및 알레르기학 분야를 중심으로 연구하며, 특히 인공지능(딥러닝)을 활용한 소아 질환 진단, 메타 분석, 코호트 연구 등을 수행하고 있습니다. 최근에는 전자건강기록(EHR) 기반의 약물 부작용 예측, 소아 천명 분류를 위한 트랜스포머 모델 개발, 중환자실 소아 환자의 예후 분석 등 디지털 헬스케어와 임상 데이터를 결합한 연구에 집중하고 있습니다.",
         "research_topics": [
-          "소아호흡기학",
-          "소아알레르기학"
+          "COVID-19",
+          "Meta-Analysis",
+          "Cohort Analysis",
+          "Wheeze",
+          "Pediatrics Patient",
+          "Asthma",
+          "Infection Immunology and Microbiology",
+          "Adverse Drug Reaction",
+          "Artificial Intelligence"
         ],
         "recommendation_keywords": [
           "소아호흡기",
-          "소아알레르기",
-          "소아과학",
-          "소아호흡기학",
-          "소아알레르기학"
+          "알레르기학",
+          "디지털 헬스케어",
+          "인공지능",
+          "임상 데이터 분석",
+          "COVID-19",
+          "Meta-Analysis",
+          "Cohort Analysis",
+          "Wheeze",
+          "Pediatrics Patient",
+          "Asthma",
+          "Infection Immunology and Microbiology",
+          "Adverse Drug Reaction",
+          "Artificial Intelligence"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "Prediction of antibiotic-associated cutaneous adverse drug reactions using electronic health record foundation models",
+            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
+            "year": "2026",
+            "venue": "npj Digital Medicine",
+            "summary": "전자건강기록(EHR) 기반의 파운데이션 모델을 활용하여 항생제 관련 피부 약물 부작용을 예측하는 연구입니다."
+          },
+          {
+            "title": "Video Versus Direct Laryngoscope for Pediatric Intubation During Cardiopulmonary Resuscitation: A Systematic Review and Meta-analysis of Simulation-based Trials",
+            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
+            "year": "2026",
+            "venue": "Pediatric emergency care",
+            "summary": "심폐소생술 중 소아 삽관을 위한 비디오 후두경과 직접 후두경의 효과를 비교한 시뮬레이션 기반 연구들의 체계적 문헌고찰 및 메타 분석입니다."
+          },
+          {
+            "title": "Risk Stratification of Long-Term Mortality in Infants with Congenital Diaphragmatic Hernia Using the National Health Insurance Service (NHIS) Data",
+            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
+            "year": "2026",
+            "venue": "Children",
+            "summary": "국민건강보험공단 데이터를 활용하여 선천성 횡격막 탈장 영아의 장기 사망률에 대한 위험도를 계층화한 연구입니다."
+          }
+        ],
+        "recent_year_paper_count": 3,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -33129,21 +33111,16 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 58 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/"
+            "title": "Kyunghoon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지에서 특정 연구실의 학생 모집 정보는 확인되지 않습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -33153,23 +33130,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/",
-          "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/",
           "https://snu.elsevierpure.com/en/persons/kyunghoon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A6BE0C53330FDD",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:51:01Z",
+        "_saved_at": "2026-09-20T07:08:23Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -33177,7 +33154,7 @@
     },
     "SNU-RU-1193D8B6F03E37": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T09:51:02Z",
+      "checked_at": "2026-09-20T07:08:22Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -243732,11 +243709,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T07:07:33Z",
-    "checked": 40,
-    "seconds": 477.03,
+    "at": "2026-09-20T07:08:31Z",
+    "checked": 45,
+    "seconds": 534.25,
     "gemini": true,
-    "ai_requests": 24,
+    "ai_requests": 28,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
