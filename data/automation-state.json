@@ -1,5 +1,5 @@
 {
-  "cursor": 1835,
+  "cursor": 1840,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -45894,8 +45894,8 @@
       "_unit_id": "SNU-RU-97167131A91454"
     },
     "SNU-RU-90D6B71205394F": {
-      "fingerprint": "c363941606057f3e8cdbdb420c3b28dff8bac2ee4cd93003f2704d2d7f1faa5b",
-      "checked_at": "2026-09-19T09:58:54Z",
+      "fingerprint": "353cc4af5ac94c7d92e292bca416887a83ad0d823f356693a52387b793628496",
+      "checked_at": "2026-09-20T07:19:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -45903,12 +45903,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -45925,22 +45920,74 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김상완 교수는 내분비대사학 분야를 연구하며, 특히 골대사, 부갑상선 질환, 부신 질환과 관련된 임상 및 기초 연구를 수행하고 있습니다.",
+        "research_summary": "김상완 교수는 내분비대사 및 골대사 분야를 전문으로 하며, 특히 골밀도, 골다공증, 부갑상선 및 부신 질환에 관한 연구를 수행하고 있습니다. 최근 연구는 골다공증 치료를 위한 분자 표적 발굴, 딥러닝을 활용한 척추 골절 예측, 그리고 부신 질환 진단을 위한 스테로이드 프로파일링 등에 집중되어 있습니다.",
         "research_topics": [
-          "내분비대사",
-          "골대사",
-          "부갑상선질환",
-          "부신질환"
+          "Bone Density",
+          "Osteoblast",
+          "Cancellous Bone",
+          "Postmenopause",
+          "Primary Hyperparathyroidism",
+          "Primary Hyperaldosteronism",
+          "Lumbar Spine",
+          "Bone Mass"
         ],
         "recommendation_keywords": [
           "내분비대사",
           "골대사",
           "부갑상선질환",
-          "부신질환"
+          "부신질환",
+          "골다공증",
+          "Bone Density",
+          "Osteoblast",
+          "Cancellous Bone",
+          "Postmenopause",
+          "Primary Hyperparathyroidism",
+          "Primary Hyperaldosteronism",
+          "Lumbar Spine",
+          "Bone Mass"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Spatially resolved osteoblast-traced transcriptomics uncovers TGF-β as a combination target with sclerostin in osteoporosis",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-19/",
+            "year": "2026",
+            "venue": "Bone Research",
+            "summary": "골아세포 전사체 분석을 통해 골다공증 치료를 위한 TGF-β와 스클레로스틴의 병용 표적 가능성을 제시하였습니다."
+          },
+          {
+            "title": "Enhancing vertebral fracture prediction using multitask deep learning computed tomography imaging of bone and muscle",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-19/",
+            "year": "2026",
+            "venue": "European Radiology",
+            "summary": "컴퓨터 단층 촬영(CT) 영상에서 뼈와 근육의 다중 작업 딥러닝을 활용하여 척추 골절 예측 정확도를 향상시켰습니다."
+          },
+          {
+            "title": "Clinical Utility of Salivary Steroid Profiling for the Differential Diagnosis of Adrenal Diseases",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-19/",
+            "year": "2026",
+            "venue": "Journal of Clinical Endocrinology and Metabolism",
+            "summary": "부신 질환의 감별 진단을 위해 타액 스테로이드 프로파일링의 임상적 유용성을 평가하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 5,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Bone Research",
+            "count": 1
+          },
+          {
+            "venue": "European Radiology",
+            "count": 1
+          },
+          {
+            "venue": "Journal of Clinical Endocrinology and Metabolism",
+            "count": 1
+          },
+          {
+            "venue": "Osteoporosis International",
+            "count": 2
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -45955,14 +46002,9 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/",
@@ -45972,26 +46014,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959366/121_Kim_+Sangwan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-19/#main-content",
-        "poster_evidence": "Official profile image of Sang Wan Kim found on the SNU Elsevier Pure research profile page.",
+        "poster_evidence": "Official profile image from SNU Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-19/",
           "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-19/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-19/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-19/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-kim-19/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-90D6B71205394F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:06:11Z",
+        "_saved_at": "2026-09-20T07:19:42Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -46229,28 +46271,38 @@
       "_unit_id": "SNU-RU-AB91CE63ABB553"
     },
     "SNU-RU-89B93CCF0C03A3": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T09:58:59Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:19:31Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/sangyun-kim",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "김상윤 교수는 서울대학교 의과대학 신경과학교실 소속으로, 노인신경학 및 알츠하이머병 분야를 전문으로 연구하고 있습니다.",
         "research_topics": [
           "노인신경학",
           "알츠하이머병"
@@ -46269,14 +46321,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "서울대학교 의과대학 신경과학교실 교수로서 노인신경학 및 알츠하이머병 분야의 교육 및 연구를 담당하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들의 학교생활 적응, 심리 검사 및 상담 프로그램을 지원하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/sangyun-kim",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -46285,33 +46347,33 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/sangyun-kim",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-89B93CCF0C03A3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:05:17Z",
+        "_saved_at": "2026-09-20T07:20:01Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-89B93CCF0C03A3"
     },
     "SNU-RU-D10B6D9B5792D6": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T09:58:59Z",
+      "checked_at": "2026-09-20T07:19:31Z",
       "activity": {
         "publicationPages": [
           {
@@ -46668,8 +46730,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-63A79D7F587312": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T09:58:59Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:19:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -46683,19 +46745,19 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/sang-hyun-kim",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -46706,7 +46768,8 @@
         "recommendation_keywords": [
           "순환기내과",
           "내과학교실",
-          "서울대학교병원"
+          "서울대학교 의과대학",
+          "보라매병원"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -46718,14 +46781,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 내과학교실 교수로서 순환기내과 전공 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 학생 지원 서비스를 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -46735,7 +46798,7 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/sang-hyun-kim",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -46744,16 +46807,16 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
@@ -46761,7 +46824,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-63A79D7F587312",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:06:22Z",
+        "_saved_at": "2026-09-20T07:19:47Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -46883,16 +46946,21 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-A24BE6BF6EC4A7": {
-      "fingerprint": "82bcaa0ab856c19ed53bedbd7999926ddbc20004a62c7c7fe09034f360a2a4a3",
-      "checked_at": "2026-09-19T09:58:53Z",
+      "fingerprint": "f608035404918160ca561cabca18b259dcbabf405faeef3f0c84869078267f17",
+      "checked_at": "2026-09-20T07:19:26Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Sang Wha Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/"
+            "title": "View all 121 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -46902,58 +46970,23 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김상화 교수는 성형외과학 분야, 특히 천공지 피판(Perforator Flap), 유리 조직 이식(Free Tissue Graft), 상처 치유(Wound Healing) 및 관련 재건 성형외과 연구를 수행하고 있습니다.",
+        "research_summary": "김상화 교수는 성형외과학 분야에서 다양한 연구를 수행하고 있으며, 특히 학술지 논문, 서적 챕터, 논평 및 서신 등 총 121건의 연구 성과를 발표하였습니다.",
         "research_topics": [
-          "Perforator Flap",
-          "Free Tissue Graft",
-          "Donor Site",
-          "Thoracodorsal Artery Perforator Flap",
-          "Latissimus Dorsi Flap",
-          "Wound Healing"
+          "일반성형외과학"
         ],
         "recommendation_keywords": [
-          "성형외과",
-          "재건성형",
-          "천공지피판",
-          "상처치유",
-          "Perforator Flap",
-          "Free Tissue Graft",
-          "Donor Site",
-          "Thoracodorsal Artery Perforator Flap",
-          "Latissimus Dorsi Flap",
-          "Wound Healing"
+          "성형외과학",
+          "일반성형외과학"
         ],
-        "recent_papers": [
-          {
-            "title": "Diabetic foot ulcer-related amputation is associated with twofold increased risk of cardiovascular disease: A Korean National Health Information Database Study",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/",
-            "year": "2026",
-            "venue": "Journal of Diabetes Investigation",
-            "summary": "당뇨병성 족부 궤양 관련 절단이 심혈관 질환 위험을 두 배 증가시킨다는 것을 한국인 건강보험 데이터베이스 연구를 통해 확인하였습니다."
-          },
-          {
-            "title": "Controlled delivery of HIF-1α via extracellular vesicles with collagen-binding activity for enhanced wound healing",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/",
-            "year": "2025",
-            "venue": "Journal of Controlled Release",
-            "summary": "콜라겐 결합 활성을 가진 세포외 소포체를 통해 HIF-1α를 제어 전달함으로써 상처 치유를 향상시키는 연구입니다."
-          },
-          {
-            "title": "Sticky Polyelectrolyte Shield for Enhancing Biological Half-Life of Growth Factors",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/",
-            "year": "2025",
-            "venue": "ACS Applied Materials and Interfaces",
-            "summary": "성장 인자의 생물학적 반감기를 향상시키기 위한 끈적이는 고분자 전해질 보호막에 관한 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 121,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -46965,13 +46998,18 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Sang Wha Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/"
+            "title": "View all 121 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/",
@@ -46981,26 +47019,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959394/128_Kim_+Sang+Wha.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-17/",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-17/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A24BE6BF6EC4A7",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:58:58Z",
+        "_saved_at": "2026-09-20T07:19:30Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244099,11 +244137,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T07:18:53Z",
-    "checked": 85,
-    "seconds": 1156.64,
+    "at": "2026-09-20T07:20:01Z",
+    "checked": 90,
+    "seconds": 1224.6,
     "gemini": true,
-    "ai_requests": 56,
+    "ai_requests": 60,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
