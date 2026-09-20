@@ -1,5 +1,5 @@
 {
-  "cursor": 285,
+  "cursor": 290,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -171192,11 +171192,24 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-A2435BF2BC7A36": {
-      "fingerprint": "bd83fdd2964723992bd8f7c5948762a2cab10362040df0d000663101ec045d70",
-      "checked_at": "2026-09-19T11:53:23Z",
+      "fingerprint": "c27eebb517b86db31f0c1897a0fad42276c9a0ab333ab721f11c863f7ee26128",
+      "checked_at": "2026-09-20T09:16:05Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
+          }
+        ],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -171207,13 +171220,13 @@
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
           "https://cse.snu.ac.kr/ko/people/faculty",
+          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
           "https://imai.snu.ac.kr",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko"
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -171226,11 +171239,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "제공된 공식 URL 내에서 이의웅 교수에 대한 채용 정보나 연구실 정보는 확인되지 않습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "신임교수초빙",
+            "url": "https://cse.snu.ac.kr/community/faculty-recruitment"
+          },
+          {
+            "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
+          }
+        ],
+        "recruitment_source_url": "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://cse.snu.ac.kr/ko/people",
@@ -171242,24 +171268,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://cse.snu.ac.kr/ko/people",
           "https://cse.snu.ac.kr/ko/people/faculty/169",
+          "https://cse.snu.ac.kr/ko/people",
+          "https://cse.snu.ac.kr/community/faculty-recruitment",
+          "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
           "https://cse.snu.ac.kr/ko",
           "https://cse.snu.ac.kr/ko/people/faculty",
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
+          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
           "https://imai.snu.ac.kr",
           "https://www.snu.ac.kr/personal_information",
           "https://cse.snu.ac.kr/ko/community/news/1216",
-          "https://cse.snu.ac.kr/ko/community/notice/25577",
-          "https://cse.snu.ac.kr/ko/community/news/1211",
-          "https://cse.snu.ac.kr/ko/community/news/1206"
+          "https://cse.snu.ac.kr/ko/community/news/1211"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A2435BF2BC7A36",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:53:42Z",
+        "_saved_at": "2026-09-20T09:16:16Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -173337,14 +173365,39 @@
       "_unit_id": "SNU-RU-7E5CBAE63F340C"
     },
     "SNU-RU-21DDDCE5155272": {
-      "fingerprint": "44c196346d194b778cbbea9af51a61405bc3daf15d2e0e9b0aebd15a145ed65c",
-      "checked_at": "2026-09-19T11:53:23Z",
+      "fingerprint": "71d05f450446a1eb3f41b0ca2801b086bc6f66c67ff283feb0ec043cd1a9f797",
+      "checked_at": "2026-09-20T09:16:05Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "서울대 엄현상 교수 연구팀, Ethereum 저장비용 94.1% 절감 기술로 IEEE CLOUD 2026 최우수 학생 논문상 수상",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1216"
+          },
+          {
+            "title": "송현오 교수 연구진, 반도체 설계검증을 위한 AI 에이전트 및 복잡한 환경 예측을 위한 월드 모델 기술 개발",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1211"
+          },
+          {
+            "title": "제 6회 민상렬 장학금 수여식 개최",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1206"
+          },
+          {
+            "title": "송현오 교수 연구진 NeurIPS oral presentation 논문 선정 (상위 0.35%, 77/21575)",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1198"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
             "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 인권/성평등 교육(법정의무교육) 이수 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/24826"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
           }
         ],
         "membersUrl": "https://cse.snu.ac.kr/ko/people",
@@ -173357,9 +173410,9 @@
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
           "https://cse.snu.ac.kr/ko/people/faculty",
+          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
           "https://imai.snu.ac.kr",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko"
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
@@ -173377,12 +173430,37 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "컴퓨터공학부 2027학년도 대학원 신입생 전기모집이 진행 중이며, 지원서 접수 기간은 2026년 9월 28일부터 10월 2일까지입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "서울대 엄현상 교수 연구팀, Ethereum 저장비용 94.1% 절감 기술로 IEEE CLOUD 2026 최우수 학생 논문상 수상",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1216"
+          },
+          {
+            "title": "송현오 교수 연구진, 반도체 설계검증을 위한 AI 에이전트 및 복잡한 환경 예측을 위한 월드 모델 기술 개발",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1211"
+          },
+          {
+            "title": "제 6회 민상렬 장학금 수여식 개최",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1206"
+          },
+          {
+            "title": "송현오 교수 연구진 NeurIPS oral presentation 논문 선정 (상위 0.35%, 77/21575)",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1198"
+          }
+        ],
+        "recruitment_summary": "2027학년도 대학원 신입생 전기모집이 진행 중이며, 지원서 접수 기간은 2026년 9월 28일부터 10월 2일까지입니다. 정년이 5년 미만인 교수(김지홍, 이광근), 2년 미만인 교수(김선, 이상구, 장병탁, 하순회), 휴직 중인 교수(전병곤)는 신입생을 선발하지 않습니다.",
         "verified_recruitment_pages": [
           {
             "title": "[대학원 입시] 컴퓨터공학부 2027학년도 대학원 신입생 전기모집 안내",
             "url": "https://cse.snu.ac.kr/ko/community/notice/25577"
+          },
+          {
+            "title": "2026년 인권/성평등 교육(법정의무교육) 이수 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/notice/24826"
+          },
+          {
+            "title": "2026년 1차 컴퓨터공학부 대학교원 채용 모집 분야 안내",
+            "url": "https://cse.snu.ac.kr/ko/community/news/1207"
           }
         ],
         "recruitment_source_url": "https://cse.snu.ac.kr/ko/community/notice/25577",
@@ -173397,24 +173475,28 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://cse.snu.ac.kr/ko/community/news/1216",
           "https://cse.snu.ac.kr/ko/community/notice/25577",
+          "https://cse.snu.ac.kr/ko/community/news/1211",
+          "https://cse.snu.ac.kr/ko/community/news/1206",
+          "https://cse.snu.ac.kr/ko/community/news/1198",
+          "https://cse.snu.ac.kr/ko/community/notice/24826",
+          "https://cse.snu.ac.kr/ko/community/news/1207",
           "https://cse.snu.ac.kr/ko/people/faculty/44",
           "https://cse.snu.ac.kr/ko",
           "https://cse.snu.ac.kr/ko/people",
           "https://cse.snu.ac.kr/ko/people/faculty",
           "https://cse.snu.ac.kr/ko/people/emeritus-faculty",
           "https://cse.snu.ac.kr/ko/people/staff",
+          "https://cse.snu.ac.kr/ko/community/faculty-recruitment",
           "https://imai.snu.ac.kr",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cse.snu.ac.kr/ko/community/news/1216",
-          "https://cse.snu.ac.kr/ko/community/news/1211",
-          "https://cse.snu.ac.kr/ko/community/news/1206"
+          "https://www.snu.ac.kr/personal_information"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-21DDDCE5155272",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:53:52Z",
+        "_saved_at": "2026-09-20T09:16:09Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -174115,7 +174197,7 @@
     },
     "SNU-RU-275A4546BDF364": {
       "fingerprint": "55a4073b2b1ee7ddecc47de8131c8a98ab00da7a1383c1d56dbce0410e68b848",
-      "checked_at": "2026-09-19T11:53:22Z",
+      "checked_at": "2026-09-20T09:16:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -176595,7 +176677,7 @@
     },
     "SNU-RU-8373AB8423184F": {
       "fingerprint": "aad1ff754cb88a62696b2a48952504c935a31238a4c7ad4353a4438a2466003a",
-      "checked_at": "2026-09-19T11:53:22Z",
+      "checked_at": "2026-09-20T09:16:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -178536,8 +178618,8 @@
       "_unit_id": "SNU-RU-D16409B2129049"
     },
     "SNU-RU-C680A32F0EC33D": {
-      "fingerprint": "2f809f4b95d4cb8c0b7d1aa75e924b37a679cefb6879422fffcd4e69b94883a9",
-      "checked_at": "2026-09-19T11:53:12Z",
+      "fingerprint": "01b7773def7bac071e5cde1475b474766d9596e306529801622d7e03819a9ad9",
+      "checked_at": "2026-09-20T09:15:56Z",
       "activity": {
         "publicationPages": [
           {
@@ -178546,8 +178628,8 @@
             "kind": "publication"
           },
           {
-            "title": "Publications",
-            "url": "https://ux.snu.ac.kr/paper",
+            "title": "[졸업]2026학년도 2학기(2026학년도 전기) 석·박사학위 논문심사 일정 안내",
+            "url": "https://convergence.snu.ac.kr/22582/",
             "kind": "publication"
           },
           {
@@ -178571,6 +178653,21 @@
             "title": "신임교수초빙",
             "url": "https://cse.snu.ac.kr/community/faculty-recruitment",
             "kind": "recruitment"
+          },
+          {
+            "title": "2027학년도 전기 대학원 신입생 모집단위 변경 안내(지능정보융합학과 관련)",
+            "url": "https://convergence.snu.ac.kr/22511/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026학년도 융합과학기술대학원 헬스케어융합학과(계약학과) 신입생 후기모집 안내",
+            "url": "https://convergence.snu.ac.kr/21719/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://ux.snu.ac.kr/people.html",
@@ -178581,7 +178678,7 @@
             "alt": "SNU UX LAB",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://ux.snu.ac.kr/project/2024/10/25/cxq.html"
+            "parent_source_url": "https://ux.snu.ac.kr/project/2025/03/09/xqOn.html"
           },
           {
             "url": "https://ux.snu.ac.kr/assets/images/news/interns/2026-03-14-jh.png",
@@ -178636,14 +178733,14 @@
         "sourcePagesScanned": [
           "https://ux.snu.ac.kr/",
           "https://cse.snu.ac.kr/ko/people/faculty/227",
+          "https://convergence.snu.ac.kr",
           "https://ux.snu.ac.kr/people.html",
           "https://ux.snu.ac.kr/paper",
           "https://ux.snu.ac.kr/",
           "https://ux.snu.ac.kr/about",
           "https://ux.snu.ac.kr/project",
           "https://ux.snu.ac.kr/blog.html",
-          "https://ux.snu.ac.kr/project/2025/03/09/xqOn.html",
-          "https://ux.snu.ac.kr/project/2024/10/25/cxq.html"
+          "https://ux.snu.ac.kr/project/2025/03/09/xqOn.html"
         ]
       },
       "enrichment": {
@@ -245479,11 +245576,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T09:15:47Z",
-    "checked": 705,
-    "seconds": 8170.47,
+    "at": "2026-09-20T09:16:16Z",
+    "checked": 710,
+    "seconds": 8199.69,
     "gemini": true,
-    "ai_requests": 414,
+    "ai_requests": 416,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
