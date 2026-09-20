@@ -1,5 +1,5 @@
 {
-  "cursor": 1755,
+  "cursor": 1760,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -17550,8 +17550,8 @@
       "_unit_id": "SNU-RU-FC05D8FC5968E3"
     },
     "SNU-RU-D8AA06B0759BD1": {
-      "fingerprint": "0f103ba436877eaf7e19bbfeb74f2d9db1ce7f9a07c7e4a36def726ecf00d1e7",
-      "checked_at": "2026-09-20T19:30:42Z",
+      "fingerprint": "43b0cc2a9622ac56a3c717cd53e67395de347f28ad762acef07beb00d882eabe",
+      "checked_at": "2026-09-20T21:50:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -17597,8 +17597,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           }
         ],
@@ -17669,10 +17669,10 @@
           "https://snu.elsevierpure.com/en/persons/y-kang-14/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kang-14/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -18477,8 +18477,8 @@
       "_unit_id": "SNU-RU-9F9C1E4458F441"
     },
     "SNU-RU-0B7F9565B10C50": {
-      "fingerprint": "615d0e76bd81327564165e351abd0e2b9cbb3f181670dc68344c1c057af0c542",
-      "checked_at": "2026-09-20T19:30:43Z",
+      "fingerprint": "abeacfd86e85619c8c7dee41bb629739b097160f511e91ac0104924c4874110b",
+      "checked_at": "2026-09-20T21:50:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -18501,7 +18501,7 @@
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/#main-search",
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/#main-content",
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
@@ -18512,15 +18512,12 @@
         "research_topics": [
           "소아외과",
           "총배설강 기형",
-          "질 성형술",
-          "임상 결과 연구"
+          "질 성형술"
         ],
         "recommendation_keywords": [
           "소아외과",
-          "총배설강 기형",
           "질 성형술",
-          "임상 연구",
-          "임상 결과 연구"
+          "총배설강 기형"
         ],
         "recent_papers": [
           {
@@ -18528,7 +18525,7 @@
             "url": "https://snu.elsevierpure.com/en/publications/a-single-center-experience-on-clinical-outcomes-of-vaginoplasty-i/",
             "year": "2024",
             "venue": "Journal of Pediatric Surgery",
-            "summary": "총배설강 기형 환자를 대상으로 시행한 질 성형술의 임상적 결과를 분석한 후향적 코호트 연구입니다."
+            "summary": ""
           }
         ],
         "recent_year_paper_count": 36,
@@ -18568,12 +18565,11 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/",
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/publications/",
-          "https://snu.elsevierpure.com/en/publications/a-single-center-experience-on-clinical-outcomes-of-vaginoplasty-i/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/dayoung-ko/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/#main-search",
           "https://snu.elsevierpure.com/en/persons/dayoung-ko/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -18584,16 +18580,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0B7F9565B10C50",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T19:04:26Z",
+        "_saved_at": "2026-09-20T21:50:10Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0B7F9565B10C50"
     },
     "SNU-RU-AB177C7B1B5549": {
-      "fingerprint": "ef4a94656450112959f584b33bf18bbc058bbcf4c3f3715a79f718a8c49740ff",
-      "checked_at": "2026-09-20T19:30:45Z",
+      "fingerprint": "21917e473abf6bead9bd3c061c1ff2faa85ac341cb98948056586ecb4012a5be",
+      "checked_at": "2026-09-20T21:50:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -18615,11 +18610,11 @@
           "https://snu.elsevierpure.com/en/persons/y-ko/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-ko/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-ko/#main-content",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -18693,8 +18688,8 @@
       "_unit_id": "SNU-RU-AB177C7B1B5549"
     },
     "SNU-RU-AC69ED8EB873AD": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-20T19:30:50Z",
+      "fingerprint": "fe33f6979fca27f99d8145deea09de372cd24e08e2c0289b6d28bb73f4b063d5",
+      "checked_at": "2026-09-20T21:50:15Z",
       "activity": {
         "publicationPages": [
           {
@@ -18724,7 +18719,7 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
@@ -19529,8 +19524,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-78009A32E04E56": {
-      "fingerprint": "0d4e3a532219954c69aa42c794950cc41677dc6e3eed91646c92d997f8007437",
-      "checked_at": "2026-09-20T19:30:52Z",
+      "fingerprint": "fe33f6979fca27f99d8145deea09de372cd24e08e2c0289b6d28bb73f4b063d5",
+      "checked_at": "2026-09-20T21:50:15Z",
       "activity": {
         "publicationPages": [
           {
@@ -19552,7 +19547,7 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -19560,7 +19555,7 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "https://admission.snu.ac.kr/index.html"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
@@ -246261,11 +246256,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T21:49:42Z",
-    "checked": 5,
-    "seconds": 33.13,
+    "at": "2026-09-20T21:50:15Z",
+    "checked": 10,
+    "seconds": 66.27,
     "gemini": true,
-    "ai_requests": 0,
+    "ai_requests": 1,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
