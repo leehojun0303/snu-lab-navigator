@@ -1,5 +1,5 @@
 {
-  "cursor": 230,
+  "cursor": 235,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -218490,26 +218490,17 @@
       "_unit_id": "SNU-RU-3CFA30CBD7D3BE"
     },
     "SNU-RU-AB38D7C49C91AD": {
-      "fingerprint": "3f2167169c957c496f16b7eafd5b3c3e9fd77fcde02788b91dbdcc0ee27db0ff",
-      "checked_at": "2026-09-19T11:42:34Z",
+      "fingerprint": "f09758747de0c593a32aac25570659942c78a694b7cdb7a4ca21d86910281a9f",
+      "checked_at": "2026-09-20T09:04:29Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "Publications",
-            "url": "https://adr.snu.ac.kr/publications"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
+        "membersUrl": "https://adr.snu.ac.kr/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://spa.snu.ac.kr/",
@@ -218525,16 +218516,18 @@
         ]
       },
       "enrichment": {
-        "research_summary": "최준원 교수의 피지컬 인공지능 연구실(Physical AI Lab)은 인공지능, 자율주행, 로봇 인지 분야를 중심으로 연구를 수행하며, 특히 로봇의 행동 예측 및 인지 기술에 집중하고 있습니다.",
+        "research_summary": "최준원 교수가 이끄는 피지컬 인공지능 연구실(Physical AI Laboratory)은 자율주행 및 로봇을 위한 인공지능과 데이터 처리 기술을 연구하며, 인공지능, 로봇인지, 자율주행, 센서신호처리 분야에 집중하고 있습니다.",
         "research_topics": [
           "인공지능",
+          "로봇인지",
           "자율주행",
-          "로봇인지"
+          "센서신호처리"
         ],
         "recommendation_keywords": [
           "인공지능",
           "자율주행",
-          "로봇인지"
+          "로봇인지",
+          "센서신호처리"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -218546,28 +218539,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "Publications",
-            "url": "https://adr.snu.ac.kr/publications"
-          }
-        ],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 및 관련 지원 안내를 제공하고 있습니다.",
+        "education_summary": "서울대학교 전기공학부 학사, 전기·정보공학부 석사를 거쳐 일리노이 주립대 어바나-샴페인(UIUC)에서 전기및컴퓨터공학부 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "피지컬 인공지능 연구실에서는 학부생을 대상으로 여름 및 겨울 방학 인턴십을 운영하고 있으며, 관심 있는 학생은 이메일(junwchoi@snu.ac.kr)로 문의할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
-          },
-          {
-            "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
+        "recruitment_source_url": "https://adr.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
+        "member_page_url": "https://adr.snu.ac.kr/",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -218576,12 +218560,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://adr.snu.ac.kr/",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p902",
-          "https://adr.snu.ac.kr/publications",
-          "https://ece.snu.ac.kr/faculty/job-openings",
           "https://spa.snu.ac.kr/",
           "https://ece.snu.ac.kr",
           "https://adr.snu.ac.kr",
+          "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
@@ -218594,7 +218578,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AB38D7C49C91AD",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:42:37Z",
+        "_saved_at": "2026-09-20T09:04:35Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -224247,8 +224231,8 @@
       "_unit_id": "SNU-RU-730577D331AEED"
     },
     "SNU-RU-A37A48E137C182": {
-      "fingerprint": "9cae50af3dc49e21e1a11451a88dc73e58b2506127af2fb2b337b70442e97d08",
-      "checked_at": "2026-09-19T11:42:36Z",
+      "fingerprint": "f5b74b6181f317591622375ab8431578b8e71e2b6b49c2d382cfbf9d73812e49",
+      "checked_at": "2026-09-20T09:04:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -224277,7 +224261,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "컴퓨터 비전, 기계 학습, 딥러닝 분야를 연구하며, 관련 기술의 이론적 발전과 응용 연구를 수행하고 있습니다.",
+        "research_summary": "컴퓨터 비전, 기계 학습, 딥러닝 분야를 연구하며, 특히 시각적 데이터의 이해와 분석을 위한 인공지능 모델 개발에 주력하고 있습니다.",
         "research_topics": [
           "Computer Vision",
           "Machine Learning",
@@ -224301,9 +224285,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1997년 서울대학교 컴퓨터공학 학사, 2000년 동 대학원 석사를 졸업하였으며, 2005년 메릴랜드 대학교(University of Maryland)에서 컴퓨터 과학 박사 학위를 취득하였습니다.",
+        "education_summary": "서울대학교에서 컴퓨터공학 학사(1997) 및 석사(2000) 학위를 취득하였으며, 메릴랜드 대학교(University of Maryland)에서 컴퓨터과학 박사(2005) 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 신임교수 초빙 안내 및 지원서 작성 페이지를 운영하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부의 신임교수 초빙 안내 및 지원서 작성 페이지를 통해 채용 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -224327,9 +224311,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p825",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -224343,15 +224327,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A37A48E137C182",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:42:50Z",
+        "_saved_at": "2026-09-20T09:04:42Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-A37A48E137C182"
     },
     "SNU-RU-26F66BAE5D5F3E": {
-      "fingerprint": "f6898067cdf5e2cd44343e7211e19a47603cdd55554e172298b194b4a80bf30b",
-      "checked_at": "2026-09-19T11:42:38Z",
+      "fingerprint": "678e1a95e837cc6352213b490a54c59f7ef6188f299a0adb4c68b77e98d8dd88",
+      "checked_at": "2026-09-20T09:04:33Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -224364,7 +224348,7 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
@@ -224404,9 +224388,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1986년 서울대학교 컴퓨터공학과 학사, 1988년 동 대학원 석사, 1994년 매릴랜드 주립대학교 컴퓨터과학과 박사 학위를 취득하였습니다.",
+        "education_summary": "1986년 서울대학교 컴퓨터공학과 학사, 1988년 동 대학원 석사, 1994년 매릴랜드 주립대학교 대학원 컴퓨터과학과 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부의 신임교수 초빙 안내 및 지원서 작성 페이지가 운영되고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -224420,7 +224404,7 @@
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -224446,24 +224430,28 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-26F66BAE5D5F3E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:43:12Z",
+        "_saved_at": "2026-09-20T09:05:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-26F66BAE5D5F3E"
     },
     "SNU-RU-975B0A3CE137BA": {
-      "fingerprint": "bfa5135f9d4682f3b71ae17cdac8e7113c8d913a9826f3978a9a04ec43c1af59",
-      "checked_at": "2026-09-19T11:42:36Z",
+      "fingerprint": "cc4a426f58c1e984eb130601c0b6d4259be9668071eabff9392f211bdf1e4860",
+      "checked_at": "2026-09-20T09:04:32Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "http://eecl.snu.ac.kr",
+        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
@@ -224479,13 +224467,12 @@
         ]
       },
       "enrichment": {
-        "research_summary": "전력전자 및 전기 에너지 변환 분야를 연구하며, 특히 센서리스/정밀 전동기 제어, 자동차 및 가전 제품 기술, 지능형 기기 기술, 전기-열 및 신재료 기반 에너지 변환, 스마트 그리드 접속 제품 기술 및 에너지 네트워크를 주요 연구 관심사로 다루고 있습니다.",
+        "research_summary": "전력전자 및 전기 에너지 변환 분야를 연구하며, 특히 센서리스/정밀 전동기 제어, 자동차 및 가전 제품 기술, 전기-열 및 신재료 기반 에너지 변환, 스마트 그리드 접속 제품 기술 및 에너지 네트워크를 주요 연구 주제로 다루고 있습니다.",
         "research_topics": [
           "전력전자",
           "전기 에너지 변환",
           "센서리스/정밀 전동기 제어",
           "자동차 및 가전 제품 기술",
-          "지능형 기기 기술",
           "전기-열 및 신재료 기반 에너지 변환",
           "스마트 그리드 접속 제품 기술 및 에너지 네트워크"
         ],
@@ -224493,10 +224480,9 @@
           "전력전자",
           "전기 에너지 변환",
           "전동기 제어",
-          "스마트 그리드",
+          "에너지 네트워크",
           "센서리스/정밀 전동기 제어",
           "자동차 및 가전 제품 기술",
-          "지능형 기기 기술",
           "전기-열 및 신재료 기반 에너지 변환",
           "스마트 그리드 접속 제품 기술 및 에너지 네트워크"
         ],
@@ -224510,19 +224496,23 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2001년 서울대학교 전기컴퓨터공학부 박사, 1997년 석사, 1995년 학사 학위를 취득하였습니다.",
+        "education_summary": "2001년 서울대학교 전기컴퓨터공학부에서 박사 학위를 취득하였으며, 1997년 석사, 1995년 학사 학위를 받았습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://eecl.snu.ac.kr",
+        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -224548,24 +224538,28 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-975B0A3CE137BA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:42:54Z",
+        "_saved_at": "2026-09-20T09:05:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-975B0A3CE137BA"
     },
     "SNU-RU-ECAAF244AAA428": {
-      "fingerprint": "148a12a69664fcca0d3016bad8c8b9565d1a03ead3d244be0975e67e1e91330f",
-      "checked_at": "2026-09-19T11:42:38Z",
+      "fingerprint": "a1b71171be39177bf8c43b407747973f22063ffb7be388cf3edb45c551a83094",
+      "checked_at": "2026-09-20T09:04:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
@@ -224581,18 +224575,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "초전도 응용 기기 분야를 연구하며, 특히 초전도 자석 및 관련 응용 시스템의 설계와 해석에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "초전도 응용 기기 분야를 연구하며, 특히 전력, 바이오, 환경 분야에 초전도 기술을 적용하는 연구를 수행하고 있습니다.",
         "research_topics": [
           "초전도 응용 기기",
-          "초전도 자석",
-          "초전도 응용 시스템"
+          "전력",
+          "바이오",
+          "환경"
         ],
         "recommendation_keywords": [
-          "초전도",
           "초전도 응용 기기",
-          "전기기기",
-          "초전도 자석",
-          "초전도 응용 시스템"
+          "초전도 응용 연구실",
+          "전력",
+          "바이오",
+          "환경"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -224604,19 +224599,23 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 전기·정보공학부 교수로서 초전도 응용 연구실을 운영하며 학생들을 지도하고 있습니다.",
+        "education_summary": "서울대학교 전기공학부에서 학사(1998), 석사(2000), 박사(2003) 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부의 일반적인 교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "전기·정보공학부의 신임교수 초빙 안내 및 지원서 작성 페이지가 운영되고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -224626,8 +224625,8 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
-          "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
@@ -224642,7 +224641,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-ECAAF244AAA428",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:43:00Z",
+        "_saved_at": "2026-09-20T09:04:48Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -245528,11 +245527,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T09:04:13Z",
-    "checked": 650,
-    "seconds": 7476.29,
+    "at": "2026-09-20T09:05:08Z",
+    "checked": 655,
+    "seconds": 7531.34,
     "gemini": true,
-    "ai_requests": 383,
+    "ai_requests": 388,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
