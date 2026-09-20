@@ -1,5 +1,5 @@
 {
-  "cursor": 1855,
+  "cursor": 1860,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -52867,7 +52867,7 @@
     },
     "SNU-RU-9F476B36B9C810": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T10:02:10Z",
+      "checked_at": "2026-09-20T07:23:24Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -52956,8 +52956,8 @@
       "_unit_id": "SNU-RU-9F476B36B9C810"
     },
     "SNU-RU-7089FFF9B804A9": {
-      "fingerprint": "e87e12e3374d82c77a2fa6afb87260302e7730a333a499b6e04b3a6851438a8c",
-      "checked_at": "2026-09-19T10:01:47Z",
+      "fingerprint": "25188e8e37dcf77607863a654e351ed184d581b17f2efb2662f0d883a4a7377d",
+      "checked_at": "2026-09-20T07:23:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -52965,7 +52965,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -52975,10 +52980,10 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -53010,9 +53015,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/"
           }
         ],
-        "recruitment_summary": "제공된 공식 URL에서 특정 연구실의 직접적인 채용 공고 정보는 확인되지 않았습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/",
@@ -53022,49 +53032,44 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959487/148_Kim_+Soowoong.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-content",
-        "poster_evidence": "공식 프로필 페이지에 게시된 교수 인물 사진입니다.",
+        "poster_evidence": "Official profile image of Soowoong Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-31/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-31/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7089FFF9B804A9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:01:57Z",
+        "_saved_at": "2026-09-20T07:23:48Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7089FFF9B804A9"
     },
     "SNU-RU-AA7A02EBAFB2B0": {
-      "fingerprint": "ecf4881fbaf8129c492931a9c4c633e335b5b6f6ee3fcc3eba81b2216b6fda61",
-      "checked_at": "2026-09-19T10:02:04Z",
+      "fingerprint": "ee663b1495aefb8b56ebc022794450eaec2c8654761ed14a8ddc463452168250",
+      "checked_at": "2026-09-20T07:23:21Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 158 Research outputs",
+            "title": "Su-Jin Kim - Seoul National University",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
-        "posterStatus": "verified",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-32/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -53079,20 +53084,52 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김수진 교수는 유방내분비외과학 분야를 전문으로 하며, 유방암의 진단, 치료 및 예후와 관련된 다양한 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김수진 교수는 유방내분비외과학 분야를 전문으로 하며, 특히 갑상선암, 갑상선 절제술, 부신 종양 및 관련 내분비 질환의 수술적 치료와 예후 분석에 관한 연구를 수행하고 있습니다. 최근에는 딥러닝을 활용한 수술 영상 분석 및 내분비 암종의 바이오마커 발굴 등 첨단 기술을 접목한 연구를 활발히 진행 중입니다.",
         "research_topics": [
-          "유방내분비외과학",
-          "유방암",
-          "외과학"
+          "Papillary Thyroid Cancer",
+          "Thyroidectomy",
+          "Thyroid Surgery",
+          "Pheochromocytoma",
+          "Paraganglioma",
+          "Endocrine Surgery"
         ],
         "recommendation_keywords": [
-          "유방암",
           "유방내분비외과학",
-          "외과",
-          "외과학"
+          "갑상선암",
+          "갑상선절제술",
+          "내분비외과",
+          "수술적 치료",
+          "Papillary Thyroid Cancer",
+          "Thyroidectomy",
+          "Thyroid Surgery",
+          "Pheochromocytoma",
+          "Paraganglioma",
+          "Endocrine Surgery"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "A decade-long shift in use of energy devices for BABA robotic thyroidectomy: automated video analysis by deep learning",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/",
+            "year": "2026",
+            "venue": "Journal of Robotic Surgery",
+            "summary": ""
+          },
+          {
+            "title": "Plasma proteomic profiling identifies apolipoprotein A4 as a downregulated biomarker of adrenocortical carcinoma: a multi-platform discovery and validation study",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/",
+            "year": "2026",
+            "venue": "European Journal of Endocrinology",
+            "summary": ""
+          },
+          {
+            "title": "Prognostic Comparison of Long-Term Outcomes and Nodal Recurrence for Persistent and Recurrent Differentiated Thyroid Cancer",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/",
+            "year": "2026",
+            "venue": "Clinical and Experimental Otorhinolaryngology",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 8,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -53104,47 +53141,42 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 158 Research outputs",
+            "title": "Su-Jin Kim - Seoul National University",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
-        "poster_status": "verified",
-        "poster_title": "Su-Jin Kim",
+        "poster_status": "none_detected",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959494/150_Kim_+Su-Jin.jpg?w=160&f=jpg",
-        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-content",
-        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-32/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA7A02EBAFB2B0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:02:13Z",
+        "_saved_at": "2026-09-20T07:23:41Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -53243,8 +53275,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-436BA3CB9151DC": {
-      "fingerprint": "6b4495b699549977f59af4c617666e9d582a1ab2dee4d858de2b44178c73f79f",
-      "checked_at": "2026-09-19T10:01:47Z",
+      "fingerprint": "5bbdf44fc0eb4f3d8f450a12ac51105680d7f7cec263fdbc08d034802b1fa6fa",
+      "checked_at": "2026-09-20T07:23:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -53267,23 +53299,24 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김슬기 교수는 산부인과학교실 소속으로 생식내분비학 분야를 연구하며, 난임, 생식 건강 및 관련 질환에 관한 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김슬기 교수는 생식내분비학 분야를 전문으로 하며, 특히 난임, 생식 의학, 부인과 내분비 질환과 관련된 연구를 수행하고 있습니다.",
         "research_topics": [
           "생식내분비학",
-          "산부인과",
-          "난임"
+          "난임",
+          "생식 의학"
         ],
         "recommendation_keywords": [
           "생식내분비학",
           "산부인과",
-          "난임"
+          "난임",
+          "생식 의학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -53295,14 +53328,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 산부인과학교실 소속으로 생식내분비학 관련 교육 및 연구 활동을 하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 116 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담, 튜터링 등 다양한 지원 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -53319,7 +53352,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959502/152_Kim_+Seul+Ki.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile page contains the researcher's portrait.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-33/",
           "http://yss.snu.ac.kr/",
@@ -53327,10 +53360,10 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/#main-content",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-33/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
@@ -53338,7 +53371,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-436BA3CB9151DC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:01:49Z",
+        "_saved_at": "2026-09-20T07:23:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -53484,8 +53517,8 @@
       "_unit_id": "SNU-RU-0C1591B44492F0"
     },
     "SNU-RU-73A27825E43D5D": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T10:01:59Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:23:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -53499,23 +53532,23 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "http://yss.snu.ac.kr/",
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "김수지 교수는 서울대학교 의과대학 방사선종양학교실 소속 기금교수로, 보라매병원에서 근무하며 유방암, 폐암, 두경부암을 전문 분야로 연구 및 진료하고 있습니다.",
         "research_topics": [
           "유방암",
           "폐암",
@@ -53524,7 +53557,8 @@
         "recommendation_keywords": [
           "유방암",
           "폐암",
-          "두경부암"
+          "두경부암",
+          "방사선종양학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -53543,7 +53577,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 서비스를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -53553,7 +53587,7 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -53562,10 +53596,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -53573,13 +53607,13 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-73A27825E43D5D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:02:05Z",
+        "_saved_at": "2026-09-20T07:23:56Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244153,11 +244187,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T07:22:49Z",
-    "checked": 105,
-    "seconds": 1392.5,
+    "at": "2026-09-20T07:23:56Z",
+    "checked": 110,
+    "seconds": 1459.77,
     "gemini": true,
-    "ai_requests": 69,
+    "ai_requests": 73,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
