@@ -1,5 +1,5 @@
 {
-  "cursor": 1970,
+  "cursor": 1975,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -88431,7 +88431,7 @@
     },
     "SNU-RU-E4D3BFA935304B": {
       "fingerprint": "1dd83c7a144ebd1de64dfb43e750c5064cf17a1a2e953a4af2b5d69a6232b58d",
-      "checked_at": "2026-09-19T10:23:52Z",
+      "checked_at": "2026-09-20T07:45:52Z",
       "activity": {
         "publicationPages": [
           {
@@ -88795,28 +88795,38 @@
       "_unit_id": "SNU-RU-11F5970D71E0E7"
     },
     "SNU-RU-0AECF4F80DF2DB": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T10:23:57Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:45:56Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -88829,14 +88839,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 지원을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -88845,27 +88865,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/en/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://libguides.snu.ac.kr/home"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0AECF4F80DF2DB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:35:26Z",
+        "_saved_at": "2026-09-20T07:46:21Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0AECF4F80DF2DB"
     },
@@ -88975,8 +88994,8 @@
       "_unit_id": "SNU-RU-BDC45AB5D8DA21"
     },
     "SNU-RU-6DCEFB1F2DEBAB": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-19T10:23:57Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-20T07:45:56Z",
       "activity": {
         "publicationPages": [
           {
@@ -88995,23 +89014,24 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "노재홍 교수는 서울대학교 의과대학 산부인과학교실 소속으로, 부인종양학 분야를 전문으로 연구하고 있습니다.",
         "research_topics": [
           "부인종양학"
         ],
         "recommendation_keywords": [
-          "부인종양학"
+          "부인종양학",
+          "산부인과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -89030,7 +89050,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 지원을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 학생 지원 서비스를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -89049,24 +89069,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://medicine.snu.ac.kr/en/",
           "https://www.snu.ac.kr/research/highlights",
-          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "http://yss.snu.ac.kr/index.php"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6DCEFB1F2DEBAB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:30:41Z",
+        "_saved_at": "2026-09-20T07:46:05Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -89923,8 +89943,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-FAC1A7A3835D3A": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-19T10:23:56Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-20T07:45:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -89943,19 +89963,21 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
         "research_summary": "",
-        "research_topics": [],
+        "research_topics": [
+          "마취통증의학"
+        ],
         "recommendation_keywords": [
           "마취통증의학"
         ],
@@ -89976,7 +89998,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 지원을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -89996,23 +90018,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://yss.snu.ac.kr/",
-          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://medicine.snu.ac.kr/en/",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "http://yss.snu.ac.kr/index.php"
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FAC1A7A3835D3A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T10:30:28Z",
+        "_saved_at": "2026-09-20T07:46:23Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -90799,8 +90821,8 @@
       "_unit_id": "SNU-RU-3A6F0B7E714E14"
     },
     "SNU-RU-C322456D72F344": {
-      "fingerprint": "467cd9f7562e1ef08e59282d86e9e12afcf7fdae901750695998dd0117707e5d",
-      "checked_at": "2026-09-19T10:23:53Z",
+      "fingerprint": "f8cd3d486ebb26a334615f8056e268d77392eb6037b062a6e045e75139cf023b",
+      "checked_at": "2026-09-20T07:45:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -90830,20 +90852,15 @@
         ]
       },
       "enrichment": {
-        "research_summary": "류주석 교수는 재활의학 분야를 전문으로 하며, 뇌졸중 재활, 신경 재활, 그리고 재활 의학적 중재와 관련된 다양한 연구를 수행하고 있습니다.",
+        "research_summary": "류주석 교수는 재활의학 분야를 중심으로 연구를 수행하고 있으며, 특히 학술지 논문 등 다양한 연구 성과를 발표하고 있습니다.",
         "research_topics": [
-          "재활의학",
-          "뇌졸중 재활",
-          "신경 재활"
+          "재활의학"
         ],
         "recommendation_keywords": [
-          "재활의학",
-          "뇌졸중",
-          "신경재활",
-          "뇌졸중 재활"
+          "재활의학"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": 89,
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -90852,14 +90869,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 재활의학교실 소속으로 재활의학 관련 교육 및 연구 활동을 수행하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 89 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-ryu-2/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -90876,7 +90893,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960124/293_Ryu_+Ju+Seok.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ryu-2/#main-content",
-        "poster_evidence": "Official profile image verified on SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile page contains the professor's portrait.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-ryu-2/",
           "http://yss.snu.ac.kr/",
@@ -90895,7 +90912,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C322456D72F344",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:24:02Z",
+        "_saved_at": "2026-09-20T07:45:56Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -244496,11 +244513,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T07:45:23Z",
-    "checked": 220,
-    "seconds": 2746.79,
+    "at": "2026-09-20T07:46:23Z",
+    "checked": 225,
+    "seconds": 2807.16,
     "gemini": true,
-    "ai_requests": 132,
+    "ai_requests": 136,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
