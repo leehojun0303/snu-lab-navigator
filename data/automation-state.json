@@ -1,5 +1,5 @@
 {
-  "cursor": 1765,
+  "cursor": 1770,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -22246,8 +22246,8 @@
       "_unit_id": "SNU-RU-F24933B3363E4C"
     },
     "SNU-RU-2E9216F5943A1E": {
-      "fingerprint": "ec92f2400a9fa646765b16bd79dc23bc655779c318e2a2af4dcab03e0494dadc",
-      "checked_at": "2026-09-20T07:03:24Z",
+      "fingerprint": "c0dc01a2a8022d338286a48f2028812db4e8ce7f5f283b52a86e34258a61b399",
+      "checked_at": "2026-09-20T12:28:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -22270,10 +22270,10 @@
           "https://snu.elsevierpure.com/en/persons/y-khwarg/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-khwarg/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
@@ -22341,7 +22341,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T07:03:48Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-2E9216F5943A1E"
     },
@@ -22976,7 +22977,7 @@
     },
     "SNU-RU-05112BA65F83FE": {
       "fingerprint": "d0abc2901ef6c45b34ced8d241fc1cea3a35b081110ea1aa4131088a1208b841",
-      "checked_at": "2026-09-20T07:03:24Z",
+      "checked_at": "2026-09-20T12:28:28Z",
       "activity": {
         "publicationPages": [
           {
@@ -23080,23 +23081,118 @@
       "_unit_id": "SNU-RU-05112BA65F83FE"
     },
     "SNU-RU-526902B5571EBC": {
-      "fingerprint": "1fbee18f31cd982abd1e3945b9ab117b4e8565b250c1daeb626a34a7b426a679",
-      "checked_at": "2026-09-20T07:03:22Z",
+      "fingerprint": "90f2931e397a380d23b3d4c357ef9863c870de9017d23741a457b3cce5f6cdfc",
+      "checked_at": "2026-09-20T12:28:26Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 110 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "106",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "1",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fconference",
+            "kind": "publication"
+          },
+          {
+            "title": "1",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kwak-3/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960420/36_Kwak_+Young+Ho.jpg?w=160&f=jpg",
+            "alt": "Young Ho Kwak",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kwak-3/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kwak-3/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -23106,8 +23202,8 @@
           "https://snu.elsevierpure.com/en/persons/y-kwak-3/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kwak-3/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
@@ -23196,13 +23292,15 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T07:03:26Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-526902B5571EBC"
+      "_unit_id": "SNU-RU-526902B5571EBC",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-44687911566B5E": {
-      "fingerprint": "fe33f6979fca27f99d8145deea09de372cd24e08e2c0289b6d28bb73f4b063d5",
-      "checked_at": "2026-09-20T07:03:29Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-20T12:28:31Z",
       "activity": {
         "publicationPages": [
           {
@@ -23228,7 +23326,7 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -23297,13 +23395,14 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T07:03:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-44687911566B5E"
     },
     "SNU-RU-78D54FD73EAC35": {
-      "fingerprint": "3f4744a1ef5a37ce693d944f2a05cad98f763d9a491246cd7c552278f88086da",
-      "checked_at": "2026-09-20T07:03:24Z",
+      "fingerprint": "d1d52d2a99477b4473753a226fdde1687b7c5f56700f964d9dda416cd8e02759",
+      "checked_at": "2026-09-20T12:28:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -23401,7 +23500,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T07:03:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-78D54FD73EAC35"
     },
@@ -246052,9 +246152,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-20T12:28:00Z",
-    "checked": 15,
-    "seconds": 115.21,
+    "at": "2026-09-20T12:28:31Z",
+    "checked": 20,
+    "seconds": 146.04,
     "gemini": true,
     "ai_requests": 2,
     "completed_full_pass": false
