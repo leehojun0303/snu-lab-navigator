@@ -1,5 +1,5 @@
 {
-  "cursor": 1905,
+  "cursor": 1910,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -69752,7 +69752,7 @@
     },
     "SNU-RU-2FFE9E053F3656": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:33:17Z",
+      "checked_at": "2026-09-21T11:47:19Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -69921,31 +69921,39 @@
       "_unit_id": "SNU-RU-F71855257B64E9"
     },
     "SNU-RU-0B76275E0F57C4": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:33:17Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-21T11:47:17Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
-        "research_summary": null,
-        "research_topics": [
-          "소아"
-        ],
+        "research_summary": "",
+        "research_topics": [],
         "recommendation_keywords": [
           "소아"
         ],
@@ -69959,14 +69967,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 학교생활에서의 우울, 불안, 대인관계, 적응, 학습, 의사소통 등 여러 가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -69975,8 +69993,8 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -69992,10 +70010,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0B76275E0F57C4",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-13T07:21:09Z",
+        "_saved_at": "2026-09-21T11:47:39Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0B76275E0F57C4"
     },
@@ -70203,7 +70220,7 @@
     },
     "SNU-RU-F406C1C6299E3F": {
       "fingerprint": "5a2245f5dab0a52321f26b69b3ccc69dea97df6e4c006b40e1b8dcccf2337bf1",
-      "checked_at": "2026-09-20T07:33:13Z",
+      "checked_at": "2026-09-21T11:47:17Z",
       "activity": {
         "publicationPages": [
           {
@@ -70400,7 +70417,7 @@
     },
     "SNU-RU-510BF8262E3672": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:33:19Z",
+      "checked_at": "2026-09-21T11:47:20Z",
       "activity": {
         "publicationPages": [
           {
@@ -70502,7 +70519,7 @@
     },
     "SNU-RU-31AE4E723553F3": {
       "fingerprint": "c644e55bbf37030e9f242eb30ff7c1ee0f54e2c394982619fe3fd3b2300ba497",
-      "checked_at": "2026-09-20T07:33:15Z",
+      "checked_at": "2026-09-21T11:47:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -247489,11 +247506,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T11:46:47Z",
-    "checked": 155,
-    "seconds": 2478.03,
+    "at": "2026-09-21T11:47:39Z",
+    "checked": 160,
+    "seconds": 2530.23,
     "gemini": true,
-    "ai_requests": 80,
+    "ai_requests": 81,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
