@@ -1,5 +1,5 @@
 {
-  "cursor": 240,
+  "cursor": 245,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -76735,8 +76735,8 @@
       "_unit_id": "SNU-RU-3938280C07DED1"
     },
     "SNU-RU-ADAAC81B3BE0E9": {
-      "fingerprint": "74410cea11ba8471e8ef9206bf8d1da9a09d3a8a9502679f3573aa4fcf78d07b",
-      "checked_at": "2026-09-20T09:07:09Z",
+      "fingerprint": "718285d990b1c22587d1a8be7321c24d2dc3d4f08b6c005534480fab36d0c81c",
+      "checked_at": "2026-09-21T13:51:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -76744,12 +76744,7 @@
             "url": "https://dllab.snu.ac.kr/international-journal/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://dllab.snu.ac.kr/m_professor",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -76762,30 +76757,29 @@
           "https://dllab.snu.ac.kr/m_professor/#member4",
           "https://dllab.snu.ac.kr/m_professor/#member6",
           "https://dllab.snu.ac.kr/m_professor/#member5",
-          "https://dllab.snu.ac.kr/international-journal/"
+          "https://dllab.snu.ac.kr/domestic-journal/"
         ]
       },
       "enrichment": {
-        "research_summary": "김태완 교수는 딥러닝, 머신러닝, 대규모 언어 모델(LLM), 강화학습, SLAM(Simultaneous Localization And Mapping), 디지털 신호 처리 등을 연구하며, 특히 조선해양 분야에 인공지능 기술을 접목하는 연구를 수행하고 있습니다.",
+        "research_summary": "김태완 교수가 이끄는 딥러닝 연구실은 조선해양공학 분야에 딥러닝 및 최적화 기법을 적용하는 연구를 수행합니다. 주요 연구 분야로는 자율운항 선박을 위한 경로 최적화, 선박 기상 라우팅, LiDAR 기반 SLAM(동시적 위치추정 및 지도작성), 그리고 해양 데이터 분석을 위한 딥러닝 모델 개발 등이 포함됩니다.",
         "research_topics": [
-          "Deep Learning",
-          "Machine Learning",
-          "Large Language Model",
-          "Computer-Aided Design (CAD)",
-          "SLAM",
-          "Reinforcement Learning"
+          "자율운항 선박 경로 최적화",
+          "선박 기상 라우팅",
+          "LiDAR 기반 SLAM",
+          "해양 데이터 분석",
+          "딥러닝 기반 상태 추정"
         ],
         "recommendation_keywords": [
-          "딥러닝",
           "조선해양공학",
-          "대규모 언어 모델",
+          "딥러닝",
+          "자율운항",
+          "경로 최적화",
           "SLAM",
-          "인공지능",
-          "Deep Learning",
-          "Machine Learning",
-          "Large Language Model",
-          "Computer-Aided Design (CAD)",
-          "Reinforcement Learning"
+          "자율운항 선박 경로 최적화",
+          "선박 기상 라우팅",
+          "LiDAR 기반 SLAM",
+          "해양 데이터 분석",
+          "딥러닝 기반 상태 추정"
         ],
         "recent_papers": [
           {
@@ -76793,24 +76787,24 @@
             "url": "https://dllab.snu.ac.kr/international-journal/",
             "year": "2026",
             "venue": "Ocean Engineering",
-            "summary": "ETA 제약이 있는 선박의 기상 항로 최적화를 위해 3차원 동적 계획법 내에서 소형 경로-시간 그래프를 구성하는 방법을 제안합니다."
+            "summary": ""
           },
           {
             "title": "Memory-Efficient 3D LiDAR Graph SLAM for Ballast Water Tank Inspection Robots Using Robust Hierarchical Bundle Adjustment and a Kaczmarz Backend",
             "url": "https://dllab.snu.ac.kr/international-journal/",
             "year": "2026",
             "venue": "Journal of Marine Science and Engineering (JMSE)",
-            "summary": "평형수 탱크 검사 로봇을 위한 강건한 계층적 번들 조정 및 Kaczmarz 백엔드를 활용한 메모리 효율적인 3D LiDAR 그래프 SLAM 기술을 다룹니다."
+            "summary": ""
           },
           {
             "title": "Seven security challenges in cross-domain multi-agent LLM systems",
             "url": "https://dllab.snu.ac.kr/international-journal/",
             "year": "2026",
             "venue": "npj Artif. Intell.",
-            "summary": "교차 도메인 다중 에이전트 LLM 시스템에서 발생하는 7가지 보안 과제를 분석합니다."
+            "summary": ""
           }
         ],
-        "recent_year_paper_count": 3,
+        "recent_year_paper_count": 5,
         "recent_year_papers_by_venue": [
           {
             "venue": "Ocean Engineering",
@@ -76823,6 +76817,14 @@
           {
             "venue": "npj Artif. Intell.",
             "count": 1
+          },
+          {
+            "venue": "International Journal of Control, Automation, and Systems",
+            "count": 1
+          },
+          {
+            "venue": "IEEE Robotics and Automation Letters (IEEE RA-L)",
+            "count": 1
           }
         ],
         "books": [],
@@ -76832,70 +76834,18 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1996년 애리조나 주립대학교(Arizona State University)에서 컴퓨터 과학 박사 학위를 취득하였습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "International Journal",
             "url": "https://dllab.snu.ac.kr/international-journal/"
           }
         ],
-        "recruitment_summary": "딥러닝 연구실에서는 대학원생 및 연구원을 모집하고 있으며, 자세한 사항은 연구실 홈페이지 및 조선해양공학과 입학 안내 페이지를 통해 확인할 수 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
-          }
-        ],
-        "recruitment_source_url": "https://naoe.snu.ac.kr/admission/graduate",
-        "current_members": [
-          {
-            "name": "Do Young Park",
-            "role": "Ph.D. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Jae Hoon Jeong",
-            "role": "Ph.D. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Jae Hyun Kim",
-            "role": "Ph.D. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Ji Seong Chung",
-            "role": "Ph.D. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Sung Mok Kim",
-            "role": "M.S. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Gabriel LANOUX",
-            "role": "M.S. student",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          }
-        ],
-        "alumni": [
-          {
-            "name": "Zhengsheng Yu",
-            "role": "Alumni",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Jung-ho Kang",
-            "role": "Alumni",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          },
-          {
-            "name": "Lae-hyung Ryu",
-            "role": "Alumni",
-            "url": "https://dllab.snu.ac.kr/m_professor/"
-          }
-        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
         "member_page_url": "https://dllab.snu.ac.kr/m_professor",
         "poster_status": "none_detected",
         "poster_title": "",
@@ -76906,10 +76856,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dllab.snu.ac.kr/international-journal/",
-          "https://dllab.snu.ac.kr/m_professor/",
-          "https://naoe.snu.ac.kr/admission/graduate",
           "https://dllab.snu.ac.kr/",
           "https://naoe.snu.ac.kr/",
+          "https://dllab.snu.ac.kr/m_professor/",
           "https://dllab.snu.ac.kr/m_professor/#member1",
           "https://dllab.snu.ac.kr/m_professor/#member2",
           "https://dllab.snu.ac.kr/m_professor/#member3",
@@ -76923,7 +76872,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-ADAAC81B3BE0E9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:07:25Z",
+        "_saved_at": "2026-09-21T13:52:38Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -88426,8 +88375,8 @@
       "_unit_id": "SNU-RU-D33EC6B6DC27FD"
     },
     "SNU-RU-0FF12E1B574E1A": {
-      "fingerprint": "637375cf28ea331ebd60846db776faaa638b26c927add88ccbb033ae9590fe7b",
-      "checked_at": "2026-09-20T09:06:35Z",
+      "fingerprint": "65e7a8372e09bc9ecfd4a6bfb4a2f0555bbd71fcf97c8d3a3f405860e90d82f5",
+      "checked_at": "2026-09-21T13:51:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -88519,15 +88468,15 @@
             "parent_source_url": "https://naoe.snu.ac.kr/"
           },
           {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/b1ezfa1zc16z882zf4azf14z551z5b9z9abz12cz2d.jpg",
-            "alt": "임영섭 교수님 연구실",
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/e7bz6c3z296z67bzcebz6dcze0czf9cz890z699z4c.jpg",
+            "alt": "조선호 교수님 연구실",
             "title": "",
             "score": 0,
             "parent_source_url": "https://naoe.snu.ac.kr/"
           },
           {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
-            "alt": "김도균 교수님 연구실",
+            "url": "https://naoe.snu.ac.kr/webdata/noimage/no-youtube.png",
+            "alt": "서유택 교수님 연구실",
             "title": "",
             "score": 0,
             "parent_source_url": "https://naoe.snu.ac.kr/"
@@ -88710,7 +88659,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-0FF12E1B574E1A",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3E57F6BE327CDD": {
       "fingerprint": "6e8eaaf14f7e78c52f51b109ba0152d3fcefbf47109fde9be1b407a1deb9ab6c",
@@ -90252,8 +90201,8 @@
       "_unit_id": "SNU-RU-AE79280A108C07"
     },
     "SNU-RU-91DBA5D02F87A2": {
-      "fingerprint": "06a0edca630998f36ce65404e6ebc9d15bbf1cbee5861b5aac033f2c4088d482",
-      "checked_at": "2026-09-20T09:06:53Z",
+      "fingerprint": "96efc71556f46bfe409c4a79502cbe565e39321fe1b384e58065e22bc7fcec91",
+      "checked_at": "2026-09-21T13:51:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -90451,7 +90400,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-91DBA5D02F87A2",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-CCAC9D41242493": {
       "fingerprint": "d4dbafbca18620c7cca8dd49d6467fcc2175ba233efa1b1ef119d8e6b263b682",
@@ -131419,14 +131368,22 @@
       "_unit_id": "SNU-RU-E091099C887B49"
     },
     "SNU-RU-3552875EB1BE36": {
-      "fingerprint": "519e9f5621a59204248d3f74fa91dc73d84c3c83f4964d4046b9e1f1f0bf3ce7",
-      "checked_at": "2026-09-20T09:06:42Z",
+      "fingerprint": "b84e2dff35683a1ff45bc7cc050748b8182fbdf95da6447c39844f564de25b40",
+      "checked_at": "2026-09-21T13:51:21Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
@@ -131445,7 +131402,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -131458,13 +131415,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙을 진행하고 있습니다.",
+        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙을 진행하고 있으며, 학부 및 대학원 입학 안내 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "신임교수초빙",
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "recruitment_source_url": "https://naoe.snu.ac.kr/faculty-job-openings",
@@ -131481,6 +131446,8 @@
         "source_urls_used": [
           "https://naoe.snu.ac.kr/about/people/faculty",
           "https://naoe.snu.ac.kr/faculty-job-openings",
+          "https://naoe.snu.ac.kr/admission/undergraduate",
+          "https://naoe.snu.ac.kr/admission/graduate",
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20512",
@@ -131488,15 +131455,13 @@
           "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/department/campuslife/student-council",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535",
-          "https://naoe.snu.ac.kr/about/greetings",
-          "https://naoe.snu.ac.kr/admission/undergraduate",
-          "https://naoe.snu.ac.kr/admission/graduate"
+          "https://naoe.snu.ac.kr/about/greetings"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3552875EB1BE36",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:06:53Z",
+        "_saved_at": "2026-09-21T13:52:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -143749,118 +143714,23 @@
       "_unit_id": "SNU-RU-DE04EC4FCEBE79"
     },
     "SNU-RU-E1B20F22C58AB0": {
-      "fingerprint": "3c1110ce2f63d62cd24f5b88f1e5f76e584afe307b5b33d3620531f735f152ef",
-      "checked_at": "2026-09-20T09:06:37Z",
+      "fingerprint": "7a5bc4ee97d3817d3b80da4dd650cceb0e5f9d7d75eda4a27e68fe263c382c49",
+      "checked_at": "2026-09-21T13:51:14Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://theaprilab.org/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "APRILab presented two papers at OCEANS 2022",
-            "url": "https://theaprilab.org/blog/aprilab-presented-two-papers-at-oceans-2022",
-            "kind": "publication"
-          },
-          {
-            "title": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
-            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://theaprilab.org/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "APRILab presented two papers at OCEANS 2022",
-            "url": "https://theaprilab.org/blog/aprilab-presented-two-papers-at-oceans-2022",
-            "kind": "publication"
+            "url": "https://theaprilab.org/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Openings",
-            "url": "https://theaprilab.org/openings/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
-            "kind": "recruitment"
-          },
-          {
-            "title": "· 학부입학",
-            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
-          },
-          {
-            "title": "· 대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate",
-            "kind": "recruitment"
+            "url": "https://theaprilab.org/openings/"
           }
         ],
         "membersUrl": "https://theaprilab.org/people/",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://theaprilab.org/images/logos/aprilab_logo.png",
-            "alt": "APRILab @ UF",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://theaprilab.org/"
-          },
-          {
-            "url": "https://theaprilab.org/images/logos/logo_color_horizontal.png",
-            "alt": "APRILab @ UF",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://theaprilab.org/teaching/"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/_skin/kor/images/site/logo.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
-            "alt": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
-            "alt": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/fc1zfafzcafzff3z33dzba8zab5z7a1z66az9d4zb5.jpg",
-            "alt": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/a60z10cz5a2z39bz2b3zcbdz500ze7fzeabzdaaz6f.jpg",
-            "alt": "HD현대, 서울대·미시간대와 美 조선산업 인재 육성 '맞손'",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
-            "alt": "김도균 교수님 연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr/"
-          }
-        ],
         "sourcePagesScanned": [
           "https://theaprilab.org/",
           "https://naoe.snu.ac.kr/",
@@ -143875,92 +143745,83 @@
         ]
       },
       "enrichment": {
-        "research_summary": "신재정 교수는 플로리다 대학교(University of Florida) 기계항공공학과에서 능동인지 및 로봇지능 연구실(APRILab)을 운영하며, 자율 로봇 시스템을 위한 계획 알고리즘과 로봇 인지 및 추정의 불확실성을 연구합니다. 주요 연구 분야로는 다중 에이전트 타겟 추적을 위한 불확실성 인식 궤적 계획, GNSS가 제한된 환경에서의 자기장 기반 내비게이션, 수중 조사를 위한 'Bathy-drone' 시스템 개발 등이 있습니다.",
+        "research_summary": "신재정 교수가 이끄는 능동인지 및 로봇지능 연구실(APRILab)은 자율 로봇 시스템을 위한 계획 알고리즘과 로봇 인지 원리를 연구합니다. 특히 불확실성을 고려한 인지 및 추정, 자기장 기반 항법(MagNav), 수중 로봇의 자율 경로 계획, 다중 모달 센싱 및 수중 매핑(Bathy-drone) 분야에 집중하고 있습니다.",
         "research_topics": [
-          "Autonomous Robotic Systems",
-          "Robot Perception and Estimation",
-          "Uncertainty-Aware Planning",
-          "Multi-Agent Target Tracking",
-          "Magnetic Navigation",
-          "Underwater Robotics"
+          "자율 로봇 시스템 계획 알고리즘",
+          "로봇 인지 및 불확실성 추정",
+          "자기장 기반 항법(MagNav)",
+          "수중 로봇 자율 경로 계획",
+          "다중 모달 센싱",
+          "수중 매핑(Bathy-drone)"
         ],
         "recommendation_keywords": [
-          "로봇 공학",
-          "자율 주행",
+          "자율주행 로봇",
           "수중 로봇",
-          "궤적 계획",
-          "인지 및 추정",
-          "Autonomous Robotic Systems",
-          "Robot Perception and Estimation",
-          "Uncertainty-Aware Planning",
-          "Multi-Agent Target Tracking",
-          "Magnetic Navigation",
-          "Underwater Robotics"
+          "로봇 인지",
+          "경로 계획",
+          "불확실성 기반 제어",
+          "자율 로봇 시스템 계획 알고리즘",
+          "로봇 인지 및 불확실성 추정",
+          "자기장 기반 항법(MagNav)",
+          "수중 로봇 자율 경로 계획",
+          "다중 모달 센싱",
+          "수중 매핑(Bathy-drone)"
         ],
         "recent_papers": [
+          {
+            "title": "Image Inpainting-Based Point Cloud Restoration for Enhancing Tactical Classification of Unmanned Surface Vehicles",
+            "year": "2026",
+            "venue": "Sensors",
+            "summary": "무인 수상정의 전술적 분류 성능을 향상시키기 위해 이미지 인페인팅 기반의 포인트 클라우드 복원 기법을 제안합니다."
+          },
+          {
+            "title": "Real-Time Uncertainty-Aware Motion Planning for Magnetic-Based Navigation",
+            "year": "2026",
+            "venue": "IEEE Access",
+            "summary": "자기장 기반 항법을 위한 실시간 불확실성 인지 모션 계획 알고리즘을 개발하였습니다."
+          },
           {
             "title": "Point Cloud Structural Similarity-Based Underwater Sonar Loop Detection",
             "year": "2025",
             "venue": "IEEE Robotics and Automation Letters",
-            "summary": "수중 소나 데이터를 활용하여 포인트 클라우드 구조적 유사성을 기반으로 한 루프 검출 기법을 제안합니다."
-          },
-          {
-            "title": "Fast Marching Based Rendezvous Path Planning for a Team of Heterogeneous Vehicles",
-            "year": "2024",
-            "venue": "IEEE Access",
-            "summary": "이종 차량 팀을 위한 고속 행진(Fast Marching) 기반의 랑데부 경로 계획 알고리즘을 제시합니다."
+            "summary": "포인트 클라우드 구조적 유사성을 활용하여 수중 소나 데이터의 루프 검출 성능을 개선하는 방법을 제안합니다."
           }
         ],
-        "recent_year_paper_count": 10,
+        "recent_year_paper_count": 15,
         "recent_year_papers_by_venue": [
           {
-            "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+            "venue": "OCEANS 2026",
+            "count": 4
+          },
+          {
+            "venue": "AIAA SCITECH 2026",
+            "count": 1
+          },
+          {
+            "venue": "IROS 2025",
             "count": 2
           },
           {
-            "venue": "AIAA SCITECH Forum",
-            "count": 2
-          },
-          {
-            "venue": "IEEE Access",
+            "venue": "ACC 2025",
             "count": 1
           },
           {
-            "venue": "IEEE Robotics and Automation Letters",
+            "venue": "SPIE 2025",
             "count": 1
           },
           {
-            "venue": "American Control Conference (ACC)",
-            "count": 1
-          },
-          {
-            "venue": "Proc. SPIE",
-            "count": 1
-          },
-          {
-            "venue": "Conference on Robot Learning (CoRL)",
-            "count": 1
-          },
-          {
-            "venue": "ASABE Annual International Meeting",
+            "venue": "AIAA SCITECH 2025",
             "count": 1
           }
         ],
-        "books": [],
-        "conference_presentations": [],
-        "research_projects": [],
-        "recent_performances": [],
-        "creative_works": [],
-        "recent_solo_exhibitions": [],
-        "recent_group_exhibitions": [],
-        "education_summary": "플로리다 대학교(University of Florida) 기계항공공학과 조교수로 재직 중입니다.",
+        "education_summary": "2026년 가을 학기부터 서울대학교 조선해양공학과에서 '유체역학개론'을 강의하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://theaprilab.org/publications/"
           }
         ],
-        "recruitment_summary": "매년 박사 및 석사 과정 학생을 모집하며, 관심 있는 학생은 이력서와 연구 계획서를 제출해야 합니다. 학부 연구생은 별도의 온라인 폼을 통해 지원할 수 있습니다.",
+        "recruitment_summary": "APRILab에서는 석박사 과정 학생 및 포닥 연구원을 상시 모집하고 있습니다. 관심 있는 지원자는 CV와 연구 계획서를 이메일로 제출해야 합니다.",
         "verified_recruitment_pages": [
           {
             "title": "Openings",
@@ -144000,40 +143861,45 @@
             "url": "https://theaprilab.org/people/"
           }
         ],
-        "alumni": [],
         "member_page_url": "https://theaprilab.org/people/",
         "poster_status": "none_detected",
+        "source_urls_used": [
+          "https://theaprilab.org/",
+          "https://theaprilab.org/people/",
+          "https://theaprilab.org/publications/",
+          "https://theaprilab.org/research/",
+          "https://theaprilab.org/openings/",
+          "https://theaprilab.org/teaching/",
+          "https://naoe.snu.ac.kr/",
+          "https://theaprilab.org/blog/aprilab-presented-two-papers-at-oceans-2022",
+          "https://theaprilab.org/news/",
+          "https://naoe.snu.ac.kr",
+          "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
+          "https://naoe.snu.ac.kr/faculty-job-openings"
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "alumni": [],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "",
         "poster_source_url": "",
         "poster_evidence": "",
-        "source_urls_used": [
-          "https://theaprilab.org/",
-          "https://theaprilab.org/openings/",
-          "https://theaprilab.org/people/",
-          "https://theaprilab.org/publications/",
-          "https://theaprilab.org/research/",
-          "https://naoe.snu.ac.kr/",
-          "https://theaprilab.org/blog/aprilab-presented-two-papers-at-oceans-2022",
-          "https://theaprilab.org/news/",
-          "https://theaprilab.org/teaching/",
-          "https://theaprilab.org/blog/aprilunch-end-of-semester-presentations",
-          "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
-          "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21550"
-        ],
-        "paper_count_visible": 2,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E1B20F22C58AB0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T09:51:25Z",
+        "_saved_at": "2026-09-21T13:52:00Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-E1B20F22C58AB0",
-      "verify_error": "verify_JSONDecodeError"
+      "_unit_id": "SNU-RU-E1B20F22C58AB0"
     },
     "SNU-RU-F031A93DE55E30": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -253370,11 +253236,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:51:02Z",
-    "checked": 660,
-    "seconds": 9933.63,
+    "at": "2026-09-21T13:52:38Z",
+    "checked": 665,
+    "seconds": 10029.09,
     "gemini": true,
-    "ai_requests": 347,
+    "ai_requests": 350,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
