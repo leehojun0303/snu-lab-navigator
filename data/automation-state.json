@@ -1,5 +1,5 @@
 {
-  "cursor": 110,
+  "cursor": 115,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -95574,8 +95574,8 @@
       "_unit_id": "SNU-RU-7023DECA9311F8"
     },
     "SNU-RU-D8BE352067E700": {
-      "fingerprint": "67a94dcb08e7dd986e5ff460e544666b1f1ff314799920d47440066102da3d5b",
-      "checked_at": "2026-09-20T08:40:43Z",
+      "fingerprint": "1afa7a1746af33863f21610d10677d711d00998589907442109657d7d84e882d",
+      "checked_at": "2026-09-21T13:05:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -95593,6 +95593,10 @@
           {
             "title": "Domestic Conference",
             "url": "http://scm.snu.ac.kr/publications/conference-do.asp"
+          },
+          {
+            "title": "Patent & Book",
+            "url": "http://scm.snu.ac.kr/publications/patent_book.asp"
           }
         ],
         "recruitmentPages": [
@@ -95606,7 +95610,7 @@
           }
         ],
         "membersUrl": "http://scm.snu.ac.kr/researchers/award.asp",
-        "posterStatus": "none_detected",
+        "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "http://scm.snu.ac.kr/",
           "https://ie.snu.ac.kr",
@@ -95659,6 +95663,10 @@
           {
             "title": "Domestic Conference",
             "url": "http://scm.snu.ac.kr/publications/conference-do.asp"
+          },
+          {
+            "title": "Patent & Book",
+            "url": "http://scm.snu.ac.kr/publications/patent_book.asp"
           }
         ],
         "recruitment_summary": "",
@@ -95676,7 +95684,7 @@
         "current_members": [],
         "alumni": [],
         "member_page_url": "http://scm.snu.ac.kr/researchers/award.asp",
-        "poster_status": "none_detected",
+        "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -95685,26 +95693,24 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://scm.snu.ac.kr/",
-          "http://scm.snu.ac.kr/publications/conference-do.asp",
-          "http://scm.snu.ac.kr/publications/conference-in.asp",
-          "http://scm.snu.ac.kr/publications/journal-do.asp",
-          "http://scm.snu.ac.kr/publications/journal-in.asp",
-          "http://scm.snu.ac.kr/researchers/award.asp",
           "https://ie.snu.ac.kr/",
-          "https://ie.snu.ac.kr/grad_admission/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr",
+          "http://scm.snu.ac.kr/researchers/award.asp",
           "http://scm.snu.ac.kr/professor/profile.asp",
           "http://scm.snu.ac.kr/professor/news.asp",
           "http://scm.snu.ac.kr/researchers/phd.asp",
           "http://scm.snu.ac.kr/researchers/master.asp",
-          "http://scm.snu.ac.kr/researchers/alumni.asp"
+          "http://scm.snu.ac.kr/researchers/alumni.asp",
+          "http://scm.snu.ac.kr/publications/journal-in.asp",
+          "http://scm.snu.ac.kr/publications/journal-do.asp",
+          "http://scm.snu.ac.kr/publications/conference-in.asp",
+          "http://scm.snu.ac.kr/publications/conference-do.asp"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D8BE352067E700",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T08:41:01Z",
+        "_saved_at": "2026-09-21T13:05:56Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -99472,30 +99478,125 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-E55207F1C9698B": {
-      "fingerprint": "c229a9f5def9f6d084d10409fa42115849b896ff4e26c1e8dec38aeccdb8d627",
-      "checked_at": "2026-09-20T08:40:53Z",
+      "fingerprint": "279e3c5a36764e8426b4e5406858f93c0c0e6c824476b568ea0f44d73bfe47a6",
+      "checked_at": "2026-09-21T13:05:52Z",
       "activity": {
         "publicationPages": [
           {
+            "title": "한채훈 박사과정 학생 - 2024년 대한산업공학회 석사논문 경진대회 대상 수상",
+            "url": "https://om.snu.ac.kr/awards/?mod=document&uid=88",
+            "kind": "publication"
+          },
+          {
             "title": "Publication",
-            "url": "https://om.snu.ac.kr/publication/"
+            "url": "https://om.snu.ac.kr/publication/",
+            "kind": "publication"
+          },
+          {
+            "title": "Optimal overbooking and allocation decisions for a carrier with multiple forwarders in air cargo industry",
+            "url": "https://om.snu.ac.kr/publication/optimal-overbooking-and-allocation-decisions-for-a-carrier-with-multiple-forwarders-in-air-cargo-industry/",
+            "kind": "publication"
+          },
+          {
+            "title": "Pricing and wage decisions for on-demand food delivery platforms with multiple customer classes and courier pools",
+            "url": "https://om.snu.ac.kr/publication/pricing-and-wage-decisions-for-on-demand-food-delivery-platforms-with-multiple-customer-classes-and-courier-pools/",
+            "kind": "publication"
+          },
+          {
+            "title": "Battery swapping, vehicle rebalancing, and staff routing for electric scooter sharing systems",
+            "url": "https://om.snu.ac.kr/publication/battery-swapping-vehicle-rebalancing-and-staff-routing-for-electric-scooter-sharing-systems/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/",
+            "kind": "recruitment"
+          },
+          {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
-            "url": "https://ie.snu.ac.kr/grad_admission/"
+            "url": "https://ie.snu.ac.kr/grad_admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 하반기 BK21 4단계 대학원혁신사업 대학원생 국제공동연구 지원사업 안내",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6491",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://om.snu.ac.kr/members/professor/",
+        "membersUrl": "https://om.snu.ac.kr/awards/?mod=document&uid=88",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://om.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+            "alt": "서울대학교 운영관리 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://om.snu.ac.kr/publication/optimal-overbooking-and-allocation-decisions-for-a-carrier-with-multiple-forwarders-in-air-cargo-industry/"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
+            "alt": "서울대학교 SNU",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2021/02/f_logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://om.snu.ac.kr/",
           "https://ie.snu.ac.kr",
           "https://om.snu.ac.kr/awards/?mod=document&uid=88",
           "https://om.snu.ac.kr/members/professor/",
           "https://om.snu.ac.kr/members/students/",
-          "https://om.snu.ac.kr/awards/?mod=document&uid=98",
+          "https://om.snu.ac.kr/members/alumni/",
           "https://om.snu.ac.kr/publication/",
           "https://om.snu.ac.kr/awards/",
           "https://om.snu.ac.kr/members/alumni/",
@@ -99612,9 +99713,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T08:41:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-E55207F1C9698B"
+      "_unit_id": "SNU-RU-E55207F1C9698B",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-44E3D3169E7BA2": {
       "fingerprint": "3c0b7b49616fde848ce3f859bd9067a9d5db430506ba07af0c9c67263b6345de",
@@ -101888,8 +101991,8 @@
       "_unit_id": "SNU-RU-34C189366892E4"
     },
     "SNU-RU-04CAC1F6E5C516": {
-      "fingerprint": "4c510efbca1b7ec7716c882c6e783f69d2959e6950cb1ea2de08a795c3a80e39",
-      "checked_at": "2026-09-20T08:40:54Z",
+      "fingerprint": "a454b00ca94dbbf28e8136812df7d99154dd459879157abd1145ffcdc34dee0f",
+      "checked_at": "2026-09-21T13:05:51Z",
       "activity": {
         "publicationPages": [
           {
@@ -101898,8 +102001,8 @@
             "kind": "publication"
           },
           {
-            "title": "Journal",
-            "url": "https://or.snu.ac.kr/main-template-02/journal/",
+            "title": "2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6492",
             "kind": "publication"
           },
           {
@@ -101913,8 +102016,8 @@
             "kind": "publication"
           },
           {
-            "title": "본문 바로가기",
-            "url": "https://or.snu.ac.kr/main-template-02/journal/#container",
+            "title": "Journal",
+            "url": "https://or.snu.ac.kr/main-template-02/journal/",
             "kind": "publication"
           }
         ],
@@ -101935,8 +102038,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "2027학년도 대학원 전기모집 면접 및 필답고사 일정 안내",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6476",
+            "title": "2026년 하반기 BK21 4단계 대학원혁신사업 대학원생 국제공동연구 지원사업 안내",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6491",
             "kind": "recruitment"
           }
         ],
@@ -102009,7 +102112,7 @@
           "https://or.snu.ac.kr/main-template-02/journal/",
           "https://or.snu.ac.kr/#container",
           "https://or.snu.ac.kr/#footer",
-          "https://snu.ac.kr/index.html",
+          "https://snu.ac.kr/",
           "https://or.snu.ac.kr/login/?redirect_to=%2F"
         ]
       },
@@ -108546,31 +108649,117 @@
       "_unit_id": "SNU-RU-9F04AAF9C0F382"
     },
     "SNU-RU-156EC79866411D": {
-      "fingerprint": "f62725d0b3e40fdf3af206ab40063de137181fbbcb99940e6bc0bd214e6d0fe2",
-      "checked_at": "2026-09-18T11:26:39Z",
+      "fingerprint": "6d90bf59b859c57de5cb50855305336b0fbf8ef0ddf4fd928d8e15c168a27ae6",
+      "checked_at": "2026-09-21T13:05:52Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6492",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+            "url": "https://ie.snu.ac.kr/undergrad_admission/",
+            "kind": "recruitment"
           },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
-            "url": "https://ie.snu.ac.kr/grad_admission/"
+            "url": "https://ie.snu.ac.kr/grad_admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 하반기 BK21 4단계 대학원혁신사업 대학원생 국제공동연구 지원사업 안내",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6491",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://ie.snu.ac.kr/professor/",
+        "membersUrl": "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/logo-1.png",
+            "alt": "서울대학교 SNU",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6475"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2021/02/f_logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6475"
+          },
+          {
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2022/09/img_movie03-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ie.snu.ac.kr/undergrad_admission/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://ie.snu.ac.kr",
           "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr/grad_admission/",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
           "https://ie.snu.ac.kr/intro/",
           "https://ie.snu.ac.kr/professor/",
-          "https://ie.snu.ac.kr/former_faculty/",
           "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
           "https://ie.snu.ac.kr/notice/?mod=document&uid=6471",
           "https://ie.snu.ac.kr/notice/?mod=document&uid=6475"
         ]
@@ -108651,9 +108840,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-18T11:27:03Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-156EC79866411D"
+      "_unit_id": "SNU-RU-156EC79866411D",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-33315759CCCE4A": {
       "fingerprint": "95444fbe59c3c156eaafa9c5f5846461c893612160f47c103542665e1b14a2f7",
@@ -113794,13 +113985,18 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-DEA600066F3049": {
-      "fingerprint": "ffc7d73f2bc8b9a5c9b3fee0ef9e27bd64f23710d4de427d03d5a76aeb7c99ab",
-      "checked_at": "2026-09-20T08:40:56Z",
+      "fingerprint": "ef1b9195d3571e3f2bad627e02de6b28142a76a119312345123da3d9b80b7744",
+      "checked_at": "2026-09-21T13:05:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
             "url": "https://imlab.snu.ac.kr/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6492",
             "kind": "publication"
           },
           {
@@ -113816,11 +114012,6 @@
           {
             "title": "로그인",
             "url": "https://imlab.snu.ac.kr/login/?redirect_to=%2Fpublications%2F",
-            "kind": "publication"
-          },
-          {
-            "title": "사이트맵",
-            "url": "https://imlab.snu.ac.kr/publications/#none",
             "kind": "publication"
           }
         ],
@@ -113841,8 +114032,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "2027학년도 대학원 전기모집 면접 및 필답고사 일정 안내",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6476",
+            "title": "2026년 하반기 BK21 4단계 대학원혁신사업 대학원생 국제공동연구 지원사업 안내",
+            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6491",
             "kind": "recruitment"
           }
         ],
@@ -113861,7 +114052,7 @@
             "alt": "서울대학교 SNU",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://ie.snu.ac.kr"
+            "parent_source_url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
             "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2020/12/icon_shortcut02-1-1.png",
@@ -113892,18 +114083,18 @@
             "parent_source_url": "https://ie.snu.ac.kr"
           },
           {
-            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2021/02/f_logo.png",
-            "alt": "",
+            "url": "https://ie.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
             "title": "",
             "score": 0,
             "parent_source_url": "https://ie.snu.ac.kr"
           },
           {
-            "url": "https://imlab.snu.ac.kr/wp-content/uploads/sites/87/2026/06/profjhp-150x150.jpg",
+            "url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2021/02/f_logo.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://imlab.snu.ac.kr/professor/"
+            "parent_source_url": "https://ie.snu.ac.kr/undergrad_admission/"
           }
         ],
         "sourcePagesScanned": [
@@ -113913,10 +114104,10 @@
           "https://imlab.snu.ac.kr/professor/",
           "https://imlab.snu.ac.kr/students/",
           "https://www.snu.ac.kr/personal_information",
-          "https://imlab.snu.ac.kr/#container",
           "https://imlab.snu.ac.kr/#footer",
-          "https://snu.ac.kr/index.html",
-          "https://imlab.snu.ac.kr/login/?redirect_to=%2F"
+          "https://snu.ac.kr/",
+          "https://imlab.snu.ac.kr/login/?redirect_to=%2F",
+          "https://ie.snu.ac.kr/undergrad_admission/"
         ]
       },
       "enrichment": {
@@ -250480,18 +250671,14 @@
     "SNU-RU-8F39CBF77056F4": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-14T11:12:50Z"
-    },
-    "SNU-RU-156EC79866411D": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-20T08:40:36Z"
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:05:30Z",
-    "checked": 530,
-    "seconds": 7200.74,
+    "at": "2026-09-21T13:07:29Z",
+    "checked": 535,
+    "seconds": 7319.74,
     "gemini": true,
-    "ai_requests": 266,
+    "ai_requests": 267,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
