@@ -1,5 +1,5 @@
 {
-  "cursor": 135,
+  "cursor": 140,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -24894,7 +24894,7 @@
     },
     "SNU-RU-9DE1A8D93C4DC6": {
       "fingerprint": "781cecc343ba94a34e50e4ac0cdb4875df34e06efe7d49cd1bfcd8f7ae706fff",
-      "checked_at": "2026-09-20T08:43:51Z",
+      "checked_at": "2026-09-21T13:15:19Z",
       "activity": {
         "publicationPages": [
           {
@@ -214873,22 +214873,92 @@
       "_unit_id": "SNU-RU-7C11814943DA04"
     },
     "SNU-RU-762B93CBF8F7D2": {
-      "fingerprint": "1101360cdf73db683fd98e414a1ffac891cad2eef9911e2c6b1958dea85badd2",
-      "checked_at": "2026-09-20T08:43:47Z",
+      "fingerprint": "396aab45e858d433b39e4332627bdfef8296ccdb1bd2f2ab5ac4b6fc98993bad",
+      "checked_at": "2026-09-21T13:15:16Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
-            "title": "대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=166",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/e89z844z37bz73ez839z380z57cze71z6c6zcccz12.jpg",
+            "alt": "조형규 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=166"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
+            "alt": "서울대학교 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg",
+            "alt": "“우라늄 농축·사용후핵연료 재처리 권한 확보, 명확한 필요성 제시돼야”",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=166",
           "https://nucleng.snu.ac.kr",
@@ -214974,9 +215044,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-18T11:31:31Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-762B93CBF8F7D2"
+      "_unit_id": "SNU-RU-762B93CBF8F7D2",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AC50F8CD94E2D3": {
       "fingerprint": "15ab75ea4fca63c395eea4215ecc4cb31ebd5b9cca77dffeecc687293eb05036",
@@ -216237,8 +216309,8 @@
       "_unit_id": "SNU-RU-4D692E2EBED4D1"
     },
     "SNU-RU-1369BBFD677688": {
-      "fingerprint": "83c6ccfdee2d65a96635a788f700513fb1127dfaa6d4c0b230f88533694a19df",
-      "checked_at": "2026-09-20T08:43:47Z",
+      "fingerprint": "c378c5f74eb035f2dfdafe6e69561c302355b0cc991d2352ddf83dff90159630",
+      "checked_at": "2026-09-21T13:15:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -216267,7 +216339,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "원자로물리 분야를 중심으로 다물리 해석, 몬테카를로 원자로 해석, 계산과학 및 고성능컴퓨팅 연구를 수행하고 있습니다.",
+        "research_summary": "원자로물리 분야를 중심으로 다물리 해석, 몬테카를로 원자로 해석, 계산과학 및 고성능컴퓨팅 기술을 연구하고 있습니다.",
         "research_topics": [
           "원자로물리",
           "다물리 해석",
@@ -216292,7 +216364,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1984년 서울대학교 원자핵공학 학사, 1986년 석사를 거쳐 1996년 퍼듀 대학교에서 원자력공학 박사 학위를 취득하였습니다.",
+        "education_summary": "1984년 서울대학교 원자핵공학 학사, 1986년 석사를 취득하였으며, 1996년 퍼듀 대학교에서 원자력공학 박사 학위를 받았습니다.",
         "verified_publication_pages": [],
         "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
@@ -216334,7 +216406,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1369BBFD677688",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:31:20Z",
+        "_saved_at": "2026-09-21T13:16:31Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -220988,8 +221060,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-74C9011610D466": {
-      "fingerprint": "91e89d37640b9bf9e0f76449df07630e21e94e782139ea817f8d176bff033fe4",
-      "checked_at": "2026-09-20T08:43:47Z",
+      "fingerprint": "c23dbe031642c71d0ccced611868490fbb4698e56ca8d450f8533b198761b34d",
+      "checked_at": "2026-09-21T13:15:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -221027,7 +221099,7 @@
           "고온 SMR 재료열화",
           "용융염 전기화학",
           "펄스 레이저 분광",
-          "핵비확산 및 핵안보",
+          "핵비확산 핵안보",
           "원자력 정책"
         ],
         "recommendation_keywords": [
@@ -221038,12 +221110,12 @@
           "SMR",
           "용융염",
           "핵비확산",
-          "원자력정책",
+          "원자력 정책",
           "사용후핵연료 관리",
           "고온 SMR 재료열화",
           "용융염 전기화학",
           "펄스 레이저 분광",
-          "핵비확산 및 핵안보"
+          "핵비확산 핵안보"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -221057,7 +221129,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "2012년 서울대학교에서 원자핵공학 박사 학위를, 2008년 학사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 원자핵공학과 대학원 입학 및 학부 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
+        "recruitment_summary": "서울대학교 원자핵공학과 학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "학부입학",
@@ -221078,7 +221150,7 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/825z777z1e7z29czbd2z3eez69fz6bez643z3b4z3c.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=165",
-        "poster_evidence": "공식 교수진 페이지 내 프로필 사진으로 확인됨",
+        "poster_evidence": "최성열 교수 사진",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=165",
           "https://nucleng.snu.ac.kr/admission/graduate",
@@ -221097,7 +221169,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-74C9011610D466",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:31:37Z",
+        "_saved_at": "2026-09-21T13:16:07Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -228320,8 +228392,8 @@
       "_unit_id": "SNU-RU-399973A5C48F10"
     },
     "SNU-RU-400C042F9B7171": {
-      "fingerprint": "084a7438f13b616432cdf255c1e46de6c1b64661dad6956098ceba46c6b90495",
-      "checked_at": "2026-09-20T08:43:47Z",
+      "fingerprint": "093e3c3e16e01dc1fbc09cb5384ee7d155ab74e5f73e5c48f5cb52506b6bf6a6",
+      "checked_at": "2026-09-21T13:15:17Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -228350,7 +228422,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "핵융합 공학 및 플라즈마 물리를 연구하며, 특히 플라즈마 물리, 핵융합로 공학, 구형 토카막 실험로 운전, 플라즈마 제어 및 진단 분야를 중점적으로 다루고 있습니다.",
+        "research_summary": "핵융합 공학 및 플라즈마 물리를 중심으로 플라즈마 물리, 핵융합로 공학, 구형 토카막 실험로 운전, 플라즈마 제어 및 진단 분야를 연구하고 있습니다.",
         "research_topics": [
           "플라즈마 물리",
           "핵융합로 공학",
@@ -228362,7 +228434,6 @@
           "플라즈마 물리",
           "구형 토카막",
           "플라즈마 제어",
-          "플라즈마 진단",
           "핵융합로 공학",
           "구형 토카막 실험로 운전",
           "플라즈마 제어 및 진단"
@@ -228400,7 +228471,7 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/0aaz860z116z5bbz245z4eezad1za77zb9dz41ezd3.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=169",
-        "poster_evidence": "공식 교수진 페이지에 게시된 황용석 교수의 프로필 사진입니다.",
+        "poster_evidence": "공식 교수진 페이지에 게시된 황용석 교수 사진입니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=169",
           "https://nucleng.snu.ac.kr/admission/graduate",
@@ -228419,7 +228490,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-400C042F9B7171",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-18T11:31:45Z",
+        "_saved_at": "2026-09-21T13:16:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -251240,11 +251311,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:15:01Z",
-    "checked": 555,
-    "seconds": 7772.42,
+    "at": "2026-09-21T13:16:31Z",
+    "checked": 560,
+    "seconds": 7862.33,
     "gemini": true,
-    "ai_requests": 278,
+    "ai_requests": 281,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
