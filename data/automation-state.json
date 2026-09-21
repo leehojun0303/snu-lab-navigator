@@ -1,5 +1,5 @@
 {
-  "cursor": 235,
+  "cursor": 240,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -11414,14 +11414,22 @@
       "_unit_id": "SNU-RU-8F88E7FBF80929"
     },
     "SNU-RU-711747F94EB88A": {
-      "fingerprint": "a2d18a76814f568504db7e6140cfd96087aa4a7dde3b5812320a2b7a6cba9d32",
-      "checked_at": "2026-09-20T09:05:26Z",
+      "fingerprint": "29f1168a6f373ee4c792e4f5b0e15b1dd30f02e04fc9d12f1140e5806f38a46f",
+      "checked_at": "2026-09-21T13:49:44Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
@@ -11442,7 +11450,10 @@
       "enrichment": {
         "research_summary": "",
         "research_topics": [],
-        "recommendation_keywords": [],
+        "recommendation_keywords": [
+          "지능형 수소에너지 시스템",
+          "조선해양공학"
+        ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -11453,13 +11464,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 조선해양공학과 부교수로 재직 중이며, 지능형 수소에너지 시스템연구실을 운영하고 있습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "서울대학교 조선해양공학과 신임교수 초빙에 관한 정보는 학과 홈페이지의 신임교수초빙 페이지를 통해 확인할 수 있습니다.",
+        "recruitment_summary": "서울대학교 조선해양공학과에서는 신임교수 초빙 및 학부/대학원 입학 안내를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "신임교수초빙",
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
         "recruitment_source_url": "https://naoe.snu.ac.kr/faculty-job-openings",
@@ -11475,6 +11494,8 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://naoe.snu.ac.kr/about/people/faculty",
+          "https://naoe.snu.ac.kr/admission/graduate",
+          "https://naoe.snu.ac.kr/admission/undergraduate",
           "https://naoe.snu.ac.kr/faculty-job-openings",
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
@@ -11483,15 +11504,13 @@
           "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/department/campuslife/student-council",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535",
-          "https://naoe.snu.ac.kr/about/greetings",
-          "https://naoe.snu.ac.kr/admission/undergraduate",
-          "https://naoe.snu.ac.kr/admission/graduate"
+          "https://naoe.snu.ac.kr/about/greetings"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-711747F94EB88A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:06:04Z",
+        "_saved_at": "2026-09-21T13:50:00Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -38973,31 +38992,98 @@
       "_unit_id": "SNU-RU-750B01AEED79B4"
     },
     "SNU-RU-51D90BB24D0B20": {
-      "fingerprint": "8cce57b331318feede8516e37d7c42ec29fa23904e1028a9b56d05d4bdc274b2",
-      "checked_at": "2026-09-20T09:05:26Z",
+      "fingerprint": "1b5030b6562add1ef6044a8c88390f4fe773f1d2b37f6821a4a17ced43ed73a9",
+      "checked_at": "2026-09-21T13:49:45Z",
       "activity": {
         "publicationPages": [
           {
             "title": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
-            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509"
+            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "· 학부입학",
-            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
             "title": "· 대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://naoe.snu.ac.kr/about/people/faculty",
+        "membersUrl": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://naoe.snu.ac.kr/_skin/kor/images/site/logo.png?ver=2021-03-30",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/about/greetings"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
+            "alt": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
+            "alt": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/fc1zfafzcafzff3z33dzba8zab5z7a1z66az9d4zb5.jpg",
+            "alt": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/a60z10cz5a2z39bz2b3zcbdz500ze7fzeabzdaaz6f.jpg",
+            "alt": "HD현대, 서울대·미시간대와 美 조선산업 인재 육성 '맞손'",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/eeczff6ze24z8d2z3adzdacz390z969zb6fz283z36.jpg",
+            "alt": "이신형 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/e7bz6c3z296z67bzcebz6dcze0czf9cz890z699z4c.jpg",
+            "alt": "조선호 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/noimage/no-youtube.png",
+            "alt": "서유택 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
@@ -39100,9 +39186,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T09:06:13Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-51D90BB24D0B20"
+      "_unit_id": "SNU-RU-51D90BB24D0B20",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9E529B867CDCA1": {
       "fingerprint": "18922d7651f8f3dc2029730e1a7a970c7c7a4b33d3111ea5dc9e3fe8b249b385",
@@ -59525,8 +59613,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-BB862EBF1EDD80": {
-      "fingerprint": "c89c934d34001010ccff9350400e748dcd2f09f5f57d51a02e80ac964b211a79",
-      "checked_at": "2026-09-20T09:05:27Z",
+      "fingerprint": "1f33bb47007f2b13a7d265413f94a596e1adeacaa29872e325ac17fbed898c08",
+      "checked_at": "2026-09-21T13:49:45Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -59535,11 +59623,11 @@
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
           },
           {
-            "title": "· 학부입학",
+            "title": "학부입학",
             "url": "https://naoe.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "· 대학원입학",
+            "title": "대학원입학",
             "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
@@ -59581,11 +59669,11 @@
             "url": "https://naoe.snu.ac.kr/faculty-job-openings"
           },
           {
-            "title": "· 학부입학",
+            "title": "학부입학",
             "url": "https://naoe.snu.ac.kr/admission/undergraduate"
           },
           {
-            "title": "· 대학원입학",
+            "title": "대학원입학",
             "url": "https://naoe.snu.ac.kr/admission/graduate"
           }
         ],
@@ -59595,7 +59683,7 @@
         "member_page_url": "https://naoe.snu.ac.kr/about/people/faculty",
         "poster_status": "verified",
         "poster_title": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
-        "poster_date": "",
+        "poster_date": "2024",
         "poster_event": "미국 조선학회(SNAME) 학술공로상 수상",
         "poster_image_url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
         "poster_source_url": "https://naoe.snu.ac.kr/",
@@ -59603,22 +59691,22 @@
         "source_urls_used": [
           "https://naoe.snu.ac.kr/",
           "https://naoe.snu.ac.kr/about/people/faculty",
-          "https://naoe.snu.ac.kr/admission/graduate",
-          "https://naoe.snu.ac.kr/admission/undergraduate",
-          "https://naoe.snu.ac.kr/faculty-job-openings",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20512",
+          "https://naoe.snu.ac.kr/faculty-job-openings",
           "https://naoe.snu.ac.kr/about/people/emeritus",
           "https://naoe.snu.ac.kr/about/people/staff",
           "https://naoe.snu.ac.kr/department/campuslife/student-council",
           "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20535",
-          "https://naoe.snu.ac.kr/about/greetings"
+          "https://naoe.snu.ac.kr/about/greetings",
+          "https://naoe.snu.ac.kr/admission/undergraduate",
+          "https://naoe.snu.ac.kr/admission/graduate"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BB862EBF1EDD80",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:06:27Z",
+        "_saved_at": "2026-09-21T13:51:02Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -227452,13 +227540,118 @@
       "_unit_id": "SNU-RU-D75C77E6FCED2E"
     },
     "SNU-RU-F186011A7FD9CF": {
-      "fingerprint": "c2a20d48fbb39973d4b2716f0ac9172c04be102fbc126f71041abbb2021aa1cc",
-      "checked_at": "2026-09-20T09:05:15Z",
+      "fingerprint": "64746090691eafc9c56df6a8cd2cc756e8b1c365d3e2cbe87e4f24a65f3cd6d7",
+      "checked_at": "2026-09-21T13:49:34Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "Publication",
+            "url": "https://sites.google.com/view/apcs-lab/publication",
+            "kind": "publication"
+          },
+          {
+            "title": "Conferences",
+            "url": "https://sites.google.com/view/apcs-lab/publication/conferences",
+            "kind": "publication"
+          },
+          {
+            "title": "Journals",
+            "url": "https://sites.google.com/view/apcs-lab/publication/journals",
+            "kind": "publication"
+          },
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+            "kind": "publication"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+            "kind": "recruitment"
+          },
+          {
+            "title": "취업ㆍ진로",
+            "url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://sites.google.com/view/apcs-lab/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/professor/5c1z97czf1dz17bz495z8e9z749z270z09ez02ezd4.png",
+            "alt": "홍성완 부교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p918"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p918"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/mo-logo.png",
+            "alt": "서울대학교 전기·정보공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p918"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+            "alt": "홍용택 교수 연구팀 (이병걸, 장동주 박사과정), IMID 2026, KIDS Awards (Silver) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+            "alt": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg",
+            "alt": "2025학년도 후기(제80회) 전기·정보공학부 졸업 수상자들",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/apcs-lab",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p918",
@@ -227518,9 +227711,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T09:05:53Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-F186011A7FD9CF"
+      "_unit_id": "SNU-RU-F186011A7FD9CF",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-66ABF9CA629265": {
       "fingerprint": "c556985bc9863910fc6c35dc0d1708ba1e8008c80408389f87ea5143e843d230",
@@ -232070,8 +232265,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6AA03A6D35661E": {
-      "fingerprint": "7dfbb42970944a6256edcaaee829c6d2a66f3413bf334f1da02f685b814c55d3",
-      "checked_at": "2026-09-20T09:05:23Z",
+      "fingerprint": "24a97f22f2b6891141f1095edfbee5c92477d53b7ec91b7dde93f2881b990afe",
+      "checked_at": "2026-09-21T13:49:44Z",
       "activity": {
         "publicationPages": [
           {
@@ -232105,21 +232300,24 @@
         ]
       },
       "enrichment": {
-        "research_summary": "홍용택 교수는 유연성 및 신축성 전자 소자와 회로, 유기/무기 발광 다이오드 디스플레이, 박막 소자 및 회로 분야를 중점적으로 연구하고 있습니다.",
+        "research_summary": "홍용택 교수는 차세대 유연 및 신축성 전자소자, 유기/무기 발광 다이오드 디스플레이, 박막 소자 및 회로 분야를 연구하고 있습니다.",
         "research_topics": [
           "유연성 전자 소자 및 회로",
           "신축성 전자 소자 및 회로",
-          "유기/무기 발광 다이오드 디스플레이",
+          "유기 발광 다이오드 디스플레이",
+          "무기 발광 다이오드 디스플레이",
           "박막 소자 및 회로"
         ],
         "recommendation_keywords": [
-          "유연성 전자 소자",
+          "유연성",
           "신축성 전자 소자",
-          "OLED",
-          "박막 트랜지스터",
+          "유기 발광 다이오드",
+          "무기 발광 다이오드",
+          "박막 소자",
           "유연성 전자 소자 및 회로",
           "신축성 전자 소자 및 회로",
-          "유기/무기 발광 다이오드 디스플레이",
+          "유기 발광 다이오드 디스플레이",
+          "무기 발광 다이오드 디스플레이",
           "박막 소자 및 회로"
         ],
         "recent_papers": [],
@@ -232139,7 +232337,7 @@
             "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051"
           }
         ],
-        "recruitment_summary": "서울대학교 전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -232160,7 +232358,7 @@
         "poster_event": "IMID 2026",
         "poster_image_url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
         "poster_source_url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
-        "poster_evidence": "홍용택 교수 연구팀의 IMID 2026 Best Paper Award 수상 소식과 관련 이미지가 공식 홈페이지 뉴스 게시판을 통해 확인됨.",
+        "poster_evidence": "홍용택 교수 연구팀의 김다현 박사과정이 IMID 2026에서 Best Paper Award (Gold)를 수상함.",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p066",
           "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
@@ -232179,7 +232377,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6AA03A6D35661E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:05:56Z",
+        "_saved_at": "2026-09-21T13:49:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -253172,11 +253370,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:49:25Z",
-    "checked": 655,
-    "seconds": 9836.61,
+    "at": "2026-09-21T13:51:02Z",
+    "checked": 660,
+    "seconds": 9933.63,
     "gemini": true,
-    "ai_requests": 344,
+    "ai_requests": 347,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
