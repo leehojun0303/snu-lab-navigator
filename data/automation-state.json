@@ -1,5 +1,5 @@
 {
-  "cursor": 2065,
+  "cursor": 2070,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -31619,17 +31619,21 @@
       "_unit_id": "SNU-RU-E05F721C5F8189"
     },
     "SNU-RU-C069A17D8CFA9B": {
-      "fingerprint": "b26d467f90eb2e29261fb46372620c1cf929a285b00dd81896201d8b26bebd54",
-      "checked_at": "2026-09-20T08:03:49Z",
+      "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
+      "checked_at": "2026-09-21T12:20:38Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitmentPages": [],
-        "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -31641,20 +31645,13 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentsci.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "길윤민 교수는 서울대학교 치의학대학원 치의학교육학 교실 소속 조교수로, 치과보철학 및 의학교육학을 전공하고 있습니다.",
-        "research_topics": [
-          "치과보철학",
-          "의학교육학"
-        ],
-        "recommendation_keywords": [
-          "치의학교육학",
-          "치과보철학",
-          "의학교육학"
-        ],
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -31665,11 +31662,15 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 치의학교육학 교실 조교수로 재직 중입니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitment_summary": "",
@@ -31677,7 +31678,7 @@
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+        "member_page_url": "https://www.snu.ac.kr/personal_information",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -31687,23 +31688,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://dentsci.snu.ac.kr/",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snudf.snu.ac.kr/3344/",
+          "https://dentistry.snu.ac.kr/#none",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentistry.snu.ac.kr/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C069A17D8CFA9B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T08:03:53Z",
+        "_saved_at": "2026-09-21T12:20:46Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -124336,7 +124339,7 @@
     },
     "SNU-RU-32E84076DC9DA3": {
       "fingerprint": "0c5815b8e2c0032c7dd4db455a33e78bcd1936baf9e81db52a528537a673d95f",
-      "checked_at": "2026-09-20T08:03:58Z",
+      "checked_at": "2026-09-21T12:20:42Z",
       "activity": {
         "publicationPages": [
           {
@@ -124660,7 +124663,7 @@
     },
     "SNU-RU-B8D2326B80BE4B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T08:04:01Z",
+      "checked_at": "2026-09-21T12:20:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -124755,38 +124758,119 @@
       "_unit_id": "SNU-RU-B8D2326B80BE4B"
     },
     "SNU-RU-B02E7CDE783446": {
-      "fingerprint": "e3f0a140694a229d14a8664cb03019e2a5eeaa0317239e5516ea2db7b1473d6c",
-      "checked_at": "2026-09-20T08:04:00Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-21T12:20:46Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
           },
           {
             "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -124859,9 +124943,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T08:04:09Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-B02E7CDE783446"
+      "_unit_id": "SNU-RU-B02E7CDE783446",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DB8E425B240598": {
       "fingerprint": "d42d64ef8017d53aa6e02ea646399fb71dd8561b31b85c5949f13b6f87e9a5df",
@@ -125381,8 +125467,8 @@
       "_unit_id": "SNU-RU-D257067908D487"
     },
     "SNU-RU-88E14E8AF0E14E": {
-      "fingerprint": "4a252c8d9d15222f301f2a914de8268abe313c68f193cd1a2101f371868ae81c",
-      "checked_at": "2026-09-20T08:04:02Z",
+      "fingerprint": "1045f1d687d6ecba68f3e98ae8121a29d2bf8d672f0b07f31dced7d69ab6a443",
+      "checked_at": "2026-09-21T12:20:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -125391,6 +125477,10 @@
           }
         ],
         "recruitmentPages": [
+          {
+            "title": "Advancing Physical and Rehabilitation Medicine Education and Research in the Asia–Oceania Region: A Position Statement for Establishing the Asia-Oceania Academic Network of Physical and Rehabilitation Medicine",
+            "url": "https://snu.elsevierpure.com/en/publications/advancing-physical-and-rehabilitation-medicine-education-and-rese/"
+          },
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
@@ -125403,30 +125493,28 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/publications/advancing-physical-and-rehabilitation-medicine-education-and-rese/",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home"
         ]
       },
       "enrichment": {
-        "research_summary": "백남종 교수는 재활의학 분야에서 뇌졸중 재활, 신경재활, 로봇 재활 및 디지털 헬스케어 연구를 수행하고 있으며, 아시아-오세아니아 지역의 재활의학 교육 및 연구 네트워크 구축에 기여하고 있습니다.",
+        "research_summary": "백남종 교수는 재활의학 분야에서 뇌졸중 재활, 로봇 재활, 신경 재활 및 관련 교육과 연구 네트워크 구축에 관한 활발한 연구를 수행하고 있습니다.",
         "research_topics": [
           "재활의학",
           "뇌졸중 재활",
-          "신경재활",
           "로봇 재활",
-          "디지털 헬스케어"
+          "신경 재활"
         ],
         "recommendation_keywords": [
           "재활의학",
           "뇌졸중",
-          "신경재활",
-          "로봇재활",
+          "로봇 재활",
           "뇌졸중 재활",
-          "디지털 헬스케어"
+          "신경 재활"
         ],
         "recent_papers": [
           {
@@ -125434,7 +125522,7 @@
             "url": "https://snu.elsevierpure.com/en/publications/advancing-physical-and-rehabilitation-medicine-education-and-rese/",
             "year": "2024",
             "venue": "Annals of Rehabilitation Medicine",
-            "summary": "아시아-오세아니아 지역의 재활의학 교육과 연구 발전을 위해 학술 네트워크를 구축하는 것에 대한 입장문을 제시합니다."
+            "summary": "아시아-오세아니아 지역의 재활의학 교육 및 연구 발전을 위한 학술 네트워크 구축의 필요성과 방향성을 제시한 포지션 스테이트먼트입니다."
           }
         ],
         "recent_year_paper_count": 203,
@@ -125446,15 +125534,19 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 재활의학교실에서 재활의학 관련 교육 및 연구를 담당하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 재활의학교실에서 재활의학 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 203 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-paik-2/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
+          {
+            "title": "Advancing Physical and Rehabilitation Medicine Education and Research in the Asia–Oceania Region: A Position Statement for Establishing the Asia-Oceania Academic Network of Physical and Rehabilitation Medicine",
+            "url": "https://snu.elsevierpure.com/en/publications/advancing-physical-and-rehabilitation-medicine-education-and-rese/"
+          },
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
@@ -125476,12 +125568,12 @@
           "https://snu.elsevierpure.com/en/publications/advancing-physical-and-rehabilitation-medicine-education-and-rese/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
           "https://snu.elsevierpure.com/en/persons/y-paik-2/publications/",
           "https://snu.elsevierpure.com/en/persons/y-paik-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
@@ -125489,7 +125581,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-88E14E8AF0E14E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T08:04:17Z",
+        "_saved_at": "2026-09-21T12:21:24Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -248250,11 +248342,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T12:20:12Z",
-    "checked": 315,
-    "seconds": 4483.33,
+    "at": "2026-09-21T12:21:24Z",
+    "checked": 320,
+    "seconds": 4555.55,
     "gemini": true,
-    "ai_requests": 174,
+    "ai_requests": 176,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
