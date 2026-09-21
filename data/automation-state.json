@@ -1,5 +1,5 @@
 {
-  "cursor": 215,
+  "cursor": 220,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -189942,8 +189942,8 @@
       "_unit_id": "SNU-RU-D72A3A1D65E321"
     },
     "SNU-RU-372A85FB01E2A1": {
-      "fingerprint": "af4dc76a45512344305c83ef1a572cc6f8dc3dc4d907455221ff83e18bd9cce2",
-      "checked_at": "2026-09-20T09:01:34Z",
+      "fingerprint": "42ffb5899dbb2b601bddd9b23823e06301ecc0a5f13d812d5c6b44cf8691ab60",
+      "checked_at": "2026-09-21T13:43:18Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -189972,7 +189972,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "내장형 시스템, 컴퓨터 구조, 병렬처리 분야를 중점적으로 연구하고 있습니다.",
+        "research_summary": "내장형 시스템, 컴퓨터 구조, 병렬처리 분야를 연구하고 있습니다.",
         "research_topics": [
           "내장형 시스템",
           "컴퓨터 구조",
@@ -189993,9 +189993,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1987년 서울대학교 전자공학과 학사, 1989년 동 대학원 석사를 졸업하였으며, 1996년 Purdue University에서 전기컴퓨터공학 박사 학위를 취득하였습니다.",
+        "education_summary": "1987년 서울대학교 전자공학과 학사, 1989년 동 대학원 석사, 1996년 Purdue University 전기컴퓨터공학과 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -190018,10 +190018,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p054",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p054",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -190035,7 +190035,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-372A85FB01E2A1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:01:53Z",
+        "_saved_at": "2026-09-21T13:43:40Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -191210,22 +191210,113 @@
       "_unit_id": "SNU-RU-3DFE9BD5363A38"
     },
     "SNU-RU-B54E7EACFBDE27": {
-      "fingerprint": "b9f66e66dc1a0ac5b569303830fec9c7e09dddc4c77d9dacbd79c4640a2cc5dc",
-      "checked_at": "2026-09-20T09:01:34Z",
+      "fingerprint": "36f09b6674fb2b2745adcf2e30e84c8f162edd01a8960f3e4ade9cb64efc8a77",
+      "checked_at": "2026-09-21T13:43:20Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+            "kind": "publication"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+            "kind": "publication"
+          },
+          {
+            "title": "이종호 교수 연구팀, Advanced Science 표지 논문 선정",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+            "kind": "publication"
+          },
+          {
+            "title": "★2026학년도 2학기 대학원 논문 심사 일정 안내",
+            "url": "https://ece.snu.ac.kr/community/academics?md=v&bbsidx=58072",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
             "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "지원서 작성",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+            "kind": "recruitment"
+          },
+          {
+            "title": "취업ㆍ진로",
+            "url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p923",
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/research/lab"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/research/lab"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/professor/401zb76zbbfz7f0zfcaz6a7z735z661zb11zf48z79.png",
+            "alt": "이현주 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p923"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/guest"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/mo-logo.png",
+            "alt": "서울대학교 전기·정보공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/guest"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+            "alt": "홍용택 교수 연구팀 (이병걸, 장동주 박사과정), IMID 2026, KIDS Awards (Silver) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+            "alt": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg",
+            "alt": "2025학년도 후기(제80회) 전기·정보공학부 졸업 수상자들",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p923",
           "https://ece.snu.ac.kr",
@@ -191312,9 +191403,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T09:01:48Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-B54E7EACFBDE27"
+      "_unit_id": "SNU-RU-B54E7EACFBDE27",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-58C3D6B2F804CF": {
       "fingerprint": "427c9f9eea14c266a68932e0a0e1baa173436932d652e17888d75bff624874a5",
@@ -201500,8 +201593,8 @@
       "_unit_id": "SNU-RU-A750EF6991D409"
     },
     "SNU-RU-E561E9BEE5BCC1": {
-      "fingerprint": "59cb36f65c1735a568ddf478568f03585117fc019865d397c5b78a31b01fe8af",
-      "checked_at": "2026-09-20T09:01:34Z",
+      "fingerprint": "3978b1c42c69a6dda49216a7eee01dfd2c808f59be8274e13c0e247be8a74f43",
+      "checked_at": "2026-09-21T13:43:18Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -201530,15 +201623,14 @@
         ]
       },
       "enrichment": {
-        "research_summary": "전세영 교수는 신호처리 및 계산영상(Computational Imaging) 분야를 연구하고 있으며, 지능형 계산영상 연구실(Intelligent Computational Imaging Lab)을 운영하고 있습니다.",
+        "research_summary": "전세영 교수는 신호처리 및 계산영상(Computational Imaging) 분야를 연구하고 있습니다.",
         "research_topics": [
           "신호처리",
           "계산영상"
         ],
         "recommendation_keywords": [
           "신호처리",
-          "계산영상",
-          "지능형 계산영상 연구실"
+          "계산영상"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -201552,7 +201644,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지의 초빙안내 및 지원서 작성 페이지를 통해 교수 초빙 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -201592,7 +201684,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E561E9BEE5BCC1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:01:42Z",
+        "_saved_at": "2026-09-21T13:44:00Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -202793,35 +202885,118 @@
       "_unit_id": "SNU-RU-466D6EA270DBC3"
     },
     "SNU-RU-CA24331C6F84CC": {
-      "fingerprint": "d05b39e569935ff23bba80b9442c1953da80f6d5a8847ba2ec439b18717af65b",
-      "checked_at": "2026-09-20T09:01:26Z",
+      "fingerprint": "54e5f69a23cf48b266b33bf82bc7ff469c55ff787dcd65e8de446eb03677945a",
+      "checked_at": "2026-09-21T13:43:08Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publication",
-            "url": "https://sdla.snu.ac.kr/publication"
+            "url": "https://sdla.snu.ac.kr/publication",
+            "kind": "publication"
           },
           {
             "title": "Journal",
-            "url": "https://sdla.snu.ac.kr/publication/journal"
+            "url": "https://sdla.snu.ac.kr/publication/journal",
+            "kind": "publication"
           },
           {
             "title": "Conference",
-            "url": "https://sdla.snu.ac.kr/publication/conference"
+            "url": "https://sdla.snu.ac.kr/publication/conference",
+            "kind": "publication"
           },
           {
             "title": "Patent",
-            "url": "https://sdla.snu.ac.kr/publication/patent"
+            "url": "https://sdla.snu.ac.kr/publication/patent",
+            "kind": "publication"
+          },
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "초빙안내",
-            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+            "url": "https://ece.snu.ac.kr/faculty/job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입시",
+            "url": "https://ece.snu.ac.kr/community/admissions?sc=y",
+            "kind": "recruitment"
+          },
+          {
+            "title": "취업ㆍ진로",
+            "url": "https://ece.snu.ac.kr/community/job-openings?sc=y",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://sdla.snu.ac.kr/people",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark@2.png?ver=2025-10-28",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/professor/571zc06z9ebzf7bz095z122zdf7z81dz505z2e8z3d.png",
+            "alt": "정규원 조교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p905"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p905"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/_skin/ko/images/site/mo-logo.png",
+            "alt": "서울대학교 전기·정보공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p905"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/8c2z750z845zd30z1d1zfa6z74cz2b5z0acza14z5b.png",
+            "alt": "홍용택 교수 연구팀 (이병걸, 장동주 박사과정), IMID 2026, KIDS Awards (Silver) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/b66zfb3z314zb22z1ddz436z0d2z604zb5czb48z98.png",
+            "alt": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          },
+          {
+            "url": "https://ece.snu.ac.kr/webdata/boardimages/news_ko/184za75z033ze31z0ddz3b2zc11zbbcz783z770zdf.jpg",
+            "alt": "2025학년도 후기(제80회) 전기·정보공학부 졸업 수상자들",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ece.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sdla.snu.ac.kr/",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p905",
@@ -202923,9 +203098,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-20T09:01:34Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-CA24331C6F84CC"
+      "_unit_id": "SNU-RU-CA24331C6F84CC",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-B611FF2256C4EA": {
       "fingerprint": "759063cdf893d5bf2639cb69bfb6068b9cdd8b5ebe7199a4b85864c1716a1131",
@@ -203145,8 +203322,8 @@
       "_unit_id": "SNU-RU-366A3CDE7E9FDD"
     },
     "SNU-RU-D872EA9E01A6C0": {
-      "fingerprint": "db5edd4c1fff0db0edc5d8eee8e5c272150bedfed55c3bf5159e782156aad6bd",
-      "checked_at": "2026-09-20T09:01:35Z",
+      "fingerprint": "836bd48077f3f7fe3f4eca49f531f5137df8fa186e18b71ad5fc22cc99a8ab85",
+      "checked_at": "2026-09-21T13:43:21Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -203175,18 +203352,22 @@
         ]
       },
       "enrichment": {
-        "research_summary": "정교민 교수는 머신러닝, 딥러닝, 자연어 처리 및 기계 번역 분야를 중심으로 연구를 수행하고 있습니다.",
+        "research_summary": "정교민 교수는 머신 인텔리전스 연구실을 이끌며 기계 학습, 최적화, 제어 이론 및 데이터 과학 분야의 연구를 수행하고 있습니다.",
         "research_topics": [
-          "머신 러닝",
-          "딥 러닝",
-          "자연어 처리",
-          "기계 번역"
+          "Machine Learning",
+          "Optimization",
+          "Control Theory",
+          "Data Science"
         ],
         "recommendation_keywords": [
           "머신러닝",
-          "딥러닝",
-          "자연어처리",
-          "기계번역"
+          "최적화",
+          "데이터 과학",
+          "인공지능",
+          "Machine Learning",
+          "Optimization",
+          "Control Theory",
+          "Data Science"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -203198,9 +203379,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "2003년 서울대학교 수학과 학사 학위를 취득하였으며, 2009년 Massachusetts Institute of Technology(MIT)에서 수학과 박사 학위를 취득하였습니다.",
+        "education_summary": "서울대학교 전기·정보공학부 교수로서 머신 인텔리전스 연구실을 운영하며 학문적 지도 및 연구를 수행하고 있습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 신임교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부의 일반적인 교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -203224,9 +203405,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p805",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -203240,7 +203421,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D872EA9E01A6C0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T09:02:03Z",
+        "_saved_at": "2026-09-21T13:44:22Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -252665,11 +252846,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:42:57Z",
-    "checked": 635,
-    "seconds": 9448.0,
+    "at": "2026-09-21T13:44:22Z",
+    "checked": 640,
+    "seconds": 9532.99,
     "gemini": true,
-    "ai_requests": 332,
+    "ai_requests": 335,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
