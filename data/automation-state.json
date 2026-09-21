@@ -1,5 +1,5 @@
 {
-  "cursor": 2165,
+  "cursor": 0,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -212809,19 +212809,27 @@
       "_unit_id": "SNU-RU-4095E87287091D"
     },
     "SNU-RU-47974A49E66846": {
-      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
-      "checked_at": "2026-09-20T08:25:44Z",
+      "fingerprint": "c843686258219a576a3f6713af5a1f4571ec61c43062b1e2b5ebb11a351c933c",
+      "checked_at": "2026-09-21T12:42:01Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "교수학습지원",
             "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
           }
         ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
@@ -212829,18 +212837,18 @@
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
-          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentsci.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -212853,21 +212861,29 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": null,
         "verified_recruitment_pages": [
           {
             "title": "교수학습지원",
             "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
           }
         ],
-        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
+        "recruitment_source_url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://www.snu.ac.kr/personal_information",
@@ -212880,23 +212896,24 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentistry.snu.ac.kr/",
           "https://dentsci.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://dentistry.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-47974A49E66846",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T08:26:17Z",
+        "_saved_at": "2026-09-21T12:42:20Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -234139,37 +234156,42 @@
       "_unit_id": "SNU-RU-AEE2F273EC483B"
     },
     "SNU-RU-EEB598EC5E997D": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-20T08:25:47Z",
+      "fingerprint": "7ccb7a248ba62bff26892aabd5820ca17ce9cbe67df98c8c6c6ac94674dadf8d",
+      "checked_at": "2026-09-21T12:42:01Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
-          },
-          {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          }
+        ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
-          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -234182,20 +234204,25 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
-          },
-          {
-            "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          }
+        ],
+        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://www.snu.ac.kr/personal_information",
@@ -234207,40 +234234,65 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/personal_information",
-          "https://dentsci.snu.ac.kr/",
-          "https://snudf.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://www.snu.ac.kr/personal_information",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
-          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://dentistry.snu.ac.kr/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EEB598EC5E997D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:04:24Z",
+        "_saved_at": "2026-09-21T12:42:03Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-EEB598EC5E997D"
     },
     "SNU-RU-A5E655989D77F3": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-20T08:25:45Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-21T12:42:01Z",
       "activity": {
         "publicationPages": [
           {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
+          {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          },
+          {
+            "title": "장애학생지원센터",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled"
+          },
+          {
+            "title": "학생지원서비스",
+            "url": "https://www.snu.ac.kr/campuslife/aid/administration"
+          }
+        ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -234253,20 +234305,13 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "허민석 교수는 서울대학교 치의학대학원 영상치의학교실 소속으로, 치의학 분야의 영상과학 및 관련 연구를 수행하고 있습니다.",
-        "research_topics": [
-          "영상치의학",
-          "구강악안면 영상과학"
-        ],
-        "recommendation_keywords": [
-          "영상치의학",
-          "구강악안면 영상과학",
-          "서울대학교 치의학대학원"
-        ],
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -234277,16 +234322,41 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 영상치의학교실 소속 교수입니다.",
+        "education_summary": "None",
         "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          },
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 채용 정보는 제공된 URL에서 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://dentsci.snu.ac.kr/",
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          },
+          {
+            "title": "장애학생지원센터",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled"
+          },
+          {
+            "title": "학생지원서비스",
+            "url": "https://www.snu.ac.kr/campuslife/aid/administration"
+          }
+        ],
+        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://www.snu.ac.kr/personal_information",
@@ -234299,23 +234369,29 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://dentsci.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/research/publications/",
           "https://www.snu.ac.kr/personal_information",
-          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
-          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
-          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://dentsci.snu.ac.kr/",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
           "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snudf.snu.ac.kr/3344/",
+          "https://dentistry.snu.ac.kr/#none",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://www.snu.ac.kr/campuslife/aid/disabled",
+          "https://www.snu.ac.kr/campuslife/aid/administration",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
+          "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
+          "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A5E655989D77F3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:04:41Z",
+        "_saved_at": "2026-09-21T12:42:33Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -234323,7 +234399,7 @@
     },
     "SNU-RU-278C4153417D50": {
       "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-20T08:25:45Z",
+      "checked_at": "2026-09-21T12:42:03Z",
       "activity": {
         "publicationPages": [
           {
@@ -234415,7 +234491,7 @@
     },
     "SNU-RU-BF5A9E0FF1C4D1": {
       "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
-      "checked_at": "2026-09-20T08:25:44Z",
+      "checked_at": "2026-09-21T12:42:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -249805,11 +249881,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T12:41:41Z",
-    "checked": 415,
-    "seconds": 5771.88,
+    "at": "2026-09-21T12:42:33Z",
+    "checked": 420,
+    "seconds": 5823.76,
     "gemini": true,
-    "ai_requests": 236,
+    "ai_requests": 239,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
