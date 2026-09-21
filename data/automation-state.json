@@ -1,5 +1,5 @@
 {
-  "cursor": 2025,
+  "cursor": 2030,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -111639,7 +111639,7 @@
     },
     "SNU-RU-6CA744981B7228": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:56:12Z",
+      "checked_at": "2026-09-21T12:13:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -111839,12 +111839,22 @@
       "_unit_id": "SNU-RU-CEE1C4C31F4B40"
     },
     "SNU-RU-44F3A8D075DF52": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:56:11Z",
+      "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
+      "checked_at": "2026-09-21T12:13:12Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -111855,12 +111865,22 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
+        "research_summary": "박정수 교수는 서울대학교 의과대학 검사의학교실 소속으로, 임상미생물학 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "임상미생물학"
+        ],
+        "recommendation_keywords": [
+          "임상미생물학",
+          "검사의학"
+        ],
         "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -111869,17 +111889,23 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
-        "member_page_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원 서비스를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "recommendation_keywords": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
-        "paper_count_visible": 0,
-        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -111890,23 +111916,24 @@
         "source_urls_used": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/en/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "http://yss.snu.ac.kr/index.php"
         ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-44F3A8D075DF52",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-15T08:55:01Z",
+        "_saved_at": "2026-09-21T12:13:20Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-44F3A8D075DF52"
     },
@@ -111928,7 +111955,7 @@
     },
     "SNU-RU-D21424803F4889": {
       "fingerprint": "2c62a361faff1728bfdc01b963b42e166565c5d12c0545801ac935252795bc76",
-      "checked_at": "2026-09-20T07:56:05Z",
+      "checked_at": "2026-09-21T12:13:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -112488,7 +112515,7 @@
     },
     "SNU-RU-F8F81EB889D07B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-20T07:56:11Z",
+      "checked_at": "2026-09-21T12:13:12Z",
       "activity": {
         "publicationPages": [
           {
@@ -113016,7 +113043,7 @@
     },
     "SNU-RU-CD5D3CD66FFD23": {
       "fingerprint": "98b934a4b10260b038dea8a00c65a6bc4c0f0ede08de0e45eb69ae86421a26ae",
-      "checked_at": "2026-09-20T07:56:05Z",
+      "checked_at": "2026-09-21T12:13:06Z",
       "activity": {
         "publicationPages": [
           {
@@ -247901,11 +247928,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T12:12:35Z",
-    "checked": 275,
-    "seconds": 4025.98,
+    "at": "2026-09-21T12:13:20Z",
+    "checked": 280,
+    "seconds": 4071.32,
     "gemini": true,
-    "ai_requests": 154,
+    "ai_requests": 155,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
