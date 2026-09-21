@@ -1,5 +1,5 @@
 {
-  "cursor": 90,
+  "cursor": 95,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -140052,7 +140052,7 @@
     },
     "SNU-RU-791E293BA5ABCF": {
       "fingerprint": "d73038f205110ff51f4298b5fa39717539529e82ea6875e749899343e8f506a3",
-      "checked_at": "2026-09-20T08:37:24Z",
+      "checked_at": "2026-09-21T13:00:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -141700,8 +141700,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-DE8AD2891EDF3A": {
-      "fingerprint": "1175b4e2bf28eff2d2cbb3cc2761ea604ff58e1ce40f5808d9e69a5256d28895",
-      "checked_at": "2026-09-20T08:37:11Z",
+      "fingerprint": "cba89f5672235af594215ca875a53f6ac9b441cb24e1ffd461efa84b419124e7",
+      "checked_at": "2026-09-21T13:00:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -141742,8 +141742,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "국가연구소(NRL2.0)에 '인간중심 피지컬 AI 로보틱스 연구소' 선정…10년간 年100억원씩 지원",
-            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22071",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
             "kind": "recruitment"
           }
         ],
@@ -141758,6 +141763,13 @@
             "parent_source_url": "https://me.snu.ac.kr"
           },
           {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/신용대.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EC%8B%A0%EC%9A%A9%EB%8C%80-shin-yongdae/"
+          },
+          {
             "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
             "alt": "",
             "title": "",
@@ -141767,6 +141779,7 @@
         ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/shinlab/home",
+          "https://me.snu.ac.kr/snu__professor/%EC%8B%A0%EC%9A%A9%EB%8C%80-shin-yongdae/",
           "https://me.snu.ac.kr",
           "https://sites.google.com/view/shinlab/team/lab-members",
           "https://sites.google.com/view/shinlab/publication",
@@ -141774,8 +141787,7 @@
           "https://sites.google.com/view/shinlab/team",
           "https://sites.google.com/view/shinlab/team/principal-investigator",
           "https://sites.google.com/view/shinlab/gallery",
-          "https://sites.google.com/view/shinlab/contact",
-          "https://sites.google.com/view/shinlab/home#h.p_GUbfz1Q5yNMU"
+          "https://sites.google.com/view/shinlab/contact"
         ]
       },
       "enrichment": {
@@ -141909,7 +141921,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-DE8AD2891EDF3A",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "verify_TimeoutError"
     },
     "SNU-RU-FAF2201482551A": {
       "fingerprint": "21ff815edc05be9412bccfd1ff68c088f5ccf133608b43fe159c0d1aab0f43da",
@@ -146930,8 +146942,8 @@
       "_unit_id": "SNU-RU-FBD88BBDF03D1B"
     },
     "SNU-RU-43EF0C67E3EC1D": {
-      "fingerprint": "7ec774669114e477d144242503db9b5015cc072caf8b560fcbcc9fd5903bcf8d",
-      "checked_at": "2026-09-20T08:37:22Z",
+      "fingerprint": "37b8d29bd775ef3b986f1f2dc02bd210577458ed46b87ce5f8f596f287d0c2ec",
+      "checked_at": "2026-09-21T13:00:23Z",
       "activity": {
         "publicationPages": [
           {
@@ -146977,29 +146989,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "안성훈 교수의 혁신설계 및 통합생산 연구실은 설계 및 생산 분야를 중심으로 로보틱스, AI 응용, 적정 기술, 스마트 및 디지털 트윈, 복합재료, 지능재료, 배터리 제작, 신재생 스마트 그리드 등 다양한 융합 연구를 수행하고 있습니다.",
+        "research_summary": "안성훈 교수의 혁신설계 및 통합생산 연구실은 설계 및 생산 기술을 바탕으로 로보틱스, AI 응용, 적정 기술, 스마트 및 디지털 트윈, 복합재료, 지능재료 배터리 제작, 신재생 스마트 그리드 등 다양한 융합 분야를 연구하고 있습니다.",
         "research_topics": [
-          "설계 및 생산",
+          "설계 생산",
           "혁신적 제품 설계",
-          "로보틱스 및 AI 응용",
-          "적정 기술",
-          "스마트 및 디지털 트윈",
-          "복합재료 및 지능재료",
-          "배터리 제작",
+          "로보틱스+AI 응용",
+          "적정 스마트 및 디지털 트윈",
+          "복합재료",
+          "지능재료 배터리 제작",
           "신재생 스마트 그리드"
         ],
         "recommendation_keywords": [
           "설계 생산",
           "혁신적 제품 설계",
-          "로보틱스",
-          "AI 응용",
-          "적정 기술",
-          "스마트 그리드",
-          "설계 및 생산",
-          "로보틱스 및 AI 응용",
-          "스마트 및 디지털 트윈",
-          "복합재료 및 지능재료",
-          "배터리 제작",
+          "로보틱스+AI 응용",
+          "적정 스마트 및 디지털 트윈",
+          "복합재료",
+          "지능재료 배터리 제작",
           "신재생 스마트 그리드"
         ],
         "recent_papers": [
@@ -147035,7 +147041,7 @@
             "url": "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94"
           }
         ],
-        "recruitment_summary": "혁신설계 및 통합생산 연구실은 인턴십 학생을 모집하며, 연구실 참여를 위한 지원 페이지를 운영하고 있습니다.",
+        "recruitment_summary": "혁신설계 및 통합생산 연구실은 인턴십 학생을 모집하며, 연구실 홈페이지를 통해 지원할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Join",
@@ -147063,11 +147069,12 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://fab.snu.ac.kr/",
+          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93",
+          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=85",
+          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94",
           "https://fab.snu.ac.kr/member/join.php",
           "https://fab.snu.ac.kr/team/intern.php",
-          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=85",
-          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=93",
-          "https://fab.snu.ac.kr/thesis/thesis.php?ptype=list&code=thesis&category=94",
+          "https://fab.snu.ac.kr/open/open.php",
           "https://me.snu.ac.kr/snu__professor/%EC%95%88%EC%84%B1%ED%9B%88-ahn-sung-hoon/",
           "https://me.snu.ac.kr",
           "https://fab.snu.ac.kr/community/notice.php?ptype=view&idx=7240&category=",
@@ -147079,7 +147086,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-43EF0C67E3EC1D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T08:37:43Z",
+        "_saved_at": "2026-09-21T13:01:33Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -147936,7 +147943,7 @@
     },
     "SNU-RU-B4E8648C8262D8": {
       "fingerprint": "ff486ad3e98b7fdb342a022a380f0d6f9749adc4a2fadec8d96d090ed780c932",
-      "checked_at": "2026-09-20T08:37:20Z",
+      "checked_at": "2026-09-21T13:00:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -149723,7 +149730,7 @@
     },
     "SNU-RU-5653B79F856D4B": {
       "fingerprint": "a503e8621b7eefbf0de400ff4106e9c1548b49463be301a9e077305028bef73f",
-      "checked_at": "2026-09-20T08:37:14Z",
+      "checked_at": "2026-09-21T13:00:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -250385,11 +250392,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-21T13:00:03Z",
-    "checked": 510,
-    "seconds": 6874.46,
+    "at": "2026-09-21T13:01:33Z",
+    "checked": 515,
+    "seconds": 6964.6,
     "gemini": true,
-    "ai_requests": 259,
+    "ai_requests": 260,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
