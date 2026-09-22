@@ -1,5 +1,5 @@
 {
-  "cursor": 1770,
+  "cursor": 1775,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -24660,8 +24660,8 @@
       "_unit_id": "SNU-RU-FA91721CFA07CE"
     },
     "SNU-RU-DA3301E057A9BD": {
-      "fingerprint": "18f56c76a0e182dc638e56294d8b064d0cc02293448fb3ec5b6196f37871414d",
-      "checked_at": "2026-09-21T11:13:44Z",
+      "fingerprint": "ce78d616a721c232f1ce780069b610f8e16fb2e2bf713267e1522bb2803db1fc",
+      "checked_at": "2026-09-22T10:10:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -24669,7 +24669,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -24686,20 +24691,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "구대림 교수는 신경과학교실 소속으로 뇌전증(간질) 및 수면장애 분야를 전문으로 연구하고 있습니다. 주요 연구 성과로는 뇌전증 환자의 임상적 특성, 수면 장애와 관련된 신경학적 기전 및 치료법에 관한 다수의 논문을 발표하였습니다.",
+        "research_summary": "구대림 교수는 뇌전증(간질) 및 수면장애 분야를 전문으로 연구하며, 관련 질환의 임상적 특성과 치료법에 관한 다수의 학술 논문을 발표하고 있습니다.",
         "research_topics": [
           "뇌전증",
-          "수면장애",
-          "신경과학"
+          "수면장애"
         ],
         "recommendation_keywords": [
           "뇌전증",
+          "간질",
           "수면장애",
-          "신경과",
-          "신경과학"
+          "신경과"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": 57,
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -24715,9 +24719,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지에서 구체적인 연구실 모집 공고는 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "현재 공식 페이지에서 구체적인 연구실 모집 공고를 확인하기 어렵습니다. 연건학생지원센터 등 학교 차원의 학생 지원 정보는 제공되고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/",
@@ -24727,60 +24736,155 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960644/41_Koo_+Dae+Lim.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-koo-4/#main-content",
-        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-koo-4/",
-          "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-koo-4/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-4/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-koo-4/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/",
           "https://snu.elsevierpure.com/en/persons/y-koo-4/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DA3301E057A9BD",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T11:14:39Z",
+        "_saved_at": "2026-09-22T10:11:41Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-DA3301E057A9BD"
     },
     "SNU-RU-C438A23AB22F7E": {
-      "fingerprint": "489fa428fd139ac6af8bb0f3ca66824baaffdcda67bebee88e8029608626f351",
-      "checked_at": "2026-09-21T11:14:01Z",
+      "fingerprint": "845799de9953e825d96a2e6f7795b78436635ff30f05f7c1737c3dc5f51c06c9",
+      "checked_at": "2026-09-22T10:10:37Z",
       "activity": {
         "publicationPages": [
           {
+            "title": "Initial Pharmacological Strategies in People with Early Type 2 Diabetes Mellitus: A Systematic Review and Network Meta-Analysis",
+            "url": "https://snu.elsevierpure.com/en/publications/initial-pharmacological-strategies-in-people-with-early-type-2-di/",
+            "kind": "publication"
+          },
+          {
             "title": "View all 123 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-koo-5/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-koo-5/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "100",
+            "url": "https://snu.elsevierpure.com/en/persons/y-koo-5/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "14",
+            "url": "https://snu.elsevierpure.com/en/persons/y-koo-5/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
+          },
+          {
+            "title": "5",
+            "url": "https://snu.elsevierpure.com/en/persons/y-koo-5/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "ADAMTS4 elicits myeloid-derived immune cell recruitment and liver fibrogenesis in metabolic dysfunction-associated steatotic liver disease",
-            "url": "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/"
+            "url": "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Skip to main navigation",
+            "url": "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/#main-navigation",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-koo-5/",
+        "membersUrl": "https://snu.elsevierpure.com/en/publications/initial-pharmacological-strategies-in-people-with-early-type-2-di/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/85852698/42.jpg?w=160&f=jpg",
+            "alt": "Bo Kyung Koo",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-koo-5/#main-search"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-koo-5/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/publications/initial-pharmacological-strategies-in-people-with-early-type-2-di/",
           "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/",
           "https://snu.elsevierpure.com/en/persons/y-koo-5/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-5/#main-search",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
@@ -24867,9 +24971,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-21T11:14:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-C438A23AB22F7E"
+      "_unit_id": "SNU-RU-C438A23AB22F7E",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3ADED88CB14559": {
       "fingerprint": "15c3ceb152c69d9febf8ceecb6f425024580cb0d15cd15641230259e4be0023c",
@@ -25152,8 +25258,8 @@
       "_unit_id": "SNU-RU-9DE1A8D93C4DC6"
     },
     "SNU-RU-ABAD115F7F1BDC": {
-      "fingerprint": "89e034575d3278e0cbcdcc0b8ac0cd671bec82a46d540a8fe50b1eff641cd54f",
-      "checked_at": "2026-09-21T11:13:35Z",
+      "fingerprint": "c2c4fec32118bbb0a181dcae78481a970d45afbf65a1691ab8b7fca6404cec3b",
+      "checked_at": "2026-09-22T10:10:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -25183,7 +25289,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "구본욱 교수는 마취통증의학 분야에서 연구를 수행하고 있으며, Elsevier Pure 프로필을 통해 총 53건의 연구 성과를 기록하고 있습니다.",
+        "research_summary": "구본욱 교수는 마취통증의학 분야를 연구하며, 특히 마취 관련 임상 연구 및 체계적 문헌 고찰을 포함한 다양한 학술적 성과를 발표하고 있습니다.",
         "research_topics": [
           "마취통증의학"
         ],
@@ -25191,7 +25297,7 @@
           "마취통증의학"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 53,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -25224,10 +25330,11 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960776/44_Koo_+Bon+Wook.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-koo-6/#main-content",
-        "poster_evidence": "Elsevier Pure 프로필 페이지 내 인물 사진 확인됨.",
+        "poster_evidence": "Official profile image of Bon Wook Koo found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-koo-6/",
           "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-koo-6/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-koo-6/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-6/#main-search",
@@ -25236,22 +25343,21 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-koo-6/publications/",
           "https://snu.elsevierpure.com/en/persons/y-koo-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-ABAD115F7F1BDC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-20T07:04:31Z",
+        "_saved_at": "2026-09-22T10:11:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-ABAD115F7F1BDC"
     },
     "SNU-RU-AA86A708DC056B": {
-      "fingerprint": "d1ed9fe778bd426e32963fefc8196c14666b229e0f40738108b60909916c4ac5",
-      "checked_at": "2026-09-21T11:13:44Z",
+      "fingerprint": "4f3ea62b34e43a7c9ba87beac38dcb5bd789858e2ac86f84038e131dbee83f34",
+      "checked_at": "2026-09-22T10:10:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -25273,29 +25379,28 @@
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-search",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "구본권 교수는 순환기내과 분야에서 관상동맥 질환, 특히 관상동맥 중재술 및 혈류역학적 평가와 관련된 연구를 수행하고 있습니다.",
+        "research_summary": "구본권 교수는 순환기내과 분야에서 관상동맥 질환, 특히 관상동맥 중재술 및 영상 진단 기술을 중심으로 활발한 연구를 수행하고 있습니다.",
         "research_topics": [
+          "순환기내과",
           "관상동맥 질환",
           "관상동맥 중재술",
-          "혈류역학적 평가",
-          "심혈관 영상"
+          "심혈관 영상 진단"
         ],
         "recommendation_keywords": [
           "순환기내과",
           "관상동맥",
-          "심장내과",
+          "심혈관",
           "관상동맥 질환",
           "관상동맥 중재술",
-          "혈류역학적 평가",
-          "심혈관 영상"
+          "심혈관 영상 진단"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -25314,7 +25419,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -25338,11 +25443,11 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-search",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
@@ -25350,7 +25455,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA86A708DC056B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T11:14:47Z",
+        "_saved_at": "2026-09-22T10:12:34Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -25486,118 +25591,23 @@
       "_unit_id": "SNU-RU-DF01602232C869"
     },
     "SNU-RU-D8275D20AFEA44": {
-      "fingerprint": "709d733ca8c4a77bfde635147c7d2e3b74ce943f73b782f4f72b29310178f8b8",
-      "checked_at": "2026-09-21T11:13:42Z",
+      "fingerprint": "85b96142722c40bfe21ac7a34a03a2db3a58885605b38ddeef93693b54c6b94f",
+      "checked_at": "2026-09-22T10:10:37Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 184 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "160",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "20",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fchapter",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ku/publications/",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960822/45_Ku_+Seung-Yup.jpg?w=160&f=jpg",
-            "alt": "Seung-Yup Ku",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-ku/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ku/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -25612,15 +25622,36 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "구승엽 교수는 산부인과학 분야에서 생식 내분비학, 불임, 자궁내막증 및 자궁내막 기능 연구를 수행하고 있으며, 특히 미세유체 기술을 활용한 자궁내막 칩(Endometrium-on-a-chip) 모델 개발 등 재생 의학 및 생식 생물학 연구에 집중하고 있습니다.",
         "research_topics": [
-          "산부인과학"
+          "산부인과학",
+          "생식 내분비학",
+          "불임",
+          "자궁내막증",
+          "자궁내막 칩"
         ],
         "recommendation_keywords": [
-          "산부인과학"
+          "산부인과",
+          "생식의학",
+          "불임치료",
+          "자궁내막",
+          "재생의학",
+          "산부인과학",
+          "생식 내분비학",
+          "불임",
+          "자궁내막증",
+          "자궁내막 칩"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "Microengineered patient-derived endometrium-on-a-chip for the evaluation of endometrial receptivity",
+            "url": "https://snu.elsevierpure.com/en/publications/microengineered-patient-derived-endometrium-on-a-chip-for-the-eva/",
+            "year": "2024",
+            "venue": "Biofabrication",
+            "summary": "환자 유래 세포를 이용한 자궁내막 칩을 제작하여 자궁내막 수용성을 평가하고 생리학적 환경을 모사하는 연구를 수행하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 184,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -25629,14 +25660,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 산부인과학교실 소속으로 산부인과학 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "View all 184 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원 서비스를 제공합니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들의 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 지원하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -25646,39 +25677,37 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ku/publications/",
+        "poster_status": "verified",
+        "poster_title": "Seung-Yup Ku",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960822/45_Ku_+Seung-Yup.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ku/#main-content",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
+          "https://snu.elsevierpure.com/en/persons/y-ku/",
+          "https://snu.elsevierpure.com/en/publications/microengineered-patient-derived-endometrium-on-a-chip-for-the-eva/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/research/highlights",
+          "https://snu.elsevierpure.com/en/persons/y-ku/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-ku/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-ku/#main-content",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-ku/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-ku/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D8275D20AFEA44",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T09:47:29Z",
+        "_saved_at": "2026-09-22T10:10:44Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-D8275D20AFEA44",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-D8275D20AFEA44"
     },
     "SNU-RU-46D0081CA5C319": {
       "fingerprint": "2b3e5714fe3616706edb59f0082bb23d9749268b016ac806555914aee2619ea3",
@@ -254511,11 +254540,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-22T10:10:07Z",
-    "checked": 20,
-    "seconds": 453.39,
+    "at": "2026-09-22T10:12:34Z",
+    "checked": 25,
+    "seconds": 600.08,
     "gemini": true,
-    "ai_requests": 10,
+    "ai_requests": 14,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
