@@ -1,5 +1,5 @@
 {
-  "cursor": 1995,
+  "cursor": 2000,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -102118,7 +102118,7 @@
     },
     "SNU-RU-1C9B661C3600F2": {
       "fingerprint": "65b1d35f1d05bd5cf16ddca231b280a8d69b6b42ea555bdc6a31479223df9d91",
-      "checked_at": "2026-09-21T12:06:11Z",
+      "checked_at": "2026-09-22T11:24:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -102321,16 +102321,21 @@
       "_unit_id": "SNU-RU-F759275B3F61D2"
     },
     "SNU-RU-1239522092847F": {
-      "fingerprint": "208bf715813b6f1d291ce8638acf91627e1c0f91d268334fbd97b4bfeb64323b",
-      "checked_at": "2026-09-21T12:06:11Z",
+      "fingerprint": "0163afdfb6271f3b7d035a0399650e6ddd951613afe85495fd2c27a252bb4484",
+      "checked_at": "2026-09-22T11:24:14Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Kyung Il Park - Seoul National University",
+            "title": "View all 136 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-27/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-27/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -102347,63 +102352,30 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박경일 교수는 뇌전증(Epilepsy) 및 뇌전증 발작(Epileptic Seizure)의 병태생리, 진단, 그리고 개인 맞춤형 약물 치료 반응 예측에 관한 연구를 수행하고 있습니다. 특히 뇌파(EEG) 분석, 신경염증, 면역학적 기전 및 뇌전증과 관련된 신경계 질환의 임상적 특징을 규명하는 데 주력하고 있습니다.",
+        "research_summary": "박경일 교수는 서울대학교 의과대학 신경과학교실 소속으로, 주로 뇌전증(Epilepsy) 분야의 임상 및 연구를 수행하고 있습니다. 주요 연구 관심사는 뇌전증 환자의 맞춤형 약물 치료 예측 및 관련 신경학적 기전 규명입니다.",
         "research_topics": [
           "뇌전증",
-          "뇌전증 발작",
-          "뇌파(EEG)",
-          "신경염증",
-          "개인 맞춤형 약물 치료"
+          "항뇌전증 약물",
+          "신경학"
         ],
         "recommendation_keywords": [
           "뇌전증",
-          "뇌파",
           "신경과",
-          "발작 예측",
-          "면역학적 기전",
-          "뇌전증 발작",
-          "뇌파(EEG)",
-          "신경염증",
-          "개인 맞춤형 약물 치료"
+          "서울대학교 의과대학",
+          "항뇌전증 약물",
+          "신경학"
         ],
         "recent_papers": [
           {
-            "title": "Correction to: Prediction of personalized antiseizure medications response based on clinical signatures in epilepsy",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-27/",
-            "year": "2026",
+            "title": "Correction to: Prediction of personalized antiseizure medications in patients with epilepsy using a deep learning model",
+            "url": "https://snu.elsevierpure.com/en/publications/correction-to-prediction-of-personalized-antiseizure-medications-/",
+            "year": "2024",
             "venue": "Scientific Reports",
-            "summary": ""
-          },
-          {
-            "title": "Systemic T Cell Receptor Profiling Reveals Adaptive Immune Activation and Potential Immune Signatures of Diagnosis and Brain Atrophy in Epilepsy",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-27/",
-            "year": "2026",
-            "venue": "Annals of Clinical and Translational Neurology",
-            "summary": "뇌전증 환자에서 T세포 수용체 프로파일링을 통해 적응 면역 활성화를 확인하고, 이를 바탕으로 뇌전증 진단 및 뇌 위축과 관련된 잠재적 면역 지표를 분석한 연구입니다."
-          },
-          {
-            "title": "RegionFormer: A Region-guided Transformer for Patient-independent Seizure Prediction using EEG",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-27/",
-            "year": "2026",
-            "venue": "14th International Conference on Brain-Computer Interface, BCI 2026",
-            "summary": "뇌파(EEG) 데이터를 활용하여 환자 독립적인 발작 예측을 수행하기 위한 영역 유도 트랜스포머 모델인 'RegionFormer'를 제안한 연구입니다."
+            "summary": "딥러닝 모델을 활용하여 뇌전증 환자에게 최적화된 항뇌전증 약물을 예측하는 연구에 대한 정정 논문입니다."
           }
         ],
-        "recent_year_paper_count": 3,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Scientific Reports",
-            "count": 1
-          },
-          {
-            "venue": "Annals of Clinical and Translational Neurology",
-            "count": 1
-          },
-          {
-            "venue": "14th International Conference on Brain-Computer Interface",
-            "count": 1
-          }
-        ],
+        "recent_year_paper_count": 136,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -102411,48 +102383,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 신경과학교실 소속으로, 뇌전증 분야의 임상 및 연구 교육을 담당하고 있습니다.",
+        "education_summary": "서울대학교 의과대학 신경과학교실에서 교육 및 연구 활동을 수행하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Kyung Il Park - Seoul National University",
+            "title": "View all 136 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-27/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-27/publications/",
         "poster_status": "verified",
         "poster_title": "Kyung Il Park",
-        "poster_date": "",
-        "poster_event": "",
+        "poster_date": null,
+        "poster_event": null,
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960249/320_Park_+Kyung+Il.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-27/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-27/",
-          "https://snu.elsevierpure.com/en/persons/y-park-27/publications/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/publications/correction-to-prediction-of-personalized-antiseizure-medications-/",
+          "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-27/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-27/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-27/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://snu.elsevierpure.com/en/persons/y-park-27/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-27/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1239522092847F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:28:00Z",
+        "_saved_at": "2026-09-22T11:27:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-1239522092847F"
     },
@@ -102537,8 +102513,8 @@
       "_unit_id": "SNU-RU-8981149E0284E1"
     },
     "SNU-RU-75F19F8496F901": {
-      "fingerprint": "80baef79b9afd10fc46fe18c7f3c59c5e36784a7878cd990eaae6032b51d5368",
-      "checked_at": "2026-09-21T12:06:14Z",
+      "fingerprint": "d19d84b3334ac1d7265ae9b7d404fb13589672cb0f0440e0d54ef3bd7f1356dc",
+      "checked_at": "2026-09-22T11:24:10Z",
       "activity": {
         "publicationPages": [
           {
@@ -102568,7 +102544,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박계현 교수는 심장혈관흉부외과 분야에서 심장 수술, 흉부외과적 치료 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "박계현 교수는 심장혈관흉부외과 분야에서 심장 수술, 흉부 질환 및 관련 임상 연구를 수행하고 있으며, 112건 이상의 연구 성과를 발표하였습니다.",
         "research_topics": [
           "흉부외과학",
           "심장혈관외과학"
@@ -102594,7 +102570,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-71/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하는 연건학생지원센터가 운영되고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -102611,7 +102587,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960256/322_Park_+Kay-Hyun.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-71/#main-content",
-        "poster_evidence": "Official profile image of Kay-Hyun Park found on the SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image of Kay-Hyun Park found on the SNU Elsevier Pure research profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-71/",
           "http://yss.snu.ac.kr/",
@@ -102630,7 +102606,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-75F19F8496F901",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-17T13:10:10Z",
+        "_saved_at": "2026-09-22T11:25:11Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -102870,23 +102846,118 @@
       "_unit_id": "SNU-RU-9DDC75F0622B49"
     },
     "SNU-RU-9B2A9BA058B79E": {
-      "fingerprint": "fe92b6b756d3d2bb36f60bd1f90592eaf7ac02383b089fbf3ef0c3369fac6367",
-      "checked_at": "2026-09-21T12:06:12Z",
+      "fingerprint": "07175e0a0ffc79cbfcc6e10932870a70eb15eb934cc3a89c5152135c6f8c6a97",
+      "checked_at": "2026-09-22T11:24:10Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 245 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "235",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "3",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-15/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960269/326_Park_+Kyu+Joo.jpg?w=160&f=jpg",
+            "alt": "Kyu Joo Park",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-15/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-15/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -102970,9 +103041,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-21T12:06:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-9B2A9BA058B79E"
+      "_unit_id": "SNU-RU-9B2A9BA058B79E",
+      "verify_error": "verify_TimeoutError"
     },
     "SNU-RU-D2FBC53350F954": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -103209,16 +103282,21 @@
       "_unit_id": "SNU-RU-54954C0A073F25"
     },
     "SNU-RU-209FE7FA18F886": {
-      "fingerprint": "2ce9414d8e269d98a91ab852b68bd6689423898b8dcf4e8e1c303a8bb5595847",
-      "checked_at": "2026-09-21T12:06:15Z",
+      "fingerprint": "0f53760e7d603ffab36820d688f3f9d93b6d77397ee07b27dfca7c3c399072b3",
+      "checked_at": "2026-09-22T11:24:14Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Ki Ho Park - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/"
+            "title": "View all 465 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-72/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -103235,50 +103313,17 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박기호 교수는 서울대학교 의과대학 안과학교실 소속으로, 녹내장, 망막신경섬유층, 광간섭단층촬영(OCT), 개방각 녹내장, 안압 및 정상안압 녹내장 분야를 중심으로 활발한 연구를 수행하고 있습니다.",
+        "research_summary": "박기호 교수는 서울대학교 의과대학 안과학교실 소속으로, 주로 녹내장의 진단, 치료 및 관련 병태생리에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "녹내장",
-          "망막신경섬유층",
-          "광간섭단층촬영",
-          "개방각 녹내장",
-          "안압",
-          "정상안압 녹내장"
+          "안과학"
         ],
         "recommendation_keywords": [
           "녹내장",
-          "안과",
-          "서울대학교",
-          "박기호",
-          "망막신경섬유층",
-          "광간섭단층촬영",
-          "개방각 녹내장",
-          "안압",
-          "정상안압 녹내장"
+          "안과학"
         ],
-        "recent_papers": [
-          {
-            "title": "Residual Structural Differences on Anterior Segment OCT After Laser Peripheral Iridotomy in Primary Angle Closure Disease",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/",
-            "year": "2026",
-            "venue": "Journal of Glaucoma",
-            "summary": ""
-          },
-          {
-            "title": "Near-infrared light–responsive implantable module integrated into glaucoma drainage device for controlled antifibrotic drug therapy",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/",
-            "year": "2026",
-            "venue": "Chemical Engineering Journal",
-            "summary": ""
-          },
-          {
-            "title": "Minimally invasive glaucoma surgery in the surgical landscape of primary angle closure glaucoma: Current innovations and future trends",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/",
-            "year": "2026",
-            "venue": "Progress in Retinal and Eye Research",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 6,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -103290,13 +103335,18 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Ki Ho Park - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/"
+            "title": "View all 465 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-72/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하는 연건학생지원센터 정보가 확인됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-72/publications/",
@@ -103306,12 +103356,12 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960280/328_Park_+Ki+Ho.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-72/",
-        "poster_evidence": "Official profile page of Ki Ho Park at Seoul National University.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-72/",
           "https://snu.elsevierpure.com/en/persons/y-park-72/publications/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -103321,11 +103371,11 @@
           "https://libguides.snu.ac.kr/home",
           "https://snu.elsevierpure.com/en/persons/y-park-72/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-209FE7FA18F886",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T12:06:37Z",
+        "_saved_at": "2026-09-22T11:27:08Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -255736,11 +255786,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-22T11:23:40Z",
-    "checked": 245,
-    "seconds": 4866.66,
+    "at": "2026-09-22T11:27:08Z",
+    "checked": 250,
+    "seconds": 5074.8,
     "gemini": true,
-    "ai_requests": 142,
+    "ai_requests": 145,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
