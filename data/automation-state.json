@@ -1,5 +1,5 @@
 {
-  "cursor": 75,
+  "cursor": 80,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -14640,18 +14640,90 @@
       "_unit_id": "SNU-RU-ERE-KANG-JINSU"
     },
     "SNU-RU-3744060538F429": {
-      "fingerprint": "72c4f81309b192afcf3de2b7d604f58e545ea279eaf842e08f4f1f32d3722062",
-      "checked_at": "2026-09-21T12:56:19Z",
+      "fingerprint": "6462e8827e12767fa16041218a0e065fcba551043c61267e30f15537f20b50bd",
+      "checked_at": "2026-09-22T12:37:20Z",
       "activity": {
         "publicationPages": [
           {
             "title": "PUBLICATIONS",
-            "url": "https://kanglab.snu.ac.kr/publications"
+            "url": "https://kanglab.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://kanglab.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://kanglab.snu.ac.kr/publications",
+            "kind": "publication"
+          },
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://kanglab.snu.ac.kr/publications",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://kanglab.snu.ac.kr/members",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
+            "alt": "서울대학교 서울대학교 기계공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2023/12/강준호.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%A4%80%ED%98%B8-kang-joon-ho/"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://kanglab.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B0%95%EC%A4%80%ED%98%B8-kang-joon-ho/",
@@ -14819,9 +14891,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-19T11:13:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-3744060538F429"
+      "_unit_id": "SNU-RU-3744060538F429",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DC8B200DC62221": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
@@ -19325,29 +19399,129 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-05034AD3AF1B29": {
-      "fingerprint": "d8150d725ff99e0b3d81c95d5e3c650b0f5ac407c1bf7eaaadfc82033bd21f22",
-      "checked_at": "2026-09-21T12:56:35Z",
+      "fingerprint": "c59545a41870f271f34b35111d9f1db150e2646c381adfdce7bbfdbb7e7e1ee5",
+      "checked_at": "2026-09-22T12:37:35Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [
+        "publicationPages": [
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "title": "International",
+            "url": "https://ants.snu.ac.kr/international-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic",
+            "url": "https://ants.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "[이승아 교수 연구팀] 컴퓨터 비전 분야 3대 학회 ECCV 2026 논문 채택",
+            "url": "https://me.snu.ac.kr/?kboard_content_redirect=22061",
+            "kind": "publication"
+          },
+          {
+            "title": "International",
+            "url": "https://ants.snu.ac.kr/international-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Domestic",
+            "url": "https://ants.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
           }
         ],
-        "membersUrl": "https://me.snu.ac.kr/snu__professor/%EA%B3%A0%EC%8A%B9%ED%99%98-ko-seung-hwan/",
+        "recruitmentPages": [
+          {
+            "title": "Position",
+            "url": "https://ants.snu.ac.kr/position/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr/index.html",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://ants.snu.ac.kr/current-members/",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://ants.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+            "alt": "서울대학교 WSE Lab",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/position/"
+          },
+          {
+            "url": "https://devants.insnucms.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-12-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://devants.snu.ac.kr/wp-content/uploads/sites/67/2024/06/캡쳐-2-300x199.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://ants.snu.ac.kr/wp-content/uploads/sites/67/2026/05/physical-AI-300x239.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://devants.insnucms.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-2-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://ants.snu.ac.kr/wp-content/uploads/sites/67/2025/03/neural-recording-r-300x185.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://devants.snu.ac.kr/wp-content/uploads/sites/67/2024/06/캡처4-300x232.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://ants.snu.ac.kr/"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em.png",
+            "alt": "서울대학교 서울대학교 기계공학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
+          "https://ants.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B3%A0%EC%8A%B9%ED%99%98-ko-seung-hwan/",
           "https://me.snu.ac.kr",
-          "https://me.snu.ac.kr/snu__professor/%EA%B3%A0%EC%8A%B9%ED%99%98-ko-seung-hwan/#container",
-          "https://me.snu.ac.kr/snu__professor/%EA%B3%A0%EC%8A%B9%ED%99%98-ko-seung-hwan/#footer",
-          "https://admission.snu.ac.kr/",
-          "https://me.snu.ac.kr/snu__professor/%EA%B3%A0%EC%8A%B9%ED%99%98-ko-seung-hwan/#none",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98/",
-          "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/bk%ea%b5%90%ec%88%98/"
+          "https://ants.snu.ac.kr/current-members/",
+          "https://ants.snu.ac.kr/alumni/",
+          "https://ants.snu.ac.kr/international-journal/",
+          "https://ants.snu.ac.kr/domestic-journal/",
+          "https://ants.snu.ac.kr/position/",
+          "https://bioeng.snu.ac.kr/",
+          "https://fam.snu.ac.kr/"
         ]
       },
       "enrichment": {
@@ -19419,9 +19593,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-21T12:57:50Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-05034AD3AF1B29"
+      "_unit_id": "SNU-RU-05034AD3AF1B29",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-D4E730E2D2B3FF": {
       "fingerprint": "d27226017cec24ed6e0106dc559a9058ee93e759272fcc15b546a1cec07fb58c",
@@ -39639,8 +39815,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9E529B867CDCA1": {
-      "fingerprint": "18922d7651f8f3dc2029730e1a7a970c7c7a4b33d3111ea5dc9e3fe8b249b385",
-      "checked_at": "2026-09-21T12:56:23Z",
+      "fingerprint": "35666919356a0472b5ad6e9ff0177162469d84bf07aba113078c89c556fa62c7",
+      "checked_at": "2026-09-22T12:37:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -39652,12 +39828,7 @@
             "url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -39674,7 +39845,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김도년 교수의 AI주도 시뮬레이션 및 설계 연구실(AISDL)은 전산역학을 기반으로 Multi-physics, Multi-scale, Multi-fidelity 시뮬레이션 기술을 개발하며, 바이오나노재료의 전산 해석 및 설계와 웹 기반 해석·설계 기술 연구를 수행하고 있습니다.",
+        "research_summary": "김도년 교수의 AI주도 시뮬레이션 및 설계 연구실은 전산역학을 기반으로 Multi-physics, Multi-scale, Multi-fidelity 시뮬레이션 기술을 개발하며, 바이오나노재료의 전산 해석 및 설계와 웹 기반 해석·설계 기술 연구를 수행하고 있습니다.",
         "research_topics": [
           "전산역학",
           "Multi-physics 시뮬레이션",
@@ -39717,14 +39888,9 @@
             "url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47"
           }
         ],
-        "recruitment_summary": "연구실 공식 홈페이지를 통해 관련 분야의 연구원 및 학생 모집 정보를 확인할 수 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
@@ -39738,13 +39904,12 @@
         "source_urls_used": [
           "http://aisdl.snu.ac.kr/",
           "https://me.snu.ac.kr/snu__professor/%EA%B9%80%EB%8F%84%EB%85%84-kim-do-nyun/",
-          "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=52",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2&wr_id=47",
-          "https://admission.snu.ac.kr/",
           "https://me.snu.ac.kr",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_2",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub2_3",
+          "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub5_2",
           "http://aisdl.snu.ac.kr/index.php",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub1_1",
           "http://aisdl.snu.ac.kr/bbs/board.php?bo_table=sub1_2",
@@ -39755,7 +39920,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-9E529B867CDCA1",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T11:13:17Z",
+        "_saved_at": "2026-09-22T12:38:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -43237,8 +43402,8 @@
       "_unit_id": "SNU-RU-D30322A316FB35"
     },
     "SNU-RU-6C0BD9C6E29AAD": {
-      "fingerprint": "7da7a02e7c1223f828f67a8372158391b5acb55926c7a4dd72a74b0a2a4e2147",
-      "checked_at": "2026-09-21T12:56:20Z",
+      "fingerprint": "79dd02e3953c9582b4fe209c4181d27b1a2a2f3165c8d99106e32010b09f05db",
+      "checked_at": "2026-09-22T12:37:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -43309,6 +43474,13 @@
           {
             "url": "https://me.snu.ac.kr/wp-content/uploads/sites/262/2025/02/me-logo-em-wh.png",
             "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://me.snu.ac.kr"
+          },
+          {
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
             "title": "",
             "score": 0,
             "parent_source_url": "https://me.snu.ac.kr"
@@ -55133,8 +55305,8 @@
       "_unit_id": "SNU-RU-B3CFABDFE9A4E2"
     },
     "SNU-RU-154D57F53FF8D9": {
-      "fingerprint": "a546489f1734e954b36e0b9697ff1ce1a38717309f59b35b71ba7f0e03ece128",
-      "checked_at": "2026-09-21T12:56:34Z",
+      "fingerprint": "86cbccc2e3366a4cf72ca8406aedd826f82e7c22bb901b9487a0322e71aa173a",
+      "checked_at": "2026-09-22T12:37:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -55233,11 +55405,11 @@
             "parent_source_url": "https://me.snu.ac.kr/%ec%82%ac%eb%9e%8c%eb%93%a4/%ea%b5%90%ec%88%98%ec%a7%84/%eb%b3%b4%ec%a7%81%ea%b5%90%ec%88%98/"
           },
           {
-            "url": "https://thermal.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-            "alt": "서울대학교 TRS-DLab at SNU",
+            "url": "https://me.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://thermal.snu.ac.kr/"
+            "parent_source_url": "https://me.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
@@ -257304,11 +257476,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-22T12:37:11Z",
-    "checked": 495,
-    "seconds": 9277.69,
+    "at": "2026-09-22T12:39:57Z",
+    "checked": 500,
+    "seconds": 9443.3,
     "gemini": true,
-    "ai_requests": 239,
+    "ai_requests": 240,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
