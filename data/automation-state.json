@@ -1,5 +1,5 @@
 {
-  "cursor": 190,
+  "cursor": 195,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -149498,8 +149498,8 @@
       "_unit_id": "SNU-RU-99A974BC6CDBBE"
     },
     "SNU-RU-1BB29E7460640A": {
-      "fingerprint": "9e1314ce4de3f1b4c39af8e2dfd3fa1c9dc3a6e80891c7686130b778f57ef14f",
-      "checked_at": "2026-09-21T13:34:19Z",
+      "fingerprint": "28b23908b499cc68eb60d49542629f526a455c69460abc8b13955cb688dd92d2",
+      "checked_at": "2026-09-22T13:23:37Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -149534,11 +149534,11 @@
           "데이터 마이닝",
           "데이터베이스",
           "쿼리 최적화",
+          "데이터 웨어하우징",
           "XML",
           "스트림 데이터",
           "히스토그램",
-          "쿼리 프로세싱",
-          "데이터 웨어하우징"
+          "쿼리 프로세싱"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -149552,7 +149552,7 @@
         "recent_group_exhibitions": [],
         "education_summary": "1986년 서울대학교 전기공학 학사, 1988년 매릴랜드 대학교 컴퓨터과학 석사, 1993년 매릴랜드 대학교 컴퓨터과학 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
@@ -149583,15 +149583,15 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-1BB29E7460640A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T13:34:34Z",
+        "_saved_at": "2026-09-22T13:23:45Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-1BB29E7460640A"
     },
     "SNU-RU-EC78C166F4E08B": {
-      "fingerprint": "eb2c82ed196ffa66d66fdf5be628206138a17587c20e10f6005156026911ee3a",
-      "checked_at": "2026-09-21T13:34:20Z",
+      "fingerprint": "589f5894eb5703f1d4bdf5cfa5c4e2a84ba701ec6722a8aedc415246e75c9cf4",
+      "checked_at": "2026-09-22T13:23:39Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -149667,9 +149667,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p078",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -149683,7 +149683,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-EC78C166F4E08B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T13:36:09Z",
+        "_saved_at": "2026-09-22T13:24:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -150291,8 +150291,8 @@
       "_unit_id": "SNU-RU-04F0BE003A870C"
     },
     "SNU-RU-E41B8F822DED8B": {
-      "fingerprint": "677564b0670285bda95b6d9605332c8599c3b0e0ed9216eeb0d0e874d19637d1",
-      "checked_at": "2026-09-21T13:34:20Z",
+      "fingerprint": "352142256815d5607716ea0a990c5ec7df559541c71401a9bd90187406f92197",
+      "checked_at": "2026-09-22T13:23:39Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -150305,7 +150305,7 @@
             "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
-        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
+        "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
@@ -150321,9 +150321,21 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
-        "research_topics": [],
-        "recommendation_keywords": [],
+        "research_summary": "컴퓨터 구조 및 시스템, 머신러닝/AI를 위한 시스템, 컴파일러 및 프로그래밍 언어 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "Computer Architecture and Systems",
+          "Systems for Machine Learning/AI",
+          "Compilers & Programming Languages"
+        ],
+        "recommendation_keywords": [
+          "컴퓨터 구조",
+          "시스템",
+          "머신러닝 시스템",
+          "컴파일러",
+          "Computer Architecture and Systems",
+          "Systems for Machine Learning/AI",
+          "Compilers & Programming Languages"
+        ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -150334,9 +150346,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "2007년 서울대학교 전기·컴퓨터공학부 학사, 2010년 조지아 공과대학교(Georgia Tech) 전기·컴퓨터공학부 석사, 2015년 동 대학 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 교수 초빙 안내 페이지를 통해 관련 정보를 확인할 수 있습니다.",
+        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -150350,7 +150362,7 @@
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
+        "member_page_url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -150360,9 +150372,9 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
@@ -150376,7 +150388,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E41B8F822DED8B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T13:35:51Z",
+        "_saved_at": "2026-09-22T13:23:57Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -151483,8 +151495,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-9E43F4F8B27771": {
-      "fingerprint": "1dad15945b150fc001f6ea07bd0677be3b06ac3d94a0341a5b8ece22aa108d26",
-      "checked_at": "2026-09-21T13:34:20Z",
+      "fingerprint": "1e5de4a05103e14758389c2652c9726fd6d11759484454313f63c7ee32c3dd72",
+      "checked_at": "2026-09-22T13:23:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -151682,7 +151694,7 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-9E43F4F8B27771",
-      "verify_error": "verify_TimeoutError"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-58BF740C2ABFED": {
       "fingerprint": "c6fc7447db09ce3e15b8cb9e41151452431ed75ce293fe569ad8d06b1cc2a618",
@@ -233839,8 +233851,8 @@
       "_unit_id": "SNU-RU-400C042F9B7171"
     },
     "SNU-RU-A486056B6167E0": {
-      "fingerprint": "42ec9edfd8e778b9186a2491799a15b944cc118d4cbc3b79de51a45728e060d4",
-      "checked_at": "2026-09-21T13:34:18Z",
+      "fingerprint": "6d7c7d1018ef8a4c3ae92d31ba196f00de6506902893778285a05b00ef9cd05b",
+      "checked_at": "2026-09-22T13:23:40Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -233869,7 +233881,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "양인순 교수는 강화학습 및 최적화 분야를 중심으로 연구를 수행하고 있으며, 학습 및 의사결정 시스템 연구실을 운영하고 있습니다.",
+        "research_summary": "양인순 교수는 전기·정보공학부 소속으로 강화학습 및 최적화 분야를 연구하고 있으며, 학습 및 의사결정 시스템 연구실을 운영하고 있습니다.",
         "research_topics": [
           "강화학습",
           "최적화"
@@ -233888,9 +233900,9 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 공과대학 전기·정보공학부 교수로서 학습 및 의사결정 시스템 연구실을 이끌고 있습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "전기·정보공학부 홈페이지를 통해 교수 초빙 안내 및 지원서 작성 페이지를 제공하고 있습니다.",
+        "recruitment_summary": "전기·정보공학부 교수 초빙 및 지원 관련 안내 페이지가 운영되고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
@@ -233930,7 +233942,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-A486056B6167E0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T13:34:26Z",
+        "_saved_at": "2026-09-22T13:24:12Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -258328,11 +258340,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-22T13:23:21Z",
-    "checked": 610,
-    "seconds": 12047.15,
+    "at": "2026-09-22T13:24:41Z",
+    "checked": 615,
+    "seconds": 12127.49,
     "gemini": true,
-    "ai_requests": 301,
+    "ai_requests": 305,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
