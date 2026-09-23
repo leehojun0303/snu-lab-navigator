@@ -1,5 +1,5 @@
 {
-  "cursor": 2045,
+  "cursor": 2050,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -122974,8 +122974,8 @@
       "_unit_id": "SNU-RU-03F6F85EC641F2"
     },
     "SNU-RU-DC8F99BF345EC8": {
-      "fingerprint": "ec05817048d9052b96d34b3e8b1c0e696ab9bc4bd857a5e52cf0f35add410fb5",
-      "checked_at": "2026-09-23T12:59:01Z",
+      "fingerprint": "f4759914a91b670adffdd88a80b9958703ae1c5b4f24a72c11d8ccd868279ffb",
+      "checked_at": "2026-09-23T23:38:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -122999,9 +122999,9 @@
           "https://snu.elsevierpure.com/en/persons/y-park-4/#main-content",
           "https://snu.elsevierpure.com/en/persons/y-park-4/",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -123083,7 +123083,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:59:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DC8F99BF345EC8"
     },
@@ -123317,7 +123318,7 @@
     },
     "SNU-RU-27577B67CDF9C6": {
       "fingerprint": "b442799fc327a08221e685eab54882b66e24ba3d781db136991046fcc8ac4f26",
-      "checked_at": "2026-09-23T12:59:04Z",
+      "checked_at": "2026-09-23T23:38:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -123945,7 +123946,7 @@
     },
     "SNU-RU-78B0A264A1CC28": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T12:59:09Z",
+      "checked_at": "2026-09-23T23:38:48Z",
       "activity": {
         "publicationPages": [
           {
@@ -124042,8 +124043,8 @@
       "_unit_id": "SNU-RU-78B0A264A1CC28"
     },
     "SNU-RU-964F603C841D0A": {
-      "fingerprint": "2b7cf6a214f63378f3ba8fa0aca1ef0edce12c9677d69f41406d1fc009cf436d",
-      "checked_at": "2026-09-23T12:59:07Z",
+      "fingerprint": "a7fb5821473160012619d15eaf3fbeaf6f778473162ca9061e5a1732a57b4be5",
+      "checked_at": "2026-09-23T23:38:45Z",
       "activity": {
         "publicationPages": [
           {
@@ -124066,10 +124067,10 @@
           "https://snu.elsevierpure.com/en/persons/y-park-43/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-43/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
@@ -124137,7 +124138,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:59:39Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-964F603C841D0A"
     },
@@ -124252,7 +124254,7 @@
     },
     "SNU-RU-CA6B64CCADC881": {
       "fingerprint": "8c48a8bbba5133027fb13dcde11de9e35785d63a9acb32cb4c69451c1d60b23c",
-      "checked_at": "2026-09-23T12:59:03Z",
+      "checked_at": "2026-09-23T23:38:45Z",
       "activity": {
         "publicationPages": [
           {
@@ -267294,9 +267296,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T23:38:18Z",
-    "checked": 295,
-    "seconds": 1785.26,
+    "at": "2026-09-23T23:38:48Z",
+    "checked": 300,
+    "seconds": 1815.74,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
