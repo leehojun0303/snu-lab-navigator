@@ -1,5 +1,5 @@
 {
-  "cursor": 240,
+  "cursor": 245,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -80158,35 +80158,118 @@
       "_unit_id": "SNU-RU-3938280C07DED1"
     },
     "SNU-RU-ADAAC81B3BE0E9": {
-      "fingerprint": "b39a5c505bca3c47f0e31f52aab52a8b6f25400aa520309004d8ccf0277ea73c",
-      "checked_at": "2026-09-22T13:46:00Z",
+      "fingerprint": "c030027870e3ce9516b6c6522289ee60bd37c9c47487d9dccab17b4d3b57ea88",
+      "checked_at": "2026-09-23T14:04:14Z",
       "activity": {
         "publicationPages": [
           {
             "title": "International Journal",
-            "url": "https://dllab.snu.ac.kr/international-journal/"
+            "url": "https://dllab.snu.ac.kr/international-journal/",
+            "kind": "publication"
           },
           {
             "title": "Domestic journal",
-            "url": "https://dllab.snu.ac.kr/domestic-journal/"
+            "url": "https://dllab.snu.ac.kr/domestic-journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Journal",
+            "url": "https://dllab.snu.ac.kr/journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Latex, ISI, E-paper",
+            "url": "https://dllab.snu.ac.kr/latex/",
+            "kind": "publication"
+          },
+          {
+            "title": "Paper Format",
+            "url": "https://dllab.snu.ac.kr/paper-format/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "신임교수초빙",
-            "url": "https://naoe.snu.ac.kr/faculty-job-openings"
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
           },
           {
             "title": "· 학부입학",
-            "url": "https://naoe.snu.ac.kr/admission/undergraduate"
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
             "title": "· 대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[공통] 각 군 현역병 모집일정('26년 10월) 안내",
+            "url": "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21560",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://dllab.snu.ac.kr/m_professor",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/2022/02/main_logo.png",
+            "alt": "Deep Learning Lab.",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/international-journal/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/2025/10/main_logo_mobile-2-scaled.png",
+            "alt": "Deep Learning Lab.",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/international-journal/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202608/6a9190f488aec6054308-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202608/6a85706f501bd8816671-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a5dd47d4099f9904352-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a44c13ba56fc9644124-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          },
+          {
+            "url": "https://dllab.snu.ac.kr/wp-content/uploads/kboard_thumbnails/6/202607/6a44bf77147e89189255-109x64.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dllab.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://dllab.snu.ac.kr/",
           "https://naoe.snu.ac.kr/",
@@ -80323,9 +80406,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:46:56Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-ADAAC81B3BE0E9"
+      "_unit_id": "SNU-RU-ADAAC81B3BE0E9",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F7094ABFB453F4": {
       "fingerprint": "a0490070f085100253ee5c33899ea1e8c5e24e9b6897a1e7eb32d35892ae23f9",
@@ -92790,8 +92875,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-0FF12E1B574E1A": {
-      "fingerprint": "41f0e803de6e90c7f0a54301d7134ee6e3b996962c01d3401860b117daa58e14",
-      "checked_at": "2026-09-22T13:45:30Z",
+      "fingerprint": "4e8d1f845d4dc3b73c3cddf40cf63e8ad0f5f83d94f32174812835e1d4e97ec4",
+      "checked_at": "2026-09-23T14:03:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -92881,13 +92966,6 @@
             "parent_source_url": "https://naoe.snu.ac.kr/"
           },
           {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/e7bz6c3z296z67bzcebz6dcze0czf9cz890z699z4c.jpg",
-            "alt": "조선호 교수님 연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr/"
-          },
-          {
             "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
             "alt": "김도균 교수님 연구실",
             "title": "",
@@ -92897,6 +92975,13 @@
           {
             "url": "https://naoe.snu.ac.kr/webdata/noimage/no-youtube.png",
             "alt": "서유택 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/005z99fz026zcf7zc7fzca9z244z9b0z968zb9dzb1.jpg",
+            "alt": "김태완 교수님 연구실",
             "title": "",
             "score": 0,
             "parent_source_url": "https://naoe.snu.ac.kr/"
@@ -94748,34 +94833,129 @@
       "_unit_id": "SNU-RU-AE79280A108C07"
     },
     "SNU-RU-91DBA5D02F87A2": {
-      "fingerprint": "370695eb8418d23aee9065fd1b8bedda76495f67ee0590b1cd089e9fc11e38ad",
-      "checked_at": "2026-09-22T13:45:49Z",
+      "fingerprint": "c2dfb70e3ff9609385bf5e0ff8acb087e8af0ed0fe744849a53817b3703dc790",
+      "checked_at": "2026-09-23T14:04:01Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journal",
-            "url": "https://sydlab.snu.ac.kr/publication/journal/"
+            "title": "Publication",
+            "url": "https://sydlab.snu.ac.kr/publication/",
+            "kind": "publication"
+          },
+          {
+            "title": "Latest Papers",
+            "url": "https://sydlab.snu.ac.kr/publication/journal/",
+            "kind": "publication"
+          },
+          {
+            "title": "Conference",
+            "url": "https://sydlab.snu.ac.kr/publication/conference/",
+            "kind": "publication"
+          },
+          {
+            "title": "Thesis",
+            "url": "https://sydlab.snu.ac.kr/publication/thesis/",
+            "kind": "publication"
+          },
+          {
+            "title": "Book",
+            "url": "https://sydlab.snu.ac.kr/publication/book/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
             "title": "· 대학원입학",
-            "url": "https://naoe.snu.ac.kr/admission/graduate"
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[공통] 각 군 현역병 모집일정('26년 10월) 안내",
+            "url": "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21560",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://sydlab.snu.ac.kr/people/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+            "alt": "서울대학교 System Design Laboratory",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/publication/conference/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/SyDLab-Main-1.png",
+            "alt": "SyDLab Main",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/Main-Building-1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/OD-Overview-300x225.png",
+            "alt": "OD-Overview",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/SBD-Overview-300x225.png",
+            "alt": "SBD-Overview",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/CD-Overview-300x225.png",
+            "alt": "CD-Overview",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/ANT-Overview-300x225.png",
+            "alt": "ANT-Overview",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          },
+          {
+            "url": "https://sydlab.snu.ac.kr/wp-content/uploads/sites/272/2026/07/OSF-Overview-300x225.png",
+            "alt": "OSF-Overview",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://sydlab.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sydlab.snu.ac.kr/",
           "https://naoe.snu.ac.kr/",
           "https://sydlab.snu.ac.kr/people/",
           "https://sydlab.snu.ac.kr/people/%eb%85%b8%eb%aa%85%ec%9d%bc/",
-          "https://sydlab.snu.ac.kr/people-post-doctors/",
           "https://sydlab.snu.ac.kr/people-ph-d-students/",
           "https://sydlab.snu.ac.kr/people-m-sc-students/",
-          "https://sydlab.snu.ac.kr/people-interns/",
           "https://sydlab.snu.ac.kr/people-alumni/",
-          "https://sydlab.snu.ac.kr/publication/"
+          "https://sydlab.snu.ac.kr/publication/",
+          "https://sydlab.snu.ac.kr/publication/journal/",
+          "https://sydlab.snu.ac.kr/publication/conference/"
         ]
       },
       "enrichment": {
@@ -94904,9 +95084,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:46:31Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-91DBA5D02F87A2"
+      "_unit_id": "SNU-RU-91DBA5D02F87A2",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-CCAC9D41242493": {
       "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
@@ -140029,8 +140211,8 @@
       "_unit_id": "SNU-RU-E091099C887B49"
     },
     "SNU-RU-3552875EB1BE36": {
-      "fingerprint": "a2a6999270364f7f15c6e96a83726da26e5e8ef2b0a790109da2843cf563a104",
-      "checked_at": "2026-09-22T13:45:37Z",
+      "fingerprint": "5ea0b441cb337fa65e861cf0a219906702f048e43c59c8300a4535f74edb51cb",
+      "checked_at": "2026-09-23T14:03:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -140105,15 +140287,8 @@
             "parent_source_url": "https://naoe.snu.ac.kr/"
           },
           {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/eeczff6ze24z8d2z3adzdacz390z969zb6fz283z36.jpg",
-            "alt": "이신형 교수님 연구실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://naoe.snu.ac.kr/"
-          },
-          {
-            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/e7bz6c3z296z67bzcebz6dcze0czf9cz890z699z4c.jpg",
-            "alt": "조선호 교수님 연구실",
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/a4bz382z545z75az9c5zaa3z40czf39z0b3z288zc6.jpg",
+            "alt": "우종훈 교수님 연구실",
             "title": "",
             "score": 0,
             "parent_source_url": "https://naoe.snu.ac.kr/"
@@ -140121,6 +140296,13 @@
           {
             "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/b1ezfa1zc16z882zf4azf14z551z5b9z9abz12cz2d.jpg",
             "alt": "임영섭 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/57ez586z430zdebz13bz8dez3a6z548zc5bz4a9zbf.jpg",
+            "alt": "김도균 교수님 연구실",
             "title": "",
             "score": 0,
             "parent_source_url": "https://naoe.snu.ac.kr/"
@@ -153080,23 +153262,118 @@
       "_unit_id": "SNU-RU-DE04EC4FCEBE79"
     },
     "SNU-RU-E1B20F22C58AB0": {
-      "fingerprint": "64352ac72160064b04082138f1c7ba502159d6db8782eae9dda58cd927075482",
-      "checked_at": "2026-09-22T13:45:32Z",
+      "fingerprint": "7a8ccdecd9521e585944fdc1c868d84f6ba060e2cba40806b03ad38f51bcae64",
+      "checked_at": "2026-09-23T14:03:41Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://theaprilab.org/publications/"
+            "url": "https://theaprilab.org/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "APRILab presented two papers at OCEANS 2022",
+            "url": "https://theaprilab.org/blog/aprilab-presented-two-papers-at-oceans-2022",
+            "kind": "publication"
+          },
+          {
+            "title": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "url": "https://naoe.snu.ac.kr/news/students?md=v&bbsidx=20509",
+            "kind": "publication"
+          },
+          {
+            "title": "[학부] 2026학년도 2학기 학부졸업논문지도교수 배정 안내",
+            "url": "https://naoe.snu.ac.kr/news/notice?md=v&bbsidx=21562",
+            "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "https://theaprilab.org/publications/",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "Openings",
-            "url": "https://theaprilab.org/openings/"
+            "url": "https://theaprilab.org/openings/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신임교수초빙",
+            "url": "https://naoe.snu.ac.kr/faculty-job-openings",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://naoe.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://naoe.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://theaprilab.org/people/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://theaprilab.org/images/logos/aprilab_logo.png",
+            "alt": "APRILab @ UF",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://theaprilab.org/"
+          },
+          {
+            "url": "https://theaprilab.org/images/logos/logo_color_horizontal.png",
+            "alt": "APRILab @ UF",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://theaprilab.org/teaching/"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/_skin/kor/images/site/logo.png?ver=2021-03-30",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/3a7z5f8z590zae9z883z3f5za39z2a1zc73z4b3z8f.jpg",
+            "alt": "조선해양공학과 대학원 12년내 최고 경쟁률! 조선업 회복세에 돌아온 고급인재!",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/4daz502zbdfzc67z109zfc7z0f5ze1dz013zc4cz3d.png",
+            "alt": "조선해양공학과 김용환 교수, 美 조선학회 학술공로상 ‘데이빗슨 메달’ 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/fc1zfafzcafzff3z33dzba8zab5z7a1z66az9d4zb5.jpg",
+            "alt": "김도균 교수, 2024년 한국해양공학회 춘계학술대회 우수논문발표상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/homenews/ko/a60z10cz5a2z39bz2b3zcbdz500ze7fzeabzdaaz6f.jpg",
+            "alt": "HD현대, 서울대·미시간대와 美 조선산업 인재 육성 '맞손'",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr"
+          },
+          {
+            "url": "https://naoe.snu.ac.kr/webdata/faculty/youtube/a4bz382z545z75az9c5zaa3z40czf39z0b3z288zc6.jpg",
+            "alt": "우종훈 교수님 연구실",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://naoe.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://theaprilab.org/",
           "https://naoe.snu.ac.kr/",
@@ -153227,9 +153504,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:46:00Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-E1B20F22C58AB0"
+      "_unit_id": "SNU-RU-E1B20F22C58AB0",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F031A93DE55E30": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -270669,9 +270948,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T14:03:26Z",
-    "checked": 660,
-    "seconds": 8371.18,
+    "at": "2026-09-23T14:04:16Z",
+    "checked": 665,
+    "seconds": 8421.05,
     "gemini": true,
     "ai_requests": 188,
     "completed_full_pass": false
