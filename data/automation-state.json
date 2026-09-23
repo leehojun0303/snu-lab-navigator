@@ -1,5 +1,5 @@
 {
-  "cursor": 1865,
+  "cursor": 1870,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -58438,8 +58438,8 @@
       "_unit_id": "SNU-RU-9C18CE881BF6CF"
     },
     "SNU-RU-902A0C6AFAF67D": {
-      "fingerprint": "cf8d17e34c18390211de26d19e6a26f60d51239aa29bf3488d4577508a29a48c",
-      "checked_at": "2026-09-22T10:43:46Z",
+      "fingerprint": "f951d16c78d0449a00b40f1c3bd41b59d21566306e4a9844f3e09407eb30c110",
+      "checked_at": "2026-09-23T12:11:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -58638,11 +58638,11 @@
         "_stale": true
       },
       "_unit_id": "SNU-RU-902A0C6AFAF67D",
-      "verify_error": "verify_JSONDecodeError"
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-8BB8117A106853": {
-      "fingerprint": "52c481823d73723e0e6d5919564018f5081ff9f785a8cf8a4797d0a9118c02d5",
-      "checked_at": "2026-09-22T10:43:43Z",
+      "fingerprint": "dfc2795ff33cbd10c09294f27a82406c3231995abcd194a09ab11fdd385d7a0c",
+      "checked_at": "2026-09-23T12:11:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -58672,15 +58672,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김영호 교수는 이비인후과학교실 소속으로, 주로 이과(Otology) 분야의 연구를 수행하고 있습니다. 주요 연구 성과로는 학술지 논문 67편, 체계적 문헌고찰 11편 등을 포함하여 총 80건의 연구 산출물을 발표하였습니다.",
+        "research_summary": "김영호 교수는 이비인후과 전문의로서 이과(Otology) 분야를 중심으로 연구를 수행하고 있으며, 난청, 중이염, 인공와우 등 귀 질환과 관련된 다양한 임상 및 기초 연구를 진행하고 있습니다.",
         "research_topics": [
           "이과",
-          "Otology"
+          "난청",
+          "중이염",
+          "인공와우"
         ],
         "recommendation_keywords": [
           "이비인후과",
           "이과",
-          "Otology"
+          "난청",
+          "중이염",
+          "인공와우"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -58692,14 +58696,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 이비인후과학교실 소속으로 재직 중입니다.",
         "verified_publication_pages": [
           {
             "title": "View all 80 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-57/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 별도의 연구실 모집 공고는 없습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -58716,34 +58720,34 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959550/162_Kim_+Young+Ho.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-57/#main-content",
-        "poster_evidence": "Official profile image of Young Ho Kim found on the SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image of Young Ho Kim from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-57/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-57/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-57/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-57/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-57/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-57/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-57/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-8BB8117A106853",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:43:46Z",
+        "_saved_at": "2026-09-23T12:11:35Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-8BB8117A106853"
     },
     "SNU-RU-AE4289A921B595": {
-      "fingerprint": "97914a984767d38a61dc3518046768389c5179acb9ab499b8c142f74a3133c1b",
-      "checked_at": "2026-09-22T10:43:48Z",
+      "fingerprint": "bada54c7e7a9cd877ed3b6a509d3970e9915122b6eb593930f9c14abf18fb9b0",
+      "checked_at": "2026-09-23T12:11:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -58762,27 +58766,26 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-47/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-47/#main-search",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
         "research_summary": "김영훈 교수는 복부영상의학 분야를 전문으로 하며, 특히 위암 치료 후 신체 구성 변화 및 폐색전증 예측을 위한 머신러닝 모델 연구 등 영상 의학적 진단과 치료 예후 분석에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "복부영상의학",
-          "위암 치료 후 신체 구성 변화",
-          "폐색전증 예측",
-          "머신러닝 기반 영상 분석"
+          "위암",
+          "폐색전증",
+          "머신러닝",
+          "신체 구성 분석"
         ],
         "recommendation_keywords": [
           "복부영상의학",
           "위암",
           "폐색전증",
           "머신러닝",
-          "위암 치료 후 신체 구성 변화",
-          "폐색전증 예측",
-          "머신러닝 기반 영상 분석"
+          "신체 구성 분석"
         ],
         "recent_papers": [
           {
@@ -58790,14 +58793,14 @@
             "url": "https://snu.elsevierpure.com/en/publications/body-composition-after-treatment-of-intra-mucosal-gastric-cancer-/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "내시경 절제술과 위절제술을 받은 조기 위암 환자의 치료 후 신체 구성 변화를 비교 분석하여 치료 방법에 따른 예후 차이를 연구하였습니다."
+            "summary": "내시경 절제술과 위절제술을 받은 조기 위암 환자의 치료 후 신체 구성 변화를 비교 분석한 연구입니다."
           },
           {
             "title": "Machine learning improves prediction of pulmonary thromboembolism",
             "url": "https://snu.elsevierpure.com/en/publications/machine-learning-improves-prediction-of-pulmonary-thromboembolism/",
-            "year": "2023",
+            "year": "2024",
             "venue": "Scientific Reports",
-            "summary": "머신러닝 알고리즘을 활용하여 폐색전증 발생 예측의 정확도를 향상시키는 연구를 수행하였습니다."
+            "summary": "머신러닝 기법을 활용하여 폐색전증 발생 예측의 정확도를 향상시킨 연구입니다."
           }
         ],
         "recent_year_paper_count": 151,
@@ -58838,16 +58841,16 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-47/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-47/#main-search",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-kim-47/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 2,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AE4289A921B595",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:44:42Z",
+        "_saved_at": "2026-09-23T12:12:13Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -58920,15 +58923,30 @@
       "_unit_id": "SNU-RU-36F1DF4103D659"
     },
     "SNU-RU-7A70F9953E7B70": {
-      "fingerprint": "df24221e28abbce1689431991a6a555627e7637fe22d54cc37b6801d6f7355cb",
-      "checked_at": "2026-09-22T10:43:53Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-23T12:11:26Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -58936,8 +58954,7 @@
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
           "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -58959,13 +58976,27 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -58975,23 +59006,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7A70F9953E7B70",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:44:50Z",
+        "_saved_at": "2026-09-23T12:12:20Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -60319,8 +60350,8 @@
       "_unit_id": "SNU-RU-78FBD7778E3416"
     },
     "SNU-RU-3F653C6269E9EC": {
-      "fingerprint": "d17a02d4e929008a9e96afa52fc3aeafbf9df28442da7c526e0e94fa5bc0d5cc",
-      "checked_at": "2026-09-22T10:43:44Z",
+      "fingerprint": "f4b9c49f2be39e4030d190aa231fb1fa997e738be271d754984ac1b01d08b44c",
+      "checked_at": "2026-09-23T12:11:24Z",
       "activity": {
         "publicationPages": [
           {
@@ -60350,7 +60381,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김용범 교수는 산부인과학 분야에서 활동하며, 특히 부인암 및 관련 질환에 대한 연구를 수행하고 있습니다.",
+        "research_summary": "김용범 교수는 산부인과학 분야를 연구하며, 특히 부인암 및 관련 질환에 대한 임상 및 학술적 연구를 수행하고 있습니다.",
         "research_topics": [
           "산부인과학",
           "부인암"
@@ -60376,7 +60407,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-48/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -60393,7 +60424,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959562/166_Kim_+Yong+Beom.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-48/#main-content",
-        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image of Yong Beom Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-48/",
           "http://yss.snu.ac.kr/",
@@ -60412,7 +60443,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-3F653C6269E9EC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:43:57Z",
+        "_saved_at": "2026-09-23T12:12:01Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -257859,11 +257890,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T12:10:55Z",
-    "checked": 115,
-    "seconds": 1620.63,
+    "at": "2026-09-23T12:12:20Z",
+    "checked": 120,
+    "seconds": 1705.25,
     "gemini": true,
-    "ai_requests": 60,
+    "ai_requests": 64,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
