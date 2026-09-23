@@ -1,5 +1,5 @@
 {
-  "cursor": 1875,
+  "cursor": 1880,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -62152,7 +62152,7 @@
     },
     "SNU-RU-032440F964CB7D": {
       "fingerprint": "dec12d6d619cea56adab601db2125bccfbdafaa88a8d1dd83e766c6c264a12b8",
-      "checked_at": "2026-09-23T12:14:09Z",
+      "checked_at": "2026-09-23T23:21:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -62788,8 +62788,8 @@
       "_unit_id": "SNU-RU-F36BE974E84592"
     },
     "SNU-RU-BDEB356862596F": {
-      "fingerprint": "539a30efdc56fb7377ba3bacafcc8ee4a6677bb25c78503a84b6bc5c87908302",
-      "checked_at": "2026-09-23T12:14:09Z",
+      "fingerprint": "9733c7908f1732779a4af086e9017697f99ef33d42ac10deab371ebd44c22584",
+      "checked_at": "2026-09-23T23:21:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -62812,10 +62812,10 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-170/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-170/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
@@ -62886,7 +62886,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:15:11Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-BDEB356862596F"
     },
@@ -63248,8 +63249,8 @@
       "_unit_id": "SNU-RU-184D68528D5810"
     },
     "SNU-RU-FDCBAA890F2982": {
-      "fingerprint": "1f9e72c3b601d7664a1e452882a5385188ba8bbb9b9f06dcf40b4ae3002b5329",
-      "checked_at": "2026-09-23T12:14:09Z",
+      "fingerprint": "5e161543140dabec26141a3a96946021bb045b1f87e0bdd15af83969b151728d",
+      "checked_at": "2026-09-23T23:21:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -63274,8 +63275,8 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-113/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-113/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
@@ -63356,7 +63357,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:14:15Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-FDCBAA890F2982"
     },
@@ -63496,7 +63498,7 @@
     },
     "SNU-RU-EDD8F777BA8AEF": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T12:14:14Z",
+      "checked_at": "2026-09-23T23:21:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -63603,7 +63605,7 @@
     },
     "SNU-RU-1F3A3A886D180C": {
       "fingerprint": "795c44c1f48d27e652bc605c5f4fb0035fb923229f7a6940c9a97a2551e387b8",
-      "checked_at": "2026-09-23T12:14:10Z",
+      "checked_at": "2026-09-23T23:21:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -270034,9 +270036,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T23:21:10Z",
-    "checked": 125,
-    "seconds": 757.47,
+    "at": "2026-09-23T23:21:40Z",
+    "checked": 130,
+    "seconds": 788.09,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
