@@ -1,5 +1,5 @@
 {
-  "cursor": 135,
+  "cursor": 140,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -25553,7 +25553,7 @@
     },
     "SNU-RU-9DE1A8D93C4DC6": {
       "fingerprint": "781cecc343ba94a34e50e4ac0cdb4875df34e06efe7d49cd1bfcd8f7ae706fff",
-      "checked_at": "2026-09-22T13:03:08Z",
+      "checked_at": "2026-09-23T13:44:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -227662,8 +227662,8 @@
       "_unit_id": "SNU-RU-7C11814943DA04"
     },
     "SNU-RU-762B93CBF8F7D2": {
-      "fingerprint": "529fcb217d9f000de252150b1c60a78410b8aaacdd605799cadee005003f9065",
-      "checked_at": "2026-09-22T13:03:06Z",
+      "fingerprint": "ed83b49e37478b6b0c737fd48eee80cd4410276b73433e303eca9c7e8f01e21a",
+      "checked_at": "2026-09-23T13:44:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -227742,11 +227742,11 @@
         "poster_event": "",
         "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/e89z844z37bz73ez839z380z57cze71z6c6zcccz12.jpg",
         "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=166",
-        "poster_evidence": "조형규 교수 사진",
+        "poster_evidence": "조형규 교수 사진이 공식 교수진 페이지에 게시되어 있습니다.",
         "source_urls_used": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=166",
-          "https://nucleng.snu.ac.kr/admission/graduate",
           "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/admission/graduate",
           "https://nucleng.snu.ac.kr",
           "https://nucleng.snu.ac.kr/about/people/faculty",
           "https://nucleng.snu.ac.kr/about/people/researcher",
@@ -227754,14 +227754,14 @@
           "https://nucleng.snu.ac.kr/about/people/staff",
           "https://nucleng.snu.ac.kr/about/introduction",
           "https://nucleng.snu.ac.kr/about/history",
-          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/e89z844z37bz73ez839z380z57cze71z6c6zcccz12.jpg",
-          "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg"
+          "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24019",
+          "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/e89z844z37bz73ez839z380z57cze71z6c6zcccz12.jpg"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-762B93CBF8F7D2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T13:03:56Z",
+        "_saved_at": "2026-09-23T13:44:17Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -229106,22 +229106,92 @@
       "_unit_id": "SNU-RU-4D692E2EBED4D1"
     },
     "SNU-RU-1369BBFD677688": {
-      "fingerprint": "0ea75862dc03943fbc4ae9665e0da2dc3b26020630237dd658bc56ce023cca8d",
-      "checked_at": "2026-09-22T13:03:06Z",
+      "fingerprint": "971a5247f7d360f129118717e7eb4046db2181497a5a3dd20cd6f64c2b7554a4",
+      "checked_at": "2026-09-23T13:44:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
-            "title": "대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] [채용] 서울대학교 공과대학 2026학년도 제2차 교수 채용 공고",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24019",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=161",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/64bz017z003z3f6zcb9zf3az6e0z474zfc8z5b4z31.jpg",
+            "alt": "주한규 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=161"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
+            "alt": "서울대학교 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg",
+            "alt": "“우라늄 농축·사용후핵연료 재처리 권한 확보, 명확한 필요성 제시돼야”",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=161",
           "https://nucleng.snu.ac.kr",
@@ -229205,9 +229275,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:03:31Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-1369BBFD677688"
+      "_unit_id": "SNU-RU-1369BBFD677688",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-0279AC5095922C": {
       "fingerprint": "ed0a8aa2f4a0602a4c28a3007ffc70e1ede715df4c8bbedd8f308281b2fd571f",
@@ -233834,22 +233906,92 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-74C9011610D466": {
-      "fingerprint": "57c261e1a39d9f49e4cf7cfdf9bbe3793145beed960ca1117b20a77417c7e47a",
-      "checked_at": "2026-09-22T13:03:06Z",
+      "fingerprint": "ecd81f48bf2ea620cc8ea41b5e92fa73f14209945d1eea53291efaff26297497",
+      "checked_at": "2026-09-23T13:44:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
-            "title": "대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] [채용] 서울대학교 공과대학 2026학년도 제2차 교수 채용 공고",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24019",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=165",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/825z777z1e7z29czbd2z3eez69fz6bez643z3b4z3c.jpg",
+            "alt": "최성열 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=165"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
+            "alt": "서울대학교 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg",
+            "alt": "“우라늄 농축·사용후핵연료 재처리 권한 확보, 명확한 필요성 제시돼야”",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=165",
           "https://nucleng.snu.ac.kr",
@@ -233941,9 +234083,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:03:27Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-74C9011610D466"
+      "_unit_id": "SNU-RU-74C9011610D466",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C2D01BEE1468FA": {
       "fingerprint": "037175e20c889f910bf899246e2fc4f67db47f27bd818e8120043b9fc3278e88",
@@ -241469,22 +241613,92 @@
       "_unit_id": "SNU-RU-399973A5C48F10"
     },
     "SNU-RU-400C042F9B7171": {
-      "fingerprint": "4d176ed77a47d6f5377d8f67abf65fa633d78b91f5c47f3bf8ef62620b3176e5",
-      "checked_at": "2026-09-22T13:03:06Z",
+      "fingerprint": "88afa44dd2dcb116db0e27cb0a56bcbc2f309305463a176af3265f93586253a4",
+      "checked_at": "2026-09-23T13:44:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "학부입학",
-            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           },
           {
-            "title": "대학원입학",
-            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] [채용] 서울대학교 공과대학 2026학년도 제2차 교수 채용 공고",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24019",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=169",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/0aaz860z116z5bbz245z4eezad1za77zb9dz41ezd3.jpg",
+            "alt": "황용석 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=169"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/flogo.png?v=2023",
+            "alt": "서울대학교 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/admission/graduate"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/f45z89ez21cz967zb2az2c7zb45z136z7ddzbb4z3f.jpg",
+            "alt": "“우라늄 농축·사용후핵연료 재처리 권한 확보, 명확한 필요성 제시돼야”",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/e23zb9dz70ezfa7z983zce6z2bezaf2z699zc98zbd.jpg",
+            "alt": "[글로벌포커스] SMR은 과학으로 돌지 않는다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/boardimages/news_ko/cb6zfeaze95z4c8z39czc48zf26zaf4zb8dze7cz98.jpeg",
+            "alt": "[황용석 서울대 교수 인터뷰] 대학 연구실, ‘작은 인공태양’이 빛나다",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=169",
           "https://nucleng.snu.ac.kr",
@@ -241569,9 +241783,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:03:15Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-400C042F9B7171"
+      "_unit_id": "SNU-RU-400C042F9B7171",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-A486056B6167E0": {
       "fingerprint": "6d7c7d1018ef8a4c3ae92d31ba196f00de6506902893778285a05b00ef9cd05b",
@@ -266533,11 +266749,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T13:43:51Z",
-    "checked": 555,
-    "seconds": 7196.97,
+    "at": "2026-09-23T13:44:35Z",
+    "checked": 560,
+    "seconds": 7240.11,
     "gemini": true,
-    "ai_requests": 183,
+    "ai_requests": 184,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
