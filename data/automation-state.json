@@ -1,5 +1,5 @@
 {
-  "cursor": 1870,
+  "cursor": 1875,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -60250,8 +60250,8 @@
       "_unit_id": "SNU-RU-EEBEF86A0FE6F2"
     },
     "SNU-RU-78FBD7778E3416": {
-      "fingerprint": "cc7639f6c16f938edda4da9fc03407e6bda2271b6502f40547cb4bce8a07a0d1",
-      "checked_at": "2026-09-22T10:45:20Z",
+      "fingerprint": "21693de58fe6901871ca6752dfc24605d67e27c2e71e31b66e8fded4139ef29e",
+      "checked_at": "2026-09-23T12:12:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -60281,7 +60281,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김용성 교수는 정형외과 분야, 특히 종양 관련 연구를 수행하고 있으며, 서울대학교 연구자 정보 시스템을 통해 다수의 학술 논문과 연구 성과를 발표하고 있습니다.",
+        "research_summary": "김용성 교수는 정형외과 분야, 특히 종양 관련 연구를 수행하고 있으며, 서울대학교 연구자 정보 시스템을 통해 다수의 학술 논문 성과를 발표하고 있습니다.",
         "research_topics": [
           "종양",
           "정형외과"
@@ -60307,7 +60307,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/yongsung-kim/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -60327,6 +60327,7 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/yongsung-kim/",
+          "https://snu.elsevierpure.com/en/persons/yongsung-kim/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/yongsung-kim/#main-navigation",
@@ -60336,14 +60337,13 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/yongsung-kim/publications/",
           "https://snu.elsevierpure.com/en/persons/yongsung-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-78FBD7778E3416",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:45:32Z",
+        "_saved_at": "2026-09-23T12:13:00Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -60629,17 +60629,22 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-58F40575DE023B": {
-      "fingerprint": "688b48f0cd4ea2db4005853f15b7be385ccdeec941946f294406cd08e5b38765",
-      "checked_at": "2026-09-22T10:45:21Z",
+      "fingerprint": "e2da17d8308f403d5da798bd013e9faaed1efd99b290ccd7b134981db96d4317",
+      "checked_at": "2026-09-23T12:12:49Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Yong-Jin Kim - Seoul National University",
+            "title": "View all 450 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-58/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-58/",
@@ -60655,71 +60660,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김용진 교수는 순환기내과 분야의 전문가로, 특히 관상동맥질환, 관상동맥 CT 혈관조영술, 비후성 심근병증, 심장초음파 및 대동맥 판막 협착증과 관련된 연구를 활발히 수행하고 있습니다.",
+        "research_summary": "김용진 교수는 순환기내과 분야에서 심혈관 질환, 고혈압, 심부전 및 관련 임상 연구를 수행하고 있으며, 다수의 학술 논문을 통해 심혈관 건강과 관련된 의학적 근거를 제시하고 있습니다.",
         "research_topics": [
-          "Coronary Artery Disease",
-          "Coronary Computed Tomography Angiography",
-          "Hypertrophic Cardiomyopathy",
-          "Echocardiography",
-          "Aortic Stenosis"
+          "순환기내과",
+          "심혈관 질환",
+          "고혈압",
+          "심부전"
         ],
         "recommendation_keywords": [
           "순환기내과",
-          "관상동맥질환",
-          "심장초음파",
-          "비후성 심근병증",
-          "Coronary Artery Disease",
-          "Coronary Computed Tomography Angiography",
-          "Hypertrophic Cardiomyopathy",
-          "Echocardiography",
-          "Aortic Stenosis"
+          "심혈관",
+          "고혈압",
+          "심부전",
+          "심혈관 질환"
         ],
-        "recent_papers": [
-          {
-            "title": "Hypertensive Disorders of Pregnancy Subtypes and Long-Term Cardiovascular Risk",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-58/",
-            "year": "2026",
-            "venue": "JAMA Internal Medicine",
-            "summary": "임신 중 고혈압 장애의 아형과 장기적인 심혈관 질환 위험 간의 연관성을 분석한 연구입니다."
-          },
-          {
-            "title": "Maternal smoking based on pre-birth health examination and risk of neurodevelopmental disorders in offspring: insights from a Korean mother-child cohort",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-58/",
-            "year": "2026",
-            "venue": "BMC Medicine",
-            "summary": "출생 전 건강검진 데이터를 바탕으로 임신 중 흡연이 자녀의 신경발달 장애 위험에 미치는 영향을 조사한 연구입니다."
-          },
-          {
-            "title": "Integrated Use of Late Gadolinium Enhancement and Left Ventricular Global Longitudinal Strain in Hypertrophic Cardiomyopathy",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-58/",
-            "year": "2026",
-            "venue": "JACC: Asia",
-            "summary": "비후성 심근병증 환자에서 지연 가돌리늄 조영 증강과 좌심실 전체 종단 변형률을 통합적으로 활용한 평가 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 6,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "JAMA Internal Medicine",
-            "count": 1
-          },
-          {
-            "venue": "BMC Medicine",
-            "count": 1
-          },
-          {
-            "venue": "JACC: Asia",
-            "count": 1
-          },
-          {
-            "venue": "European Journal of Preventive Cardiology",
-            "count": 1
-          },
-          {
-            "venue": "JACC: Cardiovascular Imaging",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -60727,45 +60684,50 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 내과학교실 소속으로 순환기내과 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Yong-Jin Kim - Seoul National University",
+            "title": "View all 450 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-58/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/",
         "poster_status": "verified",
         "poster_title": "Yong-Jin Kim",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959574/168_Kim_+Yong-Jin.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-58/#main-content",
-        "poster_evidence": "Official profile page contains the professor's image.",
+        "poster_evidence": "Official profile image verified on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-58/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-58/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-58/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-58/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-58/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-58F40575DE023B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:45:59Z",
+        "_saved_at": "2026-09-23T12:13:07Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -61221,8 +61183,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-44FFA6176FF2AB": {
-      "fingerprint": "d2afdceeb1d6a48d45ab5fde0e4cf42b4be69e658819100b7ac2ae8c04ea03ec",
-      "checked_at": "2026-09-22T10:45:20Z",
+      "fingerprint": "a96b176286227d049772fc4777a9a754fef691224b6fdeb6b0afd8a21b8154cb",
+      "checked_at": "2026-09-23T12:12:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -61252,18 +61214,13 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김용휘 교수는 신경외과 전문의로서 뇌종양, 특히 뇌하수체 종양 및 두개저 종양 분야를 중점적으로 연구하고 진료합니다.",
+        "research_summary": "김용휘 교수는 신경외과 전문의로서 뇌종양 분야를 중심으로 연구를 수행하고 있으며, 157건 이상의 연구 성과를 발표하였습니다.",
         "research_topics": [
-          "뇌종양",
-          "뇌하수체 종양",
-          "두개저 종양"
+          "뇌종양"
         ],
         "recommendation_keywords": [
           "뇌종양",
-          "신경외과",
-          "뇌하수체",
-          "뇌하수체 종양",
-          "두개저 종양"
+          "신경외과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -61282,7 +61239,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-43/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "제공된 공식 URL 내에서 특정 연구실의 직접적인 채용 공고는 확인되지 않았습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -61299,34 +61256,34 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959586/171_Kim_+Yong+Hui.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-43/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "공식 프로필 페이지에 게시된 교수 인물 사진입니다.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-43/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-43/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-43/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-43/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-43/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-43/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-43/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-44FFA6176FF2AB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:45:29Z",
+        "_saved_at": "2026-09-23T12:12:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-44FFA6176FF2AB"
     },
     "SNU-RU-D591281EDFAF31": {
-      "fingerprint": "4300b78b156eb5913a515c5317dd1fed639230d633caeb46f8591fe2e0233a00",
-      "checked_at": "2026-09-22T10:45:20Z",
+      "fingerprint": "4f55f53cd24a16365c1ead37a54c221ee922e484ce9c95c720323b94a757957c",
+      "checked_at": "2026-09-23T12:12:51Z",
       "activity": {
         "publicationPages": [
           {
@@ -61356,17 +61313,17 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김웅한 교수는 심장혈관흉부외과 분야의 전문가로, 특히 선천성 심장병 수술 및 관련 임상 연구에 주력하고 있습니다. 218건 이상의 연구 성과를 보유하고 있으며, 저널 논문, 체계적 문헌 고찰, 서적 챕터 등 다양한 학술 활동을 수행하고 있습니다.",
+        "research_summary": "김웅한 교수는 심장혈관흉부외과 분야, 특히 선천성 심장병 및 소아 심장 수술 분야에서 활발한 연구를 수행하고 있습니다.",
         "research_topics": [
           "흉부외과학",
           "선천성 심장병",
-          "심장혈관외과"
+          "소아 심장 수술"
         ],
         "recommendation_keywords": [
           "심장혈관흉부외과",
           "선천성 심장병",
-          "흉부외과학",
-          "심장혈관외과"
+          "소아 심장 수술",
+          "흉부외과학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -61385,7 +61342,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-46/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -61421,19 +61378,19 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D591281EDFAF31",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:45:46Z",
+        "_saved_at": "2026-09-23T12:13:16Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D591281EDFAF31"
     },
     "SNU-RU-2B17C2590DDF9C": {
-      "fingerprint": "87bf9c4a432bac7e8226e29eed0dcbbbaf9444cf944f611ec52333043cb527a9",
-      "checked_at": "2026-09-22T10:45:22Z",
+      "fingerprint": "7f669df0bf0fcbca8689f09e5e4ccb7d51e4e13415d0772c67e9d20db6191bf2",
+      "checked_at": "2026-09-23T12:12:56Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 271 Research outputs",
+            "title": "View all 272 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/"
           }
         ],
@@ -61459,7 +61416,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김원 교수는 소화기내과 분야, 특히 대사 기능 장애 관련 지방간 질환(MASLD) 및 간 섬유화 기전 연구에 집중하고 있습니다. 최근 연구에서는 ADAMTS4와 같은 특정 단백질이 골수 유래 면역 세포 모집 및 간 섬유화 과정에 미치는 영향을 규명하였습니다.",
+        "research_summary": "김원 교수는 소화기내과 분야, 특히 대사 기능 장애 관련 지방간 질환(MASLD) 및 간 섬유화 기전 연구에 집중하고 있습니다. 최근 연구에서는 ADAMTS4와 같은 특정 단백질이 골수 유래 면역 세포 모집 및 간 섬유화 과정에 미치는 영향을 규명하는 등 간 질환의 병태생리학적 기전을 탐구하고 있습니다.",
         "research_topics": [
           "소화기내과",
           "대사 기능 장애 관련 지방간 질환(MASLD)",
@@ -61483,7 +61440,7 @@
             "summary": "ADAMTS4 단백질이 대사 기능 장애 관련 지방간 질환에서 골수 유래 면역 세포의 모집을 유도하고 간 섬유화를 촉진하는 기전을 밝혀냈습니다."
           }
         ],
-        "recent_year_paper_count": 271,
+        "recent_year_paper_count": 272,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -61495,18 +61452,18 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 271 Research outputs",
+            "title": "View all 272 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "현재 공식적인 연구실 모집 공고는 확인되지 않으나, 서울대학교 의과대학 및 관련 연구 지원 시스템을 통해 연구 활동이 이루어지고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "ADAMTS4 elicits myeloid-derived immune cell recruitment and liver fibrogenesis in metabolic dysfunction-associated steatotic liver disease",
             "url": "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/"
           }
         ],
-        "recruitment_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/",
+        "recruitment_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-49/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/",
@@ -61516,11 +61473,10 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959602/175_Kim_+Won.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-49/#main-navigation",
-        "poster_evidence": "Official profile image of Won Kim from SNU Elsevier Pure portal.",
+        "poster_evidence": "서울대학교 연구자 정보 페이지에 등록된 공식 프로필 사진입니다.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-49/",
           "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-49/#main-navigation",
           "http://yss.snu.ac.kr/",
@@ -61529,13 +61485,14 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-49/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-2B17C2590DDF9C",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:46:04Z",
+        "_saved_at": "2026-09-23T12:13:37Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -257890,11 +257847,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T12:12:20Z",
-    "checked": 120,
-    "seconds": 1705.25,
+    "at": "2026-09-23T12:13:37Z",
+    "checked": 125,
+    "seconds": 1782.23,
     "gemini": true,
-    "ai_requests": 64,
+    "ai_requests": 69,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
