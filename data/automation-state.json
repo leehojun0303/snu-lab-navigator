@@ -1,5 +1,5 @@
 {
-  "cursor": 145,
+  "cursor": 150,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -11737,24 +11737,52 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DF279D62A018DF": {
-      "fingerprint": "9549d67a496aae162c0f8ec36c3ba395af544d45b0442baaf4c8b46e813a5e2e",
-      "checked_at": "2026-09-22T13:06:30Z",
+      "fingerprint": "e485821baea96bbcfede807b2c3a2a90129bd82e8ef184d68f5a49f2af38f36b",
+      "checked_at": "2026-09-23T13:45:37Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Read More »",
+            "url": "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://mse.snu.ac.kr#content"
+          "https://mse.snu.ac.kr/%ea%b0%95%ea%b8%b0%ed%9b%88-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%b9%84%eb%82%a9%ea%b3%84-%ea%b8%88%ec%86%8d-%ed%95%a0%eb%9d%bc%ec%9d%b4%eb%93%9c-%ec%9d%b4%ec%a2%85%ec%83%81-%ea%b8%b0/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/"
         ]
       },
       "enrichment": {
@@ -11806,9 +11834,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:07:19Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-DF279D62A018DF"
+      "_unit_id": "SNU-RU-DF279D62A018DF",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-EAF2E5F8031DFD": {
       "fingerprint": "8f43e7349b217313af41c45acf896ce11ad34fe10aa886da48870c1bea74e16b",
@@ -23314,24 +23344,52 @@
       "_unit_id": "SNU-RU-C5FF646B89951F"
     },
     "SNU-RU-151979BDC1F26E": {
-      "fingerprint": "9549d67a496aae162c0f8ec36c3ba395af544d45b0442baaf4c8b46e813a5e2e",
-      "checked_at": "2026-09-22T13:06:30Z",
+      "fingerprint": "e485821baea96bbcfede807b2c3a2a90129bd82e8ef184d68f5a49f2af38f36b",
+      "checked_at": "2026-09-23T13:45:37Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Read More »",
+            "url": "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://mse.snu.ac.kr#content"
+          "https://mse.snu.ac.kr/%ea%b0%95%ea%b8%b0%ed%9b%88-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%b9%84%eb%82%a9%ea%b3%84-%ea%b8%88%ec%86%8d-%ed%95%a0%eb%9d%bc%ec%9d%b4%eb%93%9c-%ec%9d%b4%ec%a2%85%ec%83%81-%ea%b8%b0/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/"
         ]
       },
       "enrichment": {
@@ -23383,9 +23441,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:07:28Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-151979BDC1F26E"
+      "_unit_id": "SNU-RU-151979BDC1F26E",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-33DFF092306307": {
       "fingerprint": "bfe35374be1255c41a5b0499c60f98b92c6b600eb0dce8d6d73ecacf81390bdf",
@@ -27315,29 +27375,52 @@
       "_unit_id": "SNU-RU-706C2D55A0797D"
     },
     "SNU-RU-79672F5FFD0ECA": {
-      "fingerprint": "9549d67a496aae162c0f8ec36c3ba395af544d45b0442baaf4c8b46e813a5e2e",
-      "checked_at": "2026-09-22T13:06:30Z",
+      "fingerprint": "e485821baea96bbcfede807b2c3a2a90129bd82e8ef184d68f5a49f2af38f36b",
+      "checked_at": "2026-09-23T13:45:37Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
+            "title": "Read More »",
+            "url": "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
+            "kind": "recruitment"
+          },
+          {
             "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://mse.snu.ac.kr#content"
+          "https://mse.snu.ac.kr/%ea%b0%95%ea%b8%b0%ed%9b%88-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%b9%84%eb%82%a9%ea%b3%84-%ea%b8%88%ec%86%8d-%ed%95%a0%eb%9d%bc%ec%9d%b4%eb%93%9c-%ec%9d%b4%ec%a2%85%ec%83%81-%ea%b8%b0/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/"
         ]
       },
       "enrichment": {
@@ -27394,9 +27477,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:07:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-79672F5FFD0ECA"
+      "_unit_id": "SNU-RU-79672F5FFD0ECA",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3E84B7C78C0405": {
       "fingerprint": "d63e0a9872cedffadc7842a9f94e0844b979e79a5c40564444173dd0f5fd2e4d",
@@ -43061,24 +43146,52 @@
       "_unit_id": "SNU-RU-192395D2465D96"
     },
     "SNU-RU-6AE09C690B4646": {
-      "fingerprint": "9549d67a496aae162c0f8ec36c3ba395af544d45b0442baaf4c8b46e813a5e2e",
-      "checked_at": "2026-09-22T13:06:31Z",
+      "fingerprint": "e485821baea96bbcfede807b2c3a2a90129bd82e8ef184d68f5a49f2af38f36b",
+      "checked_at": "2026-09-23T13:45:37Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Read More »",
+            "url": "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://mse.snu.ac.kr#content"
+          "https://mse.snu.ac.kr/%ea%b0%95%ea%b8%b0%ed%9b%88-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%b9%84%eb%82%a9%ea%b3%84-%ea%b8%88%ec%86%8d-%ed%95%a0%eb%9d%bc%ec%9d%b4%eb%93%9c-%ec%9d%b4%ec%a2%85%ec%83%81-%ea%b8%b0/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/"
         ]
       },
       "enrichment": {
@@ -43130,9 +43243,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:07:57Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-6AE09C690B4646"
+      "_unit_id": "SNU-RU-6AE09C690B4646",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-A6D3C79E975754": {
       "fingerprint": "9e7bcd4c7a2b67290f2c9bbbf38530aff58846ef9d736ebc1bed35c896beba24",
@@ -48073,29 +48188,52 @@
       "_unit_id": "SNU-RU-02400C17DA81D6"
     },
     "SNU-RU-DEB0368710B295": {
-      "fingerprint": "9549d67a496aae162c0f8ec36c3ba395af544d45b0442baaf4c8b46e813a5e2e",
-      "checked_at": "2026-09-22T13:06:30Z",
+      "fingerprint": "e485821baea96bbcfede807b2c3a2a90129bd82e8ef184d68f5a49f2af38f36b",
+      "checked_at": "2026-09-23T13:45:39Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "kind": "publication"
+          }
+        ],
         "recruitmentPages": [
           {
+            "title": "Read More »",
+            "url": "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
+            "kind": "recruitment"
+          },
+          {
             "title": "Admissions 입학",
-            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/"
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admissions 입학",
+            "url": "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
         "posterStatus": "none_detected",
+        "posterCandidates": [],
         "sourcePagesScanned": [
           "https://mse.snu.ac.kr",
           "https://mse.snu.ac.kr/snumse-main/people/professors/",
           "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/materials-faculty-recruitment-2026/",
           "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
           "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
           "https://mse.snu.ac.kr/snumse-main/education/admissions/",
           "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
-          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://mse.snu.ac.kr#content"
+          "https://mse.snu.ac.kr/%ea%b0%95%ea%b8%b0%ed%9b%88-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-%eb%b9%84%eb%82%a9%ea%b3%84-%ea%b8%88%ec%86%8d-%ed%95%a0%eb%9d%bc%ec%9d%b4%eb%93%9c-%ec%9d%b4%ec%a2%85%ec%83%81-%ea%b8%b0/",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a0%95%ec%9a%b0-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-ai%eb%a1%9c-%ea%b0%80%ec%8a%a4-%ec%84%bc%ec%84%9c-%ec%86%8c%ec%9e%ac%eb%a5%bc-%ec%84%a4%ea%b3%84%ed%95%98%eb%8a%94/"
         ]
       },
       "enrichment": {
@@ -48152,9 +48290,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T13:07:35Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-DEB0368710B295"
+      "_unit_id": "SNU-RU-DEB0368710B295",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-69E2E1A40B1F96": {
       "fingerprint": "5d3bcb55f3195a2f223bcb918b4fc7cc6b3643fc867c918db82f19f1cd76c32c",
@@ -266584,9 +266724,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T13:45:24Z",
-    "checked": 565,
-    "seconds": 7289.13,
+    "at": "2026-09-23T13:46:10Z",
+    "checked": 570,
+    "seconds": 7335.95,
     "gemini": true,
     "ai_requests": 185,
     "completed_full_pass": false
