@@ -1,5 +1,5 @@
 {
-  "cursor": 1795,
+  "cursor": 1800,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -35130,8 +35130,8 @@
       "_unit_id": "SNU-RU-1193D8B6F03E37"
     },
     "SNU-RU-B661D04392E80D": {
-      "fingerprint": "51d7f0bf5c81f15e0537893194291486b802cef8120e73e93149123945abaf2a",
-      "checked_at": "2026-09-23T11:53:41Z",
+      "fingerprint": "6252529492537393fedb3bd9f50e03eb687cb9c7dccc1563fd3f9fdeb37364be",
+      "checked_at": "2026-09-23T23:13:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -35153,11 +35153,11 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-191/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-191/#main-search",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/"
         ]
       },
       "enrichment": {
@@ -35232,7 +35232,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T11:54:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-B661D04392E80D"
     },
@@ -35894,7 +35895,7 @@
     },
     "SNU-RU-D33D6EDA7BCAC4": {
       "fingerprint": "cf7e32df84a567b8f6b1bca969133f35ccbd294bb62ed87333b8f8bdecaa990a",
-      "checked_at": "2026-09-23T11:53:39Z",
+      "checked_at": "2026-09-23T23:13:28Z",
       "activity": {
         "publicationPages": [
           {
@@ -36005,7 +36006,7 @@
     },
     "SNU-RU-4228F177488412": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T11:53:44Z",
+      "checked_at": "2026-09-23T23:13:30Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -36225,7 +36226,7 @@
     },
     "SNU-RU-9592FADE079B27": {
       "fingerprint": "6de67c4f58a6127ce028f6b43fbb95551f5645d9b02a0d2504405a0631396d21",
-      "checked_at": "2026-09-23T11:53:41Z",
+      "checked_at": "2026-09-23T23:13:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -36499,8 +36500,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-D59FD521DFE770": {
-      "fingerprint": "7b9283ee791a85ca4a5abc383c3235dd28340a038e02026dae4ebe5297b81e21",
-      "checked_at": "2026-09-23T11:53:39Z",
+      "fingerprint": "e8da86d87d900ab5b63822ec5c1deb005833e8120c95a933fce6663084ef7cb4",
+      "checked_at": "2026-09-23T23:13:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -36597,7 +36598,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T11:53:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-D59FD521DFE770"
     },
@@ -270856,9 +270858,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T23:12:59Z",
-    "checked": 45,
-    "seconds": 267.06,
+    "at": "2026-09-23T23:13:30Z",
+    "checked": 50,
+    "seconds": 297.98,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
