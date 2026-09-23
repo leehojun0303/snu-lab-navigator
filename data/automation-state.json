@@ -1,5 +1,5 @@
 {
-  "cursor": 2005,
+  "cursor": 2010,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -107808,8 +107808,8 @@
       "_unit_id": "SNU-RU-CA1DF8E7CDBDEA"
     },
     "SNU-RU-D9F0E8CDAA42F9": {
-      "fingerprint": "53e4774706b614e23aa36899fc3f939c33490e8d821b3fd3b58f0045e69b12c2",
-      "checked_at": "2026-09-23T12:47:38Z",
+      "fingerprint": "03ef818b5fb1ae2ded2bddece8a45b2e5be64b1cbc73e653455e4c2fe9767842",
+      "checked_at": "2026-09-23T23:34:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -107832,10 +107832,10 @@
           "https://snu.elsevierpure.com/en/persons/y-park-64/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-64/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
@@ -107908,7 +107908,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:48:44Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-D9F0E8CDAA42F9"
     },
@@ -108131,8 +108132,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-4D259F989529C3": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T12:47:42Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-23T23:34:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -108151,14 +108152,14 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -108230,7 +108231,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T11:29:17Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-4D259F989529C3"
     },
@@ -108409,8 +108411,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7D1A89B0F73680": {
-      "fingerprint": "3c96125d5b7a75abc1f8878e07486bc9fab51ef8618dba33773c88563fa081d2",
-      "checked_at": "2026-09-23T12:47:36Z",
+      "fingerprint": "6c77b59174963e4cc815ab4525352421bab2262929f7680316291745b533587f",
+      "checked_at": "2026-09-23T23:34:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -108433,10 +108435,10 @@
           "https://snu.elsevierpure.com/en/persons/y-park-5/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-5/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
@@ -108509,123 +108511,29 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:47:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-7D1A89B0F73680"
     },
     "SNU-RU-3F913F1130A804": {
-      "fingerprint": "c357ecc75cc30aaa45f240b741d9b2d16d0f1ccc3054fa9db1ada54abc32260c",
-      "checked_at": "2026-09-23T12:47:36Z",
+      "fingerprint": "7a2ffe96c1b8f3aede1d5b28e64e01fcd2837645028b6c5b1cb7e20cc1bc5c86",
+      "checked_at": "2026-09-23T23:34:42Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 155 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "142",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "6",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fconference",
-            "kind": "publication"
-          },
-          {
-            "title": "3",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960344/341_Park_+Sang+Jun.jpg?w=160&f=jpg",
-            "alt": "Sang Jun Park",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-75/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-75/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -108711,122 +108619,26 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-3F913F1130A804",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-3F913F1130A804"
     },
     "SNU-RU-86C3BFF4C18E21": {
-      "fingerprint": "b9c9ec1d106dd08fec2248ee83a7093f424d2d5d3bba02b8826e2db245079c4c",
-      "checked_at": "2026-09-23T12:47:36Z",
+      "fingerprint": "c49bfa10382e0b38ced4b289fb7d61ffb193411c617f1f344a6b6b2fc90e1804",
+      "checked_at": "2026-09-23T23:34:43Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 130 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "123",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fchapter",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-6/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960348/343_Park_+Samina.jpg?w=160&f=jpg",
-            "alt": "Samina Park",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-6/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-6/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -108918,8 +108730,7 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-86C3BFF4C18E21",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-86C3BFF4C18E21"
     },
     "SNU-RU-91244283F2681D": {
       "fingerprint": "bf913f87de096362df5affb609074c3f6b66819f71dfb54415e727a9f6f2388d",
@@ -268272,9 +268083,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T23:34:14Z",
-    "checked": 255,
-    "seconds": 1541.28,
+    "at": "2026-09-23T23:34:43Z",
+    "checked": 260,
+    "seconds": 1571.09,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
