@@ -1,5 +1,5 @@
 {
-  "cursor": 1945,
+  "cursor": 1950,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -83607,8 +83607,8 @@
       "_unit_id": "SNU-RU-20B820B381CF40"
     },
     "SNU-RU-2130414A64B37B": {
-      "fingerprint": "09f7f2bec6bb004cbe2146bd1479b8681eab783b758c2672af1fc46a4bb37143",
-      "checked_at": "2026-09-23T12:33:20Z",
+      "fingerprint": "81c6db9a8def4b346a9e4908c90fab0270b062268fa231c6b7a42f3e36ed7ebe",
+      "checked_at": "2026-09-23T23:28:38Z",
       "activity": {
         "publicationPages": [
           {
@@ -83704,7 +83704,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:33:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-2130414A64B37B"
     },
@@ -84379,8 +84380,8 @@
       "_unit_id": "SNU-RU-BC0FEF2455F69D"
     },
     "SNU-RU-E635C7E11B2986": {
-      "fingerprint": "0063544500069d3f0b915aa48badc298cf64c185d624a8196252f28d6edc2e3a",
-      "checked_at": "2026-09-23T12:33:20Z",
+      "fingerprint": "8decf53356147bda289fa8de4c9c2156974388b7f65e23ee1774ea3dac7c5be0",
+      "checked_at": "2026-09-23T23:28:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -84404,9 +84405,9 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-155/#main-content",
           "https://snu.elsevierpure.com/en/persons/y-kim-155/",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -84486,7 +84487,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:33:26Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-E635C7E11B2986"
     },
@@ -84572,118 +84574,23 @@
       "_unit_id": "SNU-RU-745944EDDDB39C"
     },
     "SNU-RU-8EC978797DF919": {
-      "fingerprint": "63aa0ff58409c92078d1464a0dd54c96c750bc6d315f5cf299a4f7630e5d5d5c",
-      "checked_at": "2026-09-23T12:33:21Z",
+      "fingerprint": "325754c0682a3d250c19e195ebaf88a0e3a262b0fef2061214b572cf603d43dd",
+      "checked_at": "2026-09-23T23:28:38Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 283 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "267",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "6",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-131/publications/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13959988/262_Kim_+Hyung+Kwan.jpg?w=160&f=jpg",
-            "alt": "Hyung Kwan Kim",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-131/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-131/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -84770,8 +84677,7 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-8EC978797DF919",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-8EC978797DF919"
     },
     "SNU-RU-FEE8E4EF0715E6": {
       "fingerprint": "0ea051905f895627da217b497a6453dd5d202caf193b145ab83c4a8e174a7c39",
@@ -84885,7 +84791,7 @@
     },
     "SNU-RU-5A900A5A2AF28B": {
       "fingerprint": "f3cfdb23c5df3ed6f64d24503db0b11ad5088421d2cea4f62bbbf2d36b72931e",
-      "checked_at": "2026-09-23T12:33:21Z",
+      "checked_at": "2026-09-23T23:28:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -85269,7 +85175,7 @@
     },
     "SNU-RU-0E777CC5900427": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T12:33:25Z",
+      "checked_at": "2026-09-23T23:28:42Z",
       "activity": {
         "publicationPages": [
           {
@@ -269107,9 +269013,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T23:28:10Z",
-    "checked": 195,
-    "seconds": 1177.26,
+    "at": "2026-09-23T23:28:42Z",
+    "checked": 200,
+    "seconds": 1209.62,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
