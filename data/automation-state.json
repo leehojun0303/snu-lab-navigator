@@ -1,5 +1,5 @@
 {
-  "cursor": 1845,
+  "cursor": 1850,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -51950,8 +51950,8 @@
       "_unit_id": "SNU-RU-F7204B3AD312BA"
     },
     "SNU-RU-BC3F85BAE4B4B9": {
-      "fingerprint": "84e490c460243cb460447bf9bb0067f6d7a616c1b132e1c8bf35c4ea9902af74",
-      "checked_at": "2026-09-22T10:36:00Z",
+      "fingerprint": "d146045891904aff9490db64c127b7477d9a23d468b82687d7af5695e8def3d5",
+      "checked_at": "2026-09-23T12:06:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -51975,28 +51975,29 @@
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/#main-content",
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김성우 교수는 생식내분비 분야를 연구하며, 특히 태반 의학을 위한 환자 맞춤형 영양막 줄기세포 연구 등에 집중하고 있습니다.",
+        "research_summary": "김성우 교수는 산부인과학교실 소속으로 생식내분비 분야를 연구하며, 특히 태반 의학을 위한 환자 맞춤형 영양막 줄기세포 연구 등을 수행하고 있습니다.",
         "research_topics": [
           "생식내분비",
-          "영양막 줄기세포",
-          "태반 의학"
+          "태반 의학",
+          "영양막 줄기세포"
         ],
         "recommendation_keywords": [
-          "생식내분비",
           "산부인과",
-          "영양막 줄기세포",
-          "태반 의학"
+          "생식내분비",
+          "줄기세포",
+          "태반 의학",
+          "영양막 줄기세포"
         ],
         "recent_papers": [
           {
             "title": "Patient-specific trophoblast stem cells for placental medicine",
-            "url": "https://snu.elsevierpure.com/en/publications/patient-specific-trophoblast-sel-for-placental-medicine/",
+            "url": "https://snu.elsevierpure.com/en/publications/patient-specific-trophoblast-stem-cells-for-placental-medicine/",
             "year": "null",
             "venue": "null",
             "summary": ""
@@ -52011,14 +52012,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 산부인과학교실에서 생식내분비 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 37 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/sungwoo-kim/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지에서 특정 연구실의 모집 공고를 확인할 수 없습니다.",
+        "recruitment_summary": "현재 공식적인 연구실 모집 정보는 확인되지 않으며, 연건캠퍼스 학생들을 위한 상담 및 지원 프로그램 정보가 제공됩니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -52044,9 +52045,9 @@
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
           "https://snu.elsevierpure.com/en/persons/sungwoo-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview"
         ],
@@ -52054,7 +52055,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-BC3F85BAE4B4B9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:36:16Z",
+        "_saved_at": "2026-09-23T12:07:12Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -52948,118 +52949,23 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-19BFF7143BD0D6": {
-      "fingerprint": "20fbde9bdc4e2b3ad5c8d8ec3385a4f92dbc583f5341190c92d2011ae4c0c649",
-      "checked_at": "2026-09-22T10:36:03Z",
+      "fingerprint": "5aeca0f7d9eb075a8dab2879c9e6a6fece8fa4f4cbe33d5eca7d73e1b52d9fa1",
+      "checked_at": "2026-09-23T12:06:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 126 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "117",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "5",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13959451/140_Kim_+Seong-Joon.jpg?w=160&f=jpg",
-            "alt": "Seong-Joon Kim",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-28/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-28/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -53074,54 +52980,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김성준 교수는 서울대학교 의과대학 안과학교실 소속으로, 주로 사시, 신경안과, 소아안과 분야를 연구합니다. 주요 연구 주제로는 외사시, 시력, 내사시, 백내장, 사시, 미숙아 망막병증 등이 있으며, 최근에는 사시 수술의 장기적 결과 및 신경안과적 질환에 대한 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김성준 교수는 안과학교실 소속으로 신경안과, 사시, 소아안과 분야를 전문으로 연구하며, 해당 분야에서 다수의 학술 논문을 발표하고 있습니다.",
         "research_topics": [
-          "Exotropia",
-          "Visual Acuity",
-          "Esotropia",
-          "Exodeviation",
-          "Cataract",
-          "Recurrent Disease",
-          "Strabismus",
-          "Retinopathy of Prematurity"
+          "신경안과",
+          "사시",
+          "소아안과"
         ],
         "recommendation_keywords": [
           "신경안과",
           "사시",
-          "소아안과",
-          "Exotropia",
-          "Visual Acuity",
-          "Esotropia",
-          "Exodeviation",
-          "Cataract",
-          "Recurrent Disease",
-          "Strabismus",
-          "Retinopathy of Prematurity"
+          "소아안과"
         ],
-        "recent_papers": [
-          {
-            "title": "Characteristics and treatment outcomes for presumed congenital superior oblique palsy in adults",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/",
-            "year": "2026",
-            "venue": "BMC Ophthalmology",
-            "summary": ""
-          },
-          {
-            "title": "Long-term outcomes of medial rectus muscle recession for various types of esotropia",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/",
-            "year": "2026",
-            "venue": "Journal of AAPOS",
-            "summary": ""
-          },
-          {
-            "title": "Comparison of Medial Rectus Recession Versus Lateral Rectus Resection in Divergence Insufficiency Esotropia: A Comparative Analysis",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/",
-            "year": "2026",
-            "venue": "Journal of Korean Ophthalmological Society",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 4,
+        "recent_papers": [],
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -53130,16 +53001,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 안과학교실에서 신경안과, 사시, 소아안과 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Seong-Joon Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/"
+            "title": "View all 126 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/",
@@ -53149,10 +53025,10 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959451/140_Kim_+Seong-Joon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-28/#main-content",
-        "poster_evidence": "Official profile image from Seoul National University Pure portal.",
+        "poster_evidence": "Official profile image of Seong-Joon Kim from SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-28/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-28/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-28/#main-search",
@@ -53161,20 +53037,18 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-28/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-19BFF7143BD0D6",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T11:32:26Z",
+        "_saved_at": "2026-09-23T12:07:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-19BFF7143BD0D6",
-      "verify_error": "verify_TimeoutError"
+      "_unit_id": "SNU-RU-19BFF7143BD0D6"
     },
     "SNU-RU-30F452F3349313": {
       "fingerprint": "8d38c1c04459c49e00787c3a6618d4027cc9a0f227014dc1b33ec3340951d037",
@@ -53301,118 +53175,18 @@
       "_unit_id": "SNU-RU-30F452F3349313"
     },
     "SNU-RU-FCDD18D88F5A2B": {
-      "fingerprint": "9d8c150141ea3f2e5b3755bb1d685f9d9759d750a121b8d20b232d1c22852b67",
-      "checked_at": "2026-09-22T10:36:03Z",
+      "fingerprint": "e0c598e474700fe35596d095cc1403701091fa5885ec054985ca86b3be22f65a",
+      "checked_at": "2026-09-23T12:06:53Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 90 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "71",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "9",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "7",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "1",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
+            "title": "Seong Heon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
-            "alt": "No photo of Seong Heon Kim",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -53420,26 +53194,84 @@
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김성헌 교수는 소아류마티스 분야를 전문으로 하며, 소아기 류마티스 질환의 진단, 치료 및 관련 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김성헌 교수는 소아신장학 및 소아류마티스 분야를 중심으로 연구를 수행하고 있으며, 특히 만성 신장 질환(CKD), 코호트 분석, 소아 환자 관리, 고혈압 및 자가면역 질환과 관련된 임상 연구에 집중하고 있습니다.",
         "research_topics": [
-          "소아류마티스",
-          "소아기 류마티스 질환"
+          "Chronic Kidney Disease",
+          "Cohort Analysis",
+          "Pediatrics Patient",
+          "Adolescence",
+          "Nephrotic Syndrome",
+          "Hypertension",
+          "Urinary Tract Infection",
+          "Atypical Hemolytic Uremic Syndrome"
         ],
         "recommendation_keywords": [
+          "소아신장",
           "소아류마티스",
-          "소아과학교실",
-          "소아기 류마티스 질환"
+          "만성신장질환",
+          "임상연구",
+          "Chronic Kidney Disease",
+          "Cohort Analysis",
+          "Pediatrics Patient",
+          "Adolescence",
+          "Nephrotic Syndrome",
+          "Hypertension",
+          "Urinary Tract Infection",
+          "Atypical Hemolytic Uremic Syndrome"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Comparison of estimated and measured GFR in pediatric CKD patients transitioning from adolescence to adulthood: results from KNOW-PedCKD",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
+            "year": "2026",
+            "venue": "BMC nephrology",
+            "summary": ""
+          },
+          {
+            "title": "Dual knowledge-guided data augmentation for robust clinical prediction models",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
+            "year": "2026",
+            "venue": "Scientific Reports",
+            "summary": ""
+          },
+          {
+            "title": "SCITO-seq2: ultra-high-throughput single-cell transcriptome and epitope sequencing",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
+            "year": "2026",
+            "venue": "Genome biology",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 6,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "BMC nephrology",
+            "count": 1
+          },
+          {
+            "venue": "Scientific Reports",
+            "count": 1
+          },
+          {
+            "venue": "Genome biology",
+            "count": 1
+          },
+          {
+            "venue": "Kidney International Reports",
+            "count": 1
+          },
+          {
+            "venue": "Pediatric Nephrology",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -53450,18 +53282,13 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 90 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/"
+            "title": "Seong Heon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
@@ -53474,29 +53301,27 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
-          "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-content",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FCDD18D88F5A2B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T11:32:18Z",
+        "_saved_at": "2026-09-23T12:07:00Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-FCDD18D88F5A2B",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-FCDD18D88F5A2B"
     },
     "SNU-RU-F1C9E0CFAB8615": {
       "fingerprint": "f86c04b7a7b59f5f86e59c6ae410ea085c422002e9e60a8a752479e31c620345",
@@ -53618,133 +53443,38 @@
       "_unit_id": "SNU-RU-F1C9E0CFAB8615"
     },
     "SNU-RU-280E5FAA39A866": {
-      "fingerprint": "3dd816f2261d6ba5e7d6dc874cedd2e82838fa3423191b754382317491963d7f",
-      "checked_at": "2026-09-22T10:36:03Z",
+      "fingerprint": "2314a75180ce8e7c4e073a86d460ad2ea00790033d234af663cca311310f1754",
+      "checked_at": "2026-09-23T12:06:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 252 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "217",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "20",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "5",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13959450/141_Kim_+Se+Joong.jpg?w=160&f=jpg",
-            "alt": "Sejoong Kim",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-search"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-77/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-search",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "김세중 교수는 내과학교실 소속으로 급성신손상, 만성콩팥병, 산염기 전해질 장애, 고혈압 및 장기칩(Organ-on-a-chip) 분야를 전문으로 연구하고 있습니다.",
+        "research_summary": "김세중 교수는 급성신손상, 만성콩팥병, 산염기 전해질 장애, 고혈압 및 장기칩(Organ-on-a-chip) 연구를 수행하고 있으며, 신장 질환의 병태생리 규명과 치료법 개발에 주력하고 있습니다.",
         "research_topics": [
           "급성신손상",
           "만성콩팥병",
@@ -53772,11 +53502,11 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "View all 252 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들의 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 지원하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -53786,39 +53516,37 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/sejoong-kim",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/",
+        "poster_status": "verified",
+        "poster_title": "Sejoong Kim",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959450/141_Kim_+Se+Joong.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-search",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-77/",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://meddorm.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-kim-77/#main-search",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-77/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-280E5FAA39A866",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T11:32:41Z",
+        "_saved_at": "2026-09-23T12:07:44Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-280E5FAA39A866",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-280E5FAA39A866"
     },
     "SNU-RU-151E41915AA40C": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -53921,8 +53649,8 @@
       "_unit_id": "SNU-RU-151E41915AA40C"
     },
     "SNU-RU-AC201B341C30E9": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-22T10:36:08Z",
+      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
+      "checked_at": "2026-09-23T12:06:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -53945,19 +53673,21 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
         "research_summary": "",
-        "research_topics": [],
+        "research_topics": [
+          "혈액종양내과"
+        ],
         "recommendation_keywords": [
           "혈액종양내과"
         ],
@@ -53978,7 +53708,7 @@
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 도움을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -54001,12 +53731,11 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "http://yss.snu.ac.kr/",
-          "http://yss.snu.ac.kr/index.php",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -54019,7 +53748,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AC201B341C30E9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T10:37:55Z",
+        "_saved_at": "2026-09-23T12:07:14Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -258213,11 +257942,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T12:06:26Z",
-    "checked": 95,
-    "seconds": 1351.9,
+    "at": "2026-09-23T12:07:44Z",
+    "checked": 100,
+    "seconds": 1429.2,
     "gemini": true,
-    "ai_requests": 48,
+    "ai_requests": 53,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
