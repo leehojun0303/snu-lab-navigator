@@ -1,5 +1,5 @@
 {
-  "cursor": 2005,
+  "cursor": 2010,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -107274,8 +107274,8 @@
       "_unit_id": "SNU-RU-CA1DF8E7CDBDEA"
     },
     "SNU-RU-D9F0E8CDAA42F9": {
-      "fingerprint": "986910d89c15e7fdcaf54a2db6bdfb497fc80f2b83a573e445634869d3bd631e",
-      "checked_at": "2026-09-22T11:28:42Z",
+      "fingerprint": "53e4774706b614e23aa36899fc3f939c33490e8d821b3fd3b58f0045e69b12c2",
+      "checked_at": "2026-09-23T12:47:38Z",
       "activity": {
         "publicationPages": [
           {
@@ -107305,18 +107305,22 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박상민 교수는 가정의학교실 소속으로 건강증진 및 일차의료 분야를 중심으로 연구를 수행하고 있습니다. 주요 연구 성과로는 390건 이상의 연구 산출물을 발표하였으며, 특히 학술지 논문, 체계적 문헌고찰, 논평 등 다양한 형태의 학술 활동을 이어오고 있습니다.",
+        "research_summary": "박상민 교수는 건강증진 및 일차의료 분야를 중심으로 연구를 수행하고 있으며, 특히 대규모 데이터를 활용한 역학 연구와 보건 정책 관련 연구에 집중하고 있습니다.",
         "research_topics": [
           "건강증진",
-          "일차의료"
+          "일차의료",
+          "역학 연구",
+          "보건 정책"
         ],
         "recommendation_keywords": [
           "건강증진",
           "일차의료",
-          "가정의학"
+          "역학",
+          "보건 정책",
+          "역학 연구"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 390,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -107325,14 +107329,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 가정의학교실에서 학생 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 390 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-64/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들의 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들의 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 지원하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -107368,7 +107372,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D9F0E8CDAA42F9",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T12:08:04Z",
+        "_saved_at": "2026-09-23T12:48:44Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -107594,7 +107598,7 @@
     },
     "SNU-RU-4D259F989529C3": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-22T11:28:48Z",
+      "checked_at": "2026-09-23T12:47:42Z",
       "activity": {
         "publicationPages": [
           {
@@ -107799,17 +107803,22 @@
       "_unit_id": "SNU-RU-6FD1D5839F3D59"
     },
     "SNU-RU-7D1A89B0F73680": {
-      "fingerprint": "91ff9a71c64e07137193c491c71e5547291a464db202cb2ae9b07564fe3481f4",
-      "checked_at": "2026-09-22T11:28:45Z",
+      "fingerprint": "3c96125d5b7a75abc1f8878e07486bc9fab51ef8618dba33773c88563fa081d2",
+      "checked_at": "2026-09-23T12:47:36Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Sang-Won Park - Seoul National University",
+            "title": "View all 151 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-5/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-5/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-5/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-5/",
@@ -107825,58 +107834,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박상원 교수는 감염내과 분야를 전문으로 하며, 특히 인간면역결핍바이러스(HIV), 감염 면역학, 혈류 감염, 중동호흡기증후군(MERS) 및 다양한 감염병의 임상적 특성과 치료에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "박상원 교수는 감염내과 분야를 전문으로 하며, 감염병 관리, 항생제 내성, 임상 감염학 등과 관련된 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Human Immunodeficiency Virus",
-          "Infection Immunology and Microbiology",
-          "Bloodstream Infection",
-          "Middle East Respiratory Syndrome Coronavirus",
-          "Plasmodium Vivax Malaria",
-          "Severe Fever with Thrombocytopenia Syndrome"
+          "감염내과",
+          "감염병",
+          "항생제 내성",
+          "임상 감염학"
         ],
         "recommendation_keywords": [
           "감염내과",
-          "HIV",
-          "감염 면역학",
-          "혈류 감염",
-          "중동호흡기증후군",
-          "Human Immunodeficiency Virus",
-          "Infection Immunology and Microbiology",
-          "Bloodstream Infection",
-          "Middle East Respiratory Syndrome Coronavirus",
-          "Plasmodium Vivax Malaria",
-          "Severe Fever with Thrombocytopenia Syndrome"
+          "감염병",
+          "내과학교실",
+          "항생제 내성",
+          "임상 감염학"
         ],
-        "recent_papers": [
-          {
-            "title": "The Importance of Proper History Taking: Asking a Fever Pattern in Patients with Vivax Malaria",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-5/",
-            "year": "2026",
-            "venue": "Journal of Korean Medical Science",
-            "summary": "삼일열 말라리아 환자에서 발열 패턴을 확인하는 병력 청취의 중요성을 다룬 연구입니다."
-          },
-          {
-            "title": "Severe Fever With Thrombocytopenia Syndrome in Korea: Assessing the Impact of Hospital Patient Volume on Care Quality and Policy Implications",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-5/",
-            "year": "2026",
-            "venue": "Journal of Korean Medical Science",
-            "summary": "한국의 중증열성혈소판감소증후군(SFTS) 환자를 대상으로 병원 내 환자 수와 진료 질 및 정책적 함의를 분석한 연구입니다."
-          },
-          {
-            "title": "Comparative Study of the Clinical Characteristics of Patients With Sexually Transmitted Infections Diagnosed by Nucleic Acid Amplification Tests",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-5/",
-            "year": "2025",
-            "venue": "Journal of Korean Medical Science",
-            "summary": "핵산 증폭 검사(NAAT)로 진단된 성매매 감염 환자들의 임상적 특성을 비교 분석한 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 2,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Journal of Korean Medical Science",
-            "count": 2
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -107887,65 +107861,165 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Sang-Won Park - Seoul National University",
+            "title": "View all 151 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-5/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 특정 연구실 모집 정보는 없습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-5/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-5/publications/",
         "poster_status": "verified",
         "poster_title": "Sang-Won Park",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960333/340_Park_+Sang-Won.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-5/#main-content",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-5/",
           "https://snu.elsevierpure.com/en/persons/y-park-5/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-5/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-5/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-5/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-park-5/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7D1A89B0F73680",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T11:29:12Z",
+        "_saved_at": "2026-09-23T12:47:41Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7D1A89B0F73680"
     },
     "SNU-RU-3F913F1130A804": {
-      "fingerprint": "ad7a9499e53aca9a5be931f5cd2f0157c7d0efee2cfc66cfd3350d40931560f8",
-      "checked_at": "2026-09-22T11:28:42Z",
+      "fingerprint": "c357ecc75cc30aaa45f240b741d9b2d16d0f1ccc3054fa9db1ada54abc32260c",
+      "checked_at": "2026-09-23T12:47:36Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 155 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "142",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "6",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fconference",
+            "kind": "publication"
+          },
+          {
+            "title": "3",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-75/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960344/341_Park_+Sang+Jun.jpg?w=160&f=jpg",
+            "alt": "Sang Jun Park",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-75/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-75/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -108028,28 +108102,125 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T11:28:50Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-3F913F1130A804"
+      "_unit_id": "SNU-RU-3F913F1130A804",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-86C3BFF4C18E21": {
-      "fingerprint": "c49bfa10382e0b38ced4b289fb7d61ffb193411c617f1f344a6b6b2fc90e1804",
-      "checked_at": "2026-09-22T11:28:42Z",
+      "fingerprint": "b9c9ec1d106dd08fec2248ee83a7093f424d2d5d3bba02b8826e2db245079c4c",
+      "checked_at": "2026-09-23T12:47:36Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 130 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "123",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fchapter",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-6/",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-6/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960348/343_Park_+Samina.jpg?w=160&f=jpg",
+            "alt": "Samina Park",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-6/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-6/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -108138,9 +108309,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-22T11:28:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-86C3BFF4C18E21"
+      "_unit_id": "SNU-RU-86C3BFF4C18E21",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-91244283F2681D": {
       "fingerprint": "bf913f87de096362df5affb609074c3f6b66819f71dfb54415e727a9f6f2388d",
@@ -258410,11 +258583,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-23T12:47:05Z",
-    "checked": 255,
-    "seconds": 3790.28,
+    "at": "2026-09-23T12:48:44Z",
+    "checked": 260,
+    "seconds": 3889.93,
     "gemini": true,
-    "ai_requests": 145,
+    "ai_requests": 147,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
