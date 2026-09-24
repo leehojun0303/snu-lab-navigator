@@ -1,5 +1,5 @@
 {
-  "cursor": 355,
+  "cursor": 360,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -7370,8 +7370,8 @@
       "_unit_id": "SNU-RU-97E2E2E5E87681"
     },
     "SNU-RU-3AA19755B66A21": {
-      "fingerprint": "ba15360c47b08bfd65c5d6a466f0fb7f8c89cac02875d6a0a739c842a1a23832",
-      "checked_at": "2026-09-14T11:02:09Z",
+      "fingerprint": "174f8405d1431dc3934b4c743aa536effb3f02350845aedf784fbded5f230482",
+      "checked_at": "2026-09-24T00:10:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -7384,6 +7384,7 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://sites.google.com/site/semeeyoon",
+          "https://gsis.snu.ac.kr/snu__professor/yoon-semee/",
           "https://gsis.snu.ac.kr",
           "https://sites.google.com/site/semeeyoon/home",
           "https://sites.google.com/site/semeeyoon/contact",
@@ -7391,8 +7392,7 @@
           "https://sites.google.com/site/semeeyoon/research",
           "https://sites.google.com/site/semeeyoon/teaching",
           "https://sites.google.com/site/semeeyoon/resources",
-          "https://gsis.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://en.snu.ac.kr/index.html"
+          "https://gsis.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
         ]
       },
       "enrichment": {
@@ -7556,7 +7556,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:02:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-3AA19755B66A21"
     },
@@ -32179,7 +32180,7 @@
     },
     "SNU-RU-EF4AEB2907CF21": {
       "fingerprint": "253c9d916af2053206b9049c532f83a77da8f9e7c9435724dff57d66bd4df976",
-      "checked_at": "2026-09-14T11:02:11Z",
+      "checked_at": "2026-09-24T00:11:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -39059,7 +39060,7 @@
     },
     "SNU-RU-90A8FF43B9286D": {
       "fingerprint": "886ff1c1316502a34cd6c5863eb69df23b11710d55f2fa65fc7294de8386effe",
-      "checked_at": "2026-09-14T11:02:12Z",
+      "checked_at": "2026-09-24T00:11:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -39752,7 +39753,7 @@
     },
     "SNU-RU-CFC03C689C4384": {
       "fingerprint": "a7460dc1d284a9a52a047f8f262930ba976d4eec8884c275b442fb7f6424dfd7",
-      "checked_at": "2026-09-14T11:02:11Z",
+      "checked_at": "2026-09-24T00:11:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -53113,7 +53114,7 @@
     },
     "SNU-RU-53B8E14289F219": {
       "fingerprint": "3e8a8111691cdee75228cfb4b2295b1e0640163b7f5f8fa2e630c4e79877737d",
-      "checked_at": "2026-09-14T11:02:11Z",
+      "checked_at": "2026-09-24T00:11:00Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -243386,9 +243387,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T00:10:46Z",
-    "checked": 775,
-    "seconds": 3733.43,
+    "at": "2026-09-24T00:11:00Z",
+    "checked": 780,
+    "seconds": 3747.52,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
