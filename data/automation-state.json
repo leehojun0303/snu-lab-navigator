@@ -1,5 +1,5 @@
 {
-  "cursor": 405,
+  "cursor": 410,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -10685,8 +10685,8 @@
       "_unit_id": "SNU-RU-DB22788E8C92E8"
     },
     "SNU-RU-BD43516568C472": {
-      "fingerprint": "57dcf7d697c6fc06f05aabbae45f6650dbcea8a0530543276ef961151de07a75",
-      "checked_at": "2026-09-14T11:11:23Z",
+      "fingerprint": "41cf947dedae8afb8005ce2e336edbc7695ccc606167095049bfb17814c32313",
+      "checked_at": "2026-09-24T00:14:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -10715,12 +10715,12 @@
           "https://plantsci.snu.ac.kr",
           "http://hortbreeders.snu.ac.kr/frontpage.asp?catalogid=snuhcbl&language=ko",
           "http://nicem.snu.ac.kr/",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
           "https://plantsci.snu.ac.kr/%ec%9e%91%eb%ac%bc%ec%83%9d%eb%aa%85%ea%b3%bc%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%9b%90%ec%98%88%ec%83%9d%eb%aa%85%ea%b3%b5%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12975"
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983"
         ]
       },
       "enrichment": {
@@ -10799,7 +10799,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:11:36Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-BD43516568C472"
     },
@@ -20701,8 +20702,8 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-6C2B92D4090820": {
-      "fingerprint": "b5836ac6aeb1724e4c0732eb7d2db4acb1067a72b20a6f038a3e7e1340e30263",
-      "checked_at": "2026-09-13T23:16:50Z",
+      "fingerprint": "9c4dfaccf157f15d9c78b90a35a9014c16b1deca81d10d294e8c3985afe1b535",
+      "checked_at": "2026-09-24T00:14:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -20738,6 +20739,11 @@
             "kind": "recruitment"
           },
           {
+            "title": "[입시] 2027학년도 대학원 전기모집 주요일정 및 지원자 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+            "kind": "recruitment"
+          },
+          {
             "title": "교수학습지원",
             "url": "https://www.snu.ac.kr/academics/programs/learning_support",
             "kind": "recruitment"
@@ -20746,14 +20752,9 @@
             "title": "계약학과",
             "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
             "kind": "recruitment"
-          },
-          {
-            "title": "장애학생지원",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
-            "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "membersUrl": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -20789,41 +20790,41 @@
             "alt": "검색",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
             "alt": "서울대포털",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
             "alt": "입학안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
             "alt": "학사일정",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/index.html"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://plantsci.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
           "https://plantsci.snu.ac.kr/%ec%9e%91%eb%ac%bc%ec%83%9d%eb%aa%85%ea%b3%bc%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%9b%90%ec%98%88%ec%83%9d%eb%aa%85%ea%b3%b5%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12982",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12975",
-          "https://www.snu.ac.kr/personal_information",
-          "https://hort.snu.ac.kr/",
-          "https://aged.snu.ac.kr/"
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {},
@@ -32316,8 +32317,8 @@
       "_unit_id": "SNU-RU-EF4AEB2907CF21"
     },
     "SNU-RU-9E7DF30E0A32C8": {
-      "fingerprint": "170be0005dc0d81e3a5e26fcf7cfdd8b4fa3fb1b8a7925860270d1d7e61303e5",
-      "checked_at": "2026-09-14T11:11:18Z",
+      "fingerprint": "0acc62cf66f067199cc3ecb5f057a9c602030842f722adb98dc4eb99ede79e73",
+      "checked_at": "2026-09-24T00:14:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -32437,7 +32438,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:11:30Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-9E7DF30E0A32C8"
     },
@@ -38028,8 +38030,8 @@
       "_unit_id": "SNU-RU-43126911375DEC"
     },
     "SNU-RU-9FA84013111D60": {
-      "fingerprint": "d000fe559b5472cec9954a105af59c7e17e878f8a6cec52f4307defeafaa7e33",
-      "checked_at": "2026-09-14T11:11:24Z",
+      "fingerprint": "236605e6c5b8d6c3b6191ef29965f323096aac7295907e841ffcf3838da45248",
+      "checked_at": "2026-09-24T00:14:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -38046,16 +38048,16 @@
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://cropweed.snu.ac.kr/",
           "https://plantsci.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
           "https://plantsci.snu.ac.kr/%ec%9e%91%eb%ac%bc%ec%83%9d%eb%aa%85%ea%b3%bc%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%9b%90%ec%98%88%ec%83%9d%eb%aa%85%ea%b3%b5%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12982",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12975",
-          "https://www.snu.ac.kr/personal_information",
-          "https://aged.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
@@ -38125,7 +38127,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:11:44Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-9FA84013111D60"
     },
@@ -69284,7 +69287,7 @@
     },
     "SNU-RU-B379D0BDD921F5": {
       "fingerprint": "e70691434a20ada9c022a6bd6ca97a051f9016ee1d8e25f597d2f12ce7a6ea15",
-      "checked_at": "2026-09-14T11:11:17Z",
+      "checked_at": "2026-09-24T00:14:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -243137,10 +243140,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-14T01:38:59Z"
     },
-    "SNU-RU-6C2B92D4090820": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-14T11:11:05Z"
-    },
     "SNU-RU-8F39CBF77056F4": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-14T11:12:50Z"
@@ -243151,9 +243150,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T00:14:06Z",
-    "checked": 825,
-    "seconds": 3933.58,
+    "at": "2026-09-24T00:14:22Z",
+    "checked": 830,
+    "seconds": 3949.43,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
