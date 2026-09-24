@@ -1,5 +1,5 @@
 {
-  "cursor": 2040,
+  "cursor": 2045,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -42260,8 +42260,8 @@
       "_unit_id": "SNU-RU-3944C6BDC9DCA3"
     },
     "SNU-RU-CDDB13EC469B11": {
-      "fingerprint": "7d5bd2a75a9dbb02a610615e7822f511d9b3ee933b2828774557d7fc22c013a5",
-      "checked_at": "2026-09-23T23:16:35Z",
+      "fingerprint": "f74d21c056c3a285cc0403831e261e4d5621706d7cec5bd738c8470198f1fde4",
+      "checked_at": "2026-09-24T21:49:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -42282,7 +42282,7 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -42291,14 +42291,16 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 328건 이상의 연구 성과를 발표하였습니다.",
+        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 뇌졸중 환자의 예후 및 치료 전략에 관한 다수의 학술 논문을 발표하고 있습니다.",
         "research_topics": [
           "뇌혈관질환",
-          "곁순환"
+          "곁순환",
+          "뇌졸중"
         ],
         "recommendation_keywords": [
           "뇌혈관질환",
-          "곁순환"
+          "곁순환",
+          "뇌졸중"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -42317,7 +42319,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -42334,14 +42336,14 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959330/113_Kim_+Beom+Joon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-7/",
           "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -42353,7 +42355,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CDDB13EC469B11",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:02:34Z",
+        "_saved_at": "2026-09-24T21:49:14Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -99601,7 +99603,7 @@
     },
     "SNU-RU-CE165020613408": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-24T01:22:16Z",
+      "checked_at": "2026-09-24T21:48:33Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -99613,7 +99615,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CE165020613408"
+      "_unit_id": "SNU-RU-CE165020613408",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D793BDEBADD0BC": {
       "fingerprint": "97ec5c04dd689ebeb11563491eee5c90b61d4dbabafd2c9d3bb6f00bec00c62a",
@@ -102527,30 +102530,34 @@
       "_unit_id": "SNU-RU-F37FC6A6764BB8"
     },
     "SNU-RU-CD8F6FB4189A15": {
-      "fingerprint": "1f98f03c9c76a1d441de37427ab00b7f158cd27b61d8bd6d84f85e0845d0f9c4",
-      "checked_at": "2026-09-23T23:41:28Z",
+      "fingerprint": "fe05071b033d13b684ec86412f0dca9600d285493de00600825480657e1e6187",
+      "checked_at": "2026-09-24T21:48:52Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
           },
           {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+            "title": "서울대학교 여교수회에서는 서울대학교 대학원 석·박사과정에 재학 중인 여성 대학원생을 대상으로 「2026 글로벌 여성 리더십 장학금」 지원자를 모집한다 하오니 관심있는 학생들의 많은 신청바랍니다",
+            "url": "https://dentistry.snu.ac.kr/#none"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -102558,11 +102565,11 @@
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
           "https://dentsci.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -102575,28 +102582,32 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
           },
           {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "서울대학교 여교수회에서는 서울대학교 대학원 석·박사과정에 재학 중인 여성 대학원생을 대상으로 「2026 글로벌 여성 리더십 장학금」 지원자를 모집한다 하오니 관심있는 학생들의 많은 신청바랍니다",
+            "url": "https://dentistry.snu.ac.kr/#none"
+          }
+        ],
+        "recruitment_source_url": "https://dentistry.snu.ac.kr/#none",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "member_page_url": "",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -102605,27 +102616,27 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://dentistry.snu.ac.kr/#none",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snudf.snu.ac.kr/3344/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/"
+          "https://dentistry.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/fnt/bbm/bbs/selectBoardArticleView.do?nttId=6"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CD8F6FB4189A15",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T11:46:08Z",
+        "_saved_at": "2026-09-24T21:48:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CD8F6FB4189A15"
     },
@@ -127475,38 +127486,120 @@
       "_unit_id": "SNU-RU-16733A5733C96B"
     },
     "SNU-RU-CE204A05EDF16E": {
-      "fingerprint": "0acc62cf66f067199cc3ecb5f057a9c602030842f722adb98dc4eb99ede79e73",
-      "checked_at": "2026-09-24T00:14:34Z",
+      "fingerprint": "e70691434a20ada9c022a6bd6ca97a051f9016ee1d8e25f597d2f12ce7a6ea15",
+      "checked_at": "2026-09-24T21:48:46Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support"
+            "url": "https://cals.snu.ac.kr/student/global/support",
+            "kind": "recruitment"
           },
           {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission"
+            "url": "https://cals.snu.ac.kr/about/guide/admission",
+            "kind": "recruitment"
           },
           {
             "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
+            "kind": "recruitment"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/program"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/program"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
+            "alt": "SNU CALS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/program"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/program"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/application1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/application2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/application3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/webdata/professor/photo/47dzd03ze77z7b5z155ze53z113z3a9zb40z2daz68.jpg",
+            "alt": "Hong Sok(Brian) Kim",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty"
+          }
+        ],
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
-          "https://plantsci.snu.ac.kr",
           "https://cals.snu.ac.kr/student/freshman/mentoring",
           "https://cals.snu.ac.kr/student/freshman/program",
           "https://cals.snu.ac.kr/student/lecture/paper",
@@ -127514,7 +127607,8 @@
           "https://cals.snu.ac.kr/about/organization/search/faculty",
           "https://cals.snu.ac.kr/about/organization/previous-faculty",
           "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq"
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/about/guide/program"
         ]
       },
       "enrichment": {
@@ -127595,7 +127689,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-CE204A05EDF16E"
+      "_unit_id": "SNU-RU-CE204A05EDF16E",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3E30B1C75E179F": {
       "fingerprint": "3fae179238a808970ced2fac6028ee94773b4e610824602c7835e9742994db30",
@@ -209431,8 +209526,8 @@
       "_unit_id": "SNU-RU-D12A474D76D84E"
     },
     "SNU-RU-CDF6755C49962F": {
-      "fingerprint": "955a8c7d30dbeac0669cdc764fe83ea0bea31efc368860b10dee088829efd17b",
-      "checked_at": "2026-09-24T00:49:21Z",
+      "fingerprint": "1f5843b6ec244b225470e5ec617121044f09e5dbde621d583aaa556b9b9fa5b6",
+      "checked_at": "2026-09-24T21:48:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -209498,7 +209593,7 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/#none"
+            "parent_source_url": "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/#footer"
           },
           {
             "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2023/08/logo.png",
@@ -209506,6 +209601,20 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://convergence.snu.ac.kr/math_info_intro/"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
+            "alt": "그림1",
+            "title": "그림1",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
+          },
+          {
+            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2026/09/09_14.png",
+            "alt": "BAD UX POPUP 95",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://convergence.snu.ac.kr"
           },
           {
             "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
@@ -209527,29 +209636,15 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-            "alt": "학사일정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
-            "alt": "전화번호안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/",
+          "https://convergence.snu.ac.kr",
           "https://convergence.snu.ac.kr/people_admin/",
           "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/#container",
           "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/#footer",
           "https://admission.snu.ac.kr/",
-          "https://convergence.snu.ac.kr/snu__professor/%EC%A3%BC%ED%95%9C%EC%A4%91-%EA%B5%90%EC%88%98/#none",
           "https://convergence.snu.ac.kr/appl_bio_intro/",
           "https://convergence.snu.ac.kr/intl_inf_intro/",
           "https://mmbs.snu.ac.kr/",
@@ -209557,7 +209652,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CDF6755C49962F"
+      "_unit_id": "SNU-RU-CDF6755C49962F",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F294B5C7181B5A": {
       "fingerprint": "3906d51b57e05f9dd1465ec718005beedad48953c152e15ad9ad133b7d4ef5f9",
@@ -253416,11 +253512,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:48:31Z",
-    "checked": 290,
-    "seconds": 2950.24,
+    "at": "2026-09-24T21:49:14Z",
+    "checked": 295,
+    "seconds": 2993.99,
     "gemini": true,
-    "ai_requests": 120,
+    "ai_requests": 122,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
