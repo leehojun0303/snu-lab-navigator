@@ -1,5 +1,5 @@
 {
-  "cursor": 1750,
+  "cursor": 1755,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -153633,8 +153633,8 @@
       "_unit_id": "SNU-RU-5EC1F693AA8F87"
     },
     "SNU-RU-AEC800608A4524": {
-      "fingerprint": "d525b31cc35476cbca6a883a9453bbd5ed38ce496e7fdec7d8dcd1973539dc07",
-      "checked_at": "2026-09-24T00:21:12Z",
+      "fingerprint": "dd4e757ae6f029b4f40efff809e79710b6b3d4f53749d6f30f3c2c0a45b5401d",
+      "checked_at": "2026-09-24T20:59:33Z",
       "activity": {
         "publicationPages": [
           {
@@ -153744,7 +153744,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-AEC800608A4524"
+      "_unit_id": "SNU-RU-AEC800608A4524",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D5B9520AC47752": {
       "fingerprint": "15ea74c668504327e0bb35f3e033a8d7144b4df95e3a84f87db03d605328ff7e",
@@ -223202,12 +223203,12 @@
       "_unit_id": "SNU-RU-12E0439A5AD73F"
     },
     "SNU-RU-AEB5CC37694FD2": {
-      "fingerprint": "7ccb7a248ba62bff26892aabd5820ca17ce9cbe67df98c8c6c6ac94674dadf8d",
-      "checked_at": "2026-09-23T23:45:19Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-24T20:59:53Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거 - 치의학대학원교육연구재단",
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
             "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
@@ -223217,20 +223218,31 @@
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "",
-        "research_topics": [],
-        "recommendation_keywords": [],
+        "research_summary": "안석준 교수는 서울대학교 치의학대학원 치과교정학교실 소속으로, 치과교정학 및 악교정수술학 분야에서 인공지능을 활용한 연구를 수행하고 있습니다. 특히 인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수에서 세계 1위를 기록하는 등 해당 분야에서 탁월한 연구 성과를 보이고 있습니다.",
+        "research_topics": [
+          "치과교정학",
+          "악교정수술학",
+          "인공지능 기반 치의학 연구"
+        ],
+        "recommendation_keywords": [
+          "치과교정학",
+          "악교정수술",
+          "인공지능",
+          "치의학",
+          "악교정수술학",
+          "인공지능 기반 치의학 연구"
+        ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -223244,7 +223256,7 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거 - 치의학대학원교육연구재단",
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
             "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
@@ -223265,13 +223277,13 @@
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snudf.snu.ac.kr/3344/",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
           "https://www.snu.ac.kr/academics/programs/learning_support",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
@@ -223280,10 +223292,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AEB5CC37694FD2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T12:16:47Z",
+        "_saved_at": "2026-09-24T21:00:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AEB5CC37694FD2"
     },
@@ -223482,8 +223493,8 @@
       "_unit_id": "SNU-RU-55FCECEE99AFFC"
     },
     "SNU-RU-AEE2F273EC483B": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-23T23:45:37Z",
+      "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
+      "checked_at": "2026-09-24T20:59:53Z",
       "activity": {
         "publicationPages": [
           {
@@ -223493,9 +223504,30 @@
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          },
+          {
+            "title": "장애학생지원센터",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled"
+          },
+          {
+            "title": "학생지원서비스",
+            "url": "https://www.snu.ac.kr/campuslife/aid/administration"
+          }
+        ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -223508,19 +223540,13 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {
-        "research_summary": "양훈주 교수는 서울대학교 치의학대학원 구강악안면외과학교실 소속으로, 구강악안면외과 분야의 임상 및 연구를 수행하고 있습니다.",
-        "research_topics": [
-          "구강악안면외과"
-        ],
-        "recommendation_keywords": [
-          "구강악안면외과",
-          "서울대학교",
-          "치의학대학원"
-        ],
+        "research_summary": null,
+        "research_topics": [],
+        "recommendation_keywords": [],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -223531,7 +223557,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "None",
         "verified_publication_pages": [
           {
             "title": "연구성과",
@@ -223540,11 +223566,32 @@
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": null,
+        "verified_recruitment_pages": [
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+          },
+          {
+            "title": "계약학과",
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+          },
+          {
+            "title": "장애학생지원센터",
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled"
+          },
+          {
+            "title": "학생지원서비스",
+            "url": "https://www.snu.ac.kr/campuslife/aid/administration"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://www.snu.ac.kr/personal_information",
@@ -223557,27 +223604,30 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://dentsci.snu.ac.kr/research/publications/",
           "https://www.snu.ac.kr/personal_information",
           "https://dentsci.snu.ac.kr/",
+          "https://snudf.snu.ac.kr/",
+          "https://dentistry.snu.ac.kr/en/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snudf.snu.ac.kr/3344/",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://www.snu.ac.kr/campuslife/aid/disabled",
+          "https://www.snu.ac.kr/campuslife/aid/administration",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
-          "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://dentistry.snu.ac.kr/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AEE2F273EC483B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T12:18:09Z",
+        "_saved_at": "2026-09-24T20:59:58Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AEE2F273EC483B"
     },
@@ -239552,12 +239602,142 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-292C9D3B6AE641"
+    },
+    "SNU-RU-AEDD1E7F0AD321": {
+      "fingerprint": "be2d85c81776a1203b7c4e48b1f06aa0b4fe898a2df92c3a7b65e5b77a883920",
+      "checked_at": "2026-09-24T20:59:36Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구논문",
+            "url": "https://biosci.snu.ac.kr/research/publications/selected",
+            "kind": "publication"
+          },
+          {
+            "title": "중앙도서관 <해외 학술지 논문 투고 지원 서비스> 안내",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=20952",
+            "kind": "publication"
+          },
+          {
+            "title": "논문/졸업",
+            "url": "https://biosci.snu.ac.kr#noticetab_32",
+            "kind": "publication"
+          },
+          {
+            "title": "★★★2026-2학기 대학원 논문심사 및 학위논문 제출 시행 계획 안내(10.7.~)/2026-2학기 졸업예정자 필수 신청",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=25545",
+            "kind": "publication"
+          },
+          {
+            "title": "Bentham Science Publishers 저널 오픈액세스 논문게재료 면제 안내",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=25335",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학안내",
+            "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://biosci.snu.ac.kr/admissions/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학",
+            "url": "https://biosci.snu.ac.kr/admissions/transfer",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/snulogo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
+            "alt": "BIOSCI",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/webdata/upimages/8d6zaf0z96dzb44z8ccza07z9dczc5ez057z383z59.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/board/news?bm=v&bbsidx=24874&page=1"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark-footer.png",
+            "alt": "BIOSCI",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/s01-04.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://biosci.snu.ac.kr/board/news?bm=v&bbsidx=24874&page=1",
+          "https://biosci.snu.ac.kr",
+          "https://biosci.snu.ac.kr/people/faculty",
+          "https://biosci.snu.ac.kr/people/adjunct-professor",
+          "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
+          "https://biosci.snu.ac.kr/peopley/previous-faculty",
+          "https://biosci.snu.ac.kr/people/lecture-professor",
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-AEDD1E7F0AD321",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
     "SNU-RU-AF1A93CBCF41C0": {
       "reason": "fetch_failed",
-      "checked_at": "2026-09-24T00:19:18Z"
+      "checked_at": "2026-09-24T20:59:21Z"
     },
     "SNU-RU-4ABB6FF87AA0B1": {
       "reason": "fetch_failed",
@@ -239653,12 +239833,12 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T01:47:11Z",
-    "checked": 2170,
-    "seconds": 9518.88,
-    "gemini": false,
-    "ai_requests": 0,
-    "completed_full_pass": true
+    "at": "2026-09-24T21:00:16Z",
+    "checked": 5,
+    "seconds": 55.45,
+    "gemini": true,
+    "ai_requests": 2,
+    "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
   "last_quota_pause": {
