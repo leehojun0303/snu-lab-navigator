@@ -1,5 +1,5 @@
 {
-  "cursor": 2070,
+  "cursor": 2075,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -33078,43 +33078,11 @@
       "_unit_id": "SNU-RU-374384F05D8835"
     },
     "SNU-RU-CFFABE62CBBB63": {
-      "fingerprint": "a2ed0a068d5e551b352a78da9707ce4c05ddc18e362a5cb8a1ebb500c62dd51a",
-      "checked_at": "2026-09-24T01:23:57Z",
+      "fingerprint": "fbdba8fcc67501517f6dbe948654f691e0298e83e76595f6ce9cf1a5347958e3",
+      "checked_at": "2026-09-24T21:54:39Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-            "kind": "recruitment"
-          },
-          {
-            "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
@@ -33177,7 +33145,7 @@
         ],
         "sourcePagesScanned": [
           "https://engedu.snu.ac.kr/mastart/mastart.php",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://engedu.snu.ac.kr/mastart/mastart.php",
           "https://engedu.snu.ac.kr/sp_sitemap/sitemap.php",
           "https://engedu.snu.ac.kr/eng/mastart/mastart.php",
@@ -33189,7 +33157,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CFFABE62CBBB63"
+      "_unit_id": "SNU-RU-CFFABE62CBBB63",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D59FD521DFE770": {
       "fingerprint": "e8da86d87d900ab5b63822ec5c1deb005833e8120c95a933fce6663084ef7cb4",
@@ -73664,7 +73633,7 @@
     },
     "SNU-RU-D005579CEA8BD8": {
       "fingerprint": "b12bba8a9823b6265ef289c3030d8a3f85f1be039805832cc31614dc82297bc8",
-      "checked_at": "2026-09-24T00:12:03Z",
+      "checked_at": "2026-09-24T21:54:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -73789,7 +73758,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D005579CEA8BD8"
+      "_unit_id": "SNU-RU-D005579CEA8BD8",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-0E8CF5216A68CB": {
       "fingerprint": "2426a71ef01b22af2feaf850d5afe23df954788681b74113c0a1fe991a8dbc58",
@@ -85676,25 +85646,35 @@
       "_unit_id": "SNU-RU-A556C76E6A8E54"
     },
     "SNU-RU-D0052D74CE4F23": {
-      "fingerprint": "957618eb38da0625469320e94366aaab6d1f29aa1d9b37db706b9add476a3b77",
-      "checked_at": "2026-09-24T01:19:03Z",
+      "fingerprint": "394c7091e11b208f69e52754170e373974e17609d9b8331b9bf2f416bef3c65e",
+      "checked_at": "2026-09-24T21:55:10Z",
       "activity": {
         "publicationPages": [
           {
             "title": "[디지털헬스케어전공 이원령 교수] 연구성과 게재(npj Flexible Electronics)",
             "url": "https://snuti.snu.ac.kr/17904/",
             "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "회원가입",
-            "url": "https://www.snubh.org/member/joinSelect.do",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           },
           {
-            "title": "진료지원부서",
-            "url": "https://www.snubh.org/medical/supDeptList.do",
+            "title": "입학본부",
+            "url": "https://admission.snu.ac.kr",
             "kind": "recruitment"
           },
           {
@@ -85708,81 +85688,82 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://www.snubh.org/member/joinSelect.do",
+        "membersUrl": "https://snuti.snu.ac.kr/3rd-student-council/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
-            "url": "https://www.snubh.org/front/images/header/tit_logo.png",
-            "alt": "SNUBH 분당서울대학교병원",
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
           },
           {
-            "url": "https://www.snubh.org/front/images/header/img_gnb_map_25079.jpg",
-            "alt": "분당서울대학교병원 찾아오시는 길 약도",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
-          },
-          {
-            "url": "https://www.snubh.org/upload/board/B004/202609_webzine_thumb1_20260827010330.jpg",
-            "alt": "위암을 알면 예방이 보인다",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
-          },
-          {
-            "url": "https://www.snubh.org/upload/board/B067/202609_webzine_thumb4_20260827010238.jpg",
-            "alt": "췌장암 치료의 ‘개인 맞춤형 정밀 타격’ 시대를 열다",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
-          },
-          {
-            "url": "https://www.snubh.org/front/images/sub/ico_sns_m.png",
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/11/스크린샷-2025-11-04-171108.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%EB%82%A8%EC%A3%BC%EA%B0%95/#none"
           },
           {
-            "url": "https://www.snubh.org/front/images/sub/ico_sns2.png",
-            "alt": "페이스북 공유하기",
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2021/02/snuti-logo.png",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
           },
           {
-            "url": "https://www.snubh.org/front/images/sub/ico_sns6.png",
-            "alt": "트위터 공유하기",
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+            "parent_source_url": "https://snuti.snu.ac.kr"
           },
           {
-            "url": "https://www.snubh.org/front/images/sub/ico_mail.png",
-            "alt": "메일보내기",
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
+            "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+            "parent_source_url": "https://snuti.snu.ac.kr/digital-healthcare/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-4.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
           }
         ],
         "sourcePagesScanned": [
-          "https://www.snubh.org/medical/drIntroduce.do?DP_CD=DR&DP_TP=O&sDpCdDtl=DR&sDpTp=O&sDrSid=1015309&sDrStfNo=66298",
+          "https://snuti.snu.ac.kr/snu__professor/%EB%82%A8%EC%A3%BC%EA%B0%95/",
           "https://snuti.snu.ac.kr",
-          "https://www.snubh.org/member/joinSelect.do",
-          "https://www.snubh.org/service/info/com/view.do?BNO=41&Board_ID=B067",
-          "https://www.snubh.org/personal/certi/ctfIssue.do",
-          "https://www.snubh.org/member/login.do?prevURI=/personal/health4u.do",
-          "https://www.snubh.org/member/login.do?prevURI=/personal/bookMark/bookMarkList.do",
-          "https://www.snubh.org/member/login.do?prevURI=/personal/myHichart.do",
-          "https://www.snubh.org/personal/voice/letter/list.do",
-          "https://www.snubh.org/member/login.do?prevURI=/personal/info/myInfoChk.do"
+          "https://snuti.snu.ac.kr/snu__professor/%EB%82%A8%EC%A3%BC%EA%B0%95/#container",
+          "https://snuti.snu.ac.kr/snu__professor/%EB%82%A8%EC%A3%BC%EA%B0%95/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://snuti.snu.ac.kr/snu__professor/%EB%82%A8%EC%A3%BC%EA%B0%95/#none",
+          "https://snuti.snu.ac.kr/commt/professor/",
+          "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://snuti.snu.ac.kr/digital-healthcare/",
+          "https://snuti.snu.ac.kr/convergence-data-science/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D0052D74CE4F23"
+      "_unit_id": "SNU-RU-D0052D74CE4F23",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-EDCC78CF2785C0": {
       "fingerprint": "a024dffe707ab283eea1312285088d014bbe11cd3cf36e8808e9d66658996801",
@@ -254005,6 +253986,261 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CF6ADFF2D51996"
+    },
+    "SNU-RU-D00329DCA21FD7": {
+      "fingerprint": "f198b9b5f9c6c006c534c691fb4f19ff9be62eb39ddf93593bebcbc35ec0102c",
+      "checked_at": "2026-09-24T21:54:51Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
+            "url": "https://vet.snu.ac.kr/33661/",
+            "kind": "publication"
+          },
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/04/icon_AVMA_COE_Acc5550.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
+          "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/",
+          "https://admission.snu.ac.kr/",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty2/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty5/",
+          "https://vet.snu.ac.kr/faculty6/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D00329DCA21FD7",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-D00E2D51CA2C07": {
+      "fingerprint": "0feab5fd50a5a4767a5321c3eee1cd733f05cdb1f05db282a9215239a280db52",
+      "checked_at": "2026-09-24T21:54:57Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
+          {
+            "title": "Elsevier 저자 워크숍 - 신진 연구자를 위한 국제 논문 출판 전략 (2026. 9. 30.(수) 10:00) 참여 안내",
+            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073",
+            "kind": "publication"
+          },
+          {
+            "title": "더보기",
+            "url": "https://snupharm.snu.ac.kr/연구성과/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "행정지원 업무 연락처",
+            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
+            "alt": "서울대학교 서울대학교 약학대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2026/03/화면-캡처-2026-03-20-142507-291x300.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/?mod=document&uid=8780"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2026/03/화면-캡처-2026-03-20-142545-209x300.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/?mod=document&uid=8780"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
+            "alt": "logo_footer01.png",
+            "title": "logo_footer01.png",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_01-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_02-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_03-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/?mod=document&uid=8780",
+          "https://snupharm.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D00E2D51CA2C07",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -254118,9 +254354,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:54:25Z",
-    "checked": 320,
-    "seconds": 3304.63,
+    "at": "2026-09-24T21:55:13Z",
+    "checked": 325,
+    "seconds": 3352.56,
     "gemini": true,
     "ai_requests": 138,
     "completed_full_pass": false
