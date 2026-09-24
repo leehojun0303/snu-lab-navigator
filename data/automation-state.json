@@ -1,5 +1,5 @@
 {
-  "cursor": 2020,
+  "cursor": 2025,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -14842,18 +14842,32 @@
       "_unit_id": "SNU-RU-065894867F1655"
     },
     "SNU-RU-CC0ECC079C45E0": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-24T01:47:11Z",
+      "fingerprint": "4c99923a4195a4d287d38e545065f831c4fe29c3f47b7d7cd85e998b7fcecdef",
+      "checked_at": "2026-09-24T21:45:11Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -14863,7 +14877,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [
           "소화기내과"
@@ -14878,14 +14892,28 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터 및 중앙연구지원실 등 대학 내 지원 페이지가 확인되나, 강해연 교수의 개별 연구실 모집 정보는 제공된 URL에서 확인되지 않습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
+        "member_page_url": "http://yss.snu.ac.kr/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -14894,27 +14922,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/en/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://libguides.snu.ac.kr/research/academicwriting",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://medcorelab.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "http://yss.snu.ac.kr/index.php",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://medicine.snu.ac.kr/en/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC0ECC079C45E0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:51:33Z",
+        "_saved_at": "2026-09-24T21:45:28Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CC0ECC079C45E0"
     },
@@ -65680,16 +65707,21 @@
       "_unit_id": "SNU-RU-9E1F147DA35208"
     },
     "SNU-RU-CC0BDAFBC95BB3": {
-      "fingerprint": "20f07e9b42da830e65cea265bdc6e08927f10f479915097ff2d2002c6cd4e6e9",
-      "checked_at": "2026-09-23T23:24:10Z",
+      "fingerprint": "dd5f349aa0d84ce207dc4c99f1b2d82676eac2a462fdaf54b4946831f4e7997a",
+      "checked_at": "2026-09-24T21:45:07Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Jong-Min Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/"
+            "title": "View all 143 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -65699,72 +65731,33 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김종민 교수는 파킨슨병, 파킨슨증, 도파민 운반체 및 관련 신경과학 분야를 중심으로 연구를 수행하고 있습니다. 특히 파킨슨병 환자의 야간 운동저하증 치료, 위장관 알파-시누클레인 시딩 활성과 인지 기능의 상관관계, REM 수면 행동 장애의 장기적 인지 궤적 등 이상운동질환의 임상적 측면을 집중적으로 연구합니다.",
+        "research_summary": "김종민 교수는 신경과학 분야, 특히 이상운동질환(Movement Disorders)을 중심으로 파킨슨병, 떨림, 보행 장애 및 관련 신경학적 기전에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Parkinson's Disease",
-          "Parkinsonism",
-          "Dopamine Transporter",
-          "Dopaminergic",
-          "Magnetic Resonance Imaging",
-          "Dopamine Receptor Stimulating Agent",
-          "Iodine-123",
-          "Single-Photon Emission Computed Tomography"
+          "이상운동질환",
+          "파킨슨병",
+          "떨림",
+          "보행 장애",
+          "신경과학"
         ],
         "recommendation_keywords": [
           "이상운동",
           "파킨슨병",
           "신경과",
-          "도파민",
-          "Parkinson's Disease",
-          "Parkinsonism",
-          "Dopamine Transporter",
-          "Dopaminergic",
-          "Magnetic Resonance Imaging",
-          "Dopamine Receptor Stimulating Agent",
-          "Iodine-123",
-          "Single-Photon Emission Computed Tomography"
+          "이상운동질환",
+          "떨림",
+          "보행 장애",
+          "신경과학"
         ],
-        "recent_papers": [
-          {
-            "title": "Long-term cognitive trajectories in isolated REM sleep behavior disorder: effects of sex and longstanding disease duration",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/",
-            "year": "2026",
-            "venue": "Sleep",
-            "summary": "특발성 REM 수면 행동 장애 환자에서 성별과 유병 기간이 장기적인 인지 기능 변화에 미치는 영향을 분석하였습니다."
-          },
-          {
-            "title": "Opicapone for the Treatment of Nocturnal Hypokinesia in Patients With Parkinson's Disease: An Open-Label Pilot Clinical Trial",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/",
-            "year": "2026",
-            "venue": "Journal of Movement Disorders",
-            "summary": "파킨슨병 환자의 야간 운동저하증 치료를 위한 오피카폰의 효과를 평가한 오픈 라벨 파일럿 임상 시험입니다."
-          },
-          {
-            "title": "Cognitive function correlates with gastric alpha-synuclein seeding activity in early Parkinson's disease",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/",
-            "year": "2025",
-            "venue": "npj Parkinson's Disease",
-            "summary": "초기 파킨슨병 환자에서 위장관 알파-시누클레인 시딩 활성과 인지 기능 사이의 상관관계를 규명하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 2,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Sleep",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Movement Disorders",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -65772,16 +65765,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 신경과학교실 소속으로, 분당서울대학교병원(SNUBH) 및 서울대학교병원(SNUCM)에서 신경과 전문의 및 교수로 활동 중입니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Jong-Min Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/"
+            "title": "View all 143 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/",
@@ -65791,26 +65789,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959764/211_Kim_+Jong-Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-91/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-91/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC0BDAFBC95BB3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:21:55Z",
+        "_saved_at": "2026-09-24T21:45:21Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -159304,91 +159302,12 @@
     },
     "SNU-RU-CC0E9A018417D1": {
       "fingerprint": "cc74a72bbab8e96511bdc3e9137cce8b57cd4084667122847fc08c54628477bb",
-      "checked_at": "2026-09-24T00:56:14Z",
+      "checked_at": "2026-09-24T21:44:50Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [
-          {
-            "title": "개관",
-            "url": "https://humanities.snu.ac.kr/about/history/opening",
-            "kind": "recruitment"
-          },
-          {
-            "title": "국제화지원센터",
-            "url": "https://humanities.snu.ac.kr/research/CHIO",
-            "kind": "recruitment"
-          },
-          {
-            "title": "교육지원센터",
-            "url": "https://humanities.snu.ac.kr/research/CHESO",
-            "kind": "recruitment"
-          },
-          {
-            "title": "개관",
-            "url": "https://humanities.snu.ac.kr/about/history/opening",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "recruitmentPages": [],
+        "membersUrl": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
-            "alt": "서울대학교 인문대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
-            "alt": "서울대학교 인문대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/webdata/professor/2abz9cezc49z8c7z0dbz1a2zd76z14czc61ze13z57.jpg",
-            "alt": "이선우",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
-            "alt": "서울대학교 인문대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
-            "alt": "학생생활문화원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
-            "alt": "인문학 역량강화",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          },
-          {
-            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
-            "alt": "교육지원센터",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
-          }
-        ],
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
           "https://www.snufrance.com",
@@ -159402,7 +159321,88 @@
           "https://humanities.snu.ac.kr/research/CHESO"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "프랑스 영화를 전공하며, 브뤼노 뒤몽의 영화에 나타난 프랑스 사회의 망탈리테, 동시대 아프리카 영화 미학, 왕빙 영화의 인물 연구 등 영화와 사회, 권력, 주체 간의 관계를 탐구하고 있습니다.",
+        "research_topics": [
+          "프랑스 영화",
+          "영화 미학",
+          "망탈리테",
+          "권력과 주체"
+        ],
+        "recommendation_keywords": [
+          "프랑스 영화",
+          "영화 이론",
+          "영상 예술",
+          "영화 미학",
+          "망탈리테",
+          "권력과 주체"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [
+          {
+            "title": "브뤼노 뒤몽 영화에 반영된 프랑스 사회의 망탈리테 연구",
+            "url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
+            "date": "2024-04-01 ~ 2026-03-31",
+            "organization": "서울대학교"
+          },
+          {
+            "title": "동시대 아프리카 영화 미학의 발견 : 압데라만 시사코의 <팀북투>를 중심으로",
+            "url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
+            "date": "2019-09-01 ~ 2020-08-31",
+            "organization": "교육부"
+          },
+          {
+            "title": "왕빙 영화의 인물에 대한 연구 – ‘권력’과 ‘주체’ 개념을 중심으로",
+            "url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
+            "date": "2018-09-01 ~ 2019-08-31",
+            "organization": "교육부"
+          }
+        ],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "2005년 서울대학교 불어불문학과 학사, 2008년 중앙대학교 첨단영상대학원 영상예술학과(영화이론) 석사, 2011년 파리3대학 영화영상학과 석사, 2017년 파리10대학 공연예술(영화) 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/academics/faculty?md=view&page=8&profidx=228",
+          "https://www.snufrance.com",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/webdata/professor/2abz9cezc49z8c7z0dbz1a2zd76z14czc61ze13z57.jpg",
+          "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-CC0E9A018417D1",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:45:00Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-CC0E9A018417D1"
     },
     "SNU-RU-81DA34A7975CF1": {
@@ -190842,18 +190842,118 @@
       "_unit_id": "SNU-RU-ECB2F3D6BD83DB"
     },
     "SNU-RU-CBEBCFA2E40AF0": {
-      "fingerprint": "b6bb1e12b513d64597ccbc9aa430fe2f6ca9ca5889209b54e70685ea3df3d4c7",
-      "checked_at": "2026-09-24T01:40:40Z",
+      "fingerprint": "f97c9bd5180755a36f589d68d073a40b3e225b7ee0e4e20d2bbcd621d6d92ff5",
+      "checked_at": "2026-09-24T21:45:05Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 411 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "401",
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "1",
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13962212/764_Jang_+In-Jin.jpg?w=160&f=jpg",
+            "alt": "In-Jin Jang",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-jang-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -190863,7 +190963,7 @@
           "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
         ]
       },
@@ -190938,7 +191038,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-CBEBCFA2E40AF0"
+      "_unit_id": "SNU-RU-CBEBCFA2E40AF0",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1DDD88FB2D3D1E": {
       "fingerprint": "40baebc2787c2f093b31c032c34933208cdb34a33172579933cca96948a32a61",
@@ -227402,8 +227503,8 @@
       "_unit_id": "SNU-RU-3E0C803C506A9A"
     },
     "SNU-RU-CC09852A19D2C8": {
-      "fingerprint": "d473241b0bf430f8efdebc502fd37f3de39b394a71c792d38a17b73580992ae4",
-      "checked_at": "2026-09-24T00:15:38Z",
+      "fingerprint": "b97ff8050c6d78c4d1f28e032a88a692a1d71884f2cde6239f826b4a3439caa5",
+      "checked_at": "2026-09-24T21:44:57Z",
       "activity": {
         "publicationPages": [
           {
@@ -227411,7 +227512,16 @@
             "url": "https://cgl.snu.ac.kr/publication/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "Joint genetic control of isoflavones and soyasaponins revealed by mGWAS, genomic prediction, and SHAP-guided allele stacking",
+            "url": "https://cgl.snu.ac.kr/publication/20260425/"
+          },
+          {
+            "title": "Amino acids and BCAA composition of Mungbean (Vigna radiata L.) seeds and sprouts for plant-based protein applications",
+            "url": "https://cgl.snu.ac.kr/publication/20250812/"
+          }
+        ],
         "membersUrl": "https://cgl.snu.ac.kr/member-list/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -227420,7 +227530,7 @@
           "https://cgl.snu.ac.kr/professor-profile/",
           "https://cgl.snu.ac.kr/member-list/",
           "https://cgl.snu.ac.kr/publication/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://cgl.snu.ac.kr/#container",
           "https://cgl.snu.ac.kr/#footer",
           "https://snu.ac.kr/",
@@ -227428,23 +227538,36 @@
         ]
       },
       "enrichment": {
-        "research_summary": "하정민 교수는 다중 오믹스 기술을 활용한 디지털 육종, 식물 기능성 화합물 발굴, 그리고 표현형 분석 자동화 연구를 수행하고 있습니다.",
+        "research_summary": "작물유전체 연구실(CGL)은 작물의 유전체 정보를 활용하여 주요 농업 형질을 분석하고, 이를 바탕으로 작물 개량 및 유전적 기작을 규명하는 연구를 수행합니다.",
         "research_topics": [
-          "Digital Breeding Using Multi-Omics Technologies",
-          "Discovery of Functional Compounds in Plants",
-          "Automation of Phenotypic Analysis"
+          "작물유전체",
+          "유전체 분석",
+          "작물 개량"
         ],
         "recommendation_keywords": [
           "작물유전체",
-          "디지털 육종",
-          "다중 오믹스",
-          "표현형 분석",
-          "Digital Breeding Using Multi-Omics Technologies",
-          "Discovery of Functional Compounds in Plants",
-          "Automation of Phenotypic Analysis"
+          "식물생산과학",
+          "유전체 육종",
+          "유전체 분석",
+          "작물 개량"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "Joint genetic control of isoflavones and soyasaponins revealed by mGWAS, genomic prediction, and SHAP-guided allele stacking",
+            "url": "https://cgl.snu.ac.kr/publication/20260425/",
+            "year": "2026",
+            "venue": "N/A",
+            "summary": ""
+          },
+          {
+            "title": "Amino acids and BCAA composition of Mungbean (Vigna radiata L.) seeds and sprouts for plant-based protein applications",
+            "url": "https://cgl.snu.ac.kr/publication/20250812/",
+            "year": "2025",
+            "venue": "N/A",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 2,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -227453,16 +227576,25 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "미국 퍼듀대학교에서 분자진화유전학 박사 학위를 취득하였으며, 서울대학교에서 작물과학 석사 및 식물과학 학사 학위를 받았습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "Publication",
             "url": "https://cgl.snu.ac.kr/publication/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "작물유전체 연구실에서 대학원생을 모집하고 있습니다. 자세한 사항은 연구실 홈페이지 및 서울대학교 입학포털을 참고하시기 바랍니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Joint genetic control of isoflavones and soyasaponins revealed by mGWAS, genomic prediction, and SHAP-guided allele stacking",
+            "url": "https://cgl.snu.ac.kr/publication/20260425/"
+          },
+          {
+            "title": "Amino acids and BCAA composition of Mungbean (Vigna radiata L.) seeds and sprouts for plant-based protein applications",
+            "url": "https://cgl.snu.ac.kr/publication/20250812/"
+          }
+        ],
+        "recruitment_source_url": "https://cgl.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://cgl.snu.ac.kr/member-list/",
@@ -227474,27 +227606,27 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://cgl.snu.ac.kr/professor-profile/",
           "https://cgl.snu.ac.kr/",
-          "https://plantsci.snu.ac.kr",
-          "https://cgl.snu.ac.kr/member-list/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cgl.snu.ac.kr/#container",
-          "https://snu.ac.kr/index.html",
-          "https://cgl.snu.ac.kr/login/?redirect_to=%2F",
-          "https://cgl.snu.ac.kr/#none",
-          "https://admission.snu.ac.kr/index.html",
           "https://cgl.snu.ac.kr/publication/",
+          "https://cgl.snu.ac.kr/publication/20250812/",
+          "https://cgl.snu.ac.kr/publication/20260425/",
+          "https://plantsci.snu.ac.kr",
+          "https://cgl.snu.ac.kr/professor-profile/",
+          "https://cgl.snu.ac.kr/member-list/",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://cgl.snu.ac.kr/#container",
+          "https://cgl.snu.ac.kr/#footer",
+          "https://snu.ac.kr/",
+          "https://cgl.snu.ac.kr/login/?redirect_to=%2F",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 2,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC09852A19D2C8",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:15:16Z",
+        "_saved_at": "2026-09-24T21:45:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CC09852A19D2C8"
     },
@@ -252611,11 +252743,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:44:36Z",
-    "checked": 270,
-    "seconds": 2715.75,
+    "at": "2026-09-24T21:45:28Z",
+    "checked": 275,
+    "seconds": 2767.64,
     "gemini": true,
-    "ai_requests": 111,
+    "ai_requests": 115,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
