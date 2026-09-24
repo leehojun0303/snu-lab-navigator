@@ -1,5 +1,5 @@
 {
-  "cursor": 1920,
+  "cursor": 1925,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -29061,25 +29061,111 @@
       "_unit_id": "SNU-RU-E05F721C5F8189"
     },
     "SNU-RU-C069A17D8CFA9B": {
-      "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
-      "checked_at": "2026-09-23T23:40:41Z",
+      "fingerprint": "457efcb94e770538c90875b1887eeaf2302100fa48a0a7f1523ec428d90a42b1",
+      "checked_at": "2026-09-24T21:27:39Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/",
+            "kind": "publication"
           },
           {
             "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
+            "url": "https://dentsci.snu.ac.kr/research/publications/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부생연구지원",
+            "url": "https://dentsci.snu.ac.kr/research/undergrad/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2021학년도 2학기 시흥캠퍼스주택 대학원생 입주자 모집 안내",
+            "url": "https://dentsci.snu.ac.kr/3672/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "제24회 서울대-홋카이도대 공동 심포지엄 온라인 학술교류 분과세션 개최지원사업 안내",
+            "url": "https://dentsci.snu.ac.kr/3769/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_facebook.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_twitter.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_kakao.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_blog.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_facebook.png",
+            "alt": "페이스북",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_twitter.png",
+            "alt": "트위터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_youtube.png",
+            "alt": "유튜브",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/footer_logo.png",
+            "alt": "서울대학교 치의학대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
@@ -29150,9 +29236,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-21T12:20:46Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-C069A17D8CFA9B"
+      "_unit_id": "SNU-RU-C069A17D8CFA9B",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D08720C35AF998": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
@@ -55940,103 +56028,27 @@
       "_unit_id": "SNU-RU-58F40575DE023B"
     },
     "SNU-RU-C054E958C044FF": {
-      "fingerprint": "40b3e02319e0ee333667e073994fba7d2a347e9f5293b3093ea2d41b678b1b3a",
-      "checked_at": "2026-09-24T00:20:40Z",
+      "fingerprint": "2b3b3985cf055cac1bc165804701c1fdf5e452fe4e27dec058001d61e471ad46",
+      "checked_at": "2026-09-24T21:27:28Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal of Korean Law의 원고모…",
-            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7519",
-            "kind": "publication"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102"
           }
         ],
         "recruitmentPages": [
           {
             "title": "학생지원센터",
-            "url": "https://law.snu.ac.kr/page/councel.php",
-            "kind": "recruitment"
+            "url": "https://law.snu.ac.kr/page/councel.php"
           },
           {
             "title": "입학게시판",
-            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학생지원센터",
-            "url": "https://law.snu.ac.kr/page/councel.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "로스쿨 장학지원",
-            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
-            "kind": "recruitment"
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
           }
         ],
-        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://law.snu.ac.kr/image/logo.png",
-            "alt": "서울대학교 법학전문대학원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
-            "alt": "close",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
-          },
-          {
-            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_s3n4uSof_EAB980EC9B85EC9EAC_EAB590EC8898EB8B98_120x.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=341"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
-            "alt": "상단으로",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/splash1.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr"
-          },
-          {
-            "url": "https://law.snu.ac.kr/image/splash2.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://law.snu.ac.kr"
-          }
-        ],
+        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=341",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=341",
           "https://law.snu.ac.kr",
@@ -56050,7 +56062,122 @@
           "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=103"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "형법 및 형사소송법을 전공하며, 특히 전문법칙, 사기죄, 양벌규정, 압수·수색 등 형사법의 주요 이론과 판례를 체계적으로 연구하고 있습니다.",
+        "research_topics": [
+          "형법",
+          "형사소송법",
+          "전문법칙",
+          "사기죄",
+          "양벌규정"
+        ],
+        "recommendation_keywords": [
+          "형법",
+          "형사소송법",
+          "전문법칙",
+          "사기죄",
+          "양벌규정"
+        ],
+        "recent_papers": [
+          {
+            "title": "전문법칙의 예외요건으로서 '원진술자의 법정진술에 의한 진정성립 인정'",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102",
+            "year": "2026",
+            "venue": "형사소송 이론과 실무",
+            "summary": ""
+          },
+          {
+            "title": "전문법칙과 그 예외의 이론적 근거",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102",
+            "year": "2026",
+            "venue": "형사법연구",
+            "summary": ""
+          },
+          {
+            "title": "채용비리와 위계에 의한 업무방해죄의 전용(轉用)",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102",
+            "year": "2026",
+            "venue": "융합과 통섭의 형법학: 이상원교수 정년기념논문집",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "형사소송 이론과 실무",
+            "count": 1
+          },
+          {
+            "venue": "형사법연구",
+            "count": 1
+          },
+          {
+            "venue": "융합과 통섭의 형법학: 이상원교수 정년기념논문집",
+            "count": 1
+          },
+          {
+            "venue": "서울대학교 법학",
+            "count": 1
+          }
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 법과대학에서 학사 학위를 받았으며, 동 대학원 법학과에서 형법 전공으로 법학박사 학위를 취득하였습니다. 또한 미국 Stanford University Law School에서 법학석사(LL.M.) 과정을 마쳤습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "논문",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102"
+          }
+        ],
+        "recruitment_summary": "서울대학교 법학전문대학원 학생지원센터 및 입학게시판을 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          }
+        ],
+        "recruitment_source_url": "https://law.snu.ac.kr/page/councel.php",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://law.snu.ac.kr/page/professor.php?wr_id=341",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://law.snu.ac.kr/page/professor.php?wr_id=341",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=102",
+          "https://law.snu.ac.kr/data/file/professor/3660049170_IEBZg1ip_E18480E185B5E186B7E1848BE185AEE186BCE1848CE185A2_E1848BE185B5E18485E185A7E186A8E18489E185A5CV_260303.pdf",
+          "https://law.snu.ac.kr",
+          "https://law.snu.ac.kr/page/councel.php",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=305",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=101",
+          "https://law.snu.ac.kr/page/professor_xtra.php?pcode=woongjae.kim&code=103",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7519",
+          "https://law.snu.ac.kr/page/master_scholarships.php"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C054E958C044FF",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:27:43Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-C054E958C044FF"
     },
     "SNU-RU-090C638B540C26": {
@@ -122712,20 +122839,10 @@
       "_unit_id": "SNU-RU-6175F892609120"
     },
     "SNU-RU-C063AC6675353A": {
-      "fingerprint": "a4d1394084dc61aed2faee5c65d2d1fa844589037cc2c276f5e7c1dddf59025b",
-      "checked_at": "2026-09-24T00:40:13Z",
+      "fingerprint": "f5878670631313636036b6ccc84e3282c21386a831ee052709ff0a7dd293a161",
+      "checked_at": "2026-09-24T21:27:42Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
-            "kind": "publication"
-          },
-          {
-            "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
-            "kind": "publication"
-          },
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights",
@@ -122767,7 +122884,7 @@
             "alt": "서울대학교 수의과대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/003_000_01-1.png",
@@ -122781,47 +122898,46 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%EC%84%9C%EA%B0%95%EB%AC%B8/",
-          "https://vet.snu.ac.kr",
           "https://vet.snu.ac.kr/snu__professor/%EC%84%9C%EA%B0%95%EB%AC%B8/#container",
           "https://vet.snu.ac.kr/snu__professor/%EC%84%9C%EA%B0%95%EB%AC%B8/#footer",
           "https://admission.snu.ac.kr/",
@@ -122829,11 +122945,13 @@
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
           "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty3/"
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C063AC6675353A"
+      "_unit_id": "SNU-RU-C063AC6675353A",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-4B1CDEC64A2054": {
       "fingerprint": "b121eea0ef6a13773abe0f8b9a214fa5ad2e4ed2f8b1ffe7586d165cbd77f0bc",
@@ -135671,118 +135789,31 @@
       "_unit_id": "SNU-RU-A6F724F198D21A"
     },
     "SNU-RU-C0B2EDE8640440": {
-      "fingerprint": "08020c9fd454540dbdffb3482de4737034a0a8115ae6612de8335430b8ad948d",
-      "checked_at": "2026-09-24T00:44:49Z",
+      "fingerprint": "45b3c5bbb24c3f25377a598521faf63b977458efc5ab4872ded292838cd111e3",
+      "checked_at": "2026-09-24T21:27:40Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://molpathlab.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ed%8e%98%ec%9d%b4%ec%a7%80/",
-            "kind": "publication"
-          },
-          {
-            "title": "Peripheral immune profiling identifies CD8⁺ TEMRA and CD4⁺ T TIGIT⁺ cells as independent prognostic markers for first-line immune checkpoint inhibitors in advanced non-small cell lung cancer.",
-            "url": "https://molpathlab.snu.ac.kr/publication/peripheral-immune-profiling-identifies-cd8%e2%81%ba-temra-and-cd4%e2%81%ba-t-tigit%e2%81%ba-cells-as-independent-prognostic-markers-for-first-line-immune-checkpoint-inhibitors-in-advanced-non-small-ce/",
-            "kind": "publication"
-          },
-          {
-            "title": "An Ant-Inspired Dielectric Elastomer Soft Robot With Unequal Biaxial Pre-Stretching for Fast Locomotion and Versatile Applications.",
-            "url": "https://molpathlab.snu.ac.kr/publication/an-ant-inspired-dielectric-elastomer-soft-robot-with-unequal-biaxial-pre-stretching-for-fast-locomotion-and-versatile-applications-2/",
-            "kind": "publication"
-          },
-          {
-            "title": "Molecular basis for a pore block of Tentonin 3 expressed in HEK293 cells by a conopeptide, NMB-1",
-            "url": "https://molpathlab.snu.ac.kr/publication/molecular-basis-for-a-pore-block-of-tentonin-3-expressed-in-hek293-cells-by-a-conopeptide-nmb-1/",
-            "kind": "publication"
-          },
-          {
-            "title": "Prognostic impact of sarcopenia and blood biomarkers in advanced non-small cell lung cancer on first-line immune checkpoint inhibitors",
-            "url": "https://molpathlab.snu.ac.kr/publication/prognostic-impact-of-sarcopenia-and-blood-biomarkers-in-advanced-non-small-cell-lung-cancer-on-first-line-immune-checkpoint-inhibitors/",
-            "kind": "publication"
+            "url": "https://molpathlab.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ed%8e%98%ec%9d%b4%ec%a7%80/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           },
           {
             "title": "편입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           }
         ],
         "membersUrl": "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-1-3-3/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://molpathlab.snu.ac.kr/wp-content/uploads/sites/138/2024/10/실험실-logo.jpg",
-            "alt": "서울대학교 서울대학교 분자병리학실험실",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/"
-          },
-          {
-            "url": "https://devmolpathlab.insnucms.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-8-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/"
-          },
-          {
-            "url": "https://devmolpathlab.insnucms.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-2-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/"
-          },
-          {
-            "url": "https://devmolpathlab.insnucms.snu.ac.kr/wp-content/uploads/sites/2/2023/11/icon-12-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/"
-          },
-          {
-            "url": "https://molpathlab.snu.ac.kr/wp-content/uploads/sites/138/2024/11/신약개발1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/"
-          },
-          {
-            "url": "https://molpathlab.snu.ac.kr/wp-content/uploads/sites/138/2024/10/KakaoTalk_20241224_120735127.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/%ea%b5%90%ec%88%98/"
-          },
-          {
-            "url": "https://molpathlab.snu.ac.kr/wp-content/uploads/sites/138/2024/10/홍성열.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/"
-          },
-          {
-            "url": "https://molpathlab.snu.ac.kr/wp-content/uploads/sites/138/2024/12/Lakshimi.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://molpathlab.snu.ac.kr/",
           "https://snupharm.snu.ac.kr/snu__professor/%EC%8B%A0%EC%98%81%EA%B8%B0/",
@@ -135792,11 +135823,110 @@
           "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-%ea%b2%8c%ec%8b%9c%ed%8c%90/",
           "https://molpathlab.snu.ac.kr/%ec%9d%bc%eb%b0%98-%ea%b2%8c%ec%8b%9c%ed%8c%90/?mod=document&uid=228",
           "https://molpathlab.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ed%8e%98%ec%9d%b4%ec%a7%80/",
-          "https://molpathlab.snu.ac.kr/%ea%b5%90%ec%88%98/",
-          "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/"
+          "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/",
+          "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2-2/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "신영기 교수는 서울대학교 약학대학 소속으로, 분자의학 및 병태생리학 분야를 중심으로 연구를 수행하고 있습니다. 주요 연구 관심사는 암 면역 치료, 바이오마커 발굴 및 신약 개발과 관련된 분자적 기전 규명입니다.",
+        "research_topics": [
+          "병태생리학",
+          "분자의학",
+          "암 면역 치료",
+          "바이오마커",
+          "신약 개발"
+        ],
+        "recommendation_keywords": [
+          "병태생리학",
+          "분자의학",
+          "면역항암제",
+          "바이오마커",
+          "암 면역 치료",
+          "신약 개발"
+        ],
+        "recent_papers": [
+          {
+            "title": "Peripheral immune profiling identifies CD8⁺ TEMRA and CD4⁺ T TIGIT⁺ cells as independent prognostic markers for first-line immune checkpoint inhibitors in advanced non-small cell lung cancer.",
+            "url": "https://molpathlab.snu.ac.kr/publication/peripheral-immune-profiling-identifies-cd8%e2%81%ba-temra-and-cd4%e2%81%ba-t-tigit%e2%81%ba-cells-as-independent-prognostic-markers-for-first-line-immune-checkpoint-inhibitors-in-advanced-non-small-ce/",
+            "year": "null",
+            "venue": "null",
+            "summary": ""
+          },
+          {
+            "title": "Prognostic impact of sarcopenia and blood biomarkers in advanced non-small cell lung cancer on first-line immune checkpoint inhibitors",
+            "url": "https://molpathlab.snu.ac.kr/publication/prognostic-impact-of-sarcopenia-and-blood-biomarkers-in-advanced-non-small-cell-lung-cancer-on-first-line-immune-checkpoint-inhibitors/",
+            "year": "null",
+            "venue": "null",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 약학대학 교수로서 병태생리학 및 분자의학 관련 교육을 담당하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "논문",
+            "url": "https://molpathlab.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ed%8e%98%ec%9d%b4%ec%a7%80/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 약학대학 및 입학포털을 통해 신입학 및 편입학 모집 안내를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          }
+        ],
+        "recruitment_source_url": "https://snupharm.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-1-3-3/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://molpathlab.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%8B%A0%EC%98%81%EA%B8%B0/",
+          "https://snupharm.snu.ac.kr",
+          "https://molpathlab.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ed%8e%98%ec%9d%b4%ec%a7%80/",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-1-3-3/",
+          "https://molpathlab.snu.ac.kr/%ea%b0%a4%eb%9f%ac%eb%a6%ac-2/",
+          "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-%ea%b2%8c%ec%8b%9c%ed%8c%90/",
+          "https://molpathlab.snu.ac.kr/%ec%9d%bc%eb%b0%98-%ea%b2%8c%ec%8b%9c%ed%8c%90/?mod=document&uid=228",
+          "https://molpathlab.snu.ac.kr/%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/",
+          "https://molpathlab.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90-2-2-2/",
+          "https://molpathlab.snu.ac.kr/publication/peripheral-immune-profiling-identifies-cd8%e2%81%ba-temra-and-cd4%e2%81%ba-t-tigit%e2%81%ba-cells-as-independent-prognostic-markers-for-first-line-immune-checkpoint-inhibitors-in-advanced-non-small-ce/",
+          "https://molpathlab.snu.ac.kr/publication/an-ant-inspired-dielectric-elastomer-soft-robot-with-unequal-biaxial-pre-stretching-for-fast-locomotion-and-versatile-applications-2/"
+        ],
+        "paper_count_visible": 2,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C0B2EDE8640440",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:28:12Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-C0B2EDE8640440"
     },
     "SNU-RU-DBF95ECF5B1CEB": {
@@ -247795,6 +247925,94 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-BF72B45D17B24B",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-C0AAA27EAE9EA2": {
+      "fingerprint": "8f68a752f1f6709fa541719f8e2260cc3b749f528fba7f89a6e5941d68479577",
+      "checked_at": "2026-09-24T21:27:32Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "국가지원연구센터",
+            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수시",
+            "url": "https://admission.snu.ac.kr/undergraduate/early/guide",
+            "kind": "recruitment"
+          },
+          {
+            "title": "정시",
+            "url": "https://admission.snu.ac.kr/undergraduate/regular/guide",
+            "kind": "recruitment"
+          },
+          {
+            "title": "일반대학원",
+            "url": "https://admission.snu.ac.kr/graduate/general/notice",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://eng.snu.ac.kr/resources/snu/img/common/flogo-80.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://eng.snu.ac.kr/about/organization/professor?sc=y"
+          },
+          {
+            "url": "https://eng.snu.ac.kr/resources/snu/img/common/btn_topgo.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://eng.snu.ac.kr/about/organization/professor?sc=y"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://eng.snu.ac.kr/about/organization/professor?page=1",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2",
+          "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-professor",
+          "https://eng.snu.ac.kr/communication/proud-engineers/award-of-excellence-for-development",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-alumni-award",
+          "https://eng.snu.ac.kr/communication/proud-engineers/sinyangoutstanding-young-professor-award",
+          "https://eng.snu.ac.kr/about/organization/professor?page=1#cont",
+          "https://eng.snu.ac.kr/about/organization/professor?page=1#topNav",
+          "https://eng.snu.ac.kr/about/organization/professor?sc=y"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-C0AAA27EAE9EA2",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -247900,11 +248118,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:27:16Z",
-    "checked": 170,
-    "seconds": 1675.24,
+    "at": "2026-09-24T21:28:12Z",
+    "checked": 175,
+    "seconds": 1731.92,
     "gemini": true,
-    "ai_requests": 64,
+    "ai_requests": 66,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
