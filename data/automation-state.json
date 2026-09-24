@@ -1,5 +1,5 @@
 {
-  "cursor": 2105,
+  "cursor": 2110,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -112411,28 +112411,38 @@
       "_unit_id": "SNU-RU-6DB53069DE3974"
     },
     "SNU-RU-D28629EE581B4E": {
-      "fingerprint": "ab951107c38619a94489015f5843cf8656ea207ef35efe22888ff385e206e508",
-      "checked_at": "2026-09-23T23:44:43Z",
+      "fingerprint": "c543cb073d7eb97ee652f54cdbf00be616e8a4e9ce23dc40bc2d2fcac29ea13c",
+      "checked_at": "2026-09-24T22:01:03Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentsci.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": null,
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -112445,11 +112455,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "박지운 교수는 서울대학교 치의학대학원 구강내과진단학교실 소속입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 치의학대학원 및 치의과학과 입학 관련 정보는 공식 입학 포털을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "",
@@ -112461,27 +112481,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://admission.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/personal_information",
           "https://dentsci.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snudf.snu.ac.kr/3344/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D28629EE581B4E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:56:05Z",
+        "_saved_at": "2026-09-24T22:01:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D28629EE581B4E"
     },
@@ -219539,117 +219558,22 @@
     },
     "SNU-RU-D2B57CF05E3438": {
       "fingerprint": "5c39db75728ffff561c8631f4c41423df63275debf7583c095e1a38bde9e2a80",
-      "checked_at": "2026-09-24T01:16:38Z",
+      "checked_at": "2026-09-24T22:00:46Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://www.hwangchemgroup.com/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Patents",
-            "url": "https://www.hwangchemgroup.com/publications/patents",
-            "kind": "publication"
-          },
-          {
-            "title": "Conferences",
-            "url": "https://www.hwangchemgroup.com/publications/conferences",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://www.hwangchemgroup.com/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Patents",
-            "url": "https://www.hwangchemgroup.com/publications/patents",
-            "kind": "publication"
+            "url": "https://www.hwangchemgroup.com/publications"
           }
         ],
         "recruitmentPages": [
           {
             "title": "실험지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-lab",
-            "kind": "recruitment"
-          },
-          {
-            "title": "세미나 지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학 및 졸업 관련양식",
-            "url": "https://chem.snu.ac.kr/academics/archive/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://chem.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
           }
         ],
         "membersUrl": "https://www.hwangchemgroup.com/people",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/t-logo@2.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/faculty/fulltime/697z901za8azf49ze76zb0dzd76z696zbb5z3a4z6b.jpg",
-            "alt": "황윤정 교수 사진",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=89&sc=y"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png",
-            "alt": "서울대학교 화학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=89&sc=y"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/8b5z5d8zc0aza0aza70z214z354z52czf09z4a2z17.jpg",
-            "alt": "저렴한 망간 배터리, 전기차용 대형 배터리 상용화 가능성 높여",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/9bbz7b5ze8fza3fzc14z08dze11z840z8c1zfe8z3b.jpg",
-            "alt": "[2026.9.1. 신임교수 부임]",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f89z025z142z6c1z043zeaaz2acz5d1z754z1cazd0.jpg",
-            "alt": "[100세 과학] 겨울이 오고 있다…추위 대응 이끄는 뉴런 발견",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f09z3d3z8e8z58dz18az999ze60z571za15z9bczaa.png",
-            "alt": "서울대, 단백질 설계로 구리화합물 구조·물성 조절",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          }
-        ],
         "sourcePagesScanned": [
           "https://www.hwangchemgroup.com/",
           "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=89&sc=y",
@@ -219663,7 +219587,137 @@
           "https://www.hwangchemgroup.com/publications/conferences"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "황윤정 교수의 청정촉매소재 연구실(CMRE LAB)은 고체-액체 계면(전극-전해질 계면)에 대한 이해를 바탕으로 전기화학 반응, 촉매 소재 및 통합 장치를 개발하여 지속 가능한 화학 순환을 탐구합니다. 주요 연구 분야는 탄소 활용을 위한 전기화학적 합성, 전기촉매 응용을 위한 나노소재 합성, 그리고 반응 경로와 촉매 표면을 이해하기 위한 in-situ/operando 전기화학적 분석입니다.",
+        "research_topics": [
+          "전기화학적 이산화탄소 환원 및 탄소 활용",
+          "전기촉매용 나노소재 합성",
+          "In-situ/operando 전기화학적 분석",
+          "에너지 및 환경 문제 해결을 위한 지속 가능한 화학 생산"
+        ],
+        "recommendation_keywords": [
+          "분석화학",
+          "물리화학",
+          "고분자/재료화학",
+          "나노화학",
+          "에너지/환경",
+          "전기화학적 이산화탄소 환원 및 탄소 활용",
+          "전기촉매용 나노소재 합성",
+          "In-situ/operando 전기화학적 분석",
+          "에너지 및 환경 문제 해결을 위한 지속 가능한 화학 생산"
+        ],
+        "recent_papers": [
+          {
+            "title": "Cation-Directed Mechanistic Bifurcation in Electrochemical CO2 Reduction: Rate-Determining Step Switching and Opposite Temperature Dependencies on Ni Single-Atom Catalysts",
+            "url": "https://www.hwangchemgroup.com/publications",
+            "year": "2026",
+            "venue": "ACS Catal.",
+            "summary": "니켈 단일 원자 촉매에서 양이온이 전기화학적 이산화탄소 환원 반응의 속도 결정 단계를 전환하고 온도 의존성을 변화시키는 메커니즘을 규명하였습니다."
+          },
+          {
+            "title": "Ligand isomerism modulates interfacial water and methanol selectivity on heterogenized cobalt phthalocyanine in electrochemical CO2 reduction",
+            "url": "https://www.hwangchemgroup.com/publications",
+            "year": "2026",
+            "venue": "Chem Catal.",
+            "summary": "코발트 프탈로시아닌 촉매에서 리간드 이성질체가 계면 물 구조와 메탄올 선택성에 미치는 영향을 분석하였습니다."
+          },
+          {
+            "title": "Kinetic Control of Oxygenation and Dehydrogenation for Selective Maleic Acid Production from Electrochemical Furfural Conversion",
+            "url": "https://www.hwangchemgroup.com/publications",
+            "year": "2026",
+            "venue": "ACS Electrochem.",
+            "summary": "전기화학적 푸르푸랄 전환 반응에서 산소화 및 탈수소화 반응의 속도론적 제어를 통해 말레산 생산 선택성을 향상시켰습니다."
+          }
+        ],
+        "recent_year_paper_count": 13,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "ACS Catal.",
+            "count": 1
+          },
+          {
+            "venue": "Chem Catal.",
+            "count": 2
+          },
+          {
+            "venue": "ACS Electrochem.",
+            "count": 1
+          },
+          {
+            "venue": "Nano Lett.",
+            "count": 1
+          },
+          {
+            "venue": "small",
+            "count": 1
+          },
+          {
+            "venue": "Energy Environ. Sci.",
+            "count": 1
+          },
+          {
+            "venue": "Adv. Sci.",
+            "count": 1
+          },
+          {
+            "venue": "J. Am. Chem. Soc.",
+            "count": 2
+          }
+        ],
+        "education_summary": "2006-2012년 미국 UC 버클리에서 화학 박사 학위를 취득하였으며, 그 이전에는 KAIST에서 화학 석사(2005) 및 학사(2003) 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://www.hwangchemgroup.com/publications"
+          }
+        ],
+        "recruitment_summary": "청정촉매소재 연구실(CMRE LAB)에서는 열정적인 박사후 연구원 및 대학원생을 모집하고 있습니다. 관심 있는 지원자는 yjhwang1@snu.ac.kr로 연락 바랍니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          }
+        ],
+        "recruitment_source_url": "https://www.hwangchemgroup.com/",
+        "member_page_url": "https://www.hwangchemgroup.com/people",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=89&sc=y",
+          "https://www.hwangchemgroup.com/",
+          "https://www.hwangchemgroup.com/publications",
+          "https://chem.snu.ac.kr",
+          "https://www.hwangchemgroup.com/people",
+          "https://www.hwangchemgroup.com/people/professor",
+          "https://www.hwangchemgroup.com/people/members",
+          "https://www.hwangchemgroup.com/people/alumni",
+          "https://www.hwangchemgroup.com/publications/patents",
+          "https://www.hwangchemgroup.com/publications/conferences",
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/research-faculty/support-seminar"
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "current_members": [],
+        "alumni": [],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "poster_date": "",
+        "poster_event": "",
+        "_unit_id": "SNU-RU-D2B57CF05E3438",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:00:55Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-D2B57CF05E3438"
     },
     "SNU-RU-E58B4F761ED137": {
@@ -255793,6 +255847,350 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D13D3ACC0C903F"
+    },
+    "SNU-RU-D2AD878DED143B": {
+      "fingerprint": "136ec1d7a2f51e75a01382b3f992ef4e97d8600a9bb29ab9edb87bcd9c2f5a6c",
+      "checked_at": "2026-09-24T22:00:54Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/b9aza9dz6bfzb0az9c4ze0fzcddza50z011z238z47.jpg",
+            "alt": "이민용 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+            "alt": "학생생활문화원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
+            "alt": "인문학 역량강화",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
+            "alt": "교육지원센터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=14&md=view&profidx=204",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D2AD878DED143B",
+      "verify_error": "verify_JSONDecodeError"
+    },
+    "SNU-RU-D2ADA6120E57AD": {
+      "fingerprint": "26af24069959a829d36ec1370ebb27bed3bd5a1529405aea1134513ea5514f69",
+      "checked_at": "2026-09-24T22:00:56Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "Publications",
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
+            "kind": "recruitment"
+          },
+          {
+            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://www.math.snu.ac.kr/thema/Math/logo-top.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=advisor_login"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/facdcaede554065579542197bfe2f1b4_A2EGgtXa_8a3a33a1a65c5eb9e18dd0f97acd70139fc9bddb.png",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/02a782b2822741abffc7565d56d68c53_Wi3pLROe_58e9c64634f6e1cebcff4d551a5ded4cd226e16c.jpeg",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/facdcaede554065579542197bfe2f1b4_vUJFtgEj_f754fc28bb8408614dc133df6b8830c76f0f720b.jpg",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/facdcaede554065579542197bfe2f1b4_cuJdtqPM_7676a9776b57d9c3d4d9f5cebb7cb2eabccb6ad6.jpg",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/02a782b2822741abffc7565d56d68c53_mje7Zf3o_980dbfffdf48de87c580109163aa05ca566ce976.png",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/facdcaede554065579542197bfe2f1b4_OwTuIHdL_107cd54849689d154a269fb92614d96ba6484e36.jpg",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/data/file/Math_People/facdcaede554065579542197bfe2f1b4_x1hUZyta_14f3b68c553f96d6cbf9f65d37554819d08cc9ce.jpg",
+            "alt": "professor",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/login.php?url=%2Fbbs%2Fpage.php%3Fhid%3Dprofessor",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=adjunct",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Alumni",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=advisor_login"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D2ADA6120E57AD",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-D22617A1D94185": {
+      "fingerprint": "4e6f7881c25cef9e5c94bba853c8e376bc29387d62c689d1ea2475f992f476c0",
+      "checked_at": "2026-09-24T22:01:06Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+            "kind": "publication"
+          },
+          {
+            "title": "Elsevier 저자 워크숍 안내 ( 신진 연구자를 위한 국제 논문 출판 전략 )",
+            "url": "https://gsis.snu.ac.kr/31966/",
+            "kind": "publication"
+          },
+          {
+            "title": "[Ph.D.] 26-2학기 박사 논문심사 계획 공고 Fall 2026 Thesis Defense for Doctoral Program",
+            "url": "https://gsis.snu.ac.kr/31850/",
+            "kind": "publication"
+          },
+          {
+            "title": "[MA] 26-2학기 석사 논문심사 계획 공고 Fall 2026 Thesis Defense for Master’s Program",
+            "url": "https://gsis.snu.ac.kr/31841/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Admission Notice",
+            "url": "https://gsis.snu.ac.kr/category/board-286-gn-1lfvw93o-20240610114958/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2024/06/snu-gsis_logo_th.png",
+            "alt": "서울대학교 SNU GSIS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/korean-students/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2021/02/snu-gsis_logo_th-wh.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/korean-students/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/themes/hello-elementor/images/icon/ico_download_btn.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/04/o_1jmpf2r501eia391j73jlt1gbta.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2026/03/o_1jjalc06616f3br611tnjel2rra.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2025/12/o_1jcfs65s11f63pqj10h15hap6a.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2025/09/o_1j4rkr4a74u61t5418iv1ns16sha.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          },
+          {
+            "url": "https://gsis.snu.ac.kr/wp-content/uploads/sites/286/2025/05/o_1irm298j71glv1rei1dipvpl3fla.JPG",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://gsis.snu.ac.kr/30766/",
+          "https://gsis.snu.ac.kr",
+          "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+          "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+          "https://admission.snu.ac.kr/",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/emeritusretired-professors/",
+          "https://gsis.snu.ac.kr/student-roundtables/",
+          "https://gsis.snu.ac.kr/application/",
+          "https://gsis.snu.ac.kr/korean-students/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D22617A1D94185",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -255906,11 +256304,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T22:00:41Z",
-    "checked": 355,
-    "seconds": 3680.55,
+    "at": "2026-09-24T22:01:30Z",
+    "checked": 360,
+    "seconds": 3729.97,
     "gemini": true,
-    "ai_requests": 151,
+    "ai_requests": 153,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
