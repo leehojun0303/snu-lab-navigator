@@ -1,5 +1,5 @@
 {
-  "cursor": 2060,
+  "cursor": 2065,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -30976,8 +30976,8 @@
       "_unit_id": "SNU-RU-49307CE1368DAC"
     },
     "SNU-RU-CF2F5C6A607040": {
-      "fingerprint": "f326828502c62316ff4f5631f59d63d0ef349243c81310d65425ae920c2d95e1",
-      "checked_at": "2026-09-24T01:15:01Z",
+      "fingerprint": "b8dd06ccb533b9c1d94da486ad40ddf14cc7b12703388631574cb81cbd72256b",
+      "checked_at": "2026-09-24T21:52:43Z",
       "activity": {
         "publicationPages": [
           {
@@ -31096,13 +31096,14 @@
           "https://ktkimgroup.snu.ac.kr/people-2/",
           "https://ktkimgroup.snu.ac.kr/professor/",
           "https://ktkimgroup.snu.ac.kr/%eb%a7%81%ed%81%ac/",
-          "https://ktkimgroup.snu.ac.kr/publications/",
           "https://ktkimgroup.snu.ac.kr/#container",
-          "https://ktkimgroup.snu.ac.kr/#footer"
+          "https://ktkimgroup.snu.ac.kr/#footer",
+          "https://snu.ac.kr/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CF2F5C6A607040"
+      "_unit_id": "SNU-RU-CF2F5C6A607040",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-2A839466222A00": {
       "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
@@ -86423,17 +86424,26 @@
       "_unit_id": "SNU-RU-E22E40DB56F2AD"
     },
     "SNU-RU-CF30A090D9DBB8": {
-      "fingerprint": "75faa5c2f800dedf55bf757b9450475fe60e156e1c3ca09abcd01dffcf7f8dd4",
-      "checked_at": "2026-09-23T23:30:36Z",
+      "fingerprint": "e00f0335108fadc244ac628b291cfbe61b1567bb6801be3035637babc1b795f2",
+      "checked_at": "2026-09-24T21:52:53Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Du Hyun Ro - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ro/"
+            "title": "Effects of axial malrotation on posterior tibial slope measurement: a digitally reconstructed radiograph study enabling automated quality assessment",
+            "url": "https://snu.elsevierpure.com/en/publications/effects-of-axial-malrotation-on-posterior-tibial-slope-measuremen/"
+          },
+          {
+            "title": "View all 136 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ro/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ro/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ro/",
@@ -86442,44 +86452,37 @@
           "https://snu.elsevierpure.com/en/persons/y-ro/#main-navigation",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "노두현 교수는 무릎관절 및 관절염 분야를 전문으로 하며, 특히 인공지능을 활용한 정형외과적 진단 및 수술 계획의 정확도 향상에 관한 연구를 수행하고 있습니다. 최근 연구에서는 디지털 재구성 방사선 사진(DRR)과 AI를 결합하여 무릎 관절의 축 회전이 경골 후방 경사(PTS) 측정에 미치는 영향을 분석하고, 영상 품질 평가를 자동화하는 연구를 발표하였습니다.",
+        "research_summary": "노두현 교수는 정형외과 분야, 특히 무릎 관절 및 관절염과 관련된 연구를 수행하고 있으며, 디지털 방사선 촬영 및 자동화된 품질 평가를 활용한 임상 연구에 집중하고 있습니다.",
         "research_topics": [
           "무릎관절",
           "관절염",
-          "인공지능",
-          "정형외과",
-          "수술 계획"
+          "디지털 방사선 촬영",
+          "정형외과"
         ],
         "recommendation_keywords": [
           "무릎관절",
           "관절염",
-          "인공지능",
           "정형외과",
-          "수술 계획"
+          "디지털 방사선 촬영"
         ],
         "recent_papers": [
           {
             "title": "Effects of axial malrotation on posterior tibial slope measurement: a digitally reconstructed radiograph study enabling automated quality assessment",
             "url": "https://snu.elsevierpure.com/en/publications/effects-of-axial-malrotation-on-posterior-tibial-slope-measuremen/",
-            "year": "2026",
-            "venue": "Knee Surgery and Related Research",
-            "summary": "CT 기반의 디지털 재구성 방사선 사진(DRR)과 AI를 활용하여 무릎의 축 회전이 경골 후방 경사(PTS) 측정에 미치는 영향을 분석하였으며, 회전 오차가 클수록 측정 정확도가 떨어짐을 확인하고 이를 필터링하는 자"
+            "year": "2024",
+            "venue": "Scientific Reports",
+            "summary": "축 회전 부정렬이 후방 경골 경사 측정에 미치는 영향을 디지털 재구성 방사선 사진을 통해 분석하고, 이를 위한 자동화된 품질 평가 방법을 제시하였습니다."
           }
         ],
-        "recent_year_paper_count": 14,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Knee Surgery and Related Research",
-            "count": 3
-          }
-        ],
+        "recent_year_paper_count": 136,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -86487,34 +86490,43 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 정형외과학교실 부교수로 재직 중입니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Du Hyun Ro - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ro/"
+            "title": "Effects of axial malrotation on posterior tibial slope measurement: a digitally reconstructed radiograph study enabling automated quality assessment",
+            "url": "https://snu.elsevierpure.com/en/publications/effects-of-axial-malrotation-on-posterior-tibial-slope-measuremen/"
+          },
+          {
+            "title": "View all 136 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ro/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ro/publications/",
         "poster_status": "verified",
         "poster_title": "Du Hyun Ro",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/1807945302/287_Ro_+Du+Hyun.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ro/#main-navigation",
-        "poster_evidence": "Official profile image from SNU Pure portal.",
+        "poster_evidence": "Official profile image verified on SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-ro/",
           "https://snu.elsevierpure.com/en/publications/effects-of-axial-malrotation-on-posterior-tibial-slope-measuremen/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-ro/#main-navigation",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -86525,10 +86537,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CF30A090D9DBB8",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:39:33Z",
+        "_saved_at": "2026-09-24T21:53:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CF30A090D9DBB8"
     },
@@ -118643,111 +118654,16 @@
       "_unit_id": "SNU-RU-635EC0872DF781"
     },
     "SNU-RU-CF4319919E4139": {
-      "fingerprint": "0435fae0fce76da0a96364c4429e20232b40c6a4b42bb5cf79bdcdae286216c8",
-      "checked_at": "2026-09-24T00:53:01Z",
+      "fingerprint": "d4db3040525988ad77bfac5c5b787504f4694c72d388424cf8c159848018fe21",
+      "checked_at": "2026-09-24T21:52:47Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "2026학년도 2학기 학부 졸업논문 요약문 제출 안내",
-            "url": "https://korean.snu.ac.kr/12829/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "채용",
-            "url": "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "채용",
-            "url": "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/10/KakaoTalk_20231030_085943957.png",
-            "alt": "서울대학교 국어국문학과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/11/방민호-선생님.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer02.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer03.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          }
-        ],
         "sourcePagesScanned": [
           "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
-          "https://korean.snu.ac.kr",
+          "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#container",
           "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#footer",
           "https://admission.snu.ac.kr/",
           "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#none",
@@ -118758,7 +118674,109 @@
           "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "현대문학(현대소설)을 전공하며, 식민지적 현실 대응 양상, 자전적 소설, 문명비평 등 한국 현대문학의 다양한 층위를 연구하고 있습니다.",
+        "research_topics": [
+          "현대문학",
+          "현대소설",
+          "식민지적 현실 대응",
+          "자전적 소설",
+          "문명비평"
+        ],
+        "recommendation_keywords": [
+          "현대문학",
+          "현대소설",
+          "진입",
+          "식민지적 현실 대응",
+          "자전적 소설",
+          "문명비평"
+        ],
+        "recent_papers": [
+          {
+            "title": "일제 말기 이태준의 일본 사소설 전유 양상에 대한 고찰",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2004",
+            "summary": ""
+          },
+          {
+            "title": "문명비평의 길",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2003",
+            "summary": ""
+          },
+          {
+            "title": "손창섭의 자전적 소설 연구",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2003",
+            "venue": "국어교육 112",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [
+          {
+            "title": "감각과 언어의 크레바스",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2007",
+            "venue": "서정시학"
+          },
+          {
+            "title": "행인의 독법",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2005",
+            "venue": "예옥"
+          },
+          {
+            "title": "한국전후문학과 세대",
+            "url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+            "year": "2003",
+            "venue": "향연"
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/",
+          "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#container",
+          "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://korean.snu.ac.kr/snu__professor/%EB%B0%A9%EB%AF%BC%ED%98%B8/#none",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/",
+          "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-CF4319919E4139",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:53:10Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-CF4319919E4139"
     },
     "SNU-RU-62C7EE20911998": {
@@ -253754,6 +253772,223 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CEE4F2D0E81E3B"
+    },
+    "SNU-RU-CF4F77091B2392": {
+      "fingerprint": "16c34e5a96115eefc0139cd6eff632b73ecaf9d356d2b00690af102eedcda53f",
+      "checked_at": "2026-09-24T21:52:49Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/"
+          },
+          {
+            "title": "김태윤(24), Finance Research Letters 학회지 논문 게재",
+            "url": "https://cls.snu.ac.kr/53142/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "전공설계지원센터 상담신청",
+            "url": "https://advising.snu.ac.kr/advising_sessions_201/"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/"
+          }
+        ],
+        "membersUrl": "https://cls.snu.ac.kr/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d/",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cls.snu.ac.kr/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98-%eb%a9%b4%eb%8b%b4%ec%98%88%ec%95%bd/",
+          "https://cls.snu.ac.kr",
+          "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+          "https://advising.snu.ac.kr/advising_sessions_201/",
+          "https://admission.snu.ac.kr/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ec%a0%84%ec%9e%84/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [
+          {
+            "title": "Finance Research Letters 학회지 논문 게재",
+            "url": "https://cls.snu.ac.kr/53142/",
+            "year": "2024",
+            "venue": "Finance Research Letters",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 1,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Finance Research Letters",
+            "count": 1
+          }
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 자유전공학부에서는 객원교수 면담예약 및 전공설계지원센터를 통한 상담 신청을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/"
+          },
+          {
+            "title": "김태윤(24), Finance Research Letters 학회지 논문 게재",
+            "url": "https://cls.snu.ac.kr/53142/"
+          }
+        ],
+        "recruitment_summary": "자유전공학부 전공설계지원센터를 통해 상담을 신청할 수 있으며, 관련 모집요강 및 채용공고를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "전공설계지원센터 상담신청",
+            "url": "https://advising.snu.ac.kr/advising_sessions_201/"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/"
+          }
+        ],
+        "recruitment_source_url": "https://cls.snu.ac.kr/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98-%eb%a9%b4%eb%8b%b4%ec%98%88%ec%95%bd/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cls.snu.ac.kr/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d/",
+        "poster_status": "verified",
+        "poster_title": "자유전공학부 소개",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/2023/06/메인_자유전공학부_소개.png",
+        "poster_source_url": "https://cls.snu.ac.kr",
+        "poster_evidence": "자유전공학부 홈페이지 메인에 게시된 학부 소개 이미지입니다.",
+        "source_urls_used": [
+          "https://cls.snu.ac.kr/%ea%b0%9d%ec%9b%90%ea%b5%90%ec%88%98-%eb%a9%b4%eb%8b%b4%ec%98%88%ec%95%bd/",
+          "https://cls.snu.ac.kr/53142/",
+          "https://advising.snu.ac.kr/advising_sessions_201/",
+          "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+          "https://cls.snu.ac.kr",
+          "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+          "https://admission.snu.ac.kr/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ec%a0%84%ec%9e%84/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://www.snu.ac.kr/research/highlights"
+        ],
+        "paper_count_visible": 1,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-CF4F77091B2392",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:53:15Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-CF4F77091B2392"
+    },
+    "SNU-RU-CF6ADFF2D51996": {
+      "fingerprint": "db065416721205939635cd7880acff5e490b8ea3fbb3540c3cced3b2ae717491",
+      "checked_at": "2026-09-24T21:52:56Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "검사의학교실은 서울대학교 의과대학의 임상교실 중 하나로, 검사의학 및 제대혈 분야를 다룹니다. 현재 신수 교수가 주임교수로 재직 중입니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 학생 지원 서비스를 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "current_members": [
+          {
+            "name": "신수",
+            "role": "주임교수",
+            "url": "https://snu.elsevierpure.com/en/persons/sue-shin"
+          },
+          {
+            "name": "김남희",
+            "role": "임상조교수"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/",
+          "https://libguides.snu.ac.kr/research/academicwriting",
+          "https://medcorelab.snu.ac.kr/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-CF6ADFF2D51996",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:53:32Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-CF6ADFF2D51996"
     }
   },
   "failures": {
@@ -253867,11 +254102,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:52:22Z",
-    "checked": 310,
-    "seconds": 3181.27,
+    "at": "2026-09-24T21:53:32Z",
+    "checked": 315,
+    "seconds": 3251.9,
     "gemini": true,
-    "ai_requests": 132,
+    "ai_requests": 136,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
