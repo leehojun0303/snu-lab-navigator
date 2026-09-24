@@ -1,5 +1,5 @@
 {
-  "cursor": 1765,
+  "cursor": 1770,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -46574,8 +46574,8 @@
       "_unit_id": "SNU-RU-A199BF0DB7BF71"
     },
     "SNU-RU-B0354F4D2FB13A": {
-      "fingerprint": "da38274a842818fa71fba21f4b7b644e609c1d86418114cc5c2349c5188834c7",
-      "checked_at": "2026-09-24T00:37:50Z",
+      "fingerprint": "2b7cb0c70a3849339e56f33c21135bd48d98030d4af6b68a17c25f7d03df80d8",
+      "checked_at": "2026-09-24T21:02:15Z",
       "activity": {
         "publicationPages": [
           {
@@ -46650,7 +46650,7 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%ea%b9%80%ec%84%b1%eb%af%bc/"
+            "parent_source_url": "https://clothing.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
           },
           {
             "url": "https://clothing.snu.ac.kr/wp-content/uploads/sites/43/2020/12/icon_shortcut01-1-1.png",
@@ -46686,7 +46686,7 @@
           "https://clothing.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%B1%EB%AF%BC/",
           "https://clothing.snu.ac.kr",
           "https://admission.snu.ac.kr/",
-          "https://clothing.snu.ac.kr/snu__professor/%ea%b9%80%ec%84%b1%eb%af%bc/",
+          "https://clothing.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://clothing.snu.ac.kr/snu__professor/%ea%b9%80%ec%a3%bc%ec%97%b0/",
           "https://clothing.snu.ac.kr/snu__professor/%eb%b0%95%ec%a3%bc%ec%97%b0/",
           "https://clothing.snu.ac.kr/snu__professor/%ec%9d%b4%ec%88%98%ed%98%84/",
@@ -46695,7 +46695,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B0354F4D2FB13A"
+      "_unit_id": "SNU-RU-B0354F4D2FB13A",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-5F3D04F1E7FACC": {
       "fingerprint": "86696694497764769e1e2e562571d8c310db7c56e8a52ffa2c1ecd16c4aaa7fb",
@@ -49280,8 +49281,8 @@
       "_unit_id": "SNU-RU-34A897BF8ECE2A"
     },
     "SNU-RU-B06108D0A5DBC6": {
-      "fingerprint": "985a6b6d7cf71c8a8b46ffe0f64090d72e21f1ba94ff42e4b0955829b7466d14",
-      "checked_at": "2026-09-23T23:19:02Z",
+      "fingerprint": "32b0e9dc3917eaa3eb6c365b2408fc1cd59a357cf044bcebaf137db07c62d7c0",
+      "checked_at": "2026-09-24T21:02:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -49289,7 +49290,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -49299,22 +49305,24 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김세형 교수는 영상의학 분야, 특히 복부 영상 진단 및 관련 연구를 전문으로 수행하고 있습니다. 서울대학교 의과대학 영상의학교실 소속으로 다수의 학술 논문과 연구 성과를 발표하였습니다.",
+        "research_summary": "김세형 교수는 서울대학교 의과대학 영상의학교실 소속으로, 주로 복부 영상 의학 분야에서 활발한 연구를 수행하고 있습니다. 300편 이상의 연구 성과를 보유하고 있으며, 특히 복부 영상 진단 및 관련 임상 연구에 집중하고 있습니다.",
         "research_topics": [
-          "복부 영상의학",
-          "영상의학"
+          "복부 영상 의학",
+          "복부 진단 영상"
         ],
         "recommendation_keywords": [
           "복부",
           "영상의학",
-          "복부 영상의학"
+          "서울대학교",
+          "복부 영상 의학",
+          "복부 진단 영상"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -49333,9 +49341,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/"
           }
         ],
-        "recruitment_summary": "제공된 공식 URL 내에서 해당 교수의 연구실 모집 정보는 확인되지 않았습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "제공된 공식 URL에서는 현재 연구실의 구체적인 채용 공고를 확인할 수 없습니다. 연건학생지원센터 등 일반적인 학생 지원 정보만 확인됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/",
@@ -49345,29 +49358,28 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959466/144_Kim_+Se+Hyung.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-content",
-        "poster_evidence": "공식 프로필 페이지에 게시된 인물 사진입니다.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-30/",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-30/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B06108D0A5DBC6",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:08:48Z",
+        "_saved_at": "2026-09-24T21:02:35Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-B06108D0A5DBC6"
     },
@@ -118635,7 +118647,7 @@
     },
     "SNU-RU-B02E7CDE783446": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T23:40:53Z",
+      "checked_at": "2026-09-24T21:02:26Z",
       "activity": {
         "publicationPages": [
           {
@@ -147910,8 +147922,8 @@
       "_unit_id": "SNU-RU-75EC1454486D8F"
     },
     "SNU-RU-B04BCE303D6069": {
-      "fingerprint": "d078bef19a7bbbd7ad0c8359b1cd21bea9e28bcaab8fb807c136ded13418c07a",
-      "checked_at": "2026-09-24T00:36:42Z",
+      "fingerprint": "cbac66415e8b6e9cc36894d9f351c7e31375ef49ebb309f792f69fa7d1c754f0",
+      "checked_at": "2026-09-24T21:02:17Z",
       "activity": {
         "publicationPages": [
           {
@@ -147935,8 +147947,8 @@
             "kind": "publication"
           },
           {
-            "title": "Read More",
-            "url": "https://childfamily.snu.ac.kr/recent-publications/",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
           }
         ],
@@ -147970,7 +147982,7 @@
             "alt": "서울대학교 아동가족학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr/integrated-major/"
+            "parent_source_url": "https://childfamily.snu.ac.kr/recent-publications/"
           },
           {
             "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2022/02/이강이교수.png",
@@ -147984,59 +147996,60 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr/integrated-major/"
+            "parent_source_url": "https://childfamily.snu.ac.kr/recent-publications/"
           },
           {
-            "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2020/12/icon_main_intro_02-2.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2020/12/icon_main_intro_03-2.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2026/04/k752137406_1.jpg",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://childfamily.snu.ac.kr/wp-content/uploads/sites/44/2025/08/1-신종호-외2024.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://childfamily.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://childfamily.snu.ac.kr/child-development-lab2025/",
           "https://childfamily.snu.ac.kr/snu__professor/lee-kangyi/",
-          "https://childfamily.snu.ac.kr",
           "https://admission.snu.ac.kr/",
           "https://childfamily.snu.ac.kr/intro/",
           "https://childfamily.snu.ac.kr/faculty/",
           "https://childfamily.snu.ac.kr/office/",
           "https://childfamily.snu.ac.kr/under_info1/",
-          "https://childfamily.snu.ac.kr/under_interviews/",
-          "https://childfamily.snu.ac.kr/integrated-major/"
+          "https://childfamily.snu.ac.kr/grad_admissions/",
+          "https://childfamily.snu.ac.kr/integrated-major/",
+          "https://childfamily.snu.ac.kr/recent-publications/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B04BCE303D6069"
+      "_unit_id": "SNU-RU-B04BCE303D6069",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7875EE99E095C2": {
       "fingerprint": "d131d34496245e271964a2a99e898d681fd42b8dc64d4b5cf92489a00178161e",
@@ -240306,6 +240319,110 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-AFA29A2A561FB4",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-B08AC6F4F11B00": {
+      "fingerprint": "4ef6450b01025eeb830f7275eceb237da348dc588d75b9a2db3375ba1da32219",
+      "checked_at": "2026-09-24T21:02:07Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission",
+            "kind": "recruitment"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs",
+            "kind": "recruitment"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/campus-life/office",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/logo-bg@2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/50-logo-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/flogo.png?ver=",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/3ebz8bazb01z236z1eaz59bz226zdedza1fz458zdc.jpg",
+            "alt": "강진호",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=2"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/cbez47dz098z94azfa9z801z7d1zd67zb48z869z11.jpg",
+            "alt": "강찬희",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=2"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/5dbzd2ez3b0zffazdf3z5f9zff3z70az2ecz4afz16.jpg",
+            "alt": "강헌중",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=2"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/34az9d2z9aazbf6za39z35fzbe0za0bzdd0zdc7zdf.jpg",
+            "alt": "고준석",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=2"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=2",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-B08AC6F4F11B00",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -240407,11 +240524,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:01:50Z",
-    "checked": 15,
-    "seconds": 149.31,
+    "at": "2026-09-24T21:02:35Z",
+    "checked": 20,
+    "seconds": 194.29,
     "gemini": true,
-    "ai_requests": 4,
+    "ai_requests": 5,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
