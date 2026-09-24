@@ -1,5 +1,5 @@
 {
-  "cursor": 1805,
+  "cursor": 1810,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -21582,7 +21582,7 @@
     },
     "SNU-RU-B3BD7739654A95": {
       "fingerprint": "93429ca7fc026e5e1de2f8c278fa4c60c4a81418516329e3940eae5c266d320d",
-      "checked_at": "2026-09-24T01:22:09Z",
+      "checked_at": "2026-09-24T21:08:32Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -21594,7 +21594,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B3BD7739654A95"
+      "_unit_id": "SNU-RU-B3BD7739654A95",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-0A11F8C16C89D5": {
       "fingerprint": "1b4ba0dadf53d5713c77d3716322dd768e1f3a54dee21fca1ec411edd40c01c8",
@@ -92700,8 +92701,8 @@
       "_unit_id": "SNU-RU-03220406EA3E9D"
     },
     "SNU-RU-B3FB9BE84DB742": {
-      "fingerprint": "a9ef195fe120d6b2b3796d13b70849069e11d8401a929bbeb3e19c0bda2f793c",
-      "checked_at": "2026-09-23T23:32:38Z",
+      "fingerprint": "b5df5610fc800bb5215e1c38ec48b82866e334b0109631e02486d29189dd68ef",
+      "checked_at": "2026-09-24T21:09:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -92725,23 +92726,24 @@
           "https://snu.elsevierpure.com/en/persons/y-moon-10/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-moon-10/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
-        "research_summary": "문진수 교수는 소아소화기영양학 분야를 전문으로 하며, 특히 소아의 급성 췌장염, 소화기 질환 및 영양 관련 연구를 수행하고 있습니다.",
+        "research_summary": "문진수 교수는 소아소화기영양학 분야를 전문으로 하며, 특히 소아의 급성 췌장염, 소화기 질환의 역학 및 임상적 특성에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "소아소화기영양학",
           "급성 췌장염",
-          "소아 소화기 질환"
+          "소아 소화기 질환 역학"
         ],
         "recommendation_keywords": [
           "소아소화기영양학",
-          "소아과",
+          "소아 췌장염",
+          "소아 소화기 질환",
           "급성 췌장염",
-          "소아 소화기 질환"
+          "소아 소화기 질환 역학"
         ],
         "recent_papers": [
           {
@@ -92749,10 +92751,10 @@
             "url": "https://snu.elsevierpure.com/en/publications/seasonal-patterns-and-dynamics-of-acute-pancreatitis-emergency-de/",
             "year": "2024",
             "venue": "Scientific Reports",
-            "summary": ""
+            "summary": "한국의 급성 췌장염 응급실 방문에 대한 계절적 패턴과 역학적 특성을 분석한 연구입니다."
           }
         ],
-        "recent_year_paper_count": 127,
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -92761,14 +92763,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 소아과학교실에서 소아소화기영양학 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 127 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-moon-10/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 상담 및 학습 지원 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -92785,7 +92787,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960192/308_Moon_+Jin+Soo.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-moon-10/#main-content",
-        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image of Jin Soo Moon from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-moon-10/",
           "https://snu.elsevierpure.com/en/publications/seasonal-patterns-and-dynamics-of-acute-pancreatitis-emergency-de/",
@@ -92795,7 +92797,7 @@
           "https://snu.elsevierpure.com/en/persons/y-moon-10/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-moon-10/#main-content",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://snu.elsevierpure.com/en/persons/y-moon-10/publications/",
           "https://snu.elsevierpure.com/en/persons/y-moon-10/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
@@ -92804,10 +92806,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B3FB9BE84DB742",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T12:03:47Z",
+        "_saved_at": "2026-09-24T21:09:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-B3FB9BE84DB742"
     },
@@ -163739,7 +163740,7 @@
     },
     "SNU-RU-B413E0E1BB5A1F": {
       "fingerprint": "4bc00e338bf23a5c361cb46b8b4fea93a58f4d93cccaafac4b26b83642c72947",
-      "checked_at": "2026-09-24T01:04:31Z",
+      "checked_at": "2026-09-24T21:08:51Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -163838,7 +163839,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B413E0E1BB5A1F"
+      "_unit_id": "SNU-RU-B413E0E1BB5A1F",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AAE2D34AB08217": {
       "fingerprint": "b4038a6749aa5552595bdb5f2476a52efa219cf6621433a12d13c6ebe2a6cd47",
@@ -230241,8 +230243,8 @@
       "_unit_id": "SNU-RU-33C1E58160BA86"
     },
     "SNU-RU-B407FA57E1BDAC": {
-      "fingerprint": "a8ab841aec08bf1096062c5f53a5418fc69a87328242fc05eb21d738004bd6bb",
-      "checked_at": "2026-09-24T00:38:31Z",
+      "fingerprint": "54885cdda5249b5356c4555dd074fd5968c6b72ab63fa59023500a3782ab8df0",
+      "checked_at": "2026-09-24T21:08:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -230258,6 +230260,11 @@
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "서울대학교 의류소재 연구실",
+            "url": "https://textileecology.snu.ac.kr/index.php?hCode=PAPER_LIST&publication_name=dome_paper",
             "kind": "publication"
           }
         ],
@@ -230291,21 +230298,21 @@
             "alt": "서울대학교 의류학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%eb%b0%95%ec%a3%bc%ec%97%b0/"
+            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%ec%9d%b4%ec%88%98%ed%98%84/"
           },
           {
             "url": "https://clothing.snu.ac.kr/wp-content/uploads/sites/43/2023/12/추호정2021_수정.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://clothing.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
+            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%EC%B6%94%ED%98%B8%EC%A0%95/#none"
           },
           {
             "url": "https://clothing.snu.ac.kr/wp-content/uploads/sites/43/elementor/thumbs/logo_footer01-p40a2wvkrub7rgxspitojrzue56xwlid2cud6wyeri.png",
             "alt": "logo_footer01.png",
             "title": "logo_footer01.png",
             "score": 0,
-            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%eb%b0%95%ec%a3%bc%ec%97%b0/"
+            "parent_source_url": "https://clothing.snu.ac.kr/snu__professor/%ec%9d%b4%ec%88%98%ed%98%84/"
           },
           {
             "url": "https://clothing.snu.ac.kr/wp-content/uploads/sites/43/2020/12/icon_shortcut01-1-1.png",
@@ -230350,14 +230357,15 @@
           "https://clothing.snu.ac.kr/snu__professor/%EC%B6%94%ED%98%B8%EC%A0%95/#footer",
           "https://admission.snu.ac.kr/",
           "https://clothing.snu.ac.kr/snu__professor/%EC%B6%94%ED%98%B8%EC%A0%95/#none",
-          "https://clothing.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://clothing.snu.ac.kr/snu__professor/%ea%b9%80%ec%84%b1%eb%af%bc/",
           "https://clothing.snu.ac.kr/snu__professor/%ea%b9%80%ec%a3%bc%ec%97%b0/",
-          "https://clothing.snu.ac.kr/snu__professor/%eb%b0%95%ec%a3%bc%ec%97%b0/"
+          "https://clothing.snu.ac.kr/snu__professor/%eb%b0%95%ec%a3%bc%ec%97%b0/",
+          "https://clothing.snu.ac.kr/snu__professor/%ec%9d%b4%ec%88%98%ed%98%84/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B407FA57E1BDAC"
+      "_unit_id": "SNU-RU-B407FA57E1BDAC",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-02CBF0C7544CFA": {
       "fingerprint": "d57a70b80d77ce344a4d3067cf3c9f2c096f0e98d697f5cf32faeb0ba3049513",
@@ -242460,6 +242468,110 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-B38027DB0370F9",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-B3CEDEFFB50A36": {
+      "fingerprint": "bb9d593619fd6b8cb42b77e6ce6b83fffe854fbcbe77b0323b93be3e6dde79ff",
+      "checked_at": "2026-09-24T21:08:45Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] [채용] 서울대학교 공과대학 2026학년도 제2차 교수 채용 공고",
+            "url": "https://nucleng.snu.ac.kr/community/notice?md=v&bbsidx=24019",
+            "kind": "recruitment"
+          },
+          {
+            "title": "· 학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-h3.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/_skin/kor/images/site/logo-m.png",
+            "alt": "서울대학교 공과대학 원자핵공학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/3e9z23cz1a6z7c2z2f7z86dz4d2z5aez81bzc54z22.jpg",
+            "alt": "김기현 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/1c1z801z0e0z84bzfedzb06zf86zbc5z8d7zcddz28.jpg",
+            "alt": "김은희 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/841z849z785z3c4za22za52z06ezbf8zd6ez833ze3.jpg",
+            "alt": "김응수 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/dd0zed0z9c2zd7dzc02z690z571zd68z021z820za1.jpg",
+            "alt": "나용수 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5fez5c4z101zd86z666z4a8z842z728z30cz296z92.jpg",
+            "alt": "박설혜 부교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171"
+          },
+          {
+            "url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5f3zec3z3f8z33dz303zf5cz33cz07fz558z8f3zfa.jpg",
+            "alt": "박종규 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://nucleng.snu.ac.kr/about/people/faculty"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr",
+          "https://nucleng.snu.ac.kr/about/people/researcher",
+          "https://nucleng.snu.ac.kr/about/people/emeritus",
+          "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-B3CEDEFFB50A36",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -242561,11 +242673,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:08:30Z",
-    "checked": 55,
-    "seconds": 549.66,
+    "at": "2026-09-24T21:09:16Z",
+    "checked": 60,
+    "seconds": 595.69,
     "gemini": true,
-    "ai_requests": 20,
+    "ai_requests": 21,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
