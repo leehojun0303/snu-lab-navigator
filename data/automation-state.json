@@ -1,5 +1,5 @@
 {
-  "cursor": 2175,
+  "cursor": 2180,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -19661,7 +19661,7 @@
     },
     "SNU-RU-D93A484B34DA6C": {
       "fingerprint": "fa5096568968d56d7e5c57f481e975a9e27422df5430cab467a6f587aebabcc5",
-      "checked_at": "2026-09-24T00:57:31Z",
+      "checked_at": "2026-09-24T22:12:50Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -19760,7 +19760,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D93A484B34DA6C"
+      "_unit_id": "SNU-RU-D93A484B34DA6C",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6C2B92D4090820": {
       "fingerprint": "9c4dfaccf157f15d9c78b90a35a9014c16b1deca81d10d294e8c3985afe1b535",
@@ -142783,43 +142784,11 @@
       "_unit_id": "SNU-RU-58BF740C2ABFED"
     },
     "SNU-RU-D93105796E8871": {
-      "fingerprint": "a2ed0a068d5e551b352a78da9707ce4c05ddc18e362a5cb8a1ebb500c62dd51a",
-      "checked_at": "2026-09-24T01:23:36Z",
+      "fingerprint": "b560a5de8c7b05658cbd18842b7a94bf8da8d2a16a0e76ca5004b60093bd9a7a",
+      "checked_at": "2026-09-24T22:12:48Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-            "kind": "recruitment"
-          },
-          {
-            "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
-            "kind": "recruitment"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
@@ -142882,7 +142851,7 @@
         ],
         "sourcePagesScanned": [
           "https://engedu.snu.ac.kr/mastart/mastart.php",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://engedu.snu.ac.kr/mastart/mastart.php",
           "https://engedu.snu.ac.kr/sp_sitemap/sitemap.php",
           "https://engedu.snu.ac.kr/eng/mastart/mastart.php",
@@ -142894,7 +142863,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D93105796E8871"
+      "_unit_id": "SNU-RU-D93105796E8871",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-E412C0F8C1967F": {
       "fingerprint": "9b426ff54a3e94977f610e446090473dba7148d3e73c9d80dbfff0906a7602ea",
@@ -201450,7 +201420,7 @@
     },
     "SNU-RU-D922E55B0F63D3": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
-      "checked_at": "2026-09-24T01:25:24Z",
+      "checked_at": "2026-09-24T22:12:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -201575,7 +201545,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D922E55B0F63D3"
+      "_unit_id": "SNU-RU-D922E55B0F63D3",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6C1226F9114028": {
       "fingerprint": "bcab4a82d6ec8864e5a731f019e031ada2c9547324698cca93b1e1f57959bc45",
@@ -217380,8 +217351,8 @@
       "_unit_id": "SNU-RU-41714F88478061"
     },
     "SNU-RU-D93FB833A9E0A3": {
-      "fingerprint": "42ea4924a5165b0aac8df7e89f1f2e0d31a650da1e47fa9807d123655c390d61",
-      "checked_at": "2026-09-24T01:43:12Z",
+      "fingerprint": "ca4e357e40151b33dcaedb38e9fbeba38201f9a58af15f01dc5e395ae9ccb624",
+      "checked_at": "2026-09-24T22:13:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -217389,16 +217360,21 @@
             "url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -217406,19 +217382,12 @@
         ]
       },
       "enrichment": {
-        "research_summary": "의료정보학 분야를 중심으로 임상 의사결정 지원 시스템, 의료 데이터 표준화 및 분석, 디지털 헬스케어 연구를 수행하고 있습니다.",
+        "research_summary": "최진욱 교수는 의료정보학 분야를 중심으로 연구를 수행하고 있으며, 서울대학교 의과대학 의공학교실 소속으로 활동하고 있습니다.",
         "research_topics": [
-          "의료정보학",
-          "임상 의사결정 지원 시스템",
-          "의료 데이터 표준화",
-          "디지털 헬스케어"
+          "의료정보학"
         ],
         "recommendation_keywords": [
-          "의료정보학",
-          "디지털 헬스케어",
-          "의료 데이터",
-          "임상 의사결정 지원 시스템",
-          "의료 데이터 표준화"
+          "의료정보학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -217430,48 +217399,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 121 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "Jinwook Choi",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962964/934_Choi_+Jinwook.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/",
-          "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D93FB833A9E0A3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:42:52Z",
+        "_saved_at": "2026-09-24T22:13:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-D93FB833A9E0A3"
     },
@@ -258966,6 +258939,136 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-D8E3A42AC22A0B",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-D91BD1B1BF5D07": {
+      "fingerprint": "4d3e3c04438e0b5b51bcaca43c4f50dc12a3c491493eec60587f46776c2f17a8",
+      "checked_at": "2026-09-24T22:12:47Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구논문",
+            "url": "https://biosci.snu.ac.kr/research/publications/selected",
+            "kind": "publication"
+          },
+          {
+            "title": "중앙도서관 <해외 학술지 논문 투고 지원 서비스> 안내",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=20952",
+            "kind": "publication"
+          },
+          {
+            "title": "논문/졸업",
+            "url": "https://biosci.snu.ac.kr#noticetab_32",
+            "kind": "publication"
+          },
+          {
+            "title": "★★★2026-2학기 대학원 논문심사 및 학위논문 제출 시행 계획 안내(10.7.~)/2026-2학기 졸업예정자 필수 신청",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=25545",
+            "kind": "publication"
+          },
+          {
+            "title": "Bentham Science Publishers 저널 오픈액세스 논문게재료 면제 안내",
+            "url": "https://biosci.snu.ac.kr/board/notice?bm=v&bbsidx=25335",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "교수채용",
+            "url": "https://biosci.snu.ac.kr/board/faculty-recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학안내",
+            "url": "https://biosci.snu.ac.kr/admissions/undergraduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://biosci.snu.ac.kr/admissions/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "편입학",
+            "url": "https://biosci.snu.ac.kr/admissions/transfer",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://biosci.snu.ac.kr/people/faculty",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/snulogo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark.png",
+            "alt": "BIOSCI",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/webdata/upimages/d43z218zed5zf6ezca4z24bz469zfd1z7a9z809z97.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/board/news?bm=v&bbsidx=24826&page=1"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/bio-logo-dark-footer.png",
+            "alt": "BIOSCI",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-crs.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-bk.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/f-cmci.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr/admissions/undergraduate"
+          },
+          {
+            "url": "https://biosci.snu.ac.kr/_skin/kor/images/biosci/s01-04.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://biosci.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://biosci.snu.ac.kr/board/news?bm=v&bbsidx=24826&page=1",
+          "https://biosci.snu.ac.kr",
+          "https://biosci.snu.ac.kr/people/faculty",
+          "https://biosci.snu.ac.kr/people/adjunct-professor",
+          "https://biosci.snu.ac.kr/peopley/emeriti-faculty",
+          "https://biosci.snu.ac.kr/peopley/previous-faculty",
+          "https://biosci.snu.ac.kr/people/lecture-professor",
+          "https://biosci.snu.ac.kr/board/faculty-recruitment",
+          "https://biosci.snu.ac.kr/about/alumni",
+          "https://biosci.snu.ac.kr/admissions/undergraduate"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-D91BD1B1BF5D07",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -259079,11 +259182,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T22:12:34Z",
-    "checked": 425,
-    "seconds": 4393.31,
+    "at": "2026-09-24T22:13:22Z",
+    "checked": 430,
+    "seconds": 4441.6,
     "gemini": true,
-    "ai_requests": 182,
+    "ai_requests": 183,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
