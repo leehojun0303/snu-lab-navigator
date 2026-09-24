@@ -1,5 +1,5 @@
 {
-  "cursor": 1965,
+  "cursor": 1970,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -46815,8 +46815,8 @@
       "_unit_id": "SNU-RU-FAADB9E62E7DB1"
     },
     "SNU-RU-C6E20230174E2F": {
-      "fingerprint": "83d73a0c37dbecc7069fc6a6af3df830d5144cbb8e858124059ace282de5c6c4",
-      "checked_at": "2026-09-24T00:52:11Z",
+      "fingerprint": "ec4a15b1de9105dc74b967759c75cb4f1151674c1e474e1dbed746e828be452c",
+      "checked_at": "2026-09-24T21:35:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -46931,7 +46931,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C6E20230174E2F"
+      "_unit_id": "SNU-RU-C6E20230174E2F",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-978C85FB712624": {
       "fingerprint": "ab951107c38619a94489015f5843cf8656ea207ef35efe22888ff385e206e508",
@@ -131706,7 +131707,7 @@
     },
     "SNU-RU-C6B46A1AEDA446": {
       "fingerprint": "f2115dd4284a553a832579602c5e9d17eed84068ba32a946b6772da69e2958f6",
-      "checked_at": "2026-09-24T00:56:01Z",
+      "checked_at": "2026-09-24T21:35:21Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -131805,7 +131806,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-C6B46A1AEDA446"
+      "_unit_id": "SNU-RU-C6B46A1AEDA446",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AB7DD9C1D9A0D0": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -225037,24 +225039,119 @@
       "_unit_id": "SNU-RU-2ACF6A8E561E4B"
     },
     "SNU-RU-C6DDF1490A7F14": {
-      "fingerprint": "1f98f03c9c76a1d441de37427ab00b7f158cd27b61d8bd6d84f85e0845d0f9c4",
-      "checked_at": "2026-09-23T23:43:31Z",
+      "fingerprint": "8724f5581295807fb6207c07a4b2a63cc50f0cfa8daf9bcfdb6be1b0d1c7ddf8",
+      "checked_at": "2026-09-24T21:35:29Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/",
+            "kind": "publication"
+          },
+          {
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부생연구지원",
+            "url": "https://dentsci.snu.ac.kr/research/undergrad/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2021학년도 2학기 시흥캠퍼스주택 대학원생 입주자 모집 안내",
+            "url": "https://dentsci.snu.ac.kr/3672/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "제24회 서울대-홋카이도대 공동 심포지엄 온라인 학술교류 분과세션 개최지원사업 안내",
+            "url": "https://dentsci.snu.ac.kr/3769/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_facebook.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_twitter.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_kakao.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_blog.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_facebook.png",
+            "alt": "페이스북",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_twitter.png",
+            "alt": "트위터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_youtube.png",
+            "alt": "유튜브",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/footer_logo.png",
+            "alt": "서울대학교 치의학대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://dentsci.snu.ac.kr/"
         ]
       },
       "enrichment": {
@@ -225109,7 +225206,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-C6DDF1490A7F14"
+      "_unit_id": "SNU-RU-C6DDF1490A7F14",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-353F04AFCA8EA8": {
       "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
@@ -250337,6 +250435,239 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-C5E7929ED353C8",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-C65998D19EFB52": {
+      "fingerprint": "29cf0d83b5dff76aedee2daa55079e868bccc961d2a5b69dbed3d038d696f3b2",
+      "checked_at": "2026-09-24T21:35:20Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학위논문 제본 및 인쇄요령",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646"
+          },
+          {
+            "title": "논문심사 일정 및 계획",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          },
+          {
+            "title": "세미나 지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar"
+          },
+          {
+            "title": "입학 및 졸업 관련양식",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
+          }
+        ],
+        "membersUrl": "https://chem.snu.ac.kr/alumni/about",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://chem.snu.ac.kr",
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/research-faculty/support-seminar",
+          "https://chem.snu.ac.kr/alumni/about",
+          "https://chem.snu.ac.kr/alumni/notice",
+          "https://chem.snu.ac.kr/about/student",
+          "https://chem.snu.ac.kr/research-faculty/faculty/emeriti",
+          "https://chem.snu.ac.kr/research-faculty/convenience",
+          "https://chem.snu.ac.kr/academics/archive/admission"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "학위논문 제본 및 인쇄요령",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646"
+          },
+          {
+            "title": "논문심사 일정 및 계획",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645"
+          }
+        ],
+        "recruitment_summary": "서울대학교 화학부에서는 실험지원시설 및 세미나 지원시설을 운영하며, 입학 및 졸업 관련 양식을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          },
+          {
+            "title": "세미나 지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar"
+          },
+          {
+            "title": "입학 및 졸업 관련양식",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
+          }
+        ],
+        "recruitment_source_url": "https://chem.snu.ac.kr/academics/archive/admission",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://chem.snu.ac.kr/alumni/about",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/research-faculty/support-seminar",
+          "https://chem.snu.ac.kr/academics/archive/admission",
+          "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646",
+          "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645",
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://chem.snu.ac.kr",
+          "https://chem.snu.ac.kr/alumni/about",
+          "https://chem.snu.ac.kr/alumni/notice",
+          "https://chem.snu.ac.kr/about/student",
+          "https://chem.snu.ac.kr/research-faculty/faculty/emeriti",
+          "https://chem.snu.ac.kr/research-faculty/convenience"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C65998D19EFB52",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:35:24Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-C65998D19EFB52"
+    },
+    "SNU-RU-C6CBB0A9CCBC47": {
+      "fingerprint": "29f9de93beda31fe51d43428fddbe003163cabd57585e6b169fe0bbf592e8b3a",
+      "checked_at": "2026-09-24T21:35:32Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "학과지원시설",
+            "url": "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%a7%80%ec%9b%90%ec%8b%9c%ec%84%a4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학과지원시설",
+            "url": "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%a7%80%ec%9b%90%ec%8b%9c%ec%84%a4/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://communication.snu.ac.kr/people/current-professors/#container",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2021/09/comm-main-logo-e1630571796989.png",
+            "alt": "서울대학교 사회과학대학 언론정보학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%97%b0%ed%98%81/"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2020/11/강재호.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2020/11/김수아.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2025/11/김은미-교수.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2020/11/Photo-Hyun-Suk-Kim-768x1024.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2022/02/신수연.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2022/08/yang-cha-mee.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          },
+          {
+            "url": "https://communication.snu.ac.kr/wp-content/uploads/sites/7/2020/11/윤석민.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://communication.snu.ac.kr/people/current-professors/#none"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://communication.snu.ac.kr/people/current-professors/",
+          "https://communication.snu.ac.kr",
+          "https://communication.snu.ac.kr/people/current-professors/#container",
+          "https://communication.snu.ac.kr/people/current-professors/#footer",
+          "https://communication.snu.ac.kr/people/current-professors/#none",
+          "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%a7%80%ec%9b%90%ec%8b%9c%ec%84%a4/",
+          "https://communication.snu.ac.kr/people/emeriti/",
+          "https://admission.snu.ac.kr/",
+          "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://communication.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%95%88%eb%82%b4/%ed%95%99%ea%b3%bc%ec%97%b0%ed%98%81/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-C6CBB0A9CCBC47",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -250446,11 +250777,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:35:06Z",
-    "checked": 215,
-    "seconds": 2145.18,
+    "at": "2026-09-24T21:36:06Z",
+    "checked": 220,
+    "seconds": 2205.64,
     "gemini": true,
-    "ai_requests": 84,
+    "ai_requests": 85,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
