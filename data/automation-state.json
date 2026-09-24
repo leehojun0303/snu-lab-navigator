@@ -1,5 +1,5 @@
 {
-  "cursor": 1215,
+  "cursor": 1220,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -9377,8 +9377,8 @@
       "_unit_id": "SNU-RU-52BBD8E5535010"
     },
     "SNU-RU-67CECC4F398C1A": {
-      "fingerprint": "7197b26f64707bdb690f242295c8eebd2f51499015bcecdc3a5cfb3fdfea812c",
-      "checked_at": "2026-09-11T01:55:00Z",
+      "fingerprint": "d61c67a1b253b99b9a7c520a148618b3f94a1611e788df98c89ae4bc9813fc06",
+      "checked_at": "2026-09-24T01:09:43Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -9386,15 +9386,15 @@
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://www.math.snu.ac.kr",
-          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Alumni",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1101",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1099",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1098",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1097",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2007"
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=adjunct",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus"
         ]
       },
       "enrichment": {
@@ -9437,7 +9437,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-11T01:55:31Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1"
+        "_quality_gate": "ai_verified_v1",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-67CECC4F398C1A"
     },
@@ -12451,23 +12452,103 @@
       "_unit_id": "SNU-RU-587FBD1235327B"
     },
     "SNU-RU-3DB68BA908E796": {
-      "fingerprint": "c3966b172e1127a2e0c265fdc5dff90ad858808767843a3f4f58e3af236b75a3",
-      "checked_at": "2026-09-14T01:04:52Z",
+      "fingerprint": "d18fa17627b00d6ddf2e410f90d5878d96aa74d936a180c5e761f067b45200f3",
+      "checked_at": "2026-09-24T01:09:39Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
-        "posterCandidates": [],
+        "recruitmentPages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
+            "kind": "recruitment"
+          },
+          {
+            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
+            "kind": "recruitment"
+          },
+          {
+            "title": "21 2026.09 취업 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11) 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11)우리는...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1147",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://www.math.snu.ac.kr/thema/Rim/logo-top.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/thema/Rim/logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/gLRh05OeZPw/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/7bkto007GbQ/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/boQoASmw3dc/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/E0QzSTlvjMo/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/RWfa4oO-zpc/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/PqzXUtye7TY/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/site/jungsookangshome",
+          "https://www.math.snu.ac.kr",
           "https://sites.google.com/site/jungsookangshome/home",
           "https://sites.google.com/site/jungsookangshome#h.p_ID_47",
           "https://sites.google.com/site/jungsookangshome#h.p_dGQTrhwu0biw",
           "https://sites.google.com/site/jungsookangshome#h.p_jY3fiVcs0ab7",
-          "https://sites.google.com/site/jungsookangshome/home#h.p_ID_47",
-          "https://sites.google.com/site/jungsookangshome/home#h.p_dGQTrhwu0biw",
-          "https://sites.google.com/site/jungsookangshome/home#h.p_jY3fiVcs0ab7"
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
         ]
       },
       "enrichment": {},
@@ -24143,33 +24224,13 @@
       "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-9624AA7778DE82": {
-      "fingerprint": "4ff78157998ddd896fc52d2878c70f2f9c0dcffa58d4c171f43d9ae49dc96dd4",
-      "checked_at": "2026-09-14T01:05:12Z",
+      "fingerprint": "ca8b1ed17f3fdcbb9f2af946cfda6463a86c1ba429f28eb9936da1cd8eb95548",
+      "checked_at": "2026-09-24T01:09:45Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
             "url": "https://www.math.snu.ac.kr/~woongkook/Publications_simple.pdf",
-            "kind": "publication"
-          },
-          {
-            "title": "04 2026.09 대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14... 2026-2학기 (공동)논문지도교수 선정 및 변경신청 안내입니다...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100",
-            "kind": "publication"
-          },
-          {
-            "title": "04 2026.09 대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14... 2026-2학기 (공동)논문지도교수 선정 및 변경신청 안내입니다...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14(월)까지)",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100&year=2026&month=9&day=14",
-            "kind": "publication"
-          },
-          {
-            "title": "기타 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1099&year=2026&month=9&day=14",
             "kind": "publication"
           }
         ],
@@ -24180,22 +24241,22 @@
             "kind": "recruitment"
           },
           {
-            "title": "11 2026.09 기타 2027학년도 사범대학 대학원 전기모집 입학고사(전공필답고사)에... 2027학년도 사범대학 대학원 전기모집 전공필답고사 시행에 따른...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1102",
+            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
             "kind": "recruitment"
           },
           {
-            "title": "14 2026.09 취업 [삼성SDS] '26년 하반기 신입채용 안내 IT 서비스 분야를 리딩하는 삼성SDS에서아래와 같이 '26년 ...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1104",
+            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
             "kind": "recruitment"
           },
           {
-            "title": "교수초빙",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "title": "21 2026.09 취업 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11) 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11)우리는...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1147",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1103",
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -24262,10 +24323,10 @@
           "https://www.math.snu.ac.kr/~woongkook/Publications_simple.pdf",
           "https://www.math.snu.ac.kr/~woongkook/CVKook202109.pdf",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1103",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1102",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006"
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards"
         ]
       },
       "enrichment": {},
@@ -27120,8 +27181,8 @@
       "_unit_id": "SNU-RU-38CCFE87F0D4C4"
     },
     "SNU-RU-EA465624F07F61": {
-      "fingerprint": "c466101905420b24dce2e4470cee0bf2da2de51f65ab6841181e713099abf2c9",
-      "checked_at": "2026-09-14T01:04:51Z",
+      "fingerprint": "6f6f89298cf20d315c5df0e804dbba319669faee99ccbfbf209cf6bf173c44a8",
+      "checked_at": "2026-09-24T01:09:40Z",
       "activity": {
         "publicationPages": [
           {
@@ -27138,21 +27199,110 @@
             "title": "PUBLICATION",
             "url": "https://sites.google.com/site/jaehoonkw/home/publication",
             "kind": "publication"
+          },
+          {
+            "title": "Publications",
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
-        "posterCandidates": [],
+        "recruitmentPages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "kind": "recruitment"
+          },
+          {
+            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
+            "kind": "recruitment"
+          },
+          {
+            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
+            "kind": "recruitment"
+          },
+          {
+            "title": "21 2026.09 취업 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11) 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11)우리는...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1147",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://www.math.snu.ac.kr/thema/Rim/logo-top.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://www.math.snu.ac.kr/thema/Rim/logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/gLRh05OeZPw/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/7bkto007GbQ/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/boQoASmw3dc/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/E0QzSTlvjMo/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/RWfa4oO-zpc/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          },
+          {
+            "url": "https://img.youtube.com/vi/PqzXUtye7TY/hqdefault.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://www.math.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://sites.google.com/site/jaehoonkw/home",
+          "https://www.math.snu.ac.kr",
           "https://sites.google.com/site/jaehoonkw/home/publication",
-          "https://sites.google.com/site/jaehoonkw/home/cv"
+          "https://sites.google.com/site/jaehoonkw/home/cv",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-EA465624F07F61",
-      "verify_error": "gemini_rate_limited"
+      "_unit_id": "SNU-RU-EA465624F07F61"
     },
     "SNU-RU-DFEE547823EEE2": {
       "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
@@ -33413,36 +33563,10 @@
       "_unit_id": "SNU-RU-31C11151A69261"
     },
     "SNU-RU-DE0C074C37795F": {
-      "fingerprint": "958242b0abb6c2dfb54c9ec2f1810139095f9e0a42e35b1efc549c0b45efc8cc",
-      "checked_at": "2026-09-14T01:05:00Z",
+      "fingerprint": "9d4ec11a71215dc7d09665efdd95a57d8d2ffd54c17eaa68e44b6b2814057dc1",
+      "checked_at": "2026-09-24T01:09:40Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "04 2026.09 대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14... 2026-2학기 (공동)논문지도교수 선정 및 변경신청 안내입니다...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14(월)까지)",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100&year=2026&month=9&day=14",
-            "kind": "publication"
-          },
-          {
-            "title": "기타 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1099&year=2026&month=9&day=14",
-            "kind": "publication"
-          },
-          {
-            "title": "대학원 2026-2학기 (공동)논문지도교수 선정/변경신청 안내(9/14(월)까지)",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100&year=2026&month=9&day=14",
-            "kind": "publication"
-          },
-          {
-            "title": "기타 논문유사도 검색프로그램 \"Copykiller\" 및 \"Turnitin\" 활용법 교육 안내",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1099&year=2026&month=9&day=14",
-            "kind": "publication"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "교수초빙",
@@ -33450,22 +33574,22 @@
             "kind": "recruitment"
           },
           {
-            "title": "11 2026.09 기타 2027학년도 사범대학 대학원 전기모집 입학고사(전공필답고사)에... 2027학년도 사범대학 대학원 전기모집 전공필답고사 시행에 따른...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1102",
+            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
             "kind": "recruitment"
           },
           {
-            "title": "14 2026.09 취업 [삼성SDS] '26년 하반기 신입채용 안내 IT 서비스 분야를 리딩하는 삼성SDS에서아래와 같이 '26년 ...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1104",
+            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
             "kind": "recruitment"
           },
           {
-            "title": "교수초빙",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+            "title": "21 2026.09 취업 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11) 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11)우리는...",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1147",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1103",
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -33527,15 +33651,15 @@
         ],
         "sourcePagesScanned": [
           "https://sites.google.com/view/kihyunkim",
+          "https://www.math.snu.ac.kr",
           "https://www.math.snu.ac.kr/",
           "https://sites.google.com/view/kihyunkim/home",
           "https://sites.google.com/view/soonsikkwon/%ED%99%88",
           "https://sites.google.com/view/kihyunkim#h.p_Vl3yv2MFzuP1",
           "https://sites.google.com/view/kihyunkim#h.p_2NC7y7E9JxfM",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1103",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1102",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1100"
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001"
         ]
       },
       "enrichment": {},
@@ -242066,10 +242190,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-24T00:19:18Z"
     },
-    "SNU-RU-67CECC4F398C1A": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-14T01:04:51Z"
-    },
     "SNU-RU-C8EC1877AEE4F8": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-14T01:05:27Z"
@@ -242220,9 +242340,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T01:09:30Z",
-    "checked": 1635,
-    "seconds": 7258.04,
+    "at": "2026-09-24T01:09:45Z",
+    "checked": 1640,
+    "seconds": 7272.6,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
