@@ -1,5 +1,5 @@
 {
-  "cursor": 2185,
+  "cursor": 2190,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -94792,7 +94792,7 @@
     },
     "SNU-RU-DA90EF80B23609": {
       "fingerprint": "707836392d46a27e2fe2eb7df03a1a349458d780a2215449b00470ab9e3d3c31",
-      "checked_at": "2026-09-24T00:17:05Z",
+      "checked_at": "2026-09-24T22:14:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -197633,8 +197633,8 @@
       "_unit_id": "SNU-RU-7B795934ADFDF1"
     },
     "SNU-RU-DA8C14EB3786E1": {
-      "fingerprint": "60cd25ab574d5ff3b2247953ab5257d6a4ab64239ff9f66496e517a564257eec",
-      "checked_at": "2026-09-24T00:53:46Z",
+      "fingerprint": "c6714988d74fd38b0d3d838923688f9fa373639a31409243a78446dec5a75b20",
+      "checked_at": "2026-09-24T22:14:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -197749,7 +197749,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-DA8C14EB3786E1"
+      "_unit_id": "SNU-RU-DA8C14EB3786E1",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-7FCCF6C552AEC2": {
       "fingerprint": "2a0676d1943d0f55191d5b268321e5c0aed6fbcb1e79b313f92732e9d40d1e35",
@@ -220672,18 +220673,118 @@
       "_unit_id": "SNU-RU-5FBFA440A09139"
     },
     "SNU-RU-DAAE7B16CC512A": {
-      "fingerprint": "c53fc882a9e2b28d607e6a8280284d0359a45f7e43a2d7f06f1d0cec3b05d912",
-      "checked_at": "2026-09-23T23:50:27Z",
+      "fingerprint": "1fffce9e1b7f37bed55ac42f5ced6f5970dbc8384dad5030efbacc0559271531",
+      "checked_at": "2026-09-24T22:14:40Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Publication Search",
-            "url": "https://cba.snu.ac.kr/research/publications/search"
+            "title": "Publications",
+            "url": "https://cba.snu.ac.kr/research/publications/search",
+            "kind": "publication"
+          },
+          {
+            "title": "Journal Articles",
+            "url": "https://cba.snu.ac.kr/research/publications/journal-articles",
+            "kind": "publication"
+          },
+          {
+            "title": "Books",
+            "url": "https://cba.snu.ac.kr/research/publications/books",
+            "kind": "publication"
+          },
+          {
+            "title": "Book Chapters",
+            "url": "https://cba.snu.ac.kr/research/publications/book-chapters",
+            "kind": "publication"
+          },
+          {
+            "title": "Thesis/Dissertation",
+            "url": "https://cba.snu.ac.kr/research/publications/dissertation",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://cba.snu.ac.kr/research/faculty/professor",
+        "recruitmentPages": [
+          {
+            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집",
+            "url": "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=26464",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학부",
+            "url": "https://admission.snu.ac.kr",
+            "kind": "recruitment"
+          },
+          {
+            "title": "일반대학원",
+            "url": "https://cba.snu.ac.kr/admission/graduate",
+            "kind": "recruitment"
+          },
+          {
+            "title": "경영자과정",
+            "url": "https://cba.snu.ac.kr/admission/MDC",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=26464",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://cba.snu.ac.kr/_skin/kor/images/site/tlogo@2.png?ver=2025-05-15",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr/research/publications/book-chapters"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/_skin/kor/images/site/logo-side.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr/research/publications/book-chapters"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/a12z6f6z7edzb51z90fzb91z593zb96zeb2zeb8ze0.jpeg",
+            "alt": "삼일 PwC 대표 윤훈수가 말하는 38년의 커리어와 미래",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/c22z37az0dazb52ze5dzb8dz205z2f3zd77zbd3zae.png",
+            "alt": "투자연구회 SMIC 동문 인터뷰",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/4ecz257z152z1f9z862z5edz33fz491z53ez1c8zbf.jpeg",
+            "alt": "경영전문대학원 20주년 기념 산업학술포럼 (봄) 개최",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/4e3z5f7z4fcz955zb28zb7az3dfzdd5z295z195z9b.jpeg",
+            "alt": "이루리랩스 김대유 대표와의 만남",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/d86zf65z848zd3fz01ez03ez33fzd73ze26za5az36.png",
+            "alt": "2026년 명예교수 간담회",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          },
+          {
+            "url": "https://cba.snu.ac.kr/webdata/homenews/ko/c35z91czfc8z091z805zdaezf70z942z58ez6d7z1d.png",
+            "alt": "2026 EMBA 패밀리 데이(Family Day) 성황리 개최",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cba.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://cba.snu.ac.kr",
           "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=26464",
@@ -220777,7 +220878,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-DAAE7B16CC512A"
+      "_unit_id": "SNU-RU-DAAE7B16CC512A",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-10C81698697F17": {
       "fingerprint": "bebc599a60f6e9c99ce3e586c857d0eb19806dfd5ea926bd9250efa7e8144a07",
@@ -235176,127 +235278,133 @@
       "_unit_id": "SNU-RU-2A0366EBCF2547"
     },
     "SNU-RU-DAAF75D8C354C3": {
-      "fingerprint": "f7e9a38a91f6bb90135214c14823dcfa3d56ede9bc297c5777cbd4639dca44db",
-      "checked_at": "2026-09-24T00:41:09Z",
+      "fingerprint": "0f70b98b795f56bc383f6de2819318a5387c083a73b69515238ac82e852b49d0",
+      "checked_at": "2026-09-24T22:14:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
-            "kind": "publication"
+            "url": "https://vet.snu.ac.kr/33661/"
           },
           {
             "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "수의학이란?",
-            "url": "https://vet.snu.ac.kr/admissions1/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions1/"
           },
           {
             "title": "배우는것",
-            "url": "https://vet.snu.ac.kr/admissions2/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions2/"
           },
           {
             "title": "수의사의 활동",
-            "url": "https://vet.snu.ac.kr/admissions3/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions3/"
           }
         ],
-        "membersUrl": "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
-            "alt": "서울대학교 수의과대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/04/icon_AVMA_COE_Acc5550.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
-          }
-        ],
+        "membersUrl": "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/",
           "https://vet.snu.ac.kr",
-          "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
-          "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#container",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#footer",
           "https://admission.snu.ac.kr/",
-          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#none",
           "https://vet.snu.ac.kr/faculty/",
           "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty4/",
           "https://vet.snu.ac.kr/faculty5/",
-          "https://vet.snu.ac.kr/faculty6/"
+          "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "수의내과학"
+        ],
+        "recommendation_keywords": [
+          "수의내과학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
+            "url": "https://vet.snu.ac.kr/33661/"
+          },
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/",
+        "poster_status": "verified",
+        "poster_title": "유민옥 조교수",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/yoominok.jpg",
+        "poster_source_url": "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/",
+        "poster_evidence": "공식 교수진 페이지 내 프로필 사진 및 정보 확인",
+        "source_urls_used": [
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#container",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9C%A0%EB%AF%BC%EC%98%A5-2/#none",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty2/",
+          "https://vet.snu.ac.kr/faculty5/",
+          "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/",
+          "https://vet.snu.ac.kr/33661/",
+          "http://libguide.snu.ac.kr/vetlib/ejournal"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-DAAF75D8C354C3",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:15:17Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-DAAF75D8C354C3"
     },
     "SNU-RU-CA51071CC93E75": {
@@ -236870,132 +236978,80 @@
       "_unit_id": "SNU-RU-C78BDC5BA454C7"
     },
     "SNU-RU-DA4AE8D8998C31": {
-      "fingerprint": "bb2b2f8b5538f5461bd90dc570ac40e10bff2bca375410471d291fee173a4775",
-      "checked_at": "2026-09-24T00:49:21Z",
+      "fingerprint": "df235bef8119b41a046a05d7ca6cfc33cb1ad822147883a5a0914f04f68bde19",
+      "checked_at": "2026-09-24T22:14:47Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "BK Faculty",
-            "url": "https://mmbs.snu.ac.kr/BK21plus_Publication.php",
-            "kind": "publication"
-          },
-          {
-            "title": "2026-2학기 논문지도교수 선정, 공동논문지도교수 선정, 논문지도교수 변경 안내",
-            "url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=676",
-            "kind": "publication"
-          },
-          {
-            "title": "2026학년도 2학기 학위논문제출자격시험 안내",
-            "url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=675",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "2027학년도 전기 대학원 신입생 모집단위 변경 안내(지능정보융합학과 관련)",
-            "url": "https://convergence.snu.ac.kr/22511/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 융합과학기술대학원 헬스케어융합학과(계약학과) 신입생 후기모집 안내",
-            "url": "https://convergence.snu.ac.kr/21719/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연구지원",
-            "url": "https://convergence.snu.ac.kr/lab_support/",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://convergence.snu.ac.kr/22410/",
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2024/01/logo-2.png",
-            "alt": "서울대학교 서울대학교 융합과학기술대학원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://convergence.snu.ac.kr/math_info_intro/"
-          },
-          {
-            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/elementor/thumbs/그림1-qbba704b6tn1xmbd55fbobf60sl58g8hccuzsamgm0.png",
-            "alt": "그림1",
-            "title": "그림1",
-            "score": 0,
-            "parent_source_url": "https://convergence.snu.ac.kr"
-          },
-          {
-            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2026/09/09_14.png",
-            "alt": "BAD UX POPUP 95",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://convergence.snu.ac.kr"
-          },
-          {
-            "url": "https://convergence.snu.ac.kr/wp-content/uploads/sites/214/2023/08/logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://convergence.snu.ac.kr/math_info_intro/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-            "alt": "서울대포털",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-            "alt": "입학안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-            "alt": "학사일정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          }
-        ],
         "sourcePagesScanned": [
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/",
           "https://convergence.snu.ac.kr",
-          "https://convergence.snu.ac.kr/22410/",
           "https://convergence.snu.ac.kr/people_admin/",
-          "https://convergence.snu.ac.kr/22575/",
-          "https://convergence.snu.ac.kr/22511/",
-          "https://convergence.snu.ac.kr/21719/",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#container",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#footer",
           "https://admission.snu.ac.kr/",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#none",
           "https://convergence.snu.ac.kr/appl_bio_intro/",
-          "https://mmbs.snu.ac.kr/",
-          "https://convergence.snu.ac.kr/math_info_intro/"
+          "https://convergence.snu.ac.kr/intl_inf_intro/",
+          "https://mmbs.snu.ac.kr/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [
+          "분자의학",
+          "바이오제약"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/",
+          "https://mmbs.snu.ac.kr/",
+          "https://convergence.snu.ac.kr",
+          "https://convergence.snu.ac.kr/people_admin/",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#container",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://convergence.snu.ac.kr/snu__professor/%ED%99%8D%EA%B7%9C%EC%83%81-%EA%B5%90%EC%88%98-2/#none",
+          "https://convergence.snu.ac.kr/appl_bio_intro/",
+          "https://convergence.snu.ac.kr/intl_inf_intro/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-DA4AE8D8998C31",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:14:57Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-DA4AE8D8998C31"
     },
     "SNU-RU-31055703DC8497": {
@@ -259417,11 +259473,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T22:14:22Z",
-    "checked": 435,
-    "seconds": 4501.26,
+    "at": "2026-09-24T22:15:17Z",
+    "checked": 440,
+    "seconds": 4556.25,
     "gemini": true,
-    "ai_requests": 185,
+    "ai_requests": 187,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
