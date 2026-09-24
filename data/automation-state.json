@@ -1,5 +1,5 @@
 {
-  "cursor": 375,
+  "cursor": 380,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "c0c6a91ec4969028f8ad1f9f9b3c10766310107e8591bcaa8a51542d4c4d3568",
@@ -39543,8 +39543,8 @@
       "_unit_id": "SNU-RU-E28B8297214797"
     },
     "SNU-RU-B42FF2ADBA3688": {
-      "fingerprint": "92b48e473fe15499c38aa5d093183d97aeef7c3510ad06de578f40227c4ee7a6",
-      "checked_at": "2026-09-14T11:05:52Z",
+      "fingerprint": "3f1772a45af2acb82d36b33b2af433af234af8151dd51e06f6b5ebf8fb65d05f",
+      "checked_at": "2026-09-24T00:12:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -39578,6 +39578,7 @@
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%EB%9D%BD%EC%9A%B0/",
           "https://bio4u.snu.ac.kr",
           "https://cals.snu.ac.kr/student/freshman/mentoring",
           "https://cals.snu.ac.kr/student/freshman/program",
@@ -39585,8 +39586,7 @@
           "https://cals.snu.ac.kr/student/global/support",
           "https://cals.snu.ac.kr/about/organization/search/faculty",
           "https://cals.snu.ac.kr/about/organization/previous-faculty",
-          "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq"
+          "https://cals.snu.ac.kr/about/guide/admission"
         ]
       },
       "enrichment": {
@@ -39671,7 +39671,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:06:04Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-B42FF2ADBA3688"
     },
@@ -56086,8 +56087,8 @@
       "_unit_id": "SNU-RU-5582C4C64CA90F"
     },
     "SNU-RU-EA6B46FC7FFDF1": {
-      "fingerprint": "e65e691edbc6c0ca071ae095037bc9eff40ca540907d78b7fcaeb840dee85ebb",
-      "checked_at": "2026-09-14T11:05:55Z",
+      "fingerprint": "b79902e22fde858a5388be3609929a6ae8178a5821b4a4da0a2466d6240eaede",
+      "checked_at": "2026-09-24T00:12:08Z",
       "activity": {
         "publicationPages": [
           {
@@ -56106,9 +56107,9 @@
           "https://bpslab.snu.ac.kr/current-members/",
           "https://bpslab.snu.ac.kr/alumni/",
           "https://bpslab.snu.ac.kr/publications/",
-          "https://bpslab.snu.ac.kr/publication/co-delivery-of-retinol-and-catechin-encapsulated-in-o-w-nanoemulsion-and-cycloamylose-synergistically-improved-oxidative-stability-and-bioavaibility/",
           "https://bpslab.snu.ac.kr/publication/morphological-structural-and-physicochemical-properties-of-a-novel-starch-isolated-from-giant-cynanchum-discovered-in-south-korea/",
-          "https://bpslab.snu.ac.kr/publication/characterization-of-self-emulsifying-macadamia-nut-oil-fermented-by-epidermidibacterium-keratini-mutant-epi-7-i-originated-from-skin-flora-as-a-novel-cosmetic-ingredient/"
+          "https://bpslab.snu.ac.kr/publication/characterization-of-self-emulsifying-macadamia-nut-oil-fermented-by-epidermidibacterium-keratini-mutant-epi-7-i-originated-from-skin-flora-as-a-novel-cosmetic-ingredient/",
+          "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
@@ -56214,7 +56215,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:06:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-EA6B46FC7FFDF1"
     },
@@ -73951,8 +73953,8 @@
       "_unit_id": "SNU-RU-DB89482FCF15DF"
     },
     "SNU-RU-D005579CEA8BD8": {
-      "fingerprint": "30ac7c442fb8746ca0475380cae322d383c2d053ee82518421be0e08a068e7ce",
-      "checked_at": "2026-09-14T11:05:51Z",
+      "fingerprint": "b12bba8a9823b6265ef289c3030d8a3f85f1be039805832cc31614dc82297bc8",
+      "checked_at": "2026-09-24T00:12:03Z",
       "activity": {
         "publicationPages": [
           {
@@ -73983,6 +73985,11 @@
         ],
         "recruitmentPages": [
           {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
             "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
             "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
             "kind": "recruitment"
@@ -73995,11 +74002,6 @@
           {
             "title": "입학포털",
             "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 2학기 한국장학재단 학자금대출 안내[수료생(연구생)]",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12947",
             "kind": "recruitment"
           }
         ],
@@ -74065,6 +74067,7 @@
         ],
         "sourcePagesScanned": [
           "https://laba.snu.ac.kr/",
+          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%ED%98%95/",
           "https://bio4u.snu.ac.kr",
           "https://laba.snu.ac.kr/#members",
           "https://laba.snu.ac.kr/#publications",
@@ -74072,13 +74075,11 @@
           "https://laba.snu.ac.kr/#hero-fullscreen-laba",
           "https://laba.snu.ac.kr/#Projects",
           "https://laba.snu.ac.kr/#Courses",
-          "https://laba.snu.ac.kr/#hiddenContent",
-          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
+          "https://laba.snu.ac.kr/#hiddenContent"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-D005579CEA8BD8",
-      "verify_error": "verify_JSONDecodeError"
+      "_unit_id": "SNU-RU-D005579CEA8BD8"
     },
     "SNU-RU-0E8CF5216A68CB": {
       "fingerprint": "2426a71ef01b22af2feaf850d5afe23df954788681b74113c0a1fe991a8dbc58",
@@ -74184,8 +74185,8 @@
       "_unit_id": "SNU-RU-0E8CF5216A68CB"
     },
     "SNU-RU-6BC1321F617709": {
-      "fingerprint": "1f605b06448a88694015c590a3d799f812b4acba47695864828a401623d15bce",
-      "checked_at": "2026-09-14T11:05:58Z",
+      "fingerprint": "1dc18da6c6c53863c74bb35e9f6ec00a7c9f051d186b93fa766cb3acf4e80d63",
+      "checked_at": "2026-09-24T00:12:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -74210,16 +74211,16 @@
         "membersUrl": "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
+          "https://calslab.snu.ac.kr/bmpm/",
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
           "https://bio4u.snu.ac.kr",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#container",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://bio4u.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%952/",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#none",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
+          "https://calslab.snu.ac.kr/bmpm/board.read?mcode=14&id=10",
+          "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=11&cate=11",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=10&cate=10",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1112&cate=1112",
+          "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=13&cate=13",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310",
+          "https://calslab.snu.ac.kr/bmpm/board.read?mcode=14&id=9"
         ]
       },
       "enrichment": {
@@ -74303,7 +74304,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:06:23Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-6BC1321F617709"
     },
@@ -75269,8 +75271,8 @@
       "_unit_id": "SNU-RU-B22B77E300BF43"
     },
     "SNU-RU-8577C1B4052872": {
-      "fingerprint": "1956798dfa2f78f65d932d7efa16f173f8a4dd877b71e054ca16008c610d03d1",
-      "checked_at": "2026-09-14T11:06:00Z",
+      "fingerprint": "a00a681a4af44723a0094b3d5fe69d3a72da433f887304c50cea63aba4df6842",
+      "checked_at": "2026-09-24T00:12:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -75291,16 +75293,16 @@
         "membersUrl": "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%95%99%EC%A7%84/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
+          "https://calslab.snu.ac.kr/bical/",
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%95%99%EC%A7%84/",
           "https://bio4u.snu.ac.kr",
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%95%99%EC%A7%84/#container",
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%95%99%EC%A7%84/#footer",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
+          "https://bio4u.snu.ac.kr/%ec%a0%84%ea%b3%b5/",
           "https://bio4u.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%952/",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%95%99%EC%A7%84/#none",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
+          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95/",
+          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%952/"
         ]
       },
       "enrichment": {
@@ -75386,7 +75388,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-14T11:06:32Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-8577C1B4052872"
     },
@@ -243394,9 +243397,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T00:11:51Z",
-    "checked": 795,
-    "seconds": 3798.72,
+    "at": "2026-09-24T00:12:14Z",
+    "checked": 800,
+    "seconds": 3821.65,
     "gemini": false,
     "ai_requests": 0,
     "completed_full_pass": false
