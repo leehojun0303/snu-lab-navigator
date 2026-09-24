@@ -1,5 +1,5 @@
 {
-  "cursor": 1850,
+  "cursor": 1855,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -34576,8 +34576,8 @@
       "_unit_id": "SNU-RU-67550CDEC1B247"
     },
     "SNU-RU-B910058001AE16": {
-      "fingerprint": "3045a8238772ae1380c7034aa54302e501fefa6c598977f555a9f396975e67a1",
-      "checked_at": "2026-09-24T01:09:56Z",
+      "fingerprint": "df16f236f949d4c3af32cf30b8562c8467132c56b2cee83c0162a14fa219ba37",
+      "checked_at": "2026-09-24T21:16:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -34682,7 +34682,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-B910058001AE16"
+      "_unit_id": "SNU-RU-B910058001AE16",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1ECFE5D4B44B99": {
       "fingerprint": "97cd23cf5c5be6d263771b768de88b29a73dabdf538997629e03bb8c47841df2",
@@ -120728,57 +120729,128 @@
       "_unit_id": "SNU-RU-0136BFEB439EF7"
     },
     "SNU-RU-B921BEEF4CA709": {
-      "fingerprint": "1f98f03c9c76a1d441de37427ab00b7f158cd27b61d8bd6d84f85e0845d0f9c4",
-      "checked_at": "2026-09-23T23:42:04Z",
+      "fingerprint": "b26d467f90eb2e29261fb46372620c1cf929a285b00dd81896201d8b26bebd54",
+      "checked_at": "2026-09-24T21:16:17Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
           },
           {
-            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
-            "url": "https://snudf.snu.ac.kr/3344/"
-          },
-          {
-            "title": "2026학년도 2학기 일반대학원 석박사학위 논문심사일정을 붙임과 같이 안내합니다.",
-            "url": "https://dentistry.snu.ac.kr/#none"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
           },
           {
             "title": "발표논문",
-            "url": "https://dentsci.snu.ac.kr/research/publications/"
+            "url": "https://dentsci.snu.ac.kr/research/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "인공지능을 이용한 치과교정학 및 악교정수술학 관련 상위 인용논문 등재 편수 세계 1위 쾌거",
+            "url": "https://snudf.snu.ac.kr/3344/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
           },
           {
             "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+            "kind": "recruitment"
           },
           {
             "title": "장애학생지원센터",
-            "url": "https://www.snu.ac.kr/campuslife/aid/disabled"
+            "url": "https://www.snu.ac.kr/campuslife/aid/disabled",
+            "kind": "recruitment"
           },
           {
             "title": "학생지원서비스",
-            "url": "https://www.snu.ac.kr/campuslife/aid/administration"
+            "url": "https://www.snu.ac.kr/campuslife/aid/administration",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_facebook.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_twitter.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_kakao.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_share_blog.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_facebook.png",
+            "alt": "페이스북",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_twitter.png",
+            "alt": "트위터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/icon_foot_youtube.png",
+            "alt": "유튜브",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          },
+          {
+            "url": "https://dentistry.snu.ac.kr/ko/res/images/common/footer_logo.png",
+            "alt": "서울대학교 치의학대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://dentistry.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://www.snu.ac.kr/personal_information",
+          "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/",
           "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
@@ -120874,7 +120946,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-B921BEEF4CA709"
+      "_unit_id": "SNU-RU-B921BEEF4CA709",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-21721BBAF74C91": {
       "fingerprint": "98810322a15545ab401ad835b831c7e1455870fba72d4a6346d3c5a0b83cedde",
@@ -160885,98 +160958,23 @@
       "_unit_id": "SNU-RU-A21065E0C21701"
     },
     "SNU-RU-B919AE11D1BF15": {
-      "fingerprint": "91895c9cf83c45bce85d36a624a238571bb101facba33fe749fa6303a9cfeb7e",
-      "checked_at": "2026-09-24T01:10:42Z",
+      "fingerprint": "2acb51dbc104eb90947f75ced25ae187321d332c65fbff5e5310ba9cc8874e13",
+      "checked_at": "2026-09-24T21:16:13Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
-            "kind": "publication"
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf"
           }
         ],
         "recruitmentPages": [
           {
             "title": "교수초빙",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-            "kind": "recruitment"
-          },
-          {
-            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
-            "kind": "recruitment"
-          },
-          {
-            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
-            "kind": "recruitment"
-          },
-          {
-            "title": "21 2026.09 취업 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11) 2026 하반기 한솔그룹 신입사원 공개채용 (-10/11)우리는...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1147",
-            "kind": "recruitment"
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
           }
         ],
         "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.math.snu.ac.kr/thema/Rim/logo-top.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/thema/Rim/logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/gLRh05OeZPw/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/7bkto007GbQ/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/boQoASmw3dc/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/E0QzSTlvjMo/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/RWfa4oO-zpc/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          },
-          {
-            "url": "https://img.youtube.com/vi/PqzXUtye7TY/hqdefault.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://www.math.snu.ac.kr",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
@@ -160990,7 +160988,98 @@
           "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "이승진 교수는 대수 조합론(Algebraic Combinatorics) 분야를 연구하며, 특히 아핀 슈베르트 미적분학(Affine Schubert calculus), 대칭 다항식, 그리고 폴리토프의 조합적 성질에 관한 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "Algebraic Combinatorics",
+          "Affine Schubert calculus",
+          "Symmetric functions",
+          "Polytopes"
+        ],
+        "recommendation_keywords": [
+          "Algebraic Combinatorics",
+          "Schubert calculus",
+          "Symmetric functions",
+          "Combinatorial geometry",
+          "Affine Schubert calculus",
+          "Polytopes"
+        ],
+        "recent_papers": [
+          {
+            "title": "On the coproduct in affine Schubert calculus",
+            "year": "2022",
+            "venue": "LMS Lecture note series 473, Facets of algebraic geometry (Fulton 80 volume)",
+            "summary": "아핀 슈베르트 미적분학에서의 코프로덕트(coproduct) 구조를 다룹니다."
+          },
+          {
+            "title": "Linear relations on LLT polynomials and their k-Schur positivity for k=2",
+            "year": "2021",
+            "venue": "Journal of Algebraic Combinatorics",
+            "summary": "LLT 다항식의 선형 관계와 k=2일 때의 k-Schur 양성(positivity)을 연구합니다."
+          },
+          {
+            "title": "Back stable Schubert calculus",
+            "year": "2021",
+            "venue": "Compositio Math.",
+            "summary": "백 스테이블(Back stable) 슈베르트 미적분학에 관한 연구입니다."
+          }
+        ],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "이승진 교수의 학력 정보는 공식 페이지에 명시되어 있지 않습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf"
+          }
+        ],
+        "recruitment_summary": "현재 수리과학부에서 교수 초빙 및 채용 관련 공지가 게시되고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
+          }
+        ],
+        "recruitment_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=adjunct",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus",
+          "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-B919AE11D1BF15",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:16:37Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-B919AE11D1BF15"
     },
     "SNU-RU-11E242C5E5CFED": {
@@ -244499,6 +244588,242 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-B8BE5975F01EE8",
       "verify_error": "verify_JSONDecodeError"
+    },
+    "SNU-RU-B9237C0713E05F": {
+      "fingerprint": "f92c54327d50cf94b469c875056d49f35f63d514f4106794e12b717d9665ae43",
+      "checked_at": "2026-09-24T21:16:11Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/566za2czaf8z8a5z88czdb6z9e4z732z58fz4e7z4a.jpg",
+            "alt": "강초롱 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/79fz7f9z9adz95az0d4zf71zc4bz34fz09bz6d8zdd.jpg",
+            "alt": "김영욱 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/1b4za9az76ezfe2zca5zc71z4fezc0fzfefz307z47.jpg",
+            "alt": "김정희 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/aefz7fbz5e5ze2aza76z05czb28zb0az723z4e0zec.jpg",
+            "alt": "송근영 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/bd6z393z316z0cdz5cdzf69z534z98dz70cz807z7d.jpg",
+            "alt": "신은영 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/52fz82fz2f5zf53za56z9a9z4f5z45dz584ze2dzb9.jpg",
+            "alt": "유호식 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?deptidx=4"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?deptidx=4",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-B9237C0713E05F",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-B96034698E5895": {
+      "fingerprint": "0050dafd3c72b1bb3bf48556756b413bb29686a2598c8eb8191e0f0b85bd375c",
+      "checked_at": "2026-09-24T21:16:12Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=67",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "나노셀룰로오스 제조 및 응용, 제지 공정 및 품질 개선, 셀룰로오스 적용 제품 개발 및 공정, 고문서 노화 및 보강 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "나노셀룰로오스 제조 및 응용",
+          "제지 공정 및 품질 개선",
+          "셀룰로오스 적용 제품 개발 및 공정",
+          "고문서 노화 및 보강"
+        ],
+        "recommendation_keywords": [
+          "나노셀룰로오스",
+          "제지공정",
+          "셀룰로오스",
+          "고문서보존",
+          "나노셀룰로오스 제조 및 응용",
+          "제지 공정 및 품질 개선",
+          "셀룰로오스 적용 제품 개발 및 공정",
+          "고문서 노화 및 보강"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램, 입학모집 안내, FAQ 및 각종 연구 지원 사업을 운영하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/guide/admission",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "윤혜정",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/707z785z77bz751z83fz7f0zba3z68fz8b6z55fz36.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+        "poster_evidence": "농업생명과학대학 교수진 검색 페이지에서 윤혜정 교수의 프로필 사진으로 확인됨.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=67",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/webdata/professor/photo/707z785z77bz751z83fz7f0zba3z68fz8b6z55fz36.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-B96034698E5895",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T21:16:26Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-B96034698E5895"
     }
   },
   "failures": {
@@ -244604,11 +244929,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:15:57Z",
-    "checked": 100,
-    "seconds": 996.83,
+    "at": "2026-09-24T21:16:55Z",
+    "checked": 105,
+    "seconds": 1054.81,
     "gemini": true,
-    "ai_requests": 40,
+    "ai_requests": 42,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
