@@ -1,5 +1,5 @@
 {
-  "cursor": 2025,
+  "cursor": 2030,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -76834,7 +76834,7 @@
     },
     "SNU-RU-CC28E85A7805FF": {
       "fingerprint": "ea5e30a78522e1f55cfe60c3a8f23e1754ea370a9e3beb18833cda4d8c7dbf0d",
-      "checked_at": "2026-09-24T01:18:53Z",
+      "checked_at": "2026-09-24T21:45:41Z",
       "activity": {
         "publicationPages": [
           {
@@ -76959,7 +76959,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CC28E85A7805FF"
+      "_unit_id": "SNU-RU-CC28E85A7805FF",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-1A03A7C614BE45": {
       "fingerprint": "58c54173ceb3e1dcfbdc3fbb40203fbf97a76811ed5eb5ad919703b61f80cefe",
@@ -80363,8 +80364,8 @@
       "_unit_id": "SNU-RU-2F173522B6D42D"
     },
     "SNU-RU-CC3303CA741288": {
-      "fingerprint": "7753d5d8874078890ca75268657d0f8dc5f2d467411f17b1b8c6ab20ba4d578c",
-      "checked_at": "2026-09-23T23:29:08Z",
+      "fingerprint": "d179b13906d9e5db52a9426ec0d5b2abffede1f8bff4a9ffb69256b78ce09ed8",
+      "checked_at": "2026-09-24T21:46:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -80372,13 +80373,8 @@
             "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
+        "recruitmentPages": [],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
@@ -80388,23 +80384,61 @@
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김홍규 교수는 유방내분비외과 분야를 전문으로 하며, 유방암 및 내분비 질환과 관련된 다양한 연구 성과를 발표하고 있습니다.",
+        "research_summary": "김홍규 교수는 유방암, 갑상선 절제술, 신보조 화학요법 등을 주요 연구 분야로 하며, 특히 유방암 환자의 치료 및 예후, 유전적 요인(BRCA 변이), AI를 활용한 유방암 조기 진단 등에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "유방내분비외과",
-          "유방암"
+          "Breast Cancer",
+          "Thyroidectomy",
+          "Neoadjuvant Chemotherapy",
+          "Neoplasm",
+          "Quadrantectomy",
+          "Mastectomy",
+          "Recurrent Disease",
+          "Contralateral"
         ],
         "recommendation_keywords": [
+          "유방암",
           "유방내분비외과",
-          "유방암"
+          "갑상선절제술",
+          "신보조화학요법",
+          "Breast Cancer",
+          "Thyroidectomy",
+          "Neoadjuvant Chemotherapy",
+          "Neoplasm",
+          "Quadrantectomy",
+          "Mastectomy",
+          "Recurrent Disease",
+          "Contralateral"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "Contributing factors of contralateral breast cancer in patients with BRCA mutation (ON-BRCA II study, KoREa-BSG 11)",
+            "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
+            "year": "2026",
+            "venue": "Breast Cancer Research",
+            "summary": ""
+          },
+          {
+            "title": "Monitoring of circulating tumor DNA in patients with stage II-III breast cancer treated with neoadjuvant chemotherapy",
+            "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
+            "year": "2026",
+            "venue": "npj Breast Cancer",
+            "summary": ""
+          },
+          {
+            "title": "Enhancing Early Detection of Contralateral Breast Cancer in Breast Cancer Survivors Using AI-Assisted Mammography",
+            "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
+            "year": "2026",
+            "venue": "Annals of Surgical Oncology",
+            "summary": "AI 기반 유방촬영술을 활용하여 유방암 생존자의 반대측 유방암 조기 발견율을 향상시키는 연구입니다."
+          }
+        ],
+        "recent_year_paper_count": 7,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -80420,17 +80454,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 특정 연구실 모집 정보는 없습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -80441,25 +80470,24 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/",
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/hong-kyu-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC3303CA741288",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:34:11Z",
+        "_saved_at": "2026-09-24T21:46:34Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CC3303CA741288"
     },
@@ -86032,44 +86060,54 @@
       "_unit_id": "SNU-RU-91DBA5D02F87A2"
     },
     "SNU-RU-CCAC9D41242493": {
-      "fingerprint": "42de2a0adbc7079086b34128da5caa2ac7214ef4838a52e6c911a2d54052ac76",
-      "checked_at": "2026-09-23T23:41:30Z",
+      "fingerprint": "e25c071f09f6d93456f1ce3835f68c65d4aa08d4a484c7112b386c9c3e1b08bd",
+      "checked_at": "2026-09-24T21:45:53Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
           },
           {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+            "title": "학부생연구지원",
+            "url": "https://dentsci.snu.ac.kr/research/undergrad/"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://dentsci.snu.ac.kr/"
+          "https://dentsci.snu.ac.kr/",
+          "https://admission.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "",
-        "research_topics": [],
-        "recommendation_keywords": [],
+        "research_summary": "노상호 교수는 서울대학교 치의학대학원 구강생화학교실 소속으로, 발생공학 및 줄기세포생물학 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "발생공학",
+          "줄기세포생물학"
+        ],
+        "recommendation_keywords": [
+          "노상호",
+          "서울대학교",
+          "치의학대학원",
+          "구강생화학교실",
+          "줄기세포생물학",
+          "발생공학"
+        ],
         "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
@@ -86083,25 +86121,25 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "발표논문",
+            "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "치의과학과 및 치의학대학원 관련 입학 및 연구 지원 정보는 공식 입학 포털 및 학과 홈페이지를 통해 제공됩니다.",
         "verified_recruitment_pages": [
           {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support"
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
           },
           {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice"
+            "title": "학부생연구지원",
+            "url": "https://dentsci.snu.ac.kr/research/undergrad/"
           }
         ],
-        "recruitment_source_url": "https://www.snu.ac.kr/academics/programs/learning_support",
+        "recruitment_source_url": "https://dentsci.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -86111,26 +86149,26 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://www.snu.ac.kr/personal_information",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://dentsci.snu.ac.kr/",
+          "https://dentsci.snu.ac.kr/research/publications/",
+          "https://dentsci.snu.ac.kr/research/undergrad/",
+          "https://admission.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#accessible_navi",
           "https://dentistry.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
-          "https://dentistry.snu.ac.kr/"
+          "https://dentistry.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CCAC9D41242493",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-21T12:22:39Z",
+        "_saved_at": "2026-09-24T21:46:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CCAC9D41242493"
     },
@@ -143183,8 +143221,8 @@
       "_unit_id": "SNU-RU-380B17A57D6960"
     },
     "SNU-RU-CC5A0F1719C1FB": {
-      "fingerprint": "2de426988f1cb33788c04d4d99fcc4e171c1299169fe1c0239c6463c2cadec81",
-      "checked_at": "2026-09-24T01:16:52Z",
+      "fingerprint": "a160ced0005703072d86bda76988a9f0692b4e74af6f4cd5812adc22579a27d4",
+      "checked_at": "2026-09-24T21:45:36Z",
       "activity": {
         "publicationPages": [
           {
@@ -143255,13 +143293,6 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://cls.snu.ac.kr"
-          },
-          {
-            "url": "https://cls.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cls.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
@@ -143278,7 +143309,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-CC5A0F1719C1FB"
+      "_unit_id": "SNU-RU-CC5A0F1719C1FB",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-E0F6D893EBFDB0": {
       "fingerprint": "26fb6a3d96dc4083fade2f1ce777a8953ef7b5a5a9051d60e5cfc037147d4de5",
@@ -252630,6 +252662,110 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CBB6C9F091D02A"
+    },
+    "SNU-RU-CC82AC0CC363D3": {
+      "fingerprint": "a68388f93115225b834efb51a33384fcc890576a4efc21a5d106d4797f743b14",
+      "checked_at": "2026-09-24T21:45:45Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/50dzaeez855zffezb2az0c3z823z632zc4azbf1z8b.jpg",
+            "alt": "강성훈 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/e3ez7f4z854z323z66dzbfbz56ezcdbzcb4z6fbze3.jpg",
+            "alt": "김현섭 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/55fza32zbe9zed0z888z43cz677z8a0z3b6z524zf2.jpg",
+            "alt": "이현선 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/89bz063zda8z550z0fcz182z1c3z4a7zd1ez50bz0a.jpg",
+            "alt": "장원태 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/f32z419zeaez67dz402za4fz199z6e1z0a8z8e2zb5.jpg",
+            "alt": "한성일 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/583zf0fzae6z465z828z240zac8z002z665zfd2zdf.jpg",
+            "alt": "이행남 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=16"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=16",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-CC82AC0CC363D3",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -252743,11 +252879,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T21:45:28Z",
-    "checked": 275,
-    "seconds": 2767.64,
+    "at": "2026-09-24T21:46:34Z",
+    "checked": 280,
+    "seconds": 2833.65,
     "gemini": true,
-    "ai_requests": 115,
+    "ai_requests": 117,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
