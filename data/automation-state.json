@@ -1,5 +1,5 @@
 {
-  "cursor": 2245,
+  "cursor": 2250,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -27677,8 +27677,8 @@
       "_unit_id": "SNU-RU-EA465624F07F61"
     },
     "SNU-RU-DFEE547823EEE2": {
-      "fingerprint": "c3e4d293bddce0a653d3534943006abc9a9f0179d7f01cb63f2d96342a603e19",
-      "checked_at": "2026-09-23T23:43:51Z",
+      "fingerprint": "bf370c7d48f48231af4e663d037327e3c8fa9a1e89ec5a19539c16e1fb4adfa1",
+      "checked_at": "2026-09-24T22:27:21Z",
       "activity": {
         "publicationPages": [
           {
@@ -27686,12 +27686,17 @@
             "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
@@ -27703,7 +27708,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "권익재 교수는 서울대학교 치의학대학원 구강악안면외과학교실 소속 조교수로 재직 중입니다.",
         "research_topics": [],
         "recommendation_keywords": [
           "구강악안면외과",
@@ -27719,16 +27724,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 치의학대학원 구강악안면외과학교실 조교수로 재직 중입니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "발표논문",
             "url": "https://dentsci.snu.ac.kr/research/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "서울대학교 치의학대학원 및 치의과학과 입학 관련 정보는 공식 입학포털을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -27740,9 +27750,10 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://admission.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://dentsci.snu.ac.kr/research/publications/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://dentsci.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_contents",
           "https://dentistry.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#accessible_navi",
@@ -27750,17 +27761,15 @@
           "https://snudf.snu.ac.kr/",
           "https://dentistry.snu.ac.kr/en/",
           "https://dentistry.snu.ac.kr/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snudf.snu.ac.kr/3344/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-DFEE547823EEE2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T12:07:15Z",
+        "_saved_at": "2026-09-24T22:27:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-DFEE547823EEE2"
     },
@@ -201580,8 +201589,8 @@
       "_unit_id": "SNU-RU-B10418C92B43A0"
     },
     "SNU-RU-E03955AD0C8332": {
-      "fingerprint": "ed6b313efb1690d0bfbcafd5187fac83fe69b3cb9a6b3dc11bb295ff360d6c50",
-      "checked_at": "2026-09-24T01:41:41Z",
+      "fingerprint": "cb901eabf0a0574c66f037085e94a92dba28d39957d69c8dbf8c466164ea4fe6",
+      "checked_at": "2026-09-24T22:27:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -201589,9 +201598,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-chung-13/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -201599,14 +201613,14 @@
           "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
         ]
       },
       "enrichment": {
-        "research_summary": "계량약리학, 신약임상개발 및 약물수송체 분야를 중심으로 임상약리 연구를 수행하고 있습니다.",
+        "research_summary": "정재용 교수는 계량약리학, 신약임상개발, 약물수송체를 중심으로 연구를 수행하고 있으며, 임상약리학교실에서 다양한 학술적 연구 성과를 발표하고 있습니다.",
         "research_topics": [
           "계량약리학",
           "신약임상개발",
@@ -201617,29 +201631,7 @@
           "신약임상개발",
           "약물수송체"
         ],
-        "recent_papers": [
-          {
-            "title": "Population Pharmacokinetics of Elexacaftor, Tezacaftor, and Ivacaftor in Patients With Cystic Fibrosis",
-            "url": "https://snu.elsevierpure.com/en/publications/population-pharmacokinetics-of-elexacaftor-tezacaftor-and-ivacaftor-",
-            "year": "2026",
-            "venue": "Clinical Pharmacokinetics",
-            "summary": "낭성 섬유증 환자에서 엘렉사카프토, 테자카프토, 이바카프토의 집단 약동학적 특성을 분석하였습니다."
-          },
-          {
-            "title": "Pharmacokinetics and Pharmacodynamics of a Novel Long-Acting GLP-1 Receptor Agonist in Healthy Subjects",
-            "url": "https://snu.elsevierpure.com/en/publications/pharmacokinetics-and-pharmacodynamics-of-a-novel-long-acting-glp-1-rec",
-            "year": "2026",
-            "venue": "Clinical Pharmacology & Therapeutics",
-            "summary": "건강한 피험자를 대상으로 새로운 지속형 GLP-1 수용체 작용제의 약동학 및 약력학적 특성을 연구하였습니다."
-          },
-          {
-            "title": "Impact of Transporter Polymorphisms on Drug Disposition in Korean Population",
-            "url": "https://snu.elsevierpure.com/en/publications/impact-of-transporter-polymorphisms-on-drug-disposition-in-korean-po",
-            "year": "2026",
-            "venue": "Journal of Pharmaceutical Sciences",
-            "summary": "한국인 집단에서 약물 수송체 유전자 다형성이 약물 체내 동태에 미치는 영향을 규명하였습니다."
-          }
-        ],
+        "recent_papers": [],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -201656,41 +201648,45 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 연구실 채용 정보는 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "Jae Yong Chung",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962444/816_Chung_+Jae+Yong.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-content",
+        "poster_evidence": "Official profile image verified from SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-chung-13/",
-          "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-chung-13/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/",
           "https://snu.elsevierpure.com/en/persons/y-chung-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E03955AD0C8332",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:39:14Z",
+        "_saved_at": "2026-09-24T22:27:59Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E03955AD0C8332"
     },
@@ -243658,108 +243654,39 @@
       "_unit_id": "SNU-RU-666F411A6D1949"
     },
     "SNU-RU-E0053A41AE806C": {
-      "fingerprint": "1440a599ad836f84bdeb5659ecf379e0cd7d9804d41b8d90069f5ac8f9659a65",
-      "checked_at": "2026-09-24T01:22:47Z",
+      "fingerprint": "088a11c92dd1ae967f597848a50cc0fd11017fb35f62073f27040260416c3069",
+      "checked_at": "2026-09-24T22:27:09Z",
       "activity": {
         "publicationPages": [
           {
             "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
-            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
-            "kind": "publication"
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1"
           },
           {
             "title": "대학원 2026학년도 2학기 논문심사 추후 일정 공지(요지발표자만)",
-            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157581",
-            "kind": "publication"
+            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157581"
           },
           {
             "title": "대학원 2026년도 2학기 박사 논문요지 발표일정(시간표) 및 참관 안내",
-            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157578",
-            "kind": "publication"
+            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157578"
           }
         ],
         "recruitmentPages": [
           {
             "title": "2025년 여름방학 학생인턴십 결과발표회",
-            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
-            "kind": "recruitment"
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1"
           },
           {
             "title": "입학안내",
-            "url": "https://nursing.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
+            "url": "https://nursing.snu.ac.kr/admission/undergraduate"
           },
           {
             "title": "대학원입학",
-            "url": "https://nursing.snu.ac.kr/admission/graduate",
-            "kind": "recruitment"
-          },
-          {
-            "title": "취업정보",
-            "url": "https://nursing.snu.ac.kr/board/job-openings",
-            "kind": "recruitment"
+            "url": "https://nursing.snu.ac.kr/admission/graduate"
           }
         ],
         "membersUrl": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/admission/graduate"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-logo-resize-mo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/admission/graduate"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/_skin/kor/images/ns/top-ca3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr/admission/graduate"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/89bzfe9z902z756z0f2z933zb63zbe0za81z388zf5.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/9c5z862z4a1z061z114z931zf17z73az621z2e4z5e.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/fa8ze9bz7d5z183z4dbz7b0z020za62zf02z303z41.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/934z907z093zf2fzc2fz6dbz7c1z5cez5eez5baz9a.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          },
-          {
-            "url": "https://nursing.snu.ac.kr/webdata/homenews/820z38az104z9a9zd35z524zde1z143z9a4z058z39.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://nursing.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://nursing.snu.ac.kr",
           "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
@@ -243773,7 +243700,87 @@
           "https://nursing.snu.ac.kr/admission/graduate"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "성인간호학"
+        ],
+        "recommendation_keywords": [
+          "성인간호학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "우경미 교수 연구팀 논문 국제 간호학 학술지 Research in Nursing &Health ‘Top Viewed Article’ 선정",
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1"
+          },
+          {
+            "title": "대학원 2026학년도 2학기 논문심사 추후 일정 공지(요지발표자만)",
+            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157581"
+          },
+          {
+            "title": "대학원 2026년도 2학기 박사 논문요지 발표일정(시간표) 및 참관 안내",
+            "url": "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157578"
+          }
+        ],
+        "recruitment_summary": "서울대학교 간호대학은 학부 및 대학원 입학 안내와 취업 정보를 제공하고 있으며, 학생 인턴십 결과 발표회 등을 통해 학생들의 연구 및 실무 역량 강화를 지원하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "2025년 여름방학 학생인턴십 결과발표회",
+            "url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1"
+          },
+          {
+            "title": "입학안내",
+            "url": "https://nursing.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nursing.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nursing.snu.ac.kr/admission/graduate",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://nursing.snu.ac.kr",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156495&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=157351&page=1",
+          "https://nursing.snu.ac.kr/admission/undergraduate",
+          "https://nursing.snu.ac.kr/admission/graduate",
+          "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157581",
+          "https://nursing.snu.ac.kr/board/notice?bm=v&bbsidx=157578",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156949&page=1",
+          "https://nursing.snu.ac.kr/board/news?bm=v&bbsidx=156625&page=1",
+          "https://nursing.snu.ac.kr/member/login",
+          "https://nursing.snu.ac.kr/faculty/professor",
+          "https://nursing.snu.ac.kr/faculty/emeritus"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-E0053A41AE806C",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:27:17Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-E0053A41AE806C"
     },
     "SNU-RU-E11F03148B4C8A": {
@@ -262178,6 +262185,249 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-DFDE60CD3BD748"
+    },
+    "SNU-RU-E00CB446FD810B": {
+      "fingerprint": "68ffc9ea2e8e1b643341c2f77cb280d8db9049d6c937cac856d4d70596d5fc1a",
+      "checked_at": "2026-09-24T22:27:10Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=9&mode=view&profidx=179",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=9",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=9&mode=view&profidx=179",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/4dfz9c7z8e3z859z4e9z093za3fz475z2dazbd6z12.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=9",
+        "poster_evidence": "이윤경",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=9&mode=view&profidx=179",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=9",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/webdata/professor/photo/4dfz9c7z8e3z859z4e9z093za3fz475z2dazbd6z12.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-E00CB446FD810B",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:27:24Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-E00CB446FD810B"
+    },
+    "SNU-RU-E00B3555F17FC6": {
+      "fingerprint": "810190cb0ae07ad1fa1b3b8f849a44071f0e66d4d3d700f1787d476c110aae95",
+      "checked_at": "2026-09-24T22:27:13Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals",
+            "kind": "publication"
+          },
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals",
+            "kind": "publication"
+          },
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals",
+            "kind": "publication"
+          },
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals",
+            "kind": "publication"
+          },
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "[홍보] 각 군 현역병 모집일정('26년 10월) 안내",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11592",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] [버킷플레이스] 오늘의집시공 Junior Interior Sales Manager (전환형) 채용 (~10월 02일까지)",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11588",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[채용] 2027년 신세계센트럴 신입사원 채용",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11587",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://econ.snu.ac.kr/people/faculty",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://econ.snu.ac.kr/_skin/kor/images/econ/toplogo.png?ver=2017-11-09",
+            "alt": "Department of Economics, Seoul National Unversity",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr/events/alumni-interview"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/_skin/kor/images/econ/donate_2021.jpg?ver=2021-04-26",
+            "alt": "한국경제혁신센터(신축) 조감도",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/webdata/boardimages/news/30b5c6ea1e0d211445428e1279414ae7.png",
+            "alt": "서울대 경제학부 졸업생 최윤지 박사, 명지대 교수 임용",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/webdata/boardimages/news/97627dfaec89f48920c4b351d4637954.jpg",
+            "alt": "허재환, 최재윤 학생, DB보험금융공모전 대상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/webdata/boardimages/news/f76ab93d40ceb063197fa7444f2276e3.png",
+            "alt": "이철희 교수, 제16회 학현학술상 수상",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/webdata/boardimages/news/364b46fa3b2f9dcd488b8ca9b18a4742.png",
+            "alt": "서울대 경제학부 박사 졸업생 2인, IMF 및 부산대 교수 임용",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/_skin/kor/images/econ/footerlogo.png?ver=2017-11-09",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr/graduate/award/fellowship"
+          },
+          {
+            "url": "https://econ.snu.ac.kr/webdata/faculty/639zba7z8a4z5bczceaze34z1e7z07bzb93zcdazbe.jpg",
+            "alt": "DONG-HYUN AHN",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://econ.snu.ac.kr/people/faculty"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://econ.snu.ac.kr",
+          "https://econ.snu.ac.kr/people/faculty",
+          "https://econ.snu.ac.kr/people/visiting-professors",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty",
+          "https://econ.snu.ac.kr/about/news?bm=v&bbsidx=11466",
+          "https://econ.snu.ac.kr/about/news?bm=v&bbsidx=11288",
+          "https://econ.snu.ac.kr/about/news?bm=v&bbsidx=11277",
+          "https://econ.snu.ac.kr/undergraduate/student-activities",
+          "https://econ.snu.ac.kr/graduate/award/fellowship",
+          "https://econ.snu.ac.kr/events/alumni-interview"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-E00B3555F17FC6",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -262295,11 +262545,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T22:26:55Z",
-    "checked": 495,
-    "seconds": 5255.14,
+    "at": "2026-09-24T22:27:59Z",
+    "checked": 500,
+    "seconds": 5318.54,
     "gemini": true,
-    "ai_requests": 224,
+    "ai_requests": 228,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
