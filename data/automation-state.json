@@ -1,5 +1,5 @@
 {
-  "cursor": 2275,
+  "cursor": 2280,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -39158,34 +39158,109 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-E28B8297214797": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-23T23:14:59Z",
+      "fingerprint": "2af9583c07a6837fcf30cdeab30e411cafaa9ea18db8228cb10d8fb8331efa0a",
+      "checked_at": "2026-09-24T22:33:35Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "http://yss.snu.ac.kr/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "Search",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-sch-close.png",
+            "alt": "Close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/en/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
@@ -39254,7 +39329,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-E28B8297214797"
+      "_unit_id": "SNU-RU-E28B8297214797",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-B42FF2ADBA3688": {
       "fingerprint": "3f1772a45af2acb82d36b33b2af433af234af8151dd51e06f6b5ebf8fb65d05f",
@@ -67370,28 +67446,23 @@
       "_unit_id": "SNU-RU-34E5618EC75847"
     },
     "SNU-RU-E2A0BE300A5CE3": {
-      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T23:24:11Z",
+      "fingerprint": "2af9583c07a6837fcf30cdeab30e411cafaa9ea18db8228cb10d8fb8331efa0a",
+      "checked_at": "2026-09-24T22:33:34Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "http://yss.snu.ac.kr/",
+        "membersUrl": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -67415,13 +67486,8 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 학생 지원 서비스를 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -67431,7 +67497,7 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "http://yss.snu.ac.kr/",
+        "member_page_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -67440,24 +67506,24 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://medicine.snu.ac.kr/en/",
+          "https://libguides.snu.ac.kr/research/academicwriting",
+          "https://medcorelab.snu.ac.kr/"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E2A0BE300A5CE3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-19T10:10:44Z",
+        "_saved_at": "2026-09-24T22:33:38Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -112985,19 +113051,23 @@
       "_unit_id": "SNU-RU-C52F302D1B3F33"
     },
     "SNU-RU-E281150B62FDAB": {
-      "fingerprint": "d970e6f6d478b44fa362f916f3d3288300643a9dbd1d60370e6ea29e55d537fe",
-      "checked_at": "2026-09-23T23:37:46Z",
+      "fingerprint": "2af9583c07a6837fcf30cdeab30e411cafaa9ea18db8228cb10d8fb8331efa0a",
+      "checked_at": "2026-09-24T22:33:34Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
           }
         ],
         "membersUrl": "http://yss.snu.ac.kr/",
@@ -113005,18 +113075,18 @@
         "sourcePagesScanned": [
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://meddorm.snu.ac.kr/",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
+          "https://medicine.snu.ac.kr/en/"
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "",
         "research_topics": [],
         "recommendation_keywords": [],
         "recent_papers": [],
@@ -113029,18 +113099,22 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "논문 게재료 지원",
+            "url": "https://libguides.snu.ac.kr/research/academicwriting"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
@@ -113055,27 +113129,26 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://yss.snu.ac.kr/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://medicine.snu.ac.kr/en/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://medcorelab.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/research/academicwriting",
           "https://meddorm.snu.ac.kr/",
-          "https://www.snu.ac.kr/personal_information",
+          "https://snucert.snu.ac.kr/waf/error.html",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/"
+          "https://libguides.snu.ac.kr/home"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E281150B62FDAB",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-16T08:43:16Z",
+        "_saved_at": "2026-09-24T22:33:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E281150B62FDAB"
     },
@@ -263723,6 +263796,270 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E24F31EFB437F4"
+    },
+    "SNU-RU-E26D7EB35C162A": {
+      "fingerprint": "ab2bddab82772dff1af2c2964971fbc5da9ef19b6060db02e0e68faa3738cabd",
+      "checked_at": "2026-09-24T22:33:12Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "[홍보] 각 군 현역병 모집일정('26년 10월) 안내",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11592"
+          },
+          {
+            "title": "[채용] [버킷플레이스] 오늘의집시공 Junior Interior Sales Manager (전환형) 채용 (~10월 02일까지)",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11588"
+          },
+          {
+            "title": "[채용] 2027년 신세계센트럴 신입사원 채용",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11587"
+          }
+        ],
+        "membersUrl": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#primary-menu",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty",
+          "https://econ.snu.ac.kr",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#primary-menu",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#page-menu",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content",
+          "https://econ.snu.ac.kr/people/faculty",
+          "https://econ.snu.ac.kr/people/visiting-professors",
+          "https://econ.snu.ac.kr/undergraduate/student-activities",
+          "https://econ.snu.ac.kr/graduate/award/fellowship",
+          "https://econ.snu.ac.kr/events/alumni-interview"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "Journals",
+            "url": "https://econ.snu.ac.kr/research/journals"
+          }
+        ],
+        "recruitment_summary": "서울대학교 경제학부 홈페이지를 통해 각 군 현역병 모집일정 및 기업 채용 공고가 안내되고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "[홍보] 각 군 현역병 모집일정('26년 10월) 안내",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11592"
+          },
+          {
+            "title": "[채용] [버킷플레이스] 오늘의집시공 Junior Interior Sales Manager (전환형) 채용 (~10월 02일까지)",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11588"
+          },
+          {
+            "title": "[채용] 2027년 신세계센트럴 신입사원 채용",
+            "url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11587"
+          }
+        ],
+        "recruitment_source_url": "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11592",
+        "current_members": [
+          {
+            "name": "Mark Bils",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          },
+          {
+            "name": "Byunb Gwon Cha",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          },
+          {
+            "name": "ByoungSeon Choi",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          },
+          {
+            "name": "Youngsub Chun",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          },
+          {
+            "name": "Keehyun Hong",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          },
+          {
+            "name": "Jae-Young Kim",
+            "role": "Emeriti & Previous Faculty",
+            "url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://econ.snu.ac.kr/people/emeriti-previous-faculty#primary-menu",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty",
+          "https://econ.snu.ac.kr/research/journals",
+          "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11592",
+          "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11588",
+          "https://econ.snu.ac.kr/announcement/external-notice?bm=v&bbsidx=11587",
+          "https://econ.snu.ac.kr",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#primary-menu",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#page-menu",
+          "https://econ.snu.ac.kr/people/emeriti-previous-faculty#content",
+          "https://econ.snu.ac.kr/people/faculty",
+          "https://econ.snu.ac.kr/people/visiting-professors",
+          "https://econ.snu.ac.kr/undergraduate/student-activities",
+          "https://econ.snu.ac.kr/graduate/award/fellowship",
+          "https://econ.snu.ac.kr/events/alumni-interview"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-E26D7EB35C162A",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:33:16Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-E26D7EB35C162A"
+    },
+    "SNU-RU-E2BB5478F0E9B6": {
+      "fingerprint": "10300d3f2389a78c39e6121f213693b15c1d14dc6ecae64ec12b79b9341df9c8",
+      "checked_at": "2026-09-24T22:33:13Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "주요논문",
+            "url": "https://sees.snu.ac.kr/research-faculty/papers"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "졸업 후 진로",
+            "url": "https://sees.snu.ac.kr/academics/alumni/recruit"
+          }
+        ],
+        "membersUrl": "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://sees.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://sees.snu.ac.kr",
+          "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
+          "https://sees.snu.ac.kr/research-faculty/papers",
+          "https://sees.snu.ac.kr/academics/alumni/recruit",
+          "https://sees.snu.ac.kr/research-faculty/faculty/emeritus-retirement",
+          "https://sees.snu.ac.kr/research-faculty/major",
+          "https://sees.snu.ac.kr/research-faculty/research",
+          "https://sees.snu.ac.kr/research-faculty/equipments",
+          "https://admission.snu.ac.kr"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 지구환경과학부는 대기, 지질, 해양 등 지구 전체를 구성하는 환경 데이터를 다루며, 극지환경, 기후과학, 미세먼지, 생태-생물자원, 위험기상, 지각-맨틀, 지구환경 데이터과학, 지질재해, 해양환경변화, 환경오염 등 다양한 분야에서 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "극지환경",
+          "기후과학",
+          "미세먼지",
+          "생태-생물자원",
+          "위험기상",
+          "지각-맨틀",
+          "지구환경 데이터과학",
+          "지질재해",
+          "해양환경변화",
+          "환경오염"
+        ],
+        "recommendation_keywords": [
+          "지구환경과학",
+          "기후변화",
+          "해양환경",
+          "대기과학",
+          "지질학",
+          "극지환경",
+          "기후과학",
+          "미세먼지",
+          "생태-생물자원",
+          "위험기상",
+          "지각-맨틀",
+          "지구환경 데이터과학",
+          "지질재해",
+          "해양환경변화",
+          "환경오염"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "지구환경과학부는 학사과정 졸업 후 국내외 대학원 진학, 대기업 및 공공기관 취업을 지원하며, WATS(We Are The SEES) 프로그램과 전문가 양성 세미나 등을 통해 학생들의 진로 설계를 돕고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "주요논문",
+            "url": "https://sees.snu.ac.kr/research-faculty/papers"
+          }
+        ],
+        "recruitment_summary": "지구환경과학부는 재학생들의 창업과 취업을 지원하며, 빅데이터 및 AI 관련 교육을 확대하여 4차산업혁명을 이끌 글로벌 인재를 육성하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "졸업 후 진로",
+            "url": "https://sees.snu.ac.kr/academics/alumni/recruit"
+          }
+        ],
+        "recruitment_source_url": "https://sees.snu.ac.kr/academics/alumni/recruit",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://sees.snu.ac.kr/academics/alumni/recruit",
+          "https://sees.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://sees.snu.ac.kr/research-faculty/faculty/researcher",
+          "https://sees.snu.ac.kr/research-faculty/papers",
+          "https://sees.snu.ac.kr",
+          "https://sees.snu.ac.kr/research-faculty/faculty/emeritus-retirement",
+          "https://sees.snu.ac.kr/research-faculty/major",
+          "https://sees.snu.ac.kr/research-faculty/research",
+          "https://sees.snu.ac.kr/research-faculty/equipments",
+          "https://admission.snu.ac.kr",
+          "https://sees.snu.ac.kr/research-faculty/papers?&year=&page=0",
+          "https://sees.snu.ac.kr/webdata/faculty/fulltime/1fezb10z598z8f4z10bz8f0z0f7zc36z9a3z046z6d.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-E2BB5478F0E9B6",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-24T22:33:26Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-E2BB5478F0E9B6"
     }
   },
   "failures": {
@@ -263840,11 +264177,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-24T22:32:58Z",
-    "checked": 525,
-    "seconds": 5617.78,
+    "at": "2026-09-24T22:33:54Z",
+    "checked": 530,
+    "seconds": 5673.85,
     "gemini": true,
-    "ai_requests": 244,
+    "ai_requests": 248,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
