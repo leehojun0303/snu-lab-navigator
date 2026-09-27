@@ -1,5 +1,5 @@
 {
-  "cursor": 932,
+  "cursor": 937,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -2796,7 +2796,7 @@
     },
     "SNU-RU-7D8FF3F48C333F": {
       "fingerprint": "117730ec8791011d3877d3f322459ee5b656cdf7f83420e21f344b1bf6674949",
-      "checked_at": "2026-09-24T01:17:53Z",
+      "checked_at": "2026-09-27T22:25:09Z",
       "activity": {
         "publicationPages": [
           {
@@ -2806,7 +2806,7 @@
         ],
         "recruitmentPages": [],
         "membersUrl": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://vlsi.snu.ac.kr/",
           "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
@@ -2821,64 +2821,86 @@
         ]
       },
       "enrichment": {
-        "research_summary": "Professor Jae-Joon Kim's research focuses on neural network compression and the design of deep learning accelerator circuits. His recent work includes parameter-efficient fine-tuning for large language models, efficient long-context generation, and 3D integration of hybrid IGZO/Si and IGZO eDRAMs for high-density/high-performance on-chip memory.",
+        "research_summary": "김재준 교수는 뉴럴 네트워크 경량화 및 딥러닝 가속기 회로 설계를 중심으로 연구를 수행하고 있으며, 최근에는 대규모 언어 모델(LLM)의 효율적인 파라미터 미세 조정 및 롱 컨텍스트 생성을 위한 기술, 그리고 고성능 온칩 메모리를 위한 3D 통합 기술 등을 연구하고 있습니다.",
         "research_topics": [
-          "Neural Network Compression",
-          "Deep Learning Accelerator Circuit Design",
-          "Large Language Models (LLM) Fine-Tuning",
-          "Efficient Long-Context Generation",
-          "3D Integration of Hybrid IGZO/Si and IGZO eDRAMs"
+          "뉴럴 네트워크 경량화",
+          "딥러닝 가속기 회로 설계",
+          "대규모 언어 모델(LLM) 파라미터 효율적 미세 조정",
+          "롱 컨텍스트 생성",
+          "고성능 온칩 메모리 3D 통합"
         ],
         "recommendation_keywords": [
-          "Neural Network Compression",
-          "Deep Learning Accelerator",
-          "LLM Fine-Tuning",
-          "On-Chip Memory",
-          "VLSI Design",
-          "Deep Learning Accelerator Circuit Design",
-          "Large Language Models (LLM) Fine-Tuning",
-          "Efficient Long-Context Generation",
-          "3D Integration of Hybrid IGZO/Si and IGZO eDRAMs"
+          "뉴럴 네트워크 경량화",
+          "딥러닝 가속기",
+          "회로 설계",
+          "대규모 언어 모델",
+          "온칩 메모리",
+          "딥러닝 가속기 회로 설계",
+          "대규모 언어 모델(LLM) 파라미터 효율적 미세 조정",
+          "롱 컨텍스트 생성",
+          "고성능 온칩 메모리 3D 통합"
         ],
         "recent_papers": [
           {
             "title": "QWHA: Quantization-Aware Walsh-Hadamard Adaptation for Parameter-Efficient Fine-Tuning on Large Language Models",
             "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
             "year": "2026",
-            "venue": "International Conference on Learning Representations (ICLR)"
+            "venue": "International Conference on Learning Representations (ICLR)",
+            "summary": "대규모 언어 모델의 파라미터 효율적인 미세 조정을 위해 양자화를 고려한 Walsh-Hadamard 적응 기법을 제안하였습니다."
           },
           {
             "title": "Retrospective Sparse Attention for Efficient Long-Context Generation",
             "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
             "year": "2026",
-            "venue": "International Conference on Learning Representations (ICLR)"
+            "venue": "International Conference on Learning Representations (ICLR)",
+            "summary": "효율적인 롱 컨텍스트 생성을 위한 회고적 희소 어텐션(Retrospective Sparse Attention) 기법을 제안하였습니다."
           },
           {
             "title": "3D Integration of Hybrid IGZO/Si and IGZO eDRAMs for High-Density/High-Performance On-Chip Memory",
             "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
             "year": "2026",
-            "venue": "Design Automation and Test in Europe (DATE)"
+            "venue": "Design Automation and Test in Europe (DATE)",
+            "summary": "고밀도 및 고성능 온칩 메모리를 구현하기 위해 하이브리드 IGZO/Si 및 IGZO eDRAM의 3D 통합 기술을 연구하였습니다."
           }
         ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "International Conference on Learning Representations (ICLR)",
+            "count": 2
+          },
+          {
+            "venue": "Design Automation and Test in Europe (DATE)",
+            "count": 1
+          }
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "2004년 퍼듀대학교에서 전기 및 컴퓨터공학 박사 학위를, 1998년 서울대학교에서 전기공학 석사 학위를, 1994년 서울대학교에서 전자공학 학사 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "김재준 - 서울대학교 첨단융합학부",
             "url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/"
           }
         ],
-        "recruitment_summary": "No specific lab recruitment information was found on the provided official pages.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
-        "recruitment_source_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_status": "verified",
+        "poster_title": "김재준",
+        "poster_date": "2026-03-03",
+        "poster_event": "교수진 프로필",
+        "poster_image_url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/03/김재준.jpg",
+        "poster_source_url": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
+        "poster_evidence": "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
         "source_urls_used": [
           "https://snuti.snu.ac.kr/snu__professor/%EA%B9%80%EC%9E%AC%EC%A4%80/",
           "https://vlsi.snu.ac.kr/",
@@ -2891,20 +2913,15 @@
           "http://vlsi.snu.ac.kr/publications/",
           "https://snuti.snu.ac.kr/17904/",
           "https://admission.snu.ac.kr/",
-          "https://admission.snu.ac.kr",
-          "https://snuti.snu.ac.kr/18051/",
-          "https://snuti.snu.ac.kr/3rd-student-council/",
-          "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/03/김재준.jpg",
-          "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2026/08/김창옥대표님_포스터_학교용.png"
+          "https://admission.snu.ac.kr"
         ],
         "paper_count_visible": 3,
-        "paper_count_scope": "AI가 공식 페이지에서 직접 확인한 논문 제목",
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7D8FF3F48C333F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-11T01:44:29Z",
+        "_saved_at": "2026-09-27T22:25:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v1",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7D8FF3F48C333F"
     },
@@ -26084,7 +26101,7 @@
     },
     "SNU-RU-7DF8894C5B154A": {
       "fingerprint": "ea34c00c6aa26c5ee365cd8bf971f50472f61169a4ad501e03483b26409e6b74",
-      "checked_at": "2026-09-23T23:11:58Z",
+      "checked_at": "2026-09-27T22:25:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -91699,7 +91716,7 @@
     },
     "SNU-RU-7E04C5821468CE": {
       "fingerprint": "6e5b76419422c34f03acb08810eac0de8527ee0ae86ae9a48e1ca3678d573310",
-      "checked_at": "2026-09-23T23:31:35Z",
+      "checked_at": "2026-09-27T22:25:14Z",
       "activity": {
         "publicationPages": [
           {
@@ -174794,8 +174811,8 @@
       "_unit_id": "SNU-RU-D2FFB91AA41277"
     },
     "SNU-RU-7E5CBAE63F340C": {
-      "fingerprint": "0d776c2e93fe20ca0b614c93857cb49f839cc095e2c0b1144e8c7e611eb9d014",
-      "checked_at": "2026-09-13T23:59:31Z",
+      "fingerprint": "9490b0277cdf15214c57a8777c106cfffdb65bc54446af49a07bc3c935d2a7ba",
+      "checked_at": "2026-09-27T22:25:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -174910,17 +174927,18 @@
           "https://childfamily.snu.ac.kr/family-relations-lab2025/",
           "https://childfamily.snu.ac.kr/snu__professor/lee-jaerim/",
           "https://childfamily.snu.ac.kr",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
+          "https://childfamily.snu.ac.kr/intro/",
           "https://childfamily.snu.ac.kr/faculty/",
-          "https://childfamily.snu.ac.kr/office/",
-          "https://childfamily.snu.ac.kr/under_info1/",
+          "https://childfamily.snu.ac.kr/under_interviews/",
           "https://childfamily.snu.ac.kr/grad_admissions/",
           "https://childfamily.snu.ac.kr/integrated-major/",
           "https://childfamily.snu.ac.kr/recent-publications/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-7E5CBAE63F340C"
+      "_unit_id": "SNU-RU-7E5CBAE63F340C",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-21DDDCE5155272": {
       "fingerprint": "7151a3e876392cc2ca95fe2440a1f7422fdbf60bcf8b1966a0a315c25e523bce",
@@ -195573,11 +195591,25 @@
       "_unit_id": "SNU-RU-FFFC338A58E596"
     },
     "SNU-RU-7E17CAE4993724": {
-      "fingerprint": "e2b273ff5f8b54bee0302e99725d10651e53db6b650e6e316066e2490a94a020",
-      "checked_at": "2026-09-24T00:13:46Z",
+      "fingerprint": "1335b3d2c899ee1682b7364bbc7cfa559839e00316d7072822ea9fe1f54495fd",
+      "checked_at": "2026-09-27T22:25:15Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 주요일정 및 지원자 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987"
+          }
+        ],
         "membersUrl": "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -195586,15 +195618,15 @@
           "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#container",
           "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#footer",
           "https://admission.snu.ac.kr/",
-          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://forestry.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#none"
+          "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#none",
+          "https://www.snu.ac.kr/personal_information",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983"
         ]
       },
       "enrichment": {
-        "research_summary": "",
+        "research_summary": "식물분류학 및 수목학을 전공하며, 관련 분야의 연구를 수행하고 있습니다.",
         "research_topics": [
           "식물분류학",
           "수목학"
@@ -195614,10 +195646,24 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitment_summary": "서울대학교 농업생명과학대학 산림과학부의 대학원 입학 관련 정보는 입학포털 및 학부 공지사항을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 주요일정 및 지원자 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/",
@@ -195627,29 +195673,28 @@
         "poster_event": "",
         "poster_image_url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/장진성1.jpeg",
         "poster_source_url": "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/",
-        "poster_evidence": "Official professor profile page at SNU Forestry department.",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
           "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/",
+          "https://admission.snu.ac.kr/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
           "https://forestry.snu.ac.kr",
           "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#container",
-          "https://admission.snu.ac.kr/index.html",
-          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#footer",
           "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://forestry.snu.ac.kr/snu__professor/%EC%9E%A5%EC%A7%84%EC%84%B1/#none",
           "https://www.snu.ac.kr/personal_information",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983",
+          "https://www.snu.ac.kr/research/highlights"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7E17CAE4993724",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:09:59Z",
+        "_saved_at": "2026-09-27T22:25:27Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7E17CAE4993724"
     },
@@ -286425,10 +286470,6 @@
       "reason": "fetch_failed",
       "checked_at": "2026-09-24T00:26:31Z"
     },
-    "SNU-RU-7E5CBAE63F340C": {
-      "reason": "fetch_failed",
-      "checked_at": "2026-09-24T00:36:21Z"
-    },
     "SNU-RU-12BC76D8E552C8": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-24T00:53:51Z"
@@ -286483,11 +286524,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:24:44Z",
-    "checked": 450,
-    "seconds": 5385.3,
+    "at": "2026-09-27T22:25:42Z",
+    "checked": 455,
+    "seconds": 5442.87,
     "gemini": true,
-    "ai_requests": 364,
+    "ai_requests": 366,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
