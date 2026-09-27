@@ -1,5 +1,5 @@
 {
-  "cursor": 922,
+  "cursor": 927,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -148595,7 +148595,7 @@
     },
     "SNU-RU-7CA896A8D56525": {
       "fingerprint": "2d49a598d7d1d9d925e5073ac2528f4533923627f96c9476f0a536ac62c7e711",
-      "checked_at": "2026-09-24T01:03:15Z",
+      "checked_at": "2026-09-27T22:23:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -148705,7 +148705,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-7CA896A8D56525"
+      "_unit_id": "SNU-RU-7CA896A8D56525",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-FE77FC55A8A5CA": {
       "fingerprint": "f351a3a66cfb9e91bf66f30ec7f3a974ebe0a667c8d813a9858d14dc08c82947",
@@ -235520,117 +235521,163 @@
       "_unit_id": "SNU-RU-9D9B2E7D97FFFB"
     },
     "SNU-RU-7C5F16516DDFD3": {
-      "fingerprint": "4e7097afc8539f46e60c7919d65d353267d25b21a2a38b65cbaecf847f3fb2a0",
-      "checked_at": "2026-09-24T00:31:54Z",
+      "fingerprint": "5d6802dad480f9a2ccf907c0c6c1cbbed16f4e121c2774ea0d1ec8ad107b69dd",
+      "checked_at": "2026-09-27T22:23:17Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
-          },
-          {
-            "title": "계약학과",
-            "url": "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://sports.snu.ac.kr/wp-content/uploads/sites/185/2023/07/sports-logo.png",
-            "alt": "서울대학교 SNU",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://sports.snu.ac.kr/category/board-185-GN-CsX1312K-20230828174851/"
-          },
-          {
-            "url": "https://sports.snu.ac.kr/wp-content/uploads/sites/185/2023/08/최의창-교수님-ㅅ자ㅣㄴ-768x1152.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#none"
-          },
-          {
-            "url": "https://sports.snu.ac.kr/wp-content/uploads/sites/185/elementor/thumbs/logo_footer01-q9dx0ee3jqeasx1musyypaivo9xbr0jse4tncmc18e.png",
-            "alt": "logo_footer01.png",
-            "title": "logo_footer01.png",
-            "score": 0,
-            "parent_source_url": "https://sports.snu.ac.kr/category/board-185-GN-CsX1312K-20230828174851/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-            "alt": "서울대포털",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-            "alt": "입학안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-            "alt": "학사일정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
-            "alt": "전화번호안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          }
-        ],
         "sourcePagesScanned": [
           "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+          "https://sports.snu.ac.kr",
           "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#container",
+          "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#footer",
           "https://admission.snu.ac.kr/",
           "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#none",
-          "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
           "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
-          "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc-%eb%b8%8c%eb%a1%9c%ec%85%94/",
           "https://sports.snu.ac.kr/%ea%b5%90%ec%88%98%ec%86%8c%ea%b0%9c/",
           "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/",
           "https://sports.snu.ac.kr/category/board-185-GN-CsX1312K-20230828174851/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "스포츠교육학을 중심으로 스포츠전문인교육, 체육교사교육, 무용교육, 스포츠코치교육 분야를 연구하며, 특히 스포츠 리터러시, 인문적 체육교육, 교사 전문성 개발 및 교육과정 연구에 집중하고 있습니다.",
+        "research_topics": [
+          "스포츠교육학",
+          "스포츠전문인교육",
+          "체육교사교육",
+          "무용교육",
+          "스포츠코치교육"
+        ],
+        "recommendation_keywords": [
+          "스포츠교육학",
+          "스포츠 리터러시",
+          "체육교사교육",
+          "무용교육",
+          "스포츠코치교육",
+          "스포츠전문인교육"
+        ],
+        "recent_papers": [
+          {
+            "title": "Exploring core practices for dance educators: towards a practice-based pedagogy in Korean dance education",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2026",
+            "venue": "Physical Education and Sport Pedagogy",
+            "summary": "한국 무용 교육에서 실천 중심의 교수법을 확립하기 위해 무용 교육자가 갖추어야 할 핵심 실천 과제들을 탐색하였습니다."
+          },
+          {
+            "title": "Exploring Korean elementary classroom teachers’ practices of movement integration: The ten MI styles",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2026",
+            "venue": "Physical Education and Sport Pedagogy",
+            "summary": "한국 초등학교 교사들이 수업에서 움직임을 통합하는 10가지 실천 유형을 분석하였습니다."
+          },
+          {
+            "title": "한국무용 호흡, 어떻게 이해하고 있는가? : 교육내용으로서 호흡의 개념 및 구조 탐색",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2025",
+            "venue": "한국무용학회지",
+            "summary": "한국무용 교육에서 호흡의 개념과 구조를 교육적 내용의 관점에서 탐색하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Physical Education and Sport Pedagogy",
+            "count": 3
+          },
+          {
+            "venue": "한국무용학회지",
+            "count": 1
+          }
+        ],
+        "books": [
+          {
+            "title": "스포츠 파이데이아",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2026. 02.",
+            "venue": "레인보우북스",
+            "summary": "스포츠 교육의 인문학적 가치와 교육적 의미를 다룬 저서입니다."
+          },
+          {
+            "title": "(고등학교) 스포츠 과학",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2026. 02.",
+            "venue": "동아출판",
+            "summary": "고등학교 교육과정을 위한 스포츠 과학 교과서입니다."
+          },
+          {
+            "title": "(고등학교) 스포츠 문화",
+            "url": "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+            "year": "2026. 02.",
+            "venue": "동아출판",
+            "summary": "고등학교 교육과정을 위한 스포츠 문화 교과서입니다."
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 사범대학 체육교육과에서 스포츠 교육학, 배드민턴, 배구 과목을 담당하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "서울대학교 스포츠과학연구소 및 체육교육과 관련 공지사항을 통해 학생 모집 및 연구 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://sports.snu.ac.kr/category/board-185-GN-CsX1312K-20230828174851/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/",
+          "https://sports.snu.ac.kr",
+          "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#container",
+          "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://sports.snu.ac.kr/snu__professor/%EC%B5%9C%EC%9D%98%EC%B0%BD/#none",
+          "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://sports.snu.ac.kr/%ea%b5%90%ec%88%98%ec%86%8c%ea%b0%9c/",
+          "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/",
+          "https://sports.snu.ac.kr/category/board-185-GN-CsX1312K-20230828174851/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7C5F16516DDFD3",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:23:47Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-7C5F16516DDFD3"
     },
     "SNU-RU-2F60A3D29EA88A": {
@@ -285933,6 +285980,322 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7C4E8524322DF7"
+    },
+    "SNU-RU-7C75B2B9B2E1D2": {
+      "fingerprint": "e59e7ead5f6b9836583f6a5808ba2ea4b1d4a00ebb0d0f51d458a25ed17ed8f0",
+      "checked_at": "2026-09-27T22:23:02Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=13",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 인문대학은 개관, 국제화지원센터, 교육지원센터 등 다양한 학술 및 지원 조직을 운영하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/faculty?page=13",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/webdata/professor/a01z7c2z9f7z87bz122zdb1z3adzb33zc06z7a2z77.png",
+          "https://humanities.snu.ac.kr/webdata/professor/45fz0bdz23ez995zae2za32z687zffaza4fz0d4z45.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7C75B2B9B2E1D2",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:23:04Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7C75B2B9B2E1D2"
+    },
+    "SNU-RU-7CC956A3084587": {
+      "fingerprint": "d28b73b327f7cc61802ccd51221ee4f91c77888174f9c68d4e77fac6f2b4f295",
+      "checked_at": "2026-09-27T22:23:06Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "위상자료분석",
+          "기계학습이론"
+        ],
+        "recommendation_keywords": [
+          "위상자료분석",
+          "기계학습이론"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 자연과학대학은 학사지원, 입학정보, 연구지원 사업 등을 통해 학생 및 연구 활동을 지원하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "recruitment_source_url": "https://science.snu.ac.kr/campus-life/office",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+        "poster_status": "verified",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://science.snu.ac.kr/webdata/faculty/photo/25cz360zef5z89azff6z3a6zabbz6a3z9a8z438z65.jpg",
+        "poster_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+        "poster_evidence": "김지수 조교수 프로필 사진",
+        "source_urls_used": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+          "https://science.snu.ac.kr/webdata/faculty/photo/25cz360zef5z89azff6z3a6zabbz6a3z9a8z438z65.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7CC956A3084587",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:23:26Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7CC956A3084587"
+    },
+    "SNU-RU-7C593768F4DB43": {
+      "fingerprint": "2cb4007042c8a0e9fcbc02dcf21ff406eabc4950642400a862fe2f69b56ab2ed",
+      "checked_at": "2026-09-27T22:23:11Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학부및석사 논문 발표",
+            "url": "https://earthedu.snu.ac.kr/category/board-251-GN-1ldd5760-20231221142843/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학과사무실",
+            "url": "https://earthedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/"
+          }
+        ],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/",
+          "https://admission.snu.ac.kr/",
+          "https://earthedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://earthedu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://earthedu.snu.ac.kr/%eb%aa%85%ec%98%88-%ea%b5%90%ec%88%98/",
+          "https://earthedu.snu.ac.kr/category/board-251-GN-1ldd5760-20231221142843/",
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/#container",
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/#footer",
+          "https://snu.ac.kr/",
+          "https://my.snu.ac.kr/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 사범대학 지구과학교육과 소속으로, 학과 홈페이지를 통해 학부 및 석사 논문 발표 게시판을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "학부및석사 논문 발표",
+            "url": "https://earthedu.snu.ac.kr/category/board-251-GN-1ldd5760-20231221142843/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 입학포털 및 학과 홈페이지를 통해 입학 및 학사 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학과사무실",
+            "url": "https://earthedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://earthedu.snu.ac.kr/category/board-251-GN-1ldd5760-20231221142843/",
+          "https://admission.snu.ac.kr/",
+          "https://earthedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/",
+          "https://earthedu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://earthedu.snu.ac.kr/%eb%aa%85%ec%98%88-%ea%b5%90%ec%88%98/",
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/#container",
+          "https://earthedu.snu.ac.kr/category/board-251-gn-tp0bd1ho-20231221142453/#footer",
+          "https://snu.ac.kr/",
+          "https://my.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7C593768F4DB43",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:23:29Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7C593768F4DB43"
     }
   },
   "failures": {
@@ -286062,11 +286425,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:22:47Z",
-    "checked": 440,
-    "seconds": 5268.03,
+    "at": "2026-09-27T22:23:47Z",
+    "checked": 445,
+    "seconds": 5328.62,
     "gemini": true,
-    "ai_requests": 356,
+    "ai_requests": 360,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
