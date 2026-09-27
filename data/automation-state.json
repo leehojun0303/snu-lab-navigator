@@ -1,5 +1,5 @@
 {
-  "cursor": 812,
+  "cursor": 817,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -75653,31 +75653,18 @@
       "_unit_id": "SNU-RU-0E8CF5216A68CB"
     },
     "SNU-RU-6BC1321F617709": {
-      "fingerprint": "1dc18da6c6c53863c74bb35e9f6ec00a7c9f051d186b93fa766cb3acf4e80d63",
-      "checked_at": "2026-09-24T00:12:14Z",
+      "fingerprint": "4fff405ac2eae9c439d0bd3370e901761b1e01ee2940a2aa5e3c75381d3889f5",
+      "checked_at": "2026-09-27T22:01:23Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "Journals",
+            "url": "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
-          }
-        ],
-        "membersUrl": "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
-        "posterStatus": "unverified_candidate",
+        "recruitmentPages": [],
+        "membersUrl": "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=11&cate=11",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://calslab.snu.ac.kr/bmpm/",
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
@@ -75692,7 +75679,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "고분자 기반의 약물 및 유전자 전달체 개발, 생체고분자의 화학적 개질을 통한 의료용 소재 개발, 그리고 무기/탄소나노 소재와 고분자 복합화를 통한 의료용 나노 구조체 개발을 주요 연구 분야로 하고 있습니다.",
+        "research_summary": "김태일 교수는 의용생체고분자공학을 전공하며, 고분자 기반의 약물 및 유전자 전달체 개발, 생체고분자의 화학적 개질을 통한 의료용 소재 개발, 그리고 무기/탄소나노 소재와 고분자 복합화를 통한 의료용 나노 구조체 개발을 주요 연구 분야로 삼고 있습니다.",
         "research_topics": [
           "고분자 기반 약물/유전자 전달체 개발",
           "생체고분자의 화학적 개질을 통한 의료용 소재 개발",
@@ -75700,17 +75687,48 @@
         ],
         "recommendation_keywords": [
           "의용생체고분자공학",
-          "약물전달체",
-          "유전자전달체",
+          "약물전달시스템",
+          "유전자전달",
           "생체고분자",
           "나노구조체",
           "고분자 기반 약물/유전자 전달체 개발",
           "생체고분자의 화학적 개질을 통한 의료용 소재 개발",
           "무기/탄소나노 소재와 고분자 복합화를 통한 의료용 나노 구조체 개발"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Dimensional precision in DNA affinity by layered double hydroxides with length and size selectivity",
+            "url": "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310",
+            "year": "2025",
+            "venue": "Applied Clay Science",
+            "summary": "층상 이중 수산화물(LDH)을 이용하여 DNA의 길이와 크기에 따른 선택적 친화력을 조절하는 정밀한 구조 제어 연구입니다."
+          },
+          {
+            "title": "Synthesis and characterization of polyethyleneimine modified methylcellulose nanocarrier for doxorubicin delivery",
+            "url": "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310",
+            "year": "2025",
+            "venue": "Macromolecular Research",
+            "summary": "독소루비신 전달을 위해 폴리에틸렌이민으로 개질된 메틸셀룰로오스 나노운반체를 합성하고 그 특성을 분석한 연구입니다."
+          },
+          {
+            "title": "Cationic Hydroxyethyl Cellulose Nanocomplexes and RANK siRNA/Zoledronate Co-Delivery Systems for Osteoclast Inhibition",
+            "url": "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310",
+            "year": "2024",
+            "venue": "Pharmaceutics",
+            "summary": "파골세포 억제를 위해 양이온성 하이드록시에틸 셀룰로오스 나노복합체를 이용한 RANK siRNA와 졸레드로네이트의 공동 전달 시스템을 개발하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 2,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Applied Clay Science",
+            "count": 1
+          },
+          {
+            "venue": "Macromolecular Research",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -75718,33 +75736,20 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 농업생명과학대학 바이오시스템·소재학부 바이오소재공학 전공 교수입니다.",
+        "education_summary": "서울대학교 농업생명과학대학 바이오시스템·소재학부 바이오소재공학 전공 교수로서 의용생체고분자공학 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
+            "title": "Journals",
+            "url": "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310"
           }
         ],
-        "recruitment_summary": "관련 학부 및 대학원 입학 정보는 서울대학교 입학포털을 통해 확인할 수 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
-        "poster_status": "unverified_candidate",
+        "member_page_url": "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=11&cate=11",
+        "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
@@ -75753,27 +75758,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/",
-          "https://admission.snu.ac.kr/",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
-          "https://www.snu.ac.kr/research/highlights",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1310&cate=1310",
+          "https://calslab.snu.ac.kr/bmpm/",
           "https://bio4u.snu.ac.kr",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#container",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://bio4u.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://bio4u.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%952/",
-          "https://bio4u.snu.ac.kr/snu__professor/%EA%B9%80%ED%83%9C%EC%9D%BC/#none",
-          "https://www.snu.ac.kr/personal_information"
+          "https://calslab.snu.ac.kr/bmpm/board.read?mcode=14&id=10",
+          "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=11&cate=11",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=10&cate=10",
+          "https://calslab.snu.ac.kr/bmpm/doc.view?mcode=1112&cate=1112",
+          "https://calslab.snu.ac.kr/bmpm/menu.blank?mcode=13&cate=13",
+          "https://calslab.snu.ac.kr/bmpm/board.read?mcode=14&id=9",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://admission.snu.ac.kr/"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6BC1321F617709",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:06:23Z",
+        "_saved_at": "2026-09-27T22:01:52Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6BC1321F617709"
     },
@@ -166021,118 +166024,18 @@
       "_unit_id": "SNU-RU-404B441C0A7342"
     },
     "SNU-RU-6BF1E059C0E68D": {
-      "fingerprint": "9b3e4d1a11c7c0a05e12caf2272a0a9294891b6591f1b8537d50e16db9ee371f",
-      "checked_at": "2026-09-24T00:45:43Z",
+      "fingerprint": "e4dfde7a1ee913879c42a83b182c5dc3c4616838e41b69d172d3b7d9baddea28",
+      "checked_at": "2026-09-27T22:01:03Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "https://shleelab.wixsite.com/shleelab/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "Elsevier 저자 워크숍 - 신진 연구자를 위한 국제 논문 출판 전략 (2026. 9. 30.(수) 10:00) 참여 안내",
-            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073",
-            "kind": "publication"
-          },
-          {
-            "title": "더보기",
-            "url": "https://snupharm.snu.ac.kr/연구성과/",
-            "kind": "publication"
+            "url": "https://shleelab.wixsite.com/shleelab/publications"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "편입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://shleelab.wixsite.com/shleelab/lab-members",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://static.wixstatic.com/media/443363_844474a643de48e994aad90d22415c45~mv2.png/v1/fill/w_141,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%252525EA%252525B5%252525AD%252525EC%25252598%25252581%252525EB%252525AC%252525B8%252525EC%252525A1%252525B0%252525ED%25252595%252.png",
-            "alt": "%2525EA%2525B5%2525AD%2525EC%252598%252581%2525EB%2525AC%2525B8%2525EC%2525A1%2525B0%2525ED%252595%2",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://shleelab.wixsite.com/shleelab/gallery"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/443363_0a604bb74b874850ac170456db05a265~mv2.png/v1/fill/w_798,h_378,al_c,lg_1,q_85,enc_avif,quality_auto/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%25.png",
-            "alt": "%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://shleelab.wixsite.com/shleelab"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
-            "alt": "Facebook",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://shleelab.wixsite.com/shleelab/contact"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
-            "alt": "Twitter",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://shleelab.wixsite.com/shleelab/contact"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
-            "alt": "LinkedIn",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://shleelab.wixsite.com/shleelab/contact"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
-            "alt": "서울대학교 서울대학교 약학대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/#container"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/이승희.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/#container"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
-            "alt": "logo_footer01.png",
-            "title": "logo_footer01.png",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/#container"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://shleelab.wixsite.com/shleelab",
           "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/",
@@ -166146,7 +166049,110 @@
           "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/#container"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "이승희 교수의 연구실은 신경 발달, 배아 줄기세포, 대사 및 종양 발생 과정에서의 유전자 조절 네트워크를 연구합니다. 주요 연구 분야는 신경 줄기세포의 신경세포 분화 및 세포 운명 결정 기전, MLL4 복합체를 중심으로 한 대사 항상성의 후성유전학적 조절 기전, 그리고 에너지 대사를 조절하는 시상하부 신경세포의 발달 및 기능 연구를 포함합니다.",
+        "research_topics": [
+          "신경 발달에서의 유전자 조절",
+          "배아 줄기세포",
+          "대사 항상성의 후성유전학적 조절",
+          "종양 발생",
+          "시상하부 신경세포 발달 및 기능"
+        ],
+        "recommendation_keywords": [
+          "약물학",
+          "분자세포생물학",
+          "신경발달",
+          "후성유전학",
+          "대사질환",
+          "신경 발달에서의 유전자 조절",
+          "배아 줄기세포",
+          "대사 항상성의 후성유전학적 조절",
+          "종양 발생",
+          "시상하부 신경세포 발달 및 기능"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://shleelab.wixsite.com/shleelab/publications"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [
+          {
+            "name": "이준경",
+            "role": "석박통합과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          },
+          {
+            "name": "WEI ZHUODU",
+            "role": "박사과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          },
+          {
+            "name": "박시원",
+            "role": "석박통합과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          },
+          {
+            "name": "한규연",
+            "role": "석박통합과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          },
+          {
+            "name": "이윤서",
+            "role": "석박통합과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          },
+          {
+            "name": "김재겸",
+            "role": "석박통합과정",
+            "url": "https://shleelab.wixsite.com/shleelab/lab-members"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://shleelab.wixsite.com/shleelab/lab-members",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://shleelab.wixsite.com/shleelab/lab-members",
+          "https://shleelab.wixsite.com/shleelab/research",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/",
+          "https://shleelab.wixsite.com/shleelab",
+          "https://snupharm.snu.ac.kr",
+          "https://shleelab.wixsite.com/shleelab/professor",
+          "https://shleelab.wixsite.com/shleelab/publications",
+          "https://shleelab.wixsite.com/shleelab/contact",
+          "https://shleelab.wixsite.com/shleelab/gallery",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%9D%B4%EC%8A%B9%ED%9D%AC/#container",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+          "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6BF1E059C0E68D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:01:13Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-6BF1E059C0E68D"
     },
     "SNU-RU-3D8B08134441CE": {
@@ -203379,7 +203385,7 @@
     },
     "SNU-RU-6BE8AE04397506": {
       "fingerprint": "0acc62cf66f067199cc3ecb5f057a9c602030842f722adb98dc4eb99ede79e73",
-      "checked_at": "2026-09-24T00:15:09Z",
+      "checked_at": "2026-09-27T22:01:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -280137,6 +280143,221 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6A97FC2FA237BD"
+    },
+    "SNU-RU-6BE4294D0FA8DE": {
+      "fingerprint": "a406e964ed028be624bfe71a2de46e8d9e5549daf5cab87af1dec6fce9d709f5",
+      "checked_at": "2026-09-27T22:01:17Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "2026학년도 2학기 학위논문제출기한 초과자 연구생 등록 신청 안내",
+            "url": "https://consumer.snu.ac.kr/23912/"
+          },
+          {
+            "title": "2026학년도 1학기 소비자문제 해결을 위한 석·박사 학위논문 연구비 지원사업 개최 안내",
+            "url": "https://consumer.snu.ac.kr/23726/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "전공설계지원센터",
+            "url": "https://advising.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학부입학",
+            "url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "title": "학사편입학",
+            "url": "https://admission.snu.ac.kr/transfer/notice"
+          }
+        ],
+        "membersUrl": "https://consumer.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d-%ec%9d%b8%ed%84%b0%eb%b7%b0/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://consumer.snu.ac.kr/%eb%aa%85%ec%98%88-%eb%b0%8f-%ed%87%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://consumer.snu.ac.kr",
+          "https://advising.snu.ac.kr/",
+          "https://admission.snu.ac.kr/",
+          "https://consumer.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://consumer.snu.ac.kr/%ec%b4%88%eb%b9%99-%eb%b0%8f-%ea%b2%b8%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://consumer.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://consumer.snu.ac.kr/category/board-53-GR-sPfj15NW-20230305175455/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/transfer/notice"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "2026학년도 2학기 학위논문제출기한 초과자 연구생 등록 신청 안내",
+            "url": "https://consumer.snu.ac.kr/23912/"
+          },
+          {
+            "title": "2026학년도 1학기 소비자문제 해결을 위한 석·박사 학위논문 연구비 지원사업 개최 안내",
+            "url": "https://consumer.snu.ac.kr/23726/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 소비자아동학부(소비자학전공)는 입학포털 및 전공설계지원센터를 통해 학부 입학 및 학사편입학 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "전공설계지원센터",
+            "url": "https://advising.snu.ac.kr/"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "학부입학",
+            "url": "https://admission.snu.ac.kr/index.html"
+          },
+          {
+            "title": "학사편입학",
+            "url": "https://admission.snu.ac.kr/transfer/notice"
+          }
+        ],
+        "recruitment_source_url": "https://consumer.snu.ac.kr",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://consumer.snu.ac.kr/%ec%a1%b8%ec%97%85%ec%83%9d-%ec%9d%b8%ed%84%b0%eb%b7%b0/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://consumer.snu.ac.kr/%eb%aa%85%ec%98%88-%eb%b0%8f-%ed%87%b4%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://consumer.snu.ac.kr/23912/",
+          "https://consumer.snu.ac.kr/23726/",
+          "https://advising.snu.ac.kr/",
+          "https://admission.snu.ac.kr/",
+          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/transfer/notice",
+          "https://consumer.snu.ac.kr",
+          "https://consumer.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://consumer.snu.ac.kr/%ec%b4%88%eb%b9%99-%eb%b0%8f-%ea%b2%b8%ec%9e%84%ea%b5%90%ec%88%98/",
+          "https://consumer.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://consumer.snu.ac.kr/category/board-53-GR-sPfj15NW-20230305175455/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6BE4294D0FA8DE",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:01:20Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-6BE4294D0FA8DE"
+    },
+    "SNU-RU-6B9382448DFE05": {
+      "fingerprint": "fcd14ea9959b920faf810d269e2b6933491043a739a82b6864c981cdf6968016",
+      "checked_at": "2026-09-27T22:01:22Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "약대뉴스 Archives - 서울대학교 약학대학",
+            "url": "https://snupharm.snu.ac.kr/13554/"
+          }
+        ],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://snupharm.snu.ac.kr/13554/",
+          "https://snupharm.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 약학대학 오동찬 교수는 세계적인 학술지인 'Natural Product Reports'의 편집장으로 선임되었습니다.",
+        "research_topics": [],
+        "recommendation_keywords": [
+          "오동찬",
+          "서울대학교 약학대학",
+          "Natural Product Reports",
+          "편집장"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "약대뉴스 Archives - 서울대학교 약학대학",
+            "url": "https://snupharm.snu.ac.kr/13554/"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://snupharm.snu.ac.kr/13554/",
+          "https://snupharm.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+          "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6B9382448DFE05",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:01:36Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-6B9382448DFE05"
     }
   },
   "failures": {
@@ -280266,11 +280487,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:00:47Z",
-    "checked": 330,
-    "seconds": 3948.27,
+    "at": "2026-09-27T22:01:52Z",
+    "checked": 335,
+    "seconds": 4013.21,
     "gemini": true,
-    "ai_requests": 262,
+    "ai_requests": 266,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
