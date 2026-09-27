@@ -1,5 +1,5 @@
 {
-  "cursor": 697,
+  "cursor": 702,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -92807,8 +92807,8 @@
       "_unit_id": "SNU-RU-30DD69D6B4D8B2"
     },
     "SNU-RU-59AC2D42CE8596": {
-      "fingerprint": "c79cd3a3bc20b98725cf600929f39fcff7fd1b62feba4d799c7fff410efc509b",
-      "checked_at": "2026-09-23T23:32:07Z",
+      "fingerprint": "ba30120ea1eb5401307afb7b0b71cd8ddfa1ebb3a82187da7f591fcbe89ddeac",
+      "checked_at": "2026-09-27T21:36:28Z",
       "activity": {
         "publicationPages": [
           {
@@ -92842,20 +92842,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "문민환 교수는 영상의학 분야, 특히 이중 에너지 CT(Dual-Energy CT)를 활용한 영상 분할 및 데이터 생성 연구를 수행하고 있습니다.",
+        "research_summary": "문민환 교수는 영상의학 분야, 특히 방사선과학을 중심으로 연구를 수행하고 있으며, 듀얼 에너지 CT를 활용한 요관 분할(ureter segmentation)을 위한 학습 데이터 생성 등 영상 처리 및 분석 기술에 관한 연구 성과를 보유하고 있습니다.",
         "research_topics": [
           "방사선과학",
           "영상의학",
-          "이중 에너지 CT",
-          "영상 분할"
+          "듀얼 에너지 CT",
+          "요관 분할"
         ],
         "recommendation_keywords": [
           "방사선과학",
           "영상의학",
-          "CT 영상",
-          "데이터 생성",
-          "이중 에너지 CT",
-          "영상 분할"
+          "CT 영상 분석",
+          "듀얼 에너지 CT",
+          "요관 분할"
         ],
         "recent_papers": [
           {
@@ -92863,7 +92862,7 @@
             "url": "https://snu.elsevierpure.com/en/publications/generating-training-data-for-ureter-segmentation-using-dual-energ/",
             "year": "2024",
             "venue": "Journal of Digital Imaging",
-            "summary": "이중 에너지 CT의 이물질 분해 기술을 활용하여 요관 분할을 위한 학습 데이터를 생성하는 방법을 제안하였습니다."
+            "summary": "듀얼 에너지 CT의 이물질 분해 기술을 활용하여 요관 분할을 위한 학습 데이터를 생성하는 방법을 제안하였습니다."
           }
         ],
         "recent_year_paper_count": 89,
@@ -92886,7 +92885,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-moon-3/publications/"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "현재 공식적인 연구실 모집 공고는 확인되지 않습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Generating Training Data for Ureter Segmentation Using Dual-Energy CT Two-Material Decomposition",
@@ -92903,7 +92902,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960165/302_Moon_+Min+Hoan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-moon-3/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-moon-3/",
           "https://snu.elsevierpure.com/en/publications/generating-training-data-for-ureter-segmentation-using-dual-energ/",
@@ -92922,10 +92921,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-59AC2D42CE8596",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:41:46Z",
+        "_saved_at": "2026-09-27T21:36:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-59AC2D42CE8596"
     },
@@ -118149,10 +118147,15 @@
       "_unit_id": "SNU-RU-4BC5DCB67025C9"
     },
     "SNU-RU-5A527B00B823AB": {
-      "fingerprint": "b312241fc807b790f8426982bef6ac4b6d7cd74e8f6b7fe6f1c0879c2e58efcb",
-      "checked_at": "2026-09-24T00:44:25Z",
+      "fingerprint": "5c21a5461b6a0aa64a172b47feaad30c15eb98b82afd7ae7843d94e46b53ed22",
+      "checked_at": "2026-09-27T21:36:26Z",
       "activity": {
         "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+            "kind": "publication"
+          },
           {
             "title": "연구성과",
             "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
@@ -118172,19 +118175,9 @@
             "title": "연구성과",
             "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
             "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
           }
         ],
         "recruitmentPages": [
-          {
-            "title": "2026학년도 제2차 서울대학교 약학대학 대학교원 신규채용 공고",
-            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9069",
-            "kind": "recruitment"
-          },
           {
             "title": "입학포털",
             "url": "https://admission.snu.ac.kr/",
@@ -118199,6 +118192,11 @@
             "title": "신입학전형 모집안내",
             "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
             "kind": "recruitment"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
@@ -118209,7 +118207,28 @@
             "alt": "서울대학교 서울대학교 약학대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
+            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/박형근.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/#none"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/research_hgpk.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/#none"
+          },
+          {
+            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
+            "alt": "logo_footer01.png",
+            "title": "logo_footer01.png",
+            "score": 0,
+            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/"
           },
           {
             "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_01-2.png",
@@ -118233,28 +118252,7 @@
             "parent_source_url": "https://snupharm.snu.ac.kr"
           },
           {
-            "url": "https://snupharm.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
             "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut03-1-1.png",
             "alt": "",
             "title": "",
             "score": 0,
@@ -118263,19 +118261,20 @@
         ],
         "sourcePagesScanned": [
           "http://hgpk.cafe24.com/wp",
+          "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/",
           "https://snupharm.snu.ac.kr",
-          "https://snupharm.snu.ac.kr/%ea%b3%b5%ec%a7%80%ec%82%ac%ed%95%ad/?mod=document&uid=9069",
+          "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/#container",
+          "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/#footer",
           "https://admission.snu.ac.kr/",
-          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EB%B0%95%ED%98%95%EA%B7%BC/#none",
           "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
-          "https://www.snu.ac.kr/campuslife/aid/disabled"
+          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-5A527B00B823AB"
+      "_unit_id": "SNU-RU-5A527B00B823AB",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-7A5E838C9F97FF": {
       "fingerprint": "58dd0c70041ba90ab03ff0f1ba0473512055e6045ae2b5c24c23787a81f613dd",
@@ -168687,11 +168686,21 @@
       "_unit_id": "SNU-RU-ACBFE1BB945114"
     },
     "SNU-RU-59AF24CA5E9F11": {
-      "fingerprint": "fa2331016dd3795de354ac0c3ec0ad0fe0d6de7f4923aa59a352e0e73aaf0cee",
-      "checked_at": "2026-09-24T00:16:56Z",
+      "fingerprint": "ff1b997de14e1a1fc3fd17e83736fd5496cfcf85429c8a6b8bcec7329e9a99f1",
+      "checked_at": "2026-09-27T21:36:42Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -168704,22 +168713,16 @@
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://www.snu.ac.kr/personal_information"
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none"
         ]
       },
       "enrichment": {
-        "research_summary": "식물균병학을 전공하며, 식물 병원균의 병원성 기작 및 식물-미생물 상호작용에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
-          "식물균병학",
-          "식물 병원균 병원성 기작",
-          "식물-미생물 상호작용"
+          "식물균병학"
         ],
         "recommendation_keywords": [
-          "식물균병학",
-          "식물 병원균",
-          "병원성 기작",
-          "식물 병원균 병원성 기작",
-          "식물-미생물 상호작용"
+          "식물균병학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -168732,10 +168735,20 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
+        "verified_publication_pages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
@@ -168745,29 +168758,28 @@
         "poster_event": "",
         "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/이용환.jpeg",
         "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
-        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진 및 정보",
+        "poster_evidence": "Official professor profile page at SNU Department of Agricultural Biotechnology.",
         "source_urls_used": [
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/",
+          "https://admission.snu.ac.kr/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://abc.snu.ac.kr",
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#container",
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#footer",
-          "https://admission.snu.ac.kr/index.html",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9A%A9%ED%99%98/#none",
-          "https://www.snu.ac.kr/personal_information",
-          "https://snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://www.snu.ac.kr/research/highlights"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-59AF24CA5E9F11",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:19:27Z",
+        "_saved_at": "2026-09-27T21:36:51Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-59AF24CA5E9F11"
     },
@@ -274005,6 +274017,106 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-59615BE7247092"
+    },
+    "SNU-RU-59EB96E80B71AA": {
+      "fingerprint": "24dc1c3fd9e2f7df00d83e3aca9954f5a609c56e009a04ba6155c3b8a61488e4",
+      "checked_at": "2026-09-27T21:36:15Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/academics/faculty?page=15",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/academics/faculty?page=11",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/academics/faculty?page=15",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/academics/faculty?page=11",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/webdata/noimage/no-faculty.png",
+          "https://humanities.snu.ac.kr/webdata/professor/b89z1c4z1a8z180z4cazd9az2b9zbd5z608z186z75.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-59EB96E80B71AA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:36:22Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-59EB96E80B71AA"
     }
   },
   "failures": {
@@ -274123,14 +274235,18 @@
     "SNU-RU-E3E940C943B2DA": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-24T22:34:50Z"
+    },
+    "SNU-RU-5A7994A122B054": {
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-27T21:36:03Z"
     }
   },
   "last_run": {
-    "at": "2026-09-27T21:35:59Z",
-    "checked": 215,
-    "seconds": 2460.41,
+    "at": "2026-09-27T21:36:51Z",
+    "checked": 220,
+    "seconds": 2512.51,
     "gemini": true,
-    "ai_requests": 170,
+    "ai_requests": 173,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
