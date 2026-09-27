@@ -1,5 +1,5 @@
 {
-  "cursor": 847,
+  "cursor": 852,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -112995,8 +112995,8 @@
       "_unit_id": "SNU-RU-409581344AB3FF"
     },
     "SNU-RU-71718C29960383": {
-      "fingerprint": "4d5027f80a73b39e902d5d4d6e7860917cebd08fa2e82e2e37ab711d406c36c7",
-      "checked_at": "2026-09-24T00:20:51Z",
+      "fingerprint": "987f51f745451438da489f1765fd873846bc136672388a3dfda83f8dbe8646ab",
+      "checked_at": "2026-09-27T22:08:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -113106,7 +113106,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-71718C29960383"
+      "_unit_id": "SNU-RU-71718C29960383",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-1080A55337B760": {
       "fingerprint": "4508f16b1db47b758550eedc33c8884b5562450852172419423032960d526562",
@@ -281761,6 +281762,517 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-70E319AB2C53A5"
+    },
+    "SNU-RU-71756154FC90CA": {
+      "fingerprint": "eb873a18e99e631ce52fd46a9bf4b167df59c876abf630b77ef893d9d5817f25",
+      "checked_at": "2026-09-27T22:08:56Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=2",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/about/guide/program"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학에서는 대학원생을 위한 학술대회 참가 지원 프로그램과 신입생 멘토링 등을 운영하며, 입학 모집 안내 및 관련 FAQ를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/student/global/support",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "가종억 교수",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/retired/effz33czed9z379zb71zdcbz767zd68z079z8bczf0.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/previous-faculty",
+        "poster_evidence": "서울대학교 농업생명과학대학 명예/퇴임 교수 명단에 가종억 교수가 포함되어 있습니다.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=2",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/guide/program",
+          "https://cals.snu.ac.kr/webdata/professor/retired/effz33czed9z379zb71zdcbz767zd68z079z8bczf0.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-71756154FC90CA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:09:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-71756154FC90CA"
+    },
+    "SNU-RU-718BE44D669B80": {
+      "fingerprint": "af1a664d1b9734988f5fae232939a876871a75a852f9e19039d99491be8740b7",
+      "checked_at": "2026-09-27T22:08:57Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학위논문 제본 및 인쇄요령",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646"
+          },
+          {
+            "title": "논문심사 일정 및 계획",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          },
+          {
+            "title": "입학 및 졸업 관련양식",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
+          }
+        ],
+        "membersUrl": "https://chem.snu.ac.kr/alumni/about",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://chem.snu.ac.kr/research-faculty/support-seminar",
+          "https://chem.snu.ac.kr",
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/alumni/about",
+          "https://chem.snu.ac.kr/alumni/notice",
+          "https://chem.snu.ac.kr/about/student",
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://chem.snu.ac.kr/research-faculty/faculty/emeriti",
+          "https://chem.snu.ac.kr/research-faculty/convenience",
+          "https://chem.snu.ac.kr/academics/archive/admission"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 화학부 내 세미나 지원시설은 학부 내 연구 및 학술 활동을 위한 세미나 개최를 지원하는 시설입니다.",
+        "research_topics": [
+          "세미나 지원",
+          "학술 행사 지원"
+        ],
+        "recommendation_keywords": [
+          "화학부",
+          "세미나",
+          "연구 지원",
+          "세미나 지원",
+          "학술 행사 지원"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "학위논문 제본 및 인쇄요령",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646"
+          },
+          {
+            "title": "논문심사 일정 및 계획",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645"
+          }
+        ],
+        "recruitment_summary": "서울대학교 화학부에서는 실험지원시설 및 입학/졸업 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          },
+          {
+            "title": "입학 및 졸업 관련양식",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
+          }
+        ],
+        "recruitment_source_url": "https://chem.snu.ac.kr/research-faculty/support-lab",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://chem.snu.ac.kr/alumni/about",
+        "poster_status": "verified",
+        "poster_title": "세미나 지원시설",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://chem.snu.ac.kr/webdata/uploaded/images/12fz5f1z0c2z9dczc81zd4fzb3az944z578z001z4a.jpg",
+        "poster_source_url": "https://chem.snu.ac.kr/research-faculty/support-seminar",
+        "poster_evidence": "세미나 지원시설 안내 페이지에 게시된 이미지입니다.",
+        "source_urls_used": [
+          "https://chem.snu.ac.kr/research-faculty/support-seminar",
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/academics/archive/admission",
+          "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6646",
+          "https://chem.snu.ac.kr/academics/archive/admission?md=v&bbsidx=6645",
+          "https://chem.snu.ac.kr",
+          "https://chem.snu.ac.kr/alumni/about",
+          "https://chem.snu.ac.kr/alumni/notice",
+          "https://chem.snu.ac.kr/about/student",
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://chem.snu.ac.kr/research-faculty/faculty/emeriti",
+          "https://chem.snu.ac.kr/research-faculty/convenience"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-718BE44D669B80",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:09:14Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-718BE44D669B80"
+    },
+    "SNU-RU-71120154569E3C": {
+      "fingerprint": "adf7aadd88d9885287f9c46e6607a350952d8bb093e8f9c9c0975eddb31d9270",
+      "checked_at": "2026-09-27T22:09:07Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/"
+          }
+        ],
+        "membersUrl": "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+          "https://cls.snu.ac.kr",
+          "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+          "https://admission.snu.ac.kr/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+          "https://cls.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95/",
+          "https://cls.snu.ac.kr/%ec%9e%90%ec%9c%a8%ec%a0%84%ea%b3%b5%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95-%ea%b5%ac%ec%84%b1/",
+          "https://cls.snu.ac.kr/%ec%9e%90%ec%9c%a0%ec%a0%84%ea%b3%b5%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95-%ea%b0%9c%ed%8e%b8-%ec%95%88%eb%82%b4/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "학술제 수상 논문집",
+            "url": "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 자유전공학부 입학포털 및 모집요강을 통해 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/"
+          }
+        ],
+        "recruitment_source_url": "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+        "current_members": [
+          {
+            "name": "김범수",
+            "role": "교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ea%b9%80%eb%b2%94%ec%88%98/"
+          },
+          {
+            "name": "양일모",
+            "role": "교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%96%91%ec%9d%bc%eb%aa%a8-2/"
+          },
+          {
+            "name": "유화종",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%9c%a0%ed%99%94%ec%a2%85-2/"
+          },
+          {
+            "name": "이하람",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%9d%b4%ed%95%98%eb%9e%8c/"
+          },
+          {
+            "name": "정동일",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%a0%95%eb%8f%99%ec%9d%bc/"
+          },
+          {
+            "name": "조준희",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%a1%b0%ec%a4%80%ed%9d%ac/"
+          },
+          {
+            "name": "최준원",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%b5%9c%ec%a4%80%ec%9b%90/"
+          },
+          {
+            "name": "현재환",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ed%98%84%ec%9e%ac%ed%99%98/"
+          },
+          {
+            "name": "황지수",
+            "role": "부교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ed%99%a9%ec%a7%80%ec%88%98/"
+          },
+          {
+            "name": "강민석",
+            "role": "조교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ea%b0%95%eb%af%bc%ec%84%9d/"
+          },
+          {
+            "name": "신예은",
+            "role": "조교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%8b%a0%ec%98%88%ec%9d%80/"
+          },
+          {
+            "name": "오도영",
+            "role": "조교수",
+            "url": "https://cls.snu.ac.kr/snu__professor/%ec%98%a4%eb%8f%84%ec%98%81/"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+        "poster_status": "verified",
+        "poster_title": "현직 교수",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cls.snu.ac.kr/wp-content/uploads/sites/151/2023/06/김범수-교수님.jpg",
+        "poster_source_url": "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+        "poster_evidence": "현직 교수진 목록 페이지",
+        "source_urls_used": [
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+          "https://cls.snu.ac.kr/",
+          "https://cls.snu.ac.kr",
+          "https://cls.snu.ac.kr/category/board-151-GN-qQK3rsWD-20230622155053/",
+          "https://admission.snu.ac.kr/",
+          "https://cls.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%ec%a0%84%ec%a7%81-%ea%b5%90%ec%88%98_%ea%b2%b8%eb%ac%b4/",
+          "https://cls.snu.ac.kr/%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+          "https://cls.snu.ac.kr/%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95/",
+          "https://cls.snu.ac.kr/%ec%9e%90%ec%9c%a8%ec%a0%84%ea%b3%b5%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95-%ea%b5%ac%ec%84%b1/",
+          "https://cls.snu.ac.kr/%ec%9e%90%ec%9c%a0%ec%a0%84%ea%b3%b5%ed%95%99%eb%b6%80-%ea%b5%90%ea%b3%bc%ea%b3%bc%ec%a0%95-%ea%b0%9c%ed%8e%b8-%ec%95%88%eb%82%b4/",
+          "https://cls.snu.ac.kr/53142/",
+          "https://www.snu.ac.kr/research/highlights"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-71120154569E3C",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:09:29Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-71120154569E3C"
+    },
+    "SNU-RU-71B81D1A954087": {
+      "fingerprint": "98deff44a6a62d2b3cc584454790f72507dbdcb4b8213dc03736e7b4a6a76278",
+      "checked_at": "2026-09-27T22:09:11Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          },
+          {
+            "title": "Elsevier 저자 워크숍 안내 ( 신진 연구자를 위한 국제 논문 출판 전략 )",
+            "url": "https://gsis.snu.ac.kr/31966/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://gsis.snu.ac.kr/31959/"
+          }
+        ],
+        "membersUrl": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ssims.snu.ac.kr/SSOService.do",
+          "https://gsis.snu.ac.kr",
+          "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+          "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+          "https://gsis.snu.ac.kr/31959/",
+          "https://admission.snu.ac.kr/",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/emeritusretired-professors/",
+          "https://gsis.snu.ac.kr/student-roundtables/",
+          "https://gsis.snu.ac.kr/application/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "IIA Journals",
+            "url": "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/"
+          },
+          {
+            "title": "Elsevier 저자 워크숍 안내 ( 신진 연구자를 위한 국제 논문 출판 전략 )",
+            "url": "https://gsis.snu.ac.kr/31966/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 국제대학원은 신규 교수 채용 공고를 게시하며, 2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생을 모집하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Faculty Job Openings",
+            "url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/"
+          },
+          {
+            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
+            "url": "https://gsis.snu.ac.kr/31959/"
+          }
+        ],
+        "recruitment_source_url": "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://gsis.snu.ac.kr/category/board-286-GN-jlzc31oE-20240618115111/",
+          "https://gsis.snu.ac.kr/31959/",
+          "https://iia.snu.ac.kr/%EA%B5%AD%EC%A0%9C%C2%B7%EC%A7%80%EC%97%AD%EC%97%B0%EA%B5%AC/",
+          "https://gsis.snu.ac.kr/31966/",
+          "https://ssims.snu.ac.kr/SSOService.do",
+          "https://gsis.snu.ac.kr",
+          "https://gsis.snu.ac.kr/category/board-286-GR-Ac2SHib6-20250422175914/",
+          "https://admission.snu.ac.kr/",
+          "https://gsis.snu.ac.kr/visiting-professors/",
+          "https://gsis.snu.ac.kr/emeritusretired-professors/",
+          "https://gsis.snu.ac.kr/student-roundtables/",
+          "https://gsis.snu.ac.kr/application/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-71B81D1A954087",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:09:32Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-71B81D1A954087"
     }
   },
   "failures": {
@@ -281890,11 +282402,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:08:40Z",
-    "checked": 365,
-    "seconds": 4421.41,
+    "at": "2026-09-27T22:09:32Z",
+    "checked": 370,
+    "seconds": 4472.98,
     "gemini": true,
-    "ai_requests": 292,
+    "ai_requests": 296,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
