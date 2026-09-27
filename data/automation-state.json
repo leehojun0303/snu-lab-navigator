@@ -1,5 +1,5 @@
 {
-  "cursor": 767,
+  "cursor": 772,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -181214,17 +181214,22 @@
       "_unit_id": "SNU-RU-DBDE36B7007EBF"
     },
     "SNU-RU-65B685DE078982": {
-      "fingerprint": "ada5b424bf68f9b1c434b44efdbf101ed5580b418cbe3041d2aabce33bb9a746",
-      "checked_at": "2026-09-24T01:28:14Z",
+      "fingerprint": "b49b7bc02cc1c71ad9a18b28c9100f608b8750c59f30a2d5a90a8122ac484062",
+      "checked_at": "2026-09-27T21:50:50Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 213 Research outputs",
+            "title": "View all 212 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/ji-yeoun-lee",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-lee-115/",
@@ -181240,7 +181245,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "이지연 교수는 뇌신경과학 분야를 연구하며, 특히 신경계 질환 및 뇌 기능과 관련된 다양한 학술적 연구를 수행하고 있습니다.",
+        "research_summary": "이지연 교수는 서울대학교 의과대학 해부학교실 소속으로, 뇌신경과학 분야를 전문으로 연구하고 있습니다.",
         "research_topics": [
           "뇌신경과학"
         ],
@@ -181260,16 +181265,21 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 213 Research outputs",
+            "title": "View all 212 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/"
           }
         ],
-        "recruitment_summary": "현재 해당 교수/연구실의 공식적인 채용 정보는 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/ji-yeoun-lee",
         "poster_status": "none_detected",
         "poster_title": "",
         "poster_date": "",
@@ -181278,13 +181288,14 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://snu.elsevierpure.com/en/persons/y-lee-115/",
-          "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+          "https://snu.elsevierpure.com/en/persons/ji-yeoun-lee",
+          "https://snu.elsevierpure.com/en/persons/y-lee-115/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-lee-115/",
           "https://snu.elsevierpure.com/en/persons/y-lee-115/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-lee-115/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-lee-115/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
@@ -181295,10 +181306,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-65B685DE078982",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:11:51Z",
+        "_saved_at": "2026-09-27T21:51:37Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-65B685DE078982"
     },
@@ -208643,118 +208653,23 @@
       "_unit_id": "SNU-RU-FB11FB6BF5D637"
     },
     "SNU-RU-653A4FE68E73A4": {
-      "fingerprint": "afe47390324f7e535a59ebc0e6f9aa3966854f0c3a9c48a46e7a43ed8732f635",
-      "checked_at": "2026-09-24T00:24:25Z",
+      "fingerprint": "2edb74a6d554515ad2952f8de8549739e69752a0e19830945f8c179abf96def5",
+      "checked_at": "2026-09-27T21:50:42Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구논문",
-            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "채용정보",
-            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 서울대-동경대 학생교류 프로그램 지원자 모집(~10/12(월) 오전 9시까지)",
-            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5824",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://pprc.snu.ac.kr/wp-content/uploads/sites/146/2023/04/PPRClogo.png",
-            "alt": "서울대학교 SNU PPRC",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://pprc.snu.ac.kr/#footer"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/02/GSPH-logo3-2.png",
-            "alt": "서울대학교 서울대학교 보건대학원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2022/12/조영태교수.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr/snu__professor/%EC%A1%B0%EC%98%81%ED%83%9C/"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/05/healthPU1_small-e1682900835485.png",
-            "alt": "BAD UX POPUP 3",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
-          },
-          {
-            "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2025/05/202505popup.jpg",
-            "alt": "BAD UX POPUP 20",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-            "alt": "서울대포털",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          }
-        ],
+        "membersUrl": "https://health.snu.ac.kr/snu__professor/%EC%A1%B0%EC%98%81%ED%83%9C/",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://pprc.snu.ac.kr/",
           "https://health.snu.ac.kr/snu__professor/%EC%A1%B0%EC%98%81%ED%83%9C/",
@@ -208768,7 +208683,141 @@
           "https://my.snu.ac.kr/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "조영태 교수는 인구학을 전공하며 한국의 저출산 현상에 대한 근본 원인과 대응 정책을 진화심리학적 관점에서 탐구하고 있습니다. 또한 베트남의 사회·경제 발전과 인구 변화, 비즈니스 인구학(Business Demography), 인구 프로파일링(Population Profiling) 분야를 연구합니다.",
+        "research_topics": [
+          "인구학",
+          "한국 저출산 현상의 근본 원인 및 대응 정책 탐구 (진화심리학적 관점)",
+          "베트남의 사회/경제 발전과 인구",
+          "Business Demography",
+          "Population Profiling"
+        ],
+        "recommendation_keywords": [
+          "인구학",
+          "저출산",
+          "진화심리학",
+          "베트남",
+          "비즈니스 인구학",
+          "한국 저출산 현상의 근본 원인 및 대응 정책 탐구 (진화심리학적 관점)",
+          "베트남의 사회/경제 발전과 인구",
+          "Business Demography",
+          "Population Profiling"
+        ],
+        "recent_papers": [
+          {
+            "title": "인구학적 특성이 식행태에 미치는 영향: 2010~2022년 가구, 세대 변화를 중심으로",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2026",
+            "venue": "한국식품영양과학회지",
+            "summary": ""
+          },
+          {
+            "title": "인구구조 변화와 청년인구 감소에 따른 한국 제조업의 위기와 대응",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2025",
+            "venue": "보건학논집",
+            "summary": ""
+          },
+          {
+            "title": "가구유형별 소비지출 구조 변화와 소비문화 전환: 2000-2020년 렉시스 다이어그램 분석",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2025",
+            "venue": "소비문화연구",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "한국식품영양과학회지",
+            "count": 1
+          },
+          {
+            "venue": "보건학논집",
+            "count": 1
+          },
+          {
+            "venue": "소비문화연구",
+            "count": 1
+          },
+          {
+            "venue": "한국인구학",
+            "count": 1
+          }
+        ],
+        "books": [
+          {
+            "title": "인구와 부",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2025",
+            "venue": "북스톤"
+          },
+          {
+            "title": "인구는 내 미래를 어떻게 바꾸는가: 내가 디자인하는 삶과 미래",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2024",
+            "venue": "김영사"
+          },
+          {
+            "title": "초저출산은 왜 생겼을까?",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+            "year": "2024",
+            "venue": "김영사"
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "고려대학교 사회학과(문학사), Univ. of Texas-Austin 사회학(석사) 및 인구학(박사) 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구논문",
+            "url": "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 보건대학원 및 인구정책연구센터 관련 입학 및 채용 정보는 공식 입학포털 및 보건대학원 홈페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://health.snu.ac.kr/snu__professor/%EC%A1%B0%EC%98%81%ED%83%9C/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://health.snu.ac.kr/snu__professor/%EC%A1%B0%EC%98%81%ED%83%9C/",
+          "https://pprc.snu.ac.kr/",
+          "https://pprc.snu.ac.kr/%ec%97%b0%ea%b5%ac%eb%85%bc%eb%ac%b8/",
+          "https://health.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://pprc.snu.ac.kr/#container",
+          "https://pprc.snu.ac.kr/#footer",
+          "https://snu.ac.kr/",
+          "https://my.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-653A4FE68E73A4",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:51:15Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-653A4FE68E73A4"
     },
     "SNU-RU-79C201B3C6F06C": {
@@ -277560,6 +277609,346 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-6497D9701488E0",
       "verify_error": "verify_JSONDecodeError"
+    },
+    "SNU-RU-64FEC2D887B71B": {
+      "fingerprint": "dd25294c0490286cfda6e37133da26271d6d38c3e4d0e102b57977f5cf91f4a5",
+      "checked_at": "2026-09-27T21:50:35Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/webdata/noimage/no-faculty.png",
+          "https://humanities.snu.ac.kr/webdata/professor/b89z1c4z1a8z180z4cazd9az2b9zbd5z608z186z75.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-64FEC2D887B71B",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:50:49Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-64FEC2D887B71B"
+    },
+    "SNU-RU-65C77C830CAD6B": {
+      "fingerprint": "7e0e31a642406a074275207cfa00f0fc4983dd7552528e305fb4d395f3f21970",
+      "checked_at": "2026-09-27T21:50:38Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000"
+          },
+          {
+            "title": "이종호 교수 연구팀, Advanced Science 표지 논문 선정",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "membersUrl": "https://ece.snu.ac.kr/community/campus-life",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p915",
+          "https://ece.snu.ac.kr/about/greetings",
+          "https://ece.snu.ac.kr/research-faculty/faculty/guest",
+          "https://ece.snu.ac.kr/research-faculty/faculty/emeritus",
+          "https://ece.snu.ac.kr/research-faculty/faculty/former-deans",
+          "https://ece.snu.ac.kr/research-faculty/research/lab"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "홍용택 교수 연구팀 (김다현 박사과정), IMID 2026, Best Paper Award (Gold) 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051"
+          },
+          {
+            "title": "최우영 교수 연구팀, ‘2026 삼성전자 산학협력 우수논문상’ 우수상 수상",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000"
+          },
+          {
+            "title": "이종호 교수 연구팀, Advanced Science 표지 논문 선정",
+            "url": "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028"
+          }
+        ],
+        "recruitment_summary": "서울대학교 전기·정보공학부에서는 교수 초빙을 진행하고 있으며, 관련 안내 및 지원서 작성은 공식 홈페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "초빙안내",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
+          }
+        ],
+        "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://ece.snu.ac.kr/community/campus-life",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58051",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58000",
+          "https://ece.snu.ac.kr/ece/news?md=v&bbsidx=58028",
+          "https://ece.snu.ac.kr/faculty/job-openings",
+          "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+          "https://ece.snu.ac.kr",
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p915",
+          "https://ece.snu.ac.kr/about/greetings",
+          "https://ece.snu.ac.kr/research-faculty/faculty/guest",
+          "https://ece.snu.ac.kr/research-faculty/faculty/emeritus",
+          "https://ece.snu.ac.kr/research-faculty/faculty/former-deans",
+          "https://ece.snu.ac.kr/research-faculty/research/lab"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-65C77C830CAD6B",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:50:52Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-65C77C830CAD6B"
+    },
+    "SNU-RU-64EC568CF0A6FF": {
+      "fingerprint": "794a35b409c0238174dcd58c4771aa80773766f2e980039dbfbe0a615fb5973f",
+      "checked_at": "2026-09-27T21:50:39Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "극저온물리",
+          "다체물리",
+          "양자정보과학",
+          "양자컴퓨팅",
+          "초전도회로"
+        ],
+        "recommendation_keywords": [
+          "양자정보실험",
+          "극저온물리",
+          "양자컴퓨팅",
+          "다체물리",
+          "양자정보과학",
+          "초전도회로"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "recruitment_source_url": "https://science.snu.ac.kr/campus-life/office",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+        "poster_status": "verified",
+        "poster_title": "김은종",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://science.snu.ac.kr/webdata/faculty/photo/c75z079z6e8za9ezdb2z3c5z4a5z0e1z8cazfaazdd.jpg",
+        "poster_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+        "poster_evidence": "김은종 조교수 프로필 사진",
+        "source_urls_used": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council",
+          "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+          "https://science.snu.ac.kr/webdata/faculty/photo/d25ze37z58dz8bez768zf52zbc6zaf6z79fz60fz63.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-64EC568CF0A6FF",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:51:05Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-64EC568CF0A6FF"
     }
   },
   "failures": {
@@ -277689,11 +278078,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T21:50:20Z",
-    "checked": 285,
-    "seconds": 3320.82,
+    "at": "2026-09-27T21:51:37Z",
+    "checked": 290,
+    "seconds": 3398.67,
     "gemini": true,
-    "ai_requests": 225,
+    "ai_requests": 230,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
