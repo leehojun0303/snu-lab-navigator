@@ -1,5 +1,5 @@
 {
-  "cursor": 577,
+  "cursor": 582,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -131360,7 +131360,7 @@
     },
     "SNU-RU-4BCC5873A77635": {
       "fingerprint": "94c463258113804b18b9a4c4e46ac5f6e354d958728052fda00ab817197f7b54",
-      "checked_at": "2026-09-24T01:02:56Z",
+      "checked_at": "2026-09-27T21:13:46Z",
       "activity": {
         "publicationPages": [
           {
@@ -131470,7 +131470,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-4BCC5873A77635"
+      "_unit_id": "SNU-RU-4BCC5873A77635",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-638039DC231D31": {
       "fingerprint": "cb2879a1a896351603c848edb37306a4d01fa2f565129801f398a1663e15f886",
@@ -176587,18 +176588,23 @@
       "_unit_id": "SNU-RU-4524CD50534683"
     },
     "SNU-RU-4B7B713DFA185B": {
-      "fingerprint": "146de1d2d029f8a34ff10d46b531bbf0c7bb5ec2b1be59d953cc839f1d0fa3e2",
-      "checked_at": "2026-09-24T01:39:45Z",
+      "fingerprint": "5647cb97ca916d21e6c070e322cffb45ff33995c0caa63cdc014e5c4058364e0",
+      "checked_at": "2026-09-27T21:13:59Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Research output",
+            "title": "View all 108 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-lee-26/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -176613,66 +176619,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "이정찬 교수는 인공장기, 생체역학, 의료기기 설계를 중심으로 연구하며, 특히 심폐소생술 품질 평가, 인공지능 기반 생체 신호 분석 및 의료기기 개발 분야에서 활발한 연구 활동을 수행하고 있습니다.",
+        "research_summary": "이정찬 교수는 의공학 분야에서 인공장기, 생체역학, 의료기기 설계 및 개발을 중심으로 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Resuscitation",
-          "Extracorporeal Life Support",
-          "Manikin",
-          "Cardiopulmonary Resuscitation",
-          "Pulse Rate",
-          "Hemodialysis"
+          "인공장기",
+          "생체역학",
+          "의료기기 설계"
         ],
         "recommendation_keywords": [
           "인공장기",
           "생체역학",
-          "의료기기설계",
-          "심폐소생술",
-          "인공지능",
-          "Resuscitation",
-          "Extracorporeal Life Support",
-          "Manikin",
-          "Cardiopulmonary Resuscitation",
-          "Pulse Rate",
-          "Hemodialysis"
+          "의료기기설계"
         ],
-        "recent_papers": [
-          {
-            "title": "Determination of cardiopulmonary resuscitation quality based on machine learning algorithms using various biological signals",
-            "url": "https://snu.elsevierpure.com/en/publications/determination-of-cardiopulmonary-resuscitation-quality-based-on-m/",
-            "year": "2026",
-            "venue": "Health Information Science and Systems",
-            "summary": "다양한 생체 신호를 활용한 머신러닝 알고리즘 기반의 심폐소생술 품질 평가 방법을 제시하였습니다."
-          },
-          {
-            "title": "Non-invasive classification of coronary perfusion pressure during CPR using smartphone-based skin video and deep learning",
-            "url": "https://snu.elsevierpure.com/en/publications/non-invasive-classification-of-coronary-perfusion-pressure-during/",
-            "year": "2026",
-            "venue": "Computer Methods and Programs in Biomedicine",
-            "summary": "스마트폰 기반 피부 영상과 딥러닝을 활용하여 심폐소생술 중 관상동맥 관류압을 비침습적으로 분류하는 기술을 개발하였습니다."
-          },
-          {
-            "title": "Corrigendum to “Development and validation of a medical latex glove-type real-time cardiopulmonary resuscitation feedback device”",
-            "url": "https://snu.elsevierpure.com/en/publications/corrigendum-to-development-and-validation-of-a-medical-latex-glov/",
-            "year": "2026",
-            "venue": "Resuscitation",
-            "summary": "의료용 라텍스 장갑 형태의 실시간 심폐소생술 피드백 장치 개발 및 검증 연구에 대한 정정 논문입니다."
-          }
-        ],
-        "recent_year_paper_count": 6,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Health Information Science and Systems",
-            "count": 1
-          },
-          {
-            "venue": "Computer Methods and Programs in Biomedicine",
-            "count": 2
-          },
-          {
-            "venue": "Resuscitation",
-            "count": 2
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -176683,45 +176643,49 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Research output",
+            "title": "View all 108 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "Jung Chan Lee",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13961908/694_Lee_+Jung+Chan.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-lee-26/#main-content",
+        "poster_evidence": "Official profile image of Jung Chan Lee found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-lee-26/",
-          "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-lee-26/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-lee-26/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-lee-26/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/",
           "https://snu.elsevierpure.com/en/persons/y-lee-26/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4B7B713DFA185B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:35:32Z",
+        "_saved_at": "2026-09-27T21:14:22Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4B7B713DFA185B"
     },
@@ -228053,13 +228017,23 @@
       "_unit_id": "SNU-RU-47990C0675126C"
     },
     "SNU-RU-4BBA0145348C56": {
-      "fingerprint": "4f63d8ac7c8bf5f860d2afc06ffbb43f64186fe07356185b0f35897109e36490",
-      "checked_at": "2026-09-24T01:36:45Z",
+      "fingerprint": "6d7d9259c0484295c52202d50fc02f25e867aac6cf2eccf088ca078f7ad0b310",
+      "checked_at": "2026-09-27T21:13:59Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
-        "posterStatus": "none_detected",
+        "publicationPages": [
+          {
+            "title": "View all 153 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-won/publications/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-won/publications/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-won/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -228074,7 +228048,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": null,
+        "research_summary": "원재경 교수는 신경병리, 내분비병리, 분자병리 분야를 중심으로 연구를 수행하고 있으며, 특히 해당 분야의 병리학적 기전과 진단에 관한 다수의 학술 논문을 발표하고 있습니다.",
         "research_topics": [
           "신경병리",
           "내분비병리",
@@ -228086,7 +228060,7 @@
           "분자병리"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 153,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -228095,43 +228069,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
-        "verified_publication_pages": [],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "서울대학교 의과대학 병리학교실 소속으로 재직 중입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "View all 153 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-won/publications/"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-won/publications/",
+        "poster_status": "verified",
+        "poster_title": "Jae Kyung Won",
+        "poster_date": null,
+        "poster_event": null,
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13961236/543_Won_+Jae+Kyung.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-won/#main-content",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+          "https://snu.elsevierpure.com/en/persons/y-won/",
+          "https://snu.elsevierpure.com/en/persons/y-won/publications/",
           "http://yss.snu.ac.kr/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+          "https://snu.elsevierpure.com/en/persons/y-won/#main-navigation",
+          "https://snu.elsevierpure.com/en/persons/y-won/#main-search",
+          "https://snu.elsevierpure.com/en/persons/y-won/#main-content",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://snu.elsevierpure.com/en/persons/y-won/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-4BBA0145348C56",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:29:45Z",
+        "_saved_at": "2026-09-27T21:14:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4BBA0145348C56"
     },
@@ -237927,132 +237910,131 @@
       "_unit_id": "SNU-RU-A2A34B3FDBF432"
     },
     "SNU-RU-4B83F5EFECD889": {
-      "fingerprint": "03cc9b99f3f2b7bfff6b326717598358589f2bba5d14594dfadc2373a446fa42",
-      "checked_at": "2026-09-24T00:47:39Z",
+      "fingerprint": "da2a7d075d534dab78d3b8bdbdb4ef7ee88eddf5536fdb5677cdc067a3f203f0",
+      "checked_at": "2026-09-27T21:13:59Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
+            "title": "Publications",
+            "url": "https://www.schong17.com/publications"
           },
           {
             "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "Elsevier 저자 워크숍 - 신진 연구자를 위한 국제 논문 출판 전략 (2026. 9. 30.(수) 10:00) 참여 안내",
-            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073",
-            "kind": "publication"
-          },
-          {
-            "title": "더보기",
-            "url": "https://snupharm.snu.ac.kr/연구성과/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           },
           {
             "title": "편입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           }
         ],
-        "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
-            "alt": "서울대학교 서울대학교 약학대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/홍석창님_인터넷용.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#none"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
-            "alt": "logo_footer01.png",
-            "title": "logo_footer01.png",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_02-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_03-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          }
-        ],
+        "membersUrl": "https://www.schong17.com/alumni",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
+          "https://www.schong17.com/",
           "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/",
           "https://snupharm.snu.ac.kr",
+          "https://www.schong17.com/professor",
           "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#container",
+          "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#footer",
           "https://admission.snu.ac.kr/",
-          "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#none",
           "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/"
+          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "홍석창 교수는 약품제조화학 분야를 연구하며, 유기합성 및 의약화학을 기반으로 한 신약 개발 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "약품제조화학",
+          "유기합성",
+          "의약화학"
+        ],
+        "recommendation_keywords": [
+          "약품제조화학",
+          "유기합성",
+          "의약화학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 약학대학 교수로서 약품제조화학 분야의 교육 및 연구를 담당하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://www.schong17.com/publications"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 약학대학 및 입학포털을 통해 신입학 및 편입학 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          }
+        ],
+        "recruitment_source_url": "https://snupharm.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.schong17.com/alumni",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://www.schong17.com/",
+          "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr",
+          "https://www.schong17.com/professor",
+          "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#container",
+          "https://snupharm.snu.ac.kr/snu__professor/%ED%99%8D%EC%84%9D%EC%B0%BD/#footer",
+          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
+          "https://www.schong17.com/publications"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-4B83F5EFECD889",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:14:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-4B83F5EFECD889"
     },
     "SNU-RU-320B15AA39B24E": {
@@ -268874,6 +268856,106 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-4B0E5EA22348E9"
+    },
+    "SNU-RU-4BBC26054FA1D0": {
+      "fingerprint": "d7d4d3e671e027c096b2da7c9471dbe9882422f20eecde4f4081f3fe7ef6b48d",
+      "checked_at": "2026-09-27T21:13:44Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/CDCC"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CDCC",
+          "https://humanities.snu.ac.kr/webdata/professor/732z97fz792z1a3zefez6ffz041zb21z3f5za45za0.jpg",
+          "https://humanities.snu.ac.kr/webdata/professor/55fz60dzff1zefcz060za99z4a8z5d0zb61z3feze9.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-4BBC26054FA1D0",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:13:53Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-4BBC26054FA1D0"
     }
   },
   "failures": {
@@ -268995,11 +269077,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T21:13:29Z",
-    "checked": 95,
-    "seconds": 1110.05,
+    "at": "2026-09-27T21:14:22Z",
+    "checked": 100,
+    "seconds": 1162.92,
     "gemini": true,
-    "ai_requests": 78,
+    "ai_requests": 82,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
