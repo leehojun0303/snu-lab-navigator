@@ -1,5 +1,5 @@
 {
-  "cursor": 942,
+  "cursor": 947,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -77698,22 +77698,23 @@
       "_unit_id": "SNU-RU-F44032A8FF3A6C"
     },
     "SNU-RU-7FD710F1FB406F": {
-      "fingerprint": "2b88aafeecc044f105525078fc42b4ffa88329e0d50dbc2a5c58a52a3d5aa087",
-      "checked_at": "2026-09-24T00:12:56Z",
+      "fingerprint": "8cd567eac37eb4649d9451e5e2d8ed8b0c3820b222b5030078c0f9845f507b30",
+      "checked_at": "2026-09-27T22:26:59Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Journals",
-            "url": "https://treephys.snu.ac.kr/publications-new/publications-journals/"
-          },
-          {
-            "title": "Books",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/"
+            "title": "Publications",
+            "url": "https://treephys.snu.ac.kr/publications-new/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://treephys.snu.ac.kr/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%84%9D/",
@@ -77724,94 +77725,71 @@
           "https://treephys.snu.ac.kr/publications-new/",
           "https://treephys.snu.ac.kr/publications-new/publications-thesis/",
           "https://treephys.snu.ac.kr/publications-new/publications-journals/",
-          "https://treephys.snu.ac.kr/publications-new/books/"
+          "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/"
         ]
       },
       "enrichment": {
-        "research_summary": "수목생리학연구실은 나무와 식생의 생리적 원리를 연구하며, 기후변화와 지구온난화가 산림 생태계에 미치는 영향을 분석하고 생리적 기작에 기반한 생태적 현상을 이해하고자 합니다.",
+        "research_summary": "김현석 교수는 수목생리학을 전공하며, 산림생태계의 탄소 및 수분 수지, 기후변화에 따른 산림의 생리적 반응, 그리고 산림 관리 기술 개발에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "탄소흡수능력 평가",
-          "구상나무 복원",
-          "조림기술 개발",
-          "온실가스 관측 및 공간정보지도 구축"
+          "수목생리학",
+          "산림생태계 탄소 및 수분 수지",
+          "기후변화 대응 산림 관리",
+          "산림생태계 복원 및 적응"
         ],
         "recommendation_keywords": [
           "수목생리학",
           "산림생태계",
           "기후변화",
-          "탄소중립",
-          "탄소흡수능력 평가",
-          "구상나무 복원",
-          "조림기술 개발",
-          "온실가스 관측 및 공간정보지도 구축"
+          "탄소흡수",
+          "산림환경학",
+          "산림생태계 탄소 및 수분 수지",
+          "기후변화 대응 산림 관리",
+          "산림생태계 복원 및 적응"
         ],
-        "recent_papers": [
-          {
-            "title": "Manganese tolerance and phytoremediation potential of Schima superba: Implications for sustainable biomass utilization and mine land restoration.",
-            "url": "https://treephys.snu.ac.kr/",
-            "year": "2026",
-            "venue": "Industrial Crops and Products",
-            "summary": "후박나무의 망간 내성 및 식물정화 잠재력을 분석하여 지속가능한 바이오매스 활용과 광산 지역 복원 가능성을 제시하였습니다."
-          },
-          {
-            "title": "Contrasting physiological strategies of Quercus acuta and Q. glauca half-sib families under differing winter thermal conditions.",
-            "url": "https://treephys.snu.ac.kr/",
-            "year": "2026",
-            "venue": "Frontiers in Forests and Global Change",
-            "summary": "겨울철 온도 조건 변화에 따른 붉가시나무와 종가시나무 반형제 가계의 상반된 생리적 전략을 비교 분석하였습니다."
-          }
-        ],
-        "recent_year_paper_count": 2,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Industrial Crops and Products",
-            "count": 1
-          },
-          {
-            "venue": "Frontiers in Forests and Global Change",
-            "count": 1
-          }
-        ],
-        "books": [
-          {
-            "title": "제2차 국가장기생태연구",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/",
-            "year": "2019",
-            "venue": "국립생태원"
-          },
-          {
-            "title": "수액의 수액류 측정·분석을 위한 열손실탐침법 이용 매뉴얼",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/",
-            "year": "2019",
-            "venue": "국립산림과학원"
-          },
-          {
-            "title": "(고등학교) 산림자원기술",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/",
-            "year": "2014",
-            "venue": "경성문화사"
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
         "conference_presentations": [],
-        "research_projects": [],
+        "research_projects": [
+          {
+            "title": "BK21 농림생물자원 창의인재양성사업단",
+            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
+            "date": "None",
+            "organization": "None"
+          },
+          {
+            "title": "동북아 생태계의 온실가스 교환과 기후변화 대응에 관한 연구",
+            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
+            "date": "None",
+            "organization": "None"
+          },
+          {
+            "title": "산림의 가치증진을 위한 임업기술 첨단화 및 스마트조림 현장 맞춤형 전문인력 양성",
+            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
+            "date": "None",
+            "organization": "None"
+          }
+        ],
         "recent_performances": [],
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 산림과학부 산림환경학전공에서 수목생리학 관련 교과목을 담당하고 있습니다.",
+        "education_summary": "서울대학교 농업생명과학대학 산림과학부 교수로서 수목생리학 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Journals",
-            "url": "https://treephys.snu.ac.kr/publications-new/publications-journals/"
-          },
-          {
-            "title": "Books",
-            "url": "https://treephys.snu.ac.kr/publications-new/books/"
+            "title": "Publications",
+            "url": "https://treephys.snu.ac.kr/publications-new/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "수목생리학연구실에서 대학원생 및 연구 인력을 모집하고 있으며, 관련 정보는 서울대학교 입학포털 및 연구실 홈페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [
           {
             "name": "Sohail",
@@ -77819,137 +77797,46 @@
             "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
           },
           {
-            "name": "이민수",
-            "role": "PhD",
+            "name": "이민수 (Minsu Lee)",
+            "role": "박사과정",
             "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
           },
           {
-            "name": "홍정현",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "백지원",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "신한두",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "Mega Trishuta Pathiassana",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "Alyan Afia",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "유혜영",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "Sahid Agustian Hudjimartsu",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "Tluang Hmung Thang",
-            "role": "PhD",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "김주현",
-            "role": "Master",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "윤아름",
-            "role": "Master",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "박성민",
-            "role": "Master",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "박서영",
-            "role": "Master",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "박성범",
-            "role": "Master",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
-          },
-          {
-            "name": "황세연",
-            "role": "Master",
+            "name": "홍정현 (Jeonghyun Hong)",
+            "role": "박사과정",
             "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/"
           }
         ],
-        "alumni": [
-          {
-            "name": "이복남",
-            "role": "Postdoctoral",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/"
-          },
-          {
-            "name": "Narayan Bhusal",
-            "role": "Postdoctoral",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/"
-          },
-          {
-            "name": "Fiza Liaquat",
-            "role": "Postdoctoral",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/"
-          },
-          {
-            "name": "Uma Shankar Chandrasekaran",
-            "role": "Postdoctoral",
-            "url": "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/"
-          }
-        ],
+        "alumni": [],
         "member_page_url": "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_status": "verified",
+        "poster_title": "김현석 교수",
+        "poster_date": null,
+        "poster_event": null,
+        "poster_image_url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/김현석1.jpeg",
+        "poster_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%84%9D/",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진입니다.",
         "source_urls_used": [
-          "https://treephys.snu.ac.kr/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B9%80%ED%98%84%EC%84%9D/",
           "https://treephys.snu.ac.kr/main-template-01-pro/members-current/",
-          "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/",
-          "https://treephys.snu.ac.kr/publications-new/publications-journals/",
-          "https://treephys.snu.ac.kr/publications-new/books/",
+          "https://treephys.snu.ac.kr/",
           "https://forestry.snu.ac.kr",
+          "https://treephys.snu.ac.kr/main-template-01-pro/members-professor/",
+          "https://treephys.snu.ac.kr/main-template-01-pro/members-alumni/",
           "https://treephys.snu.ac.kr/publications-new/",
           "https://treephys.snu.ac.kr/publications-new/publications-thesis/",
+          "https://treephys.snu.ac.kr/publications-new/publications-journals/",
           "https://treephys.snu.ac.kr/publications-new/publications-presentation-new/",
-          "https://admission.snu.ac.kr/",
-          "https://forestry.snu.ac.kr/?kboard_content_redirect=51",
-          "https://forestry.snu.ac.kr/?kboard_content_redirect=50",
-          "https://treephys.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
-          "https://treephys.snu.ac.kr/wp-content/uploads/sites/260/2026/03/수목생리학연구실-단체사진.jpg",
-          "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/01/김현석1.jpeg"
+          "https://treephys.snu.ac.kr/publications-new/books/",
+          "https://admission.snu.ac.kr/"
         ],
-        "paper_count_visible": 2,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7FD710F1FB406F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T03:39:48Z",
+        "_saved_at": "2026-09-27T22:27:18Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v3_paper_insights",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7FD710F1FB406F"
     },
@@ -114745,8 +114632,8 @@
       "_unit_id": "SNU-RU-FF90D2D740E4BC"
     },
     "SNU-RU-7FC608D0A69303": {
-      "fingerprint": "7b473a6f5a8ed74d68e4d6820d5e6d92a242256e5407dd204cb8dcaa424fe335",
-      "checked_at": "2026-09-23T23:38:16Z",
+      "fingerprint": "40897f61ffc87b1e60968b558a363af97dcaac3e10a2d786d7b1275a298b9680",
+      "checked_at": "2026-09-27T22:27:06Z",
       "activity": {
         "publicationPages": [
           {
@@ -114760,8 +114647,8 @@
             "url": "http://yss.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-41/publications/",
-        "posterStatus": "verified",
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-41/",
+        "posterStatus": "inaccessible",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-41/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -114776,17 +114663,12 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박지원 교수는 대장항문외과 분야를 전문으로 하며, 대장암 및 관련 질환에 대한 임상 연구와 학술 활동을 활발히 수행하고 있습니다.",
+        "research_summary": "",
         "research_topics": [
-          "대장항문외과",
-          "대장암",
-          "외과학"
+          "대장항문외과"
         ],
         "recommendation_keywords": [
-          "대장항문외과",
-          "대장암",
-          "외과",
-          "외과학"
+          "대장항문외과"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -114805,7 +114687,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-41/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지에서 특정 연구실의 모집 공고를 확인하기 어렵습니다.",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 다양한 도움을 제공합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -114815,19 +114697,18 @@
         "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-41/publications/",
-        "poster_status": "verified",
-        "poster_title": "Ji Won Park",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-41/",
+        "poster_status": "inaccessible",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960489/376_Park_+Ji+Won.jpg?w=160&f=jpg",
-        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-41/#main-content",
-        "poster_evidence": "Official profile image of Ji Won Park found on the SNU Elsevier Pure profile page.",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
-          "https://snu.elsevierpure.com/en/persons/y-park-41/",
-          "https://snu.elsevierpure.com/en/persons/y-park-41/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "https://snu.elsevierpure.com/en/persons/y-park-41/",
           "https://snu.elsevierpure.com/en/persons/y-park-41/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-41/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-41/#main-content",
@@ -114835,13 +114716,14 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-park-41/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-41/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-7FC608D0A69303",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:58:33Z",
+        "_saved_at": "2026-09-27T22:27:28Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -150496,118 +150378,35 @@
       "_unit_id": "SNU-RU-A1CD1239BDF114"
     },
     "SNU-RU-8044246FA3C927": {
-      "fingerprint": "c7e36185d81ab118e39525585a49e3c59b814e2b790b210eff5f946b472a6002",
-      "checked_at": "2026-09-24T00:23:36Z",
+      "fingerprint": "6976123c66035b67e2b9086d939c05ce0ff2372254cd2d129f96bfb5066be187",
+      "checked_at": "2026-09-27T22:26:52Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Domestic Paper",
-            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-8",
-            "kind": "publication"
+            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-8"
           },
           {
             "title": "International Paper",
-            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-7",
-            "kind": "publication"
+            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-7"
           },
           {
             "title": "이전 연구업적리스트",
-            "url": "https://health.snu.ac.kr/?jet_download=038f3c4ed531450a4163249392727a65920ff6fd",
-            "kind": "publication"
-          },
-          {
-            "title": "Domestic Paper",
-            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-8",
-            "kind": "publication"
-          },
-          {
-            "title": "International Paper",
-            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-7",
-            "kind": "publication"
+            "url": "https://health.snu.ac.kr/?jet_download=038f3c4ed531450a4163249392727a65920ff6fd"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "채용정보",
-            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 서울대-동경대 학생교류 프로그램 지원자 모집(~10/12(월) 오전 9시까지)",
-            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5824",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
-            "url": "https://health.snu.ac.kr/?kboard_content_redirect=5821",
-            "kind": "recruitment"
+            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/"
           }
         ],
         "membersUrl": "https://oehlabsnu.wixsite.com/oehlab/blank-3",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://static.wixstatic.com/media/471675_8a6709f41b314026841d893e8ef0a560~mv2.jpg/v1/fill/w_192,h_91,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/471675_8a6709f41b314026841d893e8ef0a560~mv2.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab/blank-22"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/565279_9c08543854f24bbf9807c87a08c56b82~mv2.png/v1/fill/w_148,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/151719%20%EC%95%88%EC%A0%84%EA%B4%80%EB%A6%AC%EC%9A%B0%EC%88%98%EC%97%B0%EA%B5%AC%EC%8B%A4.png",
-            "alt": "151719 안전관리우수연구실.png",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab/blank-22"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/565279_a947287a4d864a0dbc8214ce88aae681~mv2.png/v1/fill/w_147,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2020%20%EC%A0%9C1%ED%9A%8C%20%EA%B1%B4%EA%B0%95%ED%95%9C%20%EC%97%B0%EA%B5%AC%EC%8B%A4.png",
-            "alt": "2020 제1회 건강한 연구실.png",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab/blank-22"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/471675_e0f6086cbedb4bfea065d9b52f1b7bc1~mv2.jpg/v1/fill/w_102,h_76,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/471675_e0f6086cbedb4bfea065d9b52f1b7bc1~mv2.jpg",
-            "alt": "KakaoTalk_20230619_180913456.jpg",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/900bd529c49a45419e89274cd6580b67.jpg/v1/fill/w_214,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/900bd529c49a45419e89274cd6580b67.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/11062b_5b8b5d6f2fc24998942a76bcf2dd735c~mv2.jpg/v1/fill/w_214,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%A7%88%EC%8A%A4%ED%81%AC.jpg",
-            "alt": "마스크",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/11062b_54593c84d61b4570b5a5b260c16ca008~mv2.jpg/v1/fill/w_215,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%82%B4%EA%B7%A0%20%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4%20%EB%B3%91.jpg",
-            "alt": "살균 스프레이 병",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/11062b_b8f54a47fba14e8d82bb5a334f95b0bc~mv2.jpg/v1/fill/w_214,h_202,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%8B%A4%ED%97%98%EC%8B%A4%20%EC%8B%A4%ED%97%98.jpg",
-            "alt": "실험실 실험",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://oehlabsnu.wixsite.com/oehlab"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://oehlabsnu.wixsite.com/oehlab",
           "https://health.snu.ac.kr/snu__professor/%EC%9C%A4%EC%B6%A9%EC%8B%9D_%ED%99%98%EA%B2%BD%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC/",
@@ -150621,7 +150420,98 @@
           "https://oehlabsnu.wixsite.com/oehlab/blank-22"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "윤충식 교수는 산업환경보건 분야를 연구하며, 특히 산업위생, 작업장 노출평가, 나노물질 및 신공정/신물질 노출평가, 전자 및 반도체 산업장 유해성 평가, 석면 관련 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "산업위생",
+          "작업장 노출평가",
+          "나노물질 평가",
+          "신공정/신물질 노출평가",
+          "전자 및 반도체 산업장 유해성 평가",
+          "석면관련 연구"
+        ],
+        "recommendation_keywords": [
+          "산업환경보건",
+          "산업보건연구실",
+          "산업위생",
+          "작업장 노출평가",
+          "나노물질",
+          "반도체 산업 유해성",
+          "나노물질 평가",
+          "신공정/신물질 노출평가",
+          "전자 및 반도체 산업장 유해성 평가",
+          "석면관련 연구"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 보건대학원 환경보건학과에서 산업환경보건 분야의 수련과정을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Domestic Paper",
+            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-8"
+          },
+          {
+            "title": "International Paper",
+            "url": "https://oehlabsnu.wixsite.com/oehlab/blank-7"
+          },
+          {
+            "title": "이전 연구업적리스트",
+            "url": "https://health.snu.ac.kr/?jet_download=038f3c4ed531450a4163249392727a65920ff6fd"
+          }
+        ],
+        "recruitment_summary": "서울대학교 보건대학원 입학포털 및 관련 채용정보 페이지를 통해 학생 및 연구원 모집 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "채용정보",
+            "url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/"
+          }
+        ],
+        "recruitment_source_url": "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://oehlabsnu.wixsite.com/oehlab/blank-3",
+        "poster_status": "verified",
+        "poster_title": "2020 제1회 건강한 연구실",
+        "poster_date": "2020",
+        "poster_event": "건강한 연구실 선정",
+        "poster_image_url": "https://static.wixstatic.com/media/565279_a947287a4d864a0dbc8214ce88aae681~mv2.png/v1/fill/w_147",
+        "poster_source_url": "https://oehlabsnu.wixsite.com/oehlab/blank-22",
+        "poster_evidence": "연구실 홈페이지 내 '건강한 연구실' 선정 인증 이미지 게시",
+        "source_urls_used": [
+          "https://oehlabsnu.wixsite.com/oehlab",
+          "https://health.snu.ac.kr/snu__professor/%EC%9C%A4%EC%B6%A9%EC%8B%9D_%ED%99%98%EA%B2%BD%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC/",
+          "https://oehlabsnu.wixsite.com/oehlab/blank-8",
+          "https://oehlabsnu.wixsite.com/oehlab/blank-7",
+          "https://health.snu.ac.kr/?jet_download=038f3c4ed531450a4163249392727a65920ff6fd",
+          "https://admission.snu.ac.kr/",
+          "https://health.snu.ac.kr/%ec%b1%84%ec%9a%a9%ec%a0%95%eb%b3%b4/",
+          "https://oehlabsnu.wixsite.com/oehlab/blank-22",
+          "https://health.snu.ac.kr",
+          "https://oehlabsnu.wixsite.com/oehlab/blank-3",
+          "https://oehlabsnu.wixsite.com/oehlab/professor",
+          "https://oehlabsnu.wixsite.com/oehlab/researchprofessor",
+          "https://oehlabsnu.wixsite.com/oehlab/blank-11"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-8044246FA3C927",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:27:04Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-8044246FA3C927"
     },
     "SNU-RU-3380D20F29EB72": {
@@ -183132,7 +183022,7 @@
     },
     "SNU-RU-7FAD7571E93127": {
       "fingerprint": "c72e770458914691ceb8638544261fb81e4ad362b7b86a281159269e036af0af",
-      "checked_at": "2026-09-24T01:39:44Z",
+      "checked_at": "2026-09-27T22:27:05Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -286573,6 +286463,127 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-7EEA272D2615B7"
+    },
+    "SNU-RU-7FE19813F74175": {
+      "fingerprint": "f3b45fda49250c89f0ed664e178797472fb4994c86e909a98decaea0f709bb87",
+      "checked_at": "2026-09-27T22:26:52Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "BK Faculty",
+            "url": "https://mmbs.snu.ac.kr/BK21plus_Publication.php"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "Admission",
+            "url": "https://mmbs.snu.ac.kr/Education_Admission.php"
+          },
+          {
+            "title": "2027학년도 대학원 신입생 전기모집 안내_접수 9.28.10시~10.2.17시",
+            "url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=678&sst=wr_datetime&sod=asc&sop=and&page=2"
+          }
+        ],
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://mmbs.snu.ac.kr/About_Faculty.php",
+          "https://mmbs.snu.ac.kr",
+          "https://mmbs.snu.ac.kr/BK21plus_Publication.php",
+          "https://mmbs.snu.ac.kr/About_Faculty.php#container",
+          "https://mmbs.snu.ac.kr/Education_Admission.php",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Performance",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=678&sst=wr_datetime&sod=asc&sop=and&page=2",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=677&sst=wr_datetime&sod=asc&sop=and&page=2",
+          "https://mmbs.snu.ac.kr/About_Faculty.php#hd",
+          "https://www.snu.ac.kr/personal_information"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 융합과학기술대학원 분자의학및바이오제약학과는 바이오 의약품 개발, 분자 의학 연구 및 첨단 바이오 산업 분야의 전문 인력 양성을 목표로 합니다.",
+        "research_topics": [
+          "분자의학",
+          "바이오제약",
+          "바이오 의약품"
+        ],
+        "recommendation_keywords": [
+          "분자의학",
+          "바이오제약",
+          "서울대학교",
+          "융합과학기술대학원",
+          "바이오 의약품"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [
+          {
+            "title": "첨단산업특성화대학원 지원사업 '바이오분야'",
+            "url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=News&wr_id=86",
+            "date": "2025",
+            "organization": "미상",
+            "summary": "2025년 첨단산업특성화대학원 지원사업 바이오 분야에 선정되었으며, 연구책임교수는 신영기 교수입니다."
+          }
+        ],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "분자의학및바이오제약학과는 대학원 신입생 모집 및 학위논문 지도교수 선정 등 체계적인 교육 과정을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "BK Faculty",
+            "url": "https://mmbs.snu.ac.kr/BK21plus_Publication.php"
+          }
+        ],
+        "recruitment_summary": "2027학년도 대학원 신입생 전기모집이 2026년 9월 28일부터 10월 2일까지 진행될 예정입니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "Admission",
+            "url": "https://mmbs.snu.ac.kr/Education_Admission.php"
+          },
+          {
+            "title": "2027학년도 대학원 신입생 전기모집 안내_접수 9.28.10시~10.2.17시",
+            "url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=678&sst=wr_datetime&sod=asc&sop=and&page=2"
+          }
+        ],
+        "recruitment_source_url": "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=678&sst=wr_datetime&sod=asc&sop=and&page=2",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.snu.ac.kr/personal_information",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mmbs.snu.ac.kr/BK21plus_Publication.php",
+          "https://mmbs.snu.ac.kr/Education_Admission.php",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=News&wr_id=86",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=678&sst=wr_datetime&sod=asc&sop=and&page=2",
+          "https://mmbs.snu.ac.kr/About_Faculty.php",
+          "https://mmbs.snu.ac.kr",
+          "https://mmbs.snu.ac.kr/About_Faculty.php#container",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Performance",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=677&sst=wr_datetime&sod=asc&sop=and&page=2",
+          "https://mmbs.snu.ac.kr/About_Faculty.php#hd",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=676",
+          "https://mmbs.snu.ac.kr/bbs/board.php?bo_table=Offical_Notice&wr_id=675"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7FE19813F74175",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:26:55Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7FE19813F74175"
     }
   },
   "failures": {
@@ -286698,11 +286709,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:26:36Z",
-    "checked": 460,
-    "seconds": 5497.13,
+    "at": "2026-09-27T22:27:28Z",
+    "checked": 465,
+    "seconds": 5549.14,
     "gemini": true,
-    "ai_requests": 370,
+    "ai_requests": 374,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
