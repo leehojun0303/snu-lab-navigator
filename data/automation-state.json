@@ -1,5 +1,5 @@
 {
-  "cursor": 1007,
+  "cursor": 1012,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -14958,7 +14958,7 @@
     },
     "SNU-RU-8DC4C24E1C1A8C": {
       "fingerprint": "8fb91896d55f8a15a9b2990042d704554ab9edc7e157a1f28a594116c3868fee",
-      "checked_at": "2026-09-24T00:30:16Z",
+      "checked_at": "2026-09-27T22:39:07Z",
       "activity": {
         "publicationPages": [
           {
@@ -15083,7 +15083,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-8DC4C24E1C1A8C"
+      "_unit_id": "SNU-RU-8DC4C24E1C1A8C",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-0B28117FD19325": {
       "fingerprint": "092419e6e2e3e08d591316e9fd9fdc17e6c348113443e577779e7aadc6d657fd",
@@ -78151,8 +78152,8 @@
       "_unit_id": "SNU-RU-6A784BF9BCDBCB"
     },
     "SNU-RU-8D041FCC91C49A": {
-      "fingerprint": "eedbffa7d0147c1f5313ffa2761cc13220dfcd556b40f2abaef550001151da07",
-      "checked_at": "2026-09-23T23:28:09Z",
+      "fingerprint": "fcc5188cd122460c99e2501246091a5d02b66a6ebdbd397b58c9786cd0609932",
+      "checked_at": "2026-09-27T22:39:12Z",
       "activity": {
         "publicationPages": [
           {
@@ -78174,11 +78175,11 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-165/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-165/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-165/#main-content",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
@@ -78211,7 +78212,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-165/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -78228,7 +78229,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959952/255_Kim_+Hunmin.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-165/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image of Hunmin Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-165/",
           "http://yss.snu.ac.kr/",
@@ -78247,10 +78248,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-8D041FCC91C49A",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T11:05:30Z",
+        "_saved_at": "2026-09-27T22:39:41Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-8D041FCC91C49A"
     },
@@ -207384,18 +207384,23 @@
       "_unit_id": "SNU-RU-11DB52E2252DEB"
     },
     "SNU-RU-8D0B1D8F2DBD49": {
-      "fingerprint": "4a8d024c7e164fb6291c1e3a755d446c727a4f28c2e00e45fbe84c24ff8b96d9",
-      "checked_at": "2026-09-24T01:28:13Z",
+      "fingerprint": "4303e7d71e4ffaed7336f8dc5452a93a863844d712a4ec33c37ae9c2a0d7ae1a",
+      "checked_at": "2026-09-27T22:39:13Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 156 Research outputs",
+            "title": "Nam-Hyuk Cho - Research Outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/",
-        "posterStatus": "none_detected",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-cho-23/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-cho-23/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -207410,28 +207415,31 @@
         ]
       },
       "enrichment": {
-        "research_summary": "조남혁 교수는 미생물학 및 백신면역학 분야를 연구하며, 특히 바이러스 감염에 대한 면역 반응과 백신 개발에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "조남혁 교수는 미생물학 및 백신면역학 분야를 연구하며, 특히 인수공통 감염병 및 바이러스성 질환의 면역 병리학적 기전을 규명하는 연구를 수행하고 있습니다.",
         "research_topics": [
           "미생물학",
           "백신면역학",
-          "바이러스 면역병리학"
+          "인수공통 감염병",
+          "바이러스 면역 병리학"
         ],
         "recommendation_keywords": [
           "미생물학",
           "백신면역학",
+          "바이러스학",
           "면역학",
-          "바이러스 면역병리학"
+          "인수공통 감염병",
+          "바이러스 면역 병리학"
         ],
         "recent_papers": [
           {
-            "title": "Immunopathogenic insights into members of the class Bunyaviricete",
+            "title": "Immunopathogenic insights into members of the class Bunyaviricetes: a comparative review of emerging zoonotic threats",
             "url": "https://snu.elsevierpure.com/en/publications/immunopathogenic-insights-into-members-of-the-class-bunyaviricete/",
-            "year": "2026",
-            "venue": "Journal of Microbiology",
-            "summary": "부냐바이러스강에 속하는 바이러스들의 면역병리학적 기전을 분석한 연구입니다."
+            "year": "2024",
+            "venue": "Frontiers in Immunology",
+            "summary": "번야바이러스강(Bunyaviricetes)에 속하는 주요 인수공통 바이러스들의 면역 병리학적 특성을 비교 분석하여, 이들 바이러스가 유발하는 질환의 기전과 대응 전략을 고찰하였습니다."
           }
         ],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 157,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -207440,48 +207448,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 미생물학교실에서 미생물학 및 백신면역학 관련 교육을 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "View all 156 Research outputs",
+            "title": "Nam-Hyuk Cho - Research Outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 웹사이트를 통해 확인 가능한 특정 연구실 채용 정보는 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-cho-23/",
+        "poster_status": "verified",
+        "poster_title": "Nam-Hyuk Cho",
+        "poster_date": null,
+        "poster_event": null,
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962584/848_Cho_+Nam+Hyuk.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-cho-23/#main-content",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-cho-23/",
           "https://snu.elsevierpure.com/en/publications/immunopathogenic-insights-into-members-of-the-class-bunyaviricete/",
-          "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-cho-23/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-cho-23/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-cho-23/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
+          "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/",
           "https://snu.elsevierpure.com/en/persons/y-cho-23/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-8D0B1D8F2DBD49",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:12:47Z",
+        "_saved_at": "2026-09-27T22:39:49Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-8D0B1D8F2DBD49"
     },
@@ -289395,6 +289407,191 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-8CAF60AEA213AA"
+    },
+    "SNU-RU-8D8C534B7FE4F3": {
+      "fingerprint": "d09c1e3201aa3e1df2613c94ae648070d02d6e50fb2674e657a1c15a85707c22",
+      "checked_at": "2026-09-27T22:39:03Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
+          },
+          {
+            "title": "[DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월))",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149"
+          }
+        ],
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://www.math.snu.ac.kr",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Alumni"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 수리과학부에서는 2026학년도 제1차 및 제2차 전임교원 채용 공고를 게시하였습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
+          },
+          {
+            "title": "[DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월))",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149"
+          }
+        ],
+        "recruitment_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
+          "https://www.math.snu.ac.kr",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Alumni",
+          "http://www.math.snu.ac.kr/~syha/publication-list.pdf"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-8D8C534B7FE4F3",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:39:11Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-8D8C534B7FE4F3"
+    },
+    "SNU-RU-8DFC9120A35014": {
+      "fingerprint": "02e1bb5200e69bf7412184bc05339c2677ee5137a36e74f99679a9db85af01d1",
+      "checked_at": "2026-09-27T22:39:04Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "한성과학고 기간제교사 채용공고",
+            "url": "https://biologyedu.snu.ac.kr/10157/"
+          }
+        ],
+        "membersUrl": "https://biologyedu.snu.ac.kr/snu__professor/하민수/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://biologyedu.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://biologyedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac/",
+          "https://biologyedu.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%97%b0%ed%98%81/",
+          "https://biologyedu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://biologyedu.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://biologyedu.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://www.snu.ac.kr/campuslife/aid/disabled"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 사범대학 생물교육과 교수로서 생물교육학을 전공하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 생물교육과 홈페이지를 통해 학사 안내, 교육과정, 공지사항 및 구인·구직 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "한성과학고 기간제교사 채용공고",
+            "url": "https://biologyedu.snu.ac.kr/10157/"
+          }
+        ],
+        "recruitment_source_url": "https://biologyedu.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://biologyedu.snu.ac.kr/snu__professor/하민수/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://biologyedu.snu.ac.kr/",
+          "https://biologyedu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://biologyedu.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://biologyedu.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://biologyedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac/",
+          "https://biologyedu.snu.ac.kr/%ed%95%99%ea%b3%bc-%ec%97%b0%ed%98%81/",
+          "https://biologyedu.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://www.snu.ac.kr/academics/programs/learning_support",
+          "https://admission.snu.ac.kr/graduate/vocational-contract-program/notice",
+          "https://www.snu.ac.kr/campuslife/aid/disabled",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-8DFC9120A35014",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:39:24Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-8DFC9120A35014"
     }
   },
   "failures": {
@@ -289520,11 +289717,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:38:42Z",
-    "checked": 525,
-    "seconds": 6223.41,
+    "at": "2026-09-27T22:39:49Z",
+    "checked": 530,
+    "seconds": 6290.27,
     "gemini": true,
-    "ai_requests": 422,
+    "ai_requests": 426,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
