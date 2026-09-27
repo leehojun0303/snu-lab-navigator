@@ -1,5 +1,5 @@
 {
-  "cursor": 762,
+  "cursor": 767,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -19488,14 +19488,18 @@
       "_unit_id": "SNU-RU-E720F805E53B9D"
     },
     "SNU-RU-6426D3EFF96672": {
-      "fingerprint": "1f0db34c0eca7d9a85e2f16272aff832652bf237c6c1282f0daf439e9d417379",
-      "checked_at": "2026-09-23T23:56:59Z",
+      "fingerprint": "64d6344436afcb270001e97912c3db0e942f40c316587ff8b089e85ba3c119bf",
+      "checked_at": "2026-09-27T21:49:31Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "membersUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p001",
@@ -19514,13 +19518,12 @@
         ]
       },
       "enrichment": {
-        "research_summary": "컴퓨터 그래픽스, 애니메이션, 가상현실 분야를 연구하며, 특히 디지털 액터 및 특수효과 관련 기술을 중점적으로 다루고 있습니다.",
+        "research_summary": "고형석 교수는 컴퓨터 그래픽스 분야를 연구하며, 특히 컴퓨터 애니메이션, 디지털 액터, 가상현실 및 특수효과 기술에 집중하고 있습니다.",
         "research_topics": [
           "컴퓨터 그래픽스",
           "컴퓨터 애니메이션",
           "디지털 액터",
-          "가상현실",
-          "특수효과"
+          "가상현실"
         ],
         "recommendation_keywords": [
           "컴퓨터 애니메이션",
@@ -19541,11 +19544,15 @@
         "recent_group_exhibitions": [],
         "education_summary": "1985년 서울대학교 계산통계학과(전산학전공) 학사, 1987년 동 대학원 석사 졸업 후, 1994년 미국 펜실바니아 대학교에서 컴퓨터그래픽스 전공으로 박사 학위를 취득하였습니다.",
         "verified_publication_pages": [],
-        "recruitment_summary": "",
+        "recruitment_summary": "서울대학교 전기·정보공학부의 교수 초빙 안내 및 지원서 작성 페이지를 통해 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "초빙안내",
             "url": "https://ece.snu.ac.kr/faculty/job-openings"
+          },
+          {
+            "title": "지원서 작성",
+            "url": "https://ece.snu.ac.kr/faculty/job-openings/application"
           }
         ],
         "recruitment_source_url": "https://ece.snu.ac.kr/faculty/job-openings",
@@ -19560,12 +19567,12 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
+          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p001",
-          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/faculty/job-openings",
           "https://ece.snu.ac.kr/faculty/job-openings/application",
+          "https://ece.snu.ac.kr",
           "https://ece.snu.ac.kr/about/greetings",
-          "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
           "https://ece.snu.ac.kr/research-faculty/faculty/guest",
           "https://ece.snu.ac.kr/research-faculty/faculty/emeritus",
           "https://ece.snu.ac.kr/research-faculty/faculty/former-deans",
@@ -19577,10 +19584,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-6426D3EFF96672",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T13:13:56Z",
+        "_saved_at": "2026-09-27T21:50:04Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6426D3EFF96672"
     },
@@ -219050,7 +219056,7 @@
     },
     "SNU-RU-644B1A894AE6A1": {
       "fingerprint": "5fc997629e1a4ffde47bb3c7de83761cb972d6d7f3e4dd8042e2d5fc43b4106a",
-      "checked_at": "2026-09-24T01:03:15Z",
+      "checked_at": "2026-09-27T21:49:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -219160,7 +219166,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-644B1A894AE6A1"
+      "_unit_id": "SNU-RU-644B1A894AE6A1",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-9D89853AE2126C": {
       "fingerprint": "93f3c93ed922c93bd71c85aada5323c15a97fda2806f1f0b101b9e08b0605e94",
@@ -277223,6 +277230,336 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-6408B35FC80808"
+    },
+    "SNU-RU-64BB9482642C44": {
+      "fingerprint": "d7d4d3e671e027c096b2da7c9471dbe9882422f20eecde4f4081f3fe7ef6b48d",
+      "checked_at": "2026-09-27T21:49:29Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/CDCC"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 인문대학은 국제화지원센터 및 교육지원센터 등을 운영하며 관련 연구 및 교육 활동을 지원하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CDCC",
+          "https://humanities.snu.ac.kr/webdata/professor/732z97fz792z1a3zefez6ffz041zb21z3f5za45za0.jpg",
+          "https://humanities.snu.ac.kr/webdata/professor/55fz60dzff1zefcz060za99z4a8z5d0zb61z3feze9.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-64BB9482642C44",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:49:31Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-64BB9482642C44"
+    },
+    "SNU-RU-6476353D884B89": {
+      "fingerprint": "e92f291180f6888c7dffeaba3813d22f492aaf9ff5566c6c2c928751eb2f8bb6",
+      "checked_at": "2026-09-27T21:49:30Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?deptidx=12",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "verified",
+        "poster_title": "학생생활문화원",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+        "poster_source_url": "https://humanities.snu.ac.kr/research/CHESO",
+        "poster_evidence": "https://humanities.snu.ac.kr/research/CHESO",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/faculty?deptidx=12",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+          "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-6476353D884B89",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:49:52Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-6476353D884B89"
+    },
+    "SNU-RU-6497D9701488E0": {
+      "fingerprint": "0fe28fb7629b9fc5ab4f2b3c6fa33a76b2a8da50e1e34b02c2e4570f990d2a18",
+      "checked_at": "2026-09-27T21:49:40Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/",
+            "kind": "publication"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/",
+            "kind": "publication"
+          },
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/",
+            "kind": "publication"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/",
+            "kind": "publication"
+          },
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학",
+            "url": "https://english.snu.ac.kr/graduate/admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집(~9.25까지)",
+            "url": "https://english.snu.ac.kr/41125/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://english.snu.ac.kr/people/faculty/#container",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2021/01/english_logo.png",
+            "alt": "서울대학교 인문대학 영어영문학과",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/undergraduate/english-major/"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2022/03/꾸미기1234Vanessa_headshot-colour.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2020/11/강우성-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2022/09/권하림.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2020/11/꾸미기권혁승.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2020/11/꾸미기2김보민-1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2020/11/꾸미기김정하2-768x968.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          },
+          {
+            "url": "https://english.snu.ac.kr/wp-content/uploads/sites/10/2020/11/김현진.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://english.snu.ac.kr/people/faculty/#footer"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://english.snu.ac.kr/people/faculty/",
+          "https://english.snu.ac.kr",
+          "https://english.snu.ac.kr/people/faculty/#container",
+          "https://english.snu.ac.kr/people/faculty/#footer",
+          "https://english.snu.ac.kr/people/instructors/",
+          "https://english.snu.ac.kr/people/administration/",
+          "https://admission.snu.ac.kr/",
+          "https://english.snu.ac.kr/about-us/about-the-department/",
+          "https://english.snu.ac.kr/undergraduate/declaring-major/",
+          "https://english.snu.ac.kr/undergraduate/english-major/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-6497D9701488E0",
+      "verify_error": "verify_JSONDecodeError"
     }
   },
   "failures": {
@@ -277352,11 +277689,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T21:49:11Z",
-    "checked": 280,
-    "seconds": 3252.11,
+    "at": "2026-09-27T21:50:20Z",
+    "checked": 285,
+    "seconds": 3320.82,
     "gemini": true,
-    "ai_requests": 222,
+    "ai_requests": 225,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
