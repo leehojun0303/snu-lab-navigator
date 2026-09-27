@@ -1,5 +1,5 @@
 {
-  "cursor": 907,
+  "cursor": 912,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -201151,7 +201151,7 @@
     },
     "SNU-RU-7B1A2427D2687D": {
       "fingerprint": "afa31466768f195af101366aa30c8ea964fe96bdcfb8fbc9018dc18ef72ef261",
-      "checked_at": "2026-09-24T01:21:30Z",
+      "checked_at": "2026-09-27T22:20:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -201276,7 +201276,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-7B1A2427D2687D"
+      "_unit_id": "SNU-RU-7B1A2427D2687D",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-632E9EB4AA75FB": {
       "fingerprint": "a50e497e0505920e65ba62fe974cd7d1069966cdb444e1ca94736b4844e2d865",
@@ -285239,6 +285240,434 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-79E5D717B3899C"
+    },
+    "SNU-RU-7B29D26120DDE4": {
+      "fingerprint": "b9c1bb92c6f2ca9349292404487f42a4c06c2e76d76b94442d5884341a6ffc90",
+      "checked_at": "2026-09-27T22:20:16Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "뉴스레터",
+            "url": "https://gses.snu.ac.kr/publication/newsletter?sc=y"
+          },
+          {
+            "title": "환경논총",
+            "url": "https://gses.snu.ac.kr/publication/journal-of-environmental-studies?sc=y"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학안내",
+            "url": "https://gses.snu.ac.kr/information/admissions"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://gses.snu.ac.kr/advanced-program/urban-environmental-studies/application-guidelines"
+          }
+        ],
+        "membersUrl": "https://gses.snu.ac.kr/people/faculty?sc=y",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://gses.snu.ac.kr/people/alumni/membership",
+          "https://gses.snu.ac.kr",
+          "https://gses.snu.ac.kr/people/faculty?sc=y",
+          "https://gses.snu.ac.kr/people/emeriti-faculty?sc=y",
+          "https://gses.snu.ac.kr/people/staff?sc=y",
+          "https://gses.snu.ac.kr/people/student-council?sc=y",
+          "https://gses.snu.ac.kr/people/alumni/greetings?sc=y",
+          "https://gses.snu.ac.kr/people/alumni/greetings",
+          "https://gses.snu.ac.kr/people/alumni/business",
+          "https://gses.snu.ac.kr/people/alumni/contacts"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "뉴스레터",
+            "url": "https://gses.snu.ac.kr/publication/newsletter?sc=y"
+          },
+          {
+            "title": "환경논총",
+            "url": "https://gses.snu.ac.kr/publication/journal-of-environmental-studies?sc=y"
+          }
+        ],
+        "recruitment_summary": "서울대학교 환경대학원에서는 입학 안내 및 모집 요강을 통해 신입생을 모집하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학안내",
+            "url": "https://gses.snu.ac.kr/information/admissions"
+          },
+          {
+            "title": "모집요강",
+            "url": "https://gses.snu.ac.kr/advanced-program/urban-environmental-studies/application-guidelines"
+          }
+        ],
+        "recruitment_source_url": "https://gses.snu.ac.kr/information/admissions",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://gses.snu.ac.kr/people/faculty?sc=y",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://gses.snu.ac.kr/publication/newsletter?sc=y",
+          "https://gses.snu.ac.kr/publication/journal-of-environmental-studies?sc=y",
+          "https://gses.snu.ac.kr/information/admissions",
+          "https://gses.snu.ac.kr/advanced-program/urban-environmental-studies/application-guidelines",
+          "https://gses.snu.ac.kr/advanced-program/ESG-executive-education/application-guidelines",
+          "https://gses.snu.ac.kr/people/faculty?sc=y",
+          "https://gses.snu.ac.kr/people/alumni/membership",
+          "https://gses.snu.ac.kr",
+          "https://gses.snu.ac.kr/people/emeriti-faculty?sc=y",
+          "https://gses.snu.ac.kr/people/staff?sc=y",
+          "https://gses.snu.ac.kr/people/student-council?sc=y",
+          "https://gses.snu.ac.kr/people/alumni/greetings?sc=y",
+          "https://gses.snu.ac.kr/people/alumni/greetings",
+          "https://gses.snu.ac.kr/people/alumni/business",
+          "https://gses.snu.ac.kr/people/alumni/contacts"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7B29D26120DDE4",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:20:25Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7B29D26120DDE4"
+    },
+    "SNU-RU-7B273AA09AFE1A": {
+      "fingerprint": "d63077819eb1f62ead36d99766da4a5bd40cb0e49d29b19b88b1c2afde573186",
+      "checked_at": "2026-09-27T22:20:18Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=145",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "Re-discovery of ordinary resources",
+          "Food-Microbe-Liver axis",
+          "Food-Environment-Brain Axis",
+          "Plant hormones elicitate metabolic treasures evolutionarily restrained in microalga, Chlamydomonas reinhardtii"
+        ],
+        "recommendation_keywords": [
+          "Re-discovery of ordinary resources",
+          "Food-Microbe-Liver axis",
+          "Food-Environment-Brain Axis"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "verified",
+        "poster_title": "이도엽",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/4b8z32bz34dz089z5a5z7cez4acz9aezcb2z04fzf8.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=145",
+        "poster_evidence": "The professor's profile page at the official SNU CALS website confirms the identity and research interests.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=145",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/webdata/professor/photo/4b8z32bz34dz089z5a5z7cez4acz9aezcb2z04fzf8.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7B273AA09AFE1A",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:20:35Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7B273AA09AFE1A"
+    },
+    "SNU-RU-7A7C60712B9E2B": {
+      "fingerprint": "794a35b409c0238174dcd58c4771aa80773766f2e980039dbfbe0a615fb5973f",
+      "checked_at": "2026-09-27T22:20:22Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "김은종 교수는 물리ㆍ천문학부(물리전공) 소속으로, 양자정보실험 분야를 연구하고 있습니다. 주요 연구 분야는 극저온물리, 다체물리, 양자정보과학, 양자컴퓨팅, 초전도회로입니다.",
+        "research_topics": [
+          "극저온물리",
+          "다체물리",
+          "양자정보과학",
+          "양자컴퓨팅",
+          "초전도회로"
+        ],
+        "recommendation_keywords": [
+          "양자정보실험",
+          "극저온물리",
+          "다체물리",
+          "양자정보과학",
+          "양자컴퓨팅",
+          "초전도회로"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "자연과학대학 홈페이지를 통해 학부생 연구인턴십, 입학정보, 각종 지원사업 등 다양한 교육 및 연구 지원 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity"
+          }
+        ],
+        "recruitment_source_url": "https://science.snu.ac.kr/campus-life/office",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+        "poster_status": "verified",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://science.snu.ac.kr/webdata/faculty/photo/c75z079z6e8za9ezdb2z3c5z4a5z0e1z8cazfaazdd.jpg",
+        "poster_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+        "poster_evidence": "공식 교수진 페이지에 게시된 김은종 교수의 프로필 사진입니다.",
+        "source_urls_used": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council",
+          "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+          "https://science.snu.ac.kr/webdata/faculty/photo/d25ze37z58dz8bez768zf52zbc6zaf6z79fz60fz63.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7A7C60712B9E2B",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:20:47Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7A7C60712B9E2B"
+    },
+    "SNU-RU-7B385F4E213521": {
+      "fingerprint": "dd0d096c299addc5f092de926bd732b93a756f8ebe81138fbaa2ddfa420b46ed",
+      "checked_at": "2026-09-27T22:20:27Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집(~9.25까지)",
+            "url": "https://english.snu.ac.kr/41125/"
+          }
+        ],
+        "membersUrl": "https://english.snu.ac.kr/people/faculty/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://english.snu.ac.kr/37750/",
+          "https://english.snu.ac.kr",
+          "https://english.snu.ac.kr/people/faculty/",
+          "https://english.snu.ac.kr/people/instructors/",
+          "https://english.snu.ac.kr/people/administration/",
+          "https://admission.snu.ac.kr/",
+          "https://english.snu.ac.kr/undergraduate/declaring-major/",
+          "https://english.snu.ac.kr/undergraduate/prospective-students/",
+          "https://english.snu.ac.kr/undergraduate/english-major/",
+          "https://english.snu.ac.kr/undergraduate/english-second-major-and-minor/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 영어영문학과에서는 2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생을 모집하였습니다(마감일: 2026년 9월 25일).",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집(~9.25까지)",
+            "url": "https://english.snu.ac.kr/41125/"
+          }
+        ],
+        "recruitment_source_url": "https://english.snu.ac.kr/41125/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://english.snu.ac.kr/people/faculty/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://english.snu.ac.kr/37750/",
+          "https://english.snu.ac.kr/41125/",
+          "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/",
+          "https://english.snu.ac.kr/graduate/working-papers/",
+          "https://admission.snu.ac.kr/",
+          "https://english.snu.ac.kr",
+          "https://english.snu.ac.kr/people/faculty/",
+          "https://english.snu.ac.kr/people/instructors/",
+          "https://english.snu.ac.kr/people/administration/",
+          "https://english.snu.ac.kr/undergraduate/declaring-major/",
+          "https://english.snu.ac.kr/undergraduate/prospective-students/",
+          "https://english.snu.ac.kr/undergraduate/english-major/",
+          "https://english.snu.ac.kr/undergraduate/english-second-major-and-minor/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-7B385F4E213521",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T22:20:51Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-7B385F4E213521"
     }
   },
   "failures": {
@@ -285368,11 +285797,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T22:20:01Z",
-    "checked": 425,
-    "seconds": 5102.58,
+    "at": "2026-09-27T22:20:51Z",
+    "checked": 430,
+    "seconds": 5152.63,
     "gemini": true,
-    "ai_requests": 343,
+    "ai_requests": 347,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
