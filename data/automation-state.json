@@ -1,5 +1,5 @@
 {
-  "cursor": 557,
+  "cursor": 562,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "1c57c13a5964254513fe3af139298cea83837933b7ffd2dd3bdc6d76cde7dc6f",
@@ -19532,8 +19532,8 @@
       "_unit_id": "SNU-RU-5CBCA6B5F2EE07"
     },
     "SNU-RU-498826E632AA7E": {
-      "fingerprint": "a26c1b4dc4a89533f1bcce9a73d3557fbb8253d53841dfaf79622f615045e8db",
-      "checked_at": "2026-09-24T01:29:46Z",
+      "fingerprint": "963a031daba9cbe6bd1879d602e19e4dbf116ff219074c4fc4edc2e4872327c0",
+      "checked_at": "2026-09-27T21:10:34Z",
       "activity": {
         "publicationPages": [
           {
@@ -19541,7 +19541,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -19551,14 +19556,14 @@
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/#main-search",
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "고지원 교수는 유방병리, 두경부병리, 심장병리 및 분자병리 분야를 중심으로 연구를 수행하고 있으며, 다양한 학술지에 다수의 논문을 발표하였습니다.",
+        "research_summary": "고지원 교수는 유방병리, 두경부병리, 심장병리 및 분자병리 분야를 전문으로 연구하며, 해당 분야의 질환 기전과 병리학적 특성을 규명하는 연구를 수행하고 있습니다.",
         "research_topics": [
           "유방병리",
           "두경부병리",
@@ -19581,16 +19586,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "서울대학교 의과대학 병리학교실 소속으로 관련 교과목 강의를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 88 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/",
@@ -19603,26 +19613,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/",
-          "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+          "http://yss.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/#main-search",
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/",
           "https://snu.elsevierpure.com/en/persons/jiwon-koh/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-498826E632AA7E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:15:29Z",
+        "_saved_at": "2026-09-27T21:10:49Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-498826E632AA7E"
     },
@@ -132261,28 +132270,38 @@
       "_unit_id": "SNU-RU-3E14A06E76E07B"
     },
     "SNU-RU-496ED57C6F1BE3": {
-      "fingerprint": "5b375eec8605c3bc8a5386b3e30b1eb66de17186d0781c0d60ed89c7db8e6805",
-      "checked_at": "2026-09-24T00:17:43Z",
+      "fingerprint": "b6cae078ce11e9290683a9b4a3ebacb43ba4ffabd8365a3263605eaf9d2dd882",
+      "checked_at": "2026-09-27T21:10:26Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://sohnlaboratory.snu.ac.kr/",
           "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/",
           "https://abc.snu.ac.kr",
-          "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#footer",
+          "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#container",
           "https://admission.snu.ac.kr/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#none",
           "https://www.snu.ac.kr/personal_information"
         ]
       },
       "enrichment": {
-        "research_summary": "식물면역학을 전공하며 식물과 병원균 간의 상호작용 및 식물 면역 체계에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "식물면역학을 전공하며 식물과 병원균 간의 상호작용 및 식물의 면역 체계에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
           "식물면역학"
         ],
@@ -132300,10 +132319,20 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+          }
+        ],
+        "recruitment_summary": "서울대학교 입학포털을 통해 관련 학과 입학 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/",
@@ -132313,29 +132342,28 @@
         "poster_event": "",
         "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/손기훈-1_snupal.png",
         "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/",
-        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 이미지입니다.",
+        "poster_evidence": "교수진 페이지 내 프로필 이미지로 확인됨",
         "source_urls_used": [
           "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/",
           "https://sohnlaboratory.snu.ac.kr/",
+          "https://abc.snu.ac.kr",
           "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#container",
-          "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#footer",
-          "https://admission.snu.ac.kr/index.html",
+          "https://admission.snu.ac.kr/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
+          "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/snu__professor/%EC%86%90%EA%B8%B0%ED%9B%88/#none",
           "https://www.snu.ac.kr/personal_information",
-          "https://snu.ac.kr/index.html",
-          "https://www.snu.ac.kr/academics/programs/learning_support",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y"
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
+          "https://www.snu.ac.kr/research/highlights"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-496ED57C6F1BE3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:21:04Z",
+        "_saved_at": "2026-09-27T21:10:38Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-496ED57C6F1BE3"
     },
@@ -150416,7 +150444,7 @@
     },
     "SNU-RU-496A66B58B1641": {
       "fingerprint": "b605d36c547471dcd4dff5497e445c723be212dc57954b5630dcccbe836e7d8a",
-      "checked_at": "2026-09-24T01:37:48Z",
+      "checked_at": "2026-09-27T21:10:34Z",
       "activity": {
         "publicationPages": [
           {
@@ -176166,106 +176194,162 @@
       "_unit_id": "SNU-RU-7835F96513D5EB"
     },
     "SNU-RU-496D6C59A733BB": {
-      "fingerprint": "4cf458f7ab5d05c58d8636440e43f460f71b644e2b3a78372d43301c565f687e",
-      "checked_at": "2026-09-24T01:16:14Z",
+      "fingerprint": "a477d29563001cee216c874553c7d16d2f9b258e2684874eceed2deff4463a9a",
+      "checked_at": "2026-09-27T21:10:32Z",
       "activity": {
-        "publicationPages": [],
+        "publicationPages": [
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://resonance.snu.ac.kr/publications/"
+          }
+        ],
         "recruitmentPages": [
           {
-            "title": "실험지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-lab",
-            "kind": "recruitment"
-          },
-          {
-            "title": "세미나 지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar",
-            "kind": "recruitment"
-          },
-          {
             "title": "입학 및 졸업 관련양식",
-            "url": "https://chem.snu.ac.kr/academics/archive/admission",
-            "kind": "recruitment"
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
           },
           {
             "title": "학부",
-            "url": "https://chem.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
+            "url": "https://chem.snu.ac.kr/admission/undergraduate"
           }
         ],
-        "membersUrl": "https://chem.snu.ac.kr/alumni/about",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/t-logo@2.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/convenience"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/faculty/fulltime/991z9e2z95cz9c0z484z097zeccz255z607z85ezc9.jpg",
-            "alt": "이정호 부교수 사진",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=66&sc=y"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/convenience"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png",
-            "alt": "서울대학교 화학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/convenience"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/8b5z5d8zc0aza0aza70z214z354z52czf09z4a2z17.jpg",
-            "alt": "저렴한 망간 배터리, 전기차용 대형 배터리 상용화 가능성 높여",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/9bbz7b5ze8fza3fzc14z08dze11z840z8c1zfe8z3b.jpg",
-            "alt": "[2026.9.1. 신임교수 부임]",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f89z025z142z6c1z043zeaaz2acz5d1z754z1cazd0.jpg",
-            "alt": "[100세 과학] 겨울이 오고 있다…추위 대응 이끄는 뉴런 발견",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f09z3d3z8e8z58dz18az999ze60z571za15z9bczaa.png",
-            "alt": "서울대, 단백질 설계로 구리화합물 구조·물성 조절",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          }
-        ],
+        "membersUrl": "https://resonance.snu.ac.kr/members/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
+          "https://resonance.snu.ac.kr/",
           "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=66&sc=y",
           "https://chem.snu.ac.kr",
-          "https://chem.snu.ac.kr/research-faculty/support-lab",
-          "https://chem.snu.ac.kr/research-faculty/support-seminar",
-          "https://chem.snu.ac.kr/alumni/about",
-          "https://chem.snu.ac.kr/alumni/notice",
-          "https://chem.snu.ac.kr/about/student",
-          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime",
-          "https://chem.snu.ac.kr/research-faculty/faculty/emeriti",
-          "https://chem.snu.ac.kr/research-faculty/convenience"
+          "https://resonance.snu.ac.kr/members/",
+          "https://resonance.snu.ac.kr/publications/",
+          "https://resonance.snu.ac.kr/member/lee-jung-ho/",
+          "https://resonance.snu.ac.kr/member/im-jonghyuk/",
+          "https://resonance.snu.ac.kr/member/park-sohee/",
+          "https://resonance.snu.ac.kr/member/jung-sohyun/",
+          "https://resonance.snu.ac.kr/member/lee-kyungryun/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "단백질 스핀 동역학 연구실(Protein Spin Dynamics Laboratory)은 핵자기공명(NMR) 분광법을 활용하여 단백질의 구조와 동역학적 특성을 연구하며, 생체 분자 간의 상호작용 및 확산 현상을 분석합니다.",
+        "research_topics": [
+          "핵자기공명(NMR) 분광법",
+          "단백질 동역학",
+          "생체 분자 상호작용",
+          "확산 NMR"
+        ],
+        "recommendation_keywords": [
+          "NMR",
+          "단백질 구조",
+          "생화학",
+          "물리화학",
+          "핵자기공명(NMR) 분광법",
+          "단백질 동역학",
+          "생체 분자 상호작용",
+          "확산 NMR"
+        ],
+        "recent_papers": [
+          {
+            "title": "Comparative Kd analysis of the interaction between aggregation-prone Nup153 3–2 and KapN",
+            "url": "https://resonance.snu.ac.kr/publication/35-comparative-kd-analysis-of-the-interaction-between-aggregation-prone-nup153-3-2-and-kapn/",
+            "year": "2024",
+            "venue": "N/A",
+            "summary": "응집되기 쉬운 Nup153 3-2와 KapN 사이의 상호작용에 대한 해리 상수(Kd)를 비교 분석하였습니다."
+          },
+          {
+            "title": "Deriving the Stejskal–Tanner equation in diffusion NMR using Mathematica.",
+            "url": "https://resonance.snu.ac.kr/publication/34-deriving-the-stejskal-tanner-equation-in-diffusion-nmr-using-mathematica/",
+            "year": "2024",
+            "venue": "N/A",
+            "summary": "Mathematica를 사용하여 확산 NMR 연구에 필수적인 Stejskal-Tanner 방정식을 유도하는 과정을 다룹니다."
+          }
+        ],
+        "recent_year_paper_count": 2,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "PUBLICATIONS",
+            "url": "https://resonance.snu.ac.kr/publications/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 화학부 홈페이지를 통해 학부 입학 및 실험실 지원 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학 및 졸업 관련양식",
+            "url": "https://chem.snu.ac.kr/academics/archive/admission"
+          },
+          {
+            "title": "학부",
+            "url": "https://chem.snu.ac.kr/admission/undergraduate"
+          }
+        ],
+        "recruitment_source_url": "https://chem.snu.ac.kr",
+        "current_members": [
+          {
+            "name": "이정호",
+            "role": "교수",
+            "url": "https://resonance.snu.ac.kr/member/lee-jung-ho/"
+          },
+          {
+            "name": "임종혁",
+            "role": "연구원",
+            "url": "https://resonance.snu.ac.kr/member/im-jonghyuk/"
+          },
+          {
+            "name": "박소희",
+            "role": "연구원",
+            "url": "https://resonance.snu.ac.kr/member/park-sohee/"
+          },
+          {
+            "name": "정소현",
+            "role": "연구원",
+            "url": "https://resonance.snu.ac.kr/member/jung-sohyun/"
+          },
+          {
+            "name": "이경련",
+            "role": "연구원",
+            "url": "https://resonance.snu.ac.kr/member/lee-kyungryun/"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://resonance.snu.ac.kr/members/",
+        "poster_status": "verified",
+        "poster_title": "서울대학교 Protein Spin Dynamics Laboratory",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://resonance.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
+        "poster_source_url": "https://resonance.snu.ac.kr/member/lee-kyungryun/",
+        "poster_evidence": "연구실 공식 웹사이트 멤버 페이지 내 로고 이미지 확인",
+        "source_urls_used": [
+          "https://resonance.snu.ac.kr/",
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=66&sc=y",
+          "https://chem.snu.ac.kr",
+          "https://resonance.snu.ac.kr/members/",
+          "https://resonance.snu.ac.kr/publications/",
+          "https://resonance.snu.ac.kr/member/lee-jung-ho/",
+          "https://resonance.snu.ac.kr/member/im-jonghyuk/",
+          "https://resonance.snu.ac.kr/member/park-sohee/",
+          "https://resonance.snu.ac.kr/member/jung-sohyun/",
+          "https://resonance.snu.ac.kr/member/lee-kyungryun/",
+          "https://resonance.snu.ac.kr/publication/35-comparative-kd-analysis-of-the-interaction-between-aggregation-prone-nup153-3-2-and-kapn/",
+          "https://resonance.snu.ac.kr/publication/34-deriving-the-stejskal-tanner-equation-in-diffusion-nmr-using-mathematica/",
+          "https://chem.snu.ac.kr/academics/archive/admission",
+          "https://chem.snu.ac.kr/admission/undergraduate"
+        ],
+        "paper_count_visible": 2,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-496D6C59A733BB",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:10:44Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-496D6C59A733BB"
     },
     "SNU-RU-8F2697EF81EE00": {
@@ -267924,6 +268008,135 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-48D84A75CC5619"
+    },
+    "SNU-RU-49621EC7C501AD": {
+      "fingerprint": "1fa2176928ef10693c356133d80783a5fd95e196090a994e2fa67d64f9c5b988",
+      "checked_at": "2026-09-27T21:10:23Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "국가지원연구센터",
+            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center"
+          }
+        ],
+        "membersUrl": "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://eng.snu.ac.kr/research/start-up/faculty",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2",
+          "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-professor",
+          "https://eng.snu.ac.kr/communication/proud-engineers/award-of-excellence-for-development",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-alumni-award",
+          "https://eng.snu.ac.kr/communication/proud-engineers/sinyangoutstanding-young-professor-award",
+          "https://eng.snu.ac.kr/research/start-up/faculty#cont",
+          "https://eng.snu.ac.kr/research/start-up/faculty#topNav",
+          "https://eng.snu.ac.kr/about/organization/professor?sc=y"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 공과대학은 교원 창업을 장려하며, 연구행정실을 통해 창업 승인 절차를 지원하고 있습니다. 또한, 3차원 모빌리티 통신, 국방 생체모방 자율로봇, 탄소 중립 및 수소 사회 전환을 위한 글로벌 C2H 연구, 나노입자 연구, UAM 개발, 부유식 인프라, 에너지/환경 소재 공정, 무인이동체 인재 양성, 소프트로봇, 인공지능 반도체, 차세대 우주 추진, 클라우드 네이티브 이동통신, 초전도 응용, 코팅 기반 화학 공정 등 다양한 분야의 국가지원연구센터를 운영하며 혁신적인 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "3차원 모빌리티 통신",
+          "국방 생체모방 자율로봇",
+          "탄소 중립 및 수소 에너지",
+          "나노입자",
+          "도심항공교통(UAM)",
+          "부유식 인프라",
+          "에너지 및 환경 소재 공정",
+          "무인이동체",
+          "소프트로봇",
+          "인공지능 반도체",
+          "차세대 우주 추진",
+          "클라우드 네이티브 이동통신",
+          "초전도 응용",
+          "코팅 기반 화학 공정"
+        ],
+        "recommendation_keywords": [
+          "교원 창업",
+          "공과대학 연구",
+          "국가지원연구센터",
+          "산학연 협력",
+          "기술 사업화",
+          "3차원 모빌리티 통신",
+          "국방 생체모방 자율로봇",
+          "탄소 중립 및 수소 에너지",
+          "나노입자",
+          "도심항공교통(UAM)",
+          "부유식 인프라",
+          "에너지 및 환경 소재 공정",
+          "무인이동체",
+          "소프트로봇",
+          "인공지능 반도체",
+          "차세대 우주 추진",
+          "클라우드 네이티브 이동통신",
+          "초전도 응용",
+          "코팅 기반 화학 공정"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 공과대학은 학부 및 대학원 과정을 통해 공학 교육을 제공하며, 특히 협동과정 기술경영경제정책전공 등을 통해 글로벌 과학기술 ICT 리더 양성 장학금 프로그램(ITPP)과 같은 전문 교육 과정을 운영하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y"
+          }
+        ],
+        "recruitment_summary": "서울대학교 공과대학은 국가지원연구센터를 통해 연구 인력을 모집하며, 대학원 과정 및 관련 연구 과제 참여를 통해 인재를 양성하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "국가지원연구센터",
+            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center"
+          }
+        ],
+        "recruitment_source_url": "https://eng.snu.ac.kr/research/facilities/national-research-center",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://eng.snu.ac.kr/research/start-up/faculty",
+          "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+          "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+          "https://eng.snu.ac.kr/research/facilities/national-research-center",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2",
+          "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-professor",
+          "https://eng.snu.ac.kr/communication/proud-engineers/award-of-excellence-for-development",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-alumni-award",
+          "https://eng.snu.ac.kr/communication/proud-engineers/sinyangoutstanding-young-professor-award",
+          "https://eng.snu.ac.kr/research/start-up/faculty#cont",
+          "https://eng.snu.ac.kr/research/start-up/faculty#topNav"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-49621EC7C501AD",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-27T21:10:27Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-49621EC7C501AD"
     }
   },
   "failures": {
@@ -268045,11 +268258,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-27T21:10:05Z",
-    "checked": 75,
-    "seconds": 906.07,
+    "at": "2026-09-27T21:10:49Z",
+    "checked": 80,
+    "seconds": 950.4,
     "gemini": true,
-    "ai_requests": 63,
+    "ai_requests": 67,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
