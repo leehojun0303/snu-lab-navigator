@@ -1,5 +1,5 @@
 {
-  "cursor": 1052,
+  "cursor": 1057,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -32953,8 +32953,8 @@
       "_unit_id": "SNU-RU-9E7DF30E0A32C8"
     },
     "SNU-RU-92D95498437C1B": {
-      "fingerprint": "8b057de5d2b09d04d12fb7b5b0dbd16f2017b4d70f34853faf95650f584bc7a5",
-      "checked_at": "2026-09-23T23:12:59Z",
+      "fingerprint": "c4a277f8b5eb79426d29a4470791ee4e95af83b7ba681e48f5139d49f2db6acf",
+      "checked_at": "2026-09-28T23:22:29Z",
       "activity": {
         "publicationPages": [
           {
@@ -32984,19 +32984,23 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김경환 교수는 심장혈관흉부외과 분야에서 심장 수술, 특히 판막 질환 및 심장 판막 치환술과 관련된 임상 연구를 수행하고 있습니다.",
+        "research_summary": "김경환 교수는 심장혈관흉부외과 분야에서 심장 판막 질환, 대동맥 질환, 심부전 및 심장 이식 등을 전문으로 연구하며, 관련 질환의 수술적 치료와 임상적 예후 개선을 위한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "흉부외과학",
-          "심장외과학",
-          "심장 판막 질환"
+          "심장 판막 질환",
+          "대동맥 질환",
+          "심부전",
+          "심장 이식",
+          "흉부외과학"
         ],
         "recommendation_keywords": [
           "심장혈관흉부외과",
           "심장 수술",
-          "판막 질환",
-          "흉부외과학",
-          "심장외과학",
-          "심장 판막 질환"
+          "대동맥 수술",
+          "심장 이식",
+          "심장 판막 질환",
+          "대동맥 질환",
+          "심부전",
+          "흉부외과학"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -33032,7 +33036,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13961932/70_Kim_+Kyung+Hwan.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-content",
-        "poster_evidence": "Official profile image found on the SNU Elsevier Pure research profile page.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-182/",
           "http://yss.snu.ac.kr/",
@@ -33041,9 +33045,9 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/#main-content",
           "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-182/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
@@ -33051,10 +33055,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-92D95498437C1B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T11:53:06Z",
+        "_saved_at": "2026-09-28T23:22:53Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-92D95498437C1B"
     },
@@ -123352,24 +123355,129 @@
       "_unit_id": "SNU-RU-CFDAFDA6984A45"
     },
     "SNU-RU-94008D9B149DDC": {
-      "fingerprint": "346173d04feb864b9a361e000b6cd86c28a1be4130c9f9129fa4b2deb66c5bd9",
-      "checked_at": "2026-09-24T00:14:36Z",
+      "fingerprint": "010cd4d5a678297f449a5e833b5c81e15ffdf222d9077e04d2a4d40c80045e31",
+      "checked_at": "2026-09-28T23:22:18Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 면접 및 구술고사 일시 및 장소 알림",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990",
+            "kind": "recruitment"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 주요일정 및 지원자 유의사항 안내",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12989",
         "posterStatus": "inaccessible",
+        "posterCandidates": [
+          {
+            "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2022/05/그룹-1.png",
+            "alt": "서울대학교 식물생산과학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
+          },
+          {
+            "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2020/12/icon_main_intro_03-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://plantsci.snu.ac.kr"
+          },
+          {
+            "url": "https://plantsci.snu.ac.kr/wp-includes/images/rss.png",
+            "alt": "RSS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://plantsci.snu.ac.kr"
+          },
+          {
+            "url": "https://plantsci.snu.ac.kr/wp-content/uploads/sites/113/2021/02/top-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://plantsci.snu.ac.kr",
           "https://admission.snu.ac.kr/",
           "https://plantsci.snu.ac.kr/%ec%9e%91%eb%ac%bc%ec%83%9d%eb%aa%85%ea%b3%bc%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%9b%90%ec%98%88%ec%83%9d%eb%aa%85%ea%b3%b5%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://plantsci.snu.ac.kr/%ec%82%b0%ec%97%85%ec%9d%b8%eb%a0%a5%ea%b0%9c%eb%b0%9c%ed%95%99-%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12989",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12988",
           "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12987",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12982",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://www.snu.ac.kr/personal_information"
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12983"
         ]
       },
       "enrichment": {
@@ -123417,7 +123525,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-94008D9B149DDC"
+      "_unit_id": "SNU-RU-94008D9B149DDC",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-B8D2326B80BE4B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -155999,18 +156108,13 @@
       "_unit_id": "SNU-RU-F19F35ACC7BAD4"
     },
     "SNU-RU-92D22BA4CC9F36": {
-      "fingerprint": "dd9c7b0e2d35233b620ab993984143f1503ee1e9df37714bb2645f6af718df72",
-      "checked_at": "2026-09-24T00:21:12Z",
+      "fingerprint": "f770a532a82e70f95b94504009618d06ebf99368e805ab8e6f290f7c2101d7f2",
+      "checked_at": "2026-09-28T23:22:12Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
             "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kglee60&code=102",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal of Korean Law의 원고모…",
-            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7519",
             "kind": "publication"
           }
         ],
@@ -156110,7 +156214,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-92D22BA4CC9F36"
+      "_unit_id": "SNU-RU-92D22BA4CC9F36",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-EB1809353B1861": {
       "fingerprint": "12b59ebddb024e4cc4b0dfc616230e1d086853d26f93d1d52242ed0672186d0b",
@@ -162695,18 +162800,13 @@
       "_unit_id": "SNU-RU-703DE296494D5E"
     },
     "SNU-RU-93F1DF853064B5": {
-      "fingerprint": "720597c6b85b6bfc665deac980be5333684028598fe0ef167201add144500b6f",
-      "checked_at": "2026-09-24T00:21:22Z",
+      "fingerprint": "0470d92f47d0b9b3a6e9cbb8badbb1c56bc93d6d90e92864850147b8c15e5de8",
+      "checked_at": "2026-09-28T23:22:13Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
             "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ichshy05&code=102",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal of Korean Law의 원고모…",
-            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7519",
             "kind": "publication"
           }
         ],
@@ -162806,7 +162906,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-93F1DF853064B5"
+      "_unit_id": "SNU-RU-93F1DF853064B5",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-48EA270EBE4DFE": {
       "fingerprint": "28f21bde6f521513dcfb80f2fbb837804283d6a22a1f3a34f9b6e1a92712288e",
@@ -292401,6 +292502,131 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-91ECD7BA44EDE2",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-933A6D0E6F7D07": {
+      "fingerprint": "a0b0f5476a39165a505440d41d2aa5cd9c1b2e8907c414dde294b48a8666221e",
+      "checked_at": "2026-09-28T23:22:25Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "[지속가능기술전공 정성균 교수] 연구성과 게재(Energy & Environmental Science)",
+            "url": "https://snuti.snu.ac.kr/18249/",
+            "kind": "publication"
+          },
+          {
+            "title": "[디지털헬스케어전공 이원령 교수] 연구성과 게재(npj Flexible Electronics)",
+            "url": "https://snuti.snu.ac.kr/17904/",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "첨단융합학부 2026학년도 제2차 대학교원 신규채용 공고",
+            "url": "https://snuti.snu.ac.kr/18255/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집 안내",
+            "url": "https://snuti.snu.ac.kr/18097/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "2026년 하반기 익산시 대학생 학자금 대출이자 지원 안내",
+            "url": "https://snuti.snu.ac.kr/18051/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://snuti.snu.ac.kr/3rd-student-council/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/3rd-student-council/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snutiuiguide-logo-kr-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/convergence-data-science/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/sustainable-technology/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-4.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/icon-normal-5.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2021/02/snuti-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/3rd-student-council/"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://snuti.snu.ac.kr/18249/",
+          "https://snuti.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://snuti.snu.ac.kr/commt/professor/",
+          "https://snuti.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://snuti.snu.ac.kr/convergence-data-science/",
+          "https://snuti.snu.ac.kr/sustainable-technology/",
+          "https://snuti.snu.ac.kr/next-generation-intelligent-semiconductor/",
+          "https://snuti.snu.ac.kr/major/",
+          "https://snuti.snu.ac.kr/3rd-student-council/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-933A6D0E6F7D07",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -292526,11 +292752,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-28T23:22:00Z",
-    "checked": 35,
-    "seconds": 470.07,
+    "at": "2026-09-28T23:22:53Z",
+    "checked": 40,
+    "seconds": 523.32,
     "gemini": true,
-    "ai_requests": 15,
+    "ai_requests": 16,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
