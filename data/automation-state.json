@@ -1,5 +1,5 @@
 {
-  "cursor": 219,
+  "cursor": 224,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -56288,7 +56288,7 @@
     },
     "SNU-RU-1727A011E88A36": {
       "fingerprint": "8f191db7a6611b6d01715368ac4198bc33f881e3f9cdcf1886727023302dd3c5",
-      "checked_at": "2026-09-24T00:56:02Z",
+      "checked_at": "2026-09-29T23:55:44Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -56387,7 +56387,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-1727A011E88A36"
+      "_unit_id": "SNU-RU-1727A011E88A36",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-4AD215956409EC": {
       "fingerprint": "2828259b918beb4e3c3dfcf2656cf39164f6a6a65fcbac438096665d84933dc7",
@@ -87867,8 +87868,8 @@
       "_unit_id": "SNU-RU-F9CEAC7F19C45B"
     },
     "SNU-RU-174BE30F47420C": {
-      "fingerprint": "6251e3300251f1817256571dc49d5bc308a73327573b150cb94a07f679da1ea0",
-      "checked_at": "2026-09-24T00:52:36Z",
+      "fingerprint": "6c6670dc3243172bab82b2ef64ebeaca96f5a09f676411ece96b9676d9495193",
+      "checked_at": "2026-09-29T23:55:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -87899,17 +87900,17 @@
             "kind": "recruitment"
           },
           {
-            "title": "Read More",
-            "url": "https://admission.snu.ac.kr/undergraduate/notice",
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
             "kind": "recruitment"
           },
           {
-            "title": "2026년 하반기 BK21 4단계 대학원혁신사업 대학원생 국제공동연구 지원 사업 안내",
-            "url": "https://korean.snu.ac.kr/12843/",
+            "title": "채용",
+            "url": "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/",
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://korean.snu.ac.kr/12858/",
+        "membersUrl": "https://www.snu.ac.kr/personal_information",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -87917,7 +87918,21 @@
             "alt": "서울대학교 국어국문학과",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/"
+            "parent_source_url": "https://korean.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/"
+          },
+          {
+            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2023/11/나수호-선생님.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://korean.snu.ac.kr/snu__professor/%EB%82%98%EC%88%98%ED%98%B8/#footer"
+          },
+          {
+            "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2021/02/logo_footer02.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://korean.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/"
           },
           {
             "url": "https://korean.snu.ac.kr/wp-content/uploads/sites/239/2020/12/icon_shortcut01-1-1.png",
@@ -87953,37 +87968,24 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://devkorean.snu.ac.kr/wp-content/uploads/sites/239/2021/01/logo_footer02.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://korean.snu.ac.kr"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
+          "https://korean.snu.ac.kr/snu__professor/%EB%82%98%EC%88%98%ED%98%B8/",
           "https://korean.snu.ac.kr",
+          "https://korean.snu.ac.kr/snu__professor/%EB%82%98%EC%88%98%ED%98%B8/#container",
+          "https://korean.snu.ac.kr/snu__professor/%EB%82%98%EC%88%98%ED%98%B8/#footer",
           "https://admission.snu.ac.kr/",
           "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
-          "https://korean.snu.ac.kr/%ed%98%84%ec%a7%81%ea%b5%90%ec%88%98/",
           "https://korean.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
           "https://korean.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%83%9d%ed%99%9c/",
           "https://korean.snu.ac.kr/%ec%a0%84%ea%b3%b5%ec%a7%84%ec%9e%85/",
-          "https://korean.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/",
-          "https://korean.snu.ac.kr/%ec%84%b8%eb%b6%80-%ec%a0%84%ea%b3%b5/",
-          "https://korean.snu.ac.kr/category/board-3-BL-8wf9q049-20210308115058/"
+          "https://korean.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-174BE30F47420C"
+      "_unit_id": "SNU-RU-174BE30F47420C",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-EBD73FA987F054": {
       "fingerprint": "59b5ce69cea1d08eb8b40095faa8216bbd15215c94966b10a64864f553085cff",
@@ -129851,118 +129853,27 @@
       "_unit_id": "SNU-RU-663F9B0E5C9B05"
     },
     "SNU-RU-172D10071067CA": {
-      "fingerprint": "01e2c47113803cbb2ec287d1ea4053c34d58c30f80a620dfcded930fb7479e7b",
-      "checked_at": "2026-09-24T00:29:45Z",
+      "fingerprint": "ddd756cdc810ee30ade7ae41600c7feae4bb99f965d782007650d38731cf16f0",
+      "checked_at": "2026-09-29T23:55:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문 관련 규정",
-            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/",
-            "kind": "publication"
-          },
-          {
-            "title": "2026학년도 2학기 석사·박사과정 논문지도교수 선정 및 변경 신청 안내",
-            "url": "https://geoedu.snu.ac.kr/17057/",
-            "kind": "publication"
-          },
-          {
-            "title": "논문 관련 규정",
-            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/",
-            "kind": "publication"
-          },
-          {
-            "title": "논문 관련 규정",
-            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/",
-            "kind": "publication"
-          },
-          {
-            "title": "논문 관련 규정",
-            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/",
-            "kind": "publication"
+            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "교원양성 지원센터",
-            "url": "https://teacher.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
-            "title": "지원 안내",
-            "url": "https://geoedu.snu.ac.kr/%ec%a4%91%eb%93%b1%ec%9e%84%ec%9a%a9%ea%b3%a0%ec%8b%9c/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생 모집 안내",
-            "url": "https://geoedu.snu.ac.kr/17086/",
-            "kind": "recruitment"
+            "title": "교원양성 지원센터",
+            "url": "https://teacher.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
+        "membersUrl": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
         "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2022/02/캡처-2.jpg",
-            "alt": "서울대학교 서울대학교 지리교육과",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr/%ec%97%ad%eb%8c%80-%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98-%eb%aa%a9%eb%a1%9d/"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2021/04/변종민.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#none"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2021/02/logo_footer03.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr/%ec%97%ad%eb%8c%80-%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98-%eb%aa%a9%eb%a1%9d/"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr"
-          },
-          {
-            "url": "https://geoedu.snu.ac.kr/wp-content/uploads/sites/61/elementor/thumbs/support-icon2-qwova3cu4y457y1t3sim9u9vm96wiziw3srsxjq76u.png",
-            "alt": "support icon2",
-            "title": "support icon2",
-            "score": 0,
-            "parent_source_url": "https://geoedu.snu.ac.kr"
-          }
-        ],
         "sourcePagesScanned": [
           "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
           "https://geoedu.snu.ac.kr",
@@ -129970,13 +129881,141 @@
           "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#container",
           "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#footer",
           "https://admission.snu.ac.kr/",
-          "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#none",
           "https://geoedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
           "https://geoedu.snu.ac.kr/%ec%97%b0%ed%98%81-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
-          "https://geoedu.snu.ac.kr/%ec%97%ad%eb%8c%80-%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98-%eb%aa%a9%eb%a1%9d/"
+          "https://geoedu.snu.ac.kr/%ec%97%ad%eb%8c%80-%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98-%eb%aa%a9%eb%a1%9d/",
+          "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "한반도 산맥 형성 과정, 수치지형발달모형 개발 및 활용, GIS 기반 수문-지형 분석, 우주기원 동위원소와 OSL을 이용한 지형변화 정량화, 그리고 지형교육을 위한 교수학습법 및 교육자료 개발을 연구합니다.",
+        "research_topics": [
+          "한반도 산맥 형성 과정",
+          "수치지형발달모형 개발 및 활용",
+          "DEM 기반 수문-지형 분석",
+          "지형변화 정량화",
+          "지형교육 교수학습법 및 교육자료 개발"
+        ],
+        "recommendation_keywords": [
+          "지형학",
+          "지형교육",
+          "자연지리교육",
+          "수치지형발달모형",
+          "한반도 지형",
+          "한반도 산맥 형성 과정",
+          "수치지형발달모형 개발 및 활용",
+          "DEM 기반 수문-지형 분석",
+          "지형변화 정량화",
+          "지형교육 교수학습법 및 교육자료 개발"
+        ],
+        "recent_papers": [
+          {
+            "title": "학생 삶과 연계를 위한 장소기반 지형환경교육 프로그램 개발 – 경기도 광주시 경안천을 중심으로 -",
+            "url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+            "year": "2026",
+            "venue": "한국지리환경교육학회지",
+            "summary": ""
+          },
+          {
+            "title": "Effects of Relief on Headwater Catchment Landscapes",
+            "url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+            "year": "2025",
+            "venue": "Geomorphology",
+            "summary": ""
+          },
+          {
+            "title": "한반도 산줄기 체계에 대한 지형학적 검토와 과학적인 체계 정립 방안 모색",
+            "url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+            "year": "2025",
+            "venue": "한국지리학회지",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 4,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "한국지리환경교육학회지",
+            "count": 1
+          },
+          {
+            "venue": "Geomorphology",
+            "count": 1
+          },
+          {
+            "venue": "한국지리학회지",
+            "count": 1
+          },
+          {
+            "venue": "한국지형학회지",
+            "count": 1
+          }
+        ],
+        "books": [
+          {
+            "title": "지형학 원리",
+            "url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+            "year": "2013",
+            "venue": "시그마프레스",
+            "summary": "Richard John Huggett의 원저를 공동 번역한 지형학 교재입니다."
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 지리교육과 부교수로 재직하며 지형학, 지형교육, 자연지리교육 분야의 강의와 연구를 수행하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "논문 관련 규정",
+            "url": "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 지리교육과 및 관련 기관의 입학 및 채용 정보는 공식 입학포털 및 학과 공지사항을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "교원양성 지원센터",
+            "url": "https://teacher.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://geoedu.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+        "poster_status": "unverified_candidate",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/",
+          "https://geoedu.snu.ac.kr",
+          "https://teacher.snu.ac.kr/main/",
+          "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#container",
+          "https://geoedu.snu.ac.kr/snu__professor/%eb%b3%80%ec%a2%85%eb%af%bc/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://geoedu.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
+          "https://geoedu.snu.ac.kr/%ec%97%b0%ed%98%81-%eb%b0%8f-%ec%a0%84%ea%b3%b5%ec%86%8c%ea%b0%9c/",
+          "https://geoedu.snu.ac.kr/%ec%97%ad%eb%8c%80-%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98-%eb%aa%a9%eb%a1%9d/",
+          "https://geoedu.snu.ac.kr/%eb%85%bc%eb%ac%b8-%ea%b4%80%eb%a0%a8-%ea%b7%9c%ec%a0%95/",
+          "https://geoedu.snu.ac.kr/17057/",
+          "https://geoedu.snu.ac.kr/17147/"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-172D10071067CA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:57:36Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-172D10071067CA"
     },
     "SNU-RU-68D86EFAD48EBD": {
@@ -324020,6 +324059,212 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-1664D26AB1AADB",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-170BD4DC0D3EFE": {
+      "fingerprint": "1896ddf9cdcec9c0908f4bbb61c210d3195fb50d63b33cc9e22e85e5b1b57a4f",
+      "checked_at": "2026-09-29T23:55:43Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "membersUrl": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr",
+          "https://nucleng.snu.ac.kr/about/people/researcher",
+          "https://nucleng.snu.ac.kr/about/people/emeritus",
+          "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "핵융합 및 플라즈마 물리를 전공하며, 플라즈마 물리와 플라즈마 정보 AI의 산업 응용 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "핵융합",
+          "플라즈마 물리",
+          "플라즈마 정보 AI의 산업 응용"
+        ],
+        "recommendation_keywords": [
+          "핵융합",
+          "플라즈마 물리",
+          "플라즈마 정보 AI",
+          "산업 응용",
+          "플라즈마 정보 AI의 산업 응용"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "2015년 서울대학교 원자핵공학 박사 학위를 취득하였으며, 2008년 동 대학에서 학사 학위를 받았습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "학부 및 대학원 입학 안내 페이지를 통해 관련 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "학부입학",
+            "url": "https://nucleng.snu.ac.kr/admission/undergraduate"
+          },
+          {
+            "title": "대학원입학",
+            "url": "https://nucleng.snu.ac.kr/admission/graduate"
+          }
+        ],
+        "recruitment_source_url": "https://nucleng.snu.ac.kr/admission/undergraduate",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
+        "poster_status": "verified",
+        "poster_title": "박설혜 부교수 사진",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://nucleng.snu.ac.kr/webdata/faculty/fulltime/5fez5c4z101zd86z666z4a8z842z728z30cz296z92.jpg",
+        "poster_source_url": "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
+        "poster_evidence": "박설혜 부교수 사진",
+        "source_urls_used": [
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=171",
+          "https://nucleng.snu.ac.kr/admission/undergraduate",
+          "https://nucleng.snu.ac.kr/admission/graduate",
+          "https://nucleng.snu.ac.kr/about/people/faculty",
+          "https://nucleng.snu.ac.kr",
+          "https://nucleng.snu.ac.kr/about/people/researcher",
+          "https://nucleng.snu.ac.kr/about/people/emeritus",
+          "https://nucleng.snu.ac.kr/about/people/staff",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=163",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=160",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=157",
+          "https://nucleng.snu.ac.kr/about/people/faculty?mode=view&profidx=168"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-170BD4DC0D3EFE",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:55:48Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-170BD4DC0D3EFE"
+    },
+    "SNU-RU-172CA69FEAFDCC": {
+      "fingerprint": "d7d4d3e671e027c096b2da7c9471dbe9882422f20eecde4f4081f3fe7ef6b48d",
+      "checked_at": "2026-09-29T23:55:44Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/732z97fz792z1a3zefez6ffz041zb21z3f5za45za0.jpg",
+            "alt": "권윤경 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/55fz60dzff1zefcz060za99z4a8z5d0zb61z3feze9.jpg",
+            "alt": "김성엽 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/5e1z60dz7b0z79cza5ez8bezb48z757z1fez7cfzaa.jpg",
+            "alt": "노경덕 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/daez631zedaze0bz558z5b6z586z2b5z91az469z33.png",
+            "alt": "박흥식 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/b9aza9dz6bfzb0az9c4ze0fzcddza50z011z238z47.jpg",
+            "alt": "이민용 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/fcczea8z26ez207z5baze79z2d6z12dzdfez198z0c.jpg",
+            "alt": "장문석 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/CDCC"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-172CA69FEAFDCC",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -324177,11 +324422,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:55:31Z",
-    "checked": 465,
-    "seconds": 6610.5,
+    "at": "2026-09-29T23:57:42Z",
+    "checked": 470,
+    "seconds": 6741.48,
     "gemini": true,
-    "ai_requests": 184,
+    "ai_requests": 186,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
