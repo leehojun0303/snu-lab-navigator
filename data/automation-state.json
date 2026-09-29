@@ -1,5 +1,5 @@
 {
-  "cursor": 1777,
+  "cursor": 1782,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -31785,8 +31785,8 @@
       "_unit_id": "SNU-RU-08B8076507E103"
     },
     "SNU-RU-FD0161A264E71E": {
-      "fingerprint": "d11a38087c25622fbb61a2d1cd48542c9adf4001c04cf4db3e4d7e6f5a56fc5c",
-      "checked_at": "2026-09-24T00:38:59Z",
+      "fingerprint": "9dcdf3eb7370cb1c766fd4982e83f8e0704dba2934c8292a40c55094d436ffad",
+      "checked_at": "2026-09-29T22:55:45Z",
       "activity": {
         "publicationPages": [
           {
@@ -31840,7 +31840,7 @@
             "alt": "서울대학교 수의과대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+            "parent_source_url": "https://vet.snu.ac.kr/admissions1/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
@@ -31889,24 +31889,25 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+            "parent_source_url": "https://vet.snu.ac.kr/admissions1/"
           }
         ],
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr",
-          "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
           "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/",
           "https://admission.snu.ac.kr/",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
-          "https://vet.snu.ac.kr/faculty2/",
           "https://vet.snu.ac.kr/faculty3/",
           "https://vet.snu.ac.kr/faculty4/",
-          "https://vet.snu.ac.kr/faculty5/"
+          "https://vet.snu.ac.kr/faculty5/",
+          "https://vet.snu.ac.kr/faculty6/",
+          "https://vet.snu.ac.kr/admissions1/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-FD0161A264E71E"
+      "_unit_id": "SNU-RU-FD0161A264E71E",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C4A6F673B37D47": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
@@ -51514,16 +51515,21 @@
       "_unit_id": "SNU-RU-30F452F3349313"
     },
     "SNU-RU-FCDD18D88F5A2B": {
-      "fingerprint": "e8ed05edccde8e67fb388d37b7ea7158b0e52a93996416df1694b141a453506d",
-      "checked_at": "2026-09-23T23:18:31Z",
+      "fingerprint": "ad8a1e233efeb66b37221bb898d030defd1f611c21900318c67531e6f712e54e",
+      "checked_at": "2026-09-29T22:55:45Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Seong Heon Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/"
+            "title": "View all 90 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -51540,77 +51546,19 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김성헌 교수는 소아신장학 및 소아류마티스 분야를 중심으로 연구를 수행하고 있으며, 특히 만성 신장 질환(CKD), 코호트 분석, 소아 환자 관리, 고혈압 및 자가면역 질환과 관련된 임상 연구에 집중하고 있습니다.",
+        "research_summary": "김성헌 교수는 소아류마티스 분야를 전문으로 하며, 소아 류마티스 질환의 임상적 특성과 치료에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Chronic Kidney Disease",
-          "Cohort Analysis",
-          "Pediatrics Patient",
-          "Adolescence",
-          "Nephrotic Syndrome",
-          "Hypertension",
-          "Urinary Tract Infection",
-          "Atypical Hemolytic Uremic Syndrome"
+          "소아류마티스",
+          "소아 류마티스 질환"
         ],
         "recommendation_keywords": [
-          "소아신장",
           "소아류마티스",
-          "만성신장질환",
-          "임상연구",
-          "Chronic Kidney Disease",
-          "Cohort Analysis",
-          "Pediatrics Patient",
-          "Adolescence",
-          "Nephrotic Syndrome",
-          "Hypertension",
-          "Urinary Tract Infection",
-          "Atypical Hemolytic Uremic Syndrome"
+          "소아과",
+          "소아 류마티스 질환"
         ],
-        "recent_papers": [
-          {
-            "title": "Comparison of estimated and measured GFR in pediatric CKD patients transitioning from adolescence to adulthood: results from KNOW-PedCKD",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
-            "year": "2026",
-            "venue": "BMC nephrology",
-            "summary": ""
-          },
-          {
-            "title": "Dual knowledge-guided data augmentation for robust clinical prediction models",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
-            "year": "2026",
-            "venue": "Scientific Reports",
-            "summary": ""
-          },
-          {
-            "title": "SCITO-seq2: ultra-high-throughput single-cell transcriptome and epitope sequencing",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
-            "year": "2026",
-            "venue": "Genome biology",
-            "summary": ""
-          }
-        ],
-        "recent_year_paper_count": 6,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "BMC nephrology",
-            "count": 1
-          },
-          {
-            "venue": "Scientific Reports",
-            "count": 1
-          },
-          {
-            "venue": "Genome biology",
-            "count": 1
-          },
-          {
-            "venue": "Kidney International Reports",
-            "count": 1
-          },
-          {
-            "venue": "Pediatric Nephrology",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -51618,16 +51566,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 소아과학교실 소속으로 소아류마티스 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Seong Heon Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/"
+            "title": "View all 90 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "현재 공식적인 연구실 모집 페이지는 확인되지 않으며, 연건학생지원센터를 통해 학생들을 위한 심리 검사 및 상담 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
@@ -51640,26 +51593,25 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/",
+          "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-search",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/",
           "https://snu.elsevierpure.com/en/persons/seong-heon-kim/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FCDD18D88F5A2B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:07:00Z",
+        "_saved_at": "2026-09-29T22:56:38Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-FCDD18D88F5A2B"
     },
@@ -194558,120 +194510,21 @@
       "_unit_id": "SNU-RU-4060BABE997CFE"
     },
     "SNU-RU-FC8E2547B49BA8": {
-      "fingerprint": "8e893940d46ba04958474769c066b61604dce717ce5ac34bb4a529a692b6059d",
-      "checked_at": "2026-09-24T00:41:46Z",
+      "fingerprint": "f87be14e01213f13b3978695fda73f2ee1a33ea0bc7cca19382f870149460983",
+      "checked_at": "2026-09-29T22:55:29Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publication",
-            "url": "https://www.jlimlab.org/publication",
-            "kind": "publication"
-          },
-          {
-            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
-            "kind": "publication"
-          },
-          {
-            "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
-            "kind": "publication"
-          },
-          {
-            "title": "Skip to Content",
-            "url": "https://www.jlimlab.org/publication#page",
-            "kind": "publication"
-          },
-          {
-            "title": "Publication",
-            "url": "https://www.jlimlab.org/publication",
-            "kind": "publication"
+            "url": "https://www.jlimlab.org/publication"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "수의학이란?",
-            "url": "https://vet.snu.ac.kr/admissions1/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "배우는것",
-            "url": "https://vet.snu.ac.kr/admissions2/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "수의사의 활동",
-            "url": "https://vet.snu.ac.kr/admissions3/",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://images.squarespace-cdn.com/content/v1/66221d2b21ae8d2ac4ebed84/1715444722778-LOA2DAIR61YK44T6FNSE/image-asset.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.jlimlab.org/#page"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
-            "alt": "서울대학교 수의과대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/04/icon_AVMA_COE_Acc5550.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          }
-        ],
+        "recruitmentPages": [],
+        "membersUrl": "https://www.jlimlab.org/team-1",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://www.jlimlab.org/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9E%84%EC%9E%AC%EC%B2%A0/",
           "https://vet.snu.ac.kr",
           "https://www.jlimlab.org/publication",
           "https://www.jlimlab.org/cart",
@@ -194679,11 +194532,151 @@
           "https://www.jlimlab.org/research-1",
           "https://www.jlimlab.org/team-1",
           "https://www.jlimlab.org/gallery-1",
-          "https://www.jlimlab.org/contact-1",
-          "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/"
+          "https://www.jlimlab.org/contact-1"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "임재철 교수의 연구실(수의면역학 연구실)은 장내 면역 항상성 유지와 스트레스 적응 기전을 연구합니다. 주요 연구 분야는 장내 항상성 교란 시 면역 세포의 역할, 알레르기 외적인 IgE 항체의 항상성 기능, 스트레스 상황에서의 장기 간 통신, 그리고 극한 환경에 대한 세포 및 생물체의 적응 분자 기전입니다.",
+        "research_topics": [
+          "장내 면역 항상성",
+          "국소 글루코코르티코이드(Local glucocorticoids)",
+          "자연 IgE 항체(Natural IgE)",
+          "장기 간 통신(Interorgan communication)",
+          "스트레스 적응(Stress adaptation)"
+        ],
+        "recommendation_keywords": [
+          "수의면역학",
+          "장내 면역",
+          "글루코코르티코이드",
+          "IgE",
+          "스트레스 적응",
+          "장내 면역 항상성",
+          "국소 글루코코르티코이드(Local glucocorticoids)",
+          "자연 IgE 항체(Natural IgE)",
+          "장기 간 통신(Interorgan communication)",
+          "스트레스 적응(Stress adaptation)"
+        ],
+        "recent_papers": [
+          {
+            "title": "An optimized three-laser 27-color spectral flow cytometry panel for multi-organ profiling in mice",
+            "year": "2026",
+            "venue": "PLOS One",
+            "summary": ""
+          },
+          {
+            "title": "IgE Production Beyond Classical T-Cell Help",
+            "year": "2026",
+            "venue": "Immune Netw.",
+            "summary": ""
+          },
+          {
+            "title": "Differential regulation of type 2 immunity by glucocorticoids",
+            "year": "2026",
+            "venue": "BMB Rep.",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "PLOS One",
+            "count": 1
+          },
+          {
+            "venue": "Immune Netw.",
+            "count": 1
+          },
+          {
+            "venue": "BMB Rep.",
+            "count": 1
+          }
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 수의과대학 수의학과 조교수(2023-현재)로 재직 중이며, 예일대학교 의과대학 면역생물학과 박사후 연구원(2017-2023), 서울대학교 생명과학부 박사(2011-2016), 서울대학교 수의과대학 학사/수의사(2005-2011) 학력을 보유하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publication",
+            "url": "https://www.jlimlab.org/publication"
+          }
+        ],
+        "recruitment_summary": "연구실에서는 면역학 연구에 관심 있는 학생들을 모집하고 있으며, 연구실 홈페이지를 통해 연락할 수 있습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "https://www.jlimlab.org/contact-1",
+        "current_members": [
+          {
+            "name": "Hyeryeong Cho",
+            "role": "Ph.D. Candidate",
+            "url": "https://www.jlimlab.org/team-1"
+          },
+          {
+            "name": "Boryeong Jo",
+            "role": "Ph.D. Candidate",
+            "url": "https://www.jlimlab.org/team-1"
+          },
+          {
+            "name": "Hyeonji Song",
+            "role": "Ph.D. Candidate",
+            "url": "https://www.jlimlab.org/team-1"
+          },
+          {
+            "name": "Seyoung Jeong",
+            "role": "Ph.D. Candidate",
+            "url": "https://www.jlimlab.org/team-1"
+          },
+          {
+            "name": "Suyeon Seo",
+            "role": "Ph.D. Candidate",
+            "url": "https://www.jlimlab.org/team-1"
+          },
+          {
+            "name": "Seonhu Park",
+            "role": "Undergraduate intern",
+            "url": "https://www.jlimlab.org/team-1"
+          }
+        ],
+        "alumni": [
+          {
+            "name": "Franco Celano",
+            "role": "Visiting Master's Student",
+            "url": "https://www.jlimlab.org/team-1"
+          }
+        ],
+        "member_page_url": "https://www.jlimlab.org/team-1",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://www.jlimlab.org/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9E%84%EC%9E%AC%EC%B2%A0/",
+          "https://www.jlimlab.org/publication",
+          "https://www.jlimlab.org/research-1",
+          "https://www.jlimlab.org/team-1",
+          "https://vet.snu.ac.kr",
+          "https://www.jlimlab.org/cart",
+          "https://www.jlimlab.org/#page",
+          "https://www.jlimlab.org/gallery-1",
+          "https://www.jlimlab.org/contact-1",
+          "https://vet.snu.ac.kr/33661/",
+          "http://libguide.snu.ac.kr/vetlib/ejournal"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-FC8E2547B49BA8",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:55:41Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-FC8E2547B49BA8"
     },
     "SNU-RU-37CE2E0BA82D4D": {
@@ -311401,6 +311394,231 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-FBB9B59324E5A0"
+    },
+    "SNU-RU-FD256F500F2F27": {
+      "fingerprint": "dcbb73caefa9d48852197a9318a9685eb3b78ae38f2d43b2428402c8d44e1f44",
+      "checked_at": "2026-09-29T22:55:30Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-aboutLaw.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/editor/2608/130a7f143b27f51cf79aa4ae025611ce_1788155859_2998.png",
+            "alt": "130a7f143b27f51cf79aa4ae025611ce_1788155",
+            "title": "130a7f143b27f51cf79aa4ae025611ce_1788155859_2998.png",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=promotion&wr_id=493"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/greeting.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=promotion&wr_id=493",
+          "https://law.snu.ac.kr",
+          "https://law.snu.ac.kr/page/councel.php",
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://www.snu.ac.kr/personal_information",
+          "https://law.snu.ac.kr/index_en.php",
+          "https://law.snu.ac.kr/page/sitemap.php",
+          "https://law.snu.ac.kr/passni/sso/spLogin.php",
+          "https://law.snu.ac.kr/page/greeting.php"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-FD256F500F2F27",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-FD0903F8030154": {
+      "fingerprint": "9bfd4f92b7c88e2092c7822fc1524ae605da3dc06479e9cdbb8a81fec291fb0b",
+      "checked_at": "2026-09-29T22:55:32Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "오민환 교수 연구실, 2026 한국인공지능학회 하계학술대회 최우수논문상 2건 등 총 3건 수상",
+            "url": "https://gsds.snu.ac.kr/%ec%98%a4%eb%af%bc%ed%99%98-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ec%8b%a4-2026-%ed%95%9c%ea%b5%ad%ec%9d%b8%ea%b3%b5%ec%a7%80%eb%8a%a5%ed%95%99%ed%9a%8c-%ed%95%98%ea%b3%84%ed%95%99%ec%88%a0%eb%8c%80/",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "모집안내",
+            "url": "https://gsds.snu.ac.kr/academics/recruitment/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학공지",
+            "url": "https://gsds.snu.ac.kr/academics/acadmic-admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "진입안내 및 소개 동영상",
+            "url": "https://gsds.snu.ac.kr/integrated/admission/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "모집안내",
+            "url": "https://gsds.snu.ac.kr/academics/recruitment/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://gsds.snu.ac.kr/people/faculty/",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2026/08/ai현장_포스터-1-724x1024.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 80,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/hyunwoo-park/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/themes/gsds/resources/images/logo-dark.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/hyunwoo-park/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/themes/gsds/resources/images/logo-light.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/hyunwoo-park/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2026/08/강민석.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/%ea%b0%95%eb%af%bc%ec%84%9d/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2023/02/j14.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/%ea%b9%80%ed%83%9c%ec%84%ad/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2023/02/j15.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/hyung-sin-kim/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2023/02/박현우-편집.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people-post/hyunwoo-park/"
+          },
+          {
+            "url": "https://gsds.snu.ac.kr/wp-content/uploads/2024/03/성효진1-6.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://gsds.snu.ac.kr/people/faculty/"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://gsds.snu.ac.kr/people/faculty/",
+          "https://gsds.snu.ac.kr",
+          "https://gsds.snu.ac.kr/people/adjuct-faculty/",
+          "https://gsds.snu.ac.kr/people/student/",
+          "https://gsds.snu.ac.kr/people/administrative/",
+          "https://gsds.snu.ac.kr/bk21/bkpeople/",
+          "https://gsds.snu.ac.kr/people-post/%ea%b0%95%eb%af%bc%ec%84%9d/",
+          "https://gsds.snu.ac.kr/people-post/%ea%b9%80%ed%83%9c%ec%84%ad/",
+          "https://gsds.snu.ac.kr/people-post/hyung-sin-kim/",
+          "https://gsds.snu.ac.kr/people-post/hyunwoo-park/"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-FD0903F8030154",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -311558,11 +311776,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:55:17Z",
-    "checked": 220,
-    "seconds": 2996.07,
+    "at": "2026-09-29T22:56:47Z",
+    "checked": 225,
+    "seconds": 3086.13,
     "gemini": true,
-    "ai_requests": 85,
+    "ai_requests": 87,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
