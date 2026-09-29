@@ -1,5 +1,5 @@
 {
-  "cursor": 1482,
+  "cursor": 1487,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -44268,8 +44268,8 @@
       "_unit_id": "SNU-RU-637EE606F51249"
     },
     "SNU-RU-D20ADC2F34B26E": {
-      "fingerprint": "a0becfa1f168acad423aec84b88f06b933fe9c91aa36bb2cb557fd01d21c39b1",
-      "checked_at": "2026-09-24T22:00:20Z",
+      "fingerprint": "d43a95dac5476f5ae602f8225e6baf15ef203fc96809244c3ea722f06dc2dc5d",
+      "checked_at": "2026-09-29T00:59:16Z",
       "activity": {
         "publicationPages": [
           {
@@ -44277,13 +44277,8 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
+        "recruitmentPages": [],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-8/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-8/",
@@ -44293,27 +44288,68 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김병재 교수는 주산기의학 분야를 전문으로 하며, 고위험 임신, 태아 치료 및 산과적 합병증에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "김병재 교수는 주산기의학 분야를 전문으로 하며, 특히 조산, 전자간증, 임신성 당뇨병 및 태반 관련 질환의 조기 진단과 바이오마커 발굴, 그리고 임상 시험을 통한 산과적 치료 전략 연구에 집중하고 있습니다.",
         "research_topics": [
-          "주산기의학",
-          "고위험 임신",
-          "태아 치료"
+          "Premature Labor",
+          "Pre-Eclampsia",
+          "Biological Marker",
+          "Amnion Fluid",
+          "Gestational Diabetes",
+          "Placenta"
         ],
         "recommendation_keywords": [
           "주산기의학",
-          "산부인과",
-          "고위험 임신",
-          "태아 치료"
+          "조산",
+          "전자간증",
+          "임신성 당뇨병",
+          "태반",
+          "Premature Labor",
+          "Pre-Eclampsia",
+          "Biological Marker",
+          "Amnion Fluid",
+          "Gestational Diabetes",
+          "Placenta"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "Antenatal Corticosteroid in Twin-Pregnant Women at Risk of Late Preterm Delivery: A Randomized Clinical Trial",
+            "url": "https://snu.elsevierpure.com/en/publications/antenatal-corticosteroid-in-twin-pregnant-women-at-risk-of-late-p/",
+            "year": "2025",
+            "venue": "JAMA Pediatrics",
+            "summary": "쌍태 임신부의 후기 조산 위험 시 산전 코르티코스테로이드 투여의 효과를 평가한 무작위 임상 시험입니다."
+          },
+          {
+            "title": "Metabolomic profiling reveals early biomarkers of gestational diabetes mellitus and associated hepatic steatosis",
+            "url": "https://snu.elsevierpure.com/en/publications/metabolomic-profiling-reveals-early-biomarkers-of-gestational-dia/",
+            "year": "2025",
+            "venue": "Cardiovascular Diabetology",
+            "summary": "대사체학 프로파일링을 통해 임신성 당뇨병 및 관련 지방간의 조기 바이오마커를 규명한 연구입니다."
+          },
+          {
+            "title": "Identification of Preeclamptic Placenta in Whole Slide Images Using Artificial Intelligence Placenta Analysis",
+            "url": "https://snu.elsevierpure.com/en/publications/identification-of-preeclamptic-placenta-in-whole-slide-images-usi/",
+            "year": "2024",
+            "venue": "Journal of Korean Medical Science",
+            "summary": "인공지능 태반 분석을 활용하여 전자간증 태반을 전체 슬라이드 이미지에서 식별하는 방법을 연구하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 2,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "JAMA Pediatrics",
+            "count": 1
+          },
+          {
+            "venue": "Cardiovascular Diabetology",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -44321,50 +44357,45 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 산부인과학교실 교수로서 주산기의학 분야의 교육 및 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 85 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-8/",
         "poster_status": "verified",
         "poster_title": "Byoung Jae Kim",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/353550462/20171207_37kb_square.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-content",
-        "poster_evidence": "Official profile image verified on SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-8/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-8/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D20ADC2F34B26E",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T22:00:41Z",
+        "_saved_at": "2026-09-29T00:59:39Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -47041,118 +47072,27 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-D20F7927C3A466": {
-      "fingerprint": "fb142e7edf7c000c9798a92eef6fefb4e4e97766ec364be272de4f9b9db593a0",
-      "checked_at": "2026-09-24T21:59:55Z",
+      "fingerprint": "5521d0fdb2df66df42d03efab606ff43181a1d399ff9b94fb93ad3e01222ea6e",
+      "checked_at": "2026-09-29T00:58:56Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Learn more",
-            "url": "https://biomoldiv.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
             "title": "Publications",
-            "url": "https://biomoldiv.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://biomoldiv.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://biomoldiv.snu.ac.kr/publications",
-            "kind": "publication"
-          },
-          {
-            "title": "Publications",
-            "url": "https://biomoldiv.snu.ac.kr/publications",
-            "kind": "publication"
+            "url": "https://biomoldiv.snu.ac.kr/publications"
           }
         ],
         "recruitmentPages": [
           {
             "title": "실험지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-lab",
-            "kind": "recruitment"
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
           },
           {
             "title": "세미나 지원시설",
-            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학 및 졸업 관련양식",
-            "url": "https://chem.snu.ac.kr/academics/archive/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "학부",
-            "url": "https://chem.snu.ac.kr/admission/undergraduate",
-            "kind": "recruitment"
+            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar"
           }
         ],
         "membersUrl": "https://biomoldiv.snu.ac.kr/people",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/t-logo@2.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/faculty/fulltime/e7bz8eez8a7z013z655zd9az8c1z9e8z9a8zb47zd7.jpg",
-            "alt": "김석희 부교수 사진",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png?ver=2021-03-30",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/_skin/kor/images/site/flogo.png",
-            "alt": "서울대학교 화학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/8b5z5d8zc0aza0aza70z214z354z52czf09z4a2z17.jpg",
-            "alt": "저렴한 망간 배터리, 전기차용 대형 배터리 상용화 가능성 높여",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/9bbz7b5ze8fza3fzc14z08dze11z840z8c1zfe8z3b.jpg",
-            "alt": "[2026.9.1. 신임교수 부임]",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f89z025z142z6c1z043zeaaz2acz5d1z754z1cazd0.jpg",
-            "alt": "[100세 과학] 겨울이 오고 있다…추위 대응 이끄는 뉴런 발견",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          },
-          {
-            "url": "https://chem.snu.ac.kr/webdata/homenews/ko/f09z3d3z8e8z58dz18az999ze60z571za15z9bczaa.png",
-            "alt": "서울대, 단백질 설계로 구리화합물 구조·물성 조절",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://chem.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://biomoldiv.snu.ac.kr/",
           "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y",
@@ -47166,9 +47106,127 @@
           "https://biomoldiv.snu.ac.kr/research"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D20F7927C3A466",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "김석희 교수의 생체분자 다양성 연구실은 자연이 생체분자의 다양성을 생성하는 분자적 논리를 이해하고, 이를 생명공학 및 의학적 문제 해결에 응용하는 연구를 수행합니다. 주요 연구 분야로는 RiPP 생합성 유전자 클러스터 탐색 및 효소 기전 연구, 그리고 연속적 지향 진화(Continuous Directed Evolution) 도구 개발 등이 있습니다.",
+        "research_topics": [
+          "RiPP 생합성",
+          "생화학",
+          "효소학",
+          "화학생물학",
+          "유전학",
+          "구조생물학",
+          "연속적 지향 진화"
+        ],
+        "recommendation_keywords": [
+          "생화학",
+          "RiPP",
+          "효소 기전",
+          "지향 진화",
+          "생체분자 다양성",
+          "RiPP 생합성",
+          "효소학",
+          "화학생물학",
+          "유전학",
+          "구조생물학",
+          "연속적 지향 진화"
+        ],
+        "recent_papers": [
+          {
+            "title": "Continuous targeted hypermutation with a tunable mutation window",
+            "url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y",
+            "year": "2025",
+            "venue": "Nature Communications",
+            "summary": "조절 가능한 돌연변이 범위를 가진 연속적 표적 과돌연변이 시스템을 개발하였습니다."
+          },
+          {
+            "title": "Integrating two contrasting biosynthetic pathways for peptide natural products",
+            "url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y",
+            "year": "2025",
+            "venue": "CHEM",
+            "summary": "펩타이드 천연물을 위한 두 가지 대조적인 생합성 경로를 통합하는 연구를 수행하였습니다."
+          },
+          {
+            "title": "Discovery of a Two-Step Enzyme Cascade Converting Aspartate to Aminomalonate in Peptide Natural Product Biosynthesis",
+            "url": "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y",
+            "year": "2025",
+            "venue": "Journal of the American Chemical Society",
+            "summary": "펩타이드 천연물 생합성 과정에서 아스파르트산을 아미노말로네이트로 전환하는 2단계 효소 캐스케이드를 발견하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Nature Communications",
+            "count": 1
+          },
+          {
+            "venue": "CHEM",
+            "count": 1
+          },
+          {
+            "venue": "Journal of the American Chemical Society",
+            "count": 1
+          }
+        ],
+        "education_summary": "2001년 서울대학교 화학부에서 학사 학위를, 2008년 하버드 대학교에서 화학 및 화학생물학 박사 학위를 취득하였습니다. 2008년부터 2013년까지 MIT에서 박사후 연구원으로 재직하였으며, 2014년부터 서울대학교 화학부 교수로 재직 중입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://biomoldiv.snu.ac.kr/publications"
+          }
+        ],
+        "recruitment_summary": "생체분자 다양성 연구실에서는 생화학, 효소학, 화학생물학, 유전학, 구조생물학 분야에 관심 있는 의욕적인 학생 및 박사후 연구원을 모집하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "실험지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-lab"
+          },
+          {
+            "title": "세미나 지원시설",
+            "url": "https://chem.snu.ac.kr/research-faculty/support-seminar"
+          }
+        ],
+        "recruitment_source_url": "https://biomoldiv.snu.ac.kr/",
+        "member_page_url": "https://biomoldiv.snu.ac.kr/people",
+        "poster_status": "none_detected",
+        "source_urls_used": [
+          "https://biomoldiv.snu.ac.kr/",
+          "https://chem.snu.ac.kr/research-faculty/faculty/fulltime?mode=view&profidx=47&sc=y",
+          "https://biomoldiv.snu.ac.kr/people/professor",
+          "https://biomoldiv.snu.ac.kr/publications",
+          "https://biomoldiv.snu.ac.kr/people/students",
+          "https://biomoldiv.snu.ac.kr/people/alumni",
+          "https://chem.snu.ac.kr",
+          "https://biomoldiv.snu.ac.kr/people",
+          "https://biomoldiv.snu.ac.kr/home",
+          "https://biomoldiv.snu.ac.kr/research",
+          "https://chem.snu.ac.kr/research-faculty/support-lab",
+          "https://chem.snu.ac.kr/research-faculty/support-seminar"
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "current_members": [],
+        "alumni": [],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "_unit_id": "SNU-RU-D20F7927C3A466",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:59:04Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D20F7927C3A466"
     },
     "SNU-RU-63A79D7F587312": {
       "fingerprint": "070caf464afb602d05cc5d49efdc1d714fbb571bdb7c922e76605a46ed15b709",
@@ -111224,8 +111282,8 @@
       "_unit_id": "SNU-RU-4F5B7FA4D61EF4"
     },
     "SNU-RU-D21424803F4889": {
-      "fingerprint": "6029249f52641d0c32fbabe7d66676b994b9d0e82ea06aec19b03d8afe132237",
-      "checked_at": "2026-09-24T22:00:18Z",
+      "fingerprint": "8a3e4659852041582832b921f941fc9856566735db31a3af1ffa781e772ed122",
+      "checked_at": "2026-09-29T00:59:15Z",
       "activity": {
         "publicationPages": [
           {
@@ -111254,22 +111312,21 @@
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
       "enrichment": {
-        "research_summary": "박정위 교수는 정형외과학교실 소속으로 고관절 분야를 전문으로 연구하며, 특히 대퇴골 전자간 골절 등 고관절 골절의 치료 및 수술적 기법에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "박정위 교수는 정형외과 분야, 특히 고관절 질환 및 골절 치료와 관련된 연구를 수행하고 있습니다. 주요 연구 관심사는 고관절 골절의 수술적 치료 및 임상적 결과 분석입니다.",
         "research_topics": [
           "고관절",
-          "대퇴골 전자간 골절",
-          "정형외과"
+          "정형외과",
+          "골절"
         ],
         "recommendation_keywords": [
           "고관절",
           "정형외과",
-          "골절",
-          "대퇴골 전자간 골절"
+          "골절"
         ],
         "recent_papers": [
           {
@@ -111300,7 +111357,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/jung-wee-park/publications/"
           }
         ],
-        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사 및 상담 프로그램을 제공하는 연건학생지원센터가 안내되어 있습니다.",
+        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하는 연건학생지원센터가 운영되고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -111321,22 +111378,22 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/",
           "https://snu.elsevierpure.com/en/publications/cortical-support-in-unstable-intertrochanteric-fracture-without-f/",
+          "https://snu.elsevierpure.com/en/persons/jung-wee-park/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/#main-search",
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/#main-content",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://snu.elsevierpure.com/en/persons/jung-wee-park/publications/",
           "https://snu.elsevierpure.com/en/persons/jung-wee-park/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D21424803F4889",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T22:00:25Z",
+        "_saved_at": "2026-09-29T00:59:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -241325,113 +241382,18 @@
       "_unit_id": "SNU-RU-1A14E7BB8BED66"
     },
     "SNU-RU-D18FB7A32A9701": {
-      "fingerprint": "2bb63f71e671b089435a8ec6018d640a5c81ea040c83dea5588d606dfab46caa",
-      "checked_at": "2026-09-24T21:59:22Z",
+      "fingerprint": "75160bc1d0fd6204c0153fc4747a3cce99c34789752ab49ffb80c1898f087c99",
+      "checked_at": "2026-09-29T00:59:09Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
-            "kind": "publication"
-          },
-          {
-            "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "title": "한호재 - 수의과대학",
+            "url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "수의학이란?",
-            "url": "https://vet.snu.ac.kr/admissions1/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "배우는것",
-            "url": "https://vet.snu.ac.kr/admissions2/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "수의사의 활동",
-            "url": "https://vet.snu.ac.kr/admissions3/",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
-            "alt": "서울대학교 수의과대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/hanhj_20190211-1.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#none"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty4/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          }
-        ],
+        "recruitmentPages": [],
+        "membersUrl": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
           "https://vet.snu.ac.kr",
@@ -241445,9 +241407,114 @@
           "https://vet.snu.ac.kr/faculty4/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D18FB7A32A9701",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "한호재 교수는 수의생리학을 전공하며, 줄기세포의 기능 조절, 대사 스트레스에 의한 세포 사멸 및 미토콘드리아 기능 이상, 신경 퇴행성 질환의 기전 연구에 집중하고 있습니다. 특히 줄기세포의 치료 효능 증진, 당뇨병 및 알츠하이머병과 관련된 세포 내 신호 전달 체계와 미토콘드리아-소포체 접촉점(ER-mitochondria contacts)의 역할을 규명하는 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "수의생리학",
+          "줄기세포 생물학",
+          "미토콘드리아 기능 조절",
+          "신경 퇴행성 질환",
+          "대사 질환"
+        ],
+        "recommendation_keywords": [
+          "수의생리학",
+          "줄기세포",
+          "미토콘드리아",
+          "세포사멸",
+          "신경과학",
+          "줄기세포 생물학",
+          "미토콘드리아 기능 조절",
+          "신경 퇴행성 질환",
+          "대사 질환"
+        ],
+        "recent_papers": [
+          {
+            "title": "Sodium butyrate ameliorates high glucose-suppressed neuronal mitophagy by restoring PRKN expression via inhibiting the RELA-HDAC8 complex.",
+            "url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+            "year": "2024",
+            "venue": "Autophagy",
+            "summary": "고혈당으로 억제된 신경세포의 미토파지(mitophagy)를 소듐 부티레이트가 RELA-HDAC8 복합체 억제를 통해 PRKN 발현을 회복시킴으로써 개선함을 규명하였습니다."
+          },
+          {
+            "title": "The potential role of gut microbiota-derived metabolites as regulators of metabolic syndrome-associated mitochondrial and endolysosomal dysfunction in Alzheimer’s disease.",
+            "url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+            "year": "2024",
+            "venue": "Experimental & Molecular Medicine",
+            "summary": "알츠하이머병에서 대사 증후군과 관련된 미토콘드리아 및 엔도리소좀 기능 이상을 조절하는 장내 미생물 유래 대사산물의 잠재적 역할을 분석하였습니다."
+          },
+          {
+            "title": "Genome-wide phenotypic profiling of transcription factors and identification of novel targets to control the virulence of Vibrio vulnificus.",
+            "url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+            "year": "2024",
+            "venue": "Nucleic Acids Research",
+            "summary": "비브리오 불니피쿠스(Vibrio vulnificus)의 병원성을 제어하기 위한 전사 인자의 전장 유전체 표현형 프로파일링 및 새로운 표적을 식별하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 3,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Autophagy",
+            "count": 1
+          },
+          {
+            "venue": "Experimental & Molecular Medicine",
+            "count": 1
+          },
+          {
+            "venue": "Nucleic Acids Research",
+            "count": 1
+          }
+        ],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 수의과대학 수의학과(수의생리학) 교수로 재직 중이며, 전남대학교 수의과대학 교수 및 학장, 서울대학교 수의과대학 학장, BK21 FOUR 미래수의학선도 교육연구단 사업단장 등을 역임하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "한호재 - 수의과대학",
+            "url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+        "poster_status": "verified",
+        "poster_title": "한호재 교수",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/hanhj_20190211-1.jpeg",
+        "poster_source_url": "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+        "poster_evidence": "공식 교수진 페이지 내 프로필 사진으로 확인됨",
+        "source_urls_used": [
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#container",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://vet.snu.ac.kr/snu__professor/%ED%95%9C%ED%98%B8%EC%9E%AC/#none",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty2/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/33661/",
+          "http://libguide.snu.ac.kr/vetlib/ejournal"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D18FB7A32A9701",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:59:24Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D18FB7A32A9701"
     },
     "SNU-RU-B768E0BD0689E1": {
       "fingerprint": "7a2a2527fab4b2894bbf9d27cc4d3c5cec6acfbd9952781c054111dbbc380606",
@@ -261574,104 +261641,29 @@
       "_unit_id": "SNU-RU-D134C1D1748A06"
     },
     "SNU-RU-D16D3C6468C649": {
-      "fingerprint": "284286edb9699fa4d2bd3be9bc0ef157851902703134b1504f0e8249b88d8020",
-      "checked_at": "2026-09-24T21:59:08Z",
+      "fingerprint": "64737de7e85dbc01051d12a9fc1fd23325110c2d53ad7140e8973077e0f4a7bb",
+      "checked_at": "2026-09-29T00:59:03Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
-            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
-            "kind": "publication"
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf"
           }
         ],
         "recruitmentPages": [
           {
             "title": "교수초빙",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-            "kind": "recruitment"
-          },
-          {
-            "title": "교수초빙",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-            "kind": "recruitment"
-          },
-          {
-            "title": "22 2026.09 취업 [DN솔루션즈] 서울대학교 채용상담회 진행 (9/28(월)) Global TOP3 공작기계 제조사,DN솔루션즈에서 2026년...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149",
-            "kind": "recruitment"
-          },
-          {
-            "title": "21 2026.09 취업 [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집... [에코마케팅] 2026 하반기 신입·경력 집중채용 - 2차 모집...",
-            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1148",
-            "kind": "recruitment"
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
           }
         ],
-        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=25",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://www.math.snu.ac.kr/thema/Math/logo-top.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_CKSE6DZt_18e99860b102f1f45e19b70a246685d92bd46748_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_Ur5o4awD_7c5e979b793a53985662d3476bd2da2dcd6426bc_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_H0Efmy38_a3cacee6e8aeb3c479f9fa0b3d5bcdd51e5e69ce_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_8AUYTsKb_9e90d5addbc989a522651a6a7bf5f41ce87b868c_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_i6NfXdWb_369c236347c8e260cd51158bd5270389b11f3fc4_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_G9lBXbaq_bfe97e9303d0ddbae0d53265741bb58382500b18_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          },
-          {
-            "url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_zIoq5B9b_8fb53f908ed2aab889623d4e5ba001f540e96cd1_600x400.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991"
-          }
-        ],
+        "membersUrl": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=29",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
           "https://www.math.snu.ac.kr",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=25",
-          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001&year=2026&month=9&day=25",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=29",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001&year=2026&month=9&day=29",
           "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
           "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
           "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
@@ -261679,9 +261671,78 @@
           "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D16D3C6468C649",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "계승혁 명예교수는 작용소 대수(Operator Algebras) 분야를 중심으로 연구를 수행해 왔으며, 특히 C*-대수 및 관련 수학적 구조에 관한 다수의 논문을 발표하였습니다.",
+        "research_topics": [
+          "Operator Algebras",
+          "C*-algebras"
+        ],
+        "recommendation_keywords": [
+          "계승혁",
+          "수리과학부",
+          "작용소 대수",
+          "명예교수",
+          "Operator Algebras",
+          "C*-algebras"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "http://www.math.snu.ac.kr/~syha/publication-list.pdf"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "교수초빙",
+            "url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment"
+          }
+        ],
+        "recruitment_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=29",
+        "poster_status": "verified",
+        "poster_title": "계승혁 명예교수, 2025년 올해의 최석정상 수상",
+        "poster_date": "2025-04-21",
+        "poster_event": "2025년 올해의 최석정상 시상식",
+        "poster_image_url": "https://www.math.snu.ac.kr/data/file/Math_News/thumb-02a782b2822741abffc7565d56d68c53_CKSE6DZt_18e99860b102f1f45e19b70a246685d92bd46748_600x400.jpg",
+        "poster_source_url": "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+        "poster_evidence": "서울대학교 수리과학부 홈페이지 뉴스 게시판을 통해 계승혁 명예교수의 2025년 올해의 최석정상 수상 사실이 확인됨.",
+        "source_urls_used": [
+          "http://www.math.snu.ac.kr/~syha/publication-list.pdf",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=1991",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Faculty_Recruitment",
+          "https://www.math.snu.ac.kr",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2006&year=2026&month=9&day=29",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_News&wr_id=2001&year=2026&month=9&day=29",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Awards",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=professor",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=postdoc",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=adjunct",
+          "https://www.math.snu.ac.kr/bbs/page.php?hid=emeritus",
+          "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Notice&wr_id=1149"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D16D3C6468C649",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:59:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D16D3C6468C649"
     },
     "SNU-RU-D13D3ACC0C903F": {
       "fingerprint": "f29c19c3575ba4dffe7268c1e0025089845d512c2c94cfb169e6718f621c8224",
@@ -302414,11 +302475,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:58:48Z",
-    "checked": 465,
-    "seconds": 6277.97,
+    "at": "2026-09-29T00:59:39Z",
+    "checked": 470,
+    "seconds": 6328.98,
     "gemini": true,
-    "ai_requests": 330,
+    "ai_requests": 335,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
