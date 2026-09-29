@@ -1,5 +1,5 @@
 {
-  "cursor": 1427,
+  "cursor": 1432,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -68341,8 +68341,8 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-CC0BDAFBC95BB3": {
-      "fingerprint": "dd5f349aa0d84ce207dc4c99f1b2d82676eac2a462fdaf54b4946831f4e7997a",
-      "checked_at": "2026-09-24T21:45:07Z",
+      "fingerprint": "bda537212b738e245fdb84549cb82a537f5ffd25086b2e7047eea472bb28cb35",
+      "checked_at": "2026-09-29T00:45:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -68365,28 +68365,23 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김종민 교수는 신경과학 분야, 특히 이상운동질환(Movement Disorders)을 중심으로 파킨슨병, 떨림, 보행 장애 및 관련 신경학적 기전에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "김종민 교수는 이상운동질환(Movement Disorders) 분야를 전문으로 하며, 파킨슨병 및 관련 신경계 질환에 대한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "이상운동질환",
+          "이상운동",
           "파킨슨병",
-          "떨림",
-          "보행 장애",
           "신경과학"
         ],
         "recommendation_keywords": [
           "이상운동",
           "파킨슨병",
           "신경과",
-          "이상운동질환",
-          "떨림",
-          "보행 장애",
           "신경과학"
         ],
         "recent_papers": [],
@@ -68423,7 +68418,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959764/211_Kim_+Jong-Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure research profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-91/",
           "http://yss.snu.ac.kr/",
@@ -68431,7 +68426,7 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-91/#main-search",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -68442,7 +68437,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CC0BDAFBC95BB3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:45:21Z",
+        "_saved_at": "2026-09-29T00:46:51Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -124886,24 +124881,34 @@
       "_unit_id": "SNU-RU-6B0B58B8BC223E"
     },
     "SNU-RU-CBC337E88C568B": {
-      "fingerprint": "6a124ed35d5bd5642d9ae1a0b170775343951ba8c2bd8b7af39029aef3c7d28e",
-      "checked_at": "2026-09-24T21:44:03Z",
+      "fingerprint": "f6e921bdc3688c7ac2a5886322ce809c85bbf182446747798a6d86b5e65387bf",
+      "checked_at": "2026-09-29T00:45:33Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://learning.snu.ac.kr/category/board-145-GN-5rT2jEg7-20230719130936/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
           "https://learning.snu.ac.kr",
-          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#container",
           "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#footer",
           "https://admission.snu.ac.kr/",
           "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#none",
-          "https://learning.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
           "https://learning.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
-          "https://learning.snu.ac.kr/%ec%a3%bc%ec%a0%84%ea%b3%b5/"
+          "https://learning.snu.ac.kr/%ec%a3%bc%ec%a0%84%ea%b3%b5/",
+          "https://learning.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/",
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ed%95%99-%ec%a0%84%ea%b3%b5/"
         ]
       },
       "enrichment": {
@@ -124926,21 +124931,21 @@
             "url": "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
             "year": "2023",
             "venue": "The SNU Journal of Education Research",
-            "summary": ""
+            "summary": "고등학생의 자기주도적 학습태도가 회복탄력성을 매개로 수업만족도에 미치는 영향을 분석하였습니다."
           },
           {
             "title": "구조적 인과 모형에 기반한 교수역량에 대한 인과 경로 분석: TALIS 2018 자료를 활용한 한국, 영국, 핀란드 간 비교를 중심으로",
             "url": "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
             "year": "2022",
             "venue": "교육평가연구",
-            "summary": ""
+            "summary": "TALIS 2018 자료를 활용하여 한국, 영국, 핀란드 간 교수역량에 대한 인과 경로를 구조적 인과 모형으로 분석하였습니다."
           },
           {
             "title": "비네트 고정법에서 조정점수 산출 방법에 따른 응답 편파 보정효과",
             "url": "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
             "year": "2021",
             "venue": "교육학연구",
-            "summary": ""
+            "summary": "비네트 고정법을 활용하여 조정점수 산출 방법에 따른 응답 편파 보정효과를 연구하였습니다."
           }
         ],
         "recent_year_paper_count": 3,
@@ -124965,14 +124970,24 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 사범대학 교육학과 학사, 서울대학교 대학원 교육학과 석사, University of California at Berkeley 박사 학위를 취득하였습니다.",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "education_summary": "서울대학교 사범대학 교육학과 학사 및 석사를 졸업하고, 미국 University of California at Berkeley에서 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "서울대학교 입학포털을 통해 입학 관련 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
+        "member_page_url": "https://learning.snu.ac.kr/category/board-145-GN-5rT2jEg7-20230719130936/",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -124982,23 +124997,23 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/",
-          "https://learning.snu.ac.kr",
-          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#container",
-          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#footer",
           "https://admission.snu.ac.kr/",
-          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#none",
-          "https://learning.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
+          "https://www.snu.ac.kr/research/highlights",
           "https://learning.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
+          "https://learning.snu.ac.kr",
+          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#footer",
+          "https://learning.snu.ac.kr/snu__professor/%EB%B0%B1%EC%88%9C%EA%B7%BC/#none",
           "https://learning.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ec%a3%bc%ec%a0%84%ea%b3%b5/",
-          "https://www.snu.ac.kr/research/highlights",
+          "https://learning.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/",
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ed%95%99-%ec%a0%84%ea%b3%b5/",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CBC337E88C568B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:44:36Z",
+        "_saved_at": "2026-09-29T00:46:30Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -163859,7 +163874,7 @@
     },
     "SNU-RU-CC0E9A018417D1": {
       "fingerprint": "cc74a72bbab8e96511bdc3e9137cce8b57cd4084667122847fc08c54628477bb",
-      "checked_at": "2026-09-24T21:44:50Z",
+      "checked_at": "2026-09-29T00:45:19Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -196842,118 +196857,23 @@
       "_unit_id": "SNU-RU-ECB2F3D6BD83DB"
     },
     "SNU-RU-CBEBCFA2E40AF0": {
-      "fingerprint": "f97c9bd5180755a36f589d68d073a40b3e225b7ee0e4e20d2bbcd621d6d92ff5",
-      "checked_at": "2026-09-24T21:45:05Z",
+      "fingerprint": "28d2052f46a646ee8d2a0f0c2f8008098e355fe5549183085c3ffc9b35d62a51",
+      "checked_at": "2026-09-29T00:45:34Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 411 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "401",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "1",
-            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13962212/764_Jang_+In-Jin.jpg?w=160&f=jpg",
-            "alt": "In-Jin Jang",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-jang-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -196963,19 +196883,22 @@
           "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
         ]
       },
       "enrichment": {
-        "research_summary": "장인진 교수는 서울대학교 의과대학 임상약리학교실 소속으로, 신약 임상 개발 및 약물유전체학 분야에서 활발한 연구를 수행하고 있습니다.",
+        "research_summary": "장인진 교수는 임상약리학 분야에서 신약 임상 개발 및 약물유전체학을 중심으로 연구를 수행하고 있으며, 개인 맞춤형 약물 치료를 위한 모니터링 기술 등을 연구하고 있습니다.",
         "research_topics": [
           "신약임상개발",
-          "약물유전체학"
+          "약물유전체학",
+          "임상약리학"
         ],
         "recommendation_keywords": [
           "신약임상개발",
-          "약물유전체학"
+          "약물유전체학",
+          "임상약리",
+          "임상약리학"
         ],
         "recent_papers": [
           {
@@ -196983,10 +196906,10 @@
             "url": "https://snu.elsevierpure.com/en/publications/saliva-based-lacosamide-monitoring-paves-the-way-toward-personali/",
             "year": "2026",
             "venue": "Scientific Reports",
-            "summary": "타액을 이용한 라코사미드 농도 모니터링을 통해 개인 맞춤형 뇌전증 치료의 가능성을 제시하였습니다."
+            "summary": "타액을 이용한 라코사미드 농도 모니터링이 간질 환자의 개인 맞춤형 치료에 효과적으로 활용될 수 있음을 제시하였습니다."
           }
         ],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 411,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -196995,51 +196918,54 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 임상약리학교실 소속으로 신약 임상 개발 및 약물유전체학 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 411 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/"
           }
         ],
-        "recruitment_summary": "현재 해당 교수/연구실의 공식적인 채용 공고 페이지는 확인되지 않습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사 및 상담 프로그램을 제공하는 연건학생지원센터가 운영되고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
-        "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_status": "verified",
+        "poster_title": "In-Jin Jang",
+        "poster_date": null,
+        "poster_event": null,
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962212/764_Jang_+In-Jin.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content",
+        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-jang-2/",
           "https://snu.elsevierpure.com/en/publications/saliva-based-lacosamide-monitoring-paves-the-way-toward-personali/",
-          "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-jang-2/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
+          "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/",
           "https://snu.elsevierpure.com/en/persons/y-jang-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CBEBCFA2E40AF0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:37:18Z",
+        "_saved_at": "2026-09-29T00:46:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-CBEBCFA2E40AF0",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-CBEBCFA2E40AF0"
     },
     "SNU-RU-1DDD88FB2D3D1E": {
       "fingerprint": "40baebc2787c2f093b31c032c34933208cdb34a33172579933cca96948a32a61",
@@ -259733,7 +259659,7 @@
     },
     "SNU-RU-CBC7F8DD18D1CA": {
       "fingerprint": "ecdb25c561f712fdfde73da29e23096cb6126e39336a589f9c15db93b2f267a1",
-      "checked_at": "2026-09-24T21:43:49Z",
+      "checked_at": "2026-09-29T00:45:19Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -302466,11 +302392,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:45:05Z",
-    "checked": 410,
-    "seconds": 5455.32,
+    "at": "2026-09-29T00:46:51Z",
+    "checked": 415,
+    "seconds": 5561.11,
     "gemini": true,
-    "ai_requests": 288,
+    "ai_requests": 291,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
