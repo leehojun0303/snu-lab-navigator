@@ -1,5 +1,5 @@
 {
-  "cursor": 1752,
+  "cursor": 1757,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -113188,7 +113188,7 @@
     },
     "SNU-RU-F8F81EB889D07B": {
       "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
-      "checked_at": "2026-09-23T23:36:47Z",
+      "checked_at": "2026-09-29T22:51:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -161503,18 +161503,13 @@
       "_unit_id": "SNU-RU-8960B2B40FB2E4"
     },
     "SNU-RU-F95A53AE5C3365": {
-      "fingerprint": "0bef81a80db90cbd485dcc73c3f293ae772e393869ee28d6404d20fc9d6bb49f",
-      "checked_at": "2026-09-24T00:21:12Z",
+      "fingerprint": "bb27ef3c2e2014bef62d05c9295cee31c5191cc4581d868bc17ae4570f33744c",
+      "checked_at": "2026-09-29T22:50:56Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
             "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=mr.lee&code=102",
-            "kind": "publication"
-          },
-          {
-            "title": "Journal of Korean Law의 원고모…",
-            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=normal_board&wr_id=7519",
             "kind": "publication"
           }
         ],
@@ -161614,7 +161609,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-F95A53AE5C3365"
+      "_unit_id": "SNU-RU-F95A53AE5C3365",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1A521DE3015260": {
       "fingerprint": "11bb02db5cdf29a3402349caab68719eef5b5bd7985f262b82b6b4605874cc1e",
@@ -222212,8 +222208,8 @@
       "_unit_id": "SNU-RU-62A8F99E99DB02"
     },
     "SNU-RU-F90EAAEFF30E63": {
-      "fingerprint": "809e3ac6157c0c00082e9fce4fd3ea95b5aaee7ca55a0190af03c64618d2fa95",
-      "checked_at": "2026-09-24T01:42:43Z",
+      "fingerprint": "5d92b4cebc2b202d9c7eaa1071403ffd06f0a4377d1d99f73ae4466dce53326a",
+      "checked_at": "2026-09-29T22:51:13Z",
       "activity": {
         "publicationPages": [
           {
@@ -222238,26 +222234,30 @@
         ]
       },
       "enrichment": {
-        "research_summary": "최무림 교수는 유전학, 유전체학, 발생학 및 생물정보학 분야를 연구하며, 특히 질병의 유전적 원인 규명과 관련 기전 연구에 집중하고 있습니다.",
+        "research_summary": "최무림 교수는 유전학, 유전체학, 발생학 및 생물정보학 분야를 연구하며, 특히 간 섬유화와 같은 질환의 분자적 기전을 규명하는 연구를 수행하고 있습니다. 최근 연구에서는 ADAMTS4가 골수 유래 면역 세포의 모집과 간 섬유화를 촉진한다는 사실을 밝혀내어, 이를 표적으로 하는 간 섬유화 치료 전략의 가능성을 제시하였습니다.",
         "research_topics": [
           "유전학",
           "유전체학",
           "발생학",
-          "생물정보학"
+          "생물정보학",
+          "간 섬유화",
+          "ADAMTS4"
         ],
         "recommendation_keywords": [
           "유전학",
           "유전체학",
           "발생학",
-          "생물정보학"
+          "생물정보학",
+          "간 섬유화",
+          "ADAMTS4"
         ],
         "recent_papers": [
           {
             "title": "ADAMTS4 elicits myeloid-derived immune cell recruitment and liver fibrogenesis in metabolic dysfunction-associated steatotic liver disease",
             "url": "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/",
             "year": "2026",
-            "venue": "Journal of Hepatology",
-            "summary": "ADAMTS4가 대사 기능 장애 관련 지방간 질환에서 골수 유래 면역 세포 모집과 간 섬유화를 유도함을 규명하였습니다."
+            "venue": "Signal Transduction and Targeted Therapy",
+            "summary": "ADAMTS4가 간 섬유화 과정에서 골수 유래 면역 세포의 모집과 콜라겐 축적을 촉진하는 핵심 조절 인자임을 규명하였으며, 이를 표적으로 하는 간 섬유화 치료 전략의 가능성을 제시하였습니다."
           }
         ],
         "recent_year_paper_count": null,
@@ -222276,7 +222276,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-choi-4/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적인 연구실 채용 공고 페이지는 확인되지 않습니다.",
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
@@ -222290,9 +222290,9 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "https://snu.elsevierpure.com/en/persons/y-choi-4/",
           "https://snu.elsevierpure.com/en/publications/adamts4-elicits-myeloid-derived-immune-cell-recruitment-and-liver/",
           "https://snu.elsevierpure.com/en/persons/y-choi-4/publications/",
+          "https://snu.elsevierpure.com/en/persons/y-choi-4/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-choi-4/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-choi-4/#main-search",
@@ -222307,10 +222307,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F90EAAEFF30E63",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:41:23Z",
+        "_saved_at": "2026-09-29T22:51:43Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F90EAAEFF30E63"
     },
@@ -226454,18 +226453,118 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-F954A2D007A9B9": {
-      "fingerprint": "36a101a327997bd03c3e86c6a4170c8d5dfcfe042892570d16fdcab8a44b00d0",
-      "checked_at": "2026-09-24T01:46:10Z",
+      "fingerprint": "3aa46f2ac476af01864182e3c8427911adf7067dc20afb76eb89c7676fdc3fe6",
+      "checked_at": "2026-09-29T22:51:17Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 205 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/"
+            "title": "View all 206 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "177",
+            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "15",
+            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "6",
+            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-heo-2/publications/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13963164/979_Heo_+Chanyeong.jpg?w=160&f=jpg",
+            "alt": "Chan Yeong Heo",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-heo-2/#main-navigation"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-heo-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -226547,7 +226646,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-F954A2D007A9B9"
+      "_unit_id": "SNU-RU-F954A2D007A9B9",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-ADD04006A755B4": {
       "fingerprint": "c7a07799d5d1673911cd5eb2052a04e52abf14f568afed6b019273dc5d461557",
@@ -310035,6 +310135,167 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-F85ADBECF30364",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-F91494AA0F0981": {
+      "fingerprint": "41964c840bcb760edf10964598e7dcf3f3e358fc5c51c86876bada3744403859",
+      "checked_at": "2026-09-29T22:50:59Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학안내",
+            "url": "https://socialedu.snu.ac.kr/sub_department/admission.php"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://socialedu.snu.ac.kr/sub_about/professor.php",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://socialedu.snu.ac.kr/sub_about/professor.php",
+          "https://socialedu.snu.ac.kr/main/",
+          "https://socialedu.snu.ac.kr/sub_department/admission.php",
+          "https://admission.snu.ac.kr/",
+          "https://socialedu.snu.ac.kr/sub_department/major.php",
+          "https://socialedu.snu.ac.kr/sub_department/dubmajor.php",
+          "https://socialedu.snu.ac.kr/sub_department/certific.php",
+          "https://socialedu.snu.ac.kr/sub_grad/admission.php",
+          "https://admission.snu.ac.kr",
+          "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "모경환 교수는 사회과교육 및 시민교육 분야를 중심으로 연구를 수행하고 있으며, 특히 다문화 교육, 논쟁문제 수업, 민주주의와 시민성 교육, 그리고 교육과정 개발에 관한 다양한 학술적 성과를 발표하고 있습니다.",
+        "research_topics": [
+          "사회과교육",
+          "시민교육",
+          "다문화교육",
+          "논쟁문제 수업",
+          "교육과정"
+        ],
+        "recommendation_keywords": [
+          "사회과교육",
+          "시민교육",
+          "다문화교육",
+          "민주주의",
+          "교육과정",
+          "논쟁문제 수업"
+        ],
+        "recent_papers": [
+          {
+            "title": "북한이탈 여성의 교직 진입 경험에 대한 내러티브 탐구",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2026",
+            "venue": "학술지",
+            "summary": ""
+          },
+          {
+            "title": "SAC+ 기반 생성형 인공지능 활용 사회과 논쟁문제 수업이 고등학생의 비판적 사고력에 미치는 영향",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2026",
+            "venue": "학술지",
+            "summary": ""
+          },
+          {
+            "title": "사범대학 사회과 예비교사 교육과정의 구성과 인식에 대한 분석",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2026",
+            "venue": "학술지",
+            "summary": ""
+          }
+        ],
+        "recent_year_paper_count": 6,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "학술지",
+            "count": 6
+          }
+        ],
+        "books": [
+          {
+            "title": "한국 사회문제 진단: 대한민국이 아프다",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2025",
+            "venue": "단행본"
+          },
+          {
+            "title": "Intercultural Education, Curriculum Development, Assessment and Teaching: Global Perspectives",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2025",
+            "venue": "단행본"
+          },
+          {
+            "title": "통합사회 교육론",
+            "url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+            "year": "2025",
+            "venue": "단행본"
+          }
+        ],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "버클리대학교에서 박사 학위를 취득하였으며, 현재 서울대학교 사범대학 사회교육과 교수로 재직 중입니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "서울대학교 사회교육과 학부 및 대학원 입학 관련 정보는 공식 입학 포털을 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학안내",
+            "url": "https://socialedu.snu.ac.kr/sub_department/admission.php"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://socialedu.snu.ac.kr/sub_department/admission.php",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://socialedu.snu.ac.kr/sub_about/professor.php",
+        "poster_status": "verified",
+        "poster_title": "모경환 교수",
+        "poster_date": "2024-11-14",
+        "poster_event": "교수진 소개",
+        "poster_image_url": "https://socialedu.snu.ac.kr/uploaddata/director_img/directors_20241114114234_0.png",
+        "poster_source_url": "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+        "poster_evidence": "공식 교수진 소개 페이지에 게시된 프로필 이미지입니다.",
+        "source_urls_used": [
+          "https://socialedu.snu.ac.kr/sub_about/professor_view.php?idx=32",
+          "https://socialedu.snu.ac.kr/sub_about/professor.php",
+          "https://socialedu.snu.ac.kr/main/",
+          "https://socialedu.snu.ac.kr/sub_department/admission.php",
+          "https://admission.snu.ac.kr/",
+          "https://socialedu.snu.ac.kr/sub_department/major.php",
+          "https://socialedu.snu.ac.kr/sub_department/dubmajor.php",
+          "https://socialedu.snu.ac.kr/sub_department/certific.php",
+          "https://socialedu.snu.ac.kr/sub_grad/admission.php",
+          "https://admission.snu.ac.kr",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 3,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-F91494AA0F0981",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:51:30Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-F91494AA0F0981"
     }
   },
   "failures": {
@@ -310192,11 +310453,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:50:45Z",
-    "checked": 195,
-    "seconds": 2724.42,
+    "at": "2026-09-29T22:51:50Z",
+    "checked": 200,
+    "seconds": 2789.22,
     "gemini": true,
-    "ai_requests": 74,
+    "ai_requests": 76,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
