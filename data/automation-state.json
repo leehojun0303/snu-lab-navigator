@@ -1,5 +1,5 @@
 {
-  "cursor": 1322,
+  "cursor": 1327,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -30318,8 +30318,8 @@
       "_unit_id": "SNU-RU-04371ED9231123"
     },
     "SNU-RU-B97A53428DC666": {
-      "fingerprint": "42c8b968f30f362a9c387c5fe3859696e7fab47b484fcbe90a62164ff9150265",
-      "checked_at": "2026-09-24T21:17:16Z",
+      "fingerprint": "6ecc8069d2397859f26a204ff1d031b671b4234392ef57bd093b95b5a952e62a",
+      "checked_at": "2026-09-29T00:22:56Z",
       "activity": {
         "publicationPages": [
           {
@@ -30328,10 +30328,6 @@
           }
         ],
         "recruitmentPages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -30353,16 +30349,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "금영정 교수는 데이터 기반 기술기획, 서비스 혁신, 연구개발관리 분야를 중심으로 스마트 제품-서비스 시스템을 위한 기술 로드맵, 품질 속성 재정의, 기술 기회 발견을 위한 생성형 모델 연구를 수행하고 있습니다.",
+        "research_summary": "금영정 교수는 데이터 기반 기술기획, 서비스 혁신, 연구개발관리 분야를 중심으로 연구를 수행하며, 특히 스마트 제품-서비스 시스템을 위한 기술 로드맵 수립 및 기술 기회 발견을 위한 방법론 개발에 집중하고 있습니다.",
         "research_topics": [
           "데이터 기반 기술기획",
           "서비스 혁신",
-          "연구개발관리"
+          "연구개발관리",
+          "스마트 제품-서비스 시스템",
+          "기술 로드맵"
         ],
         "recommendation_keywords": [
           "데이터 기반 기술기획",
           "서비스 혁신",
-          "연구개발관리"
+          "연구개발관리",
+          "스마트 제품-서비스 시스템",
+          "기술 로드맵"
         ],
         "recent_papers": [
           {
@@ -30416,12 +30416,8 @@
             "url": "https://ddsi.snu.ac.kr/journal/"
           }
         ],
-        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내를 통해 학생을 모집하고 있습니다.",
+        "recruitment_summary": "서울대학교 산업공학과 대학원 입학 안내 페이지를 통해 대학원생 모집 관련 정보를 확인할 수 있습니다.",
         "verified_recruitment_pages": [
-          {
-            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
-          },
           {
             "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
             "url": "https://ie.snu.ac.kr/grad_admission/"
@@ -30437,7 +30433,7 @@
         "poster_event": "",
         "poster_image_url": "https://ddsi.snu.ac.kr/wp-content/themes/hello-elementor/images/common/snu_ui.png",
         "poster_source_url": "https://ddsi.snu.ac.kr/publication/lee-h-geum-y-2026-gc-gtm-a-generative-convergent-extension-of-generative-topographic-mapping-for-discovering-and-interpreting-technology-opportunities-journal-of-informetrics-202-101807/",
-        "poster_evidence": "서울대학교 서비스 혁신 연구실 로고",
+        "poster_evidence": "서울대학교 서비스 혁신 연구실 로고 및 명칭 확인",
         "source_urls_used": [
           "https://ddsi.snu.ac.kr/",
           "https://ddsi.snu.ac.kr/journal/",
@@ -30445,19 +30441,19 @@
           "https://ddsi.snu.ac.kr/publication/lee-h-geum-y-2026-gc-gtm-a-generative-convergent-extension-of-generative-topographic-mapping-for-discovering-and-interpreting-technology-opportunities-journal-of-informetrics-202-101807/",
           "https://ddsi.snu.ac.kr/publication/nyamsuren-u-geum-y-2026-beyond-kano-data-driven-redefinition-of-quality-attributes-electronic-commerce-research-and-applications-accepted-for-publication/",
           "https://ie.snu.ac.kr/grad_admission/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr",
           "https://ddsi.snu.ac.kr/professor/",
           "https://ddsi.snu.ac.kr/students/",
           "https://ddsi.snu.ac.kr/alumni/",
           "https://www.snu.ac.kr/personal_information",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6492"
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6492",
+          "https://ie.snu.ac.kr/undergrad_admission/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B97A53428DC666",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T12:51:25Z",
+        "_saved_at": "2026-09-29T00:23:05Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -50690,118 +50686,18 @@
       "_unit_id": "SNU-RU-C75F2A4E7EE50E"
     },
     "SNU-RU-B9694DD45690F2": {
-      "fingerprint": "ee8e82cc417d1014221061dade0286fe75a481ca03075b01311f31c47deeb3d0",
-      "checked_at": "2026-09-24T21:17:25Z",
+      "fingerprint": "b4feb5a9b4eb04d196d6450b4894de65103e1a3abfce85fc34f9df3ed1f0263d",
+      "checked_at": "2026-09-29T00:23:06Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 237 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "224",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "6",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "5",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "2",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/",
-        "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13959442/139_Kim_+Sungjoon.jpg?w=160&f=jpg",
-            "alt": "Sung Joon Kim",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-21/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -50809,30 +50705,30 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김성준 교수는 심혈관생리학, 이온통로 전기생리학, 면역세포 이온통로 및 폐동맥고혈압 등을 중심으로 연구를 수행하고 있으며, 최근에는 신경세포의 이온통로 조절, 면역세포의 기계적 신호전달, 심장 오가노이드의 기능적 성숙 등에 관한 연구 성과를 발표하고 있습니다.",
+        "research_summary": "김성준 교수는 심혈관생리학, 이온통로 전기생리학, 면역세포 이온통로 및 폐동맥고혈압 분야를 중심으로 연구를 수행하고 있습니다. 특히 세포 내 이온 채널의 기능과 신호 전달 체계가 질병 병태생리에 미치는 영향을 규명하는 데 주력하고 있습니다.",
         "research_topics": [
           "심혈관생리학",
           "폐동맥고혈압",
           "이온통로 전기생리학",
           "면역세포 이온통로",
-          "기계적 신호전달"
+          "세포 신호 전달"
         ],
         "recommendation_keywords": [
           "심혈관생리학",
-          "폐동맥고혈압",
           "이온통로",
           "전기생리학",
-          "면역세포",
+          "폐동맥고혈압",
+          "세포생물학",
           "이온통로 전기생리학",
           "면역세포 이온통로",
-          "기계적 신호전달"
+          "세포 신호 전달"
         ],
         "recent_papers": [
           {
@@ -50840,20 +50736,21 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/",
             "year": "2026",
             "venue": "Antioxidants",
-            "summary": "지질 과산화 산물이 신경세포주 및 감각신경의 전압 개폐 나트륨 통로와 활동 전위에 미치는 영향을 규명하였습니다."
+            "summary": ""
           },
           {
             "title": "Piezo1-mediated mechanotransduction regulates the translational activity, function and lung pathogenicity of group 2 innate lymphoid cells",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/",
             "year": "2025",
-            "summary": "Piezo1 매개 기계적 신호전달이 제2형 선천성 림프구의 번역 활성, 기능 및 폐 병원성에 미치는 조절 기전을 밝혔습니다."
+            "venue": "Signal Transduction and Targeted Therapy",
+            "summary": ""
           },
           {
             "title": "Three-dimensional magnetic torque stimulation enhances functional structural maturation in developing human cardiac organoids",
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/",
             "year": "2025",
             "venue": "Acta Biomaterialia",
-            "summary": "3차원 자기 토크 자극이 인간 심장 오가노이드의 기능적 및 구조적 성숙을 향상시킴을 확인하였습니다."
+            "summary": ""
           }
         ],
         "recent_year_paper_count": 1,
@@ -50870,51 +50767,49 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 생리학교실 교수로서 BK21 Four 의과학 분야 및 허혈/저산소 질환 연구소에서 활동하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "Sung Joon Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/"
+            "title": "View all 237 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/"
           }
         ],
-        "recruitment_summary": null,
+        "recruitment_summary": "",
         "verified_recruitment_pages": [],
         "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-21/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/",
+        "poster_status": "verified",
+        "poster_title": "Sung Joon Kim",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959442/139_Kim_+Sungjoon.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-content",
+        "poster_evidence": "Official profile image from SNU Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-21/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-21/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-21/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-B9694DD45690F2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:17:43Z",
+        "_saved_at": "2026-09-29T00:23:32Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-B9694DD45690F2",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-B9694DD45690F2"
     },
     "SNU-RU-65C72DCD675566": {
       "fingerprint": "884bc5466201ca9b71e23516cb32461c75aa468d9f7044848baac1a07ba8142d",
@@ -254281,7 +254176,7 @@
     },
     "SNU-RU-B96034698E5895": {
       "fingerprint": "0050dafd3c72b1bb3bf48556756b413bb29686a2598c8eb8191e0f0b85bd375c",
-      "checked_at": "2026-09-24T21:16:12Z",
+      "checked_at": "2026-09-29T00:22:53Z",
       "activity": {
         "publicationPages": [
           {
@@ -254543,117 +254438,34 @@
     },
     "SNU-RU-B9B2A33842EC64": {
       "fingerprint": "5fbf85096fcff3978adb8cbe531b09f89e638ed48ee12a9d652da7d42f2a2cfa",
-      "checked_at": "2026-09-24T21:17:12Z",
+      "checked_at": "2026-09-29T00:22:53Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/student/global/support"
           },
           {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/photo/6cazffdz74az545zb3fzae8zf49z675z87az3bcz3f.jpg",
-            "alt": "기창석",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=2"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/64az726z188zfdcz86bz1d8zb23za9dze94z732z73.jpg",
-            "alt": "광중합 하이드로젤 제조와 3차원 세포배양기질 개발 연구",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=2&mode=view&profidx=10"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/822zb32z9d7z4f7z9c5z212zeebze50za0bz316z4f.jpg",
-            "alt": "천연고분자 유도체 합성과 기능성 생체재료 개발 연구",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=2&mode=view&profidx=10"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/photo/368z1c9z5d4z0e4zb35zc94zc5bz32fz13dzd42zb5.jpg",
-            "alt": "권오상",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=2"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=2&mode=view&profidx=10",
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=2",
@@ -254667,124 +254479,151 @@
           "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-B9B2A33842EC64",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램, 입학모집 안내, FAQ, 그리고 다양한 연구 지원 사업을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "기창석",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/6cazffdz74az545zb3fzae8zf49z675z87az3bcz3f.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=2",
+        "poster_evidence": "The professor's name '기창석' is explicitly listed as an alt text for the photo on the official faculty search page.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=2",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=2&mode=view&profidx=10",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/webdata/professor/photo/6cazffdz74az545zb3fzae8zf49z675z87az3bcz3f.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-B9B2A33842EC64",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:22:59Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-B9B2A33842EC64"
     },
     "SNU-RU-B9BA8E3BD2AF65": {
-      "fingerprint": "040503a14d39ed6da8f9619855dc8091b957352b0ca03a7b49590bec5dc4bf09",
-      "checked_at": "2026-09-24T21:17:22Z",
+      "fingerprint": "cb5987e0310c5669f4511352a25feb7a61bc89e5bf5fb176d5ddd708ff17cc87",
+      "checked_at": "2026-09-29T00:22:59Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 BK21 K-3MT Competition 운영 및 교내 참가자 모집 안내",
-            "url": "https://french.snu.ac.kr/19922/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "교수학습지원",
-            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://www.snu.ac.kr/personal_information",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2023/12/로고_불어교육과.png",
-            "alt": "서울대학교 SNU",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr/snu__professor/%ec%8b%ac%eb%b4%89%ec%84%ad/"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2023/12/2469286729_AizXelYq_EC9DB4ED9895EC8B9DEC8398EC82ACECA784.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc/"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2023/12/KakaoTalk_20190808_130632900-1-1.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc-2/"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2023/12/심봉섭-선생님_0.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr/snu__professor/%ec%8b%ac%eb%b4%89%ec%84%ad/"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2021/02/푸터베이직로고-8.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr/snu__professor/%ec%8b%ac%eb%b4%89%ec%84%ad/"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/elementor/thumbs/booking-qfpv9yc001gc6jbaecifbzz3dfd5jhcdgqzdk9c6xs.png",
-            "alt": "booking",
-            "title": "booking",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr"
-          },
-          {
-            "url": "https://french.snu.ac.kr/wp-content/uploads/sites/258/2020/12/icon_main_intro_03-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://french.snu.ac.kr"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://french.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
           "https://french.snu.ac.kr",
           "https://admission.snu.ac.kr/",
           "https://french.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
           "https://french.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%97%b0%ed%98%81/",
-          "https://french.snu.ac.kr/snu__professor/%eb%b0%95%ec%98%a5%ec%a4%84/",
+          "https://french.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://french.snu.ac.kr/%ec%b4%88%eb%b9%99%ea%b5%90%ec%88%98/",
+          "https://french.snu.ac.kr/snu__professor/%ea%b3%bd%ea%b4%91%ec%88%98/",
+          "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc/",
+          "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc-2/"
+        ]
+      },
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://french.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://french.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://french.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c-2/",
+          "https://french.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%97%b0%ed%98%81/",
+          "https://french.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://french.snu.ac.kr/%ec%b4%88%eb%b9%99%ea%b5%90%ec%88%98/",
           "https://french.snu.ac.kr/snu__professor/%ea%b3%bd%ea%b4%91%ec%88%98/",
           "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc/",
           "https://french.snu.ac.kr/snu__professor/%ec%9e%a5%ec%8a%b9%ec%9d%bc-2/",
-          "https://french.snu.ac.kr/snu__professor/%ec%8b%ac%eb%b4%89%ec%84%ad/"
-        ]
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "_unit_id": "SNU-RU-B9BA8E3BD2AF65",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:23:28Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-B9BA8E3BD2AF65",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-B9BA8E3BD2AF65"
     },
     "SNU-RU-BA36A568FFAA87": {
       "fingerprint": "c08b1e60ce4ba8637f501c7c7299b1e445f57b900a3ea76d57c2c7ef09820fa1",
@@ -302832,11 +302671,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:22:38Z",
-    "checked": 305,
-    "seconds": 4108.03,
+    "at": "2026-09-29T00:23:32Z",
+    "checked": 310,
+    "seconds": 4161.83,
     "gemini": true,
-    "ai_requests": 205,
+    "ai_requests": 209,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
