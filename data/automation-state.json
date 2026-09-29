@@ -1,5 +1,5 @@
 {
-  "cursor": 1702,
+  "cursor": 1707,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -24922,8 +24922,8 @@
       "_unit_id": "SNU-RU-46D0081CA5C319"
     },
     "SNU-RU-F11BEBAE0CAC04": {
-      "fingerprint": "5377bcb748bfc8d1989f7e364864adc179e7270ff65d259bb975fde5f81b5baa",
-      "checked_at": "2026-09-24T01:29:46Z",
+      "fingerprint": "3d4887c646d096708f6fe384b9d399e3ea70d6470aab88112d5ddf47cbb71e82",
+      "checked_at": "2026-09-29T22:39:53Z",
       "activity": {
         "publicationPages": [
           {
@@ -24931,9 +24931,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/",
-        "posterStatus": "none_detected",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/ja-lok-ku",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ku-3/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -24948,7 +24953,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "구자록 교수는 세포생물학 분야를 중심으로 연구를 수행하고 있으며, 서울대학교 의과대학에서 다양한 학술적 연구 성과를 발표하고 있습니다.",
+        "research_summary": "구자록 교수는 서울대학교 의과대학 의학과 소속으로, 세포생물학 분야를 전문으로 연구하고 있습니다.",
         "research_topics": [
           "세포생물학"
         ],
@@ -24972,23 +24977,27 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적으로 확인된 연구실 단위의 채용 정보는 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/ja-lok-ku",
+        "poster_status": "verified",
+        "poster_title": "Ja-Lok Ku",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960864/46_Ku_+Ja-Lok.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-ku-3/#main-content",
+        "poster_evidence": "Official profile page on SNU Elsevier Pure",
         "source_urls_used": [
-          "https://snu.elsevierpure.com/en/persons/y-ku-3/",
-          "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
+          "https://snu.elsevierpure.com/en/persons/y-ku-3/",
           "https://snu.elsevierpure.com/en/persons/y-ku-3/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-ku-3/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-ku-3/#main-content",
@@ -24997,16 +25006,16 @@
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/",
           "https://snu.elsevierpure.com/en/persons/y-ku-3/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F11BEBAE0CAC04",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:15:37Z",
+        "_saved_at": "2026-09-29T22:40:40Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F11BEBAE0CAC04"
     },
@@ -51457,8 +51466,8 @@
       "_unit_id": "SNU-RU-FCDD18D88F5A2B"
     },
     "SNU-RU-F1C9E0CFAB8615": {
-      "fingerprint": "664ee38e621712f87836be9eac09acc5bfb1886a26157e3651051f16ef1233c8",
-      "checked_at": "2026-09-24T00:39:24Z",
+      "fingerprint": "ed5791d751dafab3f6952db181a72c816a845577f8c9ae154d9418bed00c6a88",
+      "checked_at": "2026-09-29T22:39:49Z",
       "activity": {
         "publicationPages": [
           {
@@ -51512,7 +51521,7 @@
             "alt": "서울대학교 수의과대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2026/09/SeEunKim_202609.jpeg",
@@ -51526,7 +51535,7 @@
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
@@ -51571,14 +51580,15 @@
           "https://vet.snu.ac.kr/snu__professor/seeunkim/#footer",
           "https://admission.snu.ac.kr/",
           "https://vet.snu.ac.kr/snu__professor/seeunkim/#none",
-          "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
           "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty3/"
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-F1C9E0CFAB8615"
+      "_unit_id": "SNU-RU-F1C9E0CFAB8615",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-280E5FAA39A866": {
       "fingerprint": "4dd90e02d72be07fdf87c3ac0b5f3f97d773d94d2d1a0e39945f3f5f616bbb0a",
@@ -157800,17 +157810,13 @@
       "_unit_id": "SNU-RU-AE9C69DCA9C16B"
     },
     "SNU-RU-F19F35ACC7BAD4": {
-      "fingerprint": "305e944ea2f5462f09a6b545ed02f52a1793b638500b4bd91a87e56a7483085a",
-      "checked_at": "2026-09-24T00:18:03Z",
+      "fingerprint": "08909c2096af618103fa45cf23c2e5109efe9b9ef15af49804d46e8f89a6d607",
+      "checked_at": "2026-09-29T22:39:41Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
             "url": "https://cals.snu.ac.kr/student/lecture/paper"
-          },
-          {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
           }
         ],
         "recruitmentPages": [
@@ -157821,20 +157827,13 @@
           {
             "title": "입학모집안내",
             "url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
           "https://abc.snu.ac.kr",
           "https://cals.snu.ac.kr/student/freshman/mentoring",
           "https://cals.snu.ac.kr/student/freshman/program",
@@ -157842,15 +157841,53 @@
           "https://cals.snu.ac.kr/student/global/support",
           "https://cals.snu.ac.kr/about/organization/search/faculty",
           "https://cals.snu.ac.kr/about/organization/previous-faculty",
-          "https://cals.snu.ac.kr/about/guide/admission",
-          "https://cals.snu.ac.kr/about/guide/admission/faq"
+          "https://cals.snu.ac.kr/about/guide/admission"
         ]
       },
       "enrichment": {
-        "research_summary": "",
-        "research_topics": [],
-        "recommendation_keywords": [],
-        "recent_papers": [],
+        "research_summary": "토양 오염 위해성 저감, 토양 건강성 복원, 토양 중금속의 농작물 전이 특성 규명, 토양 유해 중금속의 친환경적 안정화, 그리고 토양 미세플라스틱의 위해성 규명 및 저감에 관한 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "토양 오염 위해성 저감",
+          "토양 건강성 복원",
+          "토양 중금속 농작물 전이 특성",
+          "토양 유해 중금속의 친환경적 안정화",
+          "토양 미세플라스틱 위해성 규명 및 저감"
+        ],
+        "recommendation_keywords": [
+          "토양화학",
+          "토양오염",
+          "중금속",
+          "미세플라스틱",
+          "토양건강성",
+          "토양 오염 위해성 저감",
+          "토양 건강성 복원",
+          "토양 중금속 농작물 전이 특성",
+          "토양 유해 중금속의 친환경적 안정화",
+          "토양 미세플라스틱 위해성 규명 및 저감"
+        ],
+        "recent_papers": [
+          {
+            "title": "Identification of Jet fuel (JP-8) in Petroleum Hydrocarbon Contaminated Soil through the Qualitative Analysis of Antioxidants",
+            "url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
+            "year": "2022",
+            "venue": "J. Soil Groundwater Environ.",
+            "summary": "석유계 탄화수소로 오염된 토양에서 산화방지제의 정성 분석을 통해 제트연료(JP-8)를 식별하는 방법을 연구하였습니다."
+          },
+          {
+            "title": "Tracing the Distribution of Deicer around Highway Areas using Sodium Adsorption Ratio (SAR) of Soil",
+            "url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
+            "year": "2022",
+            "venue": "J. Soil Groundwater Environ.",
+            "summary": "토양의 나트륨 흡착비(SAR)를 이용하여 고속도로 주변의 제설제 분포를 추적하는 연구를 수행하였습니다."
+          },
+          {
+            "title": "Influence of Digestion Temperature on the Extraction of Soil Heavy Metal by Korean Ministry of Environment Standard Method",
+            "url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
+            "year": "2022",
+            "venue": "J. Soil Groundwater Environ.",
+            "summary": "환경부 토양오염공정시험기준에 따른 토양 중금속 추출 시 분해 온도가 미치는 영향을 분석하였습니다."
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -157860,18 +157897,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교에서 학사(1992), 석사(1996), 박사(2003) 학위를 취득하였습니다.",
         "verified_publication_pages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
             "url": "https://cals.snu.ac.kr/student/lecture/paper"
-          },
-          {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "농업생명과학대학에서 대학원생을 위한 학술대회 참가 지원 프로그램 및 입학 모집 안내를 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
@@ -157880,49 +157913,40 @@
           {
             "title": "입학모집안내",
             "url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
-        "recruitment_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/guide/admission",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "이군택 교수",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2021/05/이군택교수.jpeg",
+        "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
+        "poster_evidence": "교수진 페이지 내 프로필 사진으로 확인됨",
         "source_urls_used": [
-          "https://cals.snu.ac.kr/about/organization/search/faculty",
-          "https://abc.snu.ac.kr",
+          "https://abc.snu.ac.kr/snu__professor/%EC%9D%B4%EA%B5%B0%ED%83%9D/",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/student/lecture/paper",
           "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://abc.snu.ac.kr",
           "https://cals.snu.ac.kr/student/freshman/mentoring",
           "https://cals.snu.ac.kr/student/freshman/program",
-          "https://cals.snu.ac.kr/student/lecture/paper",
-          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
           "https://cals.snu.ac.kr/about/organization/previous-faculty",
-          "https://cals.snu.ac.kr/about/guide/admission",
           "https://cals.snu.ac.kr/about/guide/admission/faq",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
           "https://cals.snu.ac.kr/research-affairs/support/cals"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F19F35ACC7BAD4",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:21:53Z",
+        "_saved_at": "2026-09-29T22:40:05Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F19F35ACC7BAD4"
     },
@@ -307635,6 +307659,226 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F08575DA12A29D"
+    },
+    "SNU-RU-F16F2ED2D675BE": {
+      "fingerprint": "2a73712517438f1507af17e76e8c976456048823bce8c18605d80d17b385149d",
+      "checked_at": "2026-09-29T22:39:38Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/944zda2z08cz681z389zcd1za7dzf89z365z000zd3.png",
+            "alt": "김종일",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=14&md=view&profidx=138"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+            "alt": "학생생활문화원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
+            "alt": "인문학 역량강화",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
+            "alt": "교육지원센터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=14&md=view&profidx=138",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-F16F2ED2D675BE",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-F17E53BF0A13B0": {
+      "fingerprint": "cffa63be1948e9f957d9758ebaf887896cfa608c90ba7cb032226835a6e73bcb",
+      "checked_at": "2026-09-29T22:39:48Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "입학",
+            "url": "https://english.snu.ac.kr/graduate/admission/"
+          }
+        ],
+        "membersUrl": "https://english.snu.ac.kr/people/faculty/",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://english.snu.ac.kr/40016/",
+          "https://english.snu.ac.kr",
+          "https://english.snu.ac.kr/people/faculty/",
+          "https://english.snu.ac.kr/people/administration/",
+          "https://admission.snu.ac.kr/",
+          "https://english.snu.ac.kr/about-us/about-the-department/",
+          "https://english.snu.ac.kr/undergraduate/declaring-major/",
+          "https://english.snu.ac.kr/undergraduate/prospective-students/",
+          "https://english.snu.ac.kr/undergraduate/undergraduate-courses/curriculum/",
+          "https://english.snu.ac.kr/people/faculty/#container"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "학부졸업논문",
+            "url": "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/"
+          },
+          {
+            "title": "워킹페이퍼",
+            "url": "https://english.snu.ac.kr/graduate/working-papers/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 영어영문학과 대학원 입학 관련 정보는 공식 입학포털 및 학과 홈페이지 입학 안내 페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "입학",
+            "url": "https://english.snu.ac.kr/graduate/admission/"
+          }
+        ],
+        "recruitment_source_url": "https://english.snu.ac.kr/graduate/admission/",
+        "current_members": [
+          {
+            "name": "김혜주",
+            "role": "부교수",
+            "url": "https://english.snu.ac.kr/people/faculty/"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://english.snu.ac.kr/people/faculty/",
+        "poster_status": "verified",
+        "poster_title": "[런치스페셜] 5/13(수) 팬데믹 아포칼립스의 계보 (김혜주 교수님)",
+        "poster_date": "2026-04-17",
+        "poster_event": "런치스페셜",
+        "poster_image_url": "https://english.snu.ac.kr/wp-content/uploads/editor/10/EDITOR_20260928021753_4w7CFn9wRO.png",
+        "poster_source_url": "https://english.snu.ac.kr/40016/",
+        "poster_evidence": "해당 URL은 김혜주 교수의 런치스페셜 강연 '[런치스페셜] 5/13(수) 팬데믹 아포칼립스의 계보'를 안내하는 공식 게시물입니다.",
+        "source_urls_used": [
+          "https://english.snu.ac.kr/40016/",
+          "https://english.snu.ac.kr/people/faculty/",
+          "https://english.snu.ac.kr",
+          "https://english.snu.ac.kr/people/administration/",
+          "https://admission.snu.ac.kr/",
+          "https://english.snu.ac.kr/about-us/about-the-department/",
+          "https://english.snu.ac.kr/undergraduate/declaring-major/",
+          "https://english.snu.ac.kr/undergraduate/prospective-students/",
+          "https://english.snu.ac.kr/undergraduate/undergraduate-courses/curriculum/",
+          "https://english.snu.ac.kr/people/faculty/#container",
+          "https://english.snu.ac.kr/category/board-10-gn-u7dl1aoy-20230614114425/",
+          "https://english.snu.ac.kr/graduate/working-papers/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-F17E53BF0A13B0",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:40:15Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-F17E53BF0A13B0"
     }
   },
   "failures": {
@@ -307788,11 +308032,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:39:26Z",
-    "checked": 145,
-    "seconds": 2044.87,
+    "at": "2026-09-29T22:40:40Z",
+    "checked": 150,
+    "seconds": 2119.14,
     "gemini": true,
-    "ai_requests": 53,
+    "ai_requests": 56,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
