@@ -1,5 +1,5 @@
 {
-  "cursor": 1212,
+  "cursor": 1217,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -24444,8 +24444,8 @@
       "_unit_id": "SNU-RU-ABAD115F7F1BDC"
     },
     "SNU-RU-AA86A708DC056B": {
-      "fingerprint": "b3a6316cfdf9c89f4bd3717823b6ffb979eb0435c24a1c9c35ea6fcf027bfcb7",
-      "checked_at": "2026-09-23T23:11:02Z",
+      "fingerprint": "1f45aa15a83a685621bdb7613e6fbfdcf332f9c67e9745fc4c1c830fb9abd39b",
+      "checked_at": "2026-09-29T00:01:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -24453,12 +24453,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -24475,22 +24470,20 @@
         ]
       },
       "enrichment": {
-        "research_summary": "구본권 교수는 순환기내과 분야에서 관상동맥 질환, 특히 관상동맥 중재술 및 혈류역학적 평가와 관련된 연구를 수행하고 있습니다.",
+        "research_summary": "구본권 교수는 순환기내과 분야의 전문가로, 관상동맥 질환, 특히 관상동맥 중재술 및 혈류역학적 평가와 관련된 광범위한 연구를 수행하고 있습니다.",
         "research_topics": [
+          "순환기내과",
           "관상동맥 질환",
           "관상동맥 중재술",
-          "혈류역학적 평가",
-          "심혈관 영상"
+          "혈류역학적 평가"
         ],
         "recommendation_keywords": [
           "순환기내과",
           "관상동맥",
-          "심혈관",
-          "중재시술",
+          "심혈관질환",
           "관상동맥 질환",
           "관상동맥 중재술",
-          "혈류역학적 평가",
-          "심혈관 영상"
+          "혈류역학적 평가"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -24509,14 +24502,9 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지를 통해 구체적인 연구실 모집 공고는 확인되지 않습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "제공된 공식 URL에서는 구본권 교수의 연구실에 대한 구체적인 채용 정보나 모집 공고를 확인할 수 없습니다.",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/",
@@ -24526,14 +24514,14 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960732/43_Koo_+Bonkwon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-search",
-        "poster_evidence": "Official profile image found on SNU Elsevier Pure profile page.",
+        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 공식 프로필 사진입니다.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-koo-2/",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-koo-2/#main-search",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
@@ -24545,10 +24533,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA86A708DC056B",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T11:48:29Z",
+        "_saved_at": "2026-09-29T00:02:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AA86A708DC056B"
     },
@@ -27538,17 +27525,22 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-AA19CAEC920BDC": {
-      "fingerprint": "8223e9674e9a3ab5272484c1522f909b8c0eaf5b9cb05af8efbcaa39989598e4",
-      "checked_at": "2026-09-24T01:29:46Z",
+      "fingerprint": "ee27035ffc420b7aa8c9b77054aedba9adc1d21ca9851c012580965c36f99075",
+      "checked_at": "2026-09-29T00:01:10Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Obin Kwon - Research output",
+            "title": "View all 41 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kwon-12/",
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/",
@@ -27564,63 +27556,18 @@
         ]
       },
       "enrichment": {
-        "research_summary": "권오빈 교수는 서울대학교 의과대학 생화학교실 소속으로, 내분비대사학 및 신경과학 분야에서 연구를 수행하고 있습니다. 주요 연구 관심사는 당뇨병, 대사 질환, 근감소증 및 관련 분자 기전입니다.",
+        "research_summary": "권오빈 교수는 내분비대사학 및 신경과학 분야를 중심으로 연구를 수행하고 있으며, 특히 대사 질환과 신경계의 상호작용에 관한 학술적 연구를 진행하고 있습니다.",
         "research_topics": [
           "내분비대사학",
-          "신경과학",
-          "당뇨병",
-          "근감소증",
-          "대사 질환"
+          "신경과학"
         ],
         "recommendation_keywords": [
           "내분비대사학",
-          "신경과학",
-          "당뇨병",
-          "근감소증",
-          "대사 질환"
+          "신경과학"
         ],
-        "recent_papers": [
-          {
-            "title": "Do collagen membranes with different thickness-related mechanical properties affect the outcomes of lateral bone augmentation? An immunohistochemical analysis",
-            "url": "https://snu.elsevierpure.com/en/publications/do-collagen-membranes-with-different-thickness-related-mechanical/",
-            "year": "2026",
-            "venue": "Clinical Oral Investigations",
-            "summary": "콜라겐 막의 두께와 기계적 특성이 측방 골증대술 결과에 미치는 영향을 면역조직화학적으로 분석한 연구입니다."
-          },
-          {
-            "title": "Limited Impact of Sodium-Glucose Cotransporter-2 Inhibitors on Appetite and Body Weight: Evidence From Clinical and Rodent Studies",
-            "url": "https://snu.elsevierpure.com/en/publications/limited-impact-of-sodium-glucose-cotransporter-2-inhibitors-on-ap/",
-            "year": "2026",
-            "venue": "Journal of Korean Medical Science",
-            "summary": "SGLT-2 억제제가 식욕과 체중에 미치는 제한적인 영향을 임상 및 동물 실험을 통해 규명한 연구입니다."
-          },
-          {
-            "title": "Comparative Analysis of Primary Sarcopenia and End-Stage Renal Disease–Related Muscle Wasting Using Multi-Omics Approaches",
-            "url": "https://snu.elsevierpure.com/en/publications/comparative-analysis-of-primary-sarcopenia-and-end-stage-renal-di/",
-            "year": "2025",
-            "venue": "Journal of Cachexia, Sarcopenia and Muscle",
-            "summary": "다중 오믹스 접근법을 사용하여 일차성 근감소증과 말기 신질환 관련 근육 소모를 비교 분석한 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 4,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Clinical Oral Investigations",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Korean Medical Science",
-            "count": 1
-          },
-          {
-            "venue": "Journal of Cachexia, Sarcopenia and Muscle",
-            "count": 1
-          },
-          {
-            "venue": "Heliyon",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -27628,48 +27575,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 생화학교실 조교수",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Obin Kwon - Research output",
+            "title": "View all 41 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kwon-12/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/",
         "poster_status": "verified",
         "poster_title": "Obin Kwon",
-        "poster_date": null,
-        "poster_event": null,
+        "poster_date": "",
+        "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13961220/54_Kwon_+Obin.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kwon-12/#main-content",
-        "poster_evidence": "Official faculty profile portrait",
+        "poster_evidence": "Official profile image verified on SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/",
-          "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kwon-12/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-AA19CAEC920BDC",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:15:49Z",
+        "_saved_at": "2026-09-29T00:02:14Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AA19CAEC920BDC"
     },
@@ -53684,23 +53635,118 @@
       "_unit_id": "SNU-RU-7089FFF9B804A9"
     },
     "SNU-RU-AA7A02EBAFB2B0": {
-      "fingerprint": "9c4db63d9487196fd9e64e1e8f8e8f381b74942179523fb6ff843b8d493fd55a",
-      "checked_at": "2026-09-23T23:19:33Z",
+      "fingerprint": "dbf3472a179b92d303c6f83f3eada3a09c3d05d351d8e26aab6cda91eb70b798",
+      "checked_at": "2026-09-29T00:01:10Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 158 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "151",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "3",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-32/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13959494/150_Kim_+Su-Jin.jpg?w=160&f=jpg",
+            "alt": "Su-Jin Kim",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-32/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-32/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -53781,9 +53827,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:09:23Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-AA7A02EBAFB2B0"
+      "_unit_id": "SNU-RU-AA7A02EBAFB2B0",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9A085B715C21BD": {
       "fingerprint": "d313d90941217f0ee376c750d1934fa81b6b0c5d4d4cf833102f76c9b68bcf0a",
@@ -216795,118 +216843,35 @@
       "_unit_id": "SNU-RU-9F584C3F20DA31"
     },
     "SNU-RU-A98F6DDA6205EB": {
-      "fingerprint": "ab3f3412d503ffef46a9ee84fab4c3ab312dac8b1f63bed9539e29f83ed58d14",
-      "checked_at": "2026-09-24T00:47:30Z",
+      "fingerprint": "9361a86add4c0f3fe124d33fd9580290c4007a6c773253fa630ff0c599a1a6f0",
+      "checked_at": "2026-09-29T00:00:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://molcelltoxicology.creatorlink.net/%EB%85%BC%EB%AC%B8",
-            "kind": "publication"
-          },
-          {
-            "title": "논문 Publication",
-            "url": "https://molcelltoxicology.creatorlink.net/c87d2e49f6a39daab1df9a1e9b497a45.png?gpos=2.0000",
-            "kind": "publication"
+            "url": "https://molcelltoxicology.creatorlink.net/%EB%85%BC%EB%AC%B8"
           },
           {
             "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "Elsevier 저자 워크숍 - 신진 연구자를 위한 국제 논문 출판 전략 (2026. 9. 30.(수) 10:00) 참여 안내",
-            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073",
-            "kind": "publication"
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           },
           {
             "title": "편입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           }
         ],
-        "membersUrl": "https://molcelltoxicology.creatorlink.net/d5359ca13f96becb619fbf65b794d26a.jpg?gpos=4.0000",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://storage.googleapis.com/cr-resource/image/415cce094e3e986997c9a4aab52cd4c6/molcelltoxicology/dd9e627da1f25e9e42965325682f453a.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/%EC%97%B0%EB%9D%BD%EC%B2%98"
-          },
-          {
-            "url": "https://storage.googleapis.com/cr-resource/image/415cce094e3e986997c9a4aab52cd4c6/molcelltoxicology/1920/521e4c0db38895c68d883cf139ed840f.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://molcelltoxicology.creatorlink.net/600/5fbdd48a998a85de1b73878fc1c094b8.jpg",
-            "alt": "연구",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://molcelltoxicology.creatorlink.net/600/c87d2e49f6a39daab1df9a1e9b497a45.png",
-            "alt": "논문",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://molcelltoxicology.creatorlink.net/600/942cdf0748c4df7a191ec6905195c2a0.png",
-            "alt": "교수",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://molcelltoxicology.creatorlink.net/600/d5359ca13f96becb619fbf65b794d26a.jpg",
-            "alt": "동료들",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://molcelltoxicology.creatorlink.net/600/532f83f965c2ed5d26e8a57ad54f5bcd.jpg",
-            "alt": "연락처",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://molcelltoxicology.creatorlink.net/Home"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
-            "alt": "서울대학교 서울대학교 약학대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          }
-        ],
+        "membersUrl": "https://molcelltoxicology.creatorlink.net/%EB%8F%99%EB%A3%8C%EB%93%A4",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://molcelltoxicology.creatorlink.net/",
           "https://snupharm.snu.ac.kr/snu__professor/%EC%B0%BD%EB%8F%99%EC%8B%A0/",
@@ -216920,7 +216885,90 @@
           "https://molcelltoxicology.creatorlink.net/%EC%97%B0%EB%9D%BD%EC%B2%98"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "창동신 교수의 연구실(분자세포독성학 연구실)은 분자세포독성학 분야를 중심으로 약물의 독성 기전 및 세포 반응을 연구하고 있습니다.",
+        "research_topics": [
+          "예방약학",
+          "독성학",
+          "분자세포독성학"
+        ],
+        "recommendation_keywords": [
+          "예방약학",
+          "독성학",
+          "분자세포독성학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 약학대학 교수로서 예방약학 및 독성학 분야의 교육과 연구를 수행하고 있습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "논문",
+            "url": "https://molcelltoxicology.creatorlink.net/%EB%85%BC%EB%AC%B8"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 약학대학 및 입학포털을 통해 신입학 및 편입학 모집 안내를 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          }
+        ],
+        "recruitment_source_url": "https://snupharm.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://molcelltoxicology.creatorlink.net/%EB%8F%99%EB%A3%8C%EB%93%A4",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://molcelltoxicology.creatorlink.net/",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%B0%BD%EB%8F%99%EC%8B%A0/",
+          "https://snupharm.snu.ac.kr",
+          "https://molcelltoxicology.creatorlink.net/%EB%85%BC%EB%AC%B8",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://molcelltoxicology.creatorlink.net/%EA%B5%90%EC%88%98",
+          "https://molcelltoxicology.creatorlink.net/config",
+          "https://molcelltoxicology.creatorlink.net/Home",
+          "https://molcelltoxicology.creatorlink.net/%EC%97%B0%EA%B5%AC",
+          "https://molcelltoxicology.creatorlink.net/%EB%8F%99%EB%A3%8C%EB%93%A4",
+          "https://molcelltoxicology.creatorlink.net/%EC%97%B0%EB%9D%BD%EC%B2%98",
+          "https://molcelltoxicology.creatorlink.net/c87d2e49f6a39daab1df9a1e9b497a45.png?gpos=2.0000"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-A98F6DDA6205EB",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:01:05Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-A98F6DDA6205EB"
     },
     "SNU-RU-DE4E1E882023DE": {
@@ -301778,6 +301826,178 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-A92AB9B18E1F9F",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-AA7B274DA7E6C0": {
+      "fingerprint": "96c97fcd26a7890be9e06a8a7353713533ca41c5d43b8810343f48ccbc5934a6",
+      "checked_at": "2026-09-29T00:01:05Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/",
+          "https://linguist.snu.ac.kr",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#container",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#footer",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#none",
+          "https://linguist.snu.ac.kr/people/faculty/emeritus-faculty/",
+          "https://linguist.snu.ac.kr/people/%eb%8c%80%ed%95%99%ec%9b%90%ec%83%9d/",
+          "https://linguist.snu.ac.kr/people/%ec%a1%b8%ec%97%85%ec%83%9d/",
+          "https://linguist.snu.ac.kr/people/%ec%a7%81%ec%9b%90/",
+          "https://admission.snu.ac.kr/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "서울대학교 언어학과 전임교원들은 통사론, 의미론, 화용론, 음성학, 음운론, 컴퓨터언어학, 자연언어처리, 실험언어학, 만주퉁구스어학 등 언어학의 다양한 분야에서 연구를 수행하고 있습니다.",
+        "research_topics": [
+          "통사론",
+          "의미론",
+          "화용론",
+          "음성학",
+          "음운론",
+          "컴퓨터언어학",
+          "자연언어처리",
+          "실험언어학",
+          "만주퉁구스어학"
+        ],
+        "recommendation_keywords": [
+          "서울대학교 언어학과",
+          "언어학 연구",
+          "통사론",
+          "음성학",
+          "컴퓨터언어학",
+          "의미론",
+          "화용론",
+          "음운론",
+          "자연언어처리",
+          "실험언어학",
+          "만주퉁구스어학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 언어학과는 학부 및 대학원 과정을 운영하며, 언어학 전반에 걸친 교육과 연구를 제공합니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "서울대학교 입학포털을 통해 학부 및 대학원 신입생 모집 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [
+          {
+            "name": "고희정",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "남승호",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "박상철",
+            "role": "부교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "신효필",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "이상아",
+            "role": "조교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "이호영",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "전종호",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "정민화",
+            "role": "교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "정선우",
+            "role": "부교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "정우진",
+            "role": "부교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          },
+          {
+            "name": "제임스 황",
+            "role": "부교수",
+            "url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://linguist.snu.ac.kr/people/faculty/curent-faculty/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/",
+          "https://linguist.snu.ac.kr",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#container",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#footer",
+          "https://linguist.snu.ac.kr/people/faculty/curent-faculty/#none",
+          "https://linguist.snu.ac.kr/people/faculty/emeritus-faculty/",
+          "https://linguist.snu.ac.kr/people/%eb%8c%80%ed%95%99%ec%9b%90%ec%83%9d/",
+          "https://linguist.snu.ac.kr/people/%ec%a1%b8%ec%97%85%ec%83%9d/",
+          "https://linguist.snu.ac.kr/people/%ec%a7%81%ec%9b%90/",
+          "https://admission.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-AA7B274DA7E6C0",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:01:12Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-AA7B274DA7E6C0"
     }
   },
   "failures": {
@@ -301911,11 +302131,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:00:41Z",
-    "checked": 195,
-    "seconds": 2791.26,
+    "at": "2026-09-29T00:02:24Z",
+    "checked": 200,
+    "seconds": 2893.88,
     "gemini": true,
-    "ai_requests": 120,
+    "ai_requests": 124,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
