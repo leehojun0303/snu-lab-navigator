@@ -1,5 +1,5 @@
 {
-  "cursor": 1377,
+  "cursor": 1382,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -68682,7 +68682,7 @@
     },
     "SNU-RU-C2885057766EFE": {
       "fingerprint": "1d839ad5667640b74bececb4f7a7791daf73acfd763db22ee77cbd32fbf9b005",
-      "checked_at": "2026-09-24T21:30:20Z",
+      "checked_at": "2026-09-29T00:33:34Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -68782,7 +68782,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-C2885057766EFE",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-3ABE65A48F7EC3": {
       "fingerprint": "2bf54906cf6c902af6f41192de7dcf8469b2f1919220fdf44ffe60a1d68eb974",
@@ -257414,117 +257414,12 @@
     },
     "SNU-RU-C2B8DB4DEEB022": {
       "fingerprint": "7bf13148ce19f317c3a9016c0d227630a3ec927ed3ebb55ea773f249fee65076",
-      "checked_at": "2026-09-24T21:30:20Z",
+      "checked_at": "2026-09-29T00:33:33Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
-          },
-          {
-            "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
-          }
-        ],
-        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/photo/e89zff3z3c2zb35z15dz493z5d2zac3z069z05ez0b.jpg",
-            "alt": "윤준선",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/544z49cz7e5zc6fz1ecz9fcz0d7z525z9fez01ezc5.jpg",
-            "alt": "dsRNA 기반 해충방제제 개발",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=185"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/047ze2fz0fdzc67z534z1ecz6c9zbb4za57zf27z68.jpg",
-            "alt": "RNAi 작용기작 연구",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=185"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/60fz426z19bz789z92bz205za2cza89z99ez148z5f.jpg",
-            "alt": "산업곤충 질병연구",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=185"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          }
-        ],
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=185",
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
@@ -257538,9 +257433,58 @@
           "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-C2B8DB4DEEB022",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "",
+        "poster_status": "verified",
+        "poster_title": "윤준선",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/e89zff3z3c2zb35z15dz493z5d2zac3z069z05ez0b.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+        "poster_evidence": "The URL provides a faculty search page where the professor's name '윤준선' is associated with the provided image URL.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=8&mode=view&profidx=185",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/webdata/professor/photo/e89zff3z3c2zb35z15dz493z5d2zac3z069z05ez0b.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C2B8DB4DEEB022",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:33:35Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-C2B8DB4DEEB022"
     },
     "SNU-RU-C2D323FEE7F742": {
       "fingerprint": "800b712c773756086fca2e34ebc1dd6776fef5dd791ce35f40d918c86bc2f0f2",
@@ -257670,75 +257614,22 @@
     },
     "SNU-RU-C2FA45D26E50BA": {
       "fingerprint": "bf9fec9a218c9f4f75aed5159d04150223d5fe5ed1864ab94ca4fc58a38b893e",
-      "checked_at": "2026-09-24T21:31:10Z",
+      "checked_at": "2026-09-29T00:33:35Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y",
-            "kind": "publication"
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y"
           }
         ],
         "recruitmentPages": [
           {
             "title": "국가지원연구센터",
-            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center",
-            "kind": "recruitment"
-          },
-          {
-            "title": "수시",
-            "url": "https://admission.snu.ac.kr/undergraduate/early/guide",
-            "kind": "recruitment"
-          },
-          {
-            "title": "정시",
-            "url": "https://admission.snu.ac.kr/undergraduate/regular/guide",
-            "kind": "recruitment"
-          },
-          {
-            "title": "일반대학원",
-            "url": "https://admission.snu.ac.kr/graduate/general/notice",
-            "kind": "recruitment"
+            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center"
           }
         ],
         "membersUrl": "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://eng.snu.ac.kr/resources/snu/img/common/flogo-80.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://eng.snu.ac.kr/about/alumni-association/history"
-          },
-          {
-            "url": "https://eng.snu.ac.kr/resources/snu/img/common/btn_topgo.png",
-            "alt": "상단으로",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://eng.snu.ac.kr/about/alumni-association/history"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://eng.snu.ac.kr/about/organization/professor?page=2#topNav",
           "https://eng.snu.ac.kr/about/organization/professor?page=2",
@@ -257750,45 +257641,6 @@
           "https://eng.snu.ac.kr/about/organization/professor?page=2#cont",
           "https://eng.snu.ac.kr/about/organization/professor?sc=y",
           "https://eng.snu.ac.kr/about/alumni-association/history"
-        ]
-      },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-C2FA45D26E50BA",
-      "verify_error": "verify_HTTPError"
-    },
-    "SNU-RU-C313C67E58E07F": {
-      "fingerprint": "3598555de5675f0d0e489fa47e2f7d62371d1037dda595fc926c7680dd4e874f",
-      "checked_at": "2026-09-24T21:31:28Z",
-      "activity": {
-        "publicationPages": [
-          {
-            "title": "논문 게재료 지원",
-            "url": "https://libguides.snu.ac.kr/research/academicwriting"
-          }
-        ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "http://yss.snu.ac.kr/",
-        "posterStatus": "none_detected",
-        "sourcePagesScanned": [
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "http://yss.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/home",
-          "https://medicine.snu.ac.kr/en/",
-          "http://yss.snu.ac.kr/index.php"
         ]
       },
       "enrichment": {
@@ -257808,11 +257660,109 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "논문 게재료 지원",
-            "url": "https://libguides.snu.ac.kr/research/academicwriting"
+            "title": "연구성과",
+            "url": "https://eng.snu.ac.kr/research/research-achievements?sc=y"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학습 및 생활 적응을 지원합니다. 중앙연구지원실은 연구 지원 관련 정보를 제공합니다.",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "국가지원연구센터",
+            "url": "https://eng.snu.ac.kr/research/facilities/national-research-center"
+          }
+        ],
+        "recruitment_source_url": "https://eng.snu.ac.kr/research/facilities/national-research-center",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://eng.snu.ac.kr/about/alumni-association/department-division-alumni",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2",
+          "https://eng.snu.ac.kr/research/facilities/national-research-center",
+          "https://eng.snu.ac.kr/research/research-achievements?sc=y",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2#topNav",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-professor",
+          "https://eng.snu.ac.kr/communication/proud-engineers/award-of-excellence-for-development",
+          "https://eng.snu.ac.kr/communication/proud-engineers/distinguished-alumni-award",
+          "https://eng.snu.ac.kr/communication/proud-engineers/sinyangoutstanding-young-professor-award",
+          "https://eng.snu.ac.kr/about/organization/professor?page=2#cont",
+          "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+          "https://eng.snu.ac.kr/about/alumni-association/history"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-C2FA45D26E50BA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:34:09Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-C2FA45D26E50BA"
+    },
+    "SNU-RU-C313C67E58E07F": {
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-29T00:33:52Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/"
+          }
+        ],
+        "membersUrl": "http://yss.snu.ac.kr/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
+          "https://medicine.snu.ac.kr/en/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학습 및 생활 적응을 지원합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -257835,12 +257785,13 @@
         "poster_source_url": "",
         "poster_evidence": "",
         "source_urls_used": [
-          "http://yss.snu.ac.kr/",
-          "http://yss.snu.ac.kr/index.php",
-          "https://libguides.snu.ac.kr/research/academicwriting",
-          "https://medcorelab.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "http://yss.snu.ac.kr/",
+          "https://medcorelab.snu.ac.kr/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://meddorm.snu.ac.kr/",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -257852,7 +257803,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C313C67E58E07F",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:31:44Z",
+        "_saved_at": "2026-09-29T00:34:10Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -302924,14 +302875,18 @@
     "SNU-RU-C174768E9D3CB1": {
       "reason": "fetch_failed",
       "checked_at": "2026-09-29T00:32:09Z"
+    },
+    "SNU-RU-C2D323FEE7F742": {
+      "reason": "fetch_failed",
+      "checked_at": "2026-09-29T00:34:10Z"
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:33:21Z",
-    "checked": 360,
-    "seconds": 4750.5,
+    "at": "2026-09-29T00:34:10Z",
+    "checked": 365,
+    "seconds": 4800.25,
     "gemini": true,
-    "ai_requests": 242,
+    "ai_requests": 245,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
