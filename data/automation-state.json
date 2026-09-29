@@ -1,5 +1,5 @@
 {
-  "cursor": 1652,
+  "cursor": 1657,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -11256,17 +11256,91 @@
     },
     "SNU-RU-EAF2E5F8031DFD": {
       "fingerprint": "da7d0fc61945fddc121ada08a733a56c30576e528029f86478a52e325d8e8c74",
-      "checked_at": "2026-09-24T01:04:17Z",
+      "checked_at": "2026-09-29T22:26:51Z",
       "activity": {
-        "publicationPages": [
+        "publicationPages": [],
+        "recruitmentPages": [
           {
-            "title": "강상진 교수 - 전체 교수소개",
-            "url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=16&profidx=156"
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=16&profidx=156",
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/89fzaa8zd4dzfcbzf27z0cdz164zcd7ze87zb2dz87.jpg",
+            "alt": "강상진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?md=view&page=16&profidx=156"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+            "alt": "학생생활문화원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
+            "alt": "인문학 역량강화",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CDCC"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
+            "alt": "교육지원센터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
         "sourcePagesScanned": [
           "https://humanities.snu.ac.kr/academics/faculty?md=view&page=16&profidx=156",
           "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
@@ -11366,7 +11440,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-EAF2E5F8031DFD"
+      "_unit_id": "SNU-RU-EAF2E5F8031DFD",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-97681C7AE0690F": {
       "fingerprint": "0f89882c3429e1c532c308051c730cedfb740b760ecc455cd58573edaa031498",
@@ -304591,6 +304666,455 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-EA487584856ADA",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-EB2B5A74AA116C": {
+      "fingerprint": "169d6ec75db5587887b236139c8cfd98723146d73ca1df9fd9655c07adb525c9",
+      "checked_at": "2026-09-29T22:26:49Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO",
+            "kind": "recruitment"
+          },
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-big.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/logo-mo.png",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/webdata/professor/ef1zd2bz4b6z1abzb88z58czf75zc44zd18z912zf3.jpeg",
+            "alt": "이석재 교수 사진",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/academics/faculty?page=15"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/mo-logo3.png?20251",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/flogo.png?2025",
+            "alt": "서울대학교 인문대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-01.png",
+            "alt": "학생생활문화원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-02.png",
+            "alt": "인문학 역량강화",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          },
+          {
+            "url": "https://humanities.snu.ac.kr/_skin/kor/images/site/banner-03.png",
+            "alt": "교육지원센터",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=15&md=view&profidx=152",
+          "https://humanities.snu.ac.kr/academics/faculty?page=15",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-EB2B5A74AA116C",
+      "verify_error": "verify_JSONDecodeError"
+    },
+    "SNU-RU-EAC17534CEB328": {
+      "fingerprint": "439c85e24708ded0fc52c773ec63d0d9b076d51bf7b345867dc355405008d7fe",
+      "checked_at": "2026-09-29T22:26:50Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://music.snu.ac.kr/faculty",
+          "https://music.snu.ac.kr/content/department_vm",
+          "https://music.snu.ac.kr/content/department_c",
+          "https://music.snu.ac.kr/content/department_m",
+          "https://music.snu.ac.kr/content/department_p",
+          "https://music.snu.ac.kr/content/department_oi",
+          "https://music.snu.ac.kr/content/department_kt",
+          "https://music.snu.ac.kr/content/department_gs",
+          "https://music.snu.ac.kr/content/snuart_center",
+          "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "서울대학교 음악대학 성악과는 소프라노, 메조 소프라노, 테너, 베이스 바리톤, 베이스 등 다양한 전공의 교수진을 통해 성악 교육을 제공하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [
+          {
+            "name": "박미자",
+            "role": "교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "베셀리나 카사로바",
+            "role": "교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "서혜연",
+            "role": "교수 (학과장)",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "손지혜",
+            "role": "부교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "윤태현",
+            "role": "교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "이혜정",
+            "role": "부교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "전승현",
+            "role": "교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "라몬 바르가스",
+            "role": "특임교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          },
+          {
+            "name": "조란 토도로비치",
+            "role": "특임교수",
+            "url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://music.snu.ac.kr/faculty?sca=%EC%84%B1%EC%95%85%EA%B3%BC",
+          "https://music.snu.ac.kr/faculty",
+          "https://music.snu.ac.kr/content/department_vm",
+          "https://music.snu.ac.kr/content/department_c",
+          "https://music.snu.ac.kr/content/department_m",
+          "https://music.snu.ac.kr/content/department_p",
+          "https://music.snu.ac.kr/content/department_oi",
+          "https://music.snu.ac.kr/content/department_kt",
+          "https://music.snu.ac.kr/content/department_gs",
+          "https://music.snu.ac.kr/content/snuart_center",
+          "https://www.snu.ac.kr/personal_information",
+          "https://music.snu.ac.kr/data/file/faculty/thumb-a74ec1d259a7eb2e131e8707ce5ee0f9_vdsVxwGD_f607dfb8c47d3752e93987893e80a2df9745c1b7_300x0.png"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-EAC17534CEB328",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:27:14Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-EAC17534CEB328"
+    },
+    "SNU-RU-EB04B60200D4E6": {
+      "fingerprint": "794a35b409c0238174dcd58c4771aa80773766f2e980039dbfbe0a615fb5973f",
+      "checked_at": "2026-09-29T22:26:51Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission",
+            "kind": "recruitment"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs",
+            "kind": "recruitment"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/campus-life/office",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/logo-bg@2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/50-logo-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/flogo.png?ver=",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/activity/student-council"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/d25ze37z58dz8bez768zf52zbc6zaf6z79fz60fz63.jpg",
+            "alt": "김옥주",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/f5dz9d7z949z704zd6ezea0zfdczcf0zbd7z4d5z2e.png",
+            "alt": "김용대",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/f19z323z258zc1az167z7e7z87dz12aze51zf66ze5.jpg",
+            "alt": "김웅태",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/c75z079z6e8za9ezdb2z3c5z4a5z0e1z8cazfaazdd.jpg",
+            "alt": "김은종",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/campus-life/activity/student-council"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-EB04B60200D4E6",
+      "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-EB3F461998A724": {
+      "fingerprint": "f2c9ec2d2707775aa4e5a6d2d8a697a53c581f6b4966dbb6f39adf4650548380",
+      "checked_at": "2026-09-29T22:26:52Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "[KOR] 3 [서식] 총괄연구업적현황.xls (50 KB)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5565&fileidx=8601"
+          },
+          {
+            "title": "[KOR] 3_[서식] 총괄연구업적현황.xls (51 KB)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5300&fileidx=8085"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "2026학년도 제2차 자연과학대학 물리천문학부 교원 초빙 공고(2nd Announcement of Faculty Positions Opening, Dept. of Physics &...)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5565"
+          },
+          {
+            "title": "2026학년도 제2차 자연과학대학 교원 초빙 공고(2nd Announcement of Faculty Positions Opening, 2026)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5559"
+          },
+          {
+            "title": "2026학년도 제1차 자연과학대학 교원 초빙 공고(1st Announcement of Faculty Positions Opening, 2026)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5415"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=7",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/news/professor-invitation?sc=y",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=7",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5565",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5559",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5415",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5300",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5287",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5174",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5152"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "[KOR] 3 [서식] 총괄연구업적현황.xls (50 KB)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5565&fileidx=8601"
+          },
+          {
+            "title": "[KOR] 3_[서식] 총괄연구업적현황.xls (51 KB)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5300&fileidx=8085"
+          }
+        ],
+        "recruitment_summary": "자연과학대학에서 2026학년도 교원 초빙을 진행하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "2026학년도 제2차 자연과학대학 물리천문학부 교원 초빙 공고(2nd Announcement of Faculty Positions Opening, Dept. of Physics &...)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5565"
+          },
+          {
+            "title": "2026학년도 제2차 자연과학대학 교원 초빙 공고(2nd Announcement of Faculty Positions Opening, 2026)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5559"
+          },
+          {
+            "title": "2026학년도 제1차 자연과학대학 교원 초빙 공고(1st Announcement of Faculty Positions Opening, 2026)",
+            "url": "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5415"
+          }
+        ],
+        "recruitment_source_url": "https://science.snu.ac.kr/news/professor-invitation?sc=y",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=7",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://science.snu.ac.kr/news/professor-invitation?sc=y",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=7",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5565",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5559",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5415",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5300",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5287",
+          "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5565&fileidx=8601",
+          "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5559&fileidx=8583",
+          "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5415&fileidx=8335",
+          "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5300&fileidx=8085",
+          "https://science.snu.ac.kr/news/professor-invitation?md=down&bbsidx=5287&fileidx=8054",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5174",
+          "https://science.snu.ac.kr/news/professor-invitation?md=v&bbsidx=5152"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-EB3F461998A724",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:27:52Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-EB3F461998A724"
     }
   },
   "failures": {
@@ -304744,11 +305268,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:26:35Z",
-    "checked": 95,
-    "seconds": 1273.96,
+    "at": "2026-09-29T22:27:52Z",
+    "checked": 100,
+    "seconds": 1350.76,
     "gemini": true,
-    "ai_requests": 32,
+    "ai_requests": 34,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
