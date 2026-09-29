@@ -1,5 +1,5 @@
 {
-  "cursor": 1437,
+  "cursor": 1442,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -42794,8 +42794,8 @@
       "_unit_id": "SNU-RU-9078601FB3E3A1"
     },
     "SNU-RU-CD234856A25DBA": {
-      "fingerprint": "11870ab64c0625db921e9fe0a3fd792a8f271f527f963d9def2ab0cb891c53d1",
-      "checked_at": "2026-09-24T21:46:44Z",
+      "fingerprint": "5c32aa862cce6a404ded7ed1f36fe5d11af680a4582fd592451e5cbb8512594c",
+      "checked_at": "2026-09-29T00:48:18Z",
       "activity": {
         "publicationPages": [
           {
@@ -42866,6 +42866,13 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://cls.snu.ac.kr"
+          },
+          {
+            "url": "https://cls.snu.ac.kr/wp-content/img/icon/icon_new.png",
+            "alt": "새글",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cls.snu.ac.kr"
           }
         ],
         "sourcePagesScanned": [
@@ -42883,7 +42890,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-CD234856A25DBA",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-050DBF2620E3BC": {
       "fingerprint": "4966709cda4bdd3c99a70da70cc1b0bf2b8ecdc61bcfab85621df68ca723c190",
@@ -43983,29 +43990,24 @@
       "_unit_id": "SNU-RU-3944C6BDC9DCA3"
     },
     "SNU-RU-CDDB13EC469B11": {
-      "fingerprint": "f74d21c056c3a285cc0403831e261e4d5621706d7cec5bd738c8470198f1fde4",
-      "checked_at": "2026-09-24T21:49:04Z",
+      "fingerprint": "6b5988f2a2fbb6131565ffbc21c14e0d4a03e94802ab5b9bda87881913bf23d8",
+      "checked_at": "2026-09-29T00:48:38Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 328 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/"
+            "title": "Beom Joon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
+        "recruitmentPages": [],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-7/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -44014,19 +44016,50 @@
         ]
       },
       "enrichment": {
-        "research_summary": "김범준 교수는 뇌혈관질환 및 곁순환(collateral circulation) 분야를 중심으로 연구를 수행하고 있으며, 뇌졸중 환자의 예후 및 치료 전략에 관한 다수의 학술 논문을 발표하고 있습니다.",
+        "research_summary": "김범준 교수는 뇌졸중 및 뇌혈관 질환 분야의 임상 연구를 수행하며, 특히 뇌허혈, 혈전 제거술, 뇌졸중 환자의 예후 및 성별 차이 등에 관한 연구를 활발히 진행하고 있습니다.",
         "research_topics": [
-          "뇌혈관질환",
-          "곁순환",
-          "뇌졸중"
+          "뇌졸중 (Apoplexy)",
+          "뇌허혈 (Brain Ischemia)",
+          "뇌혈관질환 (Cerebrovascular Accident)",
+          "혈전 제거술 (Thrombectomy)",
+          "뇌졸중 예후 (Modified Rankin Scale)"
         ],
         "recommendation_keywords": [
+          "뇌졸중",
+          "뇌허혈",
           "뇌혈관질환",
-          "곁순환",
-          "뇌졸중"
+          "혈전제거술",
+          "임상신경학",
+          "뇌졸중 (Apoplexy)",
+          "뇌허혈 (Brain Ischemia)",
+          "뇌혈관질환 (Cerebrovascular Accident)",
+          "혈전 제거술 (Thrombectomy)",
+          "뇌졸중 예후 (Modified Rankin Scale)"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "Building the next generation of stroke physicians: Perspectives from East Asian collaboration",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
+            "year": "2026",
+            "venue": "Journal of the Formosan Medical Association",
+            "summary": "동아시아 협력을 통한 차세대 뇌졸중 전문의 양성에 대한 관점을 제시합니다."
+          },
+          {
+            "title": "Sex differences in mortality and functional outcomes across stroke subtype: A nationwide cohort study",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
+            "year": "2026",
+            "venue": "International Journal of Stroke",
+            "summary": "뇌졸중 아형에 따른 사망률 및 기능적 예후의 성별 차이를 전국 단위 코호트 연구를 통해 분석하였습니다."
+          },
+          {
+            "title": "Redefining the Cerebral Ischemic Core-Penumbra-Oligemia Continuum",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
+            "year": "2026",
+            "venue": "Stroke",
+            "summary": "뇌허혈의 핵심 영역, 반음영, 저관류 영역의 연속성에 대한 개념을 재정의하는 리뷰 논문입니다."
+          }
+        ],
+        "recent_year_paper_count": 19,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -44035,50 +44068,45 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 신경과학교실 임상교수로 재직 중입니다.",
         "verified_publication_pages": [
           {
-            "title": "View all 328 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/"
+            "title": "Beom Joon Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-7/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
         "poster_status": "verified",
         "poster_title": "Beom Joon Kim",
         "poster_date": "",
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959330/113_Kim_+Beom+Joon.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-7/",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image from SNU Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-7/",
-          "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
           "https://libguides.snu.ac.kr/home",
+          "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-7/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CDDB13EC469B11",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:49:14Z",
+        "_saved_at": "2026-09-29T00:48:58Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -112278,8 +112306,8 @@
       "_unit_id": "SNU-RU-3869371860CF01"
     },
     "SNU-RU-CD5D3CD66FFD23": {
-      "fingerprint": "9f2afef2da95da53242896fc00d013ddb80dab2ccd46733e6dda469a812f09fb",
-      "checked_at": "2026-09-24T21:48:01Z",
+      "fingerprint": "0324da9808c357b564c77019f2e2fbd8340880a95652b7e66bd5cdd5dc650039",
+      "checked_at": "2026-09-29T00:48:34Z",
       "activity": {
         "publicationPages": [
           {
@@ -112287,7 +112315,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-34/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-34/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -112298,76 +112331,27 @@
           "https://snu.elsevierpure.com/en/persons/y-park-34/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "박종민 교수는 의학물리 분야를 전문으로 하며, 특히 체적 변조 아크 치료(VMAT), 세기 조절 방사선 치료(IMRT), 영상 유도 방사선 치료(IGRT) 및 선량 분포와 계산에 관한 연구를 수행하고 있습니다. 최근에는 머신러닝을 활용한 방사선 치료 계획 및 선량 추정, 중이온 치료 시뮬레이션, 방사선 치료를 위한 호흡 운동 관리 시스템 비교 연구 등 방사선 종양학의 물리적 기술 고도화에 집중하고 있습니다.",
+        "research_summary": "박종민 교수는 의학물리학 분야를 연구하며, 방사선 치료의 정확도 향상 및 관련 기술 개발에 중점을 두고 있습니다. 특히 방사선종양학 분야에서 임상적 적용을 위한 물리적 연구를 수행하고 있습니다.",
         "research_topics": [
-          "Volumetric Modulated Arc Therapy",
-          "Intensity Modulated Radiation Therapy",
-          "Lung",
-          "Image-Guided Radiation Therapy",
-          "Dose Distribution",
-          "Head and Neck Cancer",
-          "Neck",
-          "Dose Calculation"
+          "의학물리",
+          "방사선종양학",
+          "방사선 치료 기술"
         ],
         "recommendation_keywords": [
           "의학물리",
           "방사선종양학",
-          "방사선치료",
-          "머신러닝",
-          "선량계산",
-          "Volumetric Modulated Arc Therapy",
-          "Intensity Modulated Radiation Therapy",
-          "Lung",
-          "Image-Guided Radiation Therapy",
-          "Dose Distribution",
-          "Head and Neck Cancer",
-          "Neck",
-          "Dose Calculation"
+          "방사선 치료",
+          "방사선 치료 기술"
         ],
-        "recent_papers": [
-          {
-            "title": "Machine learning approach to estimation of in vivo measured dose and treatment planning for total body irradiation",
-            "url": "https://snu.elsevierpure.com/en/publications/machine-learning-approach-to-estimation-of-in-vivo-measured-dose-/",
-            "year": "2026",
-            "venue": "Radiation Oncology",
-            "summary": "전신 방사선 조사를 위한 생체 내 측정 선량 추정 및 치료 계획 수립에 머신러닝 접근 방식을 적용한 연구입니다."
-          },
-          {
-            "title": "Microdosimetric kinetic model for enhanced estimation of cell survival in aerobic human salivary gland cells under heavy ion irradiation",
-            "url": "https://snu.elsevierpure.com/en/publications/microdosimetric-kinetic-model-for-enhanced-estimation-of-cell-sur/",
-            "year": "2026",
-            "venue": "Physics in Medicine and Biology",
-            "summary": "중이온 조사 하에서 호기성 인간 타액선 세포의 세포 생존율을 향상된 미세선량 운동 모델을 통해 추정한 연구입니다."
-          },
-          {
-            "title": "Comparative study of inertial measurement unit and optical tracking systems for respiratory motion management in radiotherapy",
-            "url": "https://snu.elsevierpure.com/en/publications/comparative-study-of-inertial-measurement-unit-and-optical-tracki/",
-            "year": "2026",
-            "venue": "Physica Medica",
-            "summary": "방사선 치료 시 호흡 운동 관리를 위해 관성 측정 장치(IMU)와 광학 추적 시스템을 비교 분석한 연구입니다."
-          }
-        ],
-        "recent_year_paper_count": 3,
-        "recent_year_papers_by_venue": [
-          {
-            "venue": "Radiation Oncology",
-            "count": 1
-          },
-          {
-            "venue": "Physics in Medicine and Biology",
-            "count": 1
-          },
-          {
-            "venue": "Physica Medica",
-            "count": 1
-          }
-        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -112375,16 +112359,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 방사선종양학교실에서 의학물리 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 116 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-34/publications/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-34/publications/",
@@ -112394,26 +112383,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960452/367_Park_+Jong+Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-34/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure profile.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-34/",
-          "https://snu.elsevierpure.com/en/persons/y-park-34/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-34/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-34/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-34/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-park-34/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-34/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 3,
+        "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CD5D3CD66FFD23",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:48:31Z",
+        "_saved_at": "2026-09-29T00:48:46Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -132119,118 +132108,23 @@
       "_unit_id": "SNU-RU-0F6BEDA8448347"
     },
     "SNU-RU-CD7455C772A774": {
-      "fingerprint": "401d6b3a02462ee4a439e1d7c6b42e9dd5ef2ea65729263bcecfcc41d2c70e29",
-      "checked_at": "2026-09-24T21:47:59Z",
+      "fingerprint": "488f4c164977ca8d759fbc3249472f77e44245559482f81c94e6a97a46916d54",
+      "checked_at": "2026-09-29T00:48:35Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 138 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "127",
-            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "5",
-            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "1",
-            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fconference",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CCR2-Dependent Monocyte Recruitment Accelerates Allergic Airway Inflammation in Diesel Exhaust-Exposed Mice",
-            "url": "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "Skip to main navigation",
-            "url": "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/#main-navigation",
-            "kind": "recruitment"
+            "url": "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-seok/publications/",
         "posterStatus": "none_detected",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960752/434_Seok_+Seung+Hyeok.jpg?w=160&f=jpg",
-            "alt": "Seung Hyeok Seok",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-seok/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-seok/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -132240,30 +132134,40 @@
           "https://snu.elsevierpure.com/en/persons/y-seok/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb"
         ]
       },
       "enrichment": {
-        "research_summary": "석승혁 교수는 마크로파지(대식세포)의 생물학적 기능을 중심으로 당뇨, 암, 결핵, 염증 및 자가면역질환 등 다양한 만성질환의 발병 기전을 연구하고 있습니다.",
+        "research_summary": "석승혁 교수는 마크로파지(대식세포)와 관련된 만성질환(당뇨, 암, 결핵, 염증, 자가면역질환 등)을 연구하며, 특히 면역학적 기전과 질환의 병태생리를 규명하는 데 집중하고 있습니다.",
         "research_topics": [
-          "마크로파지",
-          "만성질환",
+          "마크로파지 관련 만성질환",
           "당뇨",
           "암",
           "결핵",
           "염증",
-          "자가면역질환"
+          "자가면역질환",
+          "면역학"
         ],
         "recommendation_keywords": [
           "마크로파지",
           "만성질환",
-          "당뇨",
-          "결핵",
+          "면역학",
           "염증",
+          "당뇨",
+          "마크로파지 관련 만성질환",
+          "결핵",
           "자가면역질환"
         ],
-        "recent_papers": [],
+        "recent_papers": [
+          {
+            "title": "CCR2-Dependent Monocyte Recruitment Accelerates Allergic Airway Inflammation in Diesel Exhaust-Exposed Mice",
+            "url": "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/",
+            "year": "2025",
+            "venue": "Allergy: European Journal of Allergy and Clinical Immunology",
+            "summary": ""
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -132280,9 +132184,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 웹사이트를 통해 확인 가능한 특정 연구실 채용 정보는 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "CCR2-Dependent Monocyte Recruitment Accelerates Allergic Airway Inflammation in Diesel Exhaust-Exposed Mice",
+            "url": "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/"
+          }
+        ],
+        "recruitment_source_url": "https://snu.elsevierpure.com/en/persons/y-seok/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-seok/publications/",
@@ -132296,8 +132205,8 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-seok/",
           "https://snu.elsevierpure.com/en/persons/y-seok/publications/",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/publications/ccr2-dependent-monocyte-recruitment-accelerates-allergic-airway-i/",
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-seok/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-seok/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-seok/#main-content",
@@ -132307,17 +132216,15 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://snu.elsevierpure.com/en/persons/y-seok/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 1,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CD7455C772A774",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:25:03Z",
+        "_saved_at": "2026-09-29T00:48:54Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-CD7455C772A774",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-CD7455C772A774"
     },
     "SNU-RU-CCC28F9F7E48ED": {
       "fingerprint": "e6f3a94edc18c4313fa2cf21ba23d72688e2bc367ef4120e5b1964533735f484",
@@ -260017,13 +259924,13 @@
       "_unit_id": "SNU-RU-CC82AC0CC363D3"
     },
     "SNU-RU-CD00BFA1CB0654": {
-      "fingerprint": "a2c7a5fecac482f57de4dd4da673565847dc4f3982254be576457efd7192500b",
-      "checked_at": "2026-09-24T21:47:08Z",
+      "fingerprint": "e28abe861d6d0ed642cefa5fa4c167199ed8d8312f6b4669a36d498c216fe767",
+      "checked_at": "2026-09-29T00:48:40Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "논문 게재료 지원",
-            "url": "https://libguides.snu.ac.kr/research/academicwriting"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
         "recruitmentPages": [
@@ -260032,8 +259939,8 @@
             "url": "http://yss.snu.ac.kr/"
           },
           {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "membersUrl": "http://yss.snu.ac.kr/",
@@ -260042,7 +259949,7 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -260068,19 +259975,19 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "논문 게재료 지원",
-            "url": "https://libguides.snu.ac.kr/research/academicwriting"
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학교생활의 어려움에 대한 지원을 제공합니다.",
+        "recruitment_summary": "연건학생지원센터는 연건캠퍼스 학생들을 대상으로 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등을 통해 학습 및 생활 적응을 지원합니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
             "url": "http://yss.snu.ac.kr/"
           },
           {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/"
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php"
           }
         ],
         "recruitment_source_url": "http://yss.snu.ac.kr/",
@@ -260096,11 +260003,12 @@
         "poster_evidence": "",
         "source_urls_used": [
           "http://yss.snu.ac.kr/",
-          "https://libguides.snu.ac.kr/research/academicwriting",
-          "https://medcorelab.snu.ac.kr/",
+          "http://yss.snu.ac.kr/index.php",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
@@ -260112,7 +260020,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CD00BFA1CB0654",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:47:31Z",
+        "_saved_at": "2026-09-29T00:49:04Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -302425,11 +302333,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:48:07Z",
-    "checked": 420,
-    "seconds": 5636.53,
+    "at": "2026-09-29T00:49:04Z",
+    "checked": 425,
+    "seconds": 5693.74,
     "gemini": true,
-    "ai_requests": 295,
+    "ai_requests": 299,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
