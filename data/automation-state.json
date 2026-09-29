@@ -1,5 +1,5 @@
 {
-  "cursor": 154,
+  "cursor": 159,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -124456,8 +124456,8 @@
       "_unit_id": "SNU-RU-AE9171A353C9B5"
     },
     "SNU-RU-0E195738C9DBC2": {
-      "fingerprint": "a565fa673141b2553ba789bf1b71d7c0dfe6849ee99ba5fe4cb36754f69af81f",
-      "checked_at": "2026-09-24T01:34:14Z",
+      "fingerprint": "c6db9e7568219943ba572ee703972ff09766762d7823a6fb98588e529af1d1ec",
+      "checked_at": "2026-09-29T23:39:53Z",
       "activity": {
         "publicationPages": [
           {
@@ -124465,7 +124465,12 @@
             "url": "https://snu.elsevierpure.com/en/persons/ye-ji-bang/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/ye-ji-bang/publications/",
         "posterStatus": "none_detected",
         "sourcePagesScanned": [
@@ -124504,10 +124509,10 @@
             "url": "https://snu.elsevierpure.com/en/publications/metabolic-profiling-and-genetic-tool-development-in-the-mucosal-b/",
             "year": "2024",
             "venue": "Cell Reports",
-            "summary": "점막 상주 세균인 Selenomonas sputigena의 대사 프로파일링을 수행하고 유전적 도구를 개발하였습니다."
+            "summary": ""
           }
         ],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 18,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -124516,16 +124521,21 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "None",
+        "education_summary": "",
         "verified_publication_pages": [
           {
             "title": "View all 18 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/ye-ji-bang/publications/"
           }
         ],
-        "recruitment_summary": null,
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/ye-ji-bang/publications/",
@@ -124539,12 +124549,12 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/ye-ji-bang/",
           "https://snu.elsevierpure.com/en/persons/ye-ji-bang/publications/",
+          "http://yss.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/publications/metabolic-profiling-and-genetic-tool-development-in-the-mucosal-b/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/ye-ji-bang/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/ye-ji-bang/#main-search",
           "https://snu.elsevierpure.com/en/persons/ye-ji-bang/#main-content",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
@@ -124555,10 +124565,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-0E195738C9DBC2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:24:01Z",
+        "_saved_at": "2026-09-29T23:40:26Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-0E195738C9DBC2"
     },
@@ -190332,7 +190341,7 @@
     },
     "SNU-RU-0E35F6D6E4FD0C": {
       "fingerprint": "01aa17b9f4d8324888a7aa9bf0ee977e698ab7b5ba6677da54adceebf70d4df0",
-      "checked_at": "2026-09-24T01:04:44Z",
+      "checked_at": "2026-09-29T23:39:41Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -190431,7 +190440,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-0E35F6D6E4FD0C"
+      "_unit_id": "SNU-RU-0E35F6D6E4FD0C",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-E23645DC1474E5": {
       "fingerprint": "b142ddb1abb028ad2e0563c24860a82ae31827646895d44ed72a1e58da6caa89",
@@ -234752,13 +234762,118 @@
       "_unit_id": "SNU-RU-239399B670F302"
     },
     "SNU-RU-0E3D59AE79D826": {
-      "fingerprint": "92feaea6965aa46cd6690624e234129a875a6cbe322590f10620da0f033c1a33",
-      "checked_at": "2026-09-24T00:13:13Z",
+      "fingerprint": "74f3634772656d34691adbcec33964d83593a521b44ab33beabd9449126bf19f",
+      "checked_at": "2026-09-29T23:39:41Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "",
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission",
+            "kind": "recruitment"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
+            "kind": "recruitment"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
         "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
+            "alt": "SNU CALS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/forestry-logo.png",
+            "alt": "서울대학교 산림과학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/오정권_증명사진-768x987.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2021/02/푸터베이직로고-5.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr"
+          },
+          {
+            "url": "https://forestry.snu.ac.kr/wp-includes/images/rss.png",
+            "alt": "RSS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://forestry.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://forestry.snu.ac.kr/snu__professor/%EC%98%A4%EC%A0%95%EA%B6%8C/",
@@ -234828,7 +234943,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-0E3D59AE79D826"
+      "_unit_id": "SNU-RU-0E3D59AE79D826",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-22B320F1E061E7": {
       "fingerprint": "df9e07d539343e65cdd95c8e6b1a0d6b9aaa4281a200c7914cc1c8af3c7eef1d",
@@ -320216,6 +320332,221 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-0DF5D66764267A",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-0E3D392C20BF32": {
+      "fingerprint": "10c60fadab80f0d4667ab383a78df05524c527e24bbcfd0d7b999bcfdd082c14",
+      "checked_at": "2026-09-29T23:39:40Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?page=17",
+          "https://humanities.snu.ac.kr/academics/faculty?page=11",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          },
+          {
+            "title": "국제화지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHIO"
+          },
+          {
+            "title": "교육지원센터",
+            "url": "https://humanities.snu.ac.kr/research/CHESO"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/faculty?page=17",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/faculty?page=11",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/webdata/professor/d4dz02azf0czc44z63azb66zaaaza9bz401zdc8z9a.jpg",
+          "https://humanities.snu.ac.kr/webdata/professor/74cze99zbf3z5aezaadzf9cz790zcb1zd71zc5dz2a.jpeg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-0E3D392C20BF32",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:39:56Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-0E3D392C20BF32"
+    },
+    "SNU-RU-0E31AA6EC50490": {
+      "fingerprint": "88cd230b726e748a8f7b12d23b598fca1fe0ded24140554031135b900e0d24ee",
+      "checked_at": "2026-09-29T23:39:40Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "논문",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102",
+            "kind": "publication"
+          },
+          {
+            "title": "논문",
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=kko0586&code=102",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-gkm_k_1_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=72"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_GzyCv0t1_EAB3A0EBAA85EC8898_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_2SCGRTb9_123_120x.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php#tab2"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_JPAEy0fV_EAB3A0ED9599EC8898_2026_1_1_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php#tab2"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_PnQhHmIg_ED81ACEAB8B0EBB380ED9998_EAB3B5EB9190ED9884_ECA69DEBAA85EC82ACECA784_ED9484EBA19CED9584220529_POSHLAB_0046EAB3B5EB9190ED9884_ECA69DEBAA85EC82ACECA784_ED9484EBA19CED9584_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php#tab2"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://law.snu.ac.kr/page/professor_list_role.php",
+          "https://law.snu.ac.kr",
+          "https://law.snu.ac.kr/page/councel.php",
+          "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+          "https://law.snu.ac.kr/page/professor_list_role.php#tab4",
+          "https://law.snu.ac.kr/page/professor_list_role.php#tab1",
+          "https://law.snu.ac.kr/page/professor_list_role.php#tab3",
+          "https://law.snu.ac.kr/page/professor_list_role.php#tab2",
+          "https://law.snu.ac.kr/page/professor.php?wr_id=72",
+          "https://law.snu.ac.kr/page/professor.php?wr_id=379"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-0E31AA6EC50490",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -320373,11 +320704,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:39:25Z",
-    "checked": 400,
-    "seconds": 5644.5,
+    "at": "2026-09-29T23:40:26Z",
+    "checked": 405,
+    "seconds": 5705.39,
     "gemini": true,
-    "ai_requests": 148,
+    "ai_requests": 150,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
