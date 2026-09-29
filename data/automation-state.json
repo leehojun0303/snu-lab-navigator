@@ -1,5 +1,5 @@
 {
-  "cursor": 184,
+  "cursor": 189,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -1267,18 +1267,98 @@
       "_unit_id": "SNU-RU-E88A49806397EE"
     },
     "SNU-RU-12EC136919597E": {
-      "fingerprint": "074681b584179533167190766e2f1be13a34f18a7ac7d42a97620cf88e7a4a91",
-      "checked_at": "2026-09-24T00:20:17Z",
+      "fingerprint": "807dfdd7a15b37e0cd5470b13f9d6fbc00adff64b2914b08a0d89f9e68b7bca6",
+      "checked_at": "2026-09-29T23:46:38Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=102"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=ermal.frasheri&code=102",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=395",
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287186_mHQrO7Eu_123_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=395"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=395",
           "https://law.snu.ac.kr",
@@ -1350,7 +1430,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-12EC136919597E"
+      "_unit_id": "SNU-RU-12EC136919597E",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-9F52BA207E7C9F": {
       "fingerprint": "fdfc994977cf2c1ac9f7e3a0aaa1035982032dc3beae28cbef5cbc2245a80784",
@@ -2187,33 +2268,124 @@
       "_unit_id": "SNU-RU-42FB4DF8CA485E"
     },
     "SNU-RU-12C605B351A2B8": {
-      "fingerprint": "fcd1f5de747d9e6d2bec021f6a38645ddb7a7c1c762cea392e157812983f9c79",
-      "checked_at": "2026-09-24T01:17:55Z",
+      "fingerprint": "691dd96c898fc3569b387be93463a8c7da5fe6fe8a947d6fef1704c4e515bacb",
+      "checked_at": "2026-09-29T23:46:44Z",
       "activity": {
         "publicationPages": [
           {
+            "title": "Publication",
+            "url": "https://bama.snu.ac.kr/publication/papers",
+            "kind": "publication"
+          },
+          {
             "title": "Papers",
-            "url": "https://bama.snu.ac.kr/publication/papers/"
+            "url": "https://bama.snu.ac.kr/publication/papers/",
+            "kind": "publication"
           },
           {
             "title": "Patents",
-            "url": "https://bama.snu.ac.kr/publication/patents/"
+            "url": "https://bama.snu.ac.kr/publication/patents/",
+            "kind": "publication"
+          },
+          {
+            "title": "Publication",
+            "url": "https://bama.snu.ac.kr/publication/papers",
+            "kind": "publication"
+          },
+          {
+            "title": "Papers",
+            "url": "https://bama.snu.ac.kr/publication/papers/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://bama.snu.ac.kr/members/current/",
+        "recruitmentPages": [
+          {
+            "title": "툴젠, ‘유전자편집·제어·복원 기반기술 개발’ 과기정통부 과제 선정-5년간 총 22억원 규모 연구비 지원 2023-07-25",
+            "url": "https://bama.snu.ac.kr/media/news/?vid=19",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학본부",
+            "url": "https://admission.snu.ac.kr",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://bama.snu.ac.kr/members/current",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://bama.snu.ac.kr/wp-content/themes/professorT1/images/logo.png",
+            "alt": "서울대학교 첨단융합학부 이혁진연구소",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bama.snu.ac.kr/publication/papers/"
+          },
+          {
+            "url": "https://bama.snu.ac.kr/wp-content/themes/professorT1/images/ic-moreb.png",
+            "alt": "더보기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bama.snu.ac.kr/"
+          },
+          {
+            "url": "https://bama.snu.ac.kr/wp-content/uploads/toolgen.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bama.snu.ac.kr/"
+          },
+          {
+            "url": "https://bama.snu.ac.kr/wp-content/uploads/logo.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bama.snu.ac.kr/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/08/snuti-logo-normal.png",
+            "alt": "서울대학교 서울대학교 첨단융합학부",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%EC%9D%B4%ED%98%81%EC%A7%84-2/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2025/02/이혁진1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%EC%9D%B4%ED%98%81%EC%A7%84-2/"
+          },
+          {
+            "url": "https://snuti.snu.ac.kr/wp-content/uploads/sites/215/2021/02/snuti-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snuti.snu.ac.kr/snu__professor/%EC%9D%B4%ED%98%81%EC%A7%84-2/"
+          },
+          {
+            "url": "https://bama.snu.ac.kr/wp-content/themes/professorT1/images/p1.jpg",
+            "alt": "Soyoung Kim",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://bama.snu.ac.kr/members/current/"
+          }
+        ],
         "sourcePagesScanned": [
           "https://bama.snu.ac.kr/",
           "https://snuti.snu.ac.kr/snu__professor/%EC%9D%B4%ED%98%81%EC%A7%84-2/",
-          "https://snuti.snu.ac.kr",
           "https://bama.snu.ac.kr/members/current/",
           "https://bama.snu.ac.kr/members/current/",
           "https://bama.snu.ac.kr/members/alumni/",
           "https://bama.snu.ac.kr/professor/contactus/",
           "https://bama.snu.ac.kr/professor/introduction/",
           "https://bama.snu.ac.kr/professor/introduction/",
-          "https://bama.snu.ac.kr/professor/contactus/"
+          "https://bama.snu.ac.kr/professor/contactus/",
+          "https://bama.snu.ac.kr/publication/papers/"
         ]
       },
       "enrichment": {
@@ -2359,7 +2531,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-12C605B351A2B8"
+      "_unit_id": "SNU-RU-12C605B351A2B8",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-4532F6E44444E7": {
       "fingerprint": "396e30f77cdee6207edb47068ce65c05bc83226e3995c5bca3cbc2162766895e",
@@ -48576,8 +48749,8 @@
       "_unit_id": "SNU-RU-D774043E33E416"
     },
     "SNU-RU-13153F2E3E40EE": {
-      "fingerprint": "2a0a2db57f1b803b620dcde4f991a5faddc89e27f86d422d2628eabe6c9bb810",
-      "checked_at": "2026-09-24T00:22:52Z",
+      "fingerprint": "a485f8445268ce912c7474cc88143188430d33571d9d1fbaa9b6feb5736c2183",
+      "checked_at": "2026-09-29T23:46:47Z",
       "activity": {
         "publicationPages": [
           {
@@ -48655,13 +48828,6 @@
             "parent_source_url": "https://health.snu.ac.kr/snu__professor/%EA%B9%80%EC%84%A0%EC%98%81_%EB%B3%B4%EA%B1%B4%ED%95%99%EA%B3%BC-%EB%B3%B4%EA%B1%B4%EC%A0%95%EC%B1%85%EA%B4%80%EB%A6%AC%ED%95%99/"
           },
           {
-            "url": "https://health.snu.ac.kr/wp-content/img/icon/icon_new.png",
-            "alt": "새글",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://health.snu.ac.kr"
-          },
-          {
             "url": "https://health.snu.ac.kr/wp-content/uploads/sites/136/2023/05/healthPU1_small-e1682900835485.png",
             "alt": "BAD UX POPUP 3",
             "title": "",
@@ -48677,6 +48843,13 @@
           },
           {
             "url": "https://globalhealth.snu.ac.kr/wp-content/uploads/sites/75/2024/06/교수님사진.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://globalhealth.snu.ac.kr/%ea%b5%ac%ec%84%b1%ec%9b%90/"
+          },
+          {
+            "url": "https://globalhealth.snu.ac.kr/wp-content/uploads/sites/75/2024/06/박지욱.jpg",
             "alt": "",
             "title": "",
             "score": 0,
@@ -48697,7 +48870,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-13153F2E3E40EE"
+      "_unit_id": "SNU-RU-13153F2E3E40EE",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-3A2D5B754AC0B0": {
       "fingerprint": "a0c95fb85ef4f9e1436d67910b30fad1903727c6b451cc40e3b373b47e008d1b",
@@ -194987,8 +195161,8 @@
       "_unit_id": "SNU-RU-7DC963D3891251"
     },
     "SNU-RU-131A6034266F89": {
-      "fingerprint": "b5fdbe5ee3a30024dfd820bb899b435dee553d1cbd6e2aab09e43fa389d963fd",
-      "checked_at": "2026-09-24T01:40:40Z",
+      "fingerprint": "d4b265ef37c9107d0c569312b22ae69cb43d0bf6e3657bbe644b21b73f700bcb",
+      "checked_at": "2026-09-29T23:46:55Z",
       "activity": {
         "publicationPages": [
           {
@@ -194996,9 +195170,14 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-lee-37/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -195013,7 +195192,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "법의유전학 분야를 연구하며, 유전자 분석을 통한 개인 식별 및 법의학적 응용에 관한 다수의 연구 성과를 발표하고 있습니다.",
+        "research_summary": "이환영 교수는 법의유전학 분야를 전문으로 하며, 유전자 분석을 통한 개인 식별 및 법의학적 응용 연구를 수행하고 있습니다.",
         "research_topics": [
           "법의유전학",
           "개인 식별",
@@ -195021,8 +195200,10 @@
         ],
         "recommendation_keywords": [
           "법의유전학",
-          "유전자 분석",
-          "개인 식별"
+          "서울대학교 의과대학",
+          "법의학교실",
+          "개인 식별",
+          "유전자 분석"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -195041,41 +195222,45 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식적으로 확인된 연구실 채용 정보가 없습니다.",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하는 연건학생지원센터가 운영되고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "http://yss.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/",
-        "poster_status": "none_detected",
-        "poster_title": "",
+        "poster_status": "verified",
+        "poster_title": "Hwan Young Lee",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962084/735_Lee_+Hwan+Young.jpg?w=160&f=jpg",
+        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-lee-37/#main-search",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-lee-37/",
-          "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/",
+          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-lee-37/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-lee-37/#main-search",
-          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/",
           "https://snu.elsevierpure.com/en/persons/y-lee-37/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-131A6034266F89",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-12T07:36:28Z",
+        "_saved_at": "2026-09-29T23:48:15Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-131A6034266F89"
     },
@@ -321763,6 +321948,77 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-120B4C8D91374D"
+    },
+    "SNU-RU-12E8731776115D": {
+      "fingerprint": "e88f19a53fa74182f892fc541e6fbe6917836871a78e1c4aef684e3858a672f0",
+      "checked_at": "2026-09-29T23:46:45Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://foodnutrition.snu.ac.kr/8116/",
+          "https://foodnutrition.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://foodnutrition.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
+          "https://foodnutrition.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://foodnutrition.snu.ac.kr/category/board-47-GR-l00Ip3ND-20240112104111/",
+          "https://foodnutrition.snu.ac.kr/%ec%a0%84%ea%b3%b5-%ec%9d%b4%ec%88%98-%ea%b7%9c%ec%a0%95/",
+          "https://foodnutrition.snu.ac.kr/%ec%a1%b8%ec%97%85-%eb%85%bc%eb%ac%b8%ec%8b%ac%ec%82%ac/",
+          "https://foodnutrition.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://foodnutrition.snu.ac.kr/%ec%a0%84%ec%a7%81%ea%b5%90%ec%88%98/"
+        ]
+      },
+      "enrichment": {
+        "recent_papers": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "member_page_url": "",
+        "current_members": [],
+        "alumni": [],
+        "recommendation_keywords": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://foodnutrition.snu.ac.kr/8116/",
+          "https://foodnutrition.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://foodnutrition.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
+          "https://foodnutrition.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%82%ac%eb%ac%b4%ec%8b%a4/",
+          "https://foodnutrition.snu.ac.kr/category/board-47-GR-l00Ip3ND-20240112104111/",
+          "https://foodnutrition.snu.ac.kr/%ec%a0%84%ea%b3%b5-%ec%9d%b4%ec%88%98-%ea%b7%9c%ec%a0%95/",
+          "https://foodnutrition.snu.ac.kr/%ec%a1%b8%ec%97%85-%eb%85%bc%eb%ac%b8%ec%8b%ac%ec%82%ac/",
+          "https://foodnutrition.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://foodnutrition.snu.ac.kr/%ec%a0%84%ec%a7%81%ea%b5%90%ec%88%98/",
+          "https://foodnutrition.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98/",
+          "https://foodnutrition.snu.ac.kr/?kboard_content_redirect=4890"
+        ],
+        "_unit_id": "SNU-RU-12E8731776115D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:47:57Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-12E8731776115D"
     }
   },
   "failures": {
@@ -321920,11 +322176,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:46:27Z",
-    "checked": 430,
-    "seconds": 6065.77,
+    "at": "2026-09-29T23:48:15Z",
+    "checked": 435,
+    "seconds": 6174.71,
     "gemini": true,
-    "ai_requests": 165,
+    "ai_requests": 167,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
