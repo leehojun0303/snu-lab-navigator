@@ -1,5 +1,5 @@
 {
-  "cursor": 194,
+  "cursor": 199,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -8936,13 +8936,113 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-14116F9BC821D2": {
-      "fingerprint": "937ee158a706ff1075fd7a2753705c567fe21b5bc431e5fb858db3d0c9a5ddff",
-      "checked_at": "2026-09-24T00:38:34Z",
+      "fingerprint": "88d05e178cea041db0152e9966e7f4e2b600514429662cd873d49f6078c3c70b",
+      "checked_at": "2026-09-29T23:49:32Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://vet.snu.ac.kr/snu__professor/%EA%B0%95%EA%B2%BD%EC%84%A0/",
+        "publicationPages": [
+          {
+            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
+            "url": "https://vet.snu.ac.kr/33661/",
+            "kind": "publication"
+          },
+          {
+            "title": "E-Journals",
+            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
+            "kind": "publication"
+          },
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
+            "alt": "서울대학교 수의과대학",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/kangks_20190211-1.jpeg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EA%B0%95%EA%B2%BD%EC%84%A0/#none"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty5/"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%EA%B0%95%EA%B2%BD%EC%84%A0/",
           "https://vet.snu.ac.kr",
@@ -8951,9 +9051,9 @@
           "https://admission.snu.ac.kr/",
           "https://vet.snu.ac.kr/snu__professor/%EA%B0%95%EA%B2%BD%EC%84%A0/#none",
           "https://vet.snu.ac.kr/graduate/",
-          "https://vet.snu.ac.kr/faculty/",
           "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty3/"
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty5/"
         ]
       },
       "enrichment": {
@@ -9010,7 +9110,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-14116F9BC821D2"
+      "_unit_id": "SNU-RU-14116F9BC821D2",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-2F2211D3C43554": {
       "fingerprint": "2828259b918beb4e3c3dfcf2656cf39164f6a6a65fcbac438096665d84933dc7",
@@ -44487,18 +44588,118 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-14010A9A7382FE": {
-      "fingerprint": "8bf21198e107e5099cd8553c45ad21492cd4e8217e39d4d1e0d00f8760a98d67",
-      "checked_at": "2026-09-24T01:30:47Z",
+      "fingerprint": "cb2c6c0d4c98b00bb7fb4d3922579910d077ddb17f2f0ea69acd42ecdc036d0b",
+      "checked_at": "2026-09-29T23:49:39Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Bum-Joon Kim - Seoul National University",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/"
+            "title": "View all 223 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "210",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "9",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "Research output",
+            "url": "https://snu.elsevierpure.com/en/publications/",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "연건학생지원센터",
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          }
+        ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-12/publications/",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13959334/114_Kim_+Bum-Joon.jpg?w=160&f=jpg",
+            "alt": "Bum-Joon Kim",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-12/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-12/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
@@ -44624,7 +44825,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-14010A9A7382FE"
+      "_unit_id": "SNU-RU-14010A9A7382FE",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-3944C6BDC9DCA3": {
       "fingerprint": "cebe87d7d255926b713a64efa46e276abc30f270f2ad704d65b313d170d8ebbc",
@@ -184033,127 +184235,103 @@
       "_unit_id": "SNU-RU-098D24CAC112FA"
     },
     "SNU-RU-141F10A6DE01F2": {
-      "fingerprint": "f9bd58de1c28e464d5a5399e04aed7d6a0bc0df267a6d9a77078111918584c6e",
-      "checked_at": "2026-09-24T01:07:06Z",
+      "fingerprint": "4a9f575b5c3e8bef508ab5c0cfe290f645b6a520a0520e3964623c59d14be00c",
+      "checked_at": "2026-09-29T23:49:32Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
+            "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "대학원",
-            "url": "https://astron.snu.ac.kr/전기모집/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "대학원",
-            "url": "https://astron.snu.ac.kr/전기모집/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           }
         ],
-        "membersUrl": "https://astron.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%9b%90/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://astron.snu.ac.kr/wp-content/uploads/sites/119/2022/07/astrologo.png",
-            "alt": "서울대학교 물리천문학부 천문학전공",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://astron.snu.ac.kr/%ea%b5%90%ea%b3%bc%eb%aa%a9-%ec%86%8c%ea%b0%9c/"
-          },
-          {
-            "url": "https://astron.snu.ac.kr/wp-content/uploads/sites/119/2022/08/sum_b197771e_C0CCC1A4C8C6.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://astron.snu.ac.kr/%ea%b5%90%ec%88%98/"
-          },
-          {
-            "url": "https://astron.snu.ac.kr/wp-content/uploads/sites/119/2022/07/astrologo_w-300x90.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://astron.snu.ac.kr/%ea%b5%90%ea%b3%bc%eb%aa%a9-%ec%86%8c%ea%b0%9c/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
-            "alt": "서울대포털",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
-            "alt": "입학안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
-            "alt": "학사일정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          },
-          {
-            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
-            "alt": "전화번호안내",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://admission.snu.ac.kr/"
-          }
-        ],
+        "membersUrl": "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/",
-          "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/#container",
-          "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/#footer",
+          "https://astron.snu.ac.kr",
           "https://admission.snu.ac.kr/",
+          "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/#none",
           "https://astron.snu.ac.kr/%ea%b5%90%ec%88%98/",
-          "https://astron.snu.ac.kr/%ea%b2%b8%ec%9e%84-%ec%b4%88%eb%b9%99-%ec%97%b0%ea%b5%ac%ea%b5%90%ec%88%98/",
           "https://astron.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
-          "https://astron.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%9b%90/",
-          "https://astron.snu.ac.kr/%ea%b5%90%ea%b3%bc%eb%aa%a9-%ec%86%8c%ea%b0%9c/",
-          "https://www.snu.ac.kr/academics/programs/learning_support"
+          "https://astron.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98/",
+          "https://astron.snu.ac.kr/22253/",
+          "https://astron.snu.ac.kr/27908/",
+          "https://astron.snu.ac.kr/26270/"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "이정훈 교수는 이론우주론과 우주거대구조를 연구하는 서울대학교 물리천문학부(천문학전공) 교수입니다.",
+        "research_topics": [
+          "이론우주론",
+          "우주거대구조"
+        ],
+        "recommendation_keywords": [
+          "이론우주론",
+          "우주거대구조"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/",
+        "poster_status": "verified",
+        "poster_title": "이정훈 교수",
+        "poster_date": "2022-08-14",
+        "poster_event": "교수진 소개",
+        "poster_image_url": "https://astron.snu.ac.kr/wp-content/uploads/sites/119/2022/08/sum_b197771e_C0CCC1A4C8C6.jpg",
+        "poster_source_url": "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/",
+        "poster_evidence": "공식 교수진 페이지 내 프로필 사진 및 정보",
+        "source_urls_used": [
+          "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/",
+          "https://astron.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://astron.snu.ac.kr/snu__professor/%EC%9D%B4%EC%A0%95%ED%9B%88-%EA%B5%90%EC%88%98/#none",
+          "https://astron.snu.ac.kr/%ea%b5%90%ec%88%98/",
+          "https://astron.snu.ac.kr/%eb%aa%85%ec%98%88%ea%b5%90%ec%88%98/",
+          "https://astron.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98/",
+          "https://astron.snu.ac.kr/22253/",
+          "https://astron.snu.ac.kr/27908/",
+          "https://astron.snu.ac.kr/26270/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-141F10A6DE01F2",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:50:31Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-141F10A6DE01F2"
     },
     "SNU-RU-A46768FB5832AB": {
@@ -202914,104 +203092,170 @@
       "_unit_id": "SNU-RU-04260B44551CB0"
     },
     "SNU-RU-14826152A96472": {
-      "fingerprint": "ad001927be86c69062a96c86fd1915af4cf89980a529cd5ed6cd30bb40682391",
-      "checked_at": "2026-09-24T00:47:03Z",
+      "fingerprint": "2d5c4de1285208b6a5589791c98c26d68c337c1cba30b9050ba0cb295566b17f",
+      "checked_at": "2026-09-29T23:49:23Z",
       "activity": {
         "publicationPages": [
           {
             "title": "PUBLICATION",
-            "url": "https://idetoxlab.snu.ac.kr/research/publication",
-            "kind": "publication"
-          },
-          {
-            "title": "JOURNAL CLUB",
-            "url": "https://idetoxlab.snu.ac.kr/research/journal-club",
-            "kind": "publication"
-          },
-          {
-            "title": "RECOMMENDED PAPERS & NEWS",
-            "url": "https://idetoxlab.snu.ac.kr/research/recommended-papers-news",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "PUBLICATION",
-            "url": "https://idetoxlab.snu.ac.kr/research/publication",
-            "kind": "publication"
+            "url": "https://idetoxlab.snu.ac.kr/research/publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "채용 게시판",
-            "url": "https://idetoxlab.snu.ac.kr/link/채용-게시판",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://idetoxlab.snu.ac.kr/link/채용-게시판"
           }
         ],
         "membersUrl": "https://idetoxlab.snu.ac.kr/members",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
-            "alt": "서울대학교 서울대학교 약학대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/j-sang.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/321.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
-            "alt": "logo_footer01.png",
-            "title": "logo_footer01.png",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://idetoxlab.snu.ac.kr/",
           "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/",
+          "https://snupharm.snu.ac.kr",
           "https://idetoxlab.snu.ac.kr/members",
           "https://idetoxlab.snu.ac.kr/research/publication",
           "https://idetoxlab.snu.ac.kr/research/journal-club",
           "https://idetoxlab.snu.ac.kr/research/recommended-papers-news",
           "https://idetoxlab.snu.ac.kr/home",
           "https://idetoxlab.snu.ac.kr/research",
-          "https://idetoxlab.snu.ac.kr/research/project",
-          "https://idetoxlab.snu.ac.kr/research/patent"
+          "https://idetoxlab.snu.ac.kr/research/project"
         ]
       },
-      "enrichment": {},
+      "enrichment": {
+        "research_summary": "전상민 교수가 이끄는 iDeTOX LAB은 진화독성학(Evolutionary Toxicology)에 기반하여 암 발생의 근본 원인을 규명하고, 이를 바탕으로 혁신적인 항암 신약 표적을 발굴 및 검증하는 연구를 수행합니다. 특히 eTOX-Paradigm과 eTOX-Platform(eTOX-GAMS, eTOX-MACS, eTOX-CRAC)을 구축하여 신약 임상 개발의 성공률을 높이고 항암제 내성을 극복하기 위한 전략을 개발하고 있습니다.",
+        "research_topics": [
+          "혁신신약표적",
+          "암대사",
+          "진화독성학",
+          "항암전략",
+          "eTOX-Paradigm",
+          "eTOX-Platform"
+        ],
+        "recommendation_keywords": [
+          "혁신신약표적",
+          "암대사",
+          "진화독성학",
+          "항암제 내성",
+          "신약개발",
+          "항암전략",
+          "eTOX-Paradigm",
+          "eTOX-Platform"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "2011년 미국 일리노이 대학교 시카고 캠퍼스(UIC)에서 생화학 및 분자유전학 박사 학위를 취득하였으며, 서울대학교 약학대학에서 석사(2001) 및 학사(1999) 학위를 받았습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "PUBLICATION",
+            "url": "https://idetoxlab.snu.ac.kr/research/publication"
+          }
+        ],
+        "recruitment_summary": "iDeTOX LAB에서는 연구실 채용 게시판을 통해 인재를 모집하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "채용 게시판",
+            "url": "https://idetoxlab.snu.ac.kr/link/채용-게시판"
+          }
+        ],
+        "recruitment_source_url": "https://idetoxlab.snu.ac.kr/link/채용-게시판",
+        "current_members": [
+          {
+            "name": "EUN-JI CHOI",
+            "role": "POST-DOC",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "DA-BIN KIM",
+            "role": "MS-PhD STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "YU-JIN CHOI",
+            "role": "MS-PhD STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "JIHYUN YOON",
+            "role": "MS-PhD STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "SHIWOO KOAK",
+            "role": "MS STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "MINGYEONG UM",
+            "role": "MS STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "DONGHEUN LEE",
+            "role": "MS STUDENT",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          }
+        ],
+        "alumni": [
+          {
+            "name": "SEUNGJUN LEE",
+            "role": "PhD (2026)",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "HEON-WOO KWON",
+            "role": "MS (2026)",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "HYUN-TAEK OH",
+            "role": "MS (2025)",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          },
+          {
+            "name": "MIN-JI CHOI",
+            "role": "MS (2023)",
+            "url": "https://idetoxlab.snu.ac.kr/members"
+          }
+        ],
+        "member_page_url": "https://idetoxlab.snu.ac.kr/members",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://idetoxlab.snu.ac.kr/",
+          "https://idetoxlab.snu.ac.kr/members",
+          "https://idetoxlab.snu.ac.kr/research/publication",
+          "https://idetoxlab.snu.ac.kr/research/project",
+          "https://idetoxlab.snu.ac.kr/link/채용-게시판",
+          "https://snupharm.snu.ac.kr/snu__professor/%EC%A0%84%EC%83%81%EB%AF%BC/",
+          "https://snupharm.snu.ac.kr",
+          "https://idetoxlab.snu.ac.kr/research/journal-club",
+          "https://idetoxlab.snu.ac.kr/research/recommended-papers-news",
+          "https://idetoxlab.snu.ac.kr/home",
+          "https://idetoxlab.snu.ac.kr/research",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-14826152A96472",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:50:04Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
       "_unit_id": "SNU-RU-14826152A96472"
     },
     "SNU-RU-A750EF6991D409": {
@@ -322526,6 +322770,116 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-13C628BD0FAC1A",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-14141AA09D50FF": {
+      "fingerprint": "d0a59be7b9d292021e71d7bed21707c0bc48088f49a6c4b3603e81ef3614911e",
+      "checked_at": "2026-09-29T23:49:37Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학",
+            "url": "https://admission.snu.ac.kr/graduate/general/notice"
+          }
+        ],
+        "membersUrl": "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors",
+          "https://physics.snu.ac.kr",
+          "https://admission.snu.ac.kr/graduate/general/notice",
+          "https://physics.snu.ac.kr/research-faculty/research",
+          "https://physics.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://physics.snu.ac.kr/research-faculty/faculty/emeritus-retirement",
+          "https://physics.snu.ac.kr/research-faculty/faculty/faculty-in-memoriam",
+          "https://astron.snu.ac.kr",
+          "https://www.snu.ac.kr/personal_information",
+          "https://physics.snu.ac.kr/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitment_summary": "서울대학교 물리천문학부 입학 관련 정보는 공식 입학 홈페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학",
+            "url": "https://admission.snu.ac.kr/graduate/general/notice"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/graduate/general/notice",
+        "current_members": [
+          {
+            "name": "석효준",
+            "role": "부교수",
+            "url": "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors"
+          },
+          {
+            "name": "윤혜진",
+            "role": "부교수",
+            "url": "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors"
+          },
+          {
+            "name": "조정효",
+            "role": "부교수",
+            "url": "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors"
+          }
+        ],
+        "alumni": [],
+        "member_page_url": "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://physics.snu.ac.kr/research-faculty/faculty/visiting-professors",
+          "https://admission.snu.ac.kr/graduate/general/notice",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y",
+          "https://physics.snu.ac.kr",
+          "https://physics.snu.ac.kr/research-faculty/research",
+          "https://physics.snu.ac.kr/research-faculty/faculty/fulltime",
+          "https://physics.snu.ac.kr/research-faculty/faculty/emeritus-retirement",
+          "https://physics.snu.ac.kr/research-faculty/faculty/faculty-in-memoriam",
+          "https://astron.snu.ac.kr",
+          "https://www.snu.ac.kr/personal_information",
+          "https://physics.snu.ac.kr/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-14141AA09D50FF",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:50:37Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-14141AA09D50FF"
     }
   },
   "failures": {
@@ -322683,11 +323037,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:49:10Z",
-    "checked": 440,
-    "seconds": 6229.26,
+    "at": "2026-09-29T23:50:39Z",
+    "checked": 445,
+    "seconds": 6318.28,
     "gemini": true,
-    "ai_requests": 169,
+    "ai_requests": 172,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
