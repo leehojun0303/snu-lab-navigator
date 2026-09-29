@@ -1,5 +1,5 @@
 {
-  "cursor": 1492,
+  "cursor": 1497,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -41758,11 +41758,21 @@
       "_unit_id": "SNU-RU-CA807A1ABC2240"
     },
     "SNU-RU-D30322A316FB35": {
-      "fingerprint": "13e6a8a9e3319c412975f5d52492b8128cde341c44b0c3c9553a3064fce21350",
-      "checked_at": "2026-09-24T22:02:51Z",
+      "fingerprint": "d57d99178d150238db67f4429de15b0e4f7a71dc7a0afd300952e754e940ce6f",
+      "checked_at": "2026-09-29T01:01:07Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
+        "publicationPages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
         "membersUrl": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -41771,30 +41781,32 @@
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#container",
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#footer",
           "https://admission.snu.ac.kr/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#none",
-          "https://snucert.snu.ac.kr/waf/error.html"
+          "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#none"
         ]
       },
       "enrichment": {
-        "research_summary": "식물 스트레스 신호전달, 식물기능유전체학, 식물생명공학, 식물이용 의약용단백질생산 및 바이오에너지 작물공학 분야를 연구하고 있습니다.",
+        "research_summary": "식물 스트레스 신호전달, 기능유전체학, 생명공학, 의약용 단백질 생산 및 바이오에너지 작물공학 분야를 연구합니다.",
         "research_topics": [
-          "스트레스 신호전달",
-          "식물기능유전체학",
-          "식물생명공학",
-          "식물이용 의약용단백질생산",
-          "바이오에너지 작물공학"
+          "스트레스 신호전달 (Stress Signaling)",
+          "식물기능유전체학 (Plant Functional Genomics)",
+          "식물생명공학 (Plant Biotechnology)",
+          "식물이용 의약용단백질생산 (Plant Biopharming)",
+          "바이오에너지 작물공학 (Bioenergy Crop Engineering)"
         ],
         "recommendation_keywords": [
           "식물유전체학",
-          "식물영양학",
-          "식물생명공학",
+          "식물영약학",
           "스트레스 신호전달",
-          "식물기능유전체학",
-          "식물이용 의약용단백질생산",
-          "바이오에너지 작물공학"
+          "식물생명공학",
+          "스트레스 신호전달 (Stress Signaling)",
+          "식물기능유전체학 (Plant Functional Genomics)",
+          "식물생명공학 (Plant Biotechnology)",
+          "식물이용 의약용단백질생산 (Plant Biopharming)",
+          "바이오에너지 작물공학 (Bioenergy Crop Engineering)"
         ],
         "recent_papers": [
           {
@@ -41825,18 +41837,28 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "1988년 서울대학교에서 석사 학위를, 1995년 미국 Texas A&M University에서 박사 학위를 취득하였습니다.",
-        "verified_publication_pages": [],
+        "education_summary": "1988년 서울대학교에서 석사 학위를, 1995년 미국 텍사스 A&M 대학교에서 박사 학위를 취득하였습니다.",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights"
+          }
+        ],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/",
         "poster_status": "verified",
-        "poster_title": "김민균 교수님",
-        "poster_date": "",
-        "poster_event": "",
+        "poster_title": "김민균 교수",
+        "poster_date": "2021-05-15",
+        "poster_event": "교수진 프로필",
         "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2021/05/김민균-교수님.jpeg",
         "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/",
         "poster_evidence": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/",
@@ -41846,19 +41868,19 @@
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#container",
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#footer",
           "https://admission.snu.ac.kr/",
+          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d2/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
           "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EB%AF%BC%EA%B7%A0/#none",
-          "https://snucert.snu.ac.kr/waf/error.html",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://www.snu.ac.kr/research/highlights"
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D30322A316FB35",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T22:03:12Z",
+        "_saved_at": "2026-09-29T01:01:28Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -100083,8 +100105,8 @@
       "_unit_id": "SNU-RU-9B2A9BA058B79E"
     },
     "SNU-RU-D2FBC53350F954": {
-      "fingerprint": "9507696afacedd9a7b8546d4ba64ee0341f438938f35f63cbfd8e2542317778d",
-      "checked_at": "2026-09-24T22:02:00Z",
+      "fingerprint": "939d7dba7b6b898469b5d5388068a0c606dcd93b64d676931a8266e92151936c",
+      "checked_at": "2026-09-29T01:01:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -100108,13 +100130,13 @@
           "https://snu.elsevierpure.com/en/persons/y-park-16/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "박규형 교수는 망막, 유리체, 포도망 질환을 전문으로 연구하며, 해당 분야에서 347건 이상의 연구 성과를 발표하였습니다.",
+        "research_summary": "박규형 교수는 망막, 유리체, 포도막 질환을 전문으로 연구하며, 해당 분야에서 347건 이상의 연구 성과를 발표하였습니다.",
         "research_topics": [
           "망막 질환",
           "유리체 질환",
@@ -100144,7 +100166,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-16/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -100161,26 +100183,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960276/327_Park_+Kyuhyung.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-16/#main-content",
-        "poster_evidence": "Official profile image verified on SNU Elsevier Pure profile page.",
+        "poster_evidence": "Official profile image of Kyuhyung Park found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-16/",
-          "https://snu.elsevierpure.com/en/persons/y-park-16/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-16/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-16/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-16/#main-content",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://snu.elsevierpure.com/en/persons/y-park-16/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-16/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D2FBC53350F954",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T22:02:21Z",
+        "_saved_at": "2026-09-29T01:01:15Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -207988,118 +208010,22 @@
       "_unit_id": "SNU-RU-100E80E380BD38"
     },
     "SNU-RU-D2C6C455E14042": {
-      "fingerprint": "0e61cbaf9190a61aacedcec8dbc2d68ddf1c8e4919f208867e33b89d9d8d8afa",
-      "checked_at": "2026-09-24T22:01:47Z",
+      "fingerprint": "4d74767b00935f7e3c1f43f8aa8d3c3035b408af7a8877b28e572be48c38f8d6",
+      "checked_at": "2026-09-29T01:00:57Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
-            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
-          },
-          {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
-          },
-          {
-            "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/abc-logo.png",
-            "alt": "서울대학교 응용생물화학부",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/제연호.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%A0%9C%EC%97%B0%ED%98%B8/"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2021/02/푸터베이직로고-5.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          },
-          {
-            "url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/cals.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://abc.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/research-affairs/data/site",
           "https://abc.snu.ac.kr/snu__professor/%EC%A0%9C%EC%97%B0%ED%98%B8/",
@@ -208113,9 +208039,71 @@
           "https://cals.snu.ac.kr/about/guide/admission"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D2C6C455E14042",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "제연호 교수는 서울대학교 응용생물화학부에서 곤충미생물공학 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "곤충미생물공학"
+        ],
+        "recommendation_keywords": [
+          "곤충미생물공학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "농업생명과학대학의 입학 모집 안내 및 지원사업 관련 페이지가 확인됩니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/guide/admission",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "제연호",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/제연호.jpeg",
+        "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EC%A0%9C%EC%97%B0%ED%98%B8/",
+        "poster_evidence": "공식 교수진 페이지에 게시된 프로필 사진입니다.",
+        "source_urls_used": [
+          "https://abc.snu.ac.kr/snu__professor/%EC%A0%9C%EC%97%B0%ED%98%B8/",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/research-affairs/data/site",
+          "https://abc.snu.ac.kr",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D2C6C455E14042",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T01:01:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D2C6C455E14042"
     },
     "SNU-RU-54621576DB105A": {
       "fingerprint": "619cbc2d4f66dfd5f7336db328fc821461faeb173189f331ac5f1f9394ba1396",
@@ -262192,117 +262180,34 @@
     },
     "SNU-RU-D2E08FD8B5949D": {
       "fingerprint": "c041abca141cc87f0a396cdf4c37b79debf1cab8c3f9d3dd072da1fdfc3e84f7",
-      "checked_at": "2026-09-24T22:01:45Z",
+      "checked_at": "2026-09-29T01:00:44Z",
       "activity": {
         "publicationPages": [
           {
             "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "CALS 영어논문 작성법 강좌",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
-          },
-          {
-            "title": "publication",
-            "url": "https://cals.snu.ac.kr/student/lecture/paper",
-            "kind": "publication"
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
           }
         ],
         "recruitmentPages": [
           {
             "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
-            "url": "https://cals.snu.ac.kr/student/global/support",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/student/global/support"
           },
           {
             "title": "입학모집안내",
-            "url": "https://cals.snu.ac.kr/about/guide/admission",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
           },
           {
             "title": "농생대 FAQ",
-            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
           },
           {
             "title": "농업생명과학대학 지원사업",
-            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
-            "kind": "recruitment"
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
           }
         ],
         "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/photo/f2az4c1z173z5f1zcdcz8c0z83bz33dzbddz6b3z95.jpg",
-            "alt": "최영진",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/369z6bfzdf4za9dz8bdz9cfz213z746ze9cz89fz3a.jpg",
-            "alt": "신선 식품의 냉장 저장 최적화",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/6dez74bzf2ez0d1z544z088z0efzfcczab7zc2fz5c.jpg",
-            "alt": "나노입자 기반의 시각적 검출",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/4ddz9a0z90dzde2z472zf7czb8ez383z307zaa7z27.jpg",
-            "alt": "식품 유래 입자로 안정화한 Pickering emulsion system",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/webdata/professor/research/946z92czbebzbbbz480zcf9z368z8c0z2aaz552z48.jpg",
-            "alt": "천연물로부터 기능성 물질 추출 공정",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108"
-          },
-          {
-            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
-            "alt": "SNU CALS",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108",
           "https://cals.snu.ac.kr/about/organization/search/faculty?page=11",
@@ -262316,97 +262221,113 @@
           "https://cals.snu.ac.kr/about/guide/admission/faq"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D2E08FD8B5949D",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "최영진 교수의 연구 분야는 신선 식품의 냉장 저장 최적화, 나노입자 기반의 시각적 검출, 식품 유래 입자로 안정화한 Pickering emulsion system, 그리고 천연물로부터 기능성 물질을 추출하는 공정 연구를 포함합니다.",
+        "research_topics": [
+          "신선 식품 냉장 저장 최적화",
+          "나노입자 기반 시각적 검출",
+          "식품 유래 입자 Pickering emulsion system",
+          "천연물 기능성 물질 추출 공정"
+        ],
+        "recommendation_keywords": [
+          "식품공학",
+          "식품저장",
+          "나노입자",
+          "천연물추출",
+          "Pickering emulsion",
+          "신선 식품 냉장 저장 최적화",
+          "나노입자 기반 시각적 검출",
+          "식품 유래 입자 Pickering emulsion system",
+          "천연물 기능성 물질 추출 공정"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램, 입학 모집 안내, FAQ, 그리고 각종 연구 지원 사업을 운영하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "최영진",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/f2az4c1z173z5f1zcdcz8c0z83bz33dzbddz6b3z95.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108",
+        "poster_evidence": "공식 교수진 검색 페이지 내 프로필 사진으로 확인됨",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=11&mode=view&profidx=108",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=11",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/webdata/professor/photo/f2az4c1z173z5f1zcdcz8c0z83bz33dzbddz6b3z95.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D2E08FD8B5949D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T01:00:49Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D2E08FD8B5949D"
     },
     "SNU-RU-D2CA1C54D7552D": {
-      "fingerprint": "2efb23fc9d27a5a536992c874e5c64752d4edc7df9e18b76f52c95752dd083d8",
-      "checked_at": "2026-09-24T22:01:50Z",
+      "fingerprint": "f40e83e5cd8d007b42684e20c11d63c7e3b1106ce4c0721555fa1ece16341549",
+      "checked_at": "2026-09-29T01:00:47Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "입학안내",
-            "url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/",
-            "kind": "recruitment"
+            "url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/"
           },
           {
-            "title": "공학전문대학원 2026학년도 제2차 교원 채용 공고 26.09.23",
-            "url": "https://gsep.snu.ac.kr/boards/notice/41909/detail/news/notice/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학안내",
-            "url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학안내",
-            "url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/",
-            "kind": "recruitment"
+            "title": "공학전문 - 전문대학원 - 대학원 - 입학 - 서울대학교 입학본부",
+            "url": "https://admission.snu.ac.kr/graduate/professional/gsep"
           }
         ],
         "membersUrl": "https://gsep.snu.ac.kr/staticdata/static/introduction/campuslife/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://gsep.snu.ac.kr/media/43/settings/GKyJHZ9los.png",
-            "alt": "서울대학교 공학전문대학원",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_4/"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/static/skins/skin_snu/images/btn_mgnb_close.png",
-            "alt": "메뉴닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_4/"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2024/04/02/iqwxlg.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2023/08/23/ico_loc.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2023/08/23/ico_mail.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_4/"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2024/09/02/uiaspm.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2026/08/11/csuyvx.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self"
-          },
-          {
-            "url": "https://gsep.snu.ac.kr/media/staticdata_uploads/2024/04/02/kzmlia.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/",
           "https://gsep.snu.ac.kr",
@@ -262420,9 +262341,67 @@
           "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_4/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D2CA1C54D7552D",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 공학전문대학원은 응용공학과를 중심으로 운영되며, 입시요강 및 학사일정 등 입학 관련 정보를 공식 홈페이지를 통해 제공하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학안내",
+            "url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/"
+          },
+          {
+            "title": "공학전문 - 전문대학원 - 대학원 - 입학 - 서울대학교 입학본부",
+            "url": "https://admission.snu.ac.kr/graduate/professional/gsep"
+          }
+        ],
+        "recruitment_source_url": "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://gsep.snu.ac.kr/staticdata/static/introduction/campuslife/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://gsep.snu.ac.kr/staticdata/static/admission/syllabus/",
+          "https://admission.snu.ac.kr/graduate/professional/gsep",
+          "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/",
+          "https://gsep.snu.ac.kr",
+          "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_1/",
+          "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_2/#self",
+          "https://gsep.snu.ac.kr/staticdata/static/introduction/professors/",
+          "https://gsep.snu.ac.kr/staticdata/static/introduction/campuslife/",
+          "https://gsep.snu.ac.kr/staticdata/static/introduction/alumni_greetings/",
+          "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_3/",
+          "https://gsep.snu.ac.kr/staticdata/static/faculty/faculty_4/",
+          "https://gsep.snu.ac.kr/boards/notice/41977/detail/news/notice/"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D2CA1C54D7552D",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T01:00:54Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D2CA1C54D7552D"
     },
     "SNU-RU-D2BD27C401E144": {
       "fingerprint": "0a788f85f5e1dcb1d95b087e1e6a67d45cc9b1a856b35ad35e8fd8c6d09d8e59",
@@ -302480,11 +302459,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T01:00:29Z",
-    "checked": 475,
-    "seconds": 6379.24,
+    "at": "2026-09-29T01:01:28Z",
+    "checked": 480,
+    "seconds": 6437.61,
     "gemini": true,
-    "ai_requests": 339,
+    "ai_requests": 344,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
