@@ -1,5 +1,5 @@
 {
-  "cursor": 1412,
+  "cursor": 1417,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -97585,8 +97585,8 @@
       "_unit_id": "SNU-RU-F19C7ED7E33F4F"
     },
     "SNU-RU-C957B945E56172": {
-      "fingerprint": "ec38d6a4fd19c7cea1ce8814691e1c81f9ba14c0d4136e991a6790c39e11c063",
-      "checked_at": "2026-09-24T21:39:43Z",
+      "fingerprint": "93b83f2459ce451b8a28f06fcf5d2d5c1138a970f0c9a206d81cc5d8a0dfd8b6",
+      "checked_at": "2026-09-29T00:41:35Z",
       "activity": {
         "publicationPages": [
           {
@@ -97610,22 +97610,26 @@
           "https://snu.elsevierpure.com/en/persons/y-min/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container"
         ]
       },
       "enrichment": {
-        "research_summary": "민경복 교수는 환경보건학 분야를 중심으로 연구를 수행하며, 특히 환경적 요인이 건강에 미치는 영향에 관한 다양한 학술적 성과를 발표하고 있습니다.",
+        "research_summary": "민경복 교수는 환경보건학 분야를 중심으로 직업 및 환경적 요인이 건강에 미치는 영향에 대해 연구하고 있습니다.",
         "research_topics": [
-          "환경보건학"
+          "환경보건학",
+          "직업환경의학",
+          "역학"
         ],
         "recommendation_keywords": [
-          "환경보건학",
-          "예방의학"
+          "환경보건",
+          "직업환경의학",
+          "역학",
+          "환경보건학"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": 167,
+        "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -97634,14 +97638,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 예방의학교실에서 환경보건학 관련 교육 및 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 167 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-min/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -97658,26 +97662,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960208/311_Min_+Kyoung-Bok.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-min/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image of Kyoung-Bok Min found on SNU Elsevier Pure profile.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-min/",
-          "https://snu.elsevierpure.com/en/persons/y-min/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/y-min/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-min/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-min/#main-content",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
+          "https://snu.elsevierpure.com/en/persons/y-min/publications/",
           "https://snu.elsevierpure.com/en/persons/y-min/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C957B945E56172",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:40:03Z",
+        "_saved_at": "2026-09-29T00:41:54Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -98979,118 +98983,23 @@
       "_unit_id": "SNU-RU-44E3D3169E7BA2"
     },
     "SNU-RU-C8F21254BE6A13": {
-      "fingerprint": "5daabb4b20761e31fee8e412ee1ba72bb2d9ef493227841c47c54f0b65bc8eec",
-      "checked_at": "2026-09-24T21:39:42Z",
+      "fingerprint": "4b03ce2c51780304112b359ed0cb38737a635f45d9685ed34fdd6b466e6598f6",
+      "checked_at": "2026-09-29T00:41:36Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "Corrigendum to “Neurophysiological monitoring during anterior cervical discectomy and fusion for ossification of the posterior longitudinal ligament” [Clin. Neurophysiol. Pract. 6 (2021) 56–62, (S2467981X21000020), (10.1016/j.cnp.2021.01.001)]",
-            "url": "https://snu.elsevierpure.com/en/publications/corrigendum-to-neurophysiological-monitoring-during-anterior-cerv/",
-            "kind": "publication"
-          },
-          {
             "title": "View all 107 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "92",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "6",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
-          },
-          {
-            "title": "5",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960228/316_Park_+Kyung+Seok.jpg?w=160&f=jpg",
-            "alt": "Kyung Seok Park",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-60/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-60/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -99100,7 +99009,7 @@
           "https://snu.elsevierpure.com/en/persons/y-park-60/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
         ]
       },
@@ -99126,7 +99035,7 @@
             "summary": ""
           }
         ],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 107,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -99138,11 +99047,11 @@
         "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "Kyung Seok Park - Research Outputs",
+            "title": "View all 107 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-60/publications/"
           }
         ],
-        "recruitment_summary": "연건캠퍼스 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 연건학생지원센터를 통해 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -99159,7 +99068,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960228/316_Park_+Kyung+Seok.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-60/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-60/",
           "https://snu.elsevierpure.com/en/publications/corrigendum-to-neurophysiological-monitoring-during-anterior-cerv/",
@@ -99178,13 +99087,11 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C8F21254BE6A13",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:44:08Z",
+        "_saved_at": "2026-09-29T00:42:03Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-C8F21254BE6A13",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-C8F21254BE6A13"
     },
     "SNU-RU-1C9B661C3600F2": {
       "fingerprint": "8f4e68f5fa2cdc0b29c42ce936080ee8fdcff1e3e39fd6bb7efcdeddd6ae6a07",
@@ -102855,8 +102762,8 @@
       "_unit_id": "SNU-RU-D793BDEBADD0BC"
     },
     "SNU-RU-CA1DF8E7CDBDEA": {
-      "fingerprint": "d472aee01d6118c82b2896c4709ce8ee74fb52927a220e0e0c3c3fc973f95784",
-      "checked_at": "2026-09-24T21:40:27Z",
+      "fingerprint": "e9bfc473c0b2d3bd9778f70c01d218bdf9f20927c83e8ba0f7553a9a40b83571",
+      "checked_at": "2026-09-29T00:41:27Z",
       "activity": {
         "publicationPages": [
           {
@@ -102868,6 +102775,14 @@
           {
             "title": "Daeun, Minseo, and Sohyun joined our lab. Warm welcome ! (July 2026)",
             "url": "https://abel.snu.ac.kr/?kboard_content_redirect=107"
+          },
+          {
+            "title": "Kanghee joined our lab. Warm welcome ! (October 2025)",
+            "url": "https://abel.snu.ac.kr/?kboard_content_redirect=100"
+          },
+          {
+            "title": "WooSeok joined our lab. Warm welcome ! (July 2025)",
+            "url": "https://abel.snu.ac.kr/?kboard_content_redirect=97"
           }
         ],
         "membersUrl": "https://abel.snu.ac.kr/member/sangbaepark/",
@@ -102881,30 +102796,39 @@
           "https://abel.snu.ac.kr/abeletter/?mod=document&uid=105",
           "https://abel.snu.ac.kr/member/sangbaepark/",
           "https://abel.snu.ac.kr/members/",
-          "https://abel.snu.ac.kr/member/daeun-jung/",
-          "https://abel.snu.ac.kr/member/kangheehan/"
+          "https://abel.snu.ac.kr/publications/",
+          "https://abel.snu.ac.kr/member/daeun-jung/"
         ]
       },
       "enrichment": {
-        "research_summary": "박상배 교수는 농업 생체역학 및 생물공학 분야를 연구하며, 특히 식용 소프트 복합재료의 3D 프린팅을 위한 유변학적 제어 및 조직 공학을 위한 나노 스캐폴드 개발 등에 주력하고 있습니다.",
+        "research_summary": "박상배 교수는 농업 생체역학 및 생물공학 분야를 연구하며, 특히 조직 공학을 위한 나노 스캐폴드 및 식품 3D 프린팅 기술 등 바이오 소재 응용 연구에 집중하고 있습니다.",
         "research_topics": [
           "농업 생체역학",
           "생물공학",
-          "식용 소프트 복합재료 3D 프린팅",
-          "조직 공학 나노 스캐폴드"
+          "조직 공학",
+          "바이오 소재",
+          "식품 3D 프린팅"
         ],
         "recommendation_keywords": [
           "농업 생체역학",
           "생물공학",
-          "3D 프린팅",
           "조직 공학",
-          "식용 소프트 복합재료 3D 프린팅",
-          "조직 공학 나노 스캐폴드"
+          "나노 스캐폴드",
+          "바이오 프린팅",
+          "바이오 소재",
+          "식품 3D 프린팅"
         ],
         "recent_papers": [
           {
             "title": "Rheologically Synchronized Protein and Fat-Emulsion Inks for High-Throughput Multimaterial Printing of Edible Soft Composites",
             "url": "https://abel.snu.ac.kr/publication/rheologically-synchronized-protein-and-fat-emulsion-inks-for-high-throughput-multimaterial-printing-of-edible-soft-composites/",
+            "year": "2024",
+            "venue": "N/A",
+            "summary": ""
+          },
+          {
+            "title": "Regenerative Nano-Scaffolds for Tissue Engineering: from Bench to Clinical Translation",
+            "url": "https://abel.snu.ac.kr/publication/regenerative-nano-scaffolds/",
             "year": "2024",
             "venue": "N/A",
             "summary": ""
@@ -102919,33 +102843,30 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 농업생명과학대학 바이오시스템·소재학부 소속으로 농업 생체역학 및 생물공학 분야의 교육 및 연구를 수행하고 있습니다.",
+        "education_summary": "서울대학교 농업생명과학대학 바이오시스템·소재학부 소속으로 농업 생체역학 및 생물공학 연구실(ABEL)을 운영하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "Publications",
             "url": "https://abel.snu.ac.kr/publications/"
           }
         ],
-        "recruitment_summary": "연구실에서는 지속적으로 연구원을 모집하고 있으며, 최근 2026년 7월에 다은, 민서, 소현 학생이 합류하였습니다.",
+        "recruitment_summary": "연구실에서는 지속적으로 신규 연구원을 모집하고 있으며, 최근 2026년 7월과 2025년 10월, 7월에 새로운 구성원들이 합류하였습니다.",
         "verified_recruitment_pages": [
           {
             "title": "Daeun, Minseo, and Sohyun joined our lab. Warm welcome ! (July 2026)",
             "url": "https://abel.snu.ac.kr/?kboard_content_redirect=107"
+          },
+          {
+            "title": "Kanghee joined our lab. Warm welcome ! (October 2025)",
+            "url": "https://abel.snu.ac.kr/?kboard_content_redirect=100"
+          },
+          {
+            "title": "WooSeok joined our lab. Warm welcome ! (July 2025)",
+            "url": "https://abel.snu.ac.kr/?kboard_content_redirect=97"
           }
         ],
         "recruitment_source_url": "https://abel.snu.ac.kr/",
-        "current_members": [
-          {
-            "name": "Daeun",
-            "role": "Member",
-            "url": "https://abel.snu.ac.kr/member/daeun-jung/"
-          },
-          {
-            "name": "Kanghee",
-            "role": "Member",
-            "url": "https://abel.snu.ac.kr/member/kangheehan/"
-          }
-        ],
+        "current_members": [],
         "alumni": [],
         "member_page_url": "https://abel.snu.ac.kr/member/sangbaepark/",
         "poster_status": "none_detected",
@@ -102957,24 +102878,26 @@
         "poster_evidence": "",
         "source_urls_used": [
           "https://abel.snu.ac.kr/",
-          "https://abel.snu.ac.kr/member/sangbaepark/",
           "https://abel.snu.ac.kr/publications/",
+          "https://abel.snu.ac.kr/member/sangbaepark/",
+          "https://abel.snu.ac.kr/publication/rheologically-synchronized-protein-and-fat-emulsion-inks-for-high-throughput-multimaterial-printing-of-edible-soft-composites/",
+          "https://abel.snu.ac.kr/publication/regenerative-nano-scaffolds/",
           "https://abel.snu.ac.kr/?kboard_content_redirect=107",
+          "https://abel.snu.ac.kr/?kboard_content_redirect=100",
+          "https://abel.snu.ac.kr/?kboard_content_redirect=97",
           "https://bio4u.snu.ac.kr/snu__professor/%EB%B0%95%EC%83%81%EB%B0%B0/",
           "https://bio4u.snu.ac.kr",
           "https://abel.snu.ac.kr/abeletter/?mod=document&uid=115",
           "https://abel.snu.ac.kr/abeletter/?mod=document&uid=106",
           "https://abel.snu.ac.kr/abeletter/?mod=document&uid=105",
           "https://abel.snu.ac.kr/members/",
-          "https://abel.snu.ac.kr/member/daeun-jung/",
-          "https://abel.snu.ac.kr/member/kangheehan/",
-          "https://abel.snu.ac.kr/publication/rheologically-synchronized-protein-and-fat-emulsion-inks-for-high-throughput-multimaterial-printing-of-edible-soft-composites/"
+          "https://abel.snu.ac.kr/member/daeun-jung/"
         ],
-        "paper_count_visible": 1,
+        "paper_count_visible": 2,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CA1DF8E7CDBDEA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:40:31Z",
+        "_saved_at": "2026-09-29T00:41:38Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -106830,118 +106753,23 @@
       "_unit_id": "SNU-RU-97818D306326CE"
     },
     "SNU-RU-C9D19B362C1775": {
-      "fingerprint": "d8418263dc29318e1446710768da3cf5385ab1c1a5a988b7b631a5346807245e",
-      "checked_at": "2026-09-24T21:40:32Z",
+      "fingerprint": "561a07ab7a3867dbb7101aca98e9ffb52b0a9251a916a50f776e57d32459faa0",
+      "checked_at": "2026-09-29T00:41:36Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 116 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "99",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
-            "kind": "publication"
-          },
-          {
-            "title": "8",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
-            "kind": "publication"
-          },
-          {
-            "title": "4",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
-            "kind": "publication"
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "중앙연구지원실",
-            "url": "https://medcorelab.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
-            "url": "http://yss.snu.ac.kr/index.php",
-            "kind": "recruitment"
-          },
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "http://yss.snu.ac.kr/"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/",
         "posterStatus": "verified",
-        "posterCandidates": [
-          {
-            "url": "https://snu.elsevierpure.com/files-asset/13960406/357_Park_+Young+Ho.jpg?w=160&f=jpg",
-            "alt": "Young Ho Park",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-57/#main-content"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
-            "alt": "검색",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
-            "alt": "닫기",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          },
-          {
-            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
-            "alt": "SNU MEDICINE",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
-          }
-        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-57/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -106967,7 +106795,7 @@
           "신경과학"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 116,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -106983,7 +106811,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-park-57/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -107000,7 +106828,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960406/357_Park_+Young+Ho.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-57/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_evidence": "Official profile image of Young Ho Park",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-57/",
           "http://yss.snu.ac.kr/",
@@ -107019,13 +106847,11 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C9D19B362C1775",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:50:57Z",
+        "_saved_at": "2026-09-29T00:42:10Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
-      "_unit_id": "SNU-RU-C9D19B362C1775",
-      "verify_error": "verify_HTTPError"
+      "_unit_id": "SNU-RU-C9D19B362C1775"
     },
     "SNU-RU-AF4E19C3094D5B": {
       "fingerprint": "91f4a8502fbf184506f4e1cbe81c53f6cbafd04d9d58d49dd23e89e4e14bd5c8",
@@ -259442,15 +259268,10 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-C9C08E76A401B3": {
-      "fingerprint": "4fa1c3fe7f3c5291fcf08b75039760fd43b01eccc9433b6762efba8ce2e747c0",
-      "checked_at": "2026-09-24T21:40:31Z",
+      "fingerprint": "ea4a5b02f38b065a84f518684dcb1404a9fa984ba4e72b5671d2550240ecd82e",
+      "checked_at": "2026-09-29T00:41:30Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
@@ -259471,9 +259292,9 @@
           "https://learning.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ec%a3%bc%ec%a0%84%ea%b3%b5/",
-          "https://learning.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/",
           "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ed%95%99-%ec%a0%84%ea%b3%b5/",
-          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ea%b3%b5%ed%95%99-%ec%a0%84%ea%b3%b5/"
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ea%b3%b5%ed%95%99-%ec%a0%84%ea%b3%b5/",
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ec%83%81%eb%8b%b4-%ec%a0%84%ea%b3%b5/"
         ]
       },
       "enrichment": {
@@ -259491,13 +259312,8 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights"
-          }
-        ],
-        "recruitment_summary": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 및 2026학년도 관사장학회 재외 한국학교 출신자 서울대 멘토장학생을 모집하고 있습니다.",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
         "verified_recruitment_pages": [
           {
             "title": "2026년 2학기 SNU Global EDGE Fellowship 프로그램 장학생 모집 안내",
@@ -259524,23 +259340,23 @@
           "https://learning.snu.ac.kr/35560/",
           "https://learning.snu.ac.kr/35607/",
           "https://learning.snu.ac.kr/category/board-145-GN-5rT2jEg7-20230719130936/",
-          "https://www.snu.ac.kr/research/highlights",
-          "https://www.snu.ac.kr/research/highlights?sc=y",
           "https://learning.snu.ac.kr",
           "https://admission.snu.ac.kr/",
           "https://learning.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
           "https://learning.snu.ac.kr/%ed%98%84%ec%a7%81-%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ed%87%b4%ec%9e%84%ea%b5%90%ec%88%98/",
           "https://learning.snu.ac.kr/%ec%a3%bc%ec%a0%84%ea%b3%b5/",
-          "https://learning.snu.ac.kr/%eb%8b%a4%ec%a0%84%ea%b3%b5/",
           "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ed%95%99-%ec%a0%84%ea%b3%b5/",
-          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ea%b3%b5%ed%95%99-%ec%a0%84%ea%b3%b5/"
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ea%b3%b5%ed%95%99-%ec%a0%84%ea%b3%b5/",
+          "https://learning.snu.ac.kr/%ea%b5%90%ec%9c%a1%ec%83%81%eb%8b%b4-%ec%a0%84%ea%b3%b5/",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C9C08E76A401B3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:41:02Z",
+        "_saved_at": "2026-09-29T00:41:52Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -302492,11 +302308,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:41:07Z",
-    "checked": 395,
-    "seconds": 5216.8,
+    "at": "2026-09-29T00:42:10Z",
+    "checked": 400,
+    "seconds": 5279.66,
     "gemini": true,
-    "ai_requests": 274,
+    "ai_requests": 279,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
