@@ -1,5 +1,5 @@
 {
-  "cursor": 1417,
+  "cursor": 1422,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -34041,23 +34041,23 @@
       "_unit_id": "SNU-RU-7326490A5D4454"
     },
     "SNU-RU-CA6E60CCBC7E9D": {
-      "fingerprint": "748e1d19c97134272cee5f1808615349c228151379c6a2f07ed47fa9587953d4",
-      "checked_at": "2026-09-24T21:41:45Z",
+      "fingerprint": "f2008bef787b014687e4ac58850c45b2f73222799874b7dfaa4216934d12cd94",
+      "checked_at": "2026-09-29T00:42:35Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+            "title": "Publication",
+            "url": "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211"
           }
         ],
         "recruitmentPages": [
           {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
+            "title": "Members",
+            "url": "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11"
           }
         ],
-        "membersUrl": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
-        "posterStatus": "verified",
+        "membersUrl": "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://calslab.snu.ac.kr/plantvirus/",
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
@@ -34072,16 +34072,63 @@
         ]
       },
       "enrichment": {
-        "research_summary": "식물바이러스학을 전공하며 식물 바이러스의 병원성 기작 및 식물-바이러스 상호작용을 연구하고 있습니다.",
+        "research_summary": "김국형 교수는 식물바이러스학을 전공하며, 식물 바이러스와 숙주 간의 상호작용, 바이러스 복제 및 이동 기전, 그리고 식물의 항바이러스 방어 기작을 연구합니다. 특히 식물 바이러스의 분자적 특성 규명, 바이러스 진단 기술 개발, 그리고 식물 바이러스에 대한 저항성 유도 및 방제 전략 연구에 집중하고 있습니다.",
         "research_topics": [
-          "식물바이러스학"
+          "식물바이러스학",
+          "바이러스-숙주 상호작용",
+          "바이러스 복제 및 이동 기전",
+          "식물 항바이러스 방어 기작",
+          "바이러스 진단 기술 개발"
         ],
         "recommendation_keywords": [
-          "식물바이러스학"
+          "식물바이러스학",
+          "분자식물병리학",
+          "바이러스 진단",
+          "식물 저항성",
+          "응용생물화학",
+          "바이러스-숙주 상호작용",
+          "바이러스 복제 및 이동 기전",
+          "식물 항바이러스 방어 기작",
+          "바이러스 진단 기술 개발"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
-        "recent_year_papers_by_venue": [],
+        "recent_papers": [
+          {
+            "title": "RNA granule-associated regulation of antiviral RNA interference by the RNA-binding E3 ubiquitin ligase in Fusarium graminearum",
+            "url": "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211",
+            "year": "2026",
+            "venue": "Microbiol. Res.",
+            "summary": "Fusarium graminearum의 RNA 결합 E3 유비퀴틴 리가아제가 RNA 과립과 연관되어 항바이러스 RNA 간섭을 조절하는 기전을 규명하였습니다."
+          },
+          {
+            "title": "A rapid genomic DNA extraction method for direct quantitative PCR-based on-site detection of soil-borne fungal disease",
+            "url": "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211",
+            "year": "2026",
+            "venue": "Plant Pathology J.",
+            "summary": "토양 매개 곰팡이 병해를 현장에서 신속하게 진단하기 위한 정량적 PCR 기반의 게놈 DNA 추출 방법을 개발하였습니다."
+          },
+          {
+            "title": "Conferring non‐strain‐speciﬁc resistance to a potyvirus via overexpression of mutant potyviral coatproteins in soybean",
+            "url": "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211",
+            "year": "2025",
+            "venue": "J. Integr. Plant Biol.",
+            "summary": "콩에서 돌연변이 포티바이러스 외피 단백질을 과발현시켜 포티바이러스에 대한 비균주 특이적 저항성을 유도하는 방법을 제시하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 5,
+        "recent_year_papers_by_venue": [
+          {
+            "venue": "Microbiol. Res.",
+            "count": 1
+          },
+          {
+            "venue": "Plant Pathology J.",
+            "count": 3
+          },
+          {
+            "venue": "J. Integr. Plant Biol.",
+            "count": 1
+          }
+        ],
         "books": [],
         "conference_presentations": [],
         "research_projects": [],
@@ -34089,53 +34136,52 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 농업생명과학대학 응용생물화학부 교수로서 식물바이러스학 분야의 교육 및 연구를 수행하고 있습니다.",
         "verified_publication_pages": [
           {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980"
+            "title": "Publication",
+            "url": "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211"
           }
         ],
-        "recruitment_summary": "",
+        "recruitment_summary": "식물바이러스학 연구실에서 학생 및 연구원을 모집하고 있습니다. 자세한 내용은 연구실 홈페이지의 멤버 안내 페이지를 참조하시기 바랍니다.",
         "verified_recruitment_pages": [
           {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
+            "title": "Members",
+            "url": "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11"
           }
         ],
-        "recruitment_source_url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
+        "recruitment_source_url": "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
-        "poster_status": "verified",
-        "poster_title": "김국형",
+        "member_page_url": "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11",
+        "poster_status": "none_detected",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://abc.snu.ac.kr/wp-content/uploads/sites/252/2023/12/김국형.jpeg",
-        "poster_source_url": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
-        "poster_evidence": "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/",
+          "https://calslab.snu.ac.kr/plantvirus/",
+          "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1211&cate=1211",
+          "https://calslab.snu.ac.kr/plantvirus/menu.blank?mcode=11&cate=11",
           "https://abc.snu.ac.kr",
-          "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/#container",
-          "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%aa%85%ed%99%94%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://abc.snu.ac.kr/%ec%9d%91%ec%9a%a9%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B5%AD%ED%98%95/#none",
-          "https://www.snu.ac.kr/personal_information",
-          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://www.snu.ac.kr/research/highlights"
+          "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1110&cate=1110",
+          "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1111&cate=1111",
+          "https://calslab.snu.ac.kr/plantvirus/doc.view?mcode=1112&cate=1112",
+          "https://calslab.snu.ac.kr/plantvirus/#cont-sbj",
+          "https://calslab.snu.ac.kr/plantvirus/#gnb-go",
+          "https://admission.snu.ac.kr/",
+          "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CA6E60CCBC7E9D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:20:16Z",
+        "_saved_at": "2026-09-29T00:44:12Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-CA6E60CCBC7E9D"
     },
@@ -117776,8 +117822,8 @@
       "_unit_id": "SNU-RU-578086725AA194"
     },
     "SNU-RU-CA6B64CCADC881": {
-      "fingerprint": "8cdb2583c4b5a2c88a64a6c2a07f668fdf68653111eb42fb0ab1dce4563d1e01",
-      "checked_at": "2026-09-24T21:41:32Z",
+      "fingerprint": "0da292d003ff141b1975536ef3e5a076cc1775ddc0ea83de7aeedb4b084a5ff3",
+      "checked_at": "2026-09-29T00:42:37Z",
       "activity": {
         "publicationPages": [
           {
@@ -117807,7 +117853,7 @@
         ]
       },
       "enrichment": {
-        "research_summary": "박창민 교수는 흉부영상의학 분야를 전문으로 하며, 영상 의학적 진단 및 연구를 수행하고 있습니다. 총 288건의 연구 성과를 보유하고 있으며, 특히 학술지 논문과 체계적 문헌 고찰 분야에서 활발한 연구 활동을 이어가고 있습니다.",
+        "research_summary": "박창민 교수는 흉부영상의학 분야를 전문으로 하며, 영상 의학적 진단 및 연구를 수행하고 있습니다. 서울대학교 의과대학 영상의학교실 소속으로 다수의 학술 논문을 발표하며 활발한 연구 활동을 이어가고 있습니다.",
         "research_topics": [
           "흉부영상의학"
         ],
@@ -117816,7 +117862,7 @@
           "영상의학"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 288,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -117825,14 +117871,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 영상의학교실 소속 교수로서 흉부영상의학 분야의 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 288 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/y-park-13/publications/"
           }
         ],
-        "recruitment_summary": "현재 공식 페이지를 통해 확인 가능한 별도의 연구실 모집 공고는 없습니다.",
+        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -117845,14 +117891,13 @@
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-park-13/publications/",
         "poster_status": "verified",
         "poster_title": "Chang Min Park",
-        "poster_date": "",
-        "poster_event": "",
+        "poster_date": null,
+        "poster_event": null,
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960528/384_Park_+Chang+Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-park-13/#main-search",
-        "poster_evidence": "서울대학교 연구자 정보 페이지에 게시된 박창민 교수의 프로필 사진입니다.",
+        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-park-13/",
-          "https://snu.elsevierpure.com/en/persons/y-park-13/publications/",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-13/#main-navigation",
@@ -117862,13 +117907,14 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://snu.elsevierpure.com/en/persons/y-park-13/publications/",
           "https://snu.elsevierpure.com/en/persons/y-park-13/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CA6B64CCADC881",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:41:45Z",
+        "_saved_at": "2026-09-29T00:44:14Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -175328,113 +175374,30 @@
       "_unit_id": "SNU-RU-787FF9978CC25A"
     },
     "SNU-RU-CA29222081E3AA": {
-      "fingerprint": "c112c4c36be00097a5edce9932f1e98f5cac706fc0743a52a7897580716a1135",
-      "checked_at": "2026-09-24T21:40:29Z",
+      "fingerprint": "20e9272be78a4d9fa6eeb76938fc8a6d4f11b4d2f29e46437cf596a8d6b11ef0",
+      "checked_at": "2026-09-29T00:42:32Z",
       "activity": {
-        "publicationPages": [
-          {
-            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
-            "kind": "publication"
-          },
-          {
-            "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
-            "kind": "publication"
-          }
-        ],
+        "publicationPages": [],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "수의학이란?",
-            "url": "https://vet.snu.ac.kr/admissions1/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions1/"
           },
           {
             "title": "배우는것",
-            "url": "https://vet.snu.ac.kr/admissions2/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions2/"
           },
           {
             "title": "수의사의 활동",
-            "url": "https://vet.snu.ac.kr/admissions3/",
-            "kind": "recruitment"
+            "url": "https://vet.snu.ac.kr/admissions3/"
           }
         ],
         "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/10/vet-logo.png",
-            "alt": "서울대학교 수의과대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/leejh_20190211-1.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#none"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/",
           "https://vet.snu.ac.kr",
@@ -175444,13 +175407,83 @@
           "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#none",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
-          "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty3/"
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-CA29222081E3AA",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [
+          "수의생리학"
+        ],
+        "recommendation_keywords": [
+          "수의생리학"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "수의학이란?",
+            "url": "https://vet.snu.ac.kr/admissions1/"
+          },
+          {
+            "title": "배우는것",
+            "url": "https://vet.snu.ac.kr/admissions2/"
+          },
+          {
+            "title": "수의사의 활동",
+            "url": "https://vet.snu.ac.kr/admissions3/"
+          }
+        ],
+        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://vet.snu.ac.kr/campus_life2/",
+        "poster_status": "verified",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/leejh_20190211-1.jpeg",
+        "poster_source_url": "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#none",
+        "poster_evidence": "Official professor profile page contains a portrait image.",
+        "source_urls_used": [
+          "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/",
+          "https://vet.snu.ac.kr",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#container",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#footer",
+          "https://admission.snu.ac.kr/",
+          "https://vet.snu.ac.kr/snu__professor/%EC%9D%B4%EC%9E%A5%ED%97%8C/#none",
+          "https://vet.snu.ac.kr/graduate/",
+          "https://vet.snu.ac.kr/faculty/",
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/33661/",
+          "http://libguide.snu.ac.kr/vetlib/ejournal"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-CA29222081E3AA",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T00:43:35Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-CA29222081E3AA"
     },
     "SNU-RU-D38597B3EDD0DA": {
       "fingerprint": "03c5da0c504a913e6777e191e753e5d15c0f33fd1fb6b821afd16cbc452c9d06",
@@ -240523,13 +240556,13 @@
       "_unit_id": "SNU-RU-DAAF75D8C354C3"
     },
     "SNU-RU-CA51071CC93E75": {
-      "fingerprint": "c67fe473d5013fdc1fbf5002fea270429c535f49a5898b2a55b507bd798f3f4d",
-      "checked_at": "2026-09-24T21:40:29Z",
+      "fingerprint": "e7e125be362289e9ad1747a460c23238ec819659e33c795f2172dc0901d89b53",
+      "checked_at": "2026-09-29T00:42:34Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
         "membersUrl": "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/",
-        "posterStatus": "none_detected",
+        "posterStatus": "verified",
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/",
           "https://vet.snu.ac.kr",
@@ -240539,12 +240572,12 @@
           "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/#none",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
-          "https://vet.snu.ac.kr/faculty3/",
-          "https://vet.snu.ac.kr/faculty4/"
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/"
         ]
       },
       "enrichment": {
-        "research_summary": "야생동물의학 및 특수동물의학-동물행동학 분야를 연구하고 있습니다.",
+        "research_summary": "야생동물 및 특수동물의 의학적 관리와 동물행동학을 중심으로 연구 및 교육을 수행하고 있습니다.",
         "research_topics": [
           "야생동물의학",
           "특수동물의학",
@@ -240565,7 +240598,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 수의과대학 수의학과(임상수의학전공)에서 야생동물의학 및 특수동물의학-동물행동학 분야의 교육을 담당하고 있습니다.",
         "verified_publication_pages": [],
         "recruitment_summary": "",
         "verified_recruitment_pages": [],
@@ -240573,13 +240606,13 @@
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/",
-        "poster_status": "none_detected",
+        "poster_status": "verified",
         "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "",
-        "poster_source_url": "",
-        "poster_evidence": "",
+        "poster_image_url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/yeonsc_202504.jpg",
+        "poster_source_url": "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/#none",
+        "poster_evidence": "교수진 상세 페이지 내 프로필 이미지로 확인됨",
         "source_urls_used": [
           "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/",
           "https://vet.snu.ac.kr",
@@ -240589,8 +240622,8 @@
           "https://vet.snu.ac.kr/snu__professor/%EC%97%B0%EC%84%B1%EC%B0%AC/#none",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
-          "https://vet.snu.ac.kr/faculty3/",
           "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/",
           "https://vet.snu.ac.kr/33661/",
           "http://libguide.snu.ac.kr/vetlib/ejournal"
         ],
@@ -240598,7 +240631,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CA51071CC93E75",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:40:48Z",
+        "_saved_at": "2026-09-29T00:43:58Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -259363,14 +259396,10 @@
       "_unit_id": "SNU-RU-C9C08E76A401B3"
     },
     "SNU-RU-CA543403EAA81D": {
-      "fingerprint": "791ee657bca1468771ff5112773296a24e465250f0843bcb1b1d3dabc67c8ef5",
-      "checked_at": "2026-09-24T21:41:32Z",
+      "fingerprint": "7bbd94a252c8ff759a6c680c99cb0af195ee24ae84b2d03e19900a42f744331a",
+      "checked_at": "2026-09-29T00:42:29Z",
       "activity": {
         "publicationPages": [
-          {
-            "title": "2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6492"
-          },
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
@@ -259378,27 +259407,27 @@
         ],
         "recruitmentPages": [
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
-            "title": "입학안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
-        "membersUrl": "https://ie.snu.ac.kr/professor/",
+        "membersUrl": "https://ie.snu.ac.kr/notice/?mod=document&uid=6494",
         "posterStatus": "verified",
         "sourcePagesScanned": [
-          "https://ie.snu.ac.kr/professor/",
           "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/professor/#container",
-          "https://ie.snu.ac.kr/professor/#footer",
+          "https://ie.snu.ac.kr/undergrad_admission/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6494",
           "https://admission.snu.ac.kr/",
-          "https://ie.snu.ac.kr/professor/#none",
           "https://ie.snu.ac.kr/intro/",
           "https://ie.snu.ac.kr/former_faculty/",
-          "https://ie.snu.ac.kr/undergrad_admission/",
-          "https://ie.snu.ac.kr/grad_admission/"
+          "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6471",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6495"
         ]
       },
       "enrichment": {
@@ -259415,58 +259444,55 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 산업공학과는 산업시스템을 구성하는 모든 분야를 조화롭게 조정하는 방법을 연구하며, 과학적 원리와 경영전략을 접목하여 기업 업무 과정을 혁신하고 체계화하는 학문입니다. 학부 및 대학원 과정을 통해 제조, 교통, 물류, 서비스, 금융 등 다양한 산업 및 사회 시스템을 설계, 설치 및 개선하는 공학도를 양성합니다.",
         "verified_publication_pages": [
-          {
-            "title": "2026학년도 2학기 학위논문 제출 및 심사 계획 알림",
-            "url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6492"
-          },
           {
             "title": "연구성과",
             "url": "https://www.snu.ac.kr/research/highlights"
           }
         ],
-        "recruitment_summary": "서울대학교 산업공학과 학부 및 대학원 입학 안내는 공식 홈페이지를 통해 제공됩니다.",
+        "recruitment_summary": "서울대학교 산업공학과는 학부 및 대학원 신입생을 모집합니다. 학부 입시는 대학본부 주관으로 진행되며, 대학원 과정은 전기 및 후기 모집을 통해 선발합니다. 대학원 지원자는 희망 연구실을 제출해야 하며, 지필형 심층면접을 거쳐 선발됩니다.",
         "verified_recruitment_pages": [
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
+            "title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
+            "url": "https://ie.snu.ac.kr/undergrad_admission/"
           },
           {
-            "title": "입학안내",
-            "url": "https://ie.snu.ac.kr/undergrad_admission/"
+            "title": "Industrial Engineering, SNU 산업공학과 대학원 입학 안내",
+            "url": "https://ie.snu.ac.kr/grad_admission/"
           }
         ],
         "recruitment_source_url": "https://ie.snu.ac.kr/undergrad_admission/",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://ie.snu.ac.kr/professor/",
+        "member_page_url": "https://ie.snu.ac.kr/notice/?mod=document&uid=6494",
         "poster_status": "verified",
-        "poster_title": "",
+        "poster_title": "Industrial Engineering, SNU 산업공학과 학부 입학 안내",
         "poster_date": "",
-        "poster_event": "",
-        "poster_image_url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2024/10/강필성-768x985.jpg",
-        "poster_source_url": "https://ie.snu.ac.kr/professor/#none",
-        "poster_evidence": "서울대학교 산업공학과 교수진 페이지에 게시된 강필성 교수의 사진입니다.",
+        "poster_event": "학부 입학 안내",
+        "poster_image_url": "https://ie.snu.ac.kr/wp-content/uploads/sites/307/2022/09/img_movie03-1.png",
+        "poster_source_url": "https://ie.snu.ac.kr/undergrad_admission/",
+        "poster_evidence": "해당 URL은 산업공학과 학부 입학 안내 페이지이며, 제공된 포스터 이미지가 해당 페이지의 주요 이미지로 게시되어 있습니다.",
         "source_urls_used": [
-          "https://ie.snu.ac.kr/professor/",
           "https://ie.snu.ac.kr",
-          "https://ie.snu.ac.kr/professor/#container",
-          "https://ie.snu.ac.kr/professor/#footer",
-          "https://admission.snu.ac.kr/",
-          "https://ie.snu.ac.kr/professor/#none",
           "https://ie.snu.ac.kr/intro/",
-          "https://ie.snu.ac.kr/former_faculty/",
           "https://ie.snu.ac.kr/undergrad_admission/",
           "https://ie.snu.ac.kr/grad_admission/",
-          "https://ie.snu.ac.kr/notice/?mod=document&uid=6492",
-          "https://www.snu.ac.kr/research/highlights"
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6494",
+          "https://www.snu.ac.kr/research/highlights",
+          "https://admission.snu.ac.kr/",
+          "https://ie.snu.ac.kr/former_faculty/",
+          "https://ie.snu.ac.kr/past_awardees/",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6474",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6471",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6495",
+          "https://ie.snu.ac.kr/notice/?mod=document&uid=6492"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-CA543403EAA81D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:41:40Z",
+        "_saved_at": "2026-09-29T00:43:27Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -302308,11 +302334,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:42:10Z",
-    "checked": 400,
-    "seconds": 5279.66,
+    "at": "2026-09-29T00:44:14Z",
+    "checked": 405,
+    "seconds": 5403.83,
     "gemini": true,
-    "ai_requests": 279,
+    "ai_requests": 284,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
