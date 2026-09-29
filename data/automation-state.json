@@ -1,5 +1,5 @@
 {
-  "cursor": 1617,
+  "cursor": 1622,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -73040,8 +73040,8 @@
       "_unit_id": "SNU-RU-98FCCF7AF9C069"
     },
     "SNU-RU-E552BD58AB85B0": {
-      "fingerprint": "fa32a09aece785e117dbc7f9e0170747910a1a6afce3bd48cb31956e9025a728",
-      "checked_at": "2026-09-23T23:26:11Z",
+      "fingerprint": "522d7719580f4fe8d476ec5bb45094e24be149df82a8d54dbd9602fc0725f7d3",
+      "checked_at": "2026-09-29T22:17:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -73049,12 +73049,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -73063,15 +73058,15 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-content",
-          "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/"
         ]
       },
       "enrichment": {
-        "research_summary": "김진태 교수는 서울대학교 의과대학 마취통증의학교실 소속으로, 소아마취, 부위마취, 심폐마취 분야에서 활발한 연구 활동을 수행하고 있습니다. 총 384건의 연구 성과를 보유하고 있으며, 특히 학술지 논문(article) 분야에서 330건의 연구 결과를 발표하였습니다.",
+        "research_summary": "김진태 교수는 서울대학교 의과대학 마취통증의학교실 소속으로, 소아마취, 부위마취, 심폐마취 분야를 중심으로 활발한 연구 활동을 수행하고 있습니다.",
         "research_topics": [
           "소아마취",
           "부위마취",
@@ -73099,14 +73094,9 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/",
@@ -73120,25 +73110,24 @@
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-152/",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/#main-content",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
+          "https://e-donation.snu.ac.kr/",
           "https://snu.elsevierpure.com/en/persons/y-kim-152/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E552BD58AB85B0",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:26:01Z",
+        "_saved_at": "2026-09-29T22:18:33Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-E552BD58AB85B0"
     },
@@ -77391,8 +77380,8 @@
       "_unit_id": "SNU-RU-832D101BC9546D"
     },
     "SNU-RU-E4B93ED97CB4C2": {
-      "fingerprint": "42b3f77f0852484e723171f2c1e162fe8fbd1bb4b5bfe5fa48892925730c95b2",
-      "checked_at": "2026-09-23T23:27:40Z",
+      "fingerprint": "4c710d3ab0ea734b16bc4feed759cefb6c87098663b2d96008ceccce44f1595b",
+      "checked_at": "2026-09-29T22:17:54Z",
       "activity": {
         "publicationPages": [
           {
@@ -77400,12 +77389,7 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
+        "recruitmentPages": [],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -77415,25 +77399,64 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-content",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
         ]
       },
       "enrichment": {
-        "research_summary": "김택수 교수는 검사의학교실 소속으로, 주로 임상 검사 의학 및 관련 분야의 연구를 수행하고 있습니다. Elsevier Pure 프로필을 통해 총 99건의 연구 성과를 기록하고 있으며, 학술지 논문이 주를 이룹니다.",
+        "research_summary": "김택수 교수는 감염병, 면역학, 미생물학 분야를 중심으로 연구하며, 특히 항생제 감수성, 실시간 PCR, COVID-19, 혈액 배양 및 균혈증 진단 기술 개발에 주력하고 있습니다.",
         "research_topics": [
-          "Laboratory Medicine",
-          "Clinical Pathology"
+          "Infection",
+          "Immunology and Microbiology",
+          "Antibiotic Sensitivity",
+          "Real Time Polymerase Chain Reaction",
+          "COVID-19",
+          "Severe Acute Respiratory Syndrome Coronavirus 2",
+          "Blood Culture",
+          "Nontuberculous mycobacteria",
+          "Bloodstream Infection"
         ],
         "recommendation_keywords": [
-          "검사의학",
-          "임상병리",
-          "Laboratory Medicine",
-          "Clinical Pathology"
+          "감염병",
+          "임상미생물학",
+          "항생제 감수성",
+          "분자진단",
+          "균혈증",
+          "Infection",
+          "Immunology and Microbiology",
+          "Antibiotic Sensitivity",
+          "Real Time Polymerase Chain Reaction",
+          "COVID-19",
+          "Severe Acute Respiratory Syndrome Coronavirus 2",
+          "Blood Culture",
+          "Nontuberculous mycobacteria",
+          "Bloodstream Infection"
         ],
-        "recent_papers": [],
+        "recent_papers": [
+          {
+            "title": "First Report of Concurrent Infective Endocarditis and Spondylitis Caused by Lactococcus petauri",
+            "url": "https://snu.elsevierpure.com/en/publications/first-report-of-concurrent-infective-endocarditis-and-spondylitis/",
+            "year": "2026",
+            "venue": "Annals of laboratory medicine",
+            "summary": "Lactococcus petauri에 의한 감염성 심내막염과 척추염이 동반된 첫 사례를 보고하였습니다."
+          },
+          {
+            "title": "Bacteremia Caused by a Putative Novel Species in the Genus Erwinia: A Case Report and Genomic Analysis",
+            "url": "https://snu.elsevierpure.com/en/publications/bacteremia-caused-by-a-putative-novel-species-in-the-genus-erwini/",
+            "year": "2025",
+            "venue": "Life",
+            "summary": "Erwinia 속의 추정 신종에 의한 균혈증 사례를 보고하고 유전체 분석을 수행하였습니다."
+          },
+          {
+            "title": "Relationship Between Clarithromycin Minimum Inhibitory Concentrations and Treatment Responses in Mycobacterium avium Complex Pulmonary Disease",
+            "url": "https://snu.elsevierpure.com/en/publications/relationship-between-clarithromycin-minimum-inhibitory-concentrat/",
+            "year": "2025",
+            "venue": "Clinical Infectious Diseases",
+            "summary": "Mycobacterium avium complex 폐질환 환자에서 클라리스로마이신 최소억제농도와 치료 반응 간의 관계를 분석하였습니다."
+          }
+        ],
         "recent_year_paper_count": null,
         "recent_year_papers_by_venue": [],
         "books": [],
@@ -77450,14 +77473,9 @@
             "url": "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들에게 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등 다양한 지원을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/",
@@ -77467,26 +77485,26 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959916/248_Kim_+Taek+Soo.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-content",
-        "poster_evidence": "Official profile image of Taek Soo Kim found on SNU Elsevier Pure profile.",
+        "poster_evidence": "Official profile image from SNU Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-136/",
-          "http://yss.snu.ac.kr/",
+          "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-136/#main-content",
-          "https://meddorm.snu.ac.kr/",
+          "http://yss.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/",
+          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://snu.elsevierpure.com/en/persons/y-kim-136/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-E4B93ED97CB4C2",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:30:02Z",
+        "_saved_at": "2026-09-29T22:18:29Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -89945,23 +89963,118 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-E4D3BFA935304B": {
-      "fingerprint": "1aa3924de3a018def9a6ed4124634579833e8ff0604d1390db502244990004f9",
-      "checked_at": "2026-09-23T23:31:08Z",
+      "fingerprint": "b4a133ffba0b086b23ddbcffdc94c31d1cf9f896c7336ad067928c4c3189052d",
+      "checked_at": "2026-09-29T22:17:55Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 262 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "248",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "9",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "4",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "1",
+            "url": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-ro-2/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960092/288_Ro_+Young+Sun.jpg?w=160&f=jpg",
+            "alt": "Young Sun Ro",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-ro-2/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-ro-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -90046,9 +90159,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-23T12:40:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-E4D3BFA935304B"
+      "_unit_id": "SNU-RU-E4D3BFA935304B",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-FAE4CCE1C2B9D3": {
       "fingerprint": "830259b90e8710c55bdf589aef5863338ff3213e466d37d68a240afb100cc6e1",
@@ -105338,8 +105453,8 @@
       "_unit_id": "SNU-RU-6CB51C41AA8893"
     },
     "SNU-RU-E4E6CB892D0AEC": {
-      "fingerprint": "c5adcacb811275e759bd3416c691ed799c3acd77ebf3243e15de353420e38ec2",
-      "checked_at": "2026-09-24T00:39:48Z",
+      "fingerprint": "8e9541b3c93a9f447fcf5c98a22109482c7d9fe25a21777233c1ba4c62172f4f",
+      "checked_at": "2026-09-29T22:17:50Z",
       "activity": {
         "publicationPages": [
           {
@@ -105385,7 +105500,7 @@
             "kind": "recruitment"
           }
         ],
-        "membersUrl": "https://vet.snu.ac.kr/campus_life2/",
+        "membersUrl": "https://vet.snu.ac.kr/category/board-230-GN-PqC50j1l-20231211152217/",
         "posterStatus": "unverified_candidate",
         "posterCandidates": [
           {
@@ -105393,21 +105508,7 @@
             "alt": "서울대학교 수의과대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty2/"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2023/11/parksc_20190211-1.jpeg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%B0%BD/#none"
-          },
-          {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty2/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
@@ -105443,23 +105544,38 @@
             "title": "",
             "score": 0,
             "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/04/icon_AVMA_COE_Acc5550.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr"
+          },
+          {
+            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
           }
         ],
         "sourcePagesScanned": [
           "http://parksec.cafe24.com/default/",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%B0%BD/",
           "https://vet.snu.ac.kr",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%B0%BD/#container",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%B0%BD/#footer",
+          "https://vet.snu.ac.kr/category/board-230-GN-fvE6HnXA-20231211151715/",
           "https://admission.snu.ac.kr/",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%B0%BD/#none",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
-          "https://vet.snu.ac.kr/faculty2/"
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty5/",
+          "https://vet.snu.ac.kr/faculty6/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-E4E6CB892D0AEC"
+      "_unit_id": "SNU-RU-E4E6CB892D0AEC",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-06978A0F878AE8": {
       "fingerprint": "15c3ceb152c69d9febf8ceecb6f425024580cb0d15cd15641230259e4be0023c",
@@ -303438,6 +303554,136 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-AE6D62B99B71CE"
+    },
+    "SNU-RU-E55810A9D2BB64": {
+      "fingerprint": "9bf45609d2662e585c533ad884c2731e170194b4176627d07e8d1b067092df87",
+      "checked_at": "2026-09-29T22:17:40Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          },
+          {
+            "title": "publication",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper",
+            "kind": "publication"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission",
+            "kind": "recruitment"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq",
+            "kind": "recruitment"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/top-logo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/site/mlogo.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/webdata/professor/photo/e50z0b2z5c6z26bz0f9zae8za9cze49z14dzb16za8.jpg",
+            "alt": "이주훈",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=10"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/webdata/professor/research/35az670z7a6z6d4zf1czcd1z415z067z208zbc5z26.jpg",
+            "alt": "기능성 프로바이오틱스 발굴 및 연구",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=150"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/webdata/professor/research/fa0z06cz2c2za6cza09zf53z9c3zf93z609z3fbz71.jpg",
+            "alt": "NGS 기반 미생물 전장 유전체 생물정보학 분석 연구",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=150"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/webdata/professor/research/3b3z5a3z994z605zc5az72az1fdzb29z607z60eze6.jpg",
+            "alt": "메타게놈 분석을 활용한 식품 마이크로바이옴 연구",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=150"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/pushmu-logo.png",
+            "alt": "SNU CALS",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "url": "https://cals.snu.ac.kr/_skin/kor/images/flogo-50.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://cals.snu.ac.kr/about/guide/admission"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=150",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-E55810A9D2BB64",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -303591,11 +303837,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:17:27Z",
-    "checked": 60,
-    "seconds": 725.81,
+    "at": "2026-09-29T22:18:53Z",
+    "checked": 65,
+    "seconds": 812.15,
     "gemini": true,
-    "ai_requests": 18,
+    "ai_requests": 20,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
