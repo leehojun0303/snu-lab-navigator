@@ -1,5 +1,5 @@
 {
-  "cursor": 1742,
+  "cursor": 1747,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -8540,18 +8540,98 @@
       "_unit_id": "SNU-RU-1B856D343B8D4D"
     },
     "SNU-RU-F781D10273EEFA": {
-      "fingerprint": "8d4c6547d752a7cd3fcb839649708ad2fa4f575bb3aa4f30f160a9a1aed94dc1",
-      "checked_at": "2026-09-24T00:20:17Z",
+      "fingerprint": "48610a8feb51ed3a8531424e212bc7facac0ba42fb9a380054511b4acf4dc608",
+      "checked_at": "2026-09-29T22:48:38Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=jianggw&code=102",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=72",
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-gkm_k_1_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=72",
           "https://law.snu.ac.kr",
@@ -8663,7 +8743,8 @@
         "_quality_gate": "ai_verified_v1",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-F781D10273EEFA"
+      "_unit_id": "SNU-RU-F781D10273EEFA",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-14116F9BC821D2": {
       "fingerprint": "937ee158a706ff1075fd7a2753705c567fe21b5bc431e5fb858db3d0c9a5ddff",
@@ -50182,8 +50263,8 @@
       "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-F7204B3AD312BA": {
-      "fingerprint": "f0283b352d0ab760ecaf96a3d9c4cb7cedaa8f1e6bba3f3a811487b156b20658",
-      "checked_at": "2026-09-23T23:17:59Z",
+      "fingerprint": "47f6c66fa00a1575359f02174cb55fb75b13a9497cc5e1da78202ff7f5a75512",
+      "checked_at": "2026-09-29T22:48:56Z",
       "activity": {
         "publicationPages": [
           {
@@ -50206,14 +50287,14 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-76/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-76/#main-content",
           "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
-          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
-          "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin"
+          "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김성민 교수는 신경면역학 분야를 전문으로 하며, 특히 다발성경화증, 시신경척수염 및 수술 중 신경생리 모니터링에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "김성민 교수는 신경면역학 분야를 전문으로 하며, 특히 다발성경화증과 시신경척수염의 병태생리 및 치료, 그리고 수술 중 신경생리 감시 분야에서 활발한 연구를 수행하고 있습니다.",
         "research_topics": [
           "다발성경화증",
           "시신경척수염",
@@ -50260,7 +50341,7 @@
         "poster_event": "",
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13959430/137_Kim_+Sung+Min.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-76/#main-content",
-        "poster_evidence": "Official SNU profile page contains the portrait image of Sung-Min Kim.",
+        "poster_evidence": "Official profile image of Sung-Min Kim found on the SNU Elsevier Pure profile page.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-76/",
           "http://yss.snu.ac.kr/",
@@ -50279,10 +50360,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-F7204B3AD312BA",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-23T12:06:23Z",
+        "_saved_at": "2026-09-29T22:49:16Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-F7204B3AD312BA"
     },
@@ -100290,30 +100370,125 @@
       "_unit_id": "SNU-RU-1C9B661C3600F2"
     },
     "SNU-RU-F759275B3F61D2": {
-      "fingerprint": "294d81891276dc5f5120ebc0349d0c57ce046edd344970894bcd4d7ee496f312",
-      "checked_at": "2026-09-23T23:33:10Z",
+      "fingerprint": "23e7f486a8edec8ef3eaddd269311ce77fc287d55663c0a2417d2c0eccd29ba2",
+      "checked_at": "2026-09-29T22:48:56Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 319 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/"
+            "title": "View all 320 Research outputs",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "292",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "12",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fletter",
+            "kind": "publication"
+          },
+          {
+            "title": "11",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "3",
+            "url": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Feditorial",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-park-52/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960234/318_Park_+Kyung+Woo.jpg?w=160&f=jpg",
+            "alt": "Kyung Woo Park",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-park-52/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-park-52/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-park-52/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-park-52/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-park-52/#main-content",
-          "http://yss.snu.ac.kr/",
+          "https://meddorm.snu.ac.kr/",
           "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
@@ -100391,7 +100566,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-F759275B3F61D2"
+      "_unit_id": "SNU-RU-F759275B3F61D2",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-1239522092847F": {
       "fingerprint": "e5b317d4cc30ee6a2c480034fb9cb6a538e229b84acf11370a11c33ce0a9da09",
@@ -106016,18 +106192,18 @@
       "_unit_id": "SNU-RU-8716DFD21A581A"
     },
     "SNU-RU-F7B3D00575A847": {
-      "fingerprint": "fab1dd17c0bec7b2056b942f6dd78f0dfa7ed8cfe19c8902f1ede024b67afed1",
-      "checked_at": "2026-09-24T00:39:47Z",
+      "fingerprint": "fcb376d69d7462d891e2b8b29e608a8025c59abff2c7f46177fc9e30d674a908",
+      "checked_at": "2026-09-29T22:48:56Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "2026학년도 2학기 대학원 학위논문심사 계획 안내",
-            "url": "https://vet.snu.ac.kr/33661/",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights",
             "kind": "publication"
           },
           {
-            "title": "E-Journals",
-            "url": "http://libguide.snu.ac.kr/vetlib/ejournal",
+            "title": "연구성과",
+            "url": "https://www.snu.ac.kr/research/highlights?sc=y",
             "kind": "publication"
           },
           {
@@ -106071,73 +106247,74 @@
             "alt": "서울대학교 수의과대학",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2026/09/parksy_202609-768x941.jpg",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/#none"
+            "parent_source_url": "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/#footer"
           },
           {
             "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2021/02/푸터베이직로고-3.png",
             "alt": "",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr/faculty3/"
+            "parent_source_url": "https://vet.snu.ac.kr/faculty6/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-subgnb-search_lg.png",
+            "alt": "검색",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2025/07/learning-outcomes_icon.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-portal_lg.png",
+            "alt": "서울대포털",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-graduation_lg.png",
+            "alt": "입학안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut03-1-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-calendar_lg.png",
+            "alt": "학사일정",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           },
           {
-            "url": "https://vet.snu.ac.kr/wp-content/uploads/sites/230/2020/12/icon_shortcut04-1.png",
-            "alt": "",
+            "url": "https://admission.snu.ac.kr/_skin/admission/layout/image/header-sidegnb-quicklink-employ_lg.png",
+            "alt": "전화번호안내",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://vet.snu.ac.kr"
+            "parent_source_url": "https://admission.snu.ac.kr/"
           }
         ],
         "sourcePagesScanned": [
           "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/",
-          "https://vet.snu.ac.kr",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/#container",
           "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/#footer",
           "https://admission.snu.ac.kr/",
-          "https://vet.snu.ac.kr/snu__professor/%EB%B0%95%EC%84%B8%EC%9A%A9/#none",
           "https://vet.snu.ac.kr/graduate/",
           "https://vet.snu.ac.kr/faculty/",
           "https://vet.snu.ac.kr/faculty2/",
-          "https://vet.snu.ac.kr/faculty3/"
+          "https://vet.snu.ac.kr/faculty3/",
+          "https://vet.snu.ac.kr/faculty4/",
+          "https://vet.snu.ac.kr/faculty6/",
+          "https://www.snu.ac.kr/academics/programs/learning_support"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-F7B3D00575A847"
+      "_unit_id": "SNU-RU-F7B3D00575A847",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-6CB51C41AA8893": {
       "fingerprint": "d8bfbda14ffac03e2aa806e3d269611aac4f4372ca9fd11bc035e624563829cb",
@@ -124193,23 +124370,118 @@
       "_unit_id": "SNU-RU-CCC71F801AF22F"
     },
     "SNU-RU-F748D2FDD1D7FF": {
-      "fingerprint": "9202ada5d3c5999cacf7d98b6910da9215ffb0938313ce25c94d231ddde2e7df",
-      "checked_at": "2026-09-23T23:40:17Z",
+      "fingerprint": "461ec86bcc3ab394df09d12e581bfa02dc3bb540b8574b47dee2398c0d44ee60",
+      "checked_at": "2026-09-29T22:48:55Z",
       "activity": {
         "publicationPages": [
           {
             "title": "View all 155 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/"
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/",
+            "kind": "publication"
+          },
+          {
+            "title": "149",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle",
+            "kind": "publication"
+          },
+          {
+            "title": "3",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fsystematicreview",
+            "kind": "publication"
+          },
+          {
+            "title": "2",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fcomment",
+            "kind": "publication"
+          },
+          {
+            "title": "1",
+            "url": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Fshortsurvey",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
           {
             "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
+            "url": "http://yss.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "중앙연구지원실",
+            "url": "https://medcorelab.snu.ac.kr/",
+            "kind": "recruitment"
+          },
+          {
+            "title": "연건학생지원센터 학교생활에서의 우울, 불안, 대인관계, 적응. 학습, 의사소통 등 여러가지 어려움에 대해 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램을 통해 다양한 도움을 제공합니다. 연건학생지원센터는 모든 연건캠퍼스 학생들에게 언제나 열려있습니다.",
+            "url": "http://yss.snu.ac.kr/index.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "교수학습지원",
+            "url": "https://www.snu.ac.kr/academics/programs/learning_support",
+            "kind": "recruitment"
           }
         ],
         "membersUrl": "https://snu.elsevierpure.com/en/persons/y-bae-2/publications/",
         "posterStatus": "verified",
+        "posterCandidates": [
+          {
+            "url": "https://snu.elsevierpure.com/files-asset/13960624/405_Bae_+Eunjung.jpg?w=160&f=jpg",
+            "alt": "Eunjung Bae",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://snu.elsevierpure.com/en/persons/y-bae-2/#main-content"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-trans.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/ic-util-sch.png",
+            "alt": "검색",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-gnb-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/common/ic-allmenu-link.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-close-slide.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/btn-allmenu-close.png",
+            "alt": "닫기",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          },
+          {
+            "url": "https://medicine.snu.ac.kr/images/main/h1-logo-on.png",
+            "alt": "SNU MEDICINE",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
+          }
+        ],
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-bae-2/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -124296,7 +124568,8 @@
         "_quality_gate": "ai_verified_v4_activity_summaries",
         "_stale": true
       },
-      "_unit_id": "SNU-RU-F748D2FDD1D7FF"
+      "_unit_id": "SNU-RU-F748D2FDD1D7FF",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-8CC9464C7CBE87": {
       "fingerprint": "1ffdad22d9f9d94d4cfa324357b89d75a72db6e3339c7ee0b46a9bc64097b10f",
@@ -309491,11 +309764,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:48:28Z",
-    "checked": 185,
-    "seconds": 2586.84,
+    "at": "2026-09-29T22:49:20Z",
+    "checked": 190,
+    "seconds": 2639.03,
     "gemini": true,
-    "ai_requests": 73,
+    "ai_requests": 74,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
