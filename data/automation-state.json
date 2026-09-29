@@ -1,5 +1,5 @@
 {
-  "cursor": 69,
+  "cursor": 74,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -45907,8 +45907,8 @@
       "_unit_id": "SNU-RU-5B0F7791F898B5"
     },
     "SNU-RU-02400C17DA81D6": {
-      "fingerprint": "b078ee56185b42bfc970fba412e4e759e33a31a6996c0dbeb45f38d04063b5fc",
-      "checked_at": "2026-09-24T01:15:09Z",
+      "fingerprint": "5e647a25dcc6b025f06dda33d514ad5f46ff34acaa99793c0be140fe0872eca4",
+      "checked_at": "2026-09-29T23:15:04Z",
       "activity": {
         "publicationPages": [
           {
@@ -46033,7 +46033,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-02400C17DA81D6"
+      "_unit_id": "SNU-RU-02400C17DA81D6",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-DEB0368710B295": {
       "fingerprint": "981f684a5292c33c453d5c3c2af77629860ebbe0d65b7a44c261e38d400b9c3c",
@@ -247185,8 +247186,8 @@
       "_unit_id": "SNU-RU-17A15BA83F6DCF"
     },
     "SNU-RU-023A92858210E5": {
-      "fingerprint": "04909114171d8d5ce4f442bc79dbd04a4ab80d08a30b060f007113d674b46e81",
-      "checked_at": "2026-09-24T00:57:35Z",
+      "fingerprint": "300513ce9d285084b44fe9cdfdfaa5eee74c750cc575d00c8c9e44ebdab78a49",
+      "checked_at": "2026-09-29T23:15:15Z",
       "activity": {
         "publicationPages": [
           {
@@ -247212,13 +247213,13 @@
             "kind": "recruitment"
           },
           {
-            "title": "학부생연구지원 (유형5) 학문후속세대 연구세미나 지원 안내",
-            "url": "https://asia.snu.ac.kr/%ea%b3%b5%ec%a7%80%ec%82%ac%ed%95%ad/?mod=document&uid=736",
+            "title": "2026년 10월 지원 현역병 모집일정 공고",
+            "url": "https://asia.snu.ac.kr/%ea%b3%b5%ec%a7%80%ec%82%ac%ed%95%ad/?mod=document&uid=740",
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "학부생연구지원 (유형5) 학문후속세대 연구세미나 지원 안내",
+            "url": "https://asia.snu.ac.kr/%ea%b3%b5%ec%a7%80%ec%82%ac%ed%95%ad/?mod=document&uid=736",
             "kind": "recruitment"
           }
         ],
@@ -247296,7 +247297,8 @@
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-023A92858210E5"
+      "_unit_id": "SNU-RU-023A92858210E5",
+      "verify_error": "verify_HTTPError"
     },
     "SNU-RU-079404D455DFB3": {
       "fingerprint": "f079dffd6e2ef8e47f2f24f021e63f42537ff994e245d356bf9bc19e312f67a7",
@@ -315550,6 +315552,329 @@
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-01AC2A9BB92834"
+    },
+    "SNU-RU-023E191BCB2FAE": {
+      "fingerprint": "ab52dcbd95f3638064a38cc1d1c581ba5ff45f6bb9dfb7561df631280d016f7d",
+      "checked_at": "2026-09-29T23:15:09Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "membersUrl": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=85",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "이창규 교수는 동물의 생식세포 및 초기 수정란 발달과정, 형질전환동물의 효율적 생산 및 실용화, 동물 만능성 줄기세포의 특성 규명 및 실용화 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "동물의 생식세포 및 초기 수정란 발달과정 이해",
+          "형질전환동물의 효율적 생산 및 실용화",
+          "동물 만능성 줄기세포의 특성규명 및 실용화",
+          "생식세포 및 초기 수정란의 특성 규명 및 체외조작",
+          "경제동물의 만능성 줄기세포주 확립 및 특성 규명"
+        ],
+        "recommendation_keywords": [
+          "생식세포",
+          "수정란",
+          "형질전환동물",
+          "줄기세포",
+          "경제동물",
+          "동물의 생식세포 및 초기 수정란 발달과정 이해",
+          "형질전환동물의 효율적 생산 및 실용화",
+          "동물 만능성 줄기세포의 특성규명 및 실용화",
+          "생식세포 및 초기 수정란의 특성 규명 및 체외조작",
+          "경제동물의 만능성 줄기세포주 확립 및 특성 규명"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "CALS 영어논문 작성법 강좌",
+            "url": "https://cals.snu.ac.kr/student/lecture/paper"
+          }
+        ],
+        "recruitment_summary": "농업생명과학대학은 대학원생을 위한 학술대회 참가 지원 프로그램 및 다양한 지원사업을 운영하고 있으며, 입학 모집 안내 및 FAQ를 제공합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "CALS 대학원생을 위한 학술대회 참가 지원 프로그램",
+            "url": "https://cals.snu.ac.kr/student/global/support"
+          },
+          {
+            "title": "입학모집안내",
+            "url": "https://cals.snu.ac.kr/about/guide/admission"
+          },
+          {
+            "title": "농생대 FAQ",
+            "url": "https://cals.snu.ac.kr/about/guide/admission/faq"
+          },
+          {
+            "title": "농업생명과학대학 지원사업",
+            "url": "https://cals.snu.ac.kr/research-affairs/support/cals"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/research-affairs/support/cals",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://cals.snu.ac.kr/student/freshman/mentoring",
+        "poster_status": "verified",
+        "poster_title": "이창규",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://cals.snu.ac.kr/webdata/professor/photo/f71ze3dz1d1z04fz921z41dzf8cz8f0z313zd49zfe.jpg",
+        "poster_source_url": "https://cals.snu.ac.kr/about/organization/search/faculty?page=10",
+        "poster_evidence": "공식 교수진 검색 페이지에 등록된 이창규 교수의 프로필 사진입니다.",
+        "source_urls_used": [
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10",
+          "https://cals.snu.ac.kr/about/organization/search/faculty?page=10&mode=view&profidx=85",
+          "https://cals.snu.ac.kr/student/global/support",
+          "https://cals.snu.ac.kr/about/guide/admission",
+          "https://cals.snu.ac.kr/about/guide/admission/faq",
+          "https://cals.snu.ac.kr/research-affairs/support/cals",
+          "https://cals.snu.ac.kr/student/freshman/mentoring",
+          "https://cals.snu.ac.kr/student/freshman/program",
+          "https://cals.snu.ac.kr/student/lecture/paper",
+          "https://cals.snu.ac.kr/about/organization/search/faculty",
+          "https://cals.snu.ac.kr/about/organization/previous-faculty",
+          "https://cals.snu.ac.kr/webdata/professor/photo/f71ze3dz1d1z04fz921z41dzf8cz8f0z313zd49zfe.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-023E191BCB2FAE",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:15:17Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-023E191BCB2FAE"
+    },
+    "SNU-RU-01C5D3D4313037": {
+      "fingerprint": "be158f5f0489ee35fb318829f8767f8177976efec60af4dba3d826a77f166714",
+      "checked_at": "2026-09-29T23:15:09Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          }
+        ],
+        "membersUrl": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://humanities.snu.ac.kr/academics/faculty?deptidx=3",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "",
+        "research_topics": [],
+        "recommendation_keywords": [],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "서울대학교 인문대학은 14개의 학과(부)와 5개의 협동과정으로 구성되어 있으며, 국어국문학과를 포함한 각 학과에서 교육과 연구를 수행합니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "개관",
+            "url": "https://humanities.snu.ac.kr/about/history/opening"
+          }
+        ],
+        "recruitment_source_url": "https://humanities.snu.ac.kr/about/history/opening",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://humanities.snu.ac.kr/about/history/opening",
+          "https://humanities.snu.ac.kr/academics/department",
+          "https://humanities.snu.ac.kr/academics/faculty?deptidx=3",
+          "https://humanities.snu.ac.kr/academics/faculty?page=14",
+          "https://humanities.snu.ac.kr/academics/Interdisciplinary-Programs?deptidx=21",
+          "https://humanities.snu.ac.kr/research/Institute-of-Humanities",
+          "https://humanities.snu.ac.kr/academics/studies-program",
+          "https://humanities.snu.ac.kr/academics/faculty",
+          "https://humanities.snu.ac.kr/research/CHIO",
+          "https://humanities.snu.ac.kr/research/CHESO",
+          "https://humanities.snu.ac.kr/webdata/professor/463z7fdz08fz8d6z9c6zf2dzf4cz0e8zce6za45z1d.jpg",
+          "https://humanities.snu.ac.kr/webdata/professor/1c0z0a6z2eaz73bz761z0e9z934z0a0zf81z6d1z1e.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-01C5D3D4313037",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T23:15:27Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-01C5D3D4313037"
+    },
+    "SNU-RU-01F07FCB24FCA5": {
+      "fingerprint": "d28b73b327f7cc61802ccd51221ee4f91c77888174f9c68d4e77fac6f2b4f295",
+      "checked_at": "2026-09-29T23:15:11Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [
+          {
+            "title": "학생활동지원",
+            "url": "https://science.snu.ac.kr/campus-life/office",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학정보",
+            "url": "https://science.snu.ac.kr/edu/admission",
+            "kind": "recruitment"
+          },
+          {
+            "title": "자연과학대학 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/ribs",
+            "kind": "recruitment"
+          },
+          {
+            "title": "본부(연구처) 지원사업",
+            "url": "https://science.snu.ac.kr/research/support/academic-activity",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://science.snu.ac.kr/campus-life/office",
+        "posterStatus": "unverified_candidate",
+        "posterCandidates": [
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/logo-bg@2.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/50-logo-3.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+          },
+          {
+            "url": "https://science.snu.ac.kr/_skin/kor/layout/image/site/flogo.png?ver=",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/25cz360zef5z89azff6z3a6zabbz6a3z9a8z438z65.jpg",
+            "alt": "김지수",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/235ze16z742z4abz467zf40z8a0zb28ze3ez1a8z08.jpg",
+            "alt": "김지환",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/0adz7c3z60dzd4bz03fz042z72azfa5zcf7z39azbc.jpg",
+            "alt": "김지훈",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10"
+          },
+          {
+            "url": "https://science.snu.ac.kr/webdata/faculty/photo/f1dzba3z7fbzeeezb02zbcfz046zbf6zd51za63z15.jpg",
+            "alt": "김진홍",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10"
+          }
+        ],
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=10",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=8",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+        ]
+      },
+      "enrichment": {},
+      "_unit_id": "SNU-RU-01F07FCB24FCA5",
+      "verify_error": "verify_HTTPError"
     }
   },
   "failures": {
@@ -315707,11 +316032,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:14:56Z",
-    "checked": 315,
-    "seconds": 4175.15,
+    "at": "2026-09-29T23:15:51Z",
+    "checked": 320,
+    "seconds": 4230.68,
     "gemini": true,
-    "ai_requests": 107,
+    "ai_requests": 109,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
