@@ -1,5 +1,5 @@
 {
-  "cursor": 1762,
+  "cursor": 1767,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -23729,13 +23729,31 @@
       "_unit_id": "SNU-RU-C0B92F075AB3C6"
     },
     "SNU-RU-FA91721CFA07CE": {
-      "fingerprint": "f6a17ac8c7ca7e2cf8e372a93371161aa36389a9048d92cd525c852454450d10",
-      "checked_at": "2026-09-24T00:13:00Z",
+      "fingerprint": "290732031c941fdaa6f10fd18b7693363dd542dfd86764e27e810d255ad4312d",
+      "checked_at": "2026-09-29T22:53:01Z",
       "activity": {
-        "publicationPages": [],
-        "recruitmentPages": [],
-        "membersUrl": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
-        "posterStatus": "verified",
+        "publicationPages": [
+          {
+            "title": "Publications",
+            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1311&cate=1311"
+          },
+          {
+            "title": "Conference Papers",
+            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1312&cate=1312"
+          }
+        ],
+        "recruitmentPages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 면접 및 구술고사 일시 및 장소 알림",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990"
+          }
+        ],
+        "membersUrl": "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=12&cate=12",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://calslab.snu.ac.kr/wpl/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
@@ -23750,12 +23768,18 @@
         ]
       },
       "enrichment": {
-        "research_summary": "친환경공정 분야를 연구하고 있습니다.",
+        "research_summary": "곽효원 교수는 목재 및 임산자원을 활용한 친환경 소재 개발과 공정 연구를 수행하고 있습니다.",
         "research_topics": [
-          "친환경공정"
+          "친환경공정",
+          "목재화학",
+          "임산자원화"
         ],
         "recommendation_keywords": [
-          "친환경공정"
+          "친환경공정",
+          "목재",
+          "임산공학",
+          "목재화학",
+          "임산자원화"
         ],
         "recent_papers": [],
         "recent_year_paper_count": null,
@@ -23768,42 +23792,59 @@
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
         "education_summary": "",
-        "verified_publication_pages": [],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "verified_publication_pages": [
+          {
+            "title": "Publications",
+            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1311&cate=1311"
+          },
+          {
+            "title": "Conference Papers",
+            "url": "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1312&cate=1312"
+          }
+        ],
+        "recruitment_summary": "서울대학교 농업생명과학대학 대학원 입시 관련 공지사항을 통해 모집 정보를 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "[입시] 2027학년도 대학원 전기모집 면접 및 구술고사 일시 및 장소 알림",
+            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990"
+          }
+        ],
+        "recruitment_source_url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
-        "poster_status": "verified",
-        "poster_title": "곽효원 부교수",
+        "member_page_url": "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=12&cate=12",
+        "poster_status": "none_detected",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://forestry.snu.ac.kr/wp-content/uploads/sites/249/2023/12/곽효원-조교수.jpeg",
-        "poster_source_url": "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
-        "poster_evidence": "공식 교수진 페이지 내 프로필 사진 및 정보 확인",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
+          "https://calslab.snu.ac.kr/wpl/",
           "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/",
+          "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1311&cate=1311",
+          "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1312&cate=1312",
+          "https://admission.snu.ac.kr/",
+          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12990",
           "https://forestry.snu.ac.kr",
-          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#container",
-          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#footer",
-          "https://admission.snu.ac.kr/index.html",
-          "https://forestry.snu.ac.kr/%ec%82%b0%eb%a6%bc%ed%99%98%ea%b2%bd%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://forestry.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5/",
-          "https://forestry.snu.ac.kr/%ed%99%98%ea%b2%bd%ec%9e%ac%eb%a3%8c%ea%b3%bc%ed%95%99%ec%a0%84%ea%b3%b5-%ea%b5%90%ec%88%98%ec%a7%84/",
-          "https://forestry.snu.ac.kr/snu__professor/%EA%B3%BD%ED%9A%A8%EC%9B%90/#none",
-          "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
-          "https://www.snu.ac.kr/research/highlights"
+          "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=12&cate=12",
+          "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=11&cate=11",
+          "https://calslab.snu.ac.kr/wpl/doc.view?mcode=1110&cate=1110",
+          "https://calslab.snu.ac.kr/wpl/board.list?mcode=1212&cate=1212",
+          "https://calslab.snu.ac.kr/wpl/menu.blank?mcode=13&cate=13"
         ],
         "paper_count_visible": 0,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-FA91721CFA07CE",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-14T11:08:24Z",
+        "_saved_at": "2026-09-29T22:53:30Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-FA91721CFA07CE"
     },
@@ -33838,18 +33879,13 @@
       "verify_error": "verify_HTTPError"
     },
     "SNU-RU-FAE6469FF6812A": {
-      "fingerprint": "8e5607c60710c10c134ae10c279ba5dd503cb7cca396e694c2818321adecc1b8",
-      "checked_at": "2026-09-24T00:17:16Z",
+      "fingerprint": "94538b2f482cc556f0263d3a9c73d49f026101d7272e6d9124cf5e94f0273a59",
+      "checked_at": "2026-09-29T22:52:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "Publications",
             "url": "https://pdel.snu.ac.kr/publications/",
-            "kind": "publication"
-          },
-          {
-            "title": "2026년도 2학기 논문제출자격시험 수험생 유의사항 안내",
-            "url": "https://cals.snu.ac.kr/board/notice?bm=v&bbsidx=12980",
             "kind": "publication"
           },
           {
@@ -33866,24 +33902,14 @@
             "title": "푸터 바로가기",
             "url": "https://pdel.snu.ac.kr/publications/#footer",
             "kind": "publication"
+          },
+          {
+            "title": "로그인",
+            "url": "https://pdel.snu.ac.kr/login/?redirect_to=%2Fpublications%2F",
+            "kind": "publication"
           }
         ],
         "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 대학생 청소년교육지원장학생 추가 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12956",
-            "kind": "recruitment"
-          },
-          {
-            "title": "2026학년도 대학생 청소년 AI 교육지원장학생 선발 안내",
-            "url": "https://cals.snu.ac.kr/board/scholarship?bm=v&bbsidx=12955",
-            "kind": "recruitment"
-          },
           {
             "title": "입학포털",
             "url": "https://admission.snu.ac.kr/",
@@ -33898,7 +33924,7 @@
             "alt": "서울대학교 Plant Disease Ecology Lab",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://pdel.snu.ac.kr/member/%ec%96%91%ed%98%84%ec%a7%80/"
+            "parent_source_url": "https://pdel.snu.ac.kr/member/%ec%a1%b0%ed%95%9c%ec%95%84/"
           },
           {
             "url": "https://pdel.snu.ac.kr/wp-content/uploads/sites/249/elementor/thumbs/장갑-rpupavqnee7u3trzxne374mtuo0cysu9n0p8mvjchk.png",
@@ -33953,18 +33979,19 @@
         "sourcePagesScanned": [
           "https://pdel.snu.ac.kr/",
           "https://abc.snu.ac.kr/snu__professor/%EA%B9%80%EA%B4%91%ED%98%95/",
-          "https://abc.snu.ac.kr",
           "https://pdel.snu.ac.kr/members/",
           "https://pdel.snu.ac.kr/publications/",
           "https://pdel.snu.ac.kr/member/%ed%99%a9%ec%9d%80%ed%83%9d/",
           "https://pdel.snu.ac.kr/member/%ec%86%90%eb%af%bc/",
           "https://pdel.snu.ac.kr/member/%eb%b3%80%ec%a0%95%ed%98%84/",
           "https://pdel.snu.ac.kr/member/%ec%86%a1%ec%a4%80%ec%97%bd/",
-          "https://pdel.snu.ac.kr/member/%ec%96%91%ed%98%84%ec%a7%80/"
+          "https://pdel.snu.ac.kr/member/%ec%a1%b0%eb%8f%99%eb%b9%88/",
+          "https://pdel.snu.ac.kr/member/%ec%a1%b0%ed%95%9c%ec%95%84/"
         ]
       },
       "enrichment": {},
-      "_unit_id": "SNU-RU-FAE6469FF6812A"
+      "_unit_id": "SNU-RU-FAE6469FF6812A",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-7326490A5D4454": {
       "fingerprint": "5f5a8e15b5ecd90aec6c7f72f74fb26e414476cf7994081a03867a7ec7889d30",
@@ -91093,7 +91120,7 @@
     },
     "SNU-RU-FAE4CCE1C2B9D3": {
       "fingerprint": "830259b90e8710c55bdf589aef5863338ff3213e466d37d68a240afb100cc6e1",
-      "checked_at": "2026-09-24T00:11:13Z",
+      "checked_at": "2026-09-29T22:52:51Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -310756,6 +310783,198 @@
       "enrichment": {},
       "_unit_id": "SNU-RU-F9AD4C22F6DFE8",
       "verify_error": "verify_HTTPError"
+    },
+    "SNU-RU-FAD7FABE0DB923": {
+      "fingerprint": "3d575b5a449c353dc6ef69fea2a875128ba2d81c5df2d18eb620cf04b0b5390b",
+      "checked_at": "2026-09-29T22:52:52Z",
+      "activity": {
+        "publicationPages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/"
+          }
+        ],
+        "recruitmentPages": [],
+        "membersUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "posterStatus": "none_detected",
+        "sourcePagesScanned": [
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "한준규 교수 연구팀은 저온 공정이 가능한 산화물 반도체 기반 강유전체 박막 트랜지스터를 활용하여 3차원 적층형 AI 반도체 소자 및 어레이를 개발하였습니다. 이 연구는 대규모 언어모델의 연산 성능을 평가하고, 3차원 적층을 통해 높은 저장 밀도와 연산 효율을 확보할 수 있음을 입증하여 차세대 AI 가속기 구현의 가능성을 제시하였습니다.",
+        "research_topics": [
+          "3차원 적층형 AI 반도체",
+          "산화물 반도체",
+          "강유전체 박막 트랜지스터",
+          "AI 가속기"
+        ],
+        "recommendation_keywords": [
+          "한준규",
+          "서울대 재료공학부",
+          "IEDM",
+          "AI 반도체",
+          "3차원 적층",
+          "3차원 적층형 AI 반도체",
+          "산화물 반도체",
+          "강유전체 박막 트랜지스터",
+          "AI 가속기"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [
+          {
+            "title": "3차원 적층형 차세대 AI 반도체 연구",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+            "date": "2026-12",
+            "venue": "IEEE International Electron Devices Meeting (IEDM)",
+            "summary": "저온 공정 산화물 반도체 기반 강유전체 박막 트랜지스터를 활용한 3차원 적층형 어레이 제작 및 동작 실증 연구."
+          }
+        ],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "한준규 교수 연구팀, 3차원 적층형 차세대 AI 반도체 연구로 ‘반도체 올림픽’ IEDM 논문 억셉",
+            "url": "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/"
+          }
+        ],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/",
+          "https://mse.snu.ac.kr",
+          "https://mse.snu.ac.kr/snumse-main/people/professors/",
+          "https://mse.snu.ac.kr/snumse-main/people/staff/",
+          "https://mse.snu.ac.kr/snumse-main/mse-space/e-alumni/",
+          "https://mse.snu.ac.kr/snumse-main/education/admissions/",
+          "https://mse.snu.ac.kr/snumse-main/education/graduate/major-in-materials-science-and-engineering/",
+          "https://www.snu.ac.kr/personal_information",
+          "https://mse.snu.ac.kr/%ed%95%9c%ec%a4%80%ea%b7%9c-%ea%b5%90%ec%88%98-%ec%97%b0%ea%b5%ac%ed%8c%80-3%ec%b0%a8%ec%9b%90-%ec%a0%81%ec%b8%b5%ed%98%95-%ec%b0%a8%ec%84%b8%eb%8c%80-ai-%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%97%b0/#content",
+          "https://mse.snu.ac.kr/snumse-main/dmse/about-mse/",
+          "https://mse.snu.ac.kr/2026-2rnentlgja/",
+          "https://www.snu.ac.kr/research/highlights"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-FAD7FABE0DB923",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:53:01Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-FAD7FABE0DB923"
+    },
+    "SNU-RU-FAE1D5ECCCF137": {
+      "fingerprint": "e5f5d290a4556d2d4e52d11ae02699d82b1426481b61b8055d9df386090d50da",
+      "checked_at": "2026-09-29T22:52:52Z",
+      "activity": {
+        "publicationPages": [],
+        "recruitmentPages": [],
+        "membersUrl": "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+        "posterStatus": "verified",
+        "sourcePagesScanned": [
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=1",
+          "https://science.snu.ac.kr/about/organization/faculty",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel"
+        ]
+      },
+      "enrichment": {
+        "research_summary": "강동민 교수는 물리ㆍ천문학부(물리학전공) 소속으로 입자물리이론 분야를 연구하고 있습니다.",
+        "research_topics": [
+          "매듭이론",
+          "양자장론",
+          "양자중력",
+          "초끈이론"
+        ],
+        "recommendation_keywords": [
+          "입자물리이론",
+          "매듭이론",
+          "양자장론",
+          "양자중력",
+          "초끈이론"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [],
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+        "poster_status": "verified",
+        "poster_title": "강동민",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "https://science.snu.ac.kr/webdata/faculty/photo/c50z72fze8fz5cczb21z285zd24z466z307ze91z0f.jpg",
+        "poster_source_url": "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+        "poster_evidence": "강동민 교수의 공식 교수진 프로필 사진입니다.",
+        "source_urls_used": [
+          "https://science.snu.ac.kr/about/organization/faculty?sc=y",
+          "https://science.snu.ac.kr/about/organization/faculty?mode=&page=1",
+          "https://science.snu.ac.kr/about/organization/faculty",
+          "https://science.snu.ac.kr/campus-life/office",
+          "https://science.snu.ac.kr/edu/admission",
+          "https://science.snu.ac.kr/about/awards",
+          "https://science.snu.ac.kr/research/support/ribs",
+          "https://science.snu.ac.kr/research/support/academic-activity",
+          "https://science.snu.ac.kr/edu/academic/scholarship/internship",
+          "https://science.snu.ac.kr/campus-life/service/cnscounsel",
+          "https://science.snu.ac.kr/_skin/kor/layout/image/site/top-banner-bar.png",
+          "https://science.snu.ac.kr/webdata/faculty/photo/c50z72fze8fz5cczb21z285zd24z466z307ze91z0f.jpg"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-FAE1D5ECCCF137",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T22:53:07Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-FAE1D5ECCCF137"
     }
   },
   "failures": {
@@ -310913,11 +311132,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T22:52:39Z",
-    "checked": 205,
-    "seconds": 2837.8,
+    "at": "2026-09-29T22:53:30Z",
+    "checked": 210,
+    "seconds": 2889.52,
     "gemini": true,
-    "ai_requests": 77,
+    "ai_requests": 80,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
