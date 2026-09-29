@@ -1,5 +1,5 @@
 {
-  "cursor": 1552,
+  "cursor": 1557,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -140385,18 +140385,98 @@
       "_unit_id": "SNU-RU-C0B2EDE8640440"
     },
     "SNU-RU-DBF95ECF5B1CEB": {
-      "fingerprint": "987aed591f96454a09a8cfe56277b2ea0910a63ea9ec69ce0700ee649f630205",
-      "checked_at": "2026-09-24T22:16:11Z",
+      "fingerprint": "f9ebc783abe23652a03ee165cc4404fb9a553db5a0123a1f1a2f1fd86fd762d1",
+      "checked_at": "2026-09-29T01:13:58Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=yoonjin.shin&code=102"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=yoonjin.shin&code=102",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=135",
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469287516_6jKQPnwi_EC8BA0EC9CA4ECA784_120x.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=135"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=135",
           "https://law.snu.ac.kr",
@@ -140527,9 +140607,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-24T22:16:27Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-DBF95ECF5B1CEB"
+      "_unit_id": "SNU-RU-DBF95ECF5B1CEB",
+      "verify_error": "gemini_rate_limited"
     },
     "SNU-RU-229AEADDDD33A0": {
       "fingerprint": "794410903d5b3fa1c3a3d53bc8b7c80a040d85fa3c10c0a8a14085bc369c0897",
@@ -182830,8 +182912,8 @@
       "_unit_id": "SNU-RU-FB7D7706FE3FF3"
     },
     "SNU-RU-DBDE36B7007EBF": {
-      "fingerprint": "21e213189ea474d1972a513434a77c86dbc4d19dcc2c92a64ec970fa7390d59e",
-      "checked_at": "2026-09-24T22:16:24Z",
+      "fingerprint": "6e17c6c9a3df0b9d2b0bc4fedbca1777f2adfd3cb536b110fb6e25355bae6d70",
+      "checked_at": "2026-09-29T01:14:11Z",
       "activity": {
         "publicationPages": [
           {
@@ -182973,7 +183055,8 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-24T22:16:47Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DBDE36B7007EBF"
     },
@@ -264369,7 +264452,7 @@
     },
     "SNU-RU-DB420BACC10676": {
       "fingerprint": "e2d8b2855752c74160aadfbf20ad8c582d2386252d090525903a577faa9eacaf",
-      "checked_at": "2026-09-24T22:16:11Z",
+      "checked_at": "2026-09-29T01:14:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -264470,8 +264553,8 @@
       "_unit_id": "SNU-RU-DB420BACC10676"
     },
     "SNU-RU-DB589B09482DC3": {
-      "fingerprint": "84b5d36edf845e3a3632e06c5be21c450a2c86edd08dc9e7667fd8dc97eb7cca",
-      "checked_at": "2026-09-24T22:16:20Z",
+      "fingerprint": "9fe95d14b6a8af4db1f9fb0d2d84f6655db22787cb0eaa2cea69a4f8a4a517ab",
+      "checked_at": "2026-09-29T01:14:05Z",
       "activity": {
         "publicationPages": [
           {
@@ -264593,13 +264676,14 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-24T22:16:32Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
       "_unit_id": "SNU-RU-DB589B09482DC3"
     },
     "SNU-RU-DC00CBF00013EF": {
       "fingerprint": "849be8163f081add833d154e253356e11ea19256be0d5e3a8b801dcf17776e3a",
-      "checked_at": "2026-09-24T22:17:01Z",
+      "checked_at": "2026-09-29T01:13:59Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -302156,9 +302240,9 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T01:13:46Z",
-    "checked": 535,
-    "seconds": 7175.72,
+    "at": "2026-09-29T01:14:11Z",
+    "checked": 540,
+    "seconds": 7201.28,
     "gemini": true,
     "ai_requests": 390,
     "completed_full_pass": false
