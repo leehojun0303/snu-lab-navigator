@@ -1,5 +1,5 @@
 {
-  "cursor": 1372,
+  "cursor": 1377,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -26339,8 +26339,8 @@
       "_unit_id": "SNU-RU-3E84B7C78C0405"
     },
     "SNU-RU-C274A6AD0AAC11": {
-      "fingerprint": "bf3b61ae18ea554f5fce90ada0f7a732229dbad11055f21fc1bb5b61ccc1ca4b",
-      "checked_at": "2026-09-24T21:30:29Z",
+      "fingerprint": "f3385fdf25ebe87e354bd5d86cafa0f18cf2022f4f75c7c7562ecc2bac5ae084",
+      "checked_at": "2026-09-29T00:32:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -26384,7 +26384,7 @@
             "alt": "서울대학교 SNU",
             "title": "",
             "score": 0,
-            "parent_source_url": "https://sports.snu.ac.kr/%ea%b5%90%ec%88%98%ec%86%8c%ea%b0%9c/"
+            "parent_source_url": "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/"
           },
           {
             "url": "https://sports.snu.ac.kr/wp-content/uploads/sites/185/2023/08/권성호.jpeg",
@@ -26398,7 +26398,7 @@
             "alt": "logo_footer01.png",
             "title": "logo_footer01.png",
             "score": 0,
-            "parent_source_url": "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc-%eb%b8%8c%eb%a1%9c%ec%85%94/"
+            "parent_source_url": "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/"
           },
           {
             "url": "https://sports.snu.ac.kr/wp-content/uploads/sites/185/2020/12/icon_main_intro_01-2.png",
@@ -26443,15 +26443,15 @@
           "https://sports.snu.ac.kr/snu__professor/%EA%B6%8C%EC%84%B1%ED%98%B8/#footer",
           "https://admission.snu.ac.kr/",
           "https://sports.snu.ac.kr/snu__professor/%EA%B6%8C%EC%84%B1%ED%98%B8/#none",
-          "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%9e%a5-%ec%9d%b8%ec%82%ac%eb%a7%90/",
           "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc%ec%86%8c%ea%b0%9c/",
           "https://sports.snu.ac.kr/%ed%95%99%ea%b3%bc-%eb%b8%8c%eb%a1%9c%ec%85%94/",
-          "https://sports.snu.ac.kr/%ea%b5%90%ec%88%98%ec%86%8c%ea%b0%9c/"
+          "https://sports.snu.ac.kr/%ea%b5%90%ec%88%98%ec%86%8c%ea%b0%9c/",
+          "https://sports.snu.ac.kr/%ed%95%99%ec%83%9d%ed%99%9c%eb%8f%99/"
         ]
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-C274A6AD0AAC11",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-B4CA1EB530B1CD": {
       "fingerprint": "32bfadae00c14127c1715ad4cffa6e93af66040a5e159a1a20ff4d641d69e9a5",
@@ -83891,23 +83891,18 @@
       "_unit_id": "SNU-RU-3360A8F62E98DC"
     },
     "SNU-RU-C287289F95187D": {
-      "fingerprint": "95d9e1981fb113de57f9a6ca327f43f8ce533daed9165ec75d10b03c787880f7",
-      "checked_at": "2026-09-24T21:30:37Z",
+      "fingerprint": "7f0178e310fc93e58c784a32dc23ad1bfc9cc1820ec64cdf489529a2625cdd95",
+      "checked_at": "2026-09-29T00:32:38Z",
       "activity": {
         "publicationPages": [
           {
-            "title": "View all 355 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/"
+            "title": "Hong Bin Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/"
           }
         ],
-        "recruitmentPages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
-        "posterStatus": "verified",
+        "recruitmentPages": [],
+        "membersUrl": "https://snu.elsevierpure.com/en/persons/y-kim-140/",
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
           "https://snu.elsevierpure.com/en/persons/y-kim-140/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
@@ -83916,29 +83911,60 @@
           "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
           "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container"
         ]
       },
       "enrichment": {
-        "research_summary": "김홍빈 교수는 감염내과 분야를 전문으로 하며, 감염병 관리, 항생제 내성, 병원 감염 예방 및 공중보건학적 대응에 관한 연구를 수행하고 있습니다.",
+        "research_summary": "김홍빈 교수는 감염내과 분야의 전문가로, 주로 항생제 관리, 감염 면역학, 미생물학, 혈류 감염, 포도상구균 감염 및 COVID-19 후유증 등에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "감염내과",
-          "감염병 관리",
-          "항생제 내성",
-          "병원 감염"
+          "감염 면역학 및 미생물학",
+          "혈류 감염",
+          "포도상구균 감염",
+          "메티실린 내성 포도상구균(MRSA)",
+          "항생제",
+          "인체 면역결핍 바이러스(HIV)",
+          "항생제 관리(Antimicrobial Stewardship)"
         ],
         "recommendation_keywords": [
           "감염내과",
-          "감염병",
-          "항생제 내성",
-          "서울대학교 의과대학",
-          "감염병 관리",
-          "병원 감염"
+          "항생제 관리",
+          "감염 면역학",
+          "포도상구균",
+          "COVID-19",
+          "감염 면역학 및 미생물학",
+          "혈류 감염",
+          "포도상구균 감염",
+          "메티실린 내성 포도상구균(MRSA)",
+          "항생제",
+          "인체 면역결핍 바이러스(HIV)",
+          "항생제 관리(Antimicrobial Stewardship)"
         ],
-        "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_papers": [
+          {
+            "title": "National Pilot Program for Antimicrobial Stewardship in the Republic of Korea",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/",
+            "year": "2026",
+            "venue": "JAMA network open",
+            "summary": "대한민국의 항생제 관리 국가 시범 사업에 관한 연구입니다."
+          },
+          {
+            "title": "Dual Surveillance of Surgical Site Infections Using CDC and ASEPSIS Criteria: Clinical and Economic Outcomes in Colorectal and Small Bowel Surgery",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/",
+            "year": "2025",
+            "venue": "World Journal of Surgery",
+            "summary": "CDC 및 ASEPSIS 기준을 활용한 수술 부위 감염의 이중 감시와 대장 및 소장 수술에서의 임상적, 경제적 결과에 대해 분석하였습니다."
+          },
+          {
+            "title": "Characteristics and Prevalence of Sequelae after COVID-19: A Longitudinal Cohort Study",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/",
+            "year": "2025",
+            "venue": "Infection and Chemotherapy",
+            "summary": "COVID-19 이후 나타나는 후유증의 특성과 유병률을 종단적 코호트 연구를 통해 조사하였습니다."
+          }
+        ],
+        "recent_year_paper_count": 355,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -83947,50 +83973,45 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교 의과대학 내과학교실 소속으로 감염내과 분야의 교육 및 연구를 담당하고 있습니다.",
+        "education_summary": "",
         "verified_publication_pages": [
           {
-            "title": "View all 355 Research outputs",
-            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/"
+            "title": "Hong Bin Kim - Seoul National University",
+            "url": "https://snu.elsevierpure.com/en/persons/y-kim-140/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담 및 튜터링 프로그램을 제공하고 있습니다.",
-        "verified_recruitment_pages": [
-          {
-            "title": "연건학생지원센터",
-            "url": "http://yss.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "http://yss.snu.ac.kr/",
+        "recruitment_summary": "",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
-        "poster_status": "verified",
-        "poster_title": "Hong Bin Kim",
+        "member_page_url": "https://snu.elsevierpure.com/en/persons/y-kim-140/",
+        "poster_status": "none_detected",
+        "poster_title": "",
         "poster_date": "",
         "poster_event": "",
-        "poster_image_url": "https://snu.elsevierpure.com/files-asset/13960028/271_Kim_+Hong+Bin.jpg?w=160&f=jpg",
-        "poster_source_url": "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
-        "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/y-kim-140/",
-          "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T",
           "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-navigation",
           "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-search",
           "https://snu.elsevierpure.com/en/persons/y-kim-140/#main-content",
+          "http://yss.snu.ac.kr/",
           "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=T#container",
           "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/",
           "https://snu.elsevierpure.com/en/persons/y-kim-140/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
-        "paper_count_visible": 0,
+        "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C287289F95187D",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:30:53Z",
+        "_saved_at": "2026-09-29T00:32:57Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -97992,8 +98013,8 @@
       "_unit_id": "SNU-RU-F29F9C5308D250"
     },
     "SNU-RU-C1A9A38B53B621": {
-      "fingerprint": "7099ec76826c172210fbfc66b701db2dd68ed32661c543ce5f4dbc6f998fcdf1",
-      "checked_at": "2026-09-24T21:29:28Z",
+      "fingerprint": "f2716f9d376f5730e2e8abe5141bad35180901e10060fe123636a5a1eccfb9ab",
+      "checked_at": "2026-09-29T00:32:30Z",
       "activity": {
         "publicationPages": [
           {
@@ -98001,7 +98022,16 @@
             "url": "https://koredu.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98-%ec%9e%90%eb%a3%8c/"
           }
         ],
-        "recruitmentPages": [],
+        "recruitmentPages": [
+          {
+            "title": "[한국어교육지도자과정] 2023학년도 제26기 신입생 모집 안내",
+            "url": "https://koredu.snu.ac.kr/22733/"
+          },
+          {
+            "title": "[한국어교육지도자과정] 2022학년도 제25기 신입생 모집 안내",
+            "url": "https://koredu.snu.ac.kr/22731/"
+          }
+        ],
         "membersUrl": "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/",
         "posterStatus": "verified",
         "sourcePagesScanned": [
@@ -98011,10 +98041,10 @@
           "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/#container",
           "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/#footer",
           "https://admission.snu.ac.kr/",
-          "https://koredu.snu.ac.kr/%ed%95%99%ea%b3%bc-%ea%b0%9c%ec%9a%94/",
           "https://koredu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://koredu.snu.ac.kr/%ec%97%ad%eb%8c%80%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://koredu.snu.ac.kr/%eb%b3%b5%ec%88%98%ec%a0%84%ea%b3%b5/"
+          "https://koredu.snu.ac.kr/%eb%b3%b5%ec%88%98%ec%a0%84%ea%b3%b5/",
+          "https://koredu.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98-%ec%9e%90%eb%a3%8c/"
         ]
       },
       "enrichment": {
@@ -98024,7 +98054,6 @@
           "한국어교육(표현교육)",
           "화법 유형화",
           "의사소통 능력",
-          "다문화 한국어 교육",
           "학문 목적 말하기 평가"
         ],
         "recommendation_keywords": [
@@ -98037,7 +98066,6 @@
           "한국어교육(표현교육)",
           "화법 유형화",
           "의사소통 능력",
-          "다문화 한국어 교육",
           "학문 목적 말하기 평가"
         ],
         "recent_papers": [
@@ -98098,38 +98126,47 @@
             "url": "https://koredu.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98-%ec%9e%90%eb%a3%8c/"
           }
         ],
-        "recruitment_summary": "",
-        "verified_recruitment_pages": [],
-        "recruitment_source_url": "",
+        "recruitment_summary": "한국어교육지도자과정 신입생 모집 등을 안내하고 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "[한국어교육지도자과정] 2023학년도 제26기 신입생 모집 안내",
+            "url": "https://koredu.snu.ac.kr/22733/"
+          },
+          {
+            "title": "[한국어교육지도자과정] 2022학년도 제25기 신입생 모집 안내",
+            "url": "https://koredu.snu.ac.kr/22731/"
+          }
+        ],
+        "recruitment_source_url": "https://koredu.snu.ac.kr/22733/",
         "current_members": [],
         "alumni": [],
         "member_page_url": "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/",
         "poster_status": "verified",
         "poster_title": "민병곤 교수님",
-        "poster_date": "",
-        "poster_event": "",
+        "poster_date": "2023-09-18",
+        "poster_event": "교수진 소개",
         "poster_image_url": "https://koredu.snu.ac.kr/wp-content/uploads/sites/204/2023/09/민병곤교수님.png",
-        "poster_source_url": "https://koredu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
-        "poster_evidence": "교수진 목록 페이지 내 민병곤 교수 프로필 이미지",
+        "poster_source_url": "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/",
+        "poster_evidence": "공식 교수 소개 페이지에 게시된 프로필 이미지입니다.",
         "source_urls_used": [
           "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/",
-          "https://koredu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
+          "https://koredu.snu.ac.kr/22733/",
+          "https://koredu.snu.ac.kr/22731/",
+          "https://koredu.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98-%ec%9e%90%eb%a3%8c/",
           "https://koredu.snu.ac.kr",
           "https://koredu.snu.ac.kr/%ec%82%ac%eb%ac%b4%ec%8b%a4-%ea%b5%ac%ec%84%b1%ec%9b%90-%eb%b0%8f-%ec%97%b0%eb%9d%bd%ec%b2%98/",
           "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/#container",
           "https://koredu.snu.ac.kr/snu__professor/%EB%AF%BC%EB%B3%91%EA%B3%A4/#footer",
           "https://admission.snu.ac.kr/",
-          "https://koredu.snu.ac.kr/%ed%95%99%ea%b3%bc-%ea%b0%9c%ec%9a%94/",
+          "https://koredu.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84-%eb%aa%a9%eb%a1%9d/",
           "https://koredu.snu.ac.kr/%ec%97%ad%eb%8c%80%ec%9e%ac%ec%a7%81%ea%b5%90%ec%88%98/",
-          "https://koredu.snu.ac.kr/%eb%b3%b5%ec%88%98%ec%a0%84%ea%b3%b5/",
-          "https://koredu.snu.ac.kr/%eb%85%bc%eb%ac%b8%ec%a0%9c%ec%b6%9c%ec%9e%90%ea%b2%a9%ec%8b%9c%ed%97%98-%ec%9e%90%eb%a3%8c/",
-          "https://koredu.snu.ac.kr/32208/"
+          "https://koredu.snu.ac.kr/%eb%b3%b5%ec%88%98%ec%a0%84%ea%b3%b5/"
         ],
         "paper_count_visible": 3,
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C1A9A38B53B621",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:29:54Z",
+        "_saved_at": "2026-09-29T00:32:39Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -193042,7 +193079,7 @@
     },
     "SNU-RU-C255CBE3C56ADE": {
       "fingerprint": "8077c9a59772d099c76e6f11a14aba5c08e86a3f50f52419488786d24cdd7f5f",
-      "checked_at": "2026-09-24T21:30:19Z",
+      "checked_at": "2026-09-29T00:32:22Z",
       "activity": {
         "publicationPages": [
           {
@@ -242466,17 +242503,12 @@
       "_unit_id": "SNU-RU-320B15AA39B24E"
     },
     "SNU-RU-C21A672CA12A24": {
-      "fingerprint": "3a529131bed830ed7bf4992c295a330d15a0c3547218ee16423eb82064c30139",
-      "checked_at": "2026-09-24T21:29:29Z",
+      "fingerprint": "75c111b9e0ca38041adc526109c8304dd8b54d384c8b0ebdd77a96fadf9d491b",
+      "checked_at": "2026-09-29T00:32:44Z",
       "activity": {
         "publicationPages": [],
-        "recruitmentPages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "membersUrl": "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/",
+        "recruitmentPages": [],
+        "membersUrl": "https://convergence.snu.ac.kr/people_admin/",
         "posterStatus": "unverified_candidate",
         "sourcePagesScanned": [
           "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/",
@@ -242485,10 +242517,10 @@
           "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#container",
           "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#footer",
           "https://admission.snu.ac.kr/",
-          "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#none",
           "https://convergence.snu.ac.kr/appl_bio_intro/",
           "https://convergence.snu.ac.kr/intl_inf_intro/",
-          "https://mmbs.snu.ac.kr/"
+          "https://convergence.snu.ac.kr/math_info_intro/",
+          "https://convergence.snu.ac.kr/health_info_intro/"
         ]
       },
       "enrichment": {
@@ -242510,16 +242542,11 @@
         "education_summary": "",
         "verified_publication_pages": [],
         "recruitment_summary": "",
-        "verified_recruitment_pages": [
-          {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/"
-          }
-        ],
-        "recruitment_source_url": "https://admission.snu.ac.kr/",
+        "verified_recruitment_pages": [],
+        "recruitment_source_url": "",
         "current_members": [],
         "alumni": [],
-        "member_page_url": "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/",
+        "member_page_url": "https://convergence.snu.ac.kr/people_admin/",
         "poster_status": "unverified_candidate",
         "poster_title": "",
         "poster_date": "",
@@ -242534,10 +242561,10 @@
           "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#container",
           "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#footer",
           "https://admission.snu.ac.kr/",
-          "https://convergence.snu.ac.kr/snu__professor/%EC%98%A4%EC%9D%80%EC%84%A4-%EA%B5%90%EC%88%98-2/#none",
           "https://convergence.snu.ac.kr/appl_bio_intro/",
           "https://convergence.snu.ac.kr/intl_inf_intro/",
-          "https://mmbs.snu.ac.kr/",
+          "https://convergence.snu.ac.kr/math_info_intro/",
+          "https://convergence.snu.ac.kr/health_info_intro/",
           "https://www.snu.ac.kr/research/highlights",
           "https://www.snu.ac.kr/research/highlights?sc=y"
         ],
@@ -242545,7 +242572,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-C21A672CA12A24",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T21:30:04Z",
+        "_saved_at": "2026-09-29T00:33:21Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -302900,11 +302927,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T00:32:09Z",
-    "checked": 355,
-    "seconds": 4678.6,
+    "at": "2026-09-29T00:33:21Z",
+    "checked": 360,
+    "seconds": 4750.5,
     "gemini": true,
-    "ai_requests": 239,
+    "ai_requests": 242,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
