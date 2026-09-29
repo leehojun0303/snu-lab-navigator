@@ -1,5 +1,5 @@
 {
-  "cursor": 1537,
+  "cursor": 1542,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -20771,8 +20771,8 @@
       "_unit_id": "SNU-RU-E8DBFA90ABC75D"
     },
     "SNU-RU-D93A484B34DA6C": {
-      "fingerprint": "fa5096568968d56d7e5c57f481e975a9e27422df5430cab467a6f587aebabcc5",
-      "checked_at": "2026-09-24T22:12:50Z",
+      "fingerprint": "c975d68444eaf5715186066ac4a02d789b519fbb96089de01f20f5dbd80c0084",
+      "checked_at": "2026-09-29T01:10:34Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [
@@ -20792,8 +20792,8 @@
             "kind": "recruitment"
           },
           {
-            "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
+            "title": "인문대학 광역학생 멘토링 프로그램 참가자 모집 안내",
+            "url": "https://linguist.snu.ac.kr/22521/",
             "kind": "recruitment"
           }
         ],
@@ -20872,7 +20872,7 @@
       },
       "enrichment": {},
       "_unit_id": "SNU-RU-D93A484B34DA6C",
-      "verify_error": "verify_HTTPError"
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-6C2B92D4090820": {
       "fingerprint": "9c4dfaccf157f15d9c78b90a35a9014c16b1deca81d10d294e8c3985afe1b535",
@@ -89358,134 +89358,122 @@
       "_unit_id": "SNU-RU-8498410F7E646B"
     },
     "SNU-RU-D957E6E7AFAC38": {
-      "fingerprint": "32ad848ec789e93879146768123a4a6230418235a25028873a2b4b6f983fc38a",
-      "checked_at": "2026-09-24T22:13:50Z",
+      "fingerprint": "92b5c838e3f1113712c6abc6a27bfa4cc39f930c0afb8e5fa916588dc470e87a",
+      "checked_at": "2026-09-29T01:10:50Z",
       "activity": {
         "publicationPages": [
           {
             "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
-          },
-          {
-            "title": "Elsevier 저자 워크숍 - 신진 연구자를 위한 국제 논문 출판 전략 (2026. 9. 30.(수) 10:00) 참여 안내",
-            "url": "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073",
-            "kind": "publication"
-          },
-          {
-            "title": "더보기",
-            "url": "https://snupharm.snu.ac.kr/연구성과/",
-            "kind": "publication"
-          },
-          {
-            "title": "연구성과",
-            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
-            "kind": "publication"
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
           }
         ],
         "recruitmentPages": [
           {
             "title": "입학포털",
-            "url": "https://admission.snu.ac.kr/",
-            "kind": "recruitment"
-          },
-          {
-            "title": "행정지원 업무 연락처",
-            "url": "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
-            "kind": "recruitment"
+            "url": "https://admission.snu.ac.kr/"
           },
           {
             "title": "신입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           },
           {
             "title": "편입학전형 모집안내",
-            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
-            "kind": "recruitment"
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
           }
         ],
         "membersUrl": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
-        "posterStatus": "unverified_candidate",
-        "posterCandidates": [
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2024/12/snupharm-logo-3.png",
-            "alt": "서울대학교 서울대학교 약학대학",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2023/11/노민수-2013.jpg",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/snu__professor/%EB%85%B8%EB%AF%BC%EC%88%98/#footer"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/elementor/thumbs/logo_footer01-qcaeewsqat6ftxq0kqr8ox68w4r1n6w5lxrfc7thz2.png",
-            "alt": "logo_footer01.png",
-            "title": "logo_footer01.png",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_01-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_02-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_main_intro_03-2.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut01-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          },
-          {
-            "url": "https://snupharm.snu.ac.kr/wp-content/uploads/sites/229/2020/12/icon_shortcut02-1-1.png",
-            "alt": "",
-            "title": "",
-            "score": 0,
-            "parent_source_url": "https://snupharm.snu.ac.kr"
-          }
-        ],
+        "posterStatus": "none_detected",
         "sourcePagesScanned": [
-          "https://snupharm.snu.ac.kr/snu__professor/%EB%85%B8%EB%AF%BC%EC%88%98/",
           "https://snupharm.snu.ac.kr",
-          "https://snupharm.snu.ac.kr/snu__professor/%EB%85%B8%EB%AF%BC%EC%88%98/#container",
-          "https://snupharm.snu.ac.kr/snu__professor/%EB%85%B8%EB%AF%BC%EC%88%98/#footer",
           "https://admission.snu.ac.kr/",
           "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
           "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
-          "https://snupharm.snu.ac.kr/%ed%96%89%ec%a0%95%ec%a7%80%ec%9b%90-%ec%97%85%eb%ac%b4-%ec%97%b0%eb%9d%bd%ec%b2%98/",
           "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
-          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/"
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
         ]
       },
-      "enrichment": {},
-      "_unit_id": "SNU-RU-D957E6E7AFAC38",
-      "verify_error": "verify_HTTPError"
+      "enrichment": {
+        "research_summary": "노민수 교수는 천연물 및 시스템약물학 분야를 연구하며, 2026년 9월 2일 서울대학교 제32대 약학대학장으로 취임하였습니다.",
+        "research_topics": [
+          "천연물",
+          "시스템약물학"
+        ],
+        "recommendation_keywords": [
+          "천연물",
+          "시스템약물학",
+          "약학대학장"
+        ],
+        "recent_papers": [],
+        "recent_year_paper_count": null,
+        "recent_year_papers_by_venue": [],
+        "books": [],
+        "conference_presentations": [],
+        "research_projects": [],
+        "recent_performances": [],
+        "creative_works": [],
+        "recent_solo_exhibitions": [],
+        "recent_group_exhibitions": [],
+        "education_summary": "",
+        "verified_publication_pages": [
+          {
+            "title": "연구성과",
+            "url": "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/"
+          }
+        ],
+        "recruitment_summary": "서울대학교 약학대학 입학 및 모집 관련 정보는 공식 입학포털 및 대학 홈페이지를 통해 확인할 수 있습니다.",
+        "verified_recruitment_pages": [
+          {
+            "title": "입학포털",
+            "url": "https://admission.snu.ac.kr/"
+          },
+          {
+            "title": "신입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          },
+          {
+            "title": "편입학전형 모집안내",
+            "url": "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/"
+          }
+        ],
+        "recruitment_source_url": "https://snupharm.snu.ac.kr/",
+        "current_members": [],
+        "alumni": [],
+        "member_page_url": "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+        "poster_status": "none_detected",
+        "poster_title": "",
+        "poster_date": "",
+        "poster_event": "",
+        "poster_image_url": "",
+        "poster_source_url": "",
+        "poster_evidence": "",
+        "source_urls_used": [
+          "https://snupharm.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ec%97%b0%ea%b5%ac%ec%84%b1%ea%b3%bc/",
+          "https://snupharm.snu.ac.kr",
+          "https://admission.snu.ac.kr/",
+          "https://snupharm.snu.ac.kr/%ea%b5%90%ec%88%98%ec%a7%84/",
+          "https://snupharm.snu.ac.kr/%ec%97%ad%eb%8c%80%ea%b5%90%ec%88%98%eb%aa%85%eb%8b%a8/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ea%b3%bc%eb%b3%84-%ea%b5%90%ec%9c%a1%eb%aa%a9%ed%91%9c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ed%9a%8c/",
+          "https://snupharm.snu.ac.kr/%ed%95%99%ec%83%9d%ec%83%9d%ed%99%9c-%ec%83%81%eb%8b%b4%ec%84%bc%ed%84%b0/",
+          "https://snupharm.snu.ac.kr/%ec%8b%a0%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%ed%8e%b8%ec%9e%85%ed%95%99%ec%a0%84%ed%98%95-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/%eb%8c%80%ed%95%99%ec%9b%90-%eb%aa%a8%ec%a7%91%ec%95%88%eb%82%b4/",
+          "https://snupharm.snu.ac.kr/?kboard_content_redirect=9073"
+        ],
+        "paper_count_visible": 0,
+        "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
+        "_unit_id": "SNU-RU-D957E6E7AFAC38",
+        "_model": "gemini-3.1-flash-lite-preview",
+        "_saved_at": "2026-09-29T01:11:32Z",
+        "_batch_saved": true,
+        "_quality_gate": "ai_verified_v4_activity_summaries"
+      },
+      "_unit_id": "SNU-RU-D957E6E7AFAC38"
     },
     "SNU-RU-C58F9AFCB5A40E": {
       "fingerprint": "27dc7d36ae1647aba56dbafd7d5a7313b8ec8e5a0a1edbab8ee12c04868b3f70",
@@ -208268,18 +208256,98 @@
       "_unit_id": "SNU-RU-B19B75E9A647D8"
     },
     "SNU-RU-D90BA752563A3F": {
-      "fingerprint": "970d00aab1496a34aa2251d970ae81968a16bfc7371fa5bbd22995600acd973c",
-      "checked_at": "2026-09-24T22:12:00Z",
+      "fingerprint": "1e31b0029453fa3c4cf5778d4c7cc05e41c6c5dceb4f2fd7c264d42da6d89528",
+      "checked_at": "2026-09-29T01:10:31Z",
       "activity": {
         "publicationPages": [
           {
             "title": "논문",
-            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=dejoh&code=102"
+            "url": "https://law.snu.ac.kr/page/professor_xtra.php?pcode=dejoh&code=102",
+            "kind": "publication"
           }
         ],
-        "recruitmentPages": [],
-        "membersUrl": "https://law.snu.ac.kr/page/professor.php?wr_id=182",
+        "recruitmentPages": [
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "입학게시판",
+            "url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board",
+            "kind": "recruitment"
+          },
+          {
+            "title": "학생지원센터",
+            "url": "https://law.snu.ac.kr/page/councel.php",
+            "kind": "recruitment"
+          },
+          {
+            "title": "로스쿨 장학지원",
+            "url": "https://law.snu.ac.kr/page/master_scholarships.php",
+            "kind": "recruitment"
+          }
+        ],
+        "membersUrl": "https://law.snu.ac.kr/page/councel.php",
         "posterStatus": "none_detected",
+        "posterCandidates": [
+          {
+            "url": "https://law.snu.ac.kr/image/logo.png",
+            "alt": "서울대학교 법학전문대학원",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-close-x-purple.png",
+            "alt": "close",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/bg-content-title-professor.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor_list_role.php"
+          },
+          {
+            "url": "https://law.snu.ac.kr/data/file/professor/thumb-2469288056_pFqRWJcr_ECA1B0EB8F99EC9D80_120x.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/page/professor.php?wr_id=182"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/btn-gototop.png",
+            "alt": "상단으로",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr/bbs/board.php?bo_table=admission_board"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash1.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash-slogan1.png",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          },
+          {
+            "url": "https://law.snu.ac.kr/image/splash2.jpg",
+            "alt": "",
+            "title": "",
+            "score": 0,
+            "parent_source_url": "https://law.snu.ac.kr"
+          }
+        ],
         "sourcePagesScanned": [
           "https://law.snu.ac.kr/page/professor.php?wr_id=182",
           "https://law.snu.ac.kr",
@@ -208425,9 +208493,11 @@
         "_model": "gemini-3.1-flash-lite-preview",
         "_saved_at": "2026-09-24T22:12:09Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries"
+        "_quality_gate": "ai_verified_v4_activity_summaries",
+        "_stale": true
       },
-      "_unit_id": "SNU-RU-D90BA752563A3F"
+      "_unit_id": "SNU-RU-D90BA752563A3F",
+      "verify_error": "verify_JSONDecodeError"
     },
     "SNU-RU-EE4DC12410D454": {
       "fingerprint": "c5163e9c30cca9bfe77f5a12f735744a7e602c7d3c9b806157bbae78289cb906",
@@ -221807,8 +221877,8 @@
       "_unit_id": "SNU-RU-41714F88478061"
     },
     "SNU-RU-D93FB833A9E0A3": {
-      "fingerprint": "ca4e357e40151b33dcaedb38e9fbeba38201f9a58af15f01dc5e395ae9ccb624",
-      "checked_at": "2026-09-24T22:13:07Z",
+      "fingerprint": "995d9efc0be26b59514c57c42454ae0ebaf40f1da715ceab8b8d32ffd6b6d925",
+      "checked_at": "2026-09-29T01:10:48Z",
       "activity": {
         "publicationPages": [
           {
@@ -221829,24 +221899,31 @@
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
           "http://yss.snu.ac.kr/",
-          "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
-          "https://e-donation.snu.ac.kr/"
+          "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home"
         ]
       },
       "enrichment": {
-        "research_summary": "최진욱 교수는 의료정보학 분야를 중심으로 연구를 수행하고 있으며, 서울대학교 의과대학 의공학교실 소속으로 활동하고 있습니다.",
+        "research_summary": "최진욱 교수는 의료정보학 분야를 연구하며, 특히 임상 의사결정 지원 시스템, 의료 데이터 표준화, 그리고 디지털 헬스케어 기술의 임상 적용에 관한 연구를 수행하고 있습니다.",
         "research_topics": [
-          "의료정보학"
+          "의료정보학",
+          "임상 의사결정 지원 시스템",
+          "의료 데이터 표준화",
+          "디지털 헬스케어"
         ],
         "recommendation_keywords": [
-          "의료정보학"
+          "의료정보학",
+          "디지털 헬스케어",
+          "임상 의사결정 지원",
+          "임상 의사결정 지원 시스템",
+          "의료 데이터 표준화"
         ],
         "recent_papers": [],
-        "recent_year_paper_count": null,
+        "recent_year_paper_count": 121,
         "recent_year_papers_by_venue": [],
         "books": [],
         "conference_presentations": [],
@@ -221855,14 +221932,14 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "",
+        "education_summary": "서울대학교 의과대학 의공학교실에서 의료정보학 관련 교육 및 연구를 담당하고 있습니다.",
         "verified_publication_pages": [
           {
             "title": "View all 121 Research outputs",
             "url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/"
           }
         ],
-        "recruitment_summary": "연건학생지원센터를 통해 학생들을 위한 심리 검사, 개인상담, 그룹상담, 튜터링 프로그램 등의 지원 정보를 제공하고 있습니다.",
+        "recruitment_summary": "현재 공식적인 연구실 채용 정보는 제공된 URL에서 직접적으로 확인되지 않습니다. 학생 지원 및 상담 관련 정보는 연건학생지원센터를 통해 확인할 수 있습니다.",
         "verified_recruitment_pages": [
           {
             "title": "연건학생지원센터",
@@ -221875,22 +221952,22 @@
         "member_page_url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
         "poster_status": "verified",
         "poster_title": "Jinwook Choi",
-        "poster_date": "",
-        "poster_event": "",
+        "poster_date": null,
+        "poster_event": null,
         "poster_image_url": "https://snu.elsevierpure.com/files-asset/13962964/934_Choi_+Jinwook.jpg?w=160&f=jpg",
         "poster_source_url": "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
         "poster_evidence": "Official profile image from SNU Elsevier Pure portal.",
         "source_urls_used": [
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/",
-          "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
           "http://yss.snu.ac.kr/",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B",
-          "https://meddorm.snu.ac.kr/",
-          "https://snucert.snu.ac.kr/waf/error.html",
+          "https://snu.elsevierpure.com/en/persons/jinwook-choi/#main-navigation",
+          "https://www.snu.ac.kr/personal_information",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#gnb",
           "https://medicine.snu.ac.kr/fnt/bbm/cla/selectClassInfoList.do?classTy=B#container",
           "https://medicine.snu.ac.kr/SSOService.do?pname=spLogin",
           "https://e-donation.snu.ac.kr/",
+          "https://libguides.snu.ac.kr/home",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/",
           "https://snu.elsevierpure.com/en/persons/jinwook-choi/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontojournal%2Farticle"
         ],
@@ -221898,7 +221975,7 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-D93FB833A9E0A3",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-24T22:13:22Z",
+        "_saved_at": "2026-09-29T01:10:51Z",
         "_batch_saved": true,
         "_quality_gate": "ai_verified_v4_activity_summaries"
       },
@@ -264089,7 +264166,7 @@
     },
     "SNU-RU-D98042C0F28515": {
       "fingerprint": "540dbf088906d2e4e7706129c383c9a86acd8a5b6c9a09dce507ece48b3c88d4",
-      "checked_at": "2026-09-24T22:13:36Z",
+      "checked_at": "2026-09-29T01:10:32Z",
       "activity": {
         "publicationPages": [
           {
@@ -302083,11 +302160,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T01:10:20Z",
-    "checked": 520,
-    "seconds": 6969.6,
+    "at": "2026-09-29T01:11:32Z",
+    "checked": 525,
+    "seconds": 7042.21,
     "gemini": true,
-    "ai_requests": 379,
+    "ai_requests": 381,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
