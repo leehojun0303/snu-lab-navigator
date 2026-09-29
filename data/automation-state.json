@@ -1,5 +1,5 @@
 {
-  "cursor": 44,
+  "cursor": 49,
   "records": {
     "SNU-RU-608E6D31594D9F": {
       "fingerprint": "8879070e270da5778b9542e35ff8e2b1f22b5e455827bb1573db639a71c72c4a",
@@ -14373,7 +14373,7 @@
     },
     "SNU-RU-ERE-KANG-JINSU": {
       "fingerprint": "337f79e99b3587df17ecef2238dd77a043efbed4797d3942274330f21fb38a71",
-      "checked_at": "2026-09-23T23:50:00Z",
+      "checked_at": "2026-09-29T23:11:00Z",
       "activity": {
         "publicationPages": [
           {
@@ -125254,7 +125254,7 @@
     },
     "SNU-RU-FFAD5237806760": {
       "fingerprint": "27f42212fe17fe4618f6da0de77b76c91ede389a70058d34f1aa3b01501c7f53",
-      "checked_at": "2026-09-23T23:48:26Z",
+      "checked_at": "2026-09-29T23:11:11Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -144817,7 +144817,7 @@
     },
     "SNU-RU-FF0680CF1972FF": {
       "fingerprint": "70692a37ae547718e6d30042bef99a90eb78192f6fdd2b0974c4309f6cf8e615",
-      "checked_at": "2026-09-23T23:47:05Z",
+      "checked_at": "2026-09-29T23:11:11Z",
       "activity": {
         "publicationPages": [],
         "recruitmentPages": [],
@@ -210291,8 +210291,8 @@
       "_unit_id": "SNU-RU-99412DE98B8234"
     },
     "SNU-RU-ERE-JEONG-HOONYOUNG": {
-      "fingerprint": "2e394e8a7cab53a2cf4d455d2429d56315fb4808ef6f94d60f6f2b29e93b81b0",
-      "checked_at": "2026-09-23T23:50:11Z",
+      "fingerprint": "c041f3751449970a54df7d0e393389100a28d0a1b0bb5b0f811afc1e8224ba9c",
+      "checked_at": "2026-09-29T23:11:12Z",
       "activity": {
         "publicationPages": [
           {
@@ -210317,24 +210317,28 @@
         ]
       },
       "enrichment": {
-        "research_summary": "정훈영 교수는 지하 암석층 및 파이프라인에서의 유체 유동 안전성과 효율성을 높이기 위한 연구를 수행하며, 암석층 및 파이프라인 물성 모델링, 유동 시뮬레이션, 최적화, 역산, 데이터 사이언스 등을 주요 연구 방법론으로 활용합니다. 이를 통해 탄소 수송 및 저장, 유가스 생산 및 수송, 지열에너지, 고준위 방사성 폐기물 처분의 안전성 및 효율성 향상을 목표로 합니다.",
+        "research_summary": "정훈영 교수의 (Sub)Surface Fluid and Transport Lab (SFTL)은 지하 암석층과 파이프라인에서의 유체 유동 안전성 및 효율성 향상을 목표로 연구를 수행합니다. 주요 연구 분야는 암석층 및 파이프라인 물성 모델링, 유동 시뮬레이션, 최적화, 역산, 데이터 사이언스이며, 이를 통해 탄소 수송 및 저장, 유가스 생산 및 수송, 지열에너지, 고준위 방사성 폐기물 처분 관련 기술을 개발하고 있습니다.",
         "research_topics": [
           "탄소 수송 및 저장",
           "유가스 생산 및 수송",
           "지열에너지",
           "고준위 방사성 폐기물 처분",
-          "지하유체 유동",
+          "지하유체 유동 및 수송",
+          "암석층 및 파이프라인 모델링",
           "데이터 사이언스 기반 최적화 및 역산"
         ],
         "recommendation_keywords": [
           "탄소 포집 및 저장(CCS)",
           "지하 유체 유동",
+          "저류층 시뮬레이션",
+          "데이터 기반 예측",
           "에너지 자원 공학",
-          "데이터 기반 모델링",
-          "지열 에너지",
           "탄소 수송 및 저장",
           "유가스 생산 및 수송",
+          "지열에너지",
           "고준위 방사성 폐기물 처분",
+          "지하유체 유동 및 수송",
+          "암석층 및 파이프라인 모델링",
           "데이터 사이언스 기반 최적화 및 역산"
         ],
         "recent_papers": [
@@ -210342,19 +210346,19 @@
             "title": "Real-time monitoring of CO2 transport pipelines using deep learning",
             "year": "2024",
             "venue": "Process Safety and Environmental Protection",
-            "summary": "딥러닝을 활용하여 이산화탄소 수송 파이프라인의 실시간 모니터링 기술을 연구하였습니다."
+            "summary": "딥러닝을 활용하여 CO2 수송 파이프라인의 실시간 모니터링 기술을 연구하였습니다."
           },
           {
             "title": "Hydrocarbon production dynamics forecasting using machine learning: A state-of-the-art review",
             "year": "2023",
             "venue": "Fuel",
-            "summary": "머신러닝을 이용한 탄화수소 생산 동역학 예측 기술에 대한 최신 연구 동향을 분석하였습니다."
+            "summary": "머신러닝을 이용한 탄화수소 생산 동역학 예측 기술에 대한 최신 연구 동향을 검토하였습니다."
           },
           {
-            "title": "Prediction of maximum slug length considering impact of well trajectories in British Columbia shale gas fields using machine learning",
+            "title": "Prediction of liquid surge volumes and flow rates for gas wells using machine learning",
             "year": "2022",
             "venue": "Journal of Natural Gas Science and Engineering",
-            "summary": "머신러닝을 사용하여 브리티시 컬럼비아 셰일 가스전의 유정 궤적을 고려한 최대 슬러그 길이를 예측하였습니다."
+            "summary": "머신러닝을 활용하여 가스정의 액체 서지 부피 및 유량을 예측하는 모델을 제시하였습니다."
           }
         ],
         "recent_year_paper_count": null,
@@ -210366,7 +210370,7 @@
         "creative_works": [],
         "recent_solo_exhibitions": [],
         "recent_group_exhibitions": [],
-        "education_summary": "서울대학교에서 학사(자원공학) 및 석사(에너지자원공학) 학위를 취득하였으며, 미국 텍사스 대학교 오스틴 캠퍼스(University of Texas at Austin)에서 석유공학 박사 학위를 받았습니다.",
+        "education_summary": "서울대학교에서 학사(자원공학), 석사(에너지자원공학) 학위를 취득하였으며, 미국 텍사스 대학교 오스틴(University of Texas at Austin)에서 석유공학 박사 학위를 받았습니다.",
         "verified_publication_pages": [
           {
             "title": "정훈영 > 전임교수 | 서울대학교 에너지자원공학과",
@@ -210379,12 +210383,12 @@
         "current_members": [
           {
             "name": "윤현지",
-            "role": "Ph.D. Candidate",
+            "role": "Ph.D. Candidates",
             "url": "https://petro.snu.ac.kr/current_members/"
           },
           {
             "name": "박상건",
-            "role": "Ph.D. Course",
+            "role": "Ph.D. course",
             "url": "https://petro.snu.ac.kr/current_members/"
           }
         ],
@@ -210392,11 +210396,11 @@
         "member_page_url": "https://petro.snu.ac.kr/current_members/",
         "poster_status": "verified",
         "poster_title": "정훈영-교수님",
-        "poster_date": "2025-03",
-        "poster_event": "Current Members",
+        "poster_date": "",
+        "poster_event": "",
         "poster_image_url": "https://petro.snu.ac.kr/wp-content/uploads/sites/200/2025/03/정훈영-교수님-e1774585763449.jpg",
         "poster_source_url": "https://petro.snu.ac.kr/current_members/",
-        "poster_evidence": "Official lab member page lists professor with image.",
+        "poster_evidence": "Current Members 페이지 내 정훈영 교수 프로필 이미지",
         "source_urls_used": [
           "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=9",
           "https://petro.snu.ac.kr/current_members/",
@@ -210415,10 +210419,9 @@
         "paper_count_scope": "최근 1년 통계는 공식 논문 목록이 확인된 경우에만 표시",
         "_unit_id": "SNU-RU-ERE-JEONG-HOONYOUNG",
         "_model": "gemini-3.1-flash-lite-preview",
-        "_saved_at": "2026-09-22T12:31:54Z",
+        "_saved_at": "2026-09-29T23:11:24Z",
         "_batch_saved": true,
-        "_quality_gate": "ai_verified_v4_activity_summaries",
-        "_stale": true
+        "_quality_gate": "ai_verified_v4_activity_summaries"
       },
       "_unit_id": "SNU-RU-ERE-JEONG-HOONYOUNG"
     },
@@ -224395,7 +224398,7 @@
     },
     "SNU-RU-ERE-CHOE-JONGGEUN": {
       "fingerprint": "20805aae39c584f9c34592a181c97bbae015de398046a4e18c1b1d83d315906e",
-      "checked_at": "2026-09-23T23:49:50Z",
+      "checked_at": "2026-09-29T23:11:01Z",
       "activity": {
         "publicationPages": [
           {
@@ -314419,11 +314422,11 @@
     }
   },
   "last_run": {
-    "at": "2026-09-29T23:10:54Z",
-    "checked": 290,
-    "seconds": 3933.44,
+    "at": "2026-09-29T23:11:24Z",
+    "checked": 295,
+    "seconds": 3963.63,
     "gemini": true,
-    "ai_requests": 99,
+    "ai_requests": 100,
     "completed_full_pass": false
   },
   "reset_reason": "full_refresh_alphabetical_rebuild_2026-09-11",
